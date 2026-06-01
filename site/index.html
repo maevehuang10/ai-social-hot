@@ -1250,11 +1250,30 @@
         });
     }
 
+    function getCaptureTimeParts(value) {
+      const text = String(value || "");
+      const match = text.match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/);
+      if (match) {
+        return {
+          month: String(Number(match[2])),
+          day: String(Number(match[3])),
+          hour: match[4],
+          minute: match[5]
+        };
+      }
+
+      const date = new Date(value);
+      return {
+        month: String(date.getMonth() + 1),
+        day: String(date.getDate()),
+        hour: String(date.getHours()).padStart(2, "0"),
+        minute: String(date.getMinutes()).padStart(2, "0")
+      };
+    }
+
     function getDateKey(value) {
-      return new Date(value).toLocaleDateString("zh-CN", {
-        month: "numeric",
-        day: "numeric"
-      });
+      const parts = getCaptureTimeParts(value);
+      return `${parts.month}/${parts.day}`;
     }
 
     function getDateLabel(dateKey) {
@@ -1286,11 +1305,13 @@
     }
 
     function formatTime(value) {
-      return new Date(value).toLocaleTimeString("zh-CN", {
-        hour: "2-digit",
-        minute: "2-digit",
-        hour12: false
-      });
+      const parts = getCaptureTimeParts(value);
+      return `${parts.hour}:${parts.minute}`;
+    }
+
+    function getLocalIsoString(date = new Date()) {
+      const local = new Date(date.getTime() - date.getTimezoneOffset() * 60000);
+      return local.toISOString().slice(0, 19);
     }
 
     function renderItem(item) {
@@ -1364,7 +1385,7 @@
         tags,
         reason: document.querySelector("#reason").value.trim(),
         learn: document.querySelector("#learn").value.trim(),
-        createdAt: new Date().toISOString()
+        createdAt: getLocalIsoString()
       });
       saveCaptures();
       form.reset();
