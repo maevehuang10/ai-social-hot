@@ -282,6 +282,21 @@
       gap: 14px;
     }
 
+    .post-source {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      margin-bottom: 8px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .post-source strong {
+      color: var(--text);
+      font-weight: 700;
+    }
+
     h2 {
       margin: 0;
       font-size: 20px;
@@ -321,6 +336,23 @@
       margin: 12px 0 0;
       color: #43384f;
       line-height: 1.8;
+    }
+
+    .summary {
+      margin: 12px 0 0;
+      color: var(--text);
+      line-height: 1.8;
+    }
+
+    .capture-image {
+      display: block;
+      width: min(320px, 100%);
+      max-height: 220px;
+      object-fit: cover;
+      margin-top: 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--soft);
     }
 
     .learn {
@@ -766,6 +798,14 @@
         <label class="wide">
           内容标题
           <input id="title" type="text" placeholder="例如：New project demo / ESP32 smart home test" required>
+        </label>
+        <label class="wide">
+          大概内容
+          <textarea id="summary" placeholder="简单记录这条帖子主要讲了什么，用户为什么会停下来读。"></textarea>
+        </label>
+        <label class="wide">
+          图片链接
+          <input id="imageUrl" type="url" placeholder="https://...">
         </label>
         <label>
           公开指标
@@ -1245,7 +1285,7 @@
         .filter(item => activeTopic === "all" || item.tags.includes(activeTopic))
         .filter(item => activeDate === "all" || getDateKey(item.createdAt) === activeDate)
         .filter(item => {
-          const text = [item.account, item.title, item.reason, item.learn, item.tags.join(" ")].join(" ").toLowerCase();
+          const text = [item.account, item.title, item.summary, item.reason, item.learn, item.tags.join(" ")].join(" ").toLowerCase();
           return text.includes(keyword);
         })
         .sort((a, b) => {
@@ -1325,26 +1365,29 @@
 
     function renderItem(item) {
       const title = escapeHtml(item.title);
+      const summary = item.summary || item.excerpt || item.reason || "";
+      const imageUrl = item.imageUrl || item.image || "";
       return `
         <div class="timeline-row">
           <div class="time">${formatTime(item.createdAt)}</div>
           <div class="dot"></div>
           <article class="item">
+            <div class="post-source">
+              <span>${escapeHtml(item.platform)}</span>
+              <strong>${escapeHtml(item.account)}</strong>
+            </div>
             <div class="item-head">
               <h2>${item.url ? `<a class="item-title-link" href="${item.url}" target="_blank" rel="noopener noreferrer">${title}</a>` : `<span class="item-title-text">${title}</span>`}</h2>
               <span class="heat" aria-label="${item.heat} stars">${formatStars(item.heat)}</span>
             </div>
-            <div class="meta">
-              <span>${item.platform}</span>
-              <span>${escapeHtml(item.account)}</span>
-            </div>
+            <p class="summary">${escapeHtml(summary)}</p>
+            ${imageUrl ? `<img class="capture-image" src="${escapeAttribute(imageUrl)}" alt="${title}" loading="lazy" onerror="this.remove()">` : ""}
             <div class="metrics">
               ${item.metrics.map(metric => `<span class="metric">${escapeHtml(metric)}</span>`).join("")}
             </div>
             <div class="tags">
               ${item.tags.map(tag => `<span class="tag">#${escapeHtml(tag)}</span>`).join("")}
             </div>
-            <p class="note">${escapeHtml(item.reason)}</p>
             <p class="learn"><strong>可借鉴：</strong>${escapeHtml(item.learn || "待补充")}</p>
           </article>
         </div>
@@ -1379,6 +1422,10 @@
         .replaceAll("'", "&#039;");
     }
 
+    function escapeAttribute(text) {
+      return escapeHtml(text).replaceAll("`", "&#096;");
+    }
+
     form.addEventListener("submit", event => {
       event.preventDefault();
       const metrics = document.querySelector("#metrics").value.split(",").map(item => item.trim()).filter(Boolean);
@@ -1389,6 +1436,8 @@
         account: document.querySelector("#account").value.trim(),
         title: document.querySelector("#title").value.trim(),
         url: document.querySelector("#url").value.trim(),
+        summary: document.querySelector("#summary").value.trim(),
+        imageUrl: document.querySelector("#imageUrl").value.trim(),
         metrics,
         heat: document.querySelector("#heat").value,
         tags,
