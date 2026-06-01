@@ -394,6 +394,7 @@
       font-size: 18px;
       font-weight: 800;
       letter-spacing: 0;
+      text-decoration: none;
     }
 
     .logo span {
@@ -687,7 +688,7 @@
 </head>
 <body>
   <aside class="side-nav">
-    <div class="logo">AI&nbsp;<span>Social Hot</span></div>
+    <a class="logo" href="#hot" id="homeLink">AI&nbsp;<span>Social Hot</span></a>
     <a class="side-link" href="#accounts" data-view="accounts">账号库</a>
     <a class="side-link active" href="#hot" data-view="hot">热门内容</a>
     <a class="side-link" href="#main" data-view="main">主库</a>
@@ -910,6 +911,162 @@
         reason: "社区数据本身就是信任背书。用户喜欢这类内容，因为它说明技术不是孤立产品，而是有生态和真实部署。",
         learn: "可以做：LoRaWAN deployment map / real use cases style content.",
         createdAt: "2026-05-29T09:30:00.000Z"
+      },
+      {
+        id: "seed-20260530-espressif-product",
+        platform: "LinkedIn",
+        account: "Espressif Systems",
+        title: "ESP32 ecosystem product update angle",
+        url: "https://www.linkedin.com/company/espressif-systems",
+        metrics: ["Public reactions need manual review", "Official account"],
+        heat: "5",
+        tags: ["Product", "ESP32", "Wi-Fi", "Bluetooth", "Developer"],
+        reason: "官方产品生态内容对工程师和方案商最有价值。用户通常关心芯片/模组能力、开发工具、应用场景和量产可靠性。",
+        learn: "可以做：用一张对比图解释不同 ESP32 模组适合哪些智能硬件场景。",
+        createdAt: "2026-05-30T09:20:00.000Z"
+      },
+      {
+        id: "seed-20260530-nordic-matter",
+        platform: "LinkedIn",
+        account: "Nordic Semiconductor",
+        title: "Matter and low-power wireless content",
+        url: "https://www.linkedin.com/company/nordic-semiconductor-asa",
+        metrics: ["Public reactions need manual review", "Track comments from engineers"],
+        heat: "4",
+        tags: ["Industry", "Matter", "Bluetooth", "IoT", "Developer"],
+        reason: "Matter、低功耗连接和智能家居协议内容很适合 Ai-Thinker 的用户群体，尤其是做智能硬件和网关方案的人。",
+        learn: "可以做：Matter 对智能家居产品选型有什么影响，顺带引出 Wi-Fi/BLE 模组价值。",
+        createdAt: "2026-05-30T15:40:00.000Z"
+      },
+      {
+        id: "seed-20260530-adafruit-youtube-sensor",
+        platform: "YouTube",
+        account: "Adafruit Industries",
+        title: "Sensor tutorial and project demo",
+        url: "https://www.youtube.com/@adafruit",
+        metrics: ["Post-level views visible on YouTube", "Tutorial content"],
+        heat: "4",
+        tags: ["Tutorial", "Sensor", "Developer", "Electronics"],
+        reason: "传感器教程内容对开发者有明确收藏价值。用户喜欢这类内容，是因为它把元器件、连接方式和实际效果放在一起讲。",
+        learn: "可以做：用 RD-01 雷达传感器做一个 presence detection 小实验，先展示效果，再讲接线和应用。",
+        createdAt: "2026-05-30T18:10:00.000Z"
+      },
+      {
+        id: "seed-20260530-sparkfun-tiktok-module",
+        platform: "TikTok",
+        account: "SparkFun Electronics",
+        title: "Quick hardware module demo",
+        url: "https://www.tiktok.com/@sparkfun",
+        metrics: ["Public views/likes need manual review", "Short video account"],
+        heat: "4",
+        tags: ["Product", "Short Video", "Module", "Developer"],
+        reason: "短视频里的模块演示适合快速建立认知。对工程师用户来说，真实动作和测试画面比单纯参数更容易记住。",
+        learn: "可以做：15 秒展示一个无线模组从上电到联网/通信成功的过程。",
+        createdAt: "2026-05-30T20:25:00.000Z"
+      },
+      {
+        id: "seed-20260531-mouser-engineer",
+        platform: "LinkedIn",
+        account: "Mouser Electronics",
+        title: "Engineer resource and component selection post",
+        url: "https://www.linkedin.com/company/mouser-electronics",
+        metrics: ["Public reactions need manual review", "B2B distributor account"],
+        heat: "4",
+        tags: ["B2B", "Engineer", "Distributor", "Electronics"],
+        reason: "分销商内容常围绕选型、供应链、工程师资源和新品，这类内容对采购和工程师都有参考价值。",
+        learn: "可以做：无线模组选型 checklist，帮助采购和工程师快速判断 Wi-Fi、LoRa、UWB 的差异。",
+        createdAt: "2026-05-31T10:10:00.000Z"
+      },
+      {
+        id: "seed-20260531-silicon-labs-connectivity",
+        platform: "LinkedIn",
+        account: "Silicon Labs",
+        title: "Wireless connectivity for smart devices",
+        url: "https://www.linkedin.com/company/silicon-labs",
+        metrics: ["Public reactions need manual review", "Official semiconductor account"],
+        heat: "5",
+        tags: ["Industry", "Product", "Matter", "Zigbee", "Wireless"],
+        reason: "无线连接协议、智能家居和边缘设备内容与 Ai-Thinker 受众高度相关，适合观察技术品牌如何讲清楚复杂协议。",
+        learn: "可以做：一张图讲清 Wi-Fi、BLE、Zigbee、LoRa 在 IoT 设备里的分工。",
+        createdAt: "2026-05-31T16:30:00.000Z"
+      },
+      {
+        id: "seed-20260531-digikey-tiktok-b2b",
+        platform: "TikTok",
+        account: "DigiKey",
+        title: "B2B electronics short-form idea",
+        url: "https://www.tiktok.com/@digikey",
+        metrics: ["Public views/likes need manual review", "Engineer audience"],
+        heat: "4",
+        tags: ["B2B", "Short Video", "Engineer", "Electronics"],
+        reason: "DigiKey 这类 B2B 账号适合观察工程师短视频表达：不用娱乐化，也可以通过小问题、小工具、小测试获得关注。",
+        learn: "可以做：3 个选择无线模组时容易忽略的问题，用短视频讲清楚。",
+        createdAt: "2026-05-31T19:00:00.000Z"
+      },
+      {
+        id: "seed-20260531-hackster-community",
+        platform: "Facebook",
+        account: "Hackster.io",
+        title: "Developer project community post",
+        url: "https://www.facebook.com/Hacksterio",
+        metrics: ["Public engagement need manual review", "Developer community"],
+        heat: "4",
+        tags: ["Industry", "Developer", "Community", "IoT"],
+        reason: "开发者社区项目帖通常能反映真实用户在做什么，也能给产品内容提供应用灵感。",
+        learn: "可以做：整理 3 个适合 Ai-Thinker 模组的开发者项目场景，做成 LinkedIn carousel。",
+        createdAt: "2026-05-31T21:15:00.000Z"
+      },
+      {
+        id: "seed-20260601-rakwireless-lorawan",
+        platform: "LinkedIn",
+        account: "RAKwireless",
+        title: "LoRaWAN gateway and sensor node application",
+        url: "https://www.linkedin.com/company/rakwireless/",
+        metrics: ["Public engagement visible when logged in", "Track reactions/comments manually"],
+        heat: "5",
+        tags: ["Product", "LoRaWAN", "Gateway", "Sensor", "B2B"],
+        reason: "网关、节点、传感器和云平台组合起来讲，能让用户直接理解 LoRaWAN 方案的商业价值，而不是只看到单个模块参数。",
+        learn: "可以做：LoRa 模组在远距离传感器节点中的完整链路：module + gateway + cloud。",
+        createdAt: "2026-06-01T09:20:00.000Z"
+      },
+      {
+        id: "seed-20260601-st-sensor",
+        platform: "LinkedIn",
+        account: "STMicroelectronics",
+        title: "Sensor and MCU application story",
+        url: "https://www.linkedin.com/company/stmicroelectronics",
+        metrics: ["Public reactions need manual review", "Official semiconductor account"],
+        heat: "4",
+        tags: ["Industry", "Sensor", "MCU", "Industrial IoT"],
+        reason: "传感器和 MCU 应用内容适合工业物联网、智能设备和工程师用户，能启发 Ai-Thinker 的雷达/传感器类内容表达。",
+        learn: "可以做：雷达传感器如何帮助设备获得 presence detection 能力，突出应用场景而非只讲参数。",
+        createdAt: "2026-06-01T14:30:00.000Z"
+      },
+      {
+        id: "seed-20260601-arduino-tiktok-developer",
+        platform: "TikTok",
+        account: "Arduino",
+        title: "Developer project short video",
+        url: "https://www.tiktok.com/@arduino",
+        metrics: ["Public views/likes need manual review", "Official account"],
+        heat: "4",
+        tags: ["Product", "Short Video", "Developer", "IoT"],
+        reason: "官方短视频如果持续围绕项目效果、开发板能力和实际应用，就适合观察。它能帮助我们判断海外开发者喜欢什么节奏和画面。",
+        learn: "可以做：用 3 个镜头展示一个 ESP32 模组从场景问题到解决方案的过程。",
+        createdAt: "2026-06-01T17:45:00.000Z"
+      },
+      {
+        id: "seed-20260601-ttn-website-community",
+        platform: "Website",
+        account: "The Things Network",
+        title: "LoRaWAN community deployment signal",
+        url: "https://www.thethingsnetwork.org/",
+        metrics: ["Community scale visible on website", "Gateway/member data"],
+        heat: "5",
+        tags: ["Industry", "LoRaWAN", "Community", "Developer"],
+        reason: "社区部署数据能说明技术生态真实存在，对工程师和方案商来说是很强的信任信号。",
+        learn: "可以做：LoRaWAN 为什么适合远距离低功耗传感器，用社区规模和真实部署做背书。",
+        createdAt: "2026-06-01T20:05:00.000Z"
       }
     ];
 
@@ -971,13 +1128,20 @@
 
       if (saved) {
         const currentCaptures = JSON.parse(saved);
-        if (!legacySaved) return currentCaptures;
+        const currentIds = new Set(currentCaptures.map(item => item.id));
+        const withSeeds = [
+          ...currentCaptures,
+          ...seedCaptures.filter(item => !currentIds.has(item.id))
+        ];
+        if (!legacySaved) {
+          localStorage.setItem(storageKey, JSON.stringify(withSeeds));
+          return withSeeds;
+        }
 
-        const existingIds = new Set(currentCaptures.map(item => item.id));
         const legacyCaptures = JSON.parse(legacySaved);
         const mergedCaptures = [
-          ...currentCaptures,
-          ...legacyCaptures.filter(item => item && item.id && !existingIds.has(item.id))
+          ...withSeeds,
+          ...legacyCaptures.filter(item => item && item.id && !new Set(withSeeds.map(savedItem => savedItem.id)).has(item.id))
         ];
         localStorage.setItem(storageKey, JSON.stringify(mergedCaptures));
         return mergedCaptures;
@@ -1239,6 +1403,24 @@
         showView(link.dataset.view);
         history.replaceState(null, "", `#${link.dataset.view}`);
       });
+    });
+
+    document.querySelector("#homeLink").addEventListener("click", event => {
+      event.preventDefault();
+      activePlatform = "all";
+      activeTopic = "all";
+      activeDate = "all";
+      platformTabs.querySelectorAll("button").forEach(button => {
+        button.classList.toggle("active", button.dataset.value === "all");
+      });
+      topicTabs.querySelectorAll("button").forEach(button => {
+        button.classList.toggle("active", button.dataset.value === "all");
+      });
+      search.value = "";
+      sortBy.value = "new";
+      showView("hot");
+      render();
+      history.replaceState(null, "", "#hot");
     });
 
     [search, sortBy].forEach(input => {
