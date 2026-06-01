@@ -292,6 +292,7 @@
       flex: 0 0 auto;
       color: var(--accent);
       font-weight: 700;
+      letter-spacing: 1px;
     }
 
     .meta,
@@ -1219,7 +1220,7 @@
         .map(entry => `
           <article class="simple-card">
             <h2>${entry.url ? `<a href="${entry.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(entry.title)}</a>` : escapeHtml(entry.title)}</h2>
-            <div class="simple-meta">${escapeHtml(entry.type)} · ${escapeHtml(entry.platform)} · Score ${escapeHtml(entry.score || "-")}</div>
+            <div class="simple-meta">${escapeHtml(entry.type)} · ${escapeHtml(entry.platform)} · ${formatStars(entry.score)}</div>
             <p>${escapeHtml(entry.note || "待补充。")}</p>
           </article>
         `).join("");
@@ -1312,6 +1313,11 @@
       return `${parts.hour}:${parts.minute}`;
     }
 
+    function formatStars(value) {
+      const score = Math.max(0, Math.min(5, Number(value) || 0));
+      return `${"★".repeat(score)}${"☆".repeat(5 - score)}`;
+    }
+
     function getLocalIsoString(date = new Date()) {
       const local = new Date(date.getTime() - date.getTimezoneOffset() * 60000);
       return local.toISOString().slice(0, 19);
@@ -1326,7 +1332,7 @@
           <article class="item">
             <div class="item-head">
               <h2>${item.url ? `<a class="item-title-link" href="${item.url}" target="_blank" rel="noopener noreferrer">${title}</a>` : `<span class="item-title-text">${title}</span>`}</h2>
-              <span class="heat">Score ${item.heat}</span>
+              <span class="heat" aria-label="${item.heat} stars">${formatStars(item.heat)}</span>
             </div>
             <div class="meta">
               <span>${item.platform}</span>
