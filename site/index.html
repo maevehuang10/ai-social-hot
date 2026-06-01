@@ -1125,23 +1125,25 @@
 
       const saved = localStorage.getItem(storageKey);
       const legacySaved = localStorage.getItem(legacyStorageKey);
+      const seedIds = new Set(seedCaptures.map(item => item.id));
+      const mergeWithCurrentSeeds = items => {
+        const userItems = items.filter(item => item && item.id && !seedIds.has(item.id));
+        return [...seedCaptures, ...userItems];
+      };
 
       if (saved) {
         const currentCaptures = JSON.parse(saved);
-        const currentIds = new Set(currentCaptures.map(item => item.id));
-        const withSeeds = [
-          ...currentCaptures,
-          ...seedCaptures.filter(item => !currentIds.has(item.id))
-        ];
+        const withSeeds = mergeWithCurrentSeeds(currentCaptures);
         if (!legacySaved) {
           localStorage.setItem(storageKey, JSON.stringify(withSeeds));
           return withSeeds;
         }
 
         const legacyCaptures = JSON.parse(legacySaved);
+        const withSeedIds = new Set(withSeeds.map(savedItem => savedItem.id));
         const mergedCaptures = [
           ...withSeeds,
-          ...legacyCaptures.filter(item => item && item.id && !new Set(withSeeds.map(savedItem => savedItem.id)).has(item.id))
+          ...legacyCaptures.filter(item => item && item.id && !seedIds.has(item.id) && !withSeedIds.has(item.id))
         ];
         localStorage.setItem(storageKey, JSON.stringify(mergedCaptures));
         return mergedCaptures;
@@ -1149,8 +1151,9 @@
 
       if (legacySaved) {
         const legacyCaptures = JSON.parse(legacySaved);
-        localStorage.setItem(storageKey, JSON.stringify(legacyCaptures));
-        return legacyCaptures;
+        const migratedCaptures = mergeWithCurrentSeeds(legacyCaptures);
+        localStorage.setItem(storageKey, JSON.stringify(migratedCaptures));
+        return migratedCaptures;
       }
 
       localStorage.setItem(storageKey, JSON.stringify(seedCaptures));
