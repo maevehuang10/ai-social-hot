@@ -1,0 +1,923 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Social Insight Board</title>
+  <style>
+    :root {
+      --bg: #fbf8ff;
+      --panel: #ffffff;
+      --text: #211827;
+      --muted: #756a82;
+      --line: #eadff4;
+      --dark: #352044;
+      --accent: #8b5cf6;
+      --accent-soft: #f3eefe;
+      --radius: 6px;
+      font-family: "PingFang SC", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: linear-gradient(180deg, #f7f1ff 0, #ffffff 260px, #fbf8ff 100%);
+      color: var(--text);
+    }
+
+    button,
+    input,
+    select,
+    textarea {
+      font: inherit;
+    }
+
+    .app {
+      width: min(900px, 100%);
+      margin: 0 auto;
+      padding: 0 20px 56px;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      min-height: 58px;
+      margin: 0 -20px 30px;
+      padding: 0 20px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(251, 248, 255, 0.92);
+      backdrop-filter: blur(12px);
+    }
+
+    .eyebrow {
+      margin: 0;
+      color: var(--text);
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 26px 0 0;
+      font-size: 28px;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      max-width: 680px;
+      margin: 8px 0 22px;
+      color: var(--muted);
+      line-height: 1.8;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: flex-end;
+    }
+
+    .button {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--panel);
+      color: var(--text);
+      cursor: pointer;
+      padding: 8px 12px;
+      font-size: 14px;
+      transition: 0.18s ease;
+    }
+
+    .button:hover {
+      border-color: #c4b5fd;
+      transform: translateY(-1px);
+    }
+
+    .button.primary {
+      border-color: var(--dark);
+      background: var(--dark);
+      color: white;
+    }
+
+    .layout {
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+      align-items: start;
+    }
+
+    .panel {
+      width: 100%;
+      background: rgba(255, 255, 255, 0.82);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 16px;
+    }
+
+    .panel summary {
+      cursor: pointer;
+      font-weight: 700;
+      list-style: none;
+    }
+
+    .panel summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .panel summary::after {
+      content: "+";
+      float: right;
+      color: var(--muted);
+    }
+
+    .panel[open] summary::after {
+      content: "-";
+    }
+
+    .panel h2 {
+      margin: 0 0 14px;
+      font-size: 16px;
+    }
+
+    .collect-note {
+      border-left: 3px solid var(--accent);
+      background: rgba(243, 238, 254, 0.72);
+      padding: 12px 14px;
+      margin: 0 0 18px;
+      color: #4c3d5f;
+      line-height: 1.7;
+      font-size: 14px;
+    }
+
+    .form-grid {
+      display: grid;
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .bulk-box {
+      margin-top: 18px;
+      border-top: 1px solid var(--line);
+      padding-top: 18px;
+    }
+
+    .bulk-tools {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .small-note {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.6;
+    }
+
+    label {
+      display: grid;
+      gap: 6px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #ffffff;
+      color: var(--text);
+      padding: 9px 10px;
+      outline: none;
+    }
+
+    textarea {
+      min-height: 92px;
+      resize: vertical;
+      line-height: 1.6;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(22, 163, 163, 0.12);
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .filters {
+      display: grid;
+      grid-template-columns: 1.6fr 140px 140px;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    .stat {
+      border-bottom: 1px solid var(--line);
+      background: #ffffff;
+      padding: 8px 0 12px;
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 24px;
+      line-height: 1;
+    }
+
+    .stat span {
+      display: block;
+      margin-top: 6px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .list {
+      display: grid;
+      gap: 0;
+      border-top: 1px solid var(--line);
+    }
+
+    .item {
+      border: 0;
+      border-bottom: 1px solid var(--line);
+      border-radius: 0;
+      background: var(--panel);
+      padding: 18px 0;
+    }
+
+    .item-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .item-title {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.45;
+    }
+
+    .item-title a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .item-title a:hover {
+      color: var(--accent);
+    }
+
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 10px;
+    }
+
+    .badge {
+      border-radius: 0;
+      background: transparent;
+      color: #665875;
+      font-size: 13px;
+      padding: 0;
+    }
+
+    .badge.type {
+      background: transparent;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .item-note {
+      margin: 12px 0 0;
+      color: #43384f;
+      line-height: 1.8;
+      white-space: pre-wrap;
+    }
+
+    .item-note::before {
+      content: "推荐理由：";
+      color: var(--text);
+      font-weight: 700;
+    }
+
+    .item-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .item-actions {
+      display: flex;
+      gap: 6px;
+      flex-shrink: 0;
+    }
+
+    .icon-button {
+      width: 30px;
+      height: 30px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fff;
+      color: var(--muted);
+      cursor: pointer;
+    }
+
+    .icon-button:hover {
+      color: var(--text);
+      border-color: #c4b5fd;
+    }
+
+    .empty {
+      border: 1px dashed #c4b5fd;
+      border-radius: var(--radius);
+      padding: 28px;
+      color: var(--muted);
+      text-align: center;
+      line-height: 1.7;
+    }
+
+    .hidden-file {
+      display: none;
+    }
+
+    @media (max-width: 860px) {
+      .app {
+        padding: 18px;
+      }
+
+      .topbar,
+      .layout {
+        display: block;
+      }
+
+      .actions {
+        justify-content: flex-start;
+        margin-top: 16px;
+      }
+
+      .panel {
+        margin-bottom: 14px;
+      }
+
+      .filters,
+      .stats,
+      .row,
+      .bulk-tools {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <section class="topbar">
+      <div>
+        <p class="eyebrow">AI Social Hot</p>
+      </div>
+      <div class="actions">
+        <button class="button" id="exportBtn" type="button">导出 JSON</button>
+        <button class="button" id="importBtn" type="button">导入 JSON</button>
+        <input class="hidden-file" id="importFile" type="file" accept="application/json">
+      </div>
+    </section>
+
+    <header>
+      <h1>海外社媒与行业信息精选</h1>
+      <p class="subtitle">像资讯站一样沉淀账号、行业动态和运营经验。每天把看到的链接批量放进来，再挑出值得跟进的内容。</p>
+      <p class="collect-note">可让我每天帮你搜集：IoT / ESP32 / LoRa / UWB / radar sensor 相关海外账号、热门话题、竞品内容和可转成帖子的行业信息。</p>
+    </header>
+
+    <section class="layout">
+      <details class="panel">
+        <summary id="formTitle">新增记录 / 批量录入</summary>
+        <form class="form-grid" id="entryForm">
+          <label>
+            类型
+            <select id="type" required>
+              <option value="account">海外账号</option>
+              <option value="industry">行业信息</option>
+              <option value="lesson">每日经验</option>
+            </select>
+          </label>
+
+          <div class="row">
+            <label>
+              平台
+              <select id="platform">
+                <option value="LinkedIn">LinkedIn</option>
+                <option value="Facebook">Facebook</option>
+                <option value="TikTok">TikTok</option>
+                <option value="YouTube">YouTube</option>
+                <option value="Website">Website</option>
+                <option value="Other">Other</option>
+              </select>
+            </label>
+            <label>
+              价值评分
+              <select id="score">
+                <option value="5">5 - 很值得跟进</option>
+                <option value="4">4 - 有参考价值</option>
+                <option value="3">3 - 普通参考</option>
+                <option value="2">2 - 暂时观察</option>
+                <option value="1">1 - 低优先级</option>
+              </select>
+            </label>
+          </div>
+
+          <label>
+            标题 / 账号名
+            <input id="title" type="text" placeholder="例如：Nordic IoT Solutions / UWB market trend" required>
+          </label>
+
+          <label>
+            链接
+            <input id="url" type="url" placeholder="https://">
+          </label>
+
+          <label>
+            标签
+            <input id="tags" type="text" placeholder="ESP32, LoRa, smart home">
+          </label>
+
+          <label>
+            记录内容
+            <textarea id="note" placeholder="写下为什么值得关注、可学习的内容、可转化成什么选题。" required></textarea>
+          </label>
+
+          <div class="row">
+            <button class="button primary" type="submit">保存记录</button>
+            <button class="button" id="resetBtn" type="button">清空表单</button>
+          </div>
+        </form>
+
+        <div class="bulk-box">
+          <h2>批量自动录入</h2>
+          <div class="bulk-tools">
+            <label>
+              默认类型
+              <select id="bulkType">
+                <option value="auto">自动判断</option>
+                <option value="account">海外账号</option>
+                <option value="industry">行业信息</option>
+              </select>
+            </label>
+            <label>
+              默认评分
+              <select id="bulkScore">
+                <option value="4">4 - 有参考价值</option>
+                <option value="5">5 - 很值得跟进</option>
+                <option value="3">3 - 普通参考</option>
+                <option value="2">2 - 暂时观察</option>
+              </select>
+            </label>
+          </div>
+          <label>
+            粘贴链接 / 标题
+            <textarea id="bulkText" placeholder="每行一条，例如：
+https://www.linkedin.com/company/example-iot/
+LoRaWAN market report https://example.com/report
+@iotmaker TikTok smart home demo"></textarea>
+          </label>
+          <button class="button primary" id="bulkAddBtn" type="button">自动生成记录</button>
+          <p class="small-note">个人经验建议手动写；账号和行业资料可以先自动入库，再补充判断。</p>
+        </div>
+      </details>
+
+      <section>
+        <div class="stats" id="stats"></div>
+
+        <div class="filters">
+          <input id="search" type="search" placeholder="搜索标题、标签、内容">
+          <select id="typeFilter">
+            <option value="all">全部类型</option>
+            <option value="account">海外账号</option>
+            <option value="industry">行业信息</option>
+            <option value="lesson">每日经验</option>
+          </select>
+          <select id="platformFilter">
+            <option value="all">全部平台</option>
+            <option value="LinkedIn">LinkedIn</option>
+            <option value="Facebook">Facebook</option>
+            <option value="TikTok">TikTok</option>
+            <option value="YouTube">YouTube</option>
+            <option value="Website">Website</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+
+        <div class="list" id="entryList"></div>
+      </section>
+    </section>
+  </main>
+
+  <script>
+    const storageKey = "social-insight-board-data";
+    const typeNames = {
+      account: "海外账号",
+      industry: "行业信息",
+      lesson: "每日经验"
+    };
+
+    const sampleEntries = [
+      {
+        id: crypto.randomUUID(),
+        type: "account",
+        platform: "LinkedIn",
+        score: "5",
+        title: "Example IoT Distributor",
+        url: "https://www.linkedin.com/",
+        tags: ["IoT", "Distributor", "B2B"],
+        note: "观察他们如何介绍产品应用场景。适合参考 LinkedIn 长图和客户案例表达。",
+        createdAt: new Date().toISOString()
+      },
+      {
+        id: crypto.randomUUID(),
+        type: "industry",
+        platform: "Website",
+        score: "4",
+        title: "Matter smart home content angle",
+        url: "",
+        tags: ["Smart Home", "Matter", "ESP32"],
+        note: "海外用户更关心兼容性、认证、开发难度。后续可以做一条：Why Matter matters for smart devices.",
+        createdAt: new Date().toISOString()
+      },
+      {
+        id: crypto.randomUUID(),
+        type: "lesson",
+        platform: "TikTok",
+        score: "4",
+        title: "短视频开头要先给应用场景",
+        url: "",
+        tags: ["Video", "Hook", "B2B"],
+        note: "不要先讲参数。前 2 秒先出现真实场景，再补产品能力和模块名称。",
+        createdAt: new Date().toISOString()
+      }
+    ];
+
+    let entries = loadEntries();
+    let editingId = "";
+
+    const form = document.querySelector("#entryForm");
+    const formTitle = document.querySelector("#formTitle");
+    const list = document.querySelector("#entryList");
+    const stats = document.querySelector("#stats");
+    const search = document.querySelector("#search");
+    const typeFilter = document.querySelector("#typeFilter");
+    const platformFilter = document.querySelector("#platformFilter");
+    const importFile = document.querySelector("#importFile");
+    const bulkType = document.querySelector("#bulkType");
+    const bulkScore = document.querySelector("#bulkScore");
+    const bulkText = document.querySelector("#bulkText");
+
+    function loadEntries() {
+      const saved = localStorage.getItem(storageKey);
+      return saved ? JSON.parse(saved) : sampleEntries;
+    }
+
+    function saveEntries() {
+      localStorage.setItem(storageKey, JSON.stringify(entries));
+    }
+
+    function normalizeUrl(text) {
+      const match = text.match(/https?:\/\/[^\s，,]+/i);
+      return match ? match[0].replace(/[).，。]+$/, "") : "";
+    }
+
+    function detectPlatform(text) {
+      const lower = text.toLowerCase();
+      if (lower.includes("linkedin.com")) return "LinkedIn";
+      if (lower.includes("facebook.com") || lower.includes("fb.com")) return "Facebook";
+      if (lower.includes("tiktok.com")) return "TikTok";
+      if (lower.includes("youtube.com") || lower.includes("youtu.be")) return "YouTube";
+      if (lower.includes("http://") || lower.includes("https://")) return "Website";
+      return "Other";
+    }
+
+    function guessType(text) {
+      const lower = text.toLowerCase();
+      const accountWords = ["linkedin.com/company", "linkedin.com/in", "facebook.com", "tiktok.com/@", "youtube.com/@", "@"]; 
+      return accountWords.some(word => lower.includes(word)) ? "account" : "industry";
+    }
+
+    function titleFromText(text, url) {
+      const withoutUrl = text.replace(url, "").replace(/^[-\s:：|]+|[-\s:：|]+$/g, "").trim();
+      if (withoutUrl) return withoutUrl;
+
+      if (!url) return text.trim();
+
+      try {
+        const parsed = new URL(url);
+        const pathName = parsed.pathname.split("/").filter(Boolean).pop() || parsed.hostname;
+        return decodeURIComponent(pathName).replaceAll("-", " ").replaceAll("_", " ");
+      } catch (error) {
+        return url;
+      }
+    }
+
+    function inferTags(text) {
+      const keywords = [
+        ["esp32", "ESP32"],
+        ["lora", "LoRa"],
+        ["lorawan", "LoRaWAN"],
+        ["uwb", "UWB"],
+        ["radar", "Radar"],
+        ["sensor", "Sensor"],
+        ["wifi", "Wi-Fi"],
+        ["bluetooth", "Bluetooth"],
+        ["matter", "Matter"],
+        ["smart home", "Smart Home"],
+        ["iot", "IoT"],
+        ["module", "Module"],
+        ["developer", "Developer"],
+        ["distributor", "Distributor"],
+        ["factory", "Factory"]
+      ];
+      const lower = text.toLowerCase();
+      return keywords.filter(([keyword]) => lower.includes(keyword)).map(([, tag]) => tag);
+    }
+
+    function defaultNote(type, platform, text) {
+      if (type === "account") return `自动录入：${platform} 账号资料。后续补充：账号定位、内容形式、可参考选题。`;
+      return `自动录入：行业资料。后续补充：核心观点、可转化选题、相关产品。`;
+    }
+
+    function makeEntryFromLine(line, fallbackType, fallbackScore) {
+      const url = normalizeUrl(line);
+      const platform = detectPlatform(line);
+      const type = fallbackType === "auto" ? guessType(line) : fallbackType;
+      const title = titleFromText(line, url);
+      const tags = inferTags(line);
+
+      if (!title && !url) return null;
+
+      return {
+        id: crypto.randomUUID(),
+        type,
+        platform,
+        score: fallbackScore,
+        title: title || url,
+        url,
+        tags,
+        note: defaultNote(type, platform, line),
+        createdAt: new Date().toISOString()
+      };
+    }
+
+    function getFormData() {
+      return {
+        type: document.querySelector("#type").value,
+        platform: document.querySelector("#platform").value,
+        score: document.querySelector("#score").value,
+        title: document.querySelector("#title").value.trim(),
+        url: document.querySelector("#url").value.trim(),
+        tags: document.querySelector("#tags").value.split(",").map(tag => tag.trim()).filter(Boolean),
+        note: document.querySelector("#note").value.trim()
+      };
+    }
+
+    function fillForm(entry) {
+      document.querySelector("#type").value = entry.type;
+      document.querySelector("#platform").value = entry.platform;
+      document.querySelector("#score").value = entry.score;
+      document.querySelector("#title").value = entry.title;
+      document.querySelector("#url").value = entry.url;
+      document.querySelector("#tags").value = entry.tags.join(", ");
+      document.querySelector("#note").value = entry.note;
+      editingId = entry.id;
+      formTitle.textContent = "编辑记录 / 批量录入";
+      document.querySelector(".panel").open = true;
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function resetForm() {
+      form.reset();
+      editingId = "";
+      formTitle.textContent = "新增记录 / 批量录入";
+    }
+
+    function getFilteredEntries() {
+      const keyword = search.value.trim().toLowerCase();
+
+      return entries.filter(entry => {
+        const matchesType = typeFilter.value === "all" || entry.type === typeFilter.value;
+        const matchesPlatform = platformFilter.value === "all" || entry.platform === platformFilter.value;
+        const text = [entry.title, entry.platform, entry.note, entry.tags.join(" ")].join(" ").toLowerCase();
+        return matchesType && matchesPlatform && text.includes(keyword);
+      });
+    }
+
+    function renderStats() {
+      const countByType = {
+        account: entries.filter(entry => entry.type === "account").length,
+        industry: entries.filter(entry => entry.type === "industry").length,
+        lesson: entries.filter(entry => entry.type === "lesson").length
+      };
+
+      stats.innerHTML = Object.entries(countByType).map(([type, count]) => `
+        <div class="stat">
+          <strong>${count}</strong>
+          <span>${typeNames[type]}</span>
+        </div>
+      `).join("");
+    }
+
+    function renderList() {
+      const filtered = getFilteredEntries().sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+
+      if (!filtered.length) {
+        list.innerHTML = '<div class="empty">暂时没有匹配记录。可以换个关键词，或者新增一条今天的观察。</div>';
+        return;
+      }
+
+      list.innerHTML = filtered.map(entry => {
+        const date = new Date(entry.createdAt).toLocaleDateString("zh-CN");
+        const title = entry.url
+          ? `<a href="${entry.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(entry.title)}</a>`
+          : escapeHtml(entry.title);
+
+        return `
+          <article class="item">
+            <div class="item-head">
+              <div>
+                <h3 class="item-title">${title}</h3>
+                <div class="badge-row">
+                  <span class="badge type">${typeNames[entry.type]}</span>
+                  <span class="badge">${entry.platform}</span>
+                  <span class="badge">Score ${entry.score}</span>
+                  ${entry.tags.map(tag => `<span class="badge">${escapeHtml(tag)}</span>`).join("")}
+                </div>
+              </div>
+              <div class="item-actions">
+                <button class="icon-button" type="button" title="编辑" data-action="edit" data-id="${entry.id}">✎</button>
+                <button class="icon-button" type="button" title="删除" data-action="delete" data-id="${entry.id}">×</button>
+              </div>
+            </div>
+            <p class="item-note">${escapeHtml(entry.note)}</p>
+            <div class="item-meta">
+              <span>记录时间：${date}</span>
+              ${entry.url ? `<span>来源：${escapeHtml(entry.url)}</span>` : ""}
+            </div>
+          </article>
+        `;
+      }).join("");
+    }
+
+    function render() {
+      renderStats();
+      renderList();
+    }
+
+    function escapeHtml(text) {
+      return String(text)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    form.addEventListener("submit", event => {
+      event.preventDefault();
+      const data = getFormData();
+
+      if (editingId) {
+        entries = entries.map(entry => entry.id === editingId ? { ...entry, ...data } : entry);
+      } else {
+        entries.push({
+          id: crypto.randomUUID(),
+          ...data,
+          createdAt: new Date().toISOString()
+        });
+      }
+
+      saveEntries();
+      resetForm();
+      render();
+    });
+
+    document.querySelector("#resetBtn").addEventListener("click", resetForm);
+    search.addEventListener("input", renderList);
+    typeFilter.addEventListener("change", renderList);
+    platformFilter.addEventListener("change", renderList);
+
+    document.querySelector("#url").addEventListener("blur", event => {
+      const url = event.target.value.trim();
+      if (!url) return;
+
+      const titleInput = document.querySelector("#title");
+      const tagsInput = document.querySelector("#tags");
+      document.querySelector("#platform").value = detectPlatform(url);
+
+      if (!titleInput.value.trim()) {
+        titleInput.value = titleFromText(url, url);
+      }
+
+      if (!tagsInput.value.trim()) {
+        tagsInput.value = inferTags(url).join(", ");
+      }
+    });
+
+    document.querySelector("#bulkAddBtn").addEventListener("click", () => {
+      const lines = bulkText.value.split(/\n+/).map(line => line.trim()).filter(Boolean);
+      const newEntries = lines
+        .map(line => makeEntryFromLine(line, bulkType.value, bulkScore.value))
+        .filter(Boolean);
+
+      if (!newEntries.length) {
+        alert("没有识别到可录入的内容。");
+        return;
+      }
+
+      entries = [...entries, ...newEntries];
+      saveEntries();
+      bulkText.value = "";
+      render();
+      alert(`已自动录入 ${newEntries.length} 条记录。`);
+    });
+
+    list.addEventListener("click", event => {
+      const button = event.target.closest("button");
+      if (!button) return;
+
+      const id = button.dataset.id;
+      const action = button.dataset.action;
+      const entry = entries.find(item => item.id === id);
+
+      if (action === "edit" && entry) {
+        fillForm(entry);
+      }
+
+      if (action === "delete" && confirm("确定删除这条记录吗？")) {
+        entries = entries.filter(item => item.id !== id);
+        saveEntries();
+        render();
+      }
+    });
+
+    document.querySelector("#exportBtn").addEventListener("click", () => {
+      const blob = new Blob([JSON.stringify(entries, null, 2)], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = `social-insight-board-${new Date().toISOString().slice(0, 10)}.json`;
+      link.click();
+      URL.revokeObjectURL(url);
+    });
+
+    document.querySelector("#importBtn").addEventListener("click", () => importFile.click());
+    importFile.addEventListener("change", () => {
+      const file = importFile.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = () => {
+        try {
+          const imported = JSON.parse(reader.result);
+          if (!Array.isArray(imported)) throw new Error("invalid data");
+          const existingIds = new Set(entries.map(entry => entry.id));
+          const newItems = imported.filter(entry => entry && entry.id && !existingIds.has(entry.id));
+          entries = [...entries, ...newItems];
+          saveEntries();
+          resetForm();
+          render();
+          alert(`已导入 ${newItems.length} 条新记录。`);
+        } catch (error) {
+          alert("导入失败，请确认文件是本工具导出的 JSON。");
+        }
+      };
+      reader.readAsText(file);
+    });
+
+    render();
+  </script>
+</body>
+</html>

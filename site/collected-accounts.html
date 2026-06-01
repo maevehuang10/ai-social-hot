@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Collected Accounts</title>
+  <style>
+    :root {
+      --bg: #fbf8ff;
+      --text: #211827;
+      --muted: #756a82;
+      --line: #eadff4;
+      --accent: #8b5cf6;
+      --panel: #ffffff;
+      font-family: "PingFang SC", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: linear-gradient(180deg, #f7f1ff 0, #ffffff 260px, var(--bg) 100%);
+      color: var(--text);
+    }
+
+    .page {
+      width: min(900px, 100%);
+      margin: 0 auto;
+      padding: 0 20px 56px;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      min-height: 58px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin: 0 -20px 30px;
+      padding: 0 20px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(251, 248, 255, 0.92);
+      backdrop-filter: blur(12px);
+    }
+
+    .brand {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .button {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: var(--panel);
+      color: var(--text);
+      padding: 8px 12px;
+      font-size: 14px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+      line-height: 1.25;
+    }
+
+    .subtitle {
+      max-width: 680px;
+      margin: 0 0 24px;
+      color: var(--muted);
+      line-height: 1.8;
+    }
+
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    select {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: var(--panel);
+      color: var(--text);
+      padding: 8px 10px;
+      font: inherit;
+    }
+
+    .count {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .list {
+      border-top: 1px solid var(--line);
+    }
+
+    .item {
+      padding: 18px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .item-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 20px;
+      line-height: 1.45;
+    }
+
+    .score {
+      flex: 0 0 auto;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .meta,
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .tag {
+      color: #665875;
+    }
+
+    .note {
+      margin: 12px 0 0;
+      color: #43384f;
+      line-height: 1.8;
+    }
+
+    @media (max-width: 640px) {
+      .page {
+        padding: 0 16px 40px;
+      }
+
+      .topbar {
+        margin: 0 -16px 24px;
+        padding: 0 16px;
+      }
+
+      .item-head {
+        display: block;
+      }
+
+      .score {
+        display: block;
+        margin-top: 6px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <nav class="topbar">
+      <p class="brand">AI Social Hot</p>
+      <div>
+        <a class="button" href="content-captures.html">热门内容</a>
+        <a class="button" href="social-insight-board.html">打开主库</a>
+      </div>
+    </nav>
+
+    <header>
+      <h1>已采集海外账号</h1>
+      <p class="subtitle">默认只保留内容垂直相关的官方品牌、平台、社区、分销商、半导体/模组公司。账号帖子需要长期服务工程师、开发者、采购、IoT 方案商或智能硬件客户。</p>
+      <div class="toolbar">
+        <select id="platformFilter">
+          <option value="all">全部平台</option>
+          <option value="LinkedIn">LinkedIn</option>
+          <option value="Facebook">Facebook</option>
+          <option value="TikTok">TikTok</option>
+          <option value="YouTube">YouTube</option>
+          <option value="Website">Website</option>
+        </select>
+        <button class="button" id="exportBtn" type="button">导出本页 JSON</button>
+        <span class="count" id="count"></span>
+      </div>
+    </header>
+
+    <section class="list" id="list"></section>
+  </main>
+
+  <script>
+    const accounts = [
+      {
+        title: "Seeed Studio",
+        platform: "YouTube",
+        score: "5",
+        url: "https://www.youtube.com/@SeeedStudio",
+        tags: ["IoT", "Module", "Sensor", "Developer", "Industrial IoT"],
+        note: "公开数据线索：Social Blade 页面显示约 403K subscribers、433M views、95 videos。适合长期观察硬件平台如何做开发者内容、产品演示和应用场景包装。"
+      },
+      {
+        title: "GreatScott!",
+        platform: "YouTube",
+        score: "5",
+        url: "https://www.youtube.com/@greatscottlab",
+        tags: ["Electronics", "Developer", "Hardware", "Tutorial"],
+        note: "公开数据线索：第三方统计页显示约 2.1M subscribers；SponsorRadar 显示约 638.8K average views per video。适合参考电子工程类选题、标题和缩略图表达。"
+      },
+      {
+        title: "Andreas Spiess",
+        platform: "YouTube",
+        score: "5",
+        url: "https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ",
+        tags: ["ESP32", "LoRa", "IoT", "Sensor", "Developer"],
+        note: "公开数据线索：Arduino/IoT 专家名单称该频道 500K+ subscribers，内容覆盖 Arduino、ESP8266/ESP32、IoT、LoRa networks 和低功耗优化。适合研究技术深度内容如何吸引工程师。"
+      },
+      {
+        title: "Espressif Systems",
+        platform: "LinkedIn",
+        score: "5",
+        url: "https://uk.linkedin.com/company/espressif-systems",
+        tags: ["ESP32", "Wi-Fi", "Bluetooth", "AIoT", "Semiconductor"],
+        note: "公开数据线索：LinkedIn 摘要显示其创建 ESP8266、ESP32、ESP32-S、ESP32-C 系列芯片/模组/开发板，定位为 IoT、Wi-Fi、Bluetooth、AIoT 半导体公司。适合对标 ESP32 生态叙事。"
+      },
+      {
+        title: "RAKwireless",
+        platform: "LinkedIn",
+        score: "5",
+        url: "https://www.linkedin.com/company/rakwireless/",
+        tags: ["LoRa", "LoRaWAN", "IoT", "Gateway", "Module"],
+        note: "公开数据线索：LinkedIn 摘要列出 LoRa、LoRaWAN、IoT modular blocks、gateway、tracker、sensor node 等关键词，并提供 YouTube、GitHub、Discord 等社区入口。适合观察 LoRa/LoRaWAN 产品矩阵和开发者社区打法。"
+      },
+      {
+        title: "Semtech LoRa",
+        platform: "LinkedIn",
+        score: "5",
+        url: "https://ch.linkedin.com/showcase/semtechlora",
+        tags: ["LoRa", "LoRaWAN", "LPWAN", "IoT", "Cloud"],
+        note: "公开数据线索：LinkedIn 摘要称 Semtech LoRa chip-to-Cloud platform 是全球采用的低功耗长距离 IoT 方案。适合跟踪 LoRa 官方生态内容。"
+      },
+      {
+        title: "The Things Network",
+        platform: "Website",
+        score: "5",
+        url: "https://www.thethingsnetwork.org/",
+        tags: ["LoRaWAN", "IoT", "Community", "Developer"],
+        note: "公开数据线索：官网显示 153 countries、281.6K members、21.2K gateways、2.2M YouTube views、17.7K LinkedIn followers。适合观察 LoRaWAN 开发者社区、教程和案例内容。"
+      },
+      {
+        title: "Trident IoT",
+        platform: "LinkedIn",
+        score: "4",
+        url: "https://www.linkedin.com/company/trident-iot",
+        tags: ["IoT", "Smart Home", "Matter", "Zigbee", "Semiconductor"],
+        note: "公开数据线索：LinkedIn 摘要定位为 semiconductor company，关键词包括 Connectivity、IoT Technology、Smart Home Devices、Z-Wave、Zigbee、Matter、Certifications。适合观察智能家居连接协议和认证类内容。"
+      }
+    ];
+
+    accounts.push(
+      {
+        title: "Arduino",
+        platform: "LinkedIn",
+        score: "5",
+        url: "https://www.linkedin.com/company/arduino",
+        tags: ["Developer", "Embedded", "IoT", "Education", "Hardware"],
+        note: "公开账号，可长期观察开发板生态、教育内容、创客社区和产品发布节奏。适合参考如何把硬件能力讲成开发者可理解的应用内容。"
+      },
+      {
+        title: "Arduino",
+        platform: "Facebook",
+        score: "4",
+        url: "https://www.facebook.com/official.arduino",
+        tags: ["Developer", "IoT", "Community", "Education"],
+        note: "官方 Facebook 账号，适合观察社区互动、项目展示和活动传播。粉丝/互动数据建议后续定期复核。"
+      },
+      {
+        title: "Arduino",
+        platform: "TikTok",
+        score: "4",
+        url: "https://www.tiktok.com/@arduino",
+        tags: ["Short Video", "Developer", "Maker", "Education"],
+        note: "适合观察开发者硬件品牌如何做短视频：快速项目演示、创客作品、教育型内容。公开数据会随平台展示变化，建议按周复核。"
+      },
+      {
+        title: "Adafruit Industries",
+        platform: "Facebook",
+        score: "5",
+        url: "https://www.facebook.com/adafruit",
+        tags: ["Electronics", "Maker", "Developer", "Sensor", "Tutorial"],
+        note: "公开账号，内容长期偏项目展示、教程、直播和新品介绍。适合参考硬件品牌如何保持高频、社区化表达。"
+      },
+      {
+        title: "Adafruit Industries",
+        platform: "TikTok",
+        score: "4",
+        url: "https://www.tiktok.com/@adafruitindustries",
+        tags: ["Short Video", "Electronics", "Maker", "Tutorial"],
+        note: "适合观察电子元器件和创客内容在短视频里的呈现方式，尤其是快速演示和项目过程。"
+      },
+      {
+        title: "Adafruit Industries",
+        platform: "YouTube",
+        score: "5",
+        url: "https://www.youtube.com/@adafruit",
+        tags: ["Electronics", "Tutorial", "Maker", "Live"],
+        note: "公开频道，适合跟踪硬件教程、直播、产品上新和社区项目。对 Ai-Thinker 的开发者内容很有参考价值。"
+      },
+      {
+        title: "SparkFun Electronics",
+        platform: "Facebook",
+        score: "4",
+        url: "https://www.facebook.com/sparkfun",
+        tags: ["Electronics", "Sensor", "Developer", "Maker"],
+        note: "公开账号，适合观察电子模块、传感器和项目内容的社媒表达方式。"
+      },
+      {
+        title: "SparkFun Electronics",
+        platform: "TikTok",
+        score: "4",
+        url: "https://www.tiktok.com/@sparkfun",
+        tags: ["Short Video", "Electronics", "Maker", "Sensor"],
+        note: "适合观察硬件产品如何做轻量短视频演示，尤其是模块、传感器和项目小片段。"
+      },
+      {
+        title: "SparkFun Electronics",
+        platform: "YouTube",
+        score: "4",
+        url: "https://www.youtube.com/@sparkfun",
+        tags: ["Electronics", "Tutorial", "Sensor", "Developer"],
+        note: "公开频道，适合参考教程型视频、产品说明和项目演示。"
+      },
+      {
+        title: "DigiKey",
+        platform: "LinkedIn",
+        score: "5",
+        url: "https://www.linkedin.com/company/digikey",
+        tags: ["Distributor", "Electronics", "B2B", "Developer"],
+        note: "大型电子元器件分销商账号，适合观察 B2B 内容、行业活动、工程师资源和供应链表达。"
+      },
+      {
+        title: "DigiKey",
+        platform: "Facebook",
+        score: "4",
+        url: "https://www.facebook.com/digikey.electronics",
+        tags: ["Distributor", "Electronics", "B2B", "Community"],
+        note: "公开账号，适合观察分销商如何做品牌内容、活动传播和工程师社区互动。"
+      },
+      {
+        title: "DigiKey",
+        platform: "TikTok",
+        score: "4",
+        url: "https://www.tiktok.com/@digikey",
+        tags: ["Short Video", "Electronics", "Distributor", "Engineer"],
+        note: "适合观察 B2B 电子分销商如何把工程师内容变得更轻、更短视频化。"
+      },
+      {
+        title: "Mouser Electronics",
+        platform: "LinkedIn",
+        score: "5",
+        url: "https://www.linkedin.com/company/mouser-electronics",
+        tags: ["Distributor", "Electronics", "B2B", "Semiconductor"],
+        note: "大型电子元器件分销商账号，适合参考新品推广、供应商联合营销和工程师教育内容。"
+      },
+      {
+        title: "Mouser Electronics",
+        platform: "Facebook",
+        score: "4",
+        url: "https://www.facebook.com/mouserelectronics",
+        tags: ["Distributor", "Electronics", "B2B", "Marketing"],
+        note: "公开账号，适合跟踪活动、产品推广、工程师资源和行业趋势内容。"
+      },
+      {
+        title: "Mouser Electronics",
+        platform: "TikTok",
+        score: "3",
+        url: "https://www.tiktok.com/@mouserelectronics",
+        tags: ["Short Video", "Electronics", "B2B"],
+        note: "可作为短视频表达参考，但需要后续观察互动数据是否稳定。"
+      },
+      {
+        title: "Hackster.io",
+        platform: "LinkedIn",
+        score: "5",
+        url: "https://www.linkedin.com/company/hacksterio",
+        tags: ["Developer", "IoT", "Community", "Projects"],
+        note: "开发者项目社区，适合跟踪 IoT 项目、开发板应用、工程师内容和活动。对选题库价值高。"
+      },
+      {
+        title: "Hackster.io",
+        platform: "Facebook",
+        score: "4",
+        url: "https://www.facebook.com/Hacksterio",
+        tags: ["Developer", "IoT", "Community", "Projects"],
+        note: "公开账号，适合观察开发者社区如何包装项目案例和比赛活动。"
+      },
+      {
+        title: "Nordic Semiconductor",
+        platform: "LinkedIn",
+        score: "5",
+        url: "https://www.linkedin.com/company/nordic-semiconductor-asa",
+        tags: ["Bluetooth", "IoT", "Matter", "Semiconductor", "Wireless"],
+        note: "无线连接芯片公司，适合关注 Bluetooth LE、Matter、低功耗 IoT 和开发者生态内容。"
+      },
+      {
+        title: "Silicon Labs",
+        platform: "LinkedIn",
+        score: "5",
+        url: "https://www.linkedin.com/company/silicon-labs",
+        tags: ["IoT", "Matter", "Zigbee", "Wireless", "Semiconductor"],
+        note: "适合跟踪 Matter、Zigbee、Thread、Wi-Fi、Bluetooth 等无线连接内容，对智能家居方向很有参考价值。"
+      },
+      {
+        title: "STMicroelectronics",
+        platform: "LinkedIn",
+        score: "5",
+        url: "https://www.linkedin.com/company/stmicroelectronics",
+        tags: ["MCU", "Sensor", "IoT", "Semiconductor", "Industrial"],
+        note: "大体量半导体账号，适合观察传感器、MCU、工业 IoT 和应用案例表达。"
+      },
+      {
+        title: "NXP Semiconductors",
+        platform: "LinkedIn",
+        score: "5",
+        url: "https://www.linkedin.com/company/nxp-semiconductors",
+        tags: ["UWB", "Automotive", "IoT", "Semiconductor", "Edge"],
+        note: "适合重点跟踪 UWB、汽车电子、安全连接和边缘智能内容。"
+      },
+      {
+        title: "Texas Instruments",
+        platform: "LinkedIn",
+        score: "5",
+        url: "https://www.linkedin.com/company/texas-instruments",
+        tags: ["Semiconductor", "Industrial", "Sensor", "Wireless", "B2B"],
+        note: "适合参考工程师教育、应用笔记、工业市场内容和大型半导体公司的品牌表达。"
+      },
+      {
+        title: "Microchip Technology",
+        platform: "LinkedIn",
+        score: "5",
+        url: "https://www.linkedin.com/company/microchip-technology",
+        tags: ["MCU", "Embedded", "IoT", "Industrial", "Developer"],
+        note: "适合关注 MCU、嵌入式开发、工业控制和开发工具内容。"
+      },
+      {
+        title: "Qorvo",
+        platform: "LinkedIn",
+        score: "4",
+        url: "https://www.linkedin.com/company/qorvo-inc-",
+        tags: ["UWB", "RF", "Wireless", "Semiconductor"],
+        note: "适合跟踪 UWB、RF、无线连接和定位相关内容，可作为 UWB 产品方向的竞品/生态参考。"
+      },
+      {
+        title: "Infineon Technologies",
+        platform: "LinkedIn",
+        score: "5",
+        url: "https://www.linkedin.com/company/infineon-technologies",
+        tags: ["Sensor", "IoT", "Semiconductor", "Automotive", "Industrial"],
+        note: "适合关注传感器、汽车电子、工业 IoT、安全芯片和低功耗应用内容。"
+      },
+      {
+        title: "Bosch Sensortec",
+        platform: "LinkedIn",
+        score: "4",
+        url: "https://www.linkedin.com/company/bosch-sensortec",
+        tags: ["Sensor", "IoT", "Wearable", "MEMS"],
+        note: "适合关注传感器、消费电子、低功耗和应用场景包装，对雷达/传感器内容有参考价值。"
+      },
+      {
+        title: "Electronics For You",
+        platform: "Facebook",
+        score: "4",
+        url: "https://www.facebook.com/electronicsforu",
+        tags: ["Electronics", "Engineer", "News", "Developer"],
+        note: "电子工程媒体账号，适合跟踪行业话题、工程师兴趣点和可转化为社媒帖子的新闻方向。"
+      },
+      {
+        title: "Circuit Digest",
+        platform: "Facebook",
+        score: "4",
+        url: "https://www.facebook.com/circuitdigest",
+        tags: ["Electronics", "Tutorial", "Arduino", "IoT", "Projects"],
+        note: "适合观察教程型电子项目内容，尤其是 Arduino、传感器、IoT 和短平快项目标题。"
+      },
+      {
+        title: "PCBWay",
+        platform: "TikTok",
+        score: "3",
+        url: "https://www.tiktok.com/@pcbway",
+        tags: ["Short Video", "PCB", "Electronics", "Manufacturing"],
+        note: "可观察硬件制造类账号如何做短视频、工厂内容和工程师兴趣内容。互动数据建议后续复核。"
+      },
+      {
+        title: "Keysight Technologies",
+        platform: "TikTok",
+        score: "3",
+        url: "https://www.tiktok.com/@keysight",
+        tags: ["Short Video", "Test Equipment", "Engineer", "Electronics"],
+        note: "可作为工程师向短视频参考，关注测试测量、实验室场景和技术品牌年轻化表达。"
+      },
+      {
+        title: "Particle",
+        platform: "LinkedIn",
+        score: "4",
+        url: "https://www.linkedin.com/company/particle",
+        tags: ["IoT", "Cloud", "Developer", "Industrial IoT"],
+        note: "IoT 平台型公司，适合观察设备连接、云平台、工业 IoT 和开发者工具内容。"
+      },
+      {
+        title: "Quectel",
+        platform: "LinkedIn",
+        score: "4",
+        url: "https://www.linkedin.com/company/quectel-wireless-solutions",
+        tags: ["Module", "IoT", "Cellular", "GNSS", "Wireless"],
+        note: "无线通信模组公司，适合对标模组产品内容、行业展会、应用案例和 B2B 表达。"
+      },
+      {
+        title: "u-blox",
+        platform: "LinkedIn",
+        score: "4",
+        url: "https://www.linkedin.com/company/u-blox",
+        tags: ["Wireless", "GNSS", "IoT", "Module", "Automotive"],
+        note: "适合关注定位、无线模组、车载和工业 IoT 内容，可作为模组品牌内容参考。"
+      }
+    );
+
+    const excludedAccounts = new Set(["GreatScott!", "Andreas Spiess"]);
+    const curatedAccounts = accounts.filter(account => !excludedAccounts.has(account.title));
+
+    const list = document.querySelector("#list");
+    const count = document.querySelector("#count");
+    const platformFilter = document.querySelector("#platformFilter");
+
+    function getVisibleAccounts() {
+      if (platformFilter.value === "all") return curatedAccounts;
+      return curatedAccounts.filter(account => account.platform === platformFilter.value);
+    }
+
+    function render() {
+      const visibleAccounts = getVisibleAccounts();
+      count.textContent = `${visibleAccounts.length} 个账号`;
+      list.innerHTML = visibleAccounts.map(account => `
+        <article class="item">
+          <div class="item-head">
+            <h2><a href="${account.url}" target="_blank" rel="noopener noreferrer">${account.title}</a></h2>
+            <span class="score">Score ${account.score}</span>
+          </div>
+          <div class="meta">
+            <span>${account.platform}</span>
+            <span>${account.url}</span>
+          </div>
+          <div class="tags">
+            ${account.tags.map(tag => `<span class="tag">#${tag}</span>`).join("")}
+          </div>
+          <p class="note">${account.note}</p>
+        </article>
+      `).join("");
+    }
+
+    function toImportEntries(items) {
+      return items.map((account, index) => ({
+        id: `collected-${account.platform.toLowerCase()}-${account.title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}-${index + 1}`,
+        type: "account",
+        platform: account.platform,
+        score: account.score,
+        title: account.title,
+        url: account.url,
+        tags: account.tags,
+        note: account.note,
+        createdAt: new Date().toISOString()
+      }));
+    }
+
+    platformFilter.addEventListener("change", render);
+    document.querySelector("#exportBtn").addEventListener("click", () => {
+      const blob = new Blob([JSON.stringify(toImportEntries(getVisibleAccounts()), null, 2)], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = `collected-accounts-${platformFilter.value.toLowerCase()}-${new Date().toISOString().slice(0, 10)}.json`;
+      link.click();
+      URL.revokeObjectURL(url);
+    });
+
+    render();
+  </script>
+</body>
+</html>

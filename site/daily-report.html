@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Social Hot - AI 日报</title>
+  <style>
+    :root {
+      font-family: "PingFang SC", system-ui, sans-serif;
+      color: #e5edf8;
+      background: #090d18;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      min-height: 100vh;
+      background: #090d18;
+    }
+
+    .side-nav {
+      border-right: 1px solid rgba(148, 163, 184, 0.12);
+      background: #070b15;
+      padding: 18px 12px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 72px;
+      margin-bottom: 20px;
+      border: 1px solid rgba(148, 163, 184, 0.18);
+      border-radius: 16px;
+      background: linear-gradient(135deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
+      color: #dbeafe;
+      font-size: 18px;
+      font-weight: 800;
+    }
+
+    .logo span {
+      color: #22d3ee;
+    }
+
+    .side-link {
+      display: flex;
+      align-items: center;
+      min-height: 42px;
+      margin-bottom: 8px;
+      padding: 0 14px;
+      border: 1px solid transparent;
+      border-radius: 14px;
+      color: #8ea0ba;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .side-link.active {
+      border-color: rgba(34, 211, 238, 0.5);
+      background: rgba(8, 145, 178, 0.22);
+      color: #67e8f9;
+    }
+
+    main {
+      padding: 24px 28px;
+      background: linear-gradient(180deg, #0b1020 0, #080c16 100%);
+    }
+
+    .panel {
+      max-width: 900px;
+      border: 1px solid rgba(148, 163, 184, 0.16);
+      border-radius: 12px;
+      background: #111827;
+      padding: 24px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+    }
+
+    p {
+      color: #aab7ca;
+      line-height: 1.8;
+    }
+
+    .empty {
+      margin-top: 22px;
+      border-top: 1px solid rgba(148, 163, 184, 0.16);
+      padding-top: 18px;
+    }
+  </style>
+</head>
+<body>
+  <aside class="side-nav">
+    <div class="logo">AI&nbsp;<span>Social Hot</span></div>
+    <a class="side-link" href="collected-accounts.html">账号库</a>
+    <a class="side-link" href="content-captures.html">热门内容</a>
+    <a class="side-link" href="social-insight-board.html">主库</a>
+    <a class="side-link active" href="daily-report.html">AI 日报</a>
+    <a class="side-link" href="collection-rules.html">采集规则</a>
+  </aside>
+  <main>
+    <section class="panel">
+      <h1>AI 日报</h1>
+      <p>这里用于查看每天自动采集后的汇总：新增账号、热门内容、可转化选题和需要人工复核的内容。</p>
+      <p class="empty">今天的日报还没有写入页面。自动采集任务运行后，可以把摘要整理到这里。</p>
+    </section>
+  </main>
+</body>
+</html>
