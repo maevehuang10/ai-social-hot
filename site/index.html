@@ -1164,6 +1164,94 @@
         reason: "这类内容能给 Ai-Thinker 的海外选题提供灵感，比如智能家居、工业监测、无线传感器节点和边缘设备。",
         learn: "可以做：整理 3 个适合 ESP32 / LoRa / radar sensor 的开发者项目场景，做成 LinkedIn carousel。",
         createdAt: "2026-06-02T08:55:00.000Z"
+      },
+      {
+              "id": "seed-20260603-the-things-network",
+              "account": "The Things Network",
+              "platform": "Website",
+              "url": "https://www.thethingsnetwork.org/",
+              "heat": "5",
+              "tags": [
+                      "Industry",
+                      "LoRaWAN",
+                      "Community",
+                      "Developer"
+              ],
+              "title": "LoRaWAN community deployment signal",
+              "summary": "今日自动收录：社区规模和真实部署信息能说明技术生态是否活跃，适合用于判断 LoRaWAN 内容方向是否值得跟进。",
+              "metrics": [
+                      "Community scale visible on website",
+                      "Gateway/member data"
+              ],
+              "reason": "社区部署数据对工程师和方案商来说是很强的信任信号。",
+              "learn": "可以做：LoRaWAN 为什么适合远距离低功耗传感器，用社区规模和真实部署做背书。",
+              "createdAt": "2026-06-03T08:20:00.000Z"
+      },
+      {
+              "id": "seed-20260603-stmicroelectronics",
+              "account": "STMicroelectronics",
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/stmicroelectronics",
+              "heat": "4",
+              "tags": [
+                      "Industry",
+                      "Sensor",
+                      "MCU",
+                      "Industrial IoT"
+              ],
+              "title": "Sensor and MCU application story",
+              "summary": "今日自动收录：传感器和 MCU 应用内容适合工业物联网、智能设备和工程师用户，能启发雷达/传感器类内容表达。",
+              "metrics": [
+                      "Public reactions need manual review",
+                      "Official LinkedIn account"
+              ],
+              "reason": "它能帮助我们把硬件参数转成应用场景和工程价值。",
+              "learn": "可以做：雷达传感器如何帮助设备获得 presence detection 能力，突出应用场景而非只讲参数。",
+              "createdAt": "2026-06-03T08:35:00.000Z"
+      },
+      {
+              "id": "seed-20260603-silicon-labs",
+              "account": "Silicon Labs",
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/silicon-labs",
+              "heat": "4",
+              "tags": [
+                      "Industry",
+                      "Matter",
+                      "Wireless",
+                      "IoT"
+              ],
+              "title": "Wireless protocol education angle",
+              "summary": "今日自动收录：无线协议、Matter、边缘设备和智能家居内容适合观察技术品牌如何讲清复杂概念。",
+              "metrics": [
+                      "Public reactions need manual review",
+                      "Official LinkedIn account"
+              ],
+              "reason": "这类内容和 Ai-Thinker 的 Wi-Fi、BLE、LoRa、UWB 用户群体高度相关。",
+              "learn": "可以做：一张图讲清 Wi-Fi、BLE、LoRa、UWB 在 IoT 设备里的分工。",
+              "createdAt": "2026-06-03T08:45:00.000Z"
+      },
+      {
+              "id": "seed-20260603-digikey",
+              "account": "DigiKey",
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/digikey",
+              "heat": "4",
+              "tags": [
+                      "B2B",
+                      "Engineer",
+                      "Electronics",
+                      "Distributor"
+              ],
+              "title": "Engineer-friendly B2B content",
+              "summary": "今日自动收录：B2B 分销商内容适合观察工程师、采购和电子行业用户关心的问题，比如选型、供应链和应用资料。",
+              "metrics": [
+                      "Public reactions visible on LinkedIn",
+                      "Official account"
+              ],
+              "reason": "它更接近真实采购和工程决策语境，适合帮助 Ai-Thinker 做更专业可信的内容。",
+              "learn": "可以做：无线模组选型 checklist，帮助采购和工程师快速判断 Wi-Fi、LoRa、UWB 的差异。",
+              "createdAt": "2026-06-03T08:55:00.000Z"
       }
     ];
 
@@ -1382,7 +1470,7 @@
     }
 
     function getDateOptions() {
-      const fixedDates = ["5/29", "5/30", "5/31", "6/1", "6/2"];
+      const fixedDates = ["5/29", "5/30", "5/31", "6/1", "6/2", "6/3"];
       const captureDates = captures.map(item => getDateKey(item.createdAt));
       return ["all", ...new Set([...fixedDates, ...captureDates])];
     }
