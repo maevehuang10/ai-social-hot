@@ -2913,13 +2913,26 @@
         "IoT Industry":"成品"
       };
 
-      // Ai-Thinker 官方 Docs 学习条目
+      // Ai-Thinker 官方 Docs 学习条目 - RTL87xx 系列
       const OFFICIAL_DOCS = [
-        { title:"ESP32-C6 模组规格书", source:"Ai-Thinker Docs", date:"2026-06-15","product":"ESP32 Module",sourceType:"official",
-          summary:"WiFi 6 / BLE 5.3 / Thread / Matter 多协议模组，详细硬件参数与引脚定义。",
-          value:"阅读规格书了解 ESP32-C6 的 RF 性能、功耗模式和认证状态。",
-          tags:["ESP32-C6","WiFi 6","规格书"],
-          url:"https://docs.ai-thinker.com/esp32"}
+        { title:"BW16 双频 Wi-Fi + BLE 5.0 模组", source:"Ai-Thinker Docs", date:"2026-06-15","product":"WiFi Module",sourceType:"official",
+          summary:"基于瑞昱 RTL8720DN，2.4G/5G 双频 + BLE 5.0，双核 ARM V8/V8M MCU，支持 C SDK / Arduino / AT 指令三种开发方式，已适配 AWS IoT Core。",
+          value:"适合智能家居、工业物联网、低功耗传感器节点。提供 8Mbit/16Mbit 固件版本。",
+          tags:["BW16","RTL8720DN","双频WiFi","BLE 5.0","Arduino"],
+          url:"https://docs.ai-thinker.com/bw16/"
+        },
+        { title:"BW20 双频 Wi-Fi + BLE 5.0 高吞吐模组", source:"Ai-Thinker Docs", date:"2026-06-15","product":"WiFi Module",sourceType:"official",
+          summary:"基于瑞昱 RTL8711，2.4G/5G 双频 + BLE 5.0，ARM V8.1 主核 330MHz，主推高吞吐性能。提供 BW20-12F / BW20-07S 封装选项。",
+          value:"适合需要较高数据传输速率的 IoT 终端。基于 ameba-rtos SDK 进行 C 语言开发，支持 Combo AT 指令。",
+          tags:["BW20","RTL8711","双频WiFi","BLE 5.0","Ameba"],
+          url:"https://docs.ai-thinker.com/bw20/"
+        },
+        { title:"BW21-CBV 双频 Wi-Fi + AI 视觉摄像头模组", source:"Ai-Thinker Docs", date:"2026-06-15","product":"WiFi Module",sourceType:"official",
+          summary:"基于瑞昱 RTL8735B，2.4G/5G 双频 + BLE 5.1，ARM v8M 500MHz，内置 ISP + H.264/H.265 编码器，支持离线人脸识别和 YOLO 物品识别，可部署定制 AI 模型。",
+          value:"边缘 AI 视觉终端方案，支持在线模型转换和神经网络固件。适用于智能摄像头、AIoT 视觉终端等场景。",
+          tags:["BW21-CBV","RTL8735B","AI视觉","YOLO","H.265","摄像头"],
+          url:"https://docs.ai-thinker.com/bw21/"
+        }
       ];
 
       function escT(text) { return String(text||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;"); }
