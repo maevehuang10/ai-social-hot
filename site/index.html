@@ -669,6 +669,87 @@
       text-decoration: none;
     }
 
+    .simple-meta {
+      color: #5f6b79;
+      font-size: 12px;
+      margin-bottom: 6px;
+    }
+
+    /* 账号分类 */
+    .accounts-filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-top: 14px;
+    }
+
+    .accounts-filter-btn {
+      border: 1px solid rgba(148, 163, 184, 0.18);
+      border-radius: 999px;
+      background: rgba(255,255,255,0.03);
+      color: #8f9aaa;
+      padding: 6px 14px;
+      font: inherit;
+      font-size: 13px;
+      cursor: pointer;
+      transition: 0.15s;
+    }
+
+    .accounts-filter-btn:hover {
+      border-color: rgba(34, 211, 238, 0.5);
+      color: #eef3f8;
+    }
+
+    .accounts-filter-btn.active {
+      border-color: rgba(34, 211, 238, 0.6);
+      background: rgba(8, 145, 178, 0.2);
+      color: #67e8f9;
+      font-weight: 600;
+    }
+
+    .accounts-category-section {
+      margin-top: 20px;
+    }
+
+    .accounts-category-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid rgba(148, 163, 184, 0.09);
+    }
+
+    .accounts-category-header h2 {
+      margin: 0;
+      color: #d8e2f4;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .accounts-category-count {
+      background: rgba(34, 211, 238, 0.13);
+      border-radius: 999px;
+      color: #67e8f9;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 9px;
+      line-height: 1.6;
+    }
+
+    .accounts-category-grid {
+      display: grid;
+      gap: 8px;
+    }
+
+    .accounts-link-icon {
+      display: inline-block;
+      margin-left: 4px;
+      font-size: 11px;
+      opacity: 0.5;
+      vertical-align: middle;
+    }
+
     .tracker-panel {
       max-width: 1180px;
       padding: 22px;
@@ -1162,7 +1243,14 @@
     <section class="view" id="view-accounts">
       <div class="app-panel">
         <h1>账号库</h1>
-        <p>这里显示垂直相关的海外账号，优先收官方品牌、开发者社区、分销商、半导体/模组公司。</p>
+        <p>垂直相关的海外账号，按对标竞品、模组公司、分销商、开发者社区分类。点击标题可跳转到对应网址。</p>
+        <div class="accounts-filter-bar" id="accountsFilterBar">
+          <button class="accounts-filter-btn active" data-cat="all">全部</button>
+          <button class="accounts-filter-btn" data-cat="对标">🆚 对标</button>
+          <button class="accounts-filter-btn" data-cat="模组公司">📡 模组公司</button>
+          <button class="accounts-filter-btn" data-cat="分销商">📦 分销商</button>
+          <button class="accounts-filter-btn" data-cat="开发者社区">👥 开发者社区</button>
+        </div>
         <div class="simple-list" id="accountsViewList"></div>
       </div>
     </section>
@@ -2077,35 +2165,149 @@
     let activeDate = "all";
 
     const defaultAccounts = [
+      // ── 对标 ────────────────────────────────────────────────────────────
       {
         title: "RAKwireless",
+        category: "对标",
         platform: "LinkedIn",
         url: "https://www.linkedin.com/company/rakwireless/",
-        note: "LoRa/LoRaWAN、IoT 模组、网关、传感器节点内容垂直，适合跟踪产品生态和开发者社区打法。"
+        note: "LoRa/LoRaWAN、IoT 模组、网关、传感器节点内容垂直，是最直接的竞品参考。跟踪其产品生态和社区内容打法。"
       },
       {
-        title: "Semtech LoRa",
+        title: "Quectel",
+        category: "对标",
         platform: "LinkedIn",
-        url: "https://www.semtech.com/lora",
-        note: "LoRa 官方生态内容，适合跟踪 LPWAN、LoRaWAN、定位和云服务方向。"
+        url: "https://www.linkedin.com/company/quectelwireless/",
+        note: "全球最大无线模组厂商之一，产品涵盖蜂窝/GNSS/IoT，内容偏 B2B 和方案商。"
       },
       {
-        title: "The Things Network",
-        platform: "Website",
-        url: "https://www.thethingsnetwork.org/",
-        note: "LoRaWAN 开发者社区，适合观察真实部署、教程和案例内容。"
+        title: "Murata",
+        category: "对标",
+        platform: "LinkedIn",
+        url: "https://www.linkedin.com/company/muratamfg/",
+        note: "日系模组厂，WiFi/BT/LoRa 模组，内容偏技术规格与应用场景，适合参考海外高端市场打法。"
       },
       {
-        title: "DigiKey",
-        platform: "LinkedIn / Facebook / Website",
-        url: "https://www.linkedin.com/company/digikey",
-        note: "B2B 电子分销商，内容更接近工程师、采购和电子行业用户。"
+        title: "u-blox",
+        category: "对标",
+        platform: "LinkedIn",
+        url: "https://www.linkedin.com/company/u-blox/",
+        note: "定位与无线通信模组厂商，GNSS/LTE-M/NB-IoT，内容侧重工业和汽车 IoT 应用。"
+      },
+      {
+        title: "DIGI International",
+        category: "对标",
+        platform: "LinkedIn",
+        url: "https://www.linkedin.com/company/digi-international/",
+        note: "工业级 IoT 连接解决方案，网关/路由器/模组，适合跟踪工业物联网内容策略。"
+      },
+      // ── 模组公司 ─────────────────────────────────────────────────────────
+      {
+        title: "Espressif Systems",
+        category: "模组公司",
+        platform: "LinkedIn",
+        url: "https://www.linkedin.com/company/espressif-systems/",
+        note: "ESP32/ESP8266 原厂，WiFi/BT/Thread 模组，海外开发者基数极大，内容高互动。"
       },
       {
         title: "Nordic Semiconductor",
+        category: "模组公司",
         platform: "LinkedIn",
-        url: "https://www.linkedin.com/company/nordic-semiconductor-asa",
-        note: "Bluetooth、Matter、低功耗 IoT 和无线连接内容，适合智能硬件方向参考。"
+        url: "https://www.linkedin.com/company/nordic-semiconductor-asa/",
+        note: "Bluetooth、Matter、低功耗 IoT 和无线连接内容，适合智能硬件和可穿戴方向参考。"
+      },
+      {
+        title: "Semtech LoRa",
+        category: "模组公司",
+        platform: "LinkedIn",
+        url: "https://www.linkedin.com/company/semtech/",
+        note: "LoRa 芯片原厂，官方生态内容，适合跟踪 LPWAN、LoRaWAN、定位和云服务方向。"
+      },
+      {
+        title: "Silicon Labs",
+        category: "模组公司",
+        platform: "LinkedIn",
+        url: "https://www.linkedin.com/company/silicon-laboratories/",
+        note: "Zigbee/Z-Wave/BLE/Thread 模组，智能家居和工业 IoT 内容，Matter 方向活跃。"
+      },
+      {
+        title: "STMicroelectronics",
+        category: "模组公司",
+        platform: "LinkedIn",
+        url: "https://www.linkedin.com/company/stmicroelectronics/",
+        note: "STM32 系列广泛用于嵌入式和 IoT，内容涵盖评估板、开发工具和应用案例。"
+      },
+      // ── 分销商 ───────────────────────────────────────────────────────────
+      {
+        title: "DigiKey",
+        category: "分销商",
+        platform: "LinkedIn",
+        url: "https://www.linkedin.com/company/digikey/",
+        note: "B2B 电子分销商，内容更接近工程师、采购和电子行业用户，适合观察器件推广策略。"
+      },
+      {
+        title: "Mouser Electronics",
+        category: "分销商",
+        platform: "LinkedIn",
+        url: "https://www.linkedin.com/company/mouser-electronics/",
+        note: "大型元器件分销商，内容偏新品推广和工程师教育，与 DigiKey 是最主要的两大对标。"
+      },
+      {
+        title: "Arrow Electronics",
+        category: "分销商",
+        platform: "LinkedIn",
+        url: "https://www.linkedin.com/company/arrow-electronics/",
+        note: "全球最大电子元器件及企业计算解决方案分销商之一，内容偏供应链和 B2B 方案。"
+      },
+      {
+        title: "SparkFun Electronics",
+        category: "分销商",
+        platform: "LinkedIn",
+        url: "https://www.linkedin.com/company/sparkfun-electronics/",
+        note: "开源硬件分销商，内容偏 Maker 和教育场景，适合观察 DIY 开发者市场内容策略。"
+      },
+      {
+        title: "Seeed Studio",
+        category: "分销商",
+        platform: "LinkedIn",
+        url: "https://www.linkedin.com/company/seeed-studio/",
+        note: "中国出海开源硬件厂商+分销商，Grove/XIAO 生态，内容策略成熟，有很强参考价值。"
+      },
+      // ── 开发者社区 ───────────────────────────────────────────────────────
+      {
+        title: "The Things Network",
+        category: "开发者社区",
+        platform: "Website",
+        url: "https://www.thethingsnetwork.org/",
+        note: "LoRaWAN 开发者社区，适合观察真实部署、教程和案例内容，IoT 爱好者基础扎实。"
+      },
+      {
+        title: "Hackster.io",
+        category: "开发者社区",
+        platform: "Website",
+        url: "https://www.hackster.io/",
+        note: "最大的开发者项目分享平台，IoT/嵌入式内容丰富，可以获取真实的用户创作选题灵感。"
+      },
+      {
+        title: "Instructables",
+        category: "开发者社区",
+        platform: "Website",
+        url: "https://www.instructables.com/",
+        note: "DIY 项目教程社区，覆盖 Arduino/Raspberry Pi/ESP32 等，适合观察入门教程的内容结构。"
+      },
+      {
+        title: "Adafruit Industries",
+        category: "开发者社区",
+        platform: "LinkedIn",
+        url: "https://www.linkedin.com/company/adafruit-industries/",
+        note: "开源硬件和教程社区，内容活跃度高，适合学习如何用教育性内容吸引开发者。"
+      },
+      {
+        title: "Arduino",
+        category: "开发者社区",
+        platform: "LinkedIn",
+        url: "https://www.linkedin.com/company/arduino-llc/",
+        note: "全球最大嵌入式开发者入门平台，内容以项目分享和官方更新为主，受众广泛。"
       }
     ];
 
@@ -2170,25 +2372,82 @@
       });
     }
 
+    const ACCOUNT_CATEGORIES = ["对标", "模组公司", "分销商", "开发者社区"];
+    let activeAccountCat = "all";
+
     function renderAccountsView() {
       const mainAccounts = loadMainEntries()
         .filter(item => item.type === "account")
         .map(item => ({
           title: item.title,
+          category: item.category || "其他",
           platform: item.platform,
           url: item.url,
           note: item.note
         }));
-      const accounts = uniqueByTitle([...mainAccounts, ...defaultAccounts]);
+      const allAccounts = uniqueByTitle([...mainAccounts, ...defaultAccounts]);
 
-      accountsViewList.innerHTML = accounts.map(account => `
+      // 按分类过滤
+      const filtered = activeAccountCat === "all"
+        ? allAccounts
+        : allAccounts.filter(a => a.category === activeAccountCat);
+
+      if (activeAccountCat === "all") {
+        // 分类分组渲染
+        const byCat = {};
+        ACCOUNT_CATEGORIES.forEach(cat => { byCat[cat] = []; });
+        filtered.forEach(a => {
+          const cat = ACCOUNT_CATEGORIES.includes(a.category) ? a.category : "其他";
+          if (!byCat[cat]) byCat[cat] = [];
+          byCat[cat].push(a);
+        });
+
+        accountsViewList.innerHTML = ACCOUNT_CATEGORIES
+          .filter(cat => byCat[cat] && byCat[cat].length > 0)
+          .map(cat => `
+            <div class="accounts-category-section">
+              <div class="accounts-category-header">
+                <h2>${escapeHtml(cat)}</h2>
+                <span class="accounts-category-count">${byCat[cat].length}</span>
+              </div>
+              <div class="accounts-category-grid">
+                ${byCat[cat].map(account => renderAccountCard(account)).join("")}
+              </div>
+            </div>
+          `).join("");
+      } else {
+        accountsViewList.innerHTML = `
+          <div class="accounts-category-grid">
+            ${filtered.map(account => renderAccountCard(account)).join("")}
+          </div>`;
+      }
+    }
+
+    function renderAccountCard(account) {
+      const platformLinks = account.platform ? account.platform.split("/").map(p => p.trim()) : ["Unknown"];
+      return `
         <article class="simple-card">
-          <h2>${account.url ? `<a href="${account.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(account.title)}</a>` : escapeHtml(account.title)}</h2>
-          <div class="simple-meta">${escapeHtml(account.platform || "Unknown")}</div>
+          <h2>
+            ${account.url
+              ? `<a href="${escapeHtml(account.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(account.title)}<span class="accounts-link-icon">↗</span></a>`
+              : escapeHtml(account.title)}
+          </h2>
+          <div class="simple-meta">${escapeHtml(platformLinks.join(" · "))}</div>
           <p>${escapeHtml(account.note || "待补充账号价值判断。")}</p>
         </article>
-      `).join("");
+      `;
     }
+
+    // 分类筛选按钮绑定
+    document.getElementById("accountsFilterBar").addEventListener("click", e => {
+      const btn = e.target.closest("[data-cat]");
+      if (!btn) return;
+      activeAccountCat = btn.dataset.cat;
+      document.querySelectorAll(".accounts-filter-btn").forEach(b => {
+        b.classList.toggle("active", b.dataset.cat === activeAccountCat);
+      });
+      renderAccountsView();
+    });
 
     function renderMainView() {
       const entries = loadMainEntries();
