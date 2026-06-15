@@ -1332,6 +1332,160 @@
 
     .learn-day-summary strong { color: #aab7ca; }
 
+    /* ── 每日选题 ── */
+    .picks-panel { padding: 28px 34px; }
+
+    .picks-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 18px 0 20px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid rgba(148,163,184,0.1);
+    }
+
+    .picks-date { color: #8f9aaa; font-size: 14px; }
+    .picks-date span { color: #f8fafc; font-weight: 700; }
+
+    .picks-refresh {
+      border: 1px solid rgba(34,211,238,0.3);
+      border-radius: 6px;
+      background: rgba(8,145,178,0.12);
+      color: #67e8f9;
+      padding: 5px 14px;
+      font: inherit;
+      font-size: 12px;
+      cursor: pointer;
+    }
+    .picks-refresh:hover { background: rgba(8,145,178,0.22); }
+
+    .picks-cards { display: grid; gap: 16px; }
+
+    .picks-card {
+      border: 1px solid rgba(148,163,184,0.1);
+      border-radius: 12px;
+      background: #0d1424;
+      overflow: hidden;
+    }
+
+    .picks-card-rank {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      font-size: 13px;
+      font-weight: 800;
+      flex: 0 0 auto;
+    }
+    .picks-card-rank.r1 { background: linear-gradient(135deg,#ffb86b,#f97316); color:#000; }
+    .picks-card-rank.r2 { background: linear-gradient(135deg,#c0c0c0,#94a3b8); color:#000; }
+    .picks-card-rank.r3 { background: linear-gradient(135deg,#cd853f,#a0522d); color:#fff; }
+
+    .picks-card-body { padding: 18px 20px; }
+
+    .picks-card-top {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+
+    .picks-card-top h2 {
+      margin: 0;
+      color: #f8fafc;
+      font-size: 17px;
+      line-height: 1.5;
+      flex: 1;
+    }
+
+    .picks-card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+      color: #5f6b79;
+      font-size: 12px;
+    }
+
+    .picks-card-meta .score-badge {
+      border: 1px solid rgba(255,184,107,0.34);
+      border-radius: 4px;
+      color: #ffb86b;
+      background: rgba(255,184,107,0.1);
+      padding: 2px 7px;
+      font-weight: 700;
+      font-size: 12px;
+    }
+
+    .picks-card-summary {
+      color: #8f9aaa;
+      font-size: 13px;
+      line-height: 1.7;
+      margin-bottom: 12px;
+    }
+
+    .picks-card-foot {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      flex-wrap: wrap;
+      padding-top: 10px;
+      border-top: 1px solid rgba(148,163,184,0.07);
+    }
+
+    .picks-platforms {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .picks-platforms-label {
+      color: #5f6b79;
+      font-size: 11px;
+      margin-right: 2px;
+    }
+
+    .picks-plat-tag {
+      border: 1px solid rgba(192,132,252,0.3);
+      border-radius: 999px;
+      color: #dabaff;
+      background: rgba(192,132,252,0.1);
+      padding: 3px 10px;
+      font-size: 11px;
+      font-weight: 600;
+    }
+
+    .picks-actions {
+      display: flex;
+      gap: 8px;
+    }
+
+    .picks-btn {
+      border: 1px solid rgba(255,255,255,0.14);
+      border-radius: 6px;
+      background: rgba(255,255,255,0.04);
+      color: #eef3f8;
+      padding: 5px 12px;
+      font: inherit;
+      font-size: 12px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: 0.15s;
+    }
+
+    .picks-btn:hover { border-color: rgba(34,211,238,0.4); color: #67e8f9; }
+    .picks-btn.primary {
+      border-color: rgba(255,111,177,0.35);
+      background: rgba(255,111,177,0.12);
+      color: #ff6fb1;
+    }
+    .picks-btn.primary:hover { background: rgba(255,111,177,0.22); }
+
     .simple-meta {
       color: #8ea0ba;
       font-size: 13px;
@@ -1396,6 +1550,7 @@
     <a class="logo" href="#hot" id="homeLink">AI&nbsp;<span>Social Hot</span></a>
     <a class="side-link" href="#accounts" data-view="accounts">账号库</a>
     <a class="side-link" href="#tracker" data-view="tracker">内容追踪</a>
+    <a class="side-link" href="#picks" data-view="picks">每日选题</a>
     <a class="side-link active" href="#hot" data-view="hot">热门内容</a>
 
 
@@ -1559,6 +1714,20 @@
 
         <div class="learn-timeline" id="trackerCards">
           <div class="tracker-empty">正在加载…</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="view" id="view-picks">
+      <div class="app-panel picks-panel">
+        <h1>每日选题</h1>
+        <p>根据物联网模组行业资讯，每日自动精选 3 条最有价值的内容，标注推荐发布平台。</p>
+        <div class="picks-header">
+          <div class="picks-date">📅 <span id="picksDate">2026-06-15</span></div>
+          <button class="picks-refresh" id="picksRefresh" type="button">刷新推荐</button>
+        </div>
+        <div class="picks-cards" id="picksCards">
+          <div class="tracker-empty">正在分析今日资讯…</div>
         </div>
       </div>
     </section>
@@ -2945,6 +3114,7 @@
     render();
     renderAccountsView();
     initTracker();
+    initPicks();
 
     const initialView = location.hash.replace("#", "") || "hot";
     if (document.querySelector(`#view-${initialView}`)) showView(initialView);
@@ -3098,6 +3268,79 @@
         render();
       }
 
+      load();
+    }
+
+    // ── 每日选题 ── Top 3 推荐 ──────────────────────────────────────────────
+    function initPicks() {
+      const cardsEl = document.getElementById("picksCards");
+      const dateEl = document.getElementById("picksDate");
+      const refreshBtn = document.getElementById("picksRefresh");
+
+      function escT(text) { return String(text||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;"); }
+
+      const RANK_CLASS = ["r1","r2","r3"];
+      const RANK_EMOJI = ["🥇","🥈","🥉"];
+
+      async function load() {
+        const today = new Date().toISOString().slice(0,10);
+        dateEl.textContent = today;
+
+        let allTopics = [];
+        try {
+          const res = await fetch("social-content-tracker/topics.json?ts=" + Date.now());
+          if (res.ok) { const d = await res.json(); if (Array.isArray(d.topics)) allTopics = d.topics; }
+        } catch(e) {}
+
+        // 按分数排序，取 top 3
+        const top3 = allTopics
+          .filter(t => t.score && t.url)
+          .sort((a,b) => b.score - a.score)
+          .slice(0, 3);
+
+        if (!top3.length) {
+          cardsEl.innerHTML = '<div class="tracker-empty">暂无推荐内容，等待自动采集更新。</div>';
+          return;
+        }
+
+        cardsEl.innerHTML = top3.map((t, i) => {
+          const platforms = (t.platforms || []).filter(Boolean);
+          return `<article class="picks-card">
+            <div class="picks-card-body">
+              <div class="picks-card-top">
+                <span class="picks-card-rank ${RANK_CLASS[i]}">${i+1}</span>
+                <h2>${escT(t.title)}</h2>
+              </div>
+              <div class="picks-card-meta">
+                ${t.source ? `<span>${escT(t.source)}</span>` : ""}
+                <span class="score-badge">${t.score}分</span>
+                ${t.product ? `<span>${escT(t.product)}</span>` : ""}
+              </div>
+              <p class="picks-card-summary">${escT(t.summary || t.value || "")}</p>
+              <div class="picks-card-foot">
+                <div class="picks-platforms">
+                  <span class="picks-platforms-label">推荐发布：</span>
+                  ${platforms.length ? platforms.map(p=>`<span class="picks-plat-tag">${escT(p)}</span>`).join("") : '<span class="picks-plat-tag">LinkedIn</span>'}
+                </div>
+                <div class="picks-actions">
+                  ${t.url ? `<a class="picks-btn" href="${escT(t.url)}" target="_blank" rel="noopener">来源 ↗</a>` : ""}
+                  <button class="picks-btn primary" data-copy="${escT(t.title)}">复制标题</button>
+                </div>
+              </div>
+            </div>
+          </article>`;
+        }).join("");
+
+        cardsEl.querySelectorAll("[data-copy]").forEach(btn => {
+          btn.addEventListener("click", () => {
+            navigator.clipboard.writeText(btn.dataset.copy).then(() => {
+              btn.textContent = "已复制"; setTimeout(()=>{btn.textContent="复制标题"},1400);
+            });
+          });
+        });
+      }
+
+      refreshBtn.addEventListener("click", load);
       load();
     }
   </script>
