@@ -1,0 +1,2397 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Content Captures</title>
+  <style>
+    :root {
+      --bg: #fbf8ff;
+      --text: #211827;
+      --muted: #756a82;
+      --line: #eadff4;
+      --accent: #8b5cf6;
+      --panel: #ffffff;
+      --soft: #f3eefe;
+      --dark-card: #101322;
+      --dark-card-2: #071923;
+      --cyan: #22d3ee;
+      font-family: "PingFang SC", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: linear-gradient(180deg, #f7f1ff 0, #ffffff 260px, var(--bg) 100%);
+      color: var(--text);
+    }
+
+    button,
+    input,
+    select,
+    textarea {
+      font: inherit;
+    }
+
+    .page {
+      width: min(980px, 100%);
+      margin: 0 auto;
+      padding: 0 20px 56px;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      min-height: 58px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin: 0 -20px 30px;
+      padding: 0 20px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(251, 248, 255, 0.92);
+      backdrop-filter: blur(12px);
+    }
+
+    .brand {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .button {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: var(--panel);
+      color: var(--text);
+      padding: 8px 12px;
+      font-size: 14px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+      line-height: 1.25;
+    }
+
+    .subtitle {
+      max-width: 720px;
+      margin: 0 0 20px;
+      color: var(--muted);
+      line-height: 1.8;
+    }
+
+    .filter-hero {
+      margin-bottom: 22px;
+      border: 1px solid rgba(148, 163, 184, 0.22);
+      border-radius: 10px;
+      background:
+        radial-gradient(circle at 0 0, rgba(34, 211, 238, 0.16), transparent 34%),
+        linear-gradient(135deg, var(--dark-card-2), var(--dark-card));
+      color: #e5eef8;
+      overflow: hidden;
+      box-shadow: 0 18px 45px rgba(45, 35, 67, 0.12);
+    }
+
+    .filter-title {
+      padding: 18px 20px 12px;
+    }
+
+    .filter-title h1 {
+      margin: 0 0 4px;
+      font-size: 24px;
+      color: #f8fbff;
+    }
+
+    .filter-title p {
+      margin: 0;
+      color: #8fb0c1;
+      font-size: 13px;
+    }
+
+    .filter-panel {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      padding: 10px 20px 18px;
+      border-top: 1px solid rgba(148, 163, 184, 0.14);
+      border-bottom: 1px solid rgba(148, 163, 184, 0.12);
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    .segmented {
+      display: inline-flex;
+      align-items: center;
+      gap: 2px;
+      min-height: 34px;
+      padding: 3px;
+      border: 1px solid rgba(148, 163, 184, 0.32);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.07);
+    }
+
+    .segmented button {
+      min-width: 62px;
+      border: 0;
+      border-radius: 999px;
+      background: transparent;
+      color: #b9c5d6;
+      cursor: pointer;
+      padding: 6px 14px;
+      font-size: 13px;
+    }
+
+    .segmented button.active {
+      background: rgba(14, 165, 233, 0.32);
+      color: #67e8f9;
+      box-shadow: inset 0 0 0 1px rgba(103, 232, 249, 0.32);
+    }
+
+    .date-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 14px 24px;
+      color: #8ecae6;
+      font-size: 14px;
+    }
+
+    .date-row button {
+      border: 1px solid transparent;
+      border-radius: 999px;
+      background: transparent;
+      color: #8ecae6;
+      cursor: pointer;
+      padding: 7px 14px;
+      font: inherit;
+    }
+
+    .date-row button.active {
+      border-color: rgba(34, 211, 238, 0.45);
+      background: rgba(8, 145, 178, 0.22);
+      color: #67e8f9;
+    }
+
+    .toolbar {
+      display: grid;
+      grid-template-columns: 1fr 120px;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: var(--panel);
+      color: var(--text);
+      padding: 9px 10px;
+      outline: none;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+      border-color: #c4b5fd;
+      box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.12);
+    }
+
+    .capture-form {
+      margin-bottom: 22px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: rgba(255, 255, 255, 0.82);
+      padding: 16px;
+    }
+
+    .capture-form summary {
+      cursor: pointer;
+      font-weight: 700;
+      list-style: none;
+    }
+
+    .capture-form summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .capture-form summary::after {
+      content: "+";
+      float: right;
+      color: var(--muted);
+    }
+
+    .capture-form[open] summary::after {
+      content: "-";
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .form-grid .wide {
+      grid-column: 1 / -1;
+    }
+
+    label {
+      display: grid;
+      gap: 6px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    textarea {
+      min-height: 78px;
+      resize: vertical;
+      line-height: 1.7;
+    }
+
+    .list {
+      border-top: 1px solid var(--line);
+    }
+
+    .item {
+      padding: 18px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .item-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+    }
+
+    .post-source {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      margin-bottom: 8px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .post-source strong {
+      color: var(--text);
+      font-weight: 700;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 20px;
+      line-height: 1.45;
+    }
+
+    .heat {
+      flex: 0 0 auto;
+      color: var(--accent);
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    .meta,
+    .tags,
+    .metrics {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .metric {
+      border-radius: 999px;
+      background: var(--soft);
+      color: #5b3b89;
+      padding: 3px 8px;
+    }
+
+    .tag {
+      color: #665875;
+    }
+
+    .note {
+      margin: 12px 0 0;
+      color: #43384f;
+      line-height: 1.8;
+    }
+
+    .summary {
+      margin: 12px 0 0;
+      color: var(--text);
+      line-height: 1.8;
+    }
+
+    .capture-image {
+      display: block;
+      width: min(320px, 100%);
+      max-height: 220px;
+      object-fit: cover;
+      margin-top: 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--soft);
+    }
+
+    .learn {
+      margin: 10px 0 0;
+      color: #2f2638;
+      line-height: 1.8;
+    }
+
+    .learn strong {
+      color: var(--accent);
+    }
+
+    .empty {
+      padding: 28px 0;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    @media (max-width: 760px) {
+      .page {
+        padding: 0 16px 40px;
+      }
+
+      .topbar {
+        align-items: flex-start;
+        flex-direction: column;
+        margin: 0 -16px 24px;
+        padding: 12px 16px;
+      }
+
+      .toolbar,
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .item-head {
+        display: block;
+      }
+
+      .heat {
+        display: block;
+        margin-top: 6px;
+      }
+    }
+    body {
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      min-height: 100vh;
+      background: #090d18;
+      color: #e5edf8;
+    }
+
+    .side-nav {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      border-right: 1px solid rgba(148, 163, 184, 0.12);
+      background: #070b15;
+      padding: 18px 12px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 72px;
+      margin-bottom: 20px;
+      border: 1px solid rgba(148, 163, 184, 0.18);
+      border-radius: 16px;
+      background: linear-gradient(135deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
+      color: #dbeafe;
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: 0;
+      text-decoration: none;
+    }
+
+    .logo span {
+      color: #22d3ee;
+    }
+
+    .side-link {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-height: 42px;
+      margin-bottom: 8px;
+      padding: 0 14px;
+      border: 1px solid transparent;
+      border-radius: 14px;
+      color: #8ea0ba;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .side-link.active {
+      border-color: rgba(34, 211, 238, 0.5);
+      background: rgba(8, 145, 178, 0.22);
+      color: #67e8f9;
+    }
+
+    .side-link:hover {
+      color: #dbeafe;
+    }
+
+    .side-action {
+      width: 100%;
+      border: 1px solid rgba(34, 211, 238, 0.24);
+      background: transparent;
+      cursor: pointer;
+      text-align: left;
+    }
+
+    .page {
+      width: 100%;
+      max-width: none;
+      margin: 0;
+      padding: 24px 28px 56px;
+      background: linear-gradient(180deg, #0b1020 0, #0a0f1d 40%, #080c16 100%);
+    }
+
+    .topbar {
+      display: none;
+    }
+
+    .filter-hero {
+      margin: 0 0 18px;
+      border-color: rgba(148, 163, 184, 0.16);
+      border-radius: 10px;
+      background:
+        radial-gradient(circle at 0 0, rgba(34, 211, 238, 0.18), transparent 28%),
+        linear-gradient(135deg, #0c2430, #111421 62%, #0f1320);
+      box-shadow: none;
+    }
+
+    .toolbar {
+      grid-template-columns: minmax(280px, 1fr) 120px;
+      max-width: 780px;
+    }
+
+    .toolbar input,
+    .toolbar select,
+    .capture-form input,
+    .capture-form select,
+    .capture-form textarea {
+      border-color: rgba(148, 163, 184, 0.18);
+      background: #0d1424;
+      color: #e5edf8;
+    }
+
+    .capture-form {
+      border-color: rgba(148, 163, 184, 0.16);
+      background: #0d1424;
+      color: #e5edf8;
+    }
+
+    .timeline {
+      display: grid;
+      gap: 18px;
+    }
+
+    .day-block {
+      display: grid;
+      gap: 10px;
+    }
+
+    .day-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      width: max-content;
+      margin-left: 10px;
+      color: #8ecae6;
+      font-size: 15px;
+    }
+
+    .day-label::after {
+      content: "⌄";
+      color: #5f7892;
+      font-size: 13px;
+    }
+
+    .timeline-row {
+      display: grid;
+      grid-template-columns: 80px 18px minmax(0, 1fr);
+      column-gap: 14px;
+      position: relative;
+    }
+
+    .timeline-row::before {
+      content: "";
+      position: absolute;
+      left: 88px;
+      top: 0;
+      bottom: -18px;
+      width: 1px;
+      background: rgba(96, 165, 250, 0.22);
+    }
+
+    .time {
+      padding-top: 12px;
+      color: #f8fafc;
+      font-size: 20px;
+      font-weight: 800;
+      text-align: right;
+    }
+
+    .dot {
+      z-index: 1;
+      width: 9px;
+      height: 9px;
+      margin-top: 20px;
+      border-radius: 999px;
+      background: #34d399;
+      box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.12);
+    }
+
+    .item {
+      border: 1px solid rgba(148, 163, 184, 0.12);
+      border-radius: 14px;
+      background: linear-gradient(180deg, rgba(22, 28, 45, 0.96), rgba(17, 24, 39, 0.96));
+      padding: 14px 16px;
+    }
+
+    .item + .item {
+      margin-top: 10px;
+    }
+
+    .item-title-link,
+    .item-title-text {
+      color: #f8fafc;
+      text-decoration: none;
+    }
+
+    .item-title-link:hover {
+      color: #67e8f9;
+    }
+
+    .meta,
+    .tags,
+    .metrics {
+      color: #8ea0ba;
+    }
+
+    .note,
+    .learn {
+      color: #b8c4d7;
+    }
+
+    .metric {
+      background: rgba(148, 163, 184, 0.13);
+      color: #cbd5e1;
+    }
+
+    .tag {
+      border-radius: 6px;
+      background: rgba(148, 163, 184, 0.14);
+      color: #cbd5e1;
+      padding: 3px 8px;
+    }
+
+    .empty {
+      color: #8ea0ba;
+    }
+
+    .view {
+      display: none;
+    }
+
+    .view.active {
+      display: block;
+    }
+
+    .app-panel {
+      max-width: 980px;
+      border: 1px solid rgba(148, 163, 184, 0.16);
+      border-radius: 14px;
+      background: #111827;
+      padding: 22px;
+    }
+
+    .app-panel h1 {
+      margin: 0 0 8px;
+      color: #f8fafc;
+      font-size: 26px;
+    }
+
+    .app-panel p {
+      color: #aab7ca;
+      line-height: 1.8;
+    }
+
+    .simple-list {
+      display: grid;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .account-groups {
+      display: grid;
+      gap: 18px;
+      margin-top: 20px;
+    }
+
+    .account-group {
+      display: grid;
+      gap: 10px;
+    }
+
+    .account-group-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 12px;
+      border-bottom: 1px solid rgba(148, 163, 184, 0.14);
+      padding-bottom: 10px;
+    }
+
+    .account-group-head h2 {
+      margin: 0;
+      color: #f8fafc;
+      font-size: 20px;
+    }
+
+    .account-group-head p {
+      margin: 4px 0 0;
+      color: #8ea0ba;
+      line-height: 1.6;
+      font-size: 14px;
+    }
+
+    .account-count {
+      flex: 0 0 auto;
+      border-radius: 999px;
+      background: rgba(34, 211, 238, 0.12);
+      color: #67e8f9;
+      padding: 4px 10px;
+      font-size: 13px;
+    }
+
+    .account-card-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .simple-card {
+      border: 1px solid rgba(148, 163, 184, 0.12);
+      border-radius: 12px;
+      background: #0d1424;
+      padding: 14px 16px;
+    }
+
+    .simple-card h2 {
+      margin: 0 0 8px;
+      color: #f8fafc;
+      font-size: 18px;
+    }
+
+    .simple-card a {
+      color: #67e8f9;
+      text-decoration: none;
+    }
+
+    .account-link {
+      display: inline-flex;
+      width: fit-content;
+      margin-top: 10px;
+      border: 1px solid rgba(34, 211, 238, 0.28);
+      border-radius: 6px;
+      background: rgba(8, 145, 178, 0.12);
+      color: #67e8f9;
+      padding: 7px 10px;
+      font-size: 13px;
+      text-decoration: none;
+    }
+
+    .tracker-panel {
+      max-width: 1180px;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .tracker-head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 22px;
+      border-bottom: 1px solid rgba(148, 163, 184, 0.14);
+    }
+
+    .tracker-head h1 {
+      margin: 0 0 8px;
+    }
+
+    .tracker-head p {
+      max-width: 760px;
+      margin: 0;
+    }
+
+    .tracker-open {
+      flex: 0 0 auto;
+      border: 1px solid rgba(34, 211, 238, 0.34);
+      border-radius: 6px;
+      background: rgba(8, 145, 178, 0.18);
+      color: #67e8f9;
+      padding: 9px 12px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .tracker-frame {
+      width: 100%;
+      height: min(78vh, 820px);
+      min-height: 640px;
+      border: 0;
+      background: #080b10;
+      display: block;
+    }
+
+    .simple-meta {
+      color: #8ea0ba;
+      font-size: 13px;
+    }
+
+    @media (max-width: 860px) {
+      body {
+        display: block;
+      }
+
+      .side-nav {
+        position: static;
+        height: auto;
+        display: flex;
+        gap: 8px;
+        overflow-x: auto;
+      }
+
+      .logo {
+        min-width: 120px;
+        height: 42px;
+        margin: 0;
+        border-radius: 12px;
+        font-size: 16px;
+      }
+
+      .side-link {
+        flex: 0 0 auto;
+        margin: 0;
+      }
+
+      .page {
+        padding: 18px 14px 40px;
+      }
+
+      .timeline-row {
+        grid-template-columns: 58px 14px minmax(0, 1fr);
+        column-gap: 10px;
+      }
+
+      .timeline-row::before {
+        left: 65px;
+      }
+
+      .time {
+        font-size: 15px;
+      }
+
+      .account-group-head {
+        display: block;
+      }
+
+      .account-count {
+        display: inline-flex;
+        margin-top: 8px;
+      }
+
+      .account-card-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .tracker-head {
+        display: block;
+      }
+
+      .tracker-open {
+        display: inline-flex;
+        margin-top: 14px;
+      }
+
+      .tracker-frame {
+        height: 760px;
+        min-height: 640px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <aside class="side-nav">
+    <a class="logo" href="#hot" id="homeLink">AI&nbsp;<span>Social Hot</span></a>
+    <a class="side-link" href="#accounts" data-view="accounts">账号库</a>
+    <a class="side-link active" href="#hot" data-view="hot">热门内容</a>
+    <a class="side-link" href="#tracker" data-view="tracker">内容追踪</a>
+    <a class="side-link" href="#main" data-view="main">主库</a>
+    <a class="side-link" href="#report" data-view="report">AI 日报</a>
+    <a class="side-link" href="#rules" data-view="rules">采集规则</a>
+    <button class="side-link side-action" id="shareBtn" type="button">生成分享版</button>
+  </aside>
+  <main class="page">
+    <nav class="topbar">
+      <p class="brand">AI Social Hot</p>
+      <div class="nav">
+        <a class="button" href="collected-accounts.html">账号库</a>
+        <a class="button" href="social-insight-board.html">主库</a>
+        <button class="button" id="exportBtn" type="button">导出 JSON</button>
+      </div>
+    </nav>
+
+    <section class="view active" id="view-hot">
+    <header class="filter-hero">
+      <div class="filter-title">
+        <h1>全部热门内容</h1>
+        <p>只收垂直相关内容：IoT、无线模组、传感器、开发者硬件、工程师教程和 B2B 技术营销。</p>
+      </div>
+      <div class="filter-panel">
+        <div class="segmented" id="platformTabs" aria-label="平台筛选">
+          <button class="active" type="button" data-value="all">全部</button>
+          <button type="button" data-value="LinkedIn">领英</button>
+          <button type="button" data-value="Facebook">Facebook</button>
+          <button type="button" data-value="TikTok">TikTok</button>
+          <button type="button" data-value="YouTube">YouTube</button>
+          <button type="button" data-value="Website">网站</button>
+        </div>
+        <div class="segmented" id="topicTabs" aria-label="内容类型筛选">
+          <button class="active" type="button" data-value="all">全部</button>
+          <button type="button" data-value="Official">官方</button>
+          <button type="button" data-value="Product">产品</button>
+          <button type="button" data-value="Industry">行业</button>
+          <button type="button" data-value="Tutorial">教程</button>
+          <button type="button" data-value="B2B">B2B</button>
+        </div>
+      </div>
+      <div class="date-row" id="dateTabs"></div>
+    </header>
+
+    <details class="capture-form">
+      <summary>手动添加一条内容</summary>
+      <form class="form-grid" id="captureForm">
+        <label>
+          平台
+          <select id="platform">
+            <option value="LinkedIn">LinkedIn</option>
+            <option value="Facebook">Facebook</option>
+            <option value="TikTok">TikTok</option>
+            <option value="YouTube">YouTube</option>
+            <option value="Website">Website</option>
+          </select>
+        </label>
+        <label>
+          热度评分
+          <select id="heat">
+            <option value="5">5 - 很值得复盘</option>
+            <option value="4">4 - 值得参考</option>
+            <option value="3">3 - 普通参考</option>
+          </select>
+        </label>
+        <label>
+          账号
+          <input id="account" type="text" placeholder="例如：Arduino" required>
+        </label>
+        <label>
+          内容链接
+          <input id="url" type="url" placeholder="https://">
+        </label>
+        <label class="wide">
+          内容标题
+          <input id="title" type="text" placeholder="例如：New project demo / ESP32 smart home test" required>
+        </label>
+        <label class="wide">
+          大概内容
+          <textarea id="summary" placeholder="简单记录这条帖子主要讲了什么，用户为什么会停下来读。"></textarea>
+        </label>
+        <label class="wide">
+          图片链接
+          <input id="imageUrl" type="url" placeholder="https://...">
+        </label>
+        <label>
+          公开指标
+          <input id="metrics" type="text" placeholder="例如：120K views, 3.4K likes, 180 comments">
+        </label>
+        <label>
+          标签
+          <input id="tags" type="text" placeholder="ESP32, Tutorial, Short Video">
+        </label>
+        <label class="wide">
+          为什么受欢迎
+          <textarea id="reason" placeholder="记录它吸引用户的点：开头、场景、标题、评论区反馈、演示方式等。" required></textarea>
+        </label>
+        <label class="wide">
+          可借鉴成什么内容
+          <textarea id="learn" placeholder="写成我们自己的选题，例如：做一条 LoRa 模组真实距离测试短视频。"></textarea>
+        </label>
+        <button class="button wide" type="submit">保存内容</button>
+      </form>
+    </details>
+
+    <section class="toolbar">
+      <input id="search" type="search" placeholder="搜索账号、标题、标签、原因">
+      <select id="sortBy">
+        <option value="new">最新</option>
+        <option value="heat">高热度</option>
+      </select>
+    </section>
+
+    <section class="list" id="list"></section>
+    </section>
+
+    <section class="view" id="view-accounts">
+      <div class="app-panel">
+        <h1>账号库</h1>
+        <p>这里显示垂直相关的海外账号，优先收官方品牌、开发者社区、分销商、半导体/模组公司。</p>
+        <div class="simple-list account-groups" id="accountsViewList"></div>
+      </div>
+    </section>
+
+    <section class="view" id="view-tracker">
+      <div class="app-panel tracker-panel">
+        <div class="tracker-head">
+          <div>
+            <h1>Social Content Tracker</h1>
+            <p>把选题雷达、内容评分、平台适配和学习进度放进同一个工作区。这里内嵌的是完整 tracker 页面，数据文件会随自动更新任务同步刷新。</p>
+          </div>
+          <a class="tracker-open" href="social-content-tracker/index.html" target="_blank" rel="noopener">新窗口打开</a>
+        </div>
+        <iframe class="tracker-frame" src="social-content-tracker/index.html" title="Social Content Tracker"></iframe>
+      </div>
+    </section>
+
+    <section class="view" id="view-main">
+      <div class="app-panel">
+        <h1>主库</h1>
+        <p>这里显示你在主库沉淀的账号、行业信息和每日经验。后续可以继续把导入/导出功能也并进这个单页里。</p>
+        <div class="simple-list" id="mainViewList"></div>
+      </div>
+    </section>
+
+    <section class="view" id="view-report">
+      <div class="app-panel">
+        <h1>AI 日报</h1>
+        <p>这里用于放每天采集后的摘要：新增账号、热门内容、可转成帖子的选题和需要人工复核的内容。</p>
+        <div class="simple-card">
+          <h2>今日状态</h2>
+          <p>自动采集任务运行后，可以把日报摘要整理到这里。目前先保留为同页入口。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="view" id="view-rules">
+      <div class="app-panel">
+        <h1>采集规则</h1>
+        <p>账号和帖子必须服务 Ai-Thinker 海外社媒运营，面向工程师、开发者、IoT 方案商、B2B 采购、智能硬件客户或工业物联网用户。</p>
+        <div class="simple-list">
+          <article class="simple-card">
+            <h2>可以收录</h2>
+            <p>IoT、ESP32、LoRa/LoRaWAN、UWB、雷达传感器、无线模组、产品演示、应用场景、教程、选型建议、行业趋势、B2B 技术营销案例。</p>
+          </article>
+          <article class="simple-card">
+            <h2>不收录</h2>
+            <p>日常生活、泛娱乐、无行业价值的个人动态；虽然账号有名，但近期帖子不围绕硬件、IoT、工程或 B2B 客户的内容。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const storageKey = "content-captures-data-v2";
+    const legacyStorageKey = "content-captures-data";
+
+    const seedCaptures = [
+      {
+        id: "seed-arduino-tiktok-project",
+        platform: "TikTok",
+        account: "Arduino",
+        title: "Short project demo style",
+        url: "",
+        metrics: ["Official TikTok URL not confirmed", "Use as short-video format reference"],
+        heat: "4",
+        tags: ["Product", "Short Video", "Developer", "Maker"],
+        reason: "短视频适合展示结果先行的项目内容。用户先看到设备动作或应用场景，再理解开发板和模块价值。",
+        learn: "可以做：先展示智能家居/传感器真实动作，再补 1 句模块能力，例如 ESP32 Wi-Fi + BLE makes setup easier.",
+        createdAt: "2026-05-29T09:30:00.000Z"
+      },
+      {
+              "id": "seed-20260604-morning-espressif-1",
+              "key": "espressif",
+              "account": "Espressif Systems",
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/espressif-systems",
+              "heat": "5",
+              "tags": [
+                      "Product",
+                      "ESP32",
+                      "Developer",
+                      "Wi-Fi",
+                      "Bluetooth"
+              ],
+              "title": "ESP32 developer ecosystem angle",
+              "summary": "morning collection: Daily collection: ESP32 ecosystem posts are useful for tracking developer concerns beyond specs, including tools, production reliability, and use cases.",
+              "metrics": [
+                      "Public reactions need manual review",
+                      "Official LinkedIn account"
+              ],
+              "reason": "ESP32 is a core overseas keyword for Ai-Thinker content.",
+              "learn": "Can adapt: make an ESP32 Wi-Fi + BLE selection checklist for smart-home devices.",
+              "createdAt": "2026-06-04T08:20:00.000Z"
+      },
+      {
+              "id": "seed-20260604-morning-adafruit-2",
+              "key": "adafruit",
+              "account": "Adafruit Industries",
+              "platform": "YouTube",
+              "url": "https://www.youtube.com/@adafruit",
+              "heat": "4",
+              "tags": [
+                      "Tutorial",
+                      "Sensor",
+                      "Developer",
+                      "Electronics"
+              ],
+              "title": "Tutorial-first hardware content",
+              "summary": "morning collection: Daily collection: tutorial-led hardware content usually starts with a clear problem, then shows parts, steps, and a visible result.",
+              "metrics": [
+                      "Post-level views visible on YouTube",
+                      "Tutorial channel"
+              ],
+              "reason": "Tutorial formats fit engineers and developers, and can be adapted for radar sensors, ESP32, and LoRa modules.",
+              "learn": "Can adapt: How to test a radar sensor for presence detection, using short reproducible steps.",
+              "createdAt": "2026-06-04T08:35:00.000Z"
+      },
+      {
+              "id": "seed-20260604-morning-ttn-3",
+              "key": "ttn",
+              "account": "The Things Network",
+              "platform": "Website",
+              "url": "https://www.thethingsnetwork.org/",
+              "heat": "5",
+              "tags": [
+                      "Industry",
+                      "LoRaWAN",
+                      "Community",
+                      "Developer"
+              ],
+              "title": "LoRaWAN community deployment signal",
+              "summary": "morning collection: Daily collection: community scale and deployment data help judge whether a technical ecosystem is active and worth following.",
+              "metrics": [
+                      "Community scale visible on website",
+                      "Gateway/member data"
+              ],
+              "reason": "Community deployment data is a strong trust signal for engineers and solution providers.",
+              "learn": "Can adapt: explain why LoRaWAN fits long-range low-power sensors using ecosystem proof.",
+              "createdAt": "2026-06-04T08:45:00.000Z"
+      },
+      {
+              "id": "seed-20260604-morning-stmicroelectronics-4",
+              "key": "stmicroelectronics",
+              "account": "STMicroelectronics",
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/stmicroelectronics",
+              "heat": "4",
+              "tags": [
+                      "Industry",
+                      "Sensor",
+                      "MCU",
+                      "Industrial IoT"
+              ],
+              "title": "Sensor and MCU application story",
+              "summary": "morning collection: Daily collection: sensor and MCU application content is useful for industrial IoT, smart devices, and engineering audiences.",
+              "metrics": [
+                      "Public reactions need manual review",
+                      "Official LinkedIn account"
+              ],
+              "reason": "It helps turn hardware parameters into application scenarios and engineering value.",
+              "learn": "Can adapt: show how a radar sensor gives a device presence-detection capability.",
+              "createdAt": "2026-06-04T08:55:00.000Z"
+      },
+      {
+              "id": "seed-20260603-morning-rakwireless-1",
+              "key": "rakwireless",
+              "account": "RAKwireless",
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/rakwireless/",
+              "heat": "5",
+              "tags": [
+                      "Product",
+                      "LoRaWAN",
+                      "Gateway",
+                      "Sensor",
+                      "B2B"
+              ],
+              "title": "LoRaWAN solution content worth tracking",
+              "summary": "morning collection: Daily collection: track how RAKwireless explains complete LoRaWAN solutions, especially gateway, node, sensor, and cloud workflows.",
+              "metrics": [
+                      "Public reactions need manual review",
+                      "Official LinkedIn account"
+              ],
+              "reason": "This is highly relevant to Ai-Thinker LoRa, gateway, and sensor-node audiences.",
+              "learn": "Can adapt: diagram LoRa module + gateway + cloud for agriculture, campus, or industrial monitoring.",
+              "createdAt": "2026-06-03T08:20:00.000Z"
+      },
+      {
+              "id": "seed-20260603-morning-espressif-2",
+              "key": "espressif",
+              "account": "Espressif Systems",
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/espressif-systems",
+              "heat": "5",
+              "tags": [
+                      "Product",
+                      "ESP32",
+                      "Developer",
+                      "Wi-Fi",
+                      "Bluetooth"
+              ],
+              "title": "ESP32 developer ecosystem angle",
+              "summary": "morning collection: Daily collection: ESP32 ecosystem posts are useful for tracking developer concerns beyond specs, including tools, production reliability, and use cases.",
+              "metrics": [
+                      "Public reactions need manual review",
+                      "Official LinkedIn account"
+              ],
+              "reason": "ESP32 is a core overseas keyword for Ai-Thinker content.",
+              "learn": "Can adapt: make an ESP32 Wi-Fi + BLE selection checklist for smart-home devices.",
+              "createdAt": "2026-06-03T08:35:00.000Z"
+      },
+      {
+              "id": "seed-20260603-morning-adafruit-3",
+              "key": "adafruit",
+              "account": "Adafruit Industries",
+              "platform": "YouTube",
+              "url": "https://www.youtube.com/@adafruit",
+              "heat": "4",
+              "tags": [
+                      "Tutorial",
+                      "Sensor",
+                      "Developer",
+                      "Electronics"
+              ],
+              "title": "Tutorial-first hardware content",
+              "summary": "morning collection: Daily collection: tutorial-led hardware content usually starts with a clear problem, then shows parts, steps, and a visible result.",
+              "metrics": [
+                      "Post-level views visible on YouTube",
+                      "Tutorial channel"
+              ],
+              "reason": "Tutorial formats fit engineers and developers, and can be adapted for radar sensors, ESP32, and LoRa modules.",
+              "learn": "Can adapt: How to test a radar sensor for presence detection, using short reproducible steps.",
+              "createdAt": "2026-06-03T08:45:00.000Z"
+      },
+      {
+              "id": "seed-20260603-morning-ttn-4",
+              "key": "ttn",
+              "account": "The Things Network",
+              "platform": "Website",
+              "url": "https://www.thethingsnetwork.org/",
+              "heat": "5",
+              "tags": [
+                      "Industry",
+                      "LoRaWAN",
+                      "Community",
+                      "Developer"
+              ],
+              "title": "LoRaWAN community deployment signal",
+              "summary": "morning collection: Daily collection: community scale and deployment data help judge whether a technical ecosystem is active and worth following.",
+              "metrics": [
+                      "Community scale visible on website",
+                      "Gateway/member data"
+              ],
+              "reason": "Community deployment data is a strong trust signal for engineers and solution providers.",
+              "learn": "Can adapt: explain why LoRaWAN fits long-range low-power sensors using ecosystem proof.",
+              "createdAt": "2026-06-03T08:55:00.000Z"
+      },
+      {
+              "id": "seed-20260603-noon-hackster-1",
+              "key": "hackster",
+              "account": "Hackster.io",
+              "platform": "Website",
+              "url": "https://www.hackster.io/",
+              "heat": "4",
+              "tags": [
+                      "Industry",
+                      "Developer",
+                      "Community",
+                      "IoT"
+              ],
+              "title": "Developer project community signal",
+              "summary": "noon collection: Daily collection: developer project communities show what real users are building, which is often more useful than generic product specs.",
+              "metrics": [
+                      "Stable official website",
+                      "Developer project community"
+              ],
+              "reason": "This can inspire smart-home, industrial monitoring, wireless sensor node, and edge-device topics.",
+              "learn": "Can adapt: collect 3 project scenarios for ESP32 / LoRa / radar sensor and turn them into a LinkedIn carousel.",
+              "createdAt": "2026-06-03T12:10:00.000Z"
+      },
+      {
+              "id": "seed-20260603-noon-rakwireless-2",
+              "key": "rakwireless",
+              "account": "RAKwireless",
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/rakwireless/",
+              "heat": "5",
+              "tags": [
+                      "Product",
+                      "LoRaWAN",
+                      "Gateway",
+                      "Sensor",
+                      "B2B"
+              ],
+              "title": "LoRaWAN solution content worth tracking",
+              "summary": "noon collection: Daily collection: track how RAKwireless explains complete LoRaWAN solutions, especially gateway, node, sensor, and cloud workflows.",
+              "metrics": [
+                      "Public reactions need manual review",
+                      "Official LinkedIn account"
+              ],
+              "reason": "This is highly relevant to Ai-Thinker LoRa, gateway, and sensor-node audiences.",
+              "learn": "Can adapt: diagram LoRa module + gateway + cloud for agriculture, campus, or industrial monitoring.",
+              "createdAt": "2026-06-03T12:35:00.000Z"
+      },
+      {
+              "id": "seed-20260603-afternoon-digikey-1",
+              "key": "digikey",
+              "account": "DigiKey",
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/digikey",
+              "heat": "4",
+              "tags": [
+                      "B2B",
+                      "Engineer",
+                      "Electronics",
+                      "Distributor"
+              ],
+              "title": "Engineer-friendly B2B content",
+              "summary": "afternoon collection: Daily collection: B2B distributor content reflects what engineers and buyers care about, such as selection, supply, and application resources.",
+              "metrics": [
+                      "Public reactions visible on LinkedIn",
+                      "Official account"
+              ],
+              "reason": "It is close to real engineering and purchasing decision contexts.",
+              "learn": "Can adapt: wireless module selection checklist for Wi-Fi, LoRa, and UWB.",
+              "createdAt": "2026-06-03T15:20:00.000Z"
+      },
+      {
+              "id": "seed-20260603-afternoon-hackster-2",
+              "key": "hackster",
+              "account": "Hackster.io",
+              "platform": "Website",
+              "url": "https://www.hackster.io/",
+              "heat": "4",
+              "tags": [
+                      "Industry",
+                      "Developer",
+                      "Community",
+                      "IoT"
+              ],
+              "title": "Developer project community signal",
+              "summary": "afternoon collection: Daily collection: developer project communities show what real users are building, which is often more useful than generic product specs.",
+              "metrics": [
+                      "Stable official website",
+                      "Developer project community"
+              ],
+              "reason": "This can inspire smart-home, industrial monitoring, wireless sensor node, and edge-device topics.",
+              "learn": "Can adapt: collect 3 project scenarios for ESP32 / LoRa / radar sensor and turn them into a LinkedIn carousel.",
+              "createdAt": "2026-06-03T16:40:00.000Z"
+      },
+      {
+              "id": "seed-20260603-evening-rakwireless-1",
+              "key": "rakwireless",
+              "account": "RAKwireless",
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/rakwireless/",
+              "heat": "5",
+              "tags": [
+                      "Product",
+                      "LoRaWAN",
+                      "Gateway",
+                      "Sensor",
+                      "B2B"
+              ],
+              "title": "LoRaWAN solution content worth tracking",
+              "summary": "evening collection: Daily collection: track how RAKwireless explains complete LoRaWAN solutions, especially gateway, node, sensor, and cloud workflows.",
+              "metrics": [
+                      "Public reactions need manual review",
+                      "Official LinkedIn account"
+              ],
+              "reason": "This is highly relevant to Ai-Thinker LoRa, gateway, and sensor-node audiences.",
+              "learn": "Can adapt: diagram LoRa module + gateway + cloud for agriculture, campus, or industrial monitoring.",
+              "createdAt": "2026-06-03T19:30:00.000Z"
+      },
+      {
+              "id": "seed-20260603-evening-espressif-2",
+              "key": "espressif",
+              "account": "Espressif Systems",
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/espressif-systems",
+              "heat": "5",
+              "tags": [
+                      "Product",
+                      "ESP32",
+                      "Developer",
+                      "Wi-Fi",
+                      "Bluetooth"
+              ],
+              "title": "ESP32 developer ecosystem angle",
+              "summary": "evening collection: Daily collection: ESP32 ecosystem posts are useful for tracking developer concerns beyond specs, including tools, production reliability, and use cases.",
+              "metrics": [
+                      "Public reactions need manual review",
+                      "Official LinkedIn account"
+              ],
+              "reason": "ESP32 is a core overseas keyword for Ai-Thinker content.",
+              "learn": "Can adapt: make an ESP32 Wi-Fi + BLE selection checklist for smart-home devices.",
+              "createdAt": "2026-06-03T21:10:00.000Z"
+      },
+      {
+              "id": "seed-20260602-morning-hackster-1",
+              "key": "hackster",
+              "account": "Hackster.io",
+              "platform": "Website",
+              "url": "https://www.hackster.io/",
+              "heat": "4",
+              "tags": [
+                      "Industry",
+                      "Developer",
+                      "Community",
+                      "IoT"
+              ],
+              "title": "Developer project community signal",
+              "summary": "morning collection: Daily collection: developer project communities show what real users are building, which is often more useful than generic product specs.",
+              "metrics": [
+                      "Stable official website",
+                      "Developer project community"
+              ],
+              "reason": "This can inspire smart-home, industrial monitoring, wireless sensor node, and edge-device topics.",
+              "learn": "Can adapt: collect 3 project scenarios for ESP32 / LoRa / radar sensor and turn them into a LinkedIn carousel.",
+              "createdAt": "2026-06-02T08:20:00.000Z"
+      },
+      {
+              "id": "seed-20260602-morning-rakwireless-2",
+              "key": "rakwireless",
+              "account": "RAKwireless",
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/rakwireless/",
+              "heat": "5",
+              "tags": [
+                      "Product",
+                      "LoRaWAN",
+                      "Gateway",
+                      "Sensor",
+                      "B2B"
+              ],
+              "title": "LoRaWAN solution content worth tracking",
+              "summary": "morning collection: Daily collection: track how RAKwireless explains complete LoRaWAN solutions, especially gateway, node, sensor, and cloud workflows.",
+              "metrics": [
+                      "Public reactions need manual review",
+                      "Official LinkedIn account"
+              ],
+              "reason": "This is highly relevant to Ai-Thinker LoRa, gateway, and sensor-node audiences.",
+              "learn": "Can adapt: diagram LoRa module + gateway + cloud for agriculture, campus, or industrial monitoring.",
+              "createdAt": "2026-06-02T08:35:00.000Z"
+      },
+      {
+              "id": "seed-20260602-morning-espressif-3",
+              "key": "espressif",
+              "account": "Espressif Systems",
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/espressif-systems",
+              "heat": "5",
+              "tags": [
+                      "Product",
+                      "ESP32",
+                      "Developer",
+                      "Wi-Fi",
+                      "Bluetooth"
+              ],
+              "title": "ESP32 developer ecosystem angle",
+              "summary": "morning collection: Daily collection: ESP32 ecosystem posts are useful for tracking developer concerns beyond specs, including tools, production reliability, and use cases.",
+              "metrics": [
+                      "Public reactions need manual review",
+                      "Official LinkedIn account"
+              ],
+              "reason": "ESP32 is a core overseas keyword for Ai-Thinker content.",
+              "learn": "Can adapt: make an ESP32 Wi-Fi + BLE selection checklist for smart-home devices.",
+              "createdAt": "2026-06-02T08:45:00.000Z"
+      },
+      {
+              "id": "seed-20260602-morning-adafruit-4",
+              "key": "adafruit",
+              "account": "Adafruit Industries",
+              "platform": "YouTube",
+              "url": "https://www.youtube.com/@adafruit",
+              "heat": "4",
+              "tags": [
+                      "Tutorial",
+                      "Sensor",
+                      "Developer",
+                      "Electronics"
+              ],
+              "title": "Tutorial-first hardware content",
+              "summary": "morning collection: Daily collection: tutorial-led hardware content usually starts with a clear problem, then shows parts, steps, and a visible result.",
+              "metrics": [
+                      "Post-level views visible on YouTube",
+                      "Tutorial channel"
+              ],
+              "reason": "Tutorial formats fit engineers and developers, and can be adapted for radar sensors, ESP32, and LoRa modules.",
+              "learn": "Can adapt: How to test a radar sensor for presence detection, using short reproducible steps.",
+              "createdAt": "2026-06-02T08:55:00.000Z"
+      },
+      {
+              "id": "seed-20260602-noon-digikey-1",
+              "key": "digikey",
+              "account": "DigiKey",
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/digikey",
+              "heat": "4",
+              "tags": [
+                      "B2B",
+                      "Engineer",
+                      "Electronics",
+                      "Distributor"
+              ],
+              "title": "Engineer-friendly B2B content",
+              "summary": "noon collection: Daily collection: B2B distributor content reflects what engineers and buyers care about, such as selection, supply, and application resources.",
+              "metrics": [
+                      "Public reactions visible on LinkedIn",
+                      "Official account"
+              ],
+              "reason": "It is close to real engineering and purchasing decision contexts.",
+              "learn": "Can adapt: wireless module selection checklist for Wi-Fi, LoRa, and UWB.",
+              "createdAt": "2026-06-02T12:10:00.000Z"
+      },
+      {
+              "id": "seed-20260602-noon-hackster-2",
+              "key": "hackster",
+              "account": "Hackster.io",
+              "platform": "Website",
+              "url": "https://www.hackster.io/",
+              "heat": "4",
+              "tags": [
+                      "Industry",
+                      "Developer",
+                      "Community",
+                      "IoT"
+              ],
+              "title": "Developer project community signal",
+              "summary": "noon collection: Daily collection: developer project communities show what real users are building, which is often more useful than generic product specs.",
+              "metrics": [
+                      "Stable official website",
+                      "Developer project community"
+              ],
+              "reason": "This can inspire smart-home, industrial monitoring, wireless sensor node, and edge-device topics.",
+              "learn": "Can adapt: collect 3 project scenarios for ESP32 / LoRa / radar sensor and turn them into a LinkedIn carousel.",
+              "createdAt": "2026-06-02T12:35:00.000Z"
+      },
+      {
+              "id": "seed-20260602-afternoon-silicon-labs-1",
+              "key": "silicon-labs",
+              "account": "Silicon Labs",
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/silicon-labs",
+              "heat": "4",
+              "tags": [
+                      "Industry",
+                      "Matter",
+                      "Wireless",
+                      "IoT"
+              ],
+              "title": "Wireless protocol education angle",
+              "summary": "afternoon collection: Daily collection: wireless protocol education is useful for seeing how technical brands explain complex concepts clearly.",
+              "metrics": [
+                      "Public reactions need manual review",
+                      "Official LinkedIn account"
+              ],
+              "reason": "This overlaps with Ai-Thinker Wi-Fi, BLE, LoRa, and UWB audiences.",
+              "learn": "Can adapt: one visual explaining Wi-Fi, BLE, LoRa, and UWB roles in IoT devices.",
+              "createdAt": "2026-06-02T15:20:00.000Z"
+      },
+      {
+              "id": "seed-20260602-afternoon-digikey-2",
+              "key": "digikey",
+              "account": "DigiKey",
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/digikey",
+              "heat": "4",
+              "tags": [
+                      "B2B",
+                      "Engineer",
+                      "Electronics",
+                      "Distributor"
+              ],
+              "title": "Engineer-friendly B2B content",
+              "summary": "afternoon collection: Daily collection: B2B distributor content reflects what engineers and buyers care about, such as selection, supply, and application resources.",
+              "metrics": [
+                      "Public reactions visible on LinkedIn",
+                      "Official account"
+              ],
+              "reason": "It is close to real engineering and purchasing decision contexts.",
+              "learn": "Can adapt: wireless module selection checklist for Wi-Fi, LoRa, and UWB.",
+              "createdAt": "2026-06-02T16:40:00.000Z"
+      },
+      {
+              "id": "seed-20260602-evening-hackster-1",
+              "key": "hackster",
+              "account": "Hackster.io",
+              "platform": "Website",
+              "url": "https://www.hackster.io/",
+              "heat": "4",
+              "tags": [
+                      "Industry",
+                      "Developer",
+                      "Community",
+                      "IoT"
+              ],
+              "title": "Developer project community signal",
+              "summary": "evening collection: Daily collection: developer project communities show what real users are building, which is often more useful than generic product specs.",
+              "metrics": [
+                      "Stable official website",
+                      "Developer project community"
+              ],
+              "reason": "This can inspire smart-home, industrial monitoring, wireless sensor node, and edge-device topics.",
+              "learn": "Can adapt: collect 3 project scenarios for ESP32 / LoRa / radar sensor and turn them into a LinkedIn carousel.",
+              "createdAt": "2026-06-02T19:30:00.000Z"
+      },
+      {
+              "id": "seed-20260602-evening-rakwireless-2",
+              "key": "rakwireless",
+              "account": "RAKwireless",
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/rakwireless/",
+              "heat": "5",
+              "tags": [
+                      "Product",
+                      "LoRaWAN",
+                      "Gateway",
+                      "Sensor",
+                      "B2B"
+              ],
+              "title": "LoRaWAN solution content worth tracking",
+              "summary": "evening collection: Daily collection: track how RAKwireless explains complete LoRaWAN solutions, especially gateway, node, sensor, and cloud workflows.",
+              "metrics": [
+                      "Public reactions need manual review",
+                      "Official LinkedIn account"
+              ],
+              "reason": "This is highly relevant to Ai-Thinker LoRa, gateway, and sensor-node audiences.",
+              "learn": "Can adapt: diagram LoRa module + gateway + cloud for agriculture, campus, or industrial monitoring.",
+              "createdAt": "2026-06-02T21:10:00.000Z"
+      },
+      {
+              "id": "seed-20260605-morning-adafruit-1",
+              "key": "adafruit",
+              "account": "Adafruit Industries",
+              "platform": "YouTube",
+              "url": "https://www.youtube.com/@adafruit",
+              "heat": "4",
+              "tags": [
+                      "Tutorial",
+                      "Sensor",
+                      "Developer",
+                      "Electronics"
+              ],
+              "title": "Tutorial-first hardware content",
+              "summary": "morning collection: Daily collection: tutorial-led hardware content usually starts with a clear problem, then shows parts, steps, and a visible result.",
+              "metrics": [
+                      "Post-level views visible on YouTube",
+                      "Tutorial channel"
+              ],
+              "reason": "Tutorial formats fit engineers and developers, and can be adapted for radar sensors, ESP32, and LoRa modules.",
+              "learn": "Can adapt: How to test a radar sensor for presence detection, using short reproducible steps.",
+              "createdAt": "2026-06-05T08:20:00.000Z"
+      },
+      {
+              "id": "seed-20260605-morning-ttn-2",
+              "key": "ttn",
+              "account": "The Things Network",
+              "platform": "Website",
+              "url": "https://www.thethingsnetwork.org/",
+              "heat": "5",
+              "tags": [
+                      "Industry",
+                      "LoRaWAN",
+                      "Community",
+                      "Developer"
+              ],
+              "title": "LoRaWAN community deployment signal",
+              "summary": "morning collection: Daily collection: community scale and deployment data help judge whether a technical ecosystem is active and worth following.",
+              "metrics": [
+                      "Community scale visible on website",
+                      "Gateway/member data"
+              ],
+              "reason": "Community deployment data is a strong trust signal for engineers and solution providers.",
+              "learn": "Can adapt: explain why LoRaWAN fits long-range low-power sensors using ecosystem proof.",
+              "createdAt": "2026-06-05T08:35:00.000Z"
+      },
+      {
+              "id": "seed-20260605-morning-stmicroelectronics-3",
+              "key": "stmicroelectronics",
+              "account": "STMicroelectronics",
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/stmicroelectronics",
+              "heat": "4",
+              "tags": [
+                      "Industry",
+                      "Sensor",
+                      "MCU",
+                      "Industrial IoT"
+              ],
+              "title": "Sensor and MCU application story",
+              "summary": "morning collection: Daily collection: sensor and MCU application content is useful for industrial IoT, smart devices, and engineering audiences.",
+              "metrics": [
+                      "Public reactions need manual review",
+                      "Official LinkedIn account"
+              ],
+              "reason": "It helps turn hardware parameters into application scenarios and engineering value.",
+              "learn": "Can adapt: show how a radar sensor gives a device presence-detection capability.",
+              "createdAt": "2026-06-05T08:45:00.000Z"
+      },
+      {
+              "id": "seed-20260605-morning-silicon-labs-4",
+              "key": "silicon-labs",
+              "account": "Silicon Labs",
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/silicon-labs",
+              "heat": "4",
+              "tags": [
+                      "Industry",
+                      "Matter",
+                      "Wireless",
+                      "IoT"
+              ],
+              "title": "Wireless protocol education angle",
+              "summary": "morning collection: Daily collection: wireless protocol education is useful for seeing how technical brands explain complex concepts clearly.",
+              "metrics": [
+                      "Public reactions need manual review",
+                      "Official LinkedIn account"
+              ],
+              "reason": "This overlaps with Ai-Thinker Wi-Fi, BLE, LoRa, and UWB audiences.",
+              "learn": "Can adapt: one visual explaining Wi-Fi, BLE, LoRa, and UWB roles in IoT devices.",
+              "createdAt": "2026-06-05T08:55:00.000Z"
+      },
+      {
+              "id": "seed-20260604-noon-rakwireless-1",
+              "key": "rakwireless",
+              "account": "RAKwireless",
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/rakwireless/",
+              "heat": "5",
+              "tags": [
+                      "Product",
+                      "LoRaWAN",
+                      "Gateway",
+                      "Sensor",
+                      "B2B"
+              ],
+              "title": "LoRaWAN solution content worth tracking",
+              "summary": "noon collection: Daily collection: track how RAKwireless explains complete LoRaWAN solutions, especially gateway, node, sensor, and cloud workflows.",
+              "metrics": [
+                      "Public reactions need manual review",
+                      "Official LinkedIn account"
+              ],
+              "reason": "This is highly relevant to Ai-Thinker LoRa, gateway, and sensor-node audiences.",
+              "learn": "Can adapt: diagram LoRa module + gateway + cloud for agriculture, campus, or industrial monitoring.",
+              "createdAt": "2026-06-04T12:10:00.000Z"
+      },
+      {
+              "id": "seed-20260604-noon-espressif-2",
+              "key": "espressif",
+              "account": "Espressif Systems",
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/espressif-systems",
+              "heat": "5",
+              "tags": [
+                      "Product",
+                      "ESP32",
+                      "Developer",
+                      "Wi-Fi",
+                      "Bluetooth"
+              ],
+              "title": "ESP32 developer ecosystem angle",
+              "summary": "noon collection: Daily collection: ESP32 ecosystem posts are useful for tracking developer concerns beyond specs, including tools, production reliability, and use cases.",
+              "metrics": [
+                      "Public reactions need manual review",
+                      "Official LinkedIn account"
+              ],
+              "reason": "ESP32 is a core overseas keyword for Ai-Thinker content.",
+              "learn": "Can adapt: make an ESP32 Wi-Fi + BLE selection checklist for smart-home devices.",
+              "createdAt": "2026-06-04T12:35:00.000Z"
+      },
+      {
+              "id": "seed-20260604-afternoon-hackster-1",
+              "key": "hackster",
+              "account": "Hackster.io",
+              "platform": "Website",
+              "url": "https://www.hackster.io/",
+              "heat": "4",
+              "tags": [
+                      "Industry",
+                      "Developer",
+                      "Community",
+                      "IoT"
+              ],
+              "title": "Developer project community signal",
+              "summary": "afternoon collection: Daily collection: developer project communities show what real users are building, which is often more useful than generic product specs.",
+              "metrics": [
+                      "Stable official website",
+                      "Developer project community"
+              ],
+              "reason": "This can inspire smart-home, industrial monitoring, wireless sensor node, and edge-device topics.",
+              "learn": "Can adapt: collect 3 project scenarios for ESP32 / LoRa / radar sensor and turn them into a LinkedIn carousel.",
+              "createdAt": "2026-06-04T15:20:00.000Z"
+      },
+      {
+              "id": "seed-20260604-afternoon-rakwireless-2",
+              "key": "rakwireless",
+              "account": "RAKwireless",
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/rakwireless/",
+              "heat": "5",
+              "tags": [
+                      "Product",
+                      "LoRaWAN",
+                      "Gateway",
+                      "Sensor",
+                      "B2B"
+              ],
+              "title": "LoRaWAN solution content worth tracking",
+              "summary": "afternoon collection: Daily collection: track how RAKwireless explains complete LoRaWAN solutions, especially gateway, node, sensor, and cloud workflows.",
+              "metrics": [
+                      "Public reactions need manual review",
+                      "Official LinkedIn account"
+              ],
+              "reason": "This is highly relevant to Ai-Thinker LoRa, gateway, and sensor-node audiences.",
+              "learn": "Can adapt: diagram LoRa module + gateway + cloud for agriculture, campus, or industrial monitoring.",
+              "createdAt": "2026-06-04T16:40:00.000Z"
+      },
+      {
+              "id": "seed-20260604-evening-espressif-1",
+              "key": "espressif",
+              "account": "Espressif Systems",
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/espressif-systems",
+              "heat": "5",
+              "tags": [
+                      "Product",
+                      "ESP32",
+                      "Developer",
+                      "Wi-Fi",
+                      "Bluetooth"
+              ],
+              "title": "ESP32 developer ecosystem angle",
+              "summary": "evening collection: Daily collection: ESP32 ecosystem posts are useful for tracking developer concerns beyond specs, including tools, production reliability, and use cases.",
+              "metrics": [
+                      "Public reactions need manual review",
+                      "Official LinkedIn account"
+              ],
+              "reason": "ESP32 is a core overseas keyword for Ai-Thinker content.",
+              "learn": "Can adapt: make an ESP32 Wi-Fi + BLE selection checklist for smart-home devices.",
+              "createdAt": "2026-06-04T19:30:00.000Z"
+      },
+      {
+              "id": "seed-20260604-evening-adafruit-2",
+              "key": "adafruit",
+              "account": "Adafruit Industries",
+              "platform": "YouTube",
+              "url": "https://www.youtube.com/@adafruit",
+              "heat": "4",
+              "tags": [
+                      "Tutorial",
+                      "Sensor",
+                      "Developer",
+                      "Electronics"
+              ],
+              "title": "Tutorial-first hardware content",
+              "summary": "evening collection: Daily collection: tutorial-led hardware content usually starts with a clear problem, then shows parts, steps, and a visible result.",
+              "metrics": [
+                      "Post-level views visible on YouTube",
+                      "Tutorial channel"
+              ],
+              "reason": "Tutorial formats fit engineers and developers, and can be adapted for radar sensors, ESP32, and LoRa modules.",
+              "learn": "Can adapt: How to test a radar sensor for presence detection, using short reproducible steps.",
+              "createdAt": "2026-06-04T21:10:00.000Z"
+      }
+    ];
+
+    let captures = loadCaptures();
+
+    const list = document.querySelector("#list");
+    const search = document.querySelector("#search");
+    const sortBy = document.querySelector("#sortBy");
+    const form = document.querySelector("#captureForm");
+    const platformTabs = document.querySelector("#platformTabs");
+    const topicTabs = document.querySelector("#topicTabs");
+    const dateTabs = document.querySelector("#dateTabs");
+    const sideLinks = document.querySelectorAll(".side-link[data-view]");
+    const views = document.querySelectorAll(".view");
+    const accountsViewList = document.querySelector("#accountsViewList");
+    const mainViewList = document.querySelector("#mainViewList");
+    let activePlatform = "all";
+    let activeTopic = "all";
+    let activeDate = "all";
+
+    const defaultAccountGroups = [
+      {
+        title: "对标品牌",
+        description: "看海外 IoT、开发板和无线方案品牌怎么讲产品、场景和开发者价值。",
+        accounts: [
+          {
+            title: "Espressif Systems",
+            platform: "LinkedIn",
+            url: "https://www.linkedin.com/company/espressif-systems",
+            note: "ESP32 生态、开发者工具、产品发布和应用案例，适合对标 Wi-Fi/BLE 模组内容。"
+          },
+          {
+            title: "RAKwireless",
+            platform: "LinkedIn",
+            url: "https://www.linkedin.com/company/rakwireless/",
+            note: "LoRaWAN、网关、传感器节点和解决方案内容垂直，适合参考 B2B 场景表达。"
+          },
+          {
+            title: "Seeed Studio",
+            platform: "Website / LinkedIn",
+            url: "https://www.seeedstudio.com/",
+            note: "开发板、传感器、边缘 AI 和项目化内容丰富，适合学习产品组合和应用页面写法。"
+          },
+          {
+            title: "Arduino",
+            platform: "Website / YouTube",
+            url: "https://www.arduino.cc/",
+            note: "项目教程和开发者教育内容清楚，适合参考短视频、教程和入门型产品内容。"
+          }
+        ]
+      },
+      {
+        title: "开发者社区",
+        description: "找真实项目、教程、用户痛点和可改写成短视频/图文的工程场景。",
+        accounts: [
+          {
+            title: "The Things Network",
+            platform: "Website",
+            url: "https://www.thethingsnetwork.org/",
+            note: "LoRaWAN 开发者社区，适合观察真实部署、教程、案例和生态规模表达。"
+          },
+          {
+            title: "Hackster.io",
+            platform: "Website",
+            url: "https://www.hackster.io/",
+            note: "硬件项目社区，适合寻找 ESP32、传感器、IoT 项目灵感和教程结构。"
+          },
+          {
+            title: "Arduino Project Hub",
+            platform: "Website",
+            url: "https://projecthub.arduino.cc/",
+            note: "适合跟踪项目标题、材料清单、步骤拆解和结果展示方式。"
+          },
+          {
+            title: "Home Assistant Community",
+            platform: "Website",
+            url: "https://community.home-assistant.io/",
+            note: "智能家居真实用户讨论多，适合提炼兼容性、自动化和连接稳定性话题。"
+          }
+        ]
+      },
+      {
+        title: "分销商",
+        description: "看工程师和采购用户关心什么，尤其是选型、库存、新品和应用教育。",
+        accounts: [
+          {
+            title: "DigiKey",
+            platform: "Website / LinkedIn",
+            url: "https://www.digikey.com/",
+            note: "B2B 电子分销商，内容更接近工程师、采购和电子行业用户。"
+          },
+          {
+            title: "Mouser Electronics",
+            platform: "Website / LinkedIn",
+            url: "https://www.mouser.com/",
+            note: "新品、应用文章和技术资源多，适合参考选型教育和邮件营销素材。"
+          },
+          {
+            title: "Arrow Electronics",
+            platform: "Website",
+            url: "https://www.arrow.com/",
+            note: "偏方案、供应链和企业客户表达，适合参考 B2B 技术内容框架。"
+          },
+          {
+            title: "RS",
+            platform: "Website",
+            url: "https://www.rs-online.com/",
+            note: "工业和电子采购语境明显，适合观察工业物联网、维护和工程采购话题。"
+          }
+        ]
+      },
+      {
+        title: "模组/芯片公司",
+        description: "跟踪无线连接、传感器、定位和蜂窝物联网方向的产品叙事。",
+        accounts: [
+          {
+            title: "Semtech LoRa",
+            platform: "Website",
+            url: "https://www.semtech.com/lora",
+            note: "LoRa 官方生态内容，适合跟踪 LPWAN、LoRaWAN、定位和云服务方向。"
+          },
+          {
+            title: "Nordic Semiconductor",
+            platform: "LinkedIn",
+            url: "https://www.linkedin.com/company/nordic-semiconductor-asa",
+            note: "Bluetooth、Matter、低功耗 IoT 和无线连接内容，适合智能硬件方向参考。"
+          },
+          {
+            title: "Silicon Labs",
+            platform: "Website",
+            url: "https://www.silabs.com/",
+            note: "Matter、Wi-Fi、Bluetooth、Thread 和工业无线内容完整，适合参考技术可信表达。"
+          },
+          {
+            title: "u-blox",
+            platform: "Website",
+            url: "https://www.u-blox.com/",
+            note: "定位、蜂窝和短距离无线模组内容成熟，适合参考 B2B 产品页面和应用场景。"
+          },
+          {
+            title: "Quectel",
+            platform: "Website",
+            url: "https://www.quectel.com/",
+            note: "蜂窝、GNSS、Wi-Fi/Bluetooth 模组和天线产品线完整，适合参考海外模组公司表达。"
+          }
+        ]
+      }
+    ];
+
+    function loadCaptures() {
+      if (Array.isArray(window.__SHARED_CAPTURES__)) return window.__SHARED_CAPTURES__;
+
+      const saved = localStorage.getItem(storageKey);
+      const legacySaved = localStorage.getItem(legacyStorageKey);
+      const seedIds = new Set(seedCaptures.map(item => item.id));
+      const mergeWithCurrentSeeds = items => {
+        const userItems = items.filter(item => item && item.id && !seedIds.has(item.id));
+        return [...seedCaptures, ...userItems];
+      };
+
+      if (saved) {
+        const currentCaptures = JSON.parse(saved);
+        const withSeeds = mergeWithCurrentSeeds(currentCaptures);
+        if (!legacySaved) {
+          localStorage.setItem(storageKey, JSON.stringify(withSeeds));
+          return withSeeds;
+        }
+
+        const legacyCaptures = JSON.parse(legacySaved);
+        const withSeedIds = new Set(withSeeds.map(savedItem => savedItem.id));
+        const mergedCaptures = [
+          ...withSeeds,
+          ...legacyCaptures.filter(item => item && item.id && !seedIds.has(item.id) && !withSeedIds.has(item.id))
+        ];
+        localStorage.setItem(storageKey, JSON.stringify(mergedCaptures));
+        return mergedCaptures;
+      }
+
+      if (legacySaved) {
+        const legacyCaptures = JSON.parse(legacySaved);
+        const migratedCaptures = mergeWithCurrentSeeds(legacyCaptures);
+        localStorage.setItem(storageKey, JSON.stringify(migratedCaptures));
+        return migratedCaptures;
+      }
+
+      localStorage.setItem(storageKey, JSON.stringify(seedCaptures));
+      return seedCaptures;
+    }
+
+    function saveCaptures() {
+      localStorage.setItem(storageKey, JSON.stringify(captures));
+    }
+
+    function loadMainEntries() {
+      if (Array.isArray(window.__SHARED_MAIN_ENTRIES__)) return window.__SHARED_MAIN_ENTRIES__;
+
+      const saved = localStorage.getItem("social-insight-board-data");
+      return saved ? JSON.parse(saved) : [];
+    }
+
+    function uniqueByTitle(items) {
+      const seen = new Set();
+      return items.filter(item => {
+        const key = `${item.title}-${item.platform}`;
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      });
+    }
+
+    function renderAccountsView() {
+      const mainAccounts = loadMainEntries()
+        .filter(item => item.type === "account")
+        .map(item => ({
+          title: item.title,
+          platform: item.platform,
+          url: item.url,
+          note: item.note
+        }));
+      const groups = mainAccounts.length
+        ? [
+            {
+              title: "主库沉淀",
+              description: "你在主库里保存过的账号，会自动出现在这里。",
+              accounts: uniqueByTitle(mainAccounts)
+            },
+            ...defaultAccountGroups
+          ]
+        : defaultAccountGroups;
+
+      accountsViewList.innerHTML = groups.map(group => `
+        <section class="account-group">
+          <div class="account-group-head">
+            <div>
+              <h2>${escapeHtml(group.title)}</h2>
+              <p>${escapeHtml(group.description)}</p>
+            </div>
+            <span class="account-count">${group.accounts.length} 个账号</span>
+          </div>
+          <div class="account-card-grid">
+            ${group.accounts.map(account => `
+              <article class="simple-card">
+                <h2>${account.url ? `<a href="${escapeAttribute(account.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(account.title)}</a>` : escapeHtml(account.title)}</h2>
+                <div class="simple-meta">${escapeHtml(account.platform || "Unknown")}</div>
+                <p>${escapeHtml(account.note || "待补充账号价值判断。")}</p>
+                ${account.url ? `<a class="account-link" href="${escapeAttribute(account.url)}" target="_blank" rel="noopener noreferrer">打开网址</a>` : ""}
+              </article>
+            `).join("")}
+          </div>
+        </section>
+      `).join("");
+    }
+
+    function renderMainView() {
+      const entries = loadMainEntries();
+      if (!entries.length) {
+        mainViewList.innerHTML = `
+          <article class="simple-card">
+            <h2>主库暂无本地记录</h2>
+            <p>你可以先在热门内容页和账号库筛选，再把值得保留的内容导入主库。</p>
+          </article>
+        `;
+        return;
+      }
+
+      mainViewList.innerHTML = entries
+        .slice()
+        .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt))
+        .map(entry => `
+          <article class="simple-card">
+            <h2>${entry.url ? `<a href="${entry.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(entry.title)}</a>` : escapeHtml(entry.title)}</h2>
+            <div class="simple-meta">${escapeHtml(entry.type)} · ${escapeHtml(entry.platform)} · ${formatStars(entry.score)}</div>
+            <p>${escapeHtml(entry.note || "待补充。")}</p>
+          </article>
+        `).join("");
+    }
+
+    function showView(name) {
+      views.forEach(view => {
+        view.classList.toggle("active", view.id === `view-${name}`);
+      });
+      sideLinks.forEach(link => {
+        link.classList.toggle("active", link.dataset.view === name);
+      });
+
+      if (name === "accounts") renderAccountsView();
+      if (name === "main") renderMainView();
+    }
+
+    function getFilteredCaptures() {
+      const keyword = search.value.trim().toLowerCase();
+      return captures
+        .filter(item => activePlatform === "all" || item.platform === activePlatform)
+        .filter(item => activeTopic === "all" || item.tags.includes(activeTopic))
+        .filter(item => activeDate === "all" || getDateKey(item.createdAt) === activeDate)
+        .filter(item => {
+          const text = [item.account, item.title, item.summary, item.reason, item.learn, item.tags.join(" ")].join(" ").toLowerCase();
+          return text.includes(keyword);
+        })
+        .sort((a, b) => {
+          if (sortBy.value === "heat") return Number(b.heat) - Number(a.heat);
+          return new Date(b.createdAt) - new Date(a.createdAt);
+        });
+    }
+
+    function getCaptureTimeParts(value) {
+      const text = String(value || "");
+      const match = text.match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/);
+      if (match) {
+        return {
+          month: String(Number(match[2])),
+          day: String(Number(match[3])),
+          hour: match[4],
+          minute: match[5]
+        };
+      }
+
+      const date = new Date(value);
+      return {
+        month: String(date.getMonth() + 1),
+        day: String(date.getDate()),
+        hour: String(date.getHours()).padStart(2, "0"),
+        minute: String(date.getMinutes()).padStart(2, "0")
+      };
+    }
+
+    function getDateKey(value) {
+      const parts = getCaptureTimeParts(value);
+      return `${parts.month}/${parts.day}`;
+    }
+
+    function getDateLabel(dateKey) {
+      const [month, day] = dateKey.split("/");
+      return `${month}月${day}日`;
+    }
+
+    function getDateOptions() {
+      const fixedDates = ["5/29", "5/30", "5/31", "6/1", "6/2", "6/3", "6/4", "6/5"];
+      const captureDates = captures.map(item => getDateKey(item.createdAt));
+      return ["all", ...new Set([...fixedDates, ...captureDates])];
+    }
+
+    function renderDateTabs() {
+      dateTabs.innerHTML = getDateOptions().map(date => `
+        <button class="${date === activeDate ? "active" : ""}" type="button" data-date="${date}">
+          ${date === "all" ? "全部日期" : getDateLabel(date)}
+        </button>
+      `).join("");
+    }
+
+    function groupByDate(items) {
+      return items.reduce((groups, item) => {
+        const dateKey = getDateKey(item.createdAt);
+        if (!groups[dateKey]) groups[dateKey] = [];
+        groups[dateKey].push(item);
+        return groups;
+      }, {});
+    }
+
+    function formatTime(value) {
+      const parts = getCaptureTimeParts(value);
+      return `${parts.hour}:${parts.minute}`;
+    }
+
+    function formatStars(value) {
+      const score = Math.max(0, Math.min(5, Number(value) || 0));
+      return `${"★".repeat(score)}${"☆".repeat(5 - score)}`;
+    }
+
+    function getLocalIsoString(date = new Date()) {
+      const local = new Date(date.getTime() - date.getTimezoneOffset() * 60000);
+      return local.toISOString().slice(0, 19);
+    }
+
+    function renderItem(item) {
+      const title = escapeHtml(item.title);
+      const summary = item.summary || item.excerpt || item.reason || "";
+      const imageUrl = item.imageUrl || item.image || "";
+      return `
+        <div class="timeline-row">
+          <div class="time">${formatTime(item.createdAt)}</div>
+          <div class="dot"></div>
+          <article class="item">
+            <div class="post-source">
+              <span>${escapeHtml(item.platform)}</span>
+              <strong>${escapeHtml(item.account)}</strong>
+            </div>
+            <div class="item-head">
+              <h2>${item.url ? `<a class="item-title-link" href="${item.url}" target="_blank" rel="noopener noreferrer">${title}</a>` : `<span class="item-title-text">${title}</span>`}</h2>
+              <span class="heat" aria-label="${item.heat} stars">${formatStars(item.heat)}</span>
+            </div>
+            <p class="summary">${escapeHtml(summary)}</p>
+            ${imageUrl ? `<img class="capture-image" src="${escapeAttribute(imageUrl)}" alt="${title}" loading="lazy" onerror="this.remove()">` : ""}
+            <div class="metrics">
+              ${item.metrics.map(metric => `<span class="metric">${escapeHtml(metric)}</span>`).join("")}
+            </div>
+            <div class="tags">
+              ${item.tags.map(tag => `<span class="tag">#${escapeHtml(tag)}</span>`).join("")}
+            </div>
+            <p class="learn"><strong>可借鉴：</strong>${escapeHtml(item.learn || "待补充")}</p>
+          </article>
+        </div>
+      `;
+    }
+
+    function render() {
+      renderDateTabs();
+      const filtered = getFilteredCaptures();
+      if (!filtered.length) {
+        const dateText = activeDate === "all" ? "" : `${getDateLabel(activeDate)} `;
+        list.innerHTML = `<div class="empty">${dateText}暂无采集记录。</div>`;
+        return;
+      }
+
+      const groups = groupByDate(filtered);
+      list.className = "timeline";
+      list.innerHTML = Object.entries(groups).map(([date, items]) => `
+        <section class="day-block">
+          <div class="day-label">${date}</div>
+          ${items.map(renderItem).join("")}
+        </section>
+      `).join("");
+    }
+
+    function escapeHtml(text) {
+      return String(text)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function escapeAttribute(text) {
+      return escapeHtml(text).replaceAll("`", "&#096;");
+    }
+
+    form.addEventListener("submit", event => {
+      event.preventDefault();
+      const metrics = document.querySelector("#metrics").value.split(",").map(item => item.trim()).filter(Boolean);
+      const tags = document.querySelector("#tags").value.split(",").map(item => item.trim()).filter(Boolean);
+      captures.push({
+        id: crypto.randomUUID(),
+        platform: document.querySelector("#platform").value,
+        account: document.querySelector("#account").value.trim(),
+        title: document.querySelector("#title").value.trim(),
+        url: document.querySelector("#url").value.trim(),
+        summary: document.querySelector("#summary").value.trim(),
+        imageUrl: document.querySelector("#imageUrl").value.trim(),
+        metrics,
+        heat: document.querySelector("#heat").value,
+        tags,
+        reason: document.querySelector("#reason").value.trim(),
+        learn: document.querySelector("#learn").value.trim(),
+        createdAt: getLocalIsoString()
+      });
+      saveCaptures();
+      form.reset();
+      render();
+    });
+
+    function bindSegmentedTabs(container, onChange) {
+      container.addEventListener("click", event => {
+        const button = event.target.closest("button");
+        if (!button) return;
+        container.querySelectorAll("button").forEach(item => item.classList.remove("active"));
+        button.classList.add("active");
+        onChange(button.dataset.value);
+        render();
+      });
+    }
+
+    bindSegmentedTabs(platformTabs, value => {
+      activePlatform = value;
+    });
+
+    bindSegmentedTabs(topicTabs, value => {
+      activeTopic = value;
+    });
+
+    dateTabs.addEventListener("click", event => {
+      const button = event.target.closest("button");
+      if (!button) return;
+      activeDate = button.dataset.date;
+      render();
+    });
+
+    sideLinks.forEach(link => {
+      link.addEventListener("click", event => {
+        event.preventDefault();
+        showView(link.dataset.view);
+        history.replaceState(null, "", `#${link.dataset.view}`);
+      });
+    });
+
+    document.querySelector("#homeLink").addEventListener("click", event => {
+      event.preventDefault();
+      activePlatform = "all";
+      activeTopic = "all";
+      activeDate = "all";
+      platformTabs.querySelectorAll("button").forEach(button => {
+        button.classList.toggle("active", button.dataset.value === "all");
+      });
+      topicTabs.querySelectorAll("button").forEach(button => {
+        button.classList.toggle("active", button.dataset.value === "all");
+      });
+      search.value = "";
+      sortBy.value = "new";
+      showView("hot");
+      render();
+      history.replaceState(null, "", "#hot");
+    });
+
+    [search, sortBy].forEach(input => {
+      input.addEventListener("input", render);
+      input.addEventListener("change", render);
+    });
+
+    document.querySelector("#exportBtn").addEventListener("click", () => {
+      const blob = new Blob([JSON.stringify(getFilteredCaptures(), null, 2)], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = `content-captures-${new Date().toISOString().slice(0, 10)}.json`;
+      link.click();
+      URL.revokeObjectURL(url);
+    });
+
+    document.querySelector("#shareBtn").addEventListener("click", () => {
+      const sharedData = [
+        `<script>`,
+        `window.__SHARED_CAPTURES__ = ${JSON.stringify(captures)};`,
+        `window.__SHARED_MAIN_ENTRIES__ = ${JSON.stringify(loadMainEntries())};`,
+        `<\/script>`
+      ].join("\n");
+      const html = document.documentElement.outerHTML.replace("</head>", `${sharedData}\n</head>`);
+      const blob = new Blob([`<!doctype html>\n${html}`], { type: "text/html" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = `ai-social-hot-share-${new Date().toISOString().slice(0, 10)}.html`;
+      link.click();
+      URL.revokeObjectURL(url);
+    });
+
+    render();
+    renderAccountsView();
+    renderMainView();
+
+    const initialView = location.hash.replace("#", "") || "hot";
+    if (document.querySelector(`#view-${initialView}`)) showView(initialView);
+  </script>
+</body>
+</html>
