@@ -671,8 +671,7 @@
 
     .tracker-panel {
       max-width: 1180px;
-      padding: 0;
-      overflow: hidden;
+      padding: 22px;
     }
 
     .tracker-head {
@@ -680,8 +679,7 @@
       align-items: flex-start;
       justify-content: space-between;
       gap: 18px;
-      padding: 22px;
-      border-bottom: 1px solid rgba(148, 163, 184, 0.14);
+      margin-bottom: 18px;
     }
 
     .tracker-head h1 {
@@ -704,13 +702,282 @@
       font-size: 14px;
     }
 
-    .tracker-frame {
-      width: 100%;
-      height: min(78vh, 820px);
-      min-height: 640px;
-      border: 0;
-      background: #080b10;
+    .tracker-summary {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    .tracker-stat {
+      border: 1px solid rgba(148, 163, 184, 0.12);
+      border-radius: 10px;
+      background: #0d1424;
+      padding: 14px 16px;
+    }
+
+    .tracker-stat strong {
       display: block;
+      color: #ff6fb1;
+      font-size: 24px;
+      line-height: 1;
+    }
+
+    .tracker-stat span {
+      display: block;
+      margin-top: 5px;
+      color: #5f6b79;
+      font-size: 12px;
+    }
+
+    .tracker-toolbar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 14px;
+      flex-wrap: wrap;
+    }
+
+    .tracker-search {
+      flex: 1;
+      min-width: 180px;
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 6px;
+      background: rgba(8,11,16,0.64);
+      color: #eef3f8;
+      height: 36px;
+      padding: 0 11px;
+      font: inherit;
+      font-size: 13px;
+      outline: none;
+    }
+
+    .tracker-search:focus {
+      border-color: rgba(255,111,177,0.5);
+    }
+
+    .tracker-select {
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 6px;
+      background: rgba(8,11,16,0.64);
+      color: #eef3f8;
+      height: 36px;
+      padding: 0 11px;
+      font: inherit;
+      font-size: 13px;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .tracker-result {
+      margin: 0;
+      color: #8f9aaa;
+      font-size: 13px;
+      flex: 0 0 auto;
+    }
+
+    .tracker-cards {
+      display: grid;
+      gap: 12px;
+    }
+
+    .tracker-card {
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 10px;
+      background: #0d1424;
+      padding: 16px;
+      overflow: hidden;
+    }
+
+    .tracker-card-head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 6px;
+    }
+
+    .tracker-card-source {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 7px;
+      margin-bottom: 6px;
+      color: #5f6b79;
+      font-size: 12px;
+    }
+
+    .tracker-dot {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: #ff6fb1;
+      box-shadow: 0 0 8px rgba(255,111,177,0.7);
+      flex: 0 0 auto;
+    }
+
+    .tracker-score {
+      flex: 0 0 auto;
+      min-width: 40px;
+      border: 1px solid rgba(255,184,107,0.34);
+      border-radius: 6px;
+      color: #ffb86b;
+      background: rgba(255,184,107,0.1);
+      text-align: center;
+      padding: 5px 7px;
+      font-weight: 700;
+      font-size: 13px;
+    }
+
+    .tracker-card h2 {
+      margin: 0 0 8px;
+      color: #f8fafc;
+      font-size: 16px;
+      line-height: 1.45;
+    }
+
+    .tracker-card-value {
+      margin: 0 0 10px;
+      color: #b8c0ca;
+      font-size: 13px;
+      line-height: 1.7;
+    }
+
+    .tracker-card-summary {
+      margin: 0 0 12px;
+      padding: 10px 12px;
+      border-left: 3px solid rgba(255,111,177,0.55);
+      border-radius: 6px;
+      background: rgba(255,255,255,0.03);
+    }
+
+    .tracker-card-summary strong {
+      display: block;
+      margin-bottom: 4px;
+      color: #ff6fb1;
+      font-size: 11px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .tracker-card-summary p {
+      margin: 0;
+      color: #d4dbe6;
+      font-size: 13px;
+      line-height: 1.7;
+    }
+
+    .tracker-meta-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .tracker-tag-list,
+    .tracker-platform-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+
+    .tracker-platform-list {
+      margin-top: 6px;
+    }
+
+    .tracker-tag {
+      border: 1px solid rgba(192,132,252,0.28);
+      border-radius: 999px;
+      color: #dabaff;
+      background: rgba(192,132,252,0.1);
+      padding: 3px 7px;
+      font-size: 11px;
+    }
+
+    .tracker-platform {
+      border: 1px solid rgba(255,111,177,0.24);
+      border-radius: 999px;
+      color: #ff6fb1;
+      background: rgba(255,111,177,0.08);
+      padding: 3px 7px;
+      font-size: 11px;
+    }
+
+    .tracker-actions {
+      display: flex;
+      gap: 7px;
+      flex-wrap: wrap;
+    }
+
+    .tracker-btn {
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 6px;
+      background: rgba(255,255,255,0.04);
+      color: #eef3f8;
+      padding: 5px 10px;
+      font: inherit;
+      font-size: 12px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .tracker-btn:hover {
+      border-color: rgba(255,111,177,0.45);
+      color: #ff6fb1;
+    }
+
+    .tracker-btn-primary {
+      border-color: rgba(255,111,177,0.42);
+      background: rgba(255,111,177,0.13);
+      color: #ff6fb1;
+    }
+
+    .tracker-draft {
+      display: none;
+      margin-top: 14px;
+      border-top: 1px solid rgba(255,255,255,0.07);
+      padding-top: 14px;
+    }
+
+    .tracker-card.open .tracker-draft {
+      display: block;
+    }
+
+    .tracker-draft-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .tracker-draft-box {
+      background: rgba(8,11,16,0.58);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 6px;
+      padding: 12px;
+    }
+
+    .tracker-draft-box h3 {
+      margin: 0 0 7px;
+      color: #8f9aaa;
+      font-size: 11px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .tracker-draft-box p {
+      margin: 0;
+      color: #d8dee7;
+      font-size: 13px;
+      line-height: 1.75;
+      white-space: pre-line;
+    }
+
+    .tracker-empty {
+      padding: 36px;
+      text-align: center;
+      color: #8f9aaa;
+      font-size: 14px;
     }
 
     .simple-meta {
@@ -768,11 +1035,6 @@
       .tracker-open {
         display: inline-flex;
         margin-top: 14px;
-      }
-
-      .tracker-frame {
-        height: 760px;
-        min-height: 640px;
       }
     }
   </style>
@@ -910,11 +1172,38 @@
         <div class="tracker-head">
           <div>
             <h1>Social Content Tracker</h1>
-            <p>把选题雷达、内容评分、平台适配和学习进度放进同一个工作区。这里内嵌的是完整 tracker 页面，数据文件会随自动更新任务同步刷新。</p>
+            <p>选题雷达、内容评分、平台适配。数据随自动更新任务同步刷新。</p>
           </div>
-          <a class="tracker-open" href="social-content-tracker/index.html" target="_blank" rel="noopener">新窗口打开</a>
+          <a class="tracker-open" href="social-content-tracker/index.html" target="_blank" rel="noopener">完整页面 ↗</a>
         </div>
-        <iframe class="tracker-frame" src="social-content-tracker/index.html" title="Social Content Tracker"></iframe>
+
+        <div class="tracker-summary">
+          <div class="tracker-stat">
+            <strong id="trackerTotal">—</strong>
+            <span>当前选题</span>
+          </div>
+          <div class="tracker-stat">
+            <strong id="trackerTopScore">—</strong>
+            <span>最高推荐分</span>
+          </div>
+          <div class="tracker-stat">
+            <strong id="trackerProducts">—</strong>
+            <span>覆盖产品线</span>
+          </div>
+        </div>
+
+        <div class="tracker-toolbar">
+          <input class="tracker-search" id="trackerSearch" type="search" placeholder="搜索标题、产品、标签…">
+          <select class="tracker-select" id="trackerSort">
+            <option value="date">按时间排序</option>
+            <option value="score">推荐分数优先</option>
+          </select>
+          <p class="tracker-result" id="trackerResult"></p>
+        </div>
+
+        <div class="tracker-cards" id="trackerCards">
+          <div class="tracker-empty">正在加载选题…</div>
+        </div>
       </div>
     </section>
 
@@ -2196,9 +2485,122 @@
     render();
     renderAccountsView();
     renderMainView();
+    initTracker();
 
     const initialView = location.hash.replace("#", "") || "hot";
     if (document.querySelector(`#view-${initialView}`)) showView(initialView);
+
+    // ── Tracker (内容追踪) ── 直接渲染，不用 iframe ──────────────────────────
+    function initTracker() {
+      const cardsEl = document.getElementById("trackerCards");
+      const totalEl = document.getElementById("trackerTotal");
+      const topScoreEl = document.getElementById("trackerTopScore");
+      const productsEl = document.getElementById("trackerProducts");
+      const resultEl = document.getElementById("trackerResult");
+      const searchEl = document.getElementById("trackerSearch");
+      const sortEl = document.getElementById("trackerSort");
+
+      let allTopics = [];
+
+      function escT(text) {
+        return String(text || "")
+          .replaceAll("&", "&amp;").replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;").replaceAll('"', "&quot;").replaceAll("'", "&#039;");
+      }
+
+      function renderTrackerCards() {
+        const kw = searchEl.value.trim().toLowerCase();
+        let filtered = allTopics.filter(t => {
+          if (!kw) return true;
+          return [t.title, t.product, t.value, t.summary, t.source, (t.tags || []).join(" ")].join(" ").toLowerCase().includes(kw);
+        });
+
+        if (sortEl.value === "score") {
+          filtered = filtered.slice().sort((a, b) => b.score - a.score);
+        }
+
+        totalEl.textContent = filtered.length;
+        topScoreEl.textContent = filtered.length ? Math.max(...filtered.map(t => t.score)) : "—";
+        productsEl.textContent = new Set(filtered.map(t => t.product)).size;
+        resultEl.textContent = `找到 ${filtered.length} 条选题`;
+
+        if (!filtered.length) {
+          cardsEl.innerHTML = `<div class="tracker-empty">没有匹配的选题，换个关键词试试。</div>`;
+          return;
+        }
+
+        cardsEl.innerHTML = filtered.map((t, idx) => `
+          <article class="tracker-card" data-tracker-idx="${idx}">
+            <div class="tracker-card-head">
+              <div>
+                <div class="tracker-card-source">
+                  <span class="tracker-dot"></span>
+                  <span>${escT(t.source)}</span>
+                  <span>${escT(t.date)}</span>
+                  <span>${escT(t.product)}</span>
+                </div>
+                <h2>${escT(t.title)}</h2>
+              </div>
+              <div class="tracker-score">${t.score}</div>
+            </div>
+            <p class="tracker-card-value">${escT(t.value)}</p>
+            ${t.summary ? `<div class="tracker-card-summary"><strong>摘要</strong><p>${escT(t.summary)}</p></div>` : ""}
+            <div class="tracker-meta-row">
+              <div>
+                <div class="tracker-tag-list">${(t.tags || []).map(tag => `<span class="tracker-tag">${escT(tag)}</span>`).join("")}</div>
+                <div class="tracker-platform-list">${(t.platforms || []).map(p => `<span class="tracker-platform">${escT(p)}</span>`).join("")}</div>
+              </div>
+              <div class="tracker-actions">
+                ${t.url ? `<a class="tracker-btn" href="${escT(t.url)}" target="_blank" rel="noopener">来源</a>` : ""}
+                <button class="tracker-btn" type="button" data-action="draft-toggle">草稿</button>
+                <button class="tracker-btn tracker-btn-primary" type="button" data-action="copy">复制</button>
+              </div>
+            </div>
+            <div class="tracker-draft">
+              <div class="tracker-draft-grid">
+                <div class="tracker-draft-box"><h3>Hook</h3><p>${escT(t.hook)}</p></div>
+                <div class="tracker-draft-box"><h3>English Post Draft</h3><p>${escT(t.post)}</p></div>
+              </div>
+            </div>
+          </article>
+        `).join("");
+
+        cardsEl.querySelectorAll("[data-action='draft-toggle']").forEach(btn => {
+          btn.addEventListener("click", () => btn.closest(".tracker-card").classList.toggle("open"));
+        });
+
+        cardsEl.querySelectorAll("[data-action='copy']").forEach((btn, i) => {
+          btn.addEventListener("click", () => {
+            const topic = filtered[i];
+            if (!topic) return;
+            const text = `${topic.title}\n\nHook: ${topic.hook}\n\n${topic.post}\n\nProduct: ${topic.product}\nTags: ${(topic.tags || []).join(", ")}\nPlatforms: ${(topic.platforms || []).join(", ")}`;
+            navigator.clipboard.writeText(text).then(() => {
+              btn.textContent = "已复制";
+              setTimeout(() => { btn.textContent = "复制"; }, 1400);
+            });
+          });
+        });
+      }
+
+      async function loadTrackerTopics() {
+        try {
+          const res = await fetch("social-content-tracker/topics.json?ts=" + Date.now());
+          if (!res.ok) throw new Error("fetch failed");
+          const data = await res.json();
+          if (Array.isArray(data.topics) && data.topics.length > 0) {
+            allTopics = data.topics;
+          }
+        } catch (e) {
+          console.warn("Tracker: could not load topics.json", e.message);
+        }
+        renderTrackerCards();
+      }
+
+      searchEl.addEventListener("input", renderTrackerCards);
+      sortEl.addEventListener("change", renderTrackerCards);
+
+      loadTrackerTopics();
+    }
   </script>
 </body>
 </html>
