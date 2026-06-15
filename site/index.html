@@ -2490,7 +2490,13 @@
     function getDateOptions() {
       const fixedDates = ["5/29", "5/30", "5/31", "6/1", "6/2", "6/3", "6/4", "6/5"];
       const captureDates = captures.map(item => getDateKey(item.createdAt));
-      return ["all", ...new Set([...fixedDates, ...captureDates])];
+      const all = ["all", ...new Set([...fixedDates, ...captureDates])].filter(d => d !== "all");
+      all.sort((a, b) => {
+        const [ma, da] = a.split("/").map(Number);
+        const [mb, db] = b.split("/").map(Number);
+        return ma !== mb ? ma - mb : da - db;
+      });
+      return ["all", ...all];
     }
 
     function renderDateTabs() {
