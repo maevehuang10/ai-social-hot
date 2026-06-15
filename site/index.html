@@ -1266,6 +1266,60 @@
 
     .learn-card-link:hover { background: rgba(8,145,178,0.18); }
 
+    .learn-card-title-row {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 8px;
+      width: 100%;
+    }
+
+    .learn-card-title-row h3 { margin: 0; flex: 1; }
+
+    .learn-card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px;
+      color: #5f6b79;
+      font-size: 11px;
+    }
+
+    .learn-card-meta span {
+      padding: 1px 5px;
+      border-radius: 3px;
+      background: rgba(255,255,255,0.04);
+    }
+
+    .learn-card-score {
+      border: 1px solid rgba(255,184,107,0.34);
+      border-radius: 4px;
+      color: #ffb86b;
+      background: rgba(255,184,107,0.1);
+      padding: 1px 6px !important;
+      font-weight: 700;
+      font-size: 11px;
+    }
+
+    .learn-card-right {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .learn-card-platforms {
+      display: flex;
+      gap: 4px;
+    }
+
+    .learn-card-plat {
+      border: 1px solid rgba(192,132,252,0.24);
+      border-radius: 999px;
+      color: #dabaff;
+      font-size: 10px;
+      padding: 1px 7px;
+    }
+
     .learn-day-summary {
       background: rgba(255,255,255,0.02);
       border-radius: 6px;
@@ -2992,15 +3046,29 @@
 
       function renderCard(t) {
         const st = getSourceType(t);
+        const score = t.score ? `<span class="learn-card-score">${t.score}</span>` : "";
+        const platforms = (t.platforms || []).filter(Boolean);
         return `<article class="learn-card ${st==="official"?"learn-card-official":"learn-card-external"}">
           <div class="learn-card-top">
-            <h3>${escT(t.title)}</h3>
-            <span class="learn-card-badge ${st}">${st==="official"?"官方":"外部"}</span>
+            <div class="learn-card-title-row">
+              <h3>${escT(t.title)}</h3>
+              <span class="learn-card-badge ${st}">${st==="official"?"官方":"外部"}</span>
+            </div>
+            <div class="learn-card-meta">
+              ${t.source ? `<span>${escT(t.source)}</span>` : ""}
+              ${score}
+              ${t.product ? `<span>${escT(t.product)}</span>` : ""}
+            </div>
           </div>
           <p class="learn-card-desc">${escT(t.summary || t.value || "")}</p>
           <div class="learn-card-foot">
-            <div class="learn-card-tags">${(t.tags||[]).slice(0,3).map(tg=>`<span class="learn-card-tag">${escT(tg)}</span>`).join("")}</div>
-            ${t.url ? `<a class="learn-card-link" href="${escT(t.url)}" target="_blank" rel="noopener">来源 ↗</a>` : ""}
+            <div class="learn-card-tags">
+              ${(t.tags||[]).slice(0,4).map(tg=>`<span class="learn-card-tag">${escT(tg)}</span>`).join("")}
+            </div>
+            <div class="learn-card-right">
+              ${platforms.length ? `<div class="learn-card-platforms">${platforms.slice(0,3).map(p=>`<span class="learn-card-plat">${escT(p)}</span>`).join("")}</div>` : ""}
+              ${t.url ? `<a class="learn-card-link" href="${escT(t.url)}" target="_blank" rel="noopener">来源 ↗</a>` : ""}
+            </div>
           </div>
         </article>`;
       }
