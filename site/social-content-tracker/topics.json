@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T03:20:00.000Z",
+  "generatedAt": "2026-06-15T06:35:00.000Z",
   "sourceMode": "seed",
   "sources": [
     "Ai-Thinker Product Lines",
@@ -505,7 +505,7 @@
     },
     {
       "title": "LoRaWAN solution content worth tracking",
-      "source": "RAKwireless",
+      "source": "LoRa Alliance",
       "product": "LoRa Module",
       "score": 95,
       "formats": [
@@ -523,15 +523,15 @@
         "Gateway"
       ],
       "value": "Useful for explaining complete LoRaWAN solutions to B2B users, including modules, gateways, sensor nodes, and cloud workflows.",
-      "summary": "Track how LoRaWAN brands turn hardware into complete deployment stories.",
+      "summary": "LoRa Alliance 发布三年 LoRaWAN 技术路线图，重点解决互操作性、大规模部署和安全性问题，对模组厂商内容选题有直接参考价值。",
       "hook": "Some IoT projects need years of battery life, not more bandwidth.",
       "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
-      "url": "https://www.linkedin.com/company/rakwireless/",
+      "url": "https://lora-alliance.org/lorawan-news/lora-alliance-unveils-3-year-roadmap-for-scaling-lorawan-globally/",
       "date": "2026-06-15"
     },
     {
       "title": "ESP32 developer ecosystem angle",
-      "source": "Espressif Systems",
+      "source": "Elektor Magazine",
       "product": "ESP32 Module",
       "score": 96,
       "formats": [
@@ -550,15 +550,15 @@
         "Smart Device"
       ],
       "value": "Useful for explaining how ESP32 modules support smart devices, control panels, gateways, and rapid prototyping.",
-      "summary": "ESP32 ecosystem content is useful when it turns chip capability into developer workflows and visible demos.",
+      "summary": "CES 2026 上 Espressif 展示 ESP32-E22 三频 WiFi 6E 和超低功耗 BLE MCU，ESP32 生态持续扩展，适合跟踪芯片选型趋势。",
       "hook": "A small module can shape the whole connected product experience.",
       "post": "ESP32 content works best when it connects the module to a real device workflow: connectivity, control, UI, sensing, and deployment.",
-      "url": "https://www.linkedin.com/company/espressif-systems",
+      "url": "https://www.elektormagazine.com/news/new-espressif-microcontrollers-ces-2026",
       "date": "2026-06-15"
     },
     {
       "title": "Matter and smart-home compatibility story",
-      "source": "Home Assistant",
+      "source": "The Verge",
       "product": "WiFi Module",
       "score": 94,
       "formats": [
@@ -576,10 +576,10 @@
         "Interoperability"
       ],
       "value": "Useful for smart-home customers who care about compatibility, certification readiness, and faster product development.",
-      "summary": "Smart-home module content should explain compatibility and integration value, not only wireless specs.",
+      "summary": "Matter 智能家居标准 2026 年最新进展：更多设备类型支持、更简化的用户配置体验，智能家居生态加速成熟。",
       "hook": "Smart home buyers are no longer asking only for connectivity. They want compatibility.",
       "post": "For smart-home devices, wireless modules become more valuable when they reduce integration risk and help products fit into existing ecosystems.",
-      "url": "https://www.home-assistant.io/",
+      "url": "https://www.theverge.com/news/609779/matter-smart-home-2026",
       "date": "2026-06-15"
     },
     {
