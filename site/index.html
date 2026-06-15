@@ -1075,6 +1075,209 @@
       font-size: 14px;
     }
 
+    /* ── 每日学习面板 ── */
+    .stat-today strong { color: #67e8f9; }
+    .stat-official strong { color: #4ade80; }
+    .stat-external strong { color: #ff6fb1; }
+
+    .learn-cat-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-bottom: 20px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid rgba(148,163,184,0.1);
+    }
+
+    .learn-cat-tabs button {
+      border: 1px solid rgba(148,163,184,0.16);
+      border-radius: 999px;
+      background: transparent;
+      color: #8f9aaa;
+      padding: 6px 16px;
+      font: inherit;
+      font-size: 13px;
+      cursor: pointer;
+      transition: 0.15s;
+    }
+
+    .learn-cat-tabs button:hover { border-color: rgba(34,211,238,0.4); color: #eef3f8; }
+    .learn-cat-tabs button.active {
+      border-color: rgba(34,211,238,0.6);
+      background: rgba(8,145,178,0.18);
+      color: #67e8f9;
+      font-weight: 600;
+    }
+
+    .learn-timeline { display: grid; gap: 0; }
+
+    .learn-day-group {
+      border-bottom: 1px solid rgba(148,163,184,0.06);
+      padding: 10px 0;
+    }
+
+    .learn-day-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+      padding: 8px 4px;
+      border-radius: 8px;
+      transition: background 0.15s;
+      user-select: none;
+    }
+
+    .learn-day-header:hover { background: rgba(255,255,255,0.03); }
+
+    .learn-day-title {
+      color: #f8fafc;
+      font-size: 16px;
+      font-weight: 700;
+      flex: 1;
+    }
+
+    .learn-day-meta {
+      color: #5f6b79;
+      font-size: 12px;
+    }
+
+    .learn-day-toggle {
+      color: #5f6b79;
+      font-size: 12px;
+      transition: transform 0.2s;
+    }
+
+    .learn-day-group.open .learn-day-toggle { transform: rotate(180deg); }
+
+    .learn-day-body { display: none; }
+    .learn-day-group.open .learn-day-body { display: block; }
+
+    .learn-day-subhead {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin: 10px 0 6px;
+      font-size: 12px;
+      font-weight: 700;
+      color: #8f9aaa;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .learn-day-subhead::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: rgba(148,163,184,0.08);
+    }
+
+    .learn-cards-row {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+      margin-bottom: 6px;
+    }
+
+    @media (max-width: 900px) {
+      .learn-cards-row { grid-template-columns: 1fr; }
+    }
+
+    .learn-card {
+      border: 1px solid rgba(148,163,184,0.08);
+      border-radius: 8px;
+      background: rgba(255,255,255,0.02);
+      padding: 12px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      transition: border-color 0.15s;
+    }
+
+    .learn-card:hover { border-color: rgba(148,163,184,0.22); }
+
+    .learn-card-official { border-left: 3px solid #4ade80; }
+    .learn-card-external { border-left: 3px solid #ff6fb1; }
+
+    .learn-card-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    .learn-card-top h3 {
+      margin: 0;
+      color: #e5edf8;
+      font-size: 14px;
+      line-height: 1.5;
+      flex: 1;
+    }
+
+    .learn-card-badge {
+      flex: 0 0 auto;
+      border-radius: 4px;
+      padding: 2px 7px;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+    }
+
+    .learn-card-badge.official { background: rgba(74,222,128,0.14); color: #4ade80; }
+    .learn-card-badge.external { background: rgba(255,111,177,0.14); color: #ff6fb1; }
+
+    .learn-card-desc {
+      margin: 0;
+      color: #8f9aaa;
+      font-size: 12px;
+      line-height: 1.6;
+    }
+
+    .learn-card-foot {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .learn-card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+
+    .learn-card-tag {
+      border: 1px solid rgba(148,163,184,0.12);
+      border-radius: 999px;
+      color: #8f9aaa;
+      font-size: 10px;
+      padding: 1px 7px;
+    }
+
+    .learn-card-link {
+      border: 1px solid rgba(34,211,238,0.28);
+      border-radius: 4px;
+      color: #67e8f9;
+      font-size: 11px;
+      padding: 3px 8px;
+      text-decoration: none;
+      transition: 0.15s;
+    }
+
+    .learn-card-link:hover { background: rgba(8,145,178,0.18); }
+
+    .learn-day-summary {
+      background: rgba(255,255,255,0.02);
+      border-radius: 6px;
+      padding: 10px 14px;
+      color: #8f9aaa;
+      font-size: 13px;
+      line-height: 1.7;
+      margin-bottom: 2px;
+    }
+
+    .learn-day-summary strong { color: #aab7ca; }
+
     .simple-meta {
       color: #8ea0ba;
       font-size: 13px;
@@ -1270,38 +1473,38 @@
       <div class="app-panel tracker-panel">
         <div class="tracker-head">
           <div>
-            <h1>Social Content Tracker</h1>
-            <p>选题雷达、内容评分、平台适配。数据随自动更新任务同步刷新。</p>
+            <h1>每日学习</h1>
+            <p>Ai-Thinker 官方文档 + 外部行业追踪，按产品线分类、按日期归档。</p>
           </div>
-          <a class="tracker-open" href="social-content-tracker/index.html" target="_blank" rel="noopener">完整页面 ↗</a>
+          <a class="tracker-open" href="social-content-tracker/index.html" target="_blank" rel="noopener">旧版页面 ↗</a>
         </div>
 
         <div class="tracker-summary">
-          <div class="tracker-stat">
+          <div class="tracker-stat stat-today">
             <strong id="trackerTotal">—</strong>
-            <span>当前选题</span>
+            <span>今日学习</span>
           </div>
-          <div class="tracker-stat">
-            <strong id="trackerTopScore">—</strong>
-            <span>最高推荐分</span>
+          <div class="tracker-stat stat-official">
+            <strong id="trackerOfficial">—</strong>
+            <span>官方 Docs</span>
           </div>
-          <div class="tracker-stat">
-            <strong id="trackerProducts">—</strong>
-            <span>覆盖产品线</span>
+          <div class="tracker-stat stat-external">
+            <strong id="trackerExternal">—</strong>
+            <span>外部追踪</span>
           </div>
         </div>
 
-        <div class="tracker-toolbar">
-          <input class="tracker-search" id="trackerSearch" type="search" placeholder="搜索标题、产品、标签…">
-          <select class="tracker-select" id="trackerSort">
-            <option value="date">按时间排序</option>
-            <option value="score">推荐分数优先</option>
-          </select>
-          <p class="tracker-result" id="trackerResult"></p>
+        <div class="learn-cat-tabs" id="learnCatTabs">
+          <button class="active" data-cat="all">全部</button>
+          <button data-cat="通信类">📡 通信类</button>
+          <button data-cat="传感类">📳 传感类</button>
+          <button data-cat="PCBA">🛠 PCBA</button>
+          <button data-cat="AI">🤖 AI</button>
+          <button data-cat="成品">📦 成品</button>
         </div>
 
-        <div class="tracker-cards" id="trackerCards">
-          <div class="tracker-empty">正在加载选题…</div>
+        <div class="learn-timeline" id="trackerCards">
+          <div class="tracker-empty">正在加载…</div>
         </div>
       </div>
     </section>
@@ -2692,116 +2895,121 @@
     const initialView = location.hash.replace("#", "") || "hot";
     if (document.querySelector(`#view-${initialView}`)) showView(initialView);
 
-    // ── Tracker (内容追踪) ── 直接渲染，不用 iframe ──────────────────────────
+    // ── 每日学习 (Tracker) ── 日期分组 + 产品线分类 ──────────────────────────
     function initTracker() {
       const cardsEl = document.getElementById("trackerCards");
       const totalEl = document.getElementById("trackerTotal");
-      const topScoreEl = document.getElementById("trackerTopScore");
-      const productsEl = document.getElementById("trackerProducts");
-      const resultEl = document.getElementById("trackerResult");
-      const searchEl = document.getElementById("trackerSearch");
-      const sortEl = document.getElementById("trackerSort");
+      const officialEl = document.getElementById("trackerOfficial");
+      const externalEl = document.getElementById("trackerExternal");
+      const catTabsEl = document.getElementById("learnCatTabs");
 
       let allTopics = [];
+      let activeLearnCat = "all";
 
-      function escT(text) {
-        return String(text || "")
-          .replaceAll("&", "&amp;").replaceAll("<", "&lt;")
-          .replaceAll(">", "&gt;").replaceAll('"', "&quot;").replaceAll("'", "&#039;");
+      const CAT_MAP = {
+        "ESP32 Module":"通信类","WiFi Module":"通信类","BLE Module":"通信类",
+        "LoRa Module":"通信类","Cellular IoT Module":"通信类",
+        "Radar Sensor":"传感类","UWB Module":"传感类",
+        "IoT Industry":"成品"
+      };
+
+      // Ai-Thinker 官方 Docs 学习条目
+      const OFFICIAL_DOCS = [
+        { title:"ESP32-C6 模组规格书", source:"Ai-Thinker Docs", date:"2026-06-15","product":"ESP32 Module",sourceType:"official",
+          summary:"WiFi 6 / BLE 5.3 / Thread / Matter 多协议模组，详细硬件参数与引脚定义。",
+          value:"阅读规格书了解 ESP32-C6 的 RF 性能、功耗模式和认证状态。",
+          tags:["ESP32-C6","WiFi 6","规格书"],
+          url:"https://docs.ai-thinker.com/esp32"}
+      ];
+
+      function escT(text) { return String(text||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;"); }
+
+      function getCat(t) { return CAT_MAP[t.product] || "其他"; }
+      function getSourceType(t) { return t.sourceType || (t.source && t.source.startsWith("Ai-Thinker") ? "official" : "external"); }
+
+      function groupByDate(items) {
+        const groups = {};
+        items.forEach(t => { const d = t.date || "unknown"; if (!groups[d]) groups[d] = []; groups[d].push(t); });
+        return Object.entries(groups).sort((a,b) => b[0].localeCompare(a[0]));
       }
 
-      function renderTrackerCards() {
-        const kw = searchEl.value.trim().toLowerCase();
-        let filtered = allTopics.filter(t => {
-          if (!kw) return true;
-          return [t.title, t.product, t.value, t.summary, t.source, (t.tags || []).join(" ")].join(" ").toLowerCase().includes(kw);
-        });
+      function render() {
+        let filtered = allTopics;
+        if (activeLearnCat !== "all") filtered = filtered.filter(t => getCat(t) === activeLearnCat);
 
-        if (sortEl.value === "score") {
-          filtered = filtered.slice().sort((a, b) => b.score - a.score);
-        }
+        const today = new Date().toISOString().slice(0,10);
+        const todayItems = filtered.filter(t => t.date === today);
+        const officialAll = filtered.filter(t => getSourceType(t) === "official");
+        const externalAll = filtered.filter(t => getSourceType(t) === "external");
 
-        totalEl.textContent = filtered.length;
-        topScoreEl.textContent = filtered.length ? Math.max(...filtered.map(t => t.score)) : "—";
-        productsEl.textContent = new Set(filtered.map(t => t.product)).size;
-        resultEl.textContent = `找到 ${filtered.length} 条选题`;
+        totalEl.textContent = todayItems.length;
+        officialEl.textContent = officialAll.length;
+        externalEl.textContent = externalAll.length;
 
         if (!filtered.length) {
-          cardsEl.innerHTML = `<div class="tracker-empty">没有匹配的选题，换个关键词试试。</div>`;
+          cardsEl.innerHTML = '<div class="tracker-empty">暂无学习内容，等待自动采集更新。</div>';
           return;
         }
 
-        cardsEl.innerHTML = filtered.map((t, idx) => `
-          <article class="tracker-card" data-tracker-idx="${idx}">
-            <div class="tracker-card-head">
-              <div>
-                <div class="tracker-card-source">
-                  <span class="tracker-dot"></span>
-                  <span>${escT(t.source)}</span>
-                  <span>${escT(t.date)}</span>
-                  <span>${escT(t.product)}</span>
-                </div>
-                <h2>${escT(t.title)}</h2>
-              </div>
-              <div class="tracker-score">${t.score}</div>
-            </div>
-            <p class="tracker-card-value">${escT(t.value)}</p>
-            ${t.summary ? `<div class="tracker-card-summary"><strong>摘要</strong><p>${escT(t.summary)}</p></div>` : ""}
-            <div class="tracker-meta-row">
-              <div>
-                <div class="tracker-tag-list">${(t.tags || []).map(tag => `<span class="tracker-tag">${escT(tag)}</span>`).join("")}</div>
-                <div class="tracker-platform-list">${(t.platforms || []).map(p => `<span class="tracker-platform">${escT(p)}</span>`).join("")}</div>
-              </div>
-              <div class="tracker-actions">
-                ${t.url ? `<a class="tracker-btn" href="${escT(t.url)}" target="_blank" rel="noopener">来源</a>` : ""}
-                <button class="tracker-btn" type="button" data-action="draft-toggle">草稿</button>
-                <button class="tracker-btn tracker-btn-primary" type="button" data-action="copy">复制</button>
-              </div>
-            </div>
-            <div class="tracker-draft">
-              <div class="tracker-draft-grid">
-                <div class="tracker-draft-box"><h3>Hook</h3><p>${escT(t.hook)}</p></div>
-                <div class="tracker-draft-box"><h3>English Post Draft</h3><p>${escT(t.post)}</p></div>
-              </div>
-            </div>
-          </article>
-        `).join("");
+        const groups = groupByDate(filtered);
+        cardsEl.innerHTML = groups.map(([date, items]) => {
+          const isToday = date === today;
+          const official = items.filter(t => getSourceType(t) === "official");
+          const external = items.filter(t => getSourceType(t) === "external");
+          const dateLabel = date === today ? "今天" : date.replace(/^\d{4}-/, "").replace("-","月")+"日";
 
-        cardsEl.querySelectorAll("[data-action='draft-toggle']").forEach(btn => {
-          btn.addEventListener("click", () => btn.closest(".tracker-card").classList.toggle("open"));
-        });
+          return `<div class="learn-day-group ${isToday?"open":""}" data-date="${date}">
+            <div class="learn-day-header" data-action="toggle-day">
+              <span class="learn-day-title">📅 ${escT(dateLabel)}</span>
+              <span class="learn-day-meta">${isToday?"⭐ ":""}${official.length} 官方 · ${external.length} 外部</span>
+              <span class="learn-day-toggle">▼</span>
+            </div>
+            <div class="learn-day-body">
+              ${isToday ? `<div class="learn-day-summary"><strong>今日学习重点：</strong>${official.length ? "官方 "+official.map(t=>t.title).slice(0,2).join("、")+" … " : ""}${external.length ? "外部 "+external.map(t=>t.title).slice(0,2).join("、") : ""}</div>` : ""}
+              ${official.length ? `<div class="learn-day-subhead">🟢 官方 Docs</div><div class="learn-cards-row">${official.map(t => renderCard(t)).join("")}</div>` : ""}
+              ${external.length ? `<div class="learn-day-subhead">🔴 外部追踪</div><div class="learn-cards-row">${external.map(t => renderCard(t)).join("")}</div>` : ""}
+            </div>
+          </div>`;
+        }).join("");
 
-        cardsEl.querySelectorAll("[data-action='copy']").forEach((btn, i) => {
-          btn.addEventListener("click", () => {
-            const topic = filtered[i];
-            if (!topic) return;
-            const text = `${topic.title}\n\nHook: ${topic.hook}\n\n${topic.post}\n\nProduct: ${topic.product}\nTags: ${(topic.tags || []).join(", ")}\nPlatforms: ${(topic.platforms || []).join(", ")}`;
-            navigator.clipboard.writeText(text).then(() => {
-              btn.textContent = "已复制";
-              setTimeout(() => { btn.textContent = "复制"; }, 1400);
-            });
-          });
+        cardsEl.querySelectorAll("[data-action='toggle-day']").forEach(hdr => {
+          hdr.addEventListener("click", () => hdr.closest(".learn-day-group").classList.toggle("open"));
         });
       }
 
-      async function loadTrackerTopics() {
+      function renderCard(t) {
+        const st = getSourceType(t);
+        return `<article class="learn-card ${st==="official"?"learn-card-official":"learn-card-external"}">
+          <div class="learn-card-top">
+            <h3>${escT(t.title)}</h3>
+            <span class="learn-card-badge ${st}">${st==="official"?"官方":"外部"}</span>
+          </div>
+          <p class="learn-card-desc">${escT(t.summary || t.value || "")}</p>
+          <div class="learn-card-foot">
+            <div class="learn-card-tags">${(t.tags||[]).slice(0,3).map(tg=>`<span class="learn-card-tag">${escT(tg)}</span>`).join("")}</div>
+            ${t.url ? `<a class="learn-card-link" href="${escT(t.url)}" target="_blank" rel="noopener">来源 ↗</a>` : ""}
+          </div>
+        </article>`;
+      }
+
+      catTabsEl.addEventListener("click", e => {
+        const btn = e.target.closest("button[data-cat]");
+        if (!btn) return;
+        activeLearnCat = btn.dataset.cat;
+        catTabsEl.querySelectorAll("button").forEach(b => b.classList.toggle("active", b.dataset.cat === activeLearnCat));
+        render();
+      });
+
+      async function load() {
         try {
           const res = await fetch("social-content-tracker/topics.json?ts=" + Date.now());
-          if (!res.ok) throw new Error("fetch failed");
-          const data = await res.json();
-          if (Array.isArray(data.topics) && data.topics.length > 0) {
-            allTopics = data.topics;
-          }
-        } catch (e) {
-          console.warn("Tracker: could not load topics.json", e.message);
-        }
-        renderTrackerCards();
+          if (res.ok) { const data = await res.json(); if (Array.isArray(data.topics)) allTopics = [...OFFICIAL_DOCS, ...data.topics]; }
+        } catch(e) { allTopics = [...OFFICIAL_DOCS]; }
+        if (!allTopics.length) allTopics = OFFICIAL_DOCS;
+        render();
       }
 
-      searchEl.addEventListener("input", renderTrackerCards);
-      sortEl.addEventListener("change", renderTrackerCards);
-
-      loadTrackerTopics();
+      load();
     }
   </script>
 </body>
