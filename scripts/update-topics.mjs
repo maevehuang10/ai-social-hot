@@ -11,7 +11,7 @@ const SOURCES = [
   { name: "IoT Tech News", url: "https://iottechnews.com/feed/" }
 ];
 
-const MAX_TOPICS = 24;
+const MAX_TOPICS = 100;
 const MAX_SOURCE_ITEMS = 12;
 
 const fallbackSources = [
@@ -329,6 +329,9 @@ async function readExistingTopics() {
 }
 
 async function main() {
+  const existingTopics = await readExistingTopics();
+  console.log(`Existing topics loaded: ${existingTopics.length}`);
+
   const fetched = [];
 
   for (const source of SOURCES) {
@@ -341,16 +344,18 @@ async function main() {
     }
   }
 
-  const topics = dedupe(fetched)
-    .map(toTopic)
-    .sort((a, b) => {
-      const dateDiff = new Date(b.date) - new Date(a.date);
-      return dateDiff || b.score - a.score;
-    })
-    .slice(0, MAX_TOPICS);
+  const newTopics = dedupe(fetched).map(toTopic);
 
-  const baseTopics = (topics.length > 0 ? topics : await readExistingTopics()).map(withSummary);
-  const finalTopics = dedupe([...fallbackTopicsForToday(baseTopics), ...baseTopics]).slice(0, MAX_TOPICS);
+  const merged = dedupe([...newTopics, ...existingTopics]);
+  merged.sort((a, b) => {
+    const dateDiff = new Date(b.date) - new Date(a.date);
+    return dateDiff || b.score - a.score;
+  });
+
+  const todayTopics = fallbackTopicsForToday(merged);
+  const finalTopics = dedupe([...todayTopics, ...merged])
+    .map(withSummary)
+    .slice(0, MAX_TOPICS);
 
   if (finalTopics.length === 0) {
     throw new Error("No topics fetched and no existing topics.json fallback found.");
@@ -358,13 +363,14 @@ async function main() {
 
   const output = JSON.stringify({
     generatedAt: new Date().toISOString(),
-    sourceMode: topics.length > 0 ? "rss" : "fallback",
+    sourceMode: newTopics.length > 0 ? "rss" : "fallback",
     sources: SOURCES.map(source => source.name),
     topics: finalTopics
   }, null, 2) + "\n";
 
   await Promise.all(TOPICS_FILES.map(file => writeFile(file, output, "utf8")));
 
+  console.log(`Existing: ${existingTopics.length}, New: ${newTopics.length}, Final: ${finalTopics.length} topics`);
   console.log(`Wrote ${finalTopics.length} topics to ${TOPICS_FILES.join(", ")}`);
 }
 
