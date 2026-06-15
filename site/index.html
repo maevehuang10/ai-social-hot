@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Content Captures</title>
+  <title>Ai-Thinker 每日学习看板</title>
   <style>
     :root {
       --bg: #fbf8ff;
@@ -1547,28 +1547,28 @@
 </head>
 <body>
   <aside class="side-nav">
-    <a class="logo" href="#hot" id="homeLink">AI&nbsp;<span>Social Hot</span></a>
+    <a class="logo" href="#tracker" id="homeLink">每日<span>学习</span></a>
     <a class="side-link" href="#accounts" data-view="accounts">账号库</a>
-    <a class="side-link" href="#tracker" data-view="tracker">内容追踪</a>
+    <a class="side-link active" href="#tracker" data-view="tracker">内容追踪</a>
     <a class="side-link" href="#picks" data-view="picks">每日选题</a>
-    <a class="side-link active" href="#hot" data-view="hot">热门内容</a>
+    <a class="side-link" href="#hot" data-view="hot">内容回顾</a>
 
 
   </aside>
   <main class="page">
     <nav class="topbar">
-      <p class="brand">AI Social Hot</p>
+      <p class="brand">Ai-Thinker 海外社媒学习库</p>
       <div class="nav">
         <a class="button" href="collected-accounts.html">账号库</a>
         <button class="button" id="exportBtn" type="button">导出 JSON</button>
       </div>
     </nav>
 
-    <section class="view active" id="view-hot">
+    <section class="view" id="view-hot">
     <header class="filter-hero">
       <div class="filter-title">
-        <h1>全部热门内容</h1>
-        <p>只收垂直相关内容：IoT、无线模组、传感器、开发者硬件、工程师教程和 B2B 技术营销。</p>
+        <h1>内容回顾</h1>
+        <p>自动化采集 IoT、无线模组、传感器、开发者硬件行业内容，按日期归档，随时回看。</p>
       </div>
       <div class="filter-panel">
         <div class="segmented" id="platformTabs" aria-label="平台筛选">
@@ -3116,7 +3116,7 @@
     initTracker();
     initPicks();
 
-    const initialView = location.hash.replace("#", "") || "hot";
+    const initialView = location.hash.replace("#", "") || "tracker";
     if (document.querySelector(`#view-${initialView}`)) showView(initialView);
 
     // ── 每日学习 (Tracker) ── 日期分组 + 产品线分类 ──────────────────────────
@@ -3299,7 +3299,7 @@
           .slice(0, 3);
 
         if (!top3.length) {
-          cardsEl.innerHTML = '<div class="tracker-empty">暂无推荐内容，等待自动采集更新。</div>';
+          cardsEl.innerHTML = '<div class="tracker-empty">今日暂无可推荐内容。<br><br>每天 09:10（北京时间）自动刷新行业资讯和官方文档，届时将生成 Top 3 选题推荐。</div>';
           return;
         }
 
