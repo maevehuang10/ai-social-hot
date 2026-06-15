@@ -739,7 +739,14 @@
 
     .accounts-category-grid {
       display: grid;
+      grid-template-columns: repeat(2, 1fr);
       gap: 8px;
+    }
+
+    @media (max-width: 1100px) {
+      .accounts-category-grid {
+        grid-template-columns: 1fr;
+      }
     }
 
     .accounts-link-icon {
