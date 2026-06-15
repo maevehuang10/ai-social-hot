@@ -1724,7 +1724,6 @@
         <p>根据物联网模组行业资讯，每日自动精选 3 条最有价值的内容，标注推荐发布平台。</p>
         <div class="picks-header">
           <div class="picks-date">📅 <span id="picksDate">2026-06-15</span></div>
-          <button class="picks-refresh" id="picksRefresh" type="button">刷新推荐</button>
         </div>
         <div class="picks-cards" id="picksCards">
           <div class="tracker-empty">正在分析今日资讯…</div>
@@ -3275,7 +3274,6 @@
     function initPicks() {
       const cardsEl = document.getElementById("picksCards");
       const dateEl = document.getElementById("picksDate");
-      const refreshBtn = document.getElementById("picksRefresh");
 
       function escT(text) { return String(text||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;"); }
 
@@ -3340,7 +3338,6 @@
         });
       }
 
-      refreshBtn.addEventListener("click", load);
       load();
     }
   </script>
