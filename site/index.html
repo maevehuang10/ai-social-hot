@@ -3016,8 +3016,16 @@
       async function load() {
         try {
           const res = await fetch("social-content-tracker/topics.json?ts=" + Date.now());
-          if (res.ok) { const data = await res.json(); if (Array.isArray(data.topics)) allTopics = [...OFFICIAL_DOCS, ...data.topics]; }
-        } catch(e) { allTopics = [...OFFICIAL_DOCS]; }
+          if (res.ok) {
+            const data = await res.json();
+            if (Array.isArray(data.topics)) {
+              const today = new Date().toISOString().slice(0,10);
+              // 外部内容：有来源链接的才保留，且今天只展示官方内容
+              const external = data.topics.filter(t => t.url && t.url.length > 0 && t.date !== today);
+              allTopics = [...OFFICIAL_DOCS, ...external];
+            }
+          }
+        } catch(e) { /* fallback to official only */ }
         if (!allTopics.length) allTopics = OFFICIAL_DOCS;
         render();
       }
