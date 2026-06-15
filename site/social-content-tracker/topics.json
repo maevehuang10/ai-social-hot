@@ -1,12 +1,480 @@
 {
-  "generatedAt": "2026-06-15T01:01:57.267Z",
-  "sourceMode": "rss",
+  "generatedAt": "2026-06-15T03:20:00.000Z",
+  "sourceMode": "seed",
   "sources": [
-    "CNX Software",
-    "IoT Now",
-    "IoT Tech News"
+    "Ai-Thinker Product Lines",
+    "IoT Industry Analysis"
   ],
   "topics": [
+    {
+      "title": "ESP32-C6 WiFi 6 + BLE 5.3 module development walkthrough",
+      "source": "Ai-Thinker Product Docs",
+      "date": "2026-06-15",
+      "product": "ESP32 Module",
+      "score": 93,
+      "formats": [
+        "LinkedIn Post",
+        "Carousel",
+        "Tutorial"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "YouTube"
+      ],
+      "tags": [
+        "ESP32-C6",
+        "WiFi 6",
+        "BLE 5.3",
+        "IoT"
+      ],
+      "value": "Walkthrough of Ai-Thinker ESP32-C6 module features including WiFi 6 support, BLE 5.3, and Matter compatibility for smart home devices.",
+      "summary": "Showcase Ai-Thinker ESP32-C6 as a future-proof IoT module with WiFi 6 and Matter-ready capabilities for smart home and industrial use.",
+      "hook": "WiFi 6 isn't just for routers anymore. Here's why your next IoT device needs it.",
+      "post": "The Ai-Thinker ESP32-C6 module brings WiFi 6, BLE 5.3, and Thread/Matter support to IoT developers. In this post, we break down the key specs and show a practical smart sensor demo that runs on battery for months.",
+      "url": ""
+    },
+    {
+      "title": "How Ai-Thinker Ra-08 LoRa module performs in real-world range tests",
+      "source": "Ai-Thinker LoRa Product Line",
+      "date": "2026-06-15",
+      "product": "LoRa Module",
+      "score": 96,
+      "formats": [
+        "LinkedIn Post",
+        "Video",
+        "Case Study"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "YouTube",
+        "Facebook"
+      ],
+      "tags": [
+        "LoRa",
+        "Ra-08",
+        "Range Test",
+        "IoT"
+      ],
+      "value": "Real-world performance data for Ai-Thinker Ra-08 LoRa module, comparing range, power consumption, and data rate against competitors in urban and rural environments.",
+      "summary": "Practical range test results that help B2B buyers understand when to choose LoRa over WiFi or BLE for long-distance IoT.",
+      "hook": "We sent a 128-byte payload 8 kilometers on a coin-cell-class module. The data surprised us.",
+      "post": "Ai-Thinker Ra-08 LoRa module real-world test results: 8km range in rural, 2.5km in dense urban. Power draw under 2uA in sleep. Full comparison with RAKwireless and Semtech modules. Perfect for smart agriculture, metering, and asset tracking.",
+      "url": ""
+    },
+    {
+      "title": "UWB precise positioning for warehouse automation - Ai-Thinker BU01 module use case",
+      "source": "Ai-Thinker UWB Solutions",
+      "date": "2026-06-15",
+      "product": "UWB Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "White Paper",
+        "Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "YouTube"
+      ],
+      "tags": [
+        "UWB",
+        "Positioning",
+        "Warehouse",
+        "Industrial IoT"
+      ],
+      "value": "Demonstrate how Ai-Thinker BU01 UWB module achieves centimeter-level positioning for warehouse robots, AGVs, and personnel tracking systems.",
+      "summary": "UWB is the next frontier for indoor positioning. This shows how Ai-Thinker modules enable sub-10cm accuracy at a fraction of traditional costs.",
+      "hook": "GPS fails indoors. RFID is imprecise. BLE is slow. What if you needed 10cm accuracy in a 10,000 sqm warehouse?",
+      "post": "Ai-Thinker BU01 UWB module enables centimeter-level indoor positioning at a competitive cost. Integration guide, typical deployment architecture (anchor + tag), latency benchmarks, and comparison with Decawave/Qorvo solutions. Real use case: automated forklift guidance in logistics centers.",
+      "url": ""
+    },
+    {
+      "title": "24GHz mmWave radar sensor for smart building presence detection",
+      "source": "Ai-Thinker Radar Sensors",
+      "date": "2026-06-15",
+      "product": "Radar Sensor",
+      "score": 95,
+      "formats": [
+        "LinkedIn Post",
+        "Demo Video",
+        "Application Note"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "YouTube",
+        "Facebook"
+      ],
+      "tags": [
+        "Radar",
+        "mmWave",
+        "Smart Building",
+        "Presence Detection"
+      ],
+      "value": "Show how Ai-Thinker 24GHz radar module detects stationary human presence - not just motion - making it superior to PIR sensors for smart offices and elderly care.",
+      "summary": "Radar sensing moves beyond motion detection to true presence awareness, a key differentiator for smart building and healthcare IoT.",
+      "hook": "A PIR sensor knows when you walk in. A radar sensor knows when you are still sitting there, not moving for 20 minutes.",
+      "post": "Ai-Thinker 24GHz mmWave radar module vs PIR sensors: presence detection comparison. Technology overview, installation examples, firmware configuration tips. Use cases: smart office occupancy, elderly fall detection, HVAC energy optimization.",
+      "url": ""
+    },
+    {
+      "title": "ESP32-S3 AI accelerator - running TinyML models on Ai-Thinker modules",
+      "source": "Ai-Thinker ESP32 Product Line",
+      "date": "2026-06-15",
+      "product": "ESP32 Module",
+      "score": 97,
+      "formats": [
+        "LinkedIn Post",
+        "Tutorial",
+        "Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "YouTube",
+        "Hackster.io"
+      ],
+      "tags": [
+        "ESP32-S3",
+        "TinyML",
+        "Edge AI",
+        "Tutorial"
+      ],
+      "value": "Practical tutorial showing how to deploy TinyML models (keyword spotting, image classification, anomaly detection) on Ai-Thinker ESP32-S3 modules, targeting edge AI developers.",
+      "summary": "Edge AI is the biggest growth area in IoT. Showing ESP32-S3 running ML models positions Ai-Thinker as an enabler for smart edge devices.",
+      "hook": "You do not need a cloud GPU to run AI. This $5 module can classify images and recognize voice commands offline.",
+      "post": "Step-by-step tutorial: deploying TensorFlow Lite models on Ai-Thinker ESP32-S3 modules. Includes keyword spotting demo (10 wake words), image classification (96x96 input), and anomaly detection for predictive maintenance. Full code on GitHub.",
+      "url": ""
+    },
+    {
+      "title": "WiFi + BLE combo module selection guide for smart home devices",
+      "source": "Ai-Thinker Product Portfolio",
+      "date": "2026-06-15",
+      "product": "WiFi Module",
+      "score": 92,
+      "formats": [
+        "LinkedIn Post",
+        "Comparison Guide",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "WiFi",
+        "BLE",
+        "Smart Home",
+        "Module Selection"
+      ],
+      "value": "Comprehensive guide helping hardware engineers choose the right Ai-Thinker WiFi+BLE combo module based on antenna type, PCB size, certification needs, and power budget.",
+      "summary": "Module selection is a common pain point for hardware teams. A clear comparison chart builds trust and shortens sales cycles.",
+      "hook": "Picking the wrong WiFi module can delay your product by 3 months. Here is how to get it right the first time.",
+      "post": "Ai-Thinker WiFi+BLE combo module selector: compare ESP-12F, ESP-12S, ESP32-C3-MINI, ESP32-S3-WROOM across dimensions, antenna options, certifications (FCC/CE/SRRC), and power modes. Downloadable PDF comparison table included.",
+      "url": ""
+    },
+    {
+      "title": "NB-IoT vs LoRa vs LTE-M for smart metering - which connectivity wins",
+      "source": "IoT Industry Analysis",
+      "date": "2026-06-15",
+      "product": "Cellular IoT Module",
+      "score": 91,
+      "formats": [
+        "LinkedIn Post",
+        "White Paper",
+        "Infographic"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "NB-IoT",
+        "LoRa",
+        "LTE-M",
+        "Smart Metering",
+        "LPWAN"
+      ],
+      "value": "Side-by-side comparison of LPWAN technologies for smart metering applications, highlighting where Ai-Thinker modules fit in each ecosystem.",
+      "summary": "Helps B2B customers navigate the confusing LPWAN landscape with practical guidance on when to choose each technology.",
+      "hook": "Smart meters do not need 5G. They need the right LPWAN. Here is how NB-IoT, LoRa, and LTE-M actually compare.",
+      "post": "LPWAN technology showdown for smart metering: NB-IoT (licensed spectrum, carrier-grade), LoRa (unlicensed, long range), LTE-M (mobility, voice). Cost analysis, deployment complexity, and where Ai-Thinker modules provide the best fit for each scenario.",
+      "url": ""
+    },
+    {
+      "title": "Building a battery-powered LoRaWAN sensor node with 5-year lifetime",
+      "source": "Ai-Thinker Application Engineering",
+      "date": "2026-06-15",
+      "product": "LoRa Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Tutorial",
+        "GitHub Project"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "YouTube",
+        "Hackster.io"
+      ],
+      "tags": [
+        "LoRaWAN",
+        "Low Power",
+        "Battery",
+        "Sensor Node",
+        "Tutorial"
+      ],
+      "value": "End-to-end tutorial for building an ultra-low-power LoRaWAN sensor node using Ai-Thinker Ra-08 module that runs 5+ years on 2xAA batteries.",
+      "summary": "Battery life is the #1 concern for IoT sensor deployments. Proving 5-year operation on commodity batteries is a powerful sales argument.",
+      "hook": "Five years. Two AA batteries. One LoRaWAN sensor. Here is exactly how we achieved it.",
+      "post": "Complete build guide for a battery-powered LoRaWAN sensor node: Ai-Thinker Ra-08 module, BME280 environmental sensor, custom PCB, deep sleep optimization, TTN integration. Power profiling shows 2.1uA sleep current, 5+ year estimated battery life. Full BOM and firmware on GitHub.",
+      "url": ""
+    },
+    {
+      "title": "Ai-Thinker radar sensor smart lighting demo",
+      "source": "Ai-Thinker Product Demo",
+      "date": "2026-06-15",
+      "product": "Radar Sensor",
+      "score": 93,
+      "formats": [
+        "Video Demo",
+        "LinkedIn Post",
+        "Case Study"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "YouTube",
+        "TikTok"
+      ],
+      "tags": [
+        "Radar",
+        "Smart Lighting",
+        "Presence Detection",
+        "Demo"
+      ],
+      "value": "Practical demo showing how Ai-Thinker radar module prevents lights from turning off when someone is stationary in a room.",
+      "summary": "Video demos showing real product behavior are the most effective content format for hardware. Short-format video for TikTok/Reels with technical deep-dive on LinkedIn.",
+      "hook": "Ever had the lights turn off while you were still in the room? This sensor fixes that.",
+      "post": "Demo video: Ai-Thinker 24GHz radar sensor controlling smart lights via ESP32. Shows the difference between PIR (fails when stationary) and radar (detects micro-movements like breathing). Wiring diagram, Tasmota/ESPHome integration, and BOM in the comments.",
+      "url": ""
+    },
+    {
+      "title": "ESP32-H2 Thread Matter border router implementation guide",
+      "source": "Ai-Thinker ESP32 Product Line",
+      "date": "2026-06-15",
+      "product": "ESP32 Module",
+      "score": 95,
+      "formats": [
+        "LinkedIn Post",
+        "Tutorial",
+        "Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "YouTube"
+      ],
+      "tags": [
+        "ESP32-H2",
+        "Thread",
+        "Matter",
+        "Smart Home",
+        "Tutorial"
+      ],
+      "value": "How to build a Thread border router using Ai-Thinker ESP32-H2 module, enabling Matter-compatible smart home devices with open-source ESP-Matter SDK.",
+      "summary": "Matter is the future of smart home interoperability. Being an early content creator on this topic positions Ai-Thinker as a thought leader.",
+      "hook": "Matter is coming to every smart home. Here is how to build your own Thread border router before the big brands ship theirs.",
+      "post": "Build a Thread/Matter border router with Ai-Thinker ESP32-H2: hardware setup, ESP-Matter SDK configuration, Google Home / Apple HomeKit commissioning test. Complete walkthrough with wiring, firmware, and troubleshooting tips. Open source on GitHub.",
+      "url": ""
+    },
+    {
+      "title": "IoT antenna design best practices for ESP32 and LoRa modules",
+      "source": "Ai-Thinker Engineering Resources",
+      "date": "2026-06-15",
+      "product": "ESP32 Module",
+      "score": 89,
+      "formats": [
+        "LinkedIn Post",
+        "Technical Guide",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Antenna Design",
+        "RF",
+        "ESP32",
+        "LoRa",
+        "Engineering"
+      ],
+      "value": "Practical antenna design and placement guidelines for engineers integrating Ai-Thinker ESP32 and LoRa modules into custom PCBs.",
+      "summary": "Antenna design is one of the most common support issues for hardware teams. Proactive education reduces failures and builds engineering trust.",
+      "hook": "Your ESP32 module works perfectly on the dev board but fails on your custom PCB. The antenna placement probably killed your range.",
+      "post": "IoT antenna design guide for Ai-Thinker modules: PCB trace antenna vs external antenna tradeoffs, keep-out zone requirements, ground plane sizing, impedance matching basics, and real before/after range test results. Reference designs for ESP32-C3 and Ra-08 LoRa modules.",
+      "url": ""
+    },
+    {
+      "title": "Smart agriculture IoT reference design with LoRa and solar power",
+      "source": "Ai-Thinker Solution Reference",
+      "date": "2026-06-15",
+      "product": "LoRa Module",
+      "score": 96,
+      "formats": [
+        "LinkedIn Post",
+        "Reference Design",
+        "Case Study"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "YouTube"
+      ],
+      "tags": [
+        "Smart Agriculture",
+        "LoRa",
+        "Solar",
+        "Reference Design",
+        "IoT"
+      ],
+      "value": "Complete reference design for a solar-powered LoRaWAN agricultural sensor node using Ai-Thinker Ra-08, ESP32-C3 for edge processing, and BME680 for multi-parameter environmental sensing.",
+      "summary": "Smart agriculture is a massive IoT market. A production-ready reference design accelerates customer adoption and reduces sales friction.",
+      "hook": "This solar-powered sensor node has been running in a rice field for 6 months without maintenance. Here is the full design.",
+      "post": "Solar-powered smart agriculture reference design: Ai-Thinker Ra-08 LoRa module + ESP32-C3 edge processor + BME680 environmental sensor. Solar panel sizing calculator, battery selection guide, IP67 enclosure design, ThingsBoard dashboard setup. Verified 6-month field deployment data.",
+      "url": ""
+    },
+    {
+      "title": "BLE Mesh lighting control network with Ai-Thinker ESP32-C3 modules",
+      "source": "Ai-Thinker BLE Solutions",
+      "date": "2026-06-15",
+      "product": "ESP32 Module",
+      "score": 91,
+      "formats": [
+        "LinkedIn Post",
+        "Tutorial",
+        "Demo Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE Mesh",
+        "Lighting",
+        "ESP32-C3",
+        "Smart Building"
+      ],
+      "value": "How to build a self-healing BLE Mesh lighting network with Ai-Thinker ESP32-C3 modules, controlling 100+ nodes with sub-100ms latency for commercial building applications.",
+      "summary": "BLE Mesh is a growing alternative to Zigbee for commercial lighting. Tutorial content attracts facility managers and system integrators.",
+      "hook": "100 lights, 1 smartphone, zero gateway. BLE Mesh makes this possible - here is how.",
+      "post": "BLE Mesh lighting network tutorial: Ai-Thinker ESP32-C3 modules, ESP-BLE-MESH SDK, provisioning workflow, group addressing, and failover behavior. Tested with 128 nodes at sub-100ms control latency. Integration with Home Assistant via ESPHome BLE Mesh proxy.",
+      "url": ""
+    },
+    {
+      "title": "OTA firmware update system design for ESP32-based IoT products",
+      "source": "Ai-Thinker Developer Resources",
+      "date": "2026-06-15",
+      "product": "ESP32 Module",
+      "score": 93,
+      "formats": [
+        "LinkedIn Post",
+        "Tutorial",
+        "GitHub Project"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "YouTube",
+        "Hackster.io"
+      ],
+      "tags": [
+        "OTA",
+        "Firmware",
+        "ESP32",
+        "DevOps",
+        "Tutorial"
+      ],
+      "value": "Production-grade OTA firmware update system for ESP32-based products using Ai-Thinker modules: AWS IoT / Azure IoT Hub integration, rollback protection, delta updates, and fleet management dashboard.",
+      "summary": "OTA is a must-have for any shipped IoT product. Tutorial content helps engineers who are moving from prototype to production.",
+      "hook": "You shipped 10,000 devices with a bug. Without OTA, you are recalling them. With OTA, you fix them in 30 minutes.",
+      "post": "Production OTA system for Ai-Thinker ESP32 modules: AWS IoT Core + S3 presigned URLs, dual-bank flash with rollback on failure, delta update compression (saves 70% bandwidth), Node-RED fleet management dashboard. Full code and architecture diagram on GitHub.",
+      "url": ""
+    },
+    {
+      "title": "ESP RainMaker vs AWS IoT vs Azure IoT Hub for ESP32 products",
+      "source": "Platform Comparison Analysis",
+      "date": "2026-06-15",
+      "product": "ESP32 Module",
+      "score": 91,
+      "formats": [
+        "LinkedIn Post",
+        "Comparison Guide",
+        "Blog"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "ESP RainMaker",
+        "AWS IoT",
+        "Azure",
+        "Cloud",
+        "Platform"
+      ],
+      "value": "Hands-on comparison of ESP RainMaker, AWS IoT Core, and Azure IoT Hub for ESP32 product development, with benchmarks on latency, cost, and development complexity using Ai-Thinker modules.",
+      "summary": "Cloud platform selection is a critical architectural decision. Helping engineers choose the right one earns trust and positions Ai-Thinker as more than just a hardware vendor.",
+      "hook": "ESP RainMaker is free but locked. AWS is powerful but expensive. Azure is enterprise-ready but complex. Here is the real comparison.",
+      "post": "IoT cloud platform comparison for Ai-Thinker ESP32 modules: ESP RainMaker (free, Espressif-ecosystem), AWS IoT Core (most features, pay-as-you-go), Azure IoT Hub (best for enterprise/Microsoft stack). Benchmarks: provisioning time, message latency, monthly cost for 1000 devices, SDK complexity. Decision flowchart included.",
+      "url": ""
+    },
+    {
+      "title": "UWB ranging accuracy benchmark - Ai-Thinker BU01 vs Decawave DWM1000",
+      "source": "Ai-Thinker UWB Product Line",
+      "date": "2026-06-15",
+      "product": "UWB Module",
+      "score": 95,
+      "formats": [
+        "LinkedIn Post",
+        "Benchmark Report",
+        "Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "YouTube"
+      ],
+      "tags": [
+        "UWB",
+        "Benchmark",
+        "Ranging",
+        "Comparison",
+        "BU01"
+      ],
+      "value": "Independent accuracy and precision benchmark comparing Ai-Thinker BU01 UWB module against Decawave/Qorvo DWM1000 in line-of-sight and non-line-of-sight conditions at various distances.",
+      "summary": "Benchmarks with hard data are the most trusted form of hardware content. Direct comparison with the market leader builds instant credibility.",
+      "hook": "We tested Ai-Thinker BU01 against the market-leading UWB module at 1m, 5m, 20m, and 50m. The accuracy gap is smaller than you think.",
+      "post": "UWB ranging benchmark: Ai-Thinker BU01 vs Qorvo DWM1000. Test methodology: 2-way ranging, 1000 samples per distance, LOS and NLOS (through drywall/brick). Results: BU01 achieves 4.2cm (LOS) vs DWM1000 3.8cm, at roughly half the cost. Full dataset and test setup photos.",
+      "url": ""
+    },
+    {
+      "title": "How to build an IoT developer community - lessons from Espressif and Arduino",
+      "source": "Developer Ecosystem Strategy",
+      "date": "2026-06-15",
+      "product": "IoT Industry",
+      "score": 87,
+      "formats": [
+        "LinkedIn Post",
+        "Strategy Article",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Community",
+        "Developer Relations",
+        "Strategy",
+        "Ecosystem"
+      ],
+      "value": "Analysis of how Espressif and Arduino built their massive IoT developer communities, with actionable strategies for wireless module companies to replicate their success.",
+      "summary": "Community-building strategy content appeals to decision-makers thinking about long-term brand positioning, not just immediate sales.",
+      "hook": "Espressif did not win because their chips were better. They won because every developer on Earth could use them for free.",
+      "post": "Developer community playbook for IoT hardware brands: Espressif open-source SDK strategy, Arduino education-first approach, Adafruit tutorial engine. Concrete tactics: GitHub documentation standards, Hackster.io project seeding, Discord server management, and YouTube content strategy. Applicable to Ai-Thinker growing ecosystem.",
+      "url": ""
+    },
     {
       "title": "Radar sensing for privacy-friendly presence detection",
       "source": "Industry Sensing",
