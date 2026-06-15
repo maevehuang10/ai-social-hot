@@ -3256,9 +3256,8 @@
           if (res.ok) {
             const data = await res.json();
             if (Array.isArray(data.topics)) {
-              const today = new Date().toISOString().slice(0,10);
-              // 外部内容：有来源链接的才保留，且今天只展示官方内容
-              const external = data.topics.filter(t => t.url && t.url.length > 0 && t.date !== today);
+              // 外部内容：只保留有来源链接的，按日期自动分组
+              const external = data.topics.filter(t => t.url && t.url.length > 0);
               allTopics = [...OFFICIAL_DOCS, ...external];
             }
           }
