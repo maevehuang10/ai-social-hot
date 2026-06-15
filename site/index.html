@@ -1134,9 +1134,8 @@
     <a class="side-link active" href="#hot" data-view="hot">热门内容</a>
     <a class="side-link" href="#tracker" data-view="tracker">内容追踪</a>
     <a class="side-link" href="#main" data-view="main">主库</a>
-    <a class="side-link" href="#report" data-view="report">AI 日报</a>
 
-    <button class="side-link side-action" id="shareBtn" type="button">生成分享版</button>
+
   </aside>
   <main class="page">
     <nav class="topbar">
@@ -1310,16 +1309,7 @@
       </div>
     </section>
 
-    <section class="view" id="view-report">
-      <div class="app-panel">
-        <h1>AI 日报</h1>
-        <p>这里用于放每天采集后的摘要：新增账号、热门内容、可转成帖子的选题和需要人工复核的内容。</p>
-        <div class="simple-card">
-          <h2>今日状态</h2>
-          <p>自动采集任务运行后，可以把日报摘要整理到这里。目前先保留为同页入口。</p>
-        </div>
-      </div>
-    </section>
+
 
   </main>
 
@@ -2711,23 +2701,6 @@
       const link = document.createElement("a");
       link.href = url;
       link.download = `content-captures-${new Date().toISOString().slice(0, 10)}.json`;
-      link.click();
-      URL.revokeObjectURL(url);
-    });
-
-    document.querySelector("#shareBtn").addEventListener("click", () => {
-      const sharedData = [
-        `<script>`,
-        `window.__SHARED_CAPTURES__ = ${JSON.stringify(captures)};`,
-        `window.__SHARED_MAIN_ENTRIES__ = ${JSON.stringify(loadMainEntries())};`,
-        `<\/script>`
-      ].join("\n");
-      const html = document.documentElement.outerHTML.replace("</head>", `${sharedData}\n</head>`);
-      const blob = new Blob([`<!doctype html>\n${html}`], { type: "text/html" });
-      const url = URL.createObjectURL(blob);
-      const link = document.createElement("a");
-      link.href = url;
-      link.download = `ai-social-hot-share-${new Date().toISOString().slice(0, 10)}.html`;
       link.click();
       URL.revokeObjectURL(url);
     });
