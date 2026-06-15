@@ -23,10 +23,13 @@ jobs:
       - name: Add today's records
         run: node scripts/daily-update.mjs
 
+      - name: Update topics.json (append mode)
+        run: node scripts/update-topics.mjs
+
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add site/index.html
+          git add site/index.html site/social-content-tracker/topics.json
           git diff --cached --quiet || git commit -m "Update daily social hot records"
           git push
