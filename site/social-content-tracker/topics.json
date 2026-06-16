@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T06:35:00.000Z",
+  "generatedAt": "2026-06-16T01:20:00.000Z",
   "sourceMode": "seed",
   "sources": [
     "Ai-Thinker Product Lines",
@@ -1108,6 +1108,75 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "IoT Now Contract Win List – May 2026\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/06/08/156857-iot-now-contract-win-list-may-2026/"
+    },
+    {
+      "title": "OpenCV 6 development preview: accelerated AI on edge devices",
+      "source": "CNX Software",
+      "date": "2026-06-16",
+      "product": "AI",
+      "score": 93,
+      "formats": [
+        "LinkedIn Post",
+        "Tutorial"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "YouTube"
+      ],
+      "tags": [
+        "OpenCV",
+        "Edge AI",
+        "ESP32",
+        "Tutorial"
+      ],
+      "summary": "OpenCV 6 预览版发布，大幅优化 ESP32-S3 等边缘设备的 NPU 加速和模型量化能力，适合做边缘 AI 选型参考。",
+      "url": "https://www.cnx-software.com/2026/06/16/opencv-6-preview-accelerated-ai-on-edge/"
+    },
+    {
+      "title": "Matter 2.0 certification expands to industrial IoT devices",
+      "source": "IoT Now",
+      "date": "2026-06-16",
+      "product": "WiFi Module",
+      "score": 90,
+      "formats": [
+        "LinkedIn Post",
+        "Industry Analysis"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Matter 2.0",
+        "Industrial IoT",
+        "Certification",
+        "Smart Home"
+      ],
+      "summary": "Matter 2.0 标准扩展覆盖工业物联网设备类型，新增摄像头和传感器品类认证，对安信可模组出海合规参考价值高。",
+      "url": "https://iot-now.com/2026/06/16/matter-2-0-expands-to-industrial-iot/"
+    },
+    {
+      "title": "Arduino launches new IoT Cloud dashboard with LoRaWAN integration",
+      "source": "Arduino Blog",
+      "date": "2026-06-16",
+      "product": "LoRa Module",
+      "score": 91,
+      "formats": [
+        "LinkedIn Post",
+        "Demo Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "YouTube",
+        "Facebook"
+      ],
+      "tags": [
+        "Arduino",
+        "IoT Cloud",
+        "LoRaWAN",
+        "Developer"
+      ],
+      "summary": "Arduino IoT Cloud 新增 LoRaWAN 集成仪表盘，支持设备可视化和 OTA 管理，开发者社区响应热烈。适合关注 LoRa+云平台的运营内容方向。",
+      "url": "https://blog.arduino.cc/2026/06/16/new-iot-cloud-lorawan-dashboard/"
     }
   ]
 }
