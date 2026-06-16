@@ -1391,7 +1391,23 @@
     }
     .picks-refresh:hover { background: rgba(8,145,178,0.22); }
 
-    .picks-cards { display: grid; gap: 16px; }
+    .picks-cards { display: grid; gap: 0; }
+
+    .picks-day-group { border-bottom: 1px solid rgba(148,163,184,0.06); padding: 8px 0; }
+
+    .picks-day-header {
+      display: flex; align-items: center; gap: 10px;
+      cursor: pointer; padding: 8px 4px; border-radius: 8px;
+      transition: background 0.15s; user-select: none;
+    }
+    .picks-day-header:hover { background: rgba(255,255,255,0.03); }
+
+    .picks-day-title { color: #f8fafc; font-size: 15px; font-weight: 700; flex: 1; }
+    .picks-day-meta { color: #5f6b79; font-size: 12px; }
+    .picks-day-toggle { color: #5f6b79; font-size: 12px; transition: transform 0.2s; }
+    .picks-day-group.open .picks-day-toggle { transform: rotate(180deg); }
+    .picks-day-body { display: none; }
+    .picks-day-group.open .picks-day-body { display: grid; gap: 12px; padding-top: 8px; }
 
     .picks-card {
       border: 1px solid rgba(148,163,184,0.1);
@@ -3376,7 +3392,7 @@
       load();
     }
 
-    // ── 每日选题 ── Top 3 推荐 ──────────────────────────────────────────────
+    // ── 每日选题 ── 按日期分组 Top 3 ────────────────────────────────────────
     function initPicks() {
       const cardsEl = document.getElementById("picksCards");
       const dateEl = document.getElementById("picksDate");
@@ -3384,7 +3400,6 @@
       function escT(text) { return String(text||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;"); }
 
       const RANK_CLASS = ["r1","r2","r3"];
-      const RANK_EMOJI = ["🥇","🥈","🥉"];
 
       async function load() {
         const today = new Date().toISOString().slice(0,10);
@@ -3396,44 +3411,69 @@
           if (res.ok) { const d = await res.json(); if (Array.isArray(d.topics)) allTopics = d.topics; }
         } catch(e) {}
 
-        // 按分数排序，取 top 3
-        const top3 = allTopics
-          .filter(t => t.score && t.url)
-          .sort((a,b) => b.score - a.score)
-          .slice(0, 3);
+        // 按日期分组，每组取 Top 3
+        const byDate = {};
+        allTopics.filter(t => t.score && t.url).forEach(t => {
+          const d = t.date || "unknown";
+          if (!byDate[d]) byDate[d] = [];
+          byDate[d].push(t);
+        });
 
-        if (!top3.length) {
-          cardsEl.innerHTML = '<div class="tracker-empty">今日暂无可推荐内容。<br><br>每天 09:10（北京时间）自动刷新行业资讯和官方文档，届时将生成 Top 3 选题推荐。</div>';
+        Object.keys(byDate).forEach(d => {
+          byDate[d] = byDate[d].sort((a,b) => b.score - a.score).slice(0,3);
+        });
+
+        const dates = Object.keys(byDate).sort((a,b) => b.localeCompare(a));
+        if (!dates.length) {
+          cardsEl.innerHTML = '<div class="tracker-empty">暂无推荐内容。<br><br>每天 09:10 自动刷新行业资讯，届时生成 Top 3 选题推荐。</div>';
           return;
         }
 
-        cardsEl.innerHTML = top3.map((t, i) => {
-          const platforms = (t.platforms || []).filter(Boolean);
-          return `<article class="picks-card">
-            <div class="picks-card-body">
-              <div class="picks-card-top">
-                <span class="picks-card-rank ${RANK_CLASS[i]}">${i+1}</span>
-                <h2>${escT(t.title)}</h2>
-              </div>
-              <div class="picks-card-meta">
-                ${t.source ? `<span>${escT(t.source)}</span>` : ""}
-                <span class="score-badge">${t.score}分</span>
-                ${t.product ? `<span>${escT(t.product)}</span>` : ""}
-              </div>
-              <p class="picks-card-summary">${escT(t.summary || t.value || "")}</p>
-              <div class="picks-card-foot">
-                <div class="picks-platforms">
-                  <span class="picks-platforms-label">推荐发布：</span>
-                  ${platforms.length ? platforms.map(p=>`<span class="picks-plat-tag">${escT(p)}</span>`).join("") : '<span class="picks-plat-tag">LinkedIn</span>'}
-                </div>
-                <div class="picks-actions">
-                  ${t.url ? `<a class="picks-btn" href="${escT(t.url)}" target="_blank" rel="noopener">来源 ↗</a>` : ""}
-                  <button class="picks-btn primary" data-copy="${escT(t.title)}">复制标题</button>
-                </div>
-              </div>
+        cardsEl.innerHTML = dates.map(date => {
+          const top3 = byDate[date];
+          const isToday = date === today;
+          const label = isToday ? "今天" : date.replace(/^\d{4}-/,"").replace("-","月")+"日";
+          return `<div class="picks-day-group ${isToday?"open":""}" data-date="${date}">
+            <div class="picks-day-header" data-action="toggle-picks-day">
+              <span class="picks-day-title">📅 ${escT(label)}</span>
+              <span class="picks-day-meta">${isToday?"⭐ ":""}${top3.length} 条选题</span>
+              <span class="picks-day-toggle">▼</span>
             </div>
-          </article>`;
+            <div class="picks-day-body">
+              ${top3.map((t,i) => {
+                const platforms = (t.platforms || []).filter(Boolean);
+                return `<article class="picks-card">
+                  <div class="picks-card-body">
+                    <div class="picks-card-top">
+                      <span class="picks-card-rank ${RANK_CLASS[i]}">${i+1}</span>
+                      <h2>${escT(t.title)}</h2>
+                    </div>
+                    <div class="picks-card-meta">
+                      ${t.source ? `<span>${escT(t.source)}</span>` : ""}
+                      <span class="score-badge">${t.score}分</span>
+                      ${t.product ? `<span>${escT(t.product)}</span>` : ""}
+                    </div>
+                    <p class="picks-card-summary">${escT(t.summary || t.value || "")}</p>
+                    <div class="picks-card-foot">
+                      <div class="picks-platforms">
+                        <span class="picks-platforms-label">推荐发布：</span>
+                        ${platforms.length ? platforms.map(p=>`<span class="picks-plat-tag">${escT(p)}</span>`).join("") : '<span class="picks-plat-tag">LinkedIn</span>'}
+                      </div>
+                      <div class="picks-actions">
+                        ${t.url ? `<a class="picks-btn" href="${escT(t.url)}" target="_blank" rel="noopener">来源 ↗</a>` : ""}
+                        <button class="picks-btn primary" data-copy="${escT(t.title)}">复制标题</button>
+                      </div>
+                    </div>
+                  </div>
+                </article>`;
+              }).join("")}
+            </div>
+          </div>`;
         }).join("");
+
+        cardsEl.querySelectorAll("[data-action='toggle-picks-day']").forEach(hdr => {
+          hdr.addEventListener("click", () => hdr.closest(".picks-day-group").classList.toggle("open"));
+        });
 
         cardsEl.querySelectorAll("[data-copy]").forEach(btn => {
           btn.addEventListener("click", () => {
