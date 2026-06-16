@@ -3306,7 +3306,7 @@
       function renderCard(t) {
         const st = getSourceType(t);
         const score = t.score ? `<span class="learn-card-score">${t.score}</span>` : "";
-        const cardId = "lc-" + escT(t.title).replace(/\s+/g,"-").slice(0,40);
+        const cardId = "used-" + t.title.replace(/[^a-zA-Z0-9\u4e00-\u9fff]/g,"-").slice(0,50);
         const used = localStorage.getItem(cardId) === "1";
         // 自动推导外部内容的用户画像
         let persona = t.persona || "";
