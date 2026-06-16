@@ -3136,23 +3136,37 @@
         "IoT Industry":"成品"
       };
 
-      // Ai-Thinker 官方 Docs 学习条目 — 6月16日 WB2 系列
+      // Ai-Thinker 官方 Docs 累计学习（按日期追加，不覆盖历史）
       const OFFICIAL_DOCS = [
+        // ── 6月15日 RTL87xx 系列 ──
+        { title:"BW16 双频 Wi-Fi + BLE 5.0 模组", source:"Ai-Thinker Docs", date:"2026-06-15","product":"WiFi Module",sourceType:"official",
+          summary:"基于瑞昱 RTL8720DN，2.4G/5G 双频 + BLE 5.0，双核 ARM V8/V8M MCU，支持 C SDK / Arduino / AT 指令三种开发方式，已适配 AWS IoT Core。",
+          tags:["BW16","RTL8720DN","双频WiFi","BLE 5.0"],
+          url:"https://docs.ai-thinker.com/bw16/"
+        },
+        { title:"BW20 双频 Wi-Fi + BLE 5.0 高吞吐模组", source:"Ai-Thinker Docs", date:"2026-06-15","product":"WiFi Module",sourceType:"official",
+          summary:"基于瑞昱 RTL8711，2.4G/5G 双频 + BLE 5.0，ARM V8.1 主核 330MHz，BW20-12F/BW20-07S 可选。基于 ameba-rtos SDK 开发。",
+          tags:["BW20","RTL8711","双频WiFi","BLE 5.0"],
+          url:"https://docs.ai-thinker.com/bw20/"
+        },
+        { title:"BW21-CBV 双频 Wi-Fi + AI 视觉摄像头模组", source:"Ai-Thinker Docs", date:"2026-06-15","product":"WiFi Module",sourceType:"official",
+          summary:"基于瑞昱 RTL8735B，双频 WiFi + BLE 5.1，500MHz ARM v8M + YOLO 物品识别，内置 ISP + H.264/H.265，边缘 AI 视觉终端方案。",
+          tags:["BW21-CBV","RTL8735B","AI视觉","摄像头"],
+          url:"https://docs.ai-thinker.com/bw21/"
+        },
+        // ── 6月16日 WB2 系列 ──
         { title:"Ai-WB2 系列 Wi-Fi + BLE 5.0 模组总览", source:"Ai-Thinker Docs", date:"2026-06-16","product":"WiFi Module",sourceType:"official",
-          summary:"基于博流 BL602 芯片，支持 802.11 b/g/n + BLE 5.0 + Bluetooth Mesh，32 位 RISC CPU + 276KB RAM，深度睡眠仅 12μA。共 14 款模组 + 3 款开发板，宽温/工业版本可选。",
-          value:"面向 IoT、智能家居、可穿戴、移动设备。支持二次开发（Linux/Windows SDK）、AT 指令、MQTT/Modbus/TCP-UDP 协议，对接亚马逊 IoT 和爱星云平台。",
+          summary:"基于博流 BL602，802.11 b/g/n + BLE 5.0 + Bluetooth Mesh，32 位 RISC + 276KB RAM，深度睡眠 12μA。14 款模组 + 3 款开发板，宽温/工业版可选。",
           tags:["WB2","BL602","WiFi","BLE 5.0","Bluetooth Mesh"],
           url:"https://docs.ai-thinker.com/wb2/"
         },
         { title:"WB2-12F / WB2-13 / WB2-32S 重点型号对比", source:"Ai-Thinker Docs", date:"2026-06-16","product":"WiFi Module",sourceType:"official",
-          summary:"三个主力型号各有所长：WB2-12F 通用型，WB2-13/13U 紧凑设计，WB2-32S 丰富外设。均支持 WPA3 安全加密、ECC-256 签名安全启动、AES OTFAD 即时解密和 TRNG 真随机数发生器。",
-          value:"固件推荐 2939 号 ComboAT V4.18_P23.2.1。外设支持 BH1750/SHT30/AHT20/MPU6050 传感器、WS2812B 灯带、SG90 舵机、Modbus 485 等常见 IoT 外设。",
+          summary:"WB2-12F 通用型，WB2-13/13U 紧凑设计，WB2-32S 丰富外设。WPA3 + ECC-256 + AES OTFAD + TRNG。推荐固件 2939 号 ComboAT V4.18。",
           tags:["WB2-12F","WB2-13","WB2-32S","ComboAT","安全启动"],
           url:"https://docs.ai-thinker.com/wb2/"
         },
         { title:"WB2 SDK 开发 & 固件烧录快速入门", source:"Ai-Thinker Docs", date:"2026-06-16","product":"WiFi Module",sourceType:"official",
-          summary:"开源 SDK（GitHub: Ai-Thinker-Open/Ai-Thinker-WB2），支持 Linux/Windows 环境。提供完整 API 文档、ComboAT 中英文 AT 指令集、ComAssistant 调试工具和烧录教程视频。",
-          value:"教程涵盖 TCP/UDP 通讯、MQTT 连接、BLE 蓝牙通讯、NFC 配网、NTP 时钟等实战案例。SDK 源代码开源，学习门槛低，适合团队快速上手。",
+          summary:"开源 SDK（GitHub: Ai-Thinker-Open/Ai-Thinker-WB2），Linux/Windows 环境。例程：TCP/UDP/MQTT/BLE/NFC/NTP。ComboAT 中英文 AT 指令集。",
           tags:["SDK","AT指令","MQTT","BLE","开发工具"],
           url:"https://docs.ai-thinker.com/wb2/"
         }
