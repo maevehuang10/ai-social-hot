@@ -1320,6 +1320,17 @@
       padding: 1px 7px;
     }
 
+    .learn-card-persona {
+      border: 1px solid rgba(34,211,238,0.22);
+      border-radius: 4px;
+      color: #67e8f9;
+      background: rgba(8,145,178,0.08);
+      font-size: 10px;
+      padding: 2px 7px;
+      margin-left: auto;
+      white-space: nowrap;
+    }
+
     .learn-day-summary {
       background: rgba(255,255,255,0.02);
       border-radius: 6px;
@@ -3141,32 +3152,38 @@
         // ── 6月15日 RTL87xx 系列 ──
         { title:"BW16 双频 Wi-Fi + BLE 5.0 模组", source:"Ai-Thinker Docs", date:"2026-06-15","product":"WiFi Module",sourceType:"official",
           summary:"基于瑞昱 RTL8720DN，2.4G/5G 双频 + BLE 5.0，双核 ARM V8/V8M MCU，支持 C SDK / Arduino / AT 指令三种开发方式，已适配 AWS IoT Core。",
+          persona:"嵌入式工程师 · Arduino 爱好者 · 智能家居开发者",
           tags:["BW16","RTL8720DN","双频WiFi","BLE 5.0"],
           url:"https://docs.ai-thinker.com/bw16/"
         },
         { title:"BW20 双频 Wi-Fi + BLE 5.0 高吞吐模组", source:"Ai-Thinker Docs", date:"2026-06-15","product":"WiFi Module",sourceType:"official",
           summary:"基于瑞昱 RTL8711，2.4G/5G 双频 + BLE 5.0，ARM V8.1 主核 330MHz，BW20-12F/BW20-07S 可选。基于 ameba-rtos SDK 开发。",
+          persona:"IoT 产品经理 · 高性能嵌入式开发者 · 数据吞吐场景选型",
           tags:["BW20","RTL8711","双频WiFi","BLE 5.0"],
           url:"https://docs.ai-thinker.com/bw20/"
         },
         { title:"BW21-CBV 双频 Wi-Fi + AI 视觉摄像头模组", source:"Ai-Thinker Docs", date:"2026-06-15","product":"WiFi Module",sourceType:"official",
           summary:"基于瑞昱 RTL8735B，双频 WiFi + BLE 5.1，500MHz ARM v8M + YOLO 物品识别，内置 ISP + H.264/H.265，边缘 AI 视觉终端方案。",
+          persona:"AIoT 算法工程师 · 智能摄像头方案商 · 边缘 AI 产品决策者",
           tags:["BW21-CBV","RTL8735B","AI视觉","摄像头"],
           url:"https://docs.ai-thinker.com/bw21/"
         },
         // ── 6月16日 WB2 系列 ──
         { title:"Ai-WB2 系列 Wi-Fi + BLE 5.0 模组总览", source:"Ai-Thinker Docs", date:"2026-06-16","product":"WiFi Module",sourceType:"official",
           summary:"基于博流 BL602，802.11 b/g/n + BLE 5.0 + Bluetooth Mesh，32 位 RISC + 276KB RAM，深度睡眠 12μA。14 款模组 + 3 款开发板，宽温/工业版可选。",
+          persona:"IoT 硬件选型工程师 · 采购决策者 · 物联网方案商",
           tags:["WB2","BL602","WiFi","BLE 5.0","Bluetooth Mesh"],
           url:"https://docs.ai-thinker.com/wb2/"
         },
         { title:"WB2-12F / WB2-13 / WB2-32S 重点型号对比", source:"Ai-Thinker Docs", date:"2026-06-16","product":"WiFi Module",sourceType:"official",
           summary:"WB2-12F 通用型，WB2-13/13U 紧凑设计，WB2-32S 丰富外设。WPA3 + ECC-256 + AES OTFAD + TRNG。推荐固件 2939 号 ComboAT V4.18。",
+          persona:"物联网产品经理 · 嵌入式开发工程师 · PCB 布局选型者",
           tags:["WB2-12F","WB2-13","WB2-32S","ComboAT","安全启动"],
           url:"https://docs.ai-thinker.com/wb2/"
         },
         { title:"WB2 SDK 开发 & 固件烧录快速入门", source:"Ai-Thinker Docs", date:"2026-06-16","product":"WiFi Module",sourceType:"official",
           summary:"开源 SDK（GitHub: Ai-Thinker-Open/Ai-Thinker-WB2），Linux/Windows 环境。例程：TCP/UDP/MQTT/BLE/NFC/NTP。ComboAT 中英文 AT 指令集。",
+          persona:"嵌入式软件工程师 · 固件开发者 · 开发者社区贡献者",
           tags:["SDK","AT指令","MQTT","BLE","开发工具"],
           url:"https://docs.ai-thinker.com/wb2/"
         }
@@ -3231,6 +3248,18 @@
         const st = getSourceType(t);
         const score = t.score ? `<span class="learn-card-score">${t.score}</span>` : "";
         const platforms = (t.platforms || []).filter(Boolean);
+        // 自动推导外部内容的用户画像
+        let persona = t.persona || "";
+        if (!persona && st === "external") {
+          const pt = t.product || "";
+          if (pt.includes("ESP32")) persona = "ESP32 开发者 · 物联网嵌入式工程师";
+          else if (pt.includes("LoRa")) persona = "LPWAN 方案商 · 物联网架构师";
+          else if (pt.includes("Radar")) persona = "传感器集成商 · 智能建筑工程师";
+          else if (pt.includes("UWB")) persona = "空间定位工程师 · 工业自动化";
+          else if (pt.includes("Cellular")) persona = "电信运营商 · 蜂窝 IoT 方案商";
+          else if (pt.includes("WiFi") || pt.includes("BLE")) persona = "无线通信工程师 · 智能家居开发者";
+          else persona = "物联网行业从业者 · 技术决策者";
+        }
         return `<article class="learn-card ${st==="official"?"learn-card-official":"learn-card-external"}">
           <div class="learn-card-top">
             <div class="learn-card-title-row">
@@ -3247,6 +3276,7 @@
           <div class="learn-card-foot">
             <div class="learn-card-tags">
               ${(t.tags||[]).slice(0,4).map(tg=>`<span class="learn-card-tag">${escT(tg)}</span>`).join("")}
+              ${persona ? `<span class="learn-card-persona">🎯 ${escT(persona)}</span>` : ""}
             </div>
             <div class="learn-card-right">
               ${platforms.length ? `<div class="learn-card-platforms">${platforms.slice(0,3).map(p=>`<span class="learn-card-plat">${escT(p)}</span>`).join("")}</div>` : ""}
