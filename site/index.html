@@ -2878,9 +2878,10 @@
 
     function getFilteredCaptures() {
       const keyword = search.value.trim().toLowerCase();
-      return captures
+      const all = [...captures, ...topicCaptures];
+      return all
         .filter(item => activePlatform === "all" || item.platform === activePlatform)
-        .filter(item => activeTopic === "all" || item.tags.includes(activeTopic))
+        .filter(item => activeTopic === "all" || (item.tags||[]).includes(activeTopic))
         .filter(item => activeDate === "all" || getDateKey(item.createdAt) === activeDate)
         .filter(item => {
           const text = [item.account, item.title, item.summary, item.reason, item.learn, item.tags.join(" ")].join(" ").toLowerCase();
@@ -3121,7 +3122,35 @@
       URL.revokeObjectURL(url);
     });
 
-    render();
+    let topicCaptures = [];
+
+    async function loadTopicCaptures() {
+      topicCaptures = [];
+      try {
+        const res = await fetch("social-content-tracker/topics.json?ts=" + Date.now());
+        if (!res.ok) return;
+        const data = await res.json();
+        if (!Array.isArray(data.topics)) return;
+        topicCaptures = data.topics
+          .filter(t => t.url && t.url.length > 0)
+          .map(t => ({
+            id: "topic-" + t.title.replace(/\s+/g,"-").toLowerCase().slice(0,60),
+            platform: (t.platforms || [])[0] || "Unknown",
+            account: t.source || t.product || "Unknown",
+            title: t.title,
+            url: t.url,
+            summary: t.summary || t.value || "",
+            metrics: t.score ? [`${t.score}分`] : [],
+            heat: t.score ? Math.min(5, Math.ceil(t.score/20)) : 3,
+            tags: t.tags || [],
+            reason: `自动采集 · ${t.product||""}`,
+            learn: "",
+            createdAt: t.date ? t.date + "T08:00:00" : new Date().toISOString()
+          }));
+      } catch(e) {}
+    }
+
+    loadTopicCaptures().then(() => render());
     renderAccountsView();
     initTracker();
     initPicks();
