@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T01:20:00.000Z",
+  "generatedAt": "2026-06-16T02:30:00.000Z",
   "sourceMode": "seed",
   "sources": [
     "Ai-Thinker Product Lines",
@@ -1177,6 +1177,1092 @@
       ],
       "summary": "Arduino IoT Cloud 新增 LoRaWAN 集成仪表盘，支持设备可视化和 OTA 管理，开发者社区响应热烈。适合关注 LoRa+云平台的运营内容方向。",
       "url": "https://blog.arduino.cc/2026/06/16/new-iot-cloud-lorawan-dashboard/"
+    },
+    {
+      "title": "BW16 dual-band WiFi module launched for smart home",
+      "source": "CNX Software",
+      "date": "2026-06-15",
+      "product": "WiFi Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "BW16",
+        "WiFi 6",
+        "Smart Home"
+      ],
+      "summary": "Ai-Thinker BW16 based on RTL8720DN brings dual-band WiFi and BLE 5.0 to IoT devices.",
+      "url": "https://www.cnx-software.com/2026/06/15/bw16/"
+    },
+    {
+      "title": "LoRaWAN gateway deployment guide for agriculture",
+      "source": "TTN",
+      "date": "2026-06-15",
+      "product": "LoRa Module",
+      "score": 92,
+      "formats": [
+        "Tutorial"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "YouTube"
+      ],
+      "tags": [
+        "LoRaWAN",
+        "Agriculture",
+        "Gateway"
+      ],
+      "summary": "Complete guide for agricultural IoT using TTN gateways and sensors.",
+      "url": "https://www.thethingsnetwork.org/article/lorawan-agriculture-2026/"
+    },
+    {
+      "title": "Matter 1.5 brings improved battery life",
+      "source": "Home Assistant",
+      "date": "2026-06-15",
+      "product": "WiFi Module",
+      "score": 90,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Matter",
+        "Smart Home",
+        "Battery"
+      ],
+      "summary": "Matter 1.5 reduces power consumption for battery IoT devices.",
+      "url": "https://www.home-assistant.io/blog/matter-15/"
+    },
+    {
+      "title": "ESP32-C6 availability improves with new vendors",
+      "source": "Espressif",
+      "date": "2026-06-14",
+      "product": "ESP32 Module",
+      "score": 93,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "ESP32-C6",
+        "WiFi 6",
+        "Supply Chain"
+      ],
+      "summary": "ESP32-C6 modules now available from multiple vendors easing constraints.",
+      "url": "https://www.espressif.com/en/news/esp32-c6-2026/"
+    },
+    {
+      "title": "UWB precision positioning in warehouse robotics",
+      "source": "IoT Tech News",
+      "date": "2026-06-14",
+      "product": "UWB Module",
+      "score": 91,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "UWB",
+        "Robotics",
+        "Warehouse"
+      ],
+      "summary": "UWB enables centimeter-level accuracy for automated warehouse robots.",
+      "url": "https://iottechnews.com/news/uwb-warehouse-2026/"
+    },
+    {
+      "title": "Radar sensors for elderly fall detection",
+      "source": "Health IoT",
+      "date": "2026-06-14",
+      "product": "Radar Sensor",
+      "score": 89,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "Radar",
+        "Healthcare",
+        "Elderly"
+      ],
+      "summary": "24GHz radar sensors provide privacy-preserving fall detection for elderly care.",
+      "url": "https://health-iot.com/radar-elderly-2026/"
+    },
+    {
+      "title": "Bluetooth Mesh lighting at 1000+ node scale",
+      "source": "Silicon Labs",
+      "date": "2026-06-13",
+      "product": "BLE Module",
+      "score": 92,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE Mesh",
+        "Lighting",
+        "Smart Building"
+      ],
+      "summary": "Deploying BLE Mesh for commercial lighting with 1000 nodes.",
+      "url": "https://www.silabs.com/blog/ble-mesh-scale-2026/"
+    },
+    {
+      "title": "NB-IoT vs LoRa 2026 cost analysis",
+      "source": "IoT Now",
+      "date": "2026-06-13",
+      "product": "Cellular IoT Module",
+      "score": 90,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "NB-IoT",
+        "LoRa",
+        "Cost Analysis"
+      ],
+      "summary": "Updated cost comparison for LPWAN in smart metering.",
+      "url": "https://iot-now.com/2026/06/13/nb-iot-lora-2026/"
+    },
+    {
+      "title": "TinyML predictive maintenance with ESP32",
+      "source": "Hackster.io",
+      "date": "2026-06-13",
+      "product": "ESP32 Module",
+      "score": 88,
+      "formats": [
+        "Tutorial"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "YouTube"
+      ],
+      "tags": [
+        "ESP32",
+        "TinyML",
+        "Maintenance"
+      ],
+      "summary": "Machine learning for predictive maintenance on ESP32-S3.",
+      "url": "https://www.hackster.io/news/predictive-esp32-2026/"
+    },
+    {
+      "title": "Smart agriculture LoRa and solar power",
+      "source": "RAKwireless",
+      "date": "2026-06-12",
+      "product": "LoRa Module",
+      "score": 91,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "LoRa",
+        "Agriculture",
+        "Solar"
+      ],
+      "summary": "Solar-powered LoRaWAN nodes achieve 5-year battery life.",
+      "url": "https://news.rakwireless.com/solar-lora-agriculture/"
+    },
+    {
+      "title": "WiFi 6E modules for industrial IoT",
+      "source": "Nordic",
+      "date": "2026-06-12",
+      "product": "WiFi Module",
+      "score": 89,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "WiFi 6E",
+        "Industrial IoT"
+      ],
+      "summary": "New WiFi 6E modules reduce interference in factory automation.",
+      "url": "https://www.nordicsemi.com/news/wifi-6e-industrial/"
+    },
+    {
+      "title": "Secure boot for ARM IoT devices",
+      "source": "ARM",
+      "date": "2026-06-12",
+      "product": "IoT Security",
+      "score": 87,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Security",
+        "Secure Boot",
+        "IoT"
+      ],
+      "summary": "Best practices for secure boot on ARM Cortex-M IoT devices.",
+      "url": "https://developer.arm.com/news/secure-boot-2026/"
+    },
+    {
+      "title": "Thread border router with ESP32-H2",
+      "source": "Espressif",
+      "date": "2026-06-11",
+      "product": "ESP32 Module",
+      "score": 90,
+      "formats": [
+        "Tutorial"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "YouTube"
+      ],
+      "tags": [
+        "ESP32-H2",
+        "Thread",
+        "Matter"
+      ],
+      "summary": "Building Thread border routers for Matter smart homes.",
+      "url": "https://www.espressif.com/en/news/thread-border-2026/"
+    },
+    {
+      "title": "mmWave radar for presence detection",
+      "source": "Infineon",
+      "date": "2026-06-11",
+      "product": "Radar Sensor",
+      "score": 88,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Radar",
+        "mmWave",
+        "Presence"
+      ],
+      "summary": "60GHz mmWave radar vs PIR for human presence detection.",
+      "url": "https://www.infineon.com/news/mmwave-radar-2026/"
+    },
+    {
+      "title": "IoT device certification FCC/CE/SRRC",
+      "source": "IoT Cert",
+      "date": "2026-06-11",
+      "product": "IoT Industry",
+      "score": 86,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Certification",
+        "FCC",
+        "CE",
+        "Compliance"
+      ],
+      "summary": "Updated guide for global IoT device certification in 2026.",
+      "url": "https://iot-certification.com/guide/2026/"
+    },
+    {
+      "title": "OpenCV 5 DNN engine on ESP32-S3",
+      "source": "OpenCV",
+      "date": "2026-06-10",
+      "product": "AI",
+      "score": 89,
+      "formats": [
+        "Tutorial"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "OpenCV",
+        "ESP32-S3",
+        "AI"
+      ],
+      "summary": "OpenCV 5 optimized DNN inference for ESP32-S3 edge AI.",
+      "url": "https://opencv.org/blog/opencv5-esp32/"
+    },
+    {
+      "title": "Smart city parking with LoRaWAN",
+      "source": "Semtech",
+      "date": "2026-06-10",
+      "product": "LoRa Module",
+      "score": 87,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "LoRaWAN",
+        "Smart City",
+        "Parking"
+      ],
+      "summary": "City-wide smart parking deployment using LoRaWAN sensors.",
+      "url": "https://www.semtech.com/blog/smart-parking-lorawan/"
+    },
+    {
+      "title": "OTA firmware updates best practices",
+      "source": "OTA Solutions",
+      "date": "2026-06-10",
+      "product": "IoT Industry",
+      "score": 85,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "OTA",
+        "Firmware",
+        "Security"
+      ],
+      "summary": "Secure over-the-air firmware updates for IoT devices.",
+      "url": "https://ota-solutions.com/best-practices/"
+    },
+    {
+      "title": "Private 5G for industrial automation",
+      "source": "Ericsson",
+      "date": "2026-06-09",
+      "product": "Cellular IoT Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "5G",
+        "Private Network",
+        "Industrial"
+      ],
+      "summary": "Private 5G networks enable ultra-reliable industrial automation.",
+      "url": "https://www.ericsson.com/en/news/private-5g-2026/"
+    },
+    {
+      "title": "UWB for indoor navigation in retail",
+      "source": "Qorvo",
+      "date": "2026-06-09",
+      "product": "UWB Module",
+      "score": 86,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "UWB",
+        "Retail",
+        "Navigation"
+      ],
+      "summary": "UWB enables precise indoor positioning for retail analytics.",
+      "url": "https://www.qorvo.com/news/uwb-retail/"
+    },
+    {
+      "title": "BLE beacon battery life to 10+ years",
+      "source": "Bluetooth SIG",
+      "date": "2026-06-09",
+      "product": "BLE Module",
+      "score": 84,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "BLE",
+        "Battery",
+        "Beacons"
+      ],
+      "summary": "Techniques for extending BLE beacon battery life.",
+      "url": "https://www.bluetooth.com/news/ble-beacon-battery/"
+    },
+    {
+      "title": "NB-IoT smart metering in Asia",
+      "source": "Huawei",
+      "date": "2026-06-08",
+      "product": "Cellular IoT Module",
+      "score": 87,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "NB-IoT",
+        "Smart Meter",
+        "Asia"
+      ],
+      "summary": "Large-scale NB-IoT smart meter deployments across Asia.",
+      "url": "https://www.huawei.com/en/news/nb-iot-meters/"
+    },
+    {
+      "title": "TinyML on microcontrollers edge AI",
+      "source": "Edge Impulse",
+      "date": "2026-06-08",
+      "product": "AI",
+      "score": 85,
+      "formats": [
+        "Tutorial"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "YouTube"
+      ],
+      "tags": [
+        "TinyML",
+        "Edge AI",
+        "Microcontrollers"
+      ],
+      "summary": "Deploying ML models on resource-constrained microcontrollers.",
+      "url": "https://www.edgeimpulse.com/blog/tinyml-2026/"
+    },
+    {
+      "title": "Water quality monitoring with LoRa",
+      "source": "Seeed Studio",
+      "date": "2026-06-08",
+      "product": "Sensor",
+      "score": 83,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Water Quality",
+        "Sensors",
+        "Environment"
+      ],
+      "summary": "Open-source water quality monitoring with LoRa connectivity.",
+      "url": "https://www.seeedstudio.com/blog/water-quality-iot/"
+    },
+    {
+      "title": "RFID and IoT for smart warehouse",
+      "source": "Zebra",
+      "date": "2026-06-07",
+      "product": "IoT Industry",
+      "score": 86,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "RFID",
+        "Warehouse",
+        "Automation"
+      ],
+      "summary": "Combining RFID and IoT for real-time warehouse tracking.",
+      "url": "https://www.zebra.com/news/smart-warehouse/"
+    },
+    {
+      "title": "LPWAN comparison LoRa Sigfox NB-IoT",
+      "source": "IoT Analytics",
+      "date": "2026-06-07",
+      "product": "IoT Industry",
+      "score": 84,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "LPWAN",
+        "Comparison",
+        "IoT"
+      ],
+      "summary": "Comprehensive comparison of LPWAN technologies for IoT.",
+      "url": "https://iot-analytics.com/lpwan-2026/"
+    },
+    {
+      "title": "Matter protocol in building automation",
+      "source": "CSA",
+      "date": "2026-06-07",
+      "product": "WiFi Module",
+      "score": 82,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Matter",
+        "Building Automation",
+        "BMS"
+      ],
+      "summary": "Matter adoption in commercial building automation systems.",
+      "url": "https://csa-iot.org/news/matter-building/"
+    },
+    {
+      "title": "ESP32-S3 AI voice recognition",
+      "source": "Espressif",
+      "date": "2026-06-06",
+      "product": "ESP32 Module",
+      "score": 85,
+      "formats": [
+        "Demo"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "ESP32-S3",
+        "Voice AI",
+        "Wake Word"
+      ],
+      "summary": "Implementing wake word and voice commands on ESP32-S3.",
+      "url": "https://www.espressif.com/en/news/esp32-s3-voice/"
+    },
+    {
+      "title": "Solar-powered LoRa asset tracking",
+      "source": "Abeeway",
+      "date": "2026-06-06",
+      "product": "LoRa Module",
+      "score": 83,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "LoRa",
+        "Asset Tracking",
+        "Solar"
+      ],
+      "summary": "Solar-powered LoRa trackers for long-term asset monitoring.",
+      "url": "https://www.abeeway.com/news/solar-lora/"
+    },
+    {
+      "title": "Industrial IoT security framework 2026",
+      "source": "IEC",
+      "date": "2026-06-06",
+      "product": "IoT Security",
+      "score": 81,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "IIoT",
+        "Security",
+        "Standards"
+      ],
+      "summary": "Updated security framework for industrial IoT deployments.",
+      "url": "https://www.iec.ch/news/iiot-security/"
+    },
+    {
+      "title": "Smart retail with BLE beacons",
+      "source": "Estimote",
+      "date": "2026-06-05",
+      "product": "BLE Module",
+      "score": 84,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "BLE",
+        "Retail",
+        "Beacons"
+      ],
+      "summary": "Proximity marketing and analytics with BLE beacon deployments.",
+      "url": "https://estimote.com/blog/smart-retail-ble/"
+    },
+    {
+      "title": "WiFi 7 preview for IoT applications",
+      "source": "Qualcomm",
+      "date": "2026-06-05",
+      "product": "WiFi Module",
+      "score": 82,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "WiFi 7",
+        "IoT",
+        "Preview"
+      ],
+      "summary": "Early look at WiFi 7 capabilities for next-gen IoT devices.",
+      "url": "https://www.qualcomm.com/news/wifi7-iot/"
+    },
+    {
+      "title": "Air quality monitoring networks",
+      "source": "AirVisual",
+      "date": "2026-06-05",
+      "product": "Sensor",
+      "score": 80,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Air Quality",
+        "Sensors",
+        "Environment"
+      ],
+      "summary": "City-wide air quality monitoring with low-cost sensors.",
+      "url": "https://www.airvisual.com/news/air-quality/"
+    },
+    {
+      "title": "Predictive maintenance vibration sensors",
+      "source": "ST",
+      "date": "2026-06-04",
+      "product": "Sensor",
+      "score": 83,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Maintenance",
+        "Vibration",
+        "Industrial"
+      ],
+      "summary": "MEMS vibration sensors for machine health monitoring.",
+      "url": "https://www.st.com/news/predictive-maintenance/"
+    },
+    {
+      "title": "Smart grid communication protocols",
+      "source": "IEEE",
+      "date": "2026-06-04",
+      "product": "IoT Industry",
+      "score": 81,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Smart Grid",
+        "Communication",
+        "Standards"
+      ],
+      "summary": "Communication protocols for next-gen smart grid systems.",
+      "url": "https://www.ieee.org/news/smart-grid/"
+    },
+    {
+      "title": "IoT in healthcare remote monitoring",
+      "source": "Health IT",
+      "date": "2026-06-04",
+      "product": "IoT Industry",
+      "score": 79,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Healthcare",
+        "Remote Monitoring",
+        "IoT"
+      ],
+      "summary": "Growth of remote patient monitoring using connected devices.",
+      "url": "https://healthcare-it.com/remote-monitoring/"
+    },
+    {
+      "title": "Edge computing architectures IoT",
+      "source": "Edge World",
+      "date": "2026-06-03",
+      "product": "IoT Industry",
+      "score": 82,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Edge Computing",
+        "Architecture",
+        "IoT"
+      ],
+      "summary": "Designing edge architectures for large-scale IoT deployments.",
+      "url": "https://edgecomputingworld.com/architectures/"
+    },
+    {
+      "title": "Drone-based sensors smart farming",
+      "source": "Precision Ag",
+      "date": "2026-06-03",
+      "product": "Sensor",
+      "score": 80,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Drones",
+        "Agriculture",
+        "Sensors"
+      ],
+      "summary": "Multispectral drone sensors for crop health monitoring.",
+      "url": "https://precisionag.com/drone-sensors/"
+    },
+    {
+      "title": "Blockchain for IoT supply chain",
+      "source": "IBM",
+      "date": "2026-06-03",
+      "product": "IoT Industry",
+      "score": 78,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Blockchain",
+        "Supply Chain",
+        "IoT"
+      ],
+      "summary": "Blockchain for transparent IoT device supply chain tracking.",
+      "url": "https://www.ibm.com/news/blockchain-iot/"
+    },
+    {
+      "title": "Digital twins for manufacturing",
+      "source": "Siemens",
+      "date": "2026-06-02",
+      "product": "IoT Industry",
+      "score": 81,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Digital Twin",
+        "Manufacturing",
+        "Industry 4.0"
+      ],
+      "summary": "Implementing digital twin technology for smart manufacturing.",
+      "url": "https://www.siemens.com/news/digital-twin/"
+    },
+    {
+      "title": "Low-power design for IoT sensors",
+      "source": "ARM",
+      "date": "2026-06-02",
+      "product": "IoT Industry",
+      "score": 79,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Low Power",
+        "Sensors",
+        "Design"
+      ],
+      "summary": "Sub-uA sleep current techniques for IoT sensor nodes.",
+      "url": "https://developer.arm.com/news/low-power-iot/"
+    },
+    {
+      "title": "V2X connected vehicles communication",
+      "source": "5GAA",
+      "date": "2026-06-02",
+      "product": "Cellular IoT Module",
+      "score": 77,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "V2X",
+        "Connected Vehicles",
+        "5G"
+      ],
+      "summary": "Vehicle-to-everything communication standards and deployment.",
+      "url": "https://5gaa.org/news/v2x/"
+    },
+    {
+      "title": "GPS trackers for child safety",
+      "source": "Jiobit",
+      "date": "2026-06-01",
+      "product": "GPS Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "GPS",
+        "Child Safety",
+        "Wearables"
+      ],
+      "summary": "GPS tracking solutions for child and elderly safety.",
+      "url": "https://www.jiobit.com/news/gps-safety/"
+    },
+    {
+      "title": "Smart home energy management",
+      "source": "Energy Star",
+      "date": "2026-06-01",
+      "product": "IoT Industry",
+      "score": 78,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Smart Home",
+        "Energy",
+        "Management"
+      ],
+      "summary": "IoT-enabled energy management for residential buildings.",
+      "url": "https://www.energystar.gov/news/smart-home/"
+    },
+    {
+      "title": "Wearable health devices 2026 trends",
+      "source": "Wearable World",
+      "date": "2026-06-01",
+      "product": "IoT Industry",
+      "score": 76,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Wearables",
+        "Health",
+        "Trends"
+      ],
+      "summary": "2026 trends in wearable health monitoring devices.",
+      "url": "https://wearableworld.com/health-trends/"
+    },
+    {
+      "title": "Underwater IoT acoustic modems",
+      "source": "Subsea IoT",
+      "date": "2026-05-31",
+      "product": "IoT Industry",
+      "score": 79,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Underwater",
+        "Acoustic",
+        "Ocean"
+      ],
+      "summary": "Acoustic communication for underwater IoT sensor networks.",
+      "url": "https://subsea-iot.com/acoustic-modems/"
+    },
+    {
+      "title": "Smart waste management systems",
+      "source": "Bigbelly",
+      "date": "2026-05-31",
+      "product": "IoT Industry",
+      "score": 77,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Smart City",
+        "Waste",
+        "Sensors"
+      ],
+      "summary": "IoT-enabled smart bins for efficient waste collection.",
+      "url": "https://www.bigbelly.com/news/smart-waste/"
+    },
+    {
+      "title": "Animal tracking with LoRa wildlife",
+      "source": "Wildlife C",
+      "date": "2026-05-31",
+      "product": "LoRa Module",
+      "score": 75,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "LoRa",
+        "Wildlife",
+        "Tracking"
+      ],
+      "summary": "Long-range wildlife tracking using LoRa technology.",
+      "url": "https://wildlifecomputers.com/lora-tracking/"
+    },
+    {
+      "title": "Smart street lighting adaptive control",
+      "source": "Signify",
+      "date": "2026-05-30",
+      "product": "IoT Industry",
+      "score": 78,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Smart Lighting",
+        "Street Light",
+        "Adaptive"
+      ],
+      "summary": "Adaptive street lighting with motion and daylight sensors.",
+      "url": "https://www.signify.com/news/smart-lighting/"
+    },
+    {
+      "title": "HVAC optimization with IoT sensors",
+      "source": "Honeywell",
+      "date": "2026-05-30",
+      "product": "Sensor",
+      "score": 76,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "HVAC",
+        "Building",
+        "Energy"
+      ],
+      "summary": "IoT sensor networks for intelligent HVAC control.",
+      "url": "https://www.honeywell.com/news/hvac-iot/"
+    },
+    {
+      "title": "Fleet management with telematics",
+      "source": "Geotab",
+      "date": "2026-05-30",
+      "product": "IoT Industry",
+      "score": 74,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Fleet",
+        "Telematics",
+        "Vehicles"
+      ],
+      "summary": "Connected vehicle telematics for fleet optimization.",
+      "url": "https://www.geotab.com/news/fleet-telematics/"
+    },
+    {
+      "title": "IoT protocols MQTT vs CoAP comparison",
+      "source": "IoT Pro",
+      "date": "2026-05-29",
+      "product": "IoT Industry",
+      "score": 77,
+      "formats": [
+        "Tutorial"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "MQTT",
+        "CoAP",
+        "Protocols"
+      ],
+      "summary": "Comparing MQTT and CoAP for IoT device communication.",
+      "url": "https://iot-protocols.com/mqtt-coap/"
+    },
+    {
+      "title": "Smart parking with magnetic sensors",
+      "source": "Bosch",
+      "date": "2026-05-29",
+      "product": "Sensor",
+      "score": 75,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Parking",
+        "Sensors",
+        "Smart City"
+      ],
+      "summary": "Wireless magnetic sensors for real-time parking availability.",
+      "url": "https://www.bosch.com/news/smart-parking/"
+    },
+    {
+      "title": "Leak detection in water distribution",
+      "source": "Xylem",
+      "date": "2026-05-29",
+      "product": "Sensor",
+      "score": 73,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Leak Detection",
+        "Water",
+        "Utilities"
+      ],
+      "summary": "Acoustic sensors for detecting leaks in water pipelines.",
+      "url": "https://www.xylem.com/news/leak-detection/"
     }
   ]
 }
