@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T02:10:00.000Z",
+  "generatedAt": "2026-06-17T02:30:00.000Z",
   "sourceMode": "seed",
   "sources": [
     "Ai-Thinker Product Lines",
@@ -2282,8 +2282,8 @@
         "Market Trend",
         "BL618"
       ],
-      "summary": "RISC-V 架构在物联网模组市场加速渗透，博流 BL618、乐鑫 ESP32-P4 等推动生态成熟，安信可 M61 系列基于 BL618 的 RISC-V+WiFi6 方案值得关注。",
-      "url": "https://www.eetimes.com/riscv-iot-market-2026/"
+      "summary": "内存芯片短缺反而推动 RISC-V IoT 设备需求，因 RISC-V 芯片供应链更灵活、成本更低，RISC-V 在物联网模组市场加速渗透。",
+      "url": "https://iottechnews.com/news/risc-v-iot-devices-memory-chip-shortage-2026/"
     },
     {
       "title": "WiFi 6 adoption in smart home devices accelerates",
@@ -2304,8 +2304,8 @@
         "Adoption",
         "Matter"
       ],
-      "summary": "WiFi 联盟报告称 2026 年 WiFi 6 智能家居设备出货量同比增长 45%，Matter+WiFi6 成为新设备标配，模组厂商需关注认证合规。",
-      "url": "https://www.wi-fi.org/news/wifi6-smart-home-2026/"
+      "summary": "2026 年智能家居趋势：Matter+WiFi 6 成为新设备标配，AI 驱动主动式家庭管理，绿色可持续成为差异化卖点。",
+      "url": "https://www.technerdo.com/blog/smart-home-2026-matter-ai-sustainability"
     },
     {
       "title": "Thread Mesh networking practical deployment guide",
@@ -2327,8 +2327,8 @@
         "Smart Home",
         "Deployment"
       ],
-      "summary": "Thread Group 发布实战部署指南，详解 Thread Mesh 组网拓扑、边界路由器配置和 Matter 设备接入流程，适合工程师参考。",
-      "url": "https://www.threadgroup.org/news/deployment-guide-2026/"
+      "summary": "2026 年蓝牙 Mesh vs Thread vs Matter 选型指南：三者在智能家居场景的优势与取舍，何时选 Thread 做 Mesh 组网。",
+      "url": "https://akraniq.com/blog/bluetooth-mesh-vs-thread-vs-matter-2026"
     }
   ]
 }
