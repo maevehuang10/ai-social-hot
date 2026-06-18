@@ -297,6 +297,18 @@
       font-weight: 700;
     }
 
+    .source-url {
+      margin-left: auto;
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .source-url:hover {
+      text-decoration: underline;
+    }
+
     h2 {
       margin: 0;
       font-size: 20px;
@@ -1733,7 +1745,7 @@
             <h1>每日学习</h1>
             <p>Ai-Thinker 官方文档 + 外部行业追踪，按产品线分类、按日期归档。</p>
           </div>
-          <a class="tracker-open" href="social-content-tracker/index.html" target="_blank" rel="noopener">旧版页面 ↗</a>
+          <a class="tracker-open" href="#" onclick="document.querySelector('.side-link[data-view=tracker]').click()" style="text-decoration:none">旧版页面</a>
         </div>
 
         <div class="tracker-summary">
@@ -2598,100 +2610,6 @@
               "createdAt": "2026-06-04T21:10:00.000Z"
       },
       {
-              "id": "seed-20260617-morning-digikey-1",
-              "key": "digikey",
-              "account": "DigiKey",
-              "platform": "LinkedIn",
-              "url": "https://www.linkedin.com/company/digikey",
-              "heat": "4",
-              "tags": [
-                      "B2B",
-                      "Engineer",
-                      "Electronics",
-                      "Distributor"
-              ],
-              "title": "Engineer-friendly B2B content",
-              "summary": "morning collection: Daily collection: B2B distributor content reflects what engineers and buyers care about, such as selection, supply, and application resources.",
-              "metrics": [
-                      "Public reactions visible on LinkedIn",
-                      "Official account"
-              ],
-              "reason": "It is close to real engineering and purchasing decision contexts.",
-              "learn": "Can adapt: wireless module selection checklist for Wi-Fi, LoRa, and UWB.",
-              "createdAt": "2026-06-17T08:20:00.000Z"
-      },
-      {
-              "id": "seed-20260617-morning-hackster-2",
-              "key": "hackster",
-              "account": "Hackster.io",
-              "platform": "Website",
-              "url": "https://www.hackster.io/",
-              "heat": "4",
-              "tags": [
-                      "Industry",
-                      "Developer",
-                      "Community",
-                      "IoT"
-              ],
-              "title": "Developer project community signal",
-              "summary": "morning collection: Daily collection: developer project communities show what real users are building, which is often more useful than generic product specs.",
-              "metrics": [
-                      "Stable official website",
-                      "Developer project community"
-              ],
-              "reason": "This can inspire smart-home, industrial monitoring, wireless sensor node, and edge-device topics.",
-              "learn": "Can adapt: collect 3 project scenarios for ESP32 / LoRa / radar sensor and turn them into a LinkedIn carousel.",
-              "createdAt": "2026-06-17T08:35:00.000Z"
-      },
-      {
-              "id": "seed-20260617-morning-rakwireless-3",
-              "key": "rakwireless",
-              "account": "RAKwireless",
-              "platform": "LinkedIn",
-              "url": "https://www.linkedin.com/company/rakwireless/",
-              "heat": "5",
-              "tags": [
-                      "Product",
-                      "LoRaWAN",
-                      "Gateway",
-                      "Sensor",
-                      "B2B"
-              ],
-              "title": "LoRaWAN solution content worth tracking",
-              "summary": "morning collection: Daily collection: track how RAKwireless explains complete LoRaWAN solutions, especially gateway, node, sensor, and cloud workflows.",
-              "metrics": [
-                      "Public reactions need manual review",
-                      "Official LinkedIn account"
-              ],
-              "reason": "This is highly relevant to Ai-Thinker LoRa, gateway, and sensor-node audiences.",
-              "learn": "Can adapt: diagram LoRa module + gateway + cloud for agriculture, campus, or industrial monitoring.",
-              "createdAt": "2026-06-17T08:45:00.000Z"
-      },
-      {
-              "id": "seed-20260617-morning-espressif-4",
-              "key": "espressif",
-              "account": "Espressif Systems",
-              "platform": "LinkedIn",
-              "url": "https://www.linkedin.com/company/espressif-systems",
-              "heat": "5",
-              "tags": [
-                      "Product",
-                      "ESP32",
-                      "Developer",
-                      "Wi-Fi",
-                      "Bluetooth"
-              ],
-              "title": "ESP32 developer ecosystem angle",
-              "summary": "morning collection: Daily collection: ESP32 ecosystem posts are useful for tracking developer concerns beyond specs, including tools, production reliability, and use cases.",
-              "metrics": [
-                      "Public reactions need manual review",
-                      "Official LinkedIn account"
-              ],
-              "reason": "ESP32 is a core overseas keyword for Ai-Thinker content.",
-              "learn": "Can adapt: make an ESP32 Wi-Fi + BLE selection checklist for smart-home devices.",
-              "createdAt": "2026-06-17T08:55:00.000Z"
-      },
-      {
               "id": "seed-20260616-morning-silicon-labs-1",
               "key": "silicon-labs",
               "account": "Silicon Labs",
@@ -2783,144 +2701,6 @@
               "reason": "This is highly relevant to Ai-Thinker LoRa, gateway, and sensor-node audiences.",
               "learn": "Can adapt: diagram LoRa module + gateway + cloud for agriculture, campus, or industrial monitoring.",
               "createdAt": "2026-06-16T08:55:00.000Z"
-      },
-      {
-              "id": "seed-20260616-noon-stmicroelectronics-1",
-              "key": "stmicroelectronics",
-              "account": "STMicroelectronics",
-              "platform": "LinkedIn",
-              "url": "https://www.linkedin.com/company/stmicroelectronics",
-              "heat": "4",
-              "tags": [
-                      "Industry",
-                      "Sensor",
-                      "MCU",
-                      "Industrial IoT"
-              ],
-              "title": "Sensor and MCU application story",
-              "summary": "noon collection: Daily collection: sensor and MCU application content is useful for industrial IoT, smart devices, and engineering audiences.",
-              "metrics": [
-                      "Public reactions need manual review",
-                      "Official LinkedIn account"
-              ],
-              "reason": "It helps turn hardware parameters into application scenarios and engineering value.",
-              "learn": "Can adapt: show how a radar sensor gives a device presence-detection capability.",
-              "createdAt": "2026-06-16T12:10:00.000Z"
-      },
-      {
-              "id": "seed-20260616-noon-silicon-labs-2",
-              "key": "silicon-labs",
-              "account": "Silicon Labs",
-              "platform": "LinkedIn",
-              "url": "https://www.linkedin.com/company/silicon-labs",
-              "heat": "4",
-              "tags": [
-                      "Industry",
-                      "Matter",
-                      "Wireless",
-                      "IoT"
-              ],
-              "title": "Wireless protocol education angle",
-              "summary": "noon collection: Daily collection: wireless protocol education is useful for seeing how technical brands explain complex concepts clearly.",
-              "metrics": [
-                      "Public reactions need manual review",
-                      "Official LinkedIn account"
-              ],
-              "reason": "This overlaps with Ai-Thinker Wi-Fi, BLE, LoRa, and UWB audiences.",
-              "learn": "Can adapt: one visual explaining Wi-Fi, BLE, LoRa, and UWB roles in IoT devices.",
-              "createdAt": "2026-06-16T12:35:00.000Z"
-      },
-      {
-              "id": "seed-20260616-afternoon-ttn-1",
-              "key": "ttn",
-              "account": "The Things Network",
-              "platform": "Website",
-              "url": "https://www.thethingsnetwork.org/",
-              "heat": "5",
-              "tags": [
-                      "Industry",
-                      "LoRaWAN",
-                      "Community",
-                      "Developer"
-              ],
-              "title": "LoRaWAN community deployment signal",
-              "summary": "afternoon collection: Daily collection: community scale and deployment data help judge whether a technical ecosystem is active and worth following.",
-              "metrics": [
-                      "Community scale visible on website",
-                      "Gateway/member data"
-              ],
-              "reason": "Community deployment data is a strong trust signal for engineers and solution providers.",
-              "learn": "Can adapt: explain why LoRaWAN fits long-range low-power sensors using ecosystem proof.",
-              "createdAt": "2026-06-16T15:20:00.000Z"
-      },
-      {
-              "id": "seed-20260616-afternoon-stmicroelectronics-2",
-              "key": "stmicroelectronics",
-              "account": "STMicroelectronics",
-              "platform": "LinkedIn",
-              "url": "https://www.linkedin.com/company/stmicroelectronics",
-              "heat": "4",
-              "tags": [
-                      "Industry",
-                      "Sensor",
-                      "MCU",
-                      "Industrial IoT"
-              ],
-              "title": "Sensor and MCU application story",
-              "summary": "afternoon collection: Daily collection: sensor and MCU application content is useful for industrial IoT, smart devices, and engineering audiences.",
-              "metrics": [
-                      "Public reactions need manual review",
-                      "Official LinkedIn account"
-              ],
-              "reason": "It helps turn hardware parameters into application scenarios and engineering value.",
-              "learn": "Can adapt: show how a radar sensor gives a device presence-detection capability.",
-              "createdAt": "2026-06-16T16:40:00.000Z"
-      },
-      {
-              "id": "seed-20260616-evening-silicon-labs-1",
-              "key": "silicon-labs",
-              "account": "Silicon Labs",
-              "platform": "LinkedIn",
-              "url": "https://www.linkedin.com/company/silicon-labs",
-              "heat": "4",
-              "tags": [
-                      "Industry",
-                      "Matter",
-                      "Wireless",
-                      "IoT"
-              ],
-              "title": "Wireless protocol education angle",
-              "summary": "evening collection: Daily collection: wireless protocol education is useful for seeing how technical brands explain complex concepts clearly.",
-              "metrics": [
-                      "Public reactions need manual review",
-                      "Official LinkedIn account"
-              ],
-              "reason": "This overlaps with Ai-Thinker Wi-Fi, BLE, LoRa, and UWB audiences.",
-              "learn": "Can adapt: one visual explaining Wi-Fi, BLE, LoRa, and UWB roles in IoT devices.",
-              "createdAt": "2026-06-16T19:30:00.000Z"
-      },
-      {
-              "id": "seed-20260616-evening-digikey-2",
-              "key": "digikey",
-              "account": "DigiKey",
-              "platform": "LinkedIn",
-              "url": "https://www.linkedin.com/company/digikey",
-              "heat": "4",
-              "tags": [
-                      "B2B",
-                      "Engineer",
-                      "Electronics",
-                      "Distributor"
-              ],
-              "title": "Engineer-friendly B2B content",
-              "summary": "evening collection: Daily collection: B2B distributor content reflects what engineers and buyers care about, such as selection, supply, and application resources.",
-              "metrics": [
-                      "Public reactions visible on LinkedIn",
-                      "Official account"
-              ],
-              "reason": "It is close to real engineering and purchasing decision contexts.",
-              "learn": "Can adapt: wireless module selection checklist for Wi-Fi, LoRa, and UWB.",
-              "createdAt": "2026-06-16T21:10:00.000Z"
       },
       {
               "id": "seed-20260615-morning-stmicroelectronics-1",
@@ -3151,6 +2931,237 @@
               "reason": "This overlaps with Ai-Thinker Wi-Fi, BLE, LoRa, and UWB audiences.",
               "learn": "Can adapt: one visual explaining Wi-Fi, BLE, LoRa, and UWB roles in IoT devices.",
               "createdAt": "2026-06-15T21:10:00.000Z"
+      },
+      {
+              "id": "seed-20260614-morning-ttn-1",
+              "key": "ttn",
+              "account": "The Things Network",
+              "platform": "Website",
+              "url": "https://www.thethingsnetwork.org/",
+              "heat": "5",
+              "tags": [
+                      "Industry",
+                      "LoRaWAN",
+                      "Community",
+                      "Developer"
+              ],
+              "title": "LoRaWAN community deployment signal",
+              "summary": "morning collection: Daily collection: community scale and deployment data help judge whether a technical ecosystem is active and worth following.",
+              "metrics": [
+                      "Community scale visible on website",
+                      "Gateway/member data"
+              ],
+              "reason": "Community deployment data is a strong trust signal for engineers and solution providers.",
+              "learn": "Can adapt: explain why LoRaWAN fits long-range low-power sensors using ecosystem proof.",
+              "createdAt": "2026-06-14T08:20:00.000Z"
+      },
+      {
+              "id": "seed-20260614-morning-stmicroelectronics-2",
+              "key": "stmicroelectronics",
+              "account": "STMicroelectronics",
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/stmicroelectronics",
+              "heat": "4",
+              "tags": [
+                      "Industry",
+                      "Sensor",
+                      "MCU",
+                      "Industrial IoT"
+              ],
+              "title": "Sensor and MCU application story",
+              "summary": "morning collection: Daily collection: sensor and MCU application content is useful for industrial IoT, smart devices, and engineering audiences.",
+              "metrics": [
+                      "Public reactions need manual review",
+                      "Official LinkedIn account"
+              ],
+              "reason": "It helps turn hardware parameters into application scenarios and engineering value.",
+              "learn": "Can adapt: show how a radar sensor gives a device presence-detection capability.",
+              "createdAt": "2026-06-14T08:35:00.000Z"
+      },
+      {
+              "id": "seed-20260614-morning-silicon-labs-3",
+              "key": "silicon-labs",
+              "account": "Silicon Labs",
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/silicon-labs",
+              "heat": "4",
+              "tags": [
+                      "Industry",
+                      "Matter",
+                      "Wireless",
+                      "IoT"
+              ],
+              "title": "Wireless protocol education angle",
+              "summary": "morning collection: Daily collection: wireless protocol education is useful for seeing how technical brands explain complex concepts clearly.",
+              "metrics": [
+                      "Public reactions need manual review",
+                      "Official LinkedIn account"
+              ],
+              "reason": "This overlaps with Ai-Thinker Wi-Fi, BLE, LoRa, and UWB audiences.",
+              "learn": "Can adapt: one visual explaining Wi-Fi, BLE, LoRa, and UWB roles in IoT devices.",
+              "createdAt": "2026-06-14T08:45:00.000Z"
+      },
+      {
+              "id": "seed-20260614-morning-digikey-4",
+              "key": "digikey",
+              "account": "DigiKey",
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/digikey",
+              "heat": "4",
+              "tags": [
+                      "B2B",
+                      "Engineer",
+                      "Electronics",
+                      "Distributor"
+              ],
+              "title": "Engineer-friendly B2B content",
+              "summary": "morning collection: Daily collection: B2B distributor content reflects what engineers and buyers care about, such as selection, supply, and application resources.",
+              "metrics": [
+                      "Public reactions visible on LinkedIn",
+                      "Official account"
+              ],
+              "reason": "It is close to real engineering and purchasing decision contexts.",
+              "learn": "Can adapt: wireless module selection checklist for Wi-Fi, LoRa, and UWB.",
+              "createdAt": "2026-06-14T08:55:00.000Z"
+      },
+      {
+              "id": "seed-20260614-noon-adafruit-1",
+              "key": "adafruit",
+              "account": "Adafruit Industries",
+              "platform": "YouTube",
+              "url": "https://www.youtube.com/@adafruit",
+              "heat": "4",
+              "tags": [
+                      "Tutorial",
+                      "Sensor",
+                      "Developer",
+                      "Electronics"
+              ],
+              "title": "Tutorial-first hardware content",
+              "summary": "noon collection: Daily collection: tutorial-led hardware content usually starts with a clear problem, then shows parts, steps, and a visible result.",
+              "metrics": [
+                      "Post-level views visible on YouTube",
+                      "Tutorial channel"
+              ],
+              "reason": "Tutorial formats fit engineers and developers, and can be adapted for radar sensors, ESP32, and LoRa modules.",
+              "learn": "Can adapt: How to test a radar sensor for presence detection, using short reproducible steps.",
+              "createdAt": "2026-06-14T12:10:00.000Z"
+      },
+      {
+              "id": "seed-20260614-noon-ttn-2",
+              "key": "ttn",
+              "account": "The Things Network",
+              "platform": "Website",
+              "url": "https://www.thethingsnetwork.org/",
+              "heat": "5",
+              "tags": [
+                      "Industry",
+                      "LoRaWAN",
+                      "Community",
+                      "Developer"
+              ],
+              "title": "LoRaWAN community deployment signal",
+              "summary": "noon collection: Daily collection: community scale and deployment data help judge whether a technical ecosystem is active and worth following.",
+              "metrics": [
+                      "Community scale visible on website",
+                      "Gateway/member data"
+              ],
+              "reason": "Community deployment data is a strong trust signal for engineers and solution providers.",
+              "learn": "Can adapt: explain why LoRaWAN fits long-range low-power sensors using ecosystem proof.",
+              "createdAt": "2026-06-14T12:35:00.000Z"
+      },
+      {
+              "id": "seed-20260614-afternoon-espressif-1",
+              "key": "espressif",
+              "account": "Espressif Systems",
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/espressif-systems",
+              "heat": "5",
+              "tags": [
+                      "Product",
+                      "ESP32",
+                      "Developer",
+                      "Wi-Fi",
+                      "Bluetooth"
+              ],
+              "title": "ESP32 developer ecosystem angle",
+              "summary": "afternoon collection: Daily collection: ESP32 ecosystem posts are useful for tracking developer concerns beyond specs, including tools, production reliability, and use cases.",
+              "metrics": [
+                      "Public reactions need manual review",
+                      "Official LinkedIn account"
+              ],
+              "reason": "ESP32 is a core overseas keyword for Ai-Thinker content.",
+              "learn": "Can adapt: make an ESP32 Wi-Fi + BLE selection checklist for smart-home devices.",
+              "createdAt": "2026-06-14T15:20:00.000Z"
+      },
+      {
+              "id": "seed-20260614-afternoon-adafruit-2",
+              "key": "adafruit",
+              "account": "Adafruit Industries",
+              "platform": "YouTube",
+              "url": "https://www.youtube.com/@adafruit",
+              "heat": "4",
+              "tags": [
+                      "Tutorial",
+                      "Sensor",
+                      "Developer",
+                      "Electronics"
+              ],
+              "title": "Tutorial-first hardware content",
+              "summary": "afternoon collection: Daily collection: tutorial-led hardware content usually starts with a clear problem, then shows parts, steps, and a visible result.",
+              "metrics": [
+                      "Post-level views visible on YouTube",
+                      "Tutorial channel"
+              ],
+              "reason": "Tutorial formats fit engineers and developers, and can be adapted for radar sensors, ESP32, and LoRa modules.",
+              "learn": "Can adapt: How to test a radar sensor for presence detection, using short reproducible steps.",
+              "createdAt": "2026-06-14T16:40:00.000Z"
+      },
+      {
+              "id": "seed-20260614-evening-ttn-1",
+              "key": "ttn",
+              "account": "The Things Network",
+              "platform": "Website",
+              "url": "https://www.thethingsnetwork.org/",
+              "heat": "5",
+              "tags": [
+                      "Industry",
+                      "LoRaWAN",
+                      "Community",
+                      "Developer"
+              ],
+              "title": "LoRaWAN community deployment signal",
+              "summary": "evening collection: Daily collection: community scale and deployment data help judge whether a technical ecosystem is active and worth following.",
+              "metrics": [
+                      "Community scale visible on website",
+                      "Gateway/member data"
+              ],
+              "reason": "Community deployment data is a strong trust signal for engineers and solution providers.",
+              "learn": "Can adapt: explain why LoRaWAN fits long-range low-power sensors using ecosystem proof.",
+              "createdAt": "2026-06-14T19:30:00.000Z"
+      },
+      {
+              "id": "seed-20260614-evening-stmicroelectronics-2",
+              "key": "stmicroelectronics",
+              "account": "STMicroelectronics",
+              "platform": "LinkedIn",
+              "url": "https://www.linkedin.com/company/stmicroelectronics",
+              "heat": "4",
+              "tags": [
+                      "Industry",
+                      "Sensor",
+                      "MCU",
+                      "Industrial IoT"
+              ],
+              "title": "Sensor and MCU application story",
+              "summary": "evening collection: Daily collection: sensor and MCU application content is useful for industrial IoT, smart devices, and engineering audiences.",
+              "metrics": [
+                      "Public reactions need manual review",
+                      "Official LinkedIn account"
+              ],
+              "reason": "It helps turn hardware parameters into application scenarios and engineering value.",
+              "learn": "Can adapt: show how a radar sensor gives a device presence-detection capability.",
+              "createdAt": "2026-06-14T21:10:00.000Z"
       }
     ];
 
@@ -3517,7 +3528,7 @@
     }
 
     function getDateOptions() {
-      const fixedDates = ["5/29", "5/30", "5/31", "6/1", "6/2", "6/3", "6/4", "6/5", "6/17", "6/16", "6/15"];
+      const fixedDates = ["5/29", "5/30", "5/31", "6/1", "6/2", "6/3", "6/4", "6/5", "6/16", "6/15", "6/14"];
       const captureDates = captures.map(item => getDateKey(item.createdAt));
       const all = ["all", ...new Set([...fixedDates, ...captureDates])].filter(d => d !== "all");
       all.sort((a, b) => {
@@ -3572,6 +3583,7 @@
             <div class="post-source">
               <span>${escapeHtml(item.platform)}</span>
               <strong>${escapeHtml(item.account)}</strong>
+              ${item.url ? `<a class="source-url" href="${item.url}" target="_blank" rel="noopener noreferrer" title="${escapeAttribute(item.url)}">来源</a>` : ""}
             </div>
             <div class="item-head">
               <h2>${item.url ? `<a class="item-title-link" href="${item.url}" target="_blank" rel="noopener noreferrer">${title}</a>` : `<span class="item-title-text">${title}</span>`}</h2>
@@ -3762,7 +3774,7 @@
       let activeLearnCat = "all";
 
       const CAT_MAP = {
-        "ESP32 Module":"通信类","WiFi Module":"通信类","BLE Module":"通信类",
+        "ESP32 Module":"通信类","WiFi Module":"通信类","BLE Module":"通信类","Bluetooth":"通信类",
         "LoRa Module":"通信类","Cellular IoT Module":"通信类",
         "Radar Sensor":"传感类","UWB Module":"传感类",
         "IoT Industry":"成品"
@@ -3770,22 +3782,6 @@
 
       // Ai-Thinker 官方 Docs 累计学习（按日期追加，不覆盖历史）
       const OFFICIAL_DOCS = [
-        // ── 6月14日 UWB 系列 ──
-        { title:"BU01 基础 UWB 模组 — DW1000 TWR 双向测距", source:"Ai-Thinker Docs", date:"2026-06-14","product":"UWB Module",sourceType:"official",
-          summary:"基于 Decawave DW1000，集成天线+RF+电源+时钟，TWR 双向测距，10cm 精度，6.8Mbps。入门级 UWB 方案。",
-          tags:["BU01","DW1000","TWR","UWB","测距"], persona:"空间定位工程师 · 室内定位方案商 · 仓储物流开发者",
-          url:"https://docs.ai-thinker.com/uwb_1/"
-        },
-        { title:"BU03 升级 UWB 模组 — DW3000 TDOA/PDOA 定位", source:"Ai-Thinker Docs", date:"2026-06-14","product":"UWB Module",sourceType:"official",
-          summary:"基于 Decawave DW3000，板载陶瓷天线，TDOA+PDOA 双算法，上位机+SDK 配套，主流 UWB 定位方案。",
-          tags:["BU03","DW3000","TDOA","PDOA","UWB"], persona:"UWB 算法工程师 · 定位基站集成商",
-          url:"https://docs.ai-thinker.com/uwb_1/"
-        },
-        { title:"BU04 旗舰双天线 UWB 模组 — DW3000+STM32 MCU", source:"Ai-Thinker Docs", date:"2026-06-14","product":"UWB Module",sourceType:"official",
-          summary:"DW3000+STM32F103 MCU，双天线(板载+IPEX) AOA 定位，TWR+TDOA+PDOA 全支持，可独立运行二次开发。",
-          tags:["BU04","DW3000","STM32","AOA","双天线"], persona:"嵌入式系统工程师 · AOA 定位开发者",
-          url:"https://docs.ai-thinker.com/uwb_1/"
-        },
         // ── 6月15日 RTL87xx 系列 ──
         { title:"BW16 双频 Wi-Fi + BLE 5.0 模组", source:"Ai-Thinker Docs", date:"2026-06-15","product":"WiFi Module",sourceType:"official",
           summary:"基于瑞昱 RTL8720DN，2.4G/5G 双频 + BLE 5.0，双核 ARM V8/V8M MCU，支持 C SDK / Arduino / AT 指令三种开发方式，已适配 AWS IoT Core。",
@@ -3824,24 +3820,54 @@
           tags:["SDK","AT指令","MQTT","BLE","开发工具"],
           url:"https://docs.ai-thinker.com/wb2/"
         },
-        // ── 6月17日 M61 系列 ──
-        { title:"Ai-M61 系列 Wi-Fi 6 + BLE 5.3 + Thread 三协议模组", source:"Ai-Thinker Docs", date:"2026-06-17","product":"WiFi Module",sourceType:"official",
-          summary:"基于博流 BL618，RISC-V 320MHz + FPU + DSP，WiFi 6 + BLE 5.3 + Thread 三协议共存，WPA3 + TrustZone，4MB PSRAM + 532KB SRAM。3 款型号：M61-32S / 32SU / 32S-Kit。",
-          tags:["M61","BL618","WiFi 6","BLE 5.3","Thread","RISC-V"],
-          persona:"物联网嵌入式工程师 · 智能家居方案商 · Thread/Matter 开发者",
-          url:"https://docs.ai-thinker.com/ai_m61/"
+        // ── 6月18日 蓝牙模组系列 ──
+        { title:"PB系列 BLE 5.4 模组总览 (奉加微方案)", source:"Ai-Thinker Docs", date:"2026-06-18","product":"BLE Module",sourceType:"official",
+          summary:"奉加微 PHY6252/PHY6222 芯片方案，BLE 5.4 协议。含 PB-03 / PB-03F / PB-03M / PB-04 四款模组 + 4 款开发板。2.7-3.6V，最深睡眠 1μA，最远 125m，支持微信小程序 / Android / iOS 控制。",
+          persona:"BLE 嵌入式工程师 · 智能灯/插座产品经理 · 低功耗 IoT 方案选型",
+          tags:["PB系列","PHY6252","BLE 5.4","低功耗","智能家电"],
+          url:"https://docs.ai-thinker.com/blue_tooth_pb/"
         },
-        { title:"M61 多媒体音视频能力：Camera + MJPEG + LCD", source:"Ai-Thinker Docs", date:"2026-06-17","product":"WiFi Module",sourceType:"official",
-          summary:"内置 Camera DVP 接口 + MJPEG 视频编码 + LCD 显示（QSPI/DBI/RGB），支持音频 Codec 采集处理。完整的端侧音视频处理链路，可运行轻量级视觉 AI。",
-          tags:["M61","MJPEG","Camera","LCD","音视频"],
-          persona:"音视频嵌入式工程师 · 智能摄像头产品经理 · 边缘 AI 开发者",
-          url:"https://docs.ai-thinker.com/ai_m61/"
+        { title:"PB系列 固件与 AT 指令 (3436号主推)", source:"Ai-Thinker Docs", date:"2026-06-18","product":"BLE Module",sourceType:"official",
+          summary:"Combo-AT 固件 V3.2.4（3436号），通用 AT 指令集 V4.18P。支持 GATT UUID 透传、自定义服务。PB-03/03F/03M 共用同一套固件与指令。",
+          persona:"固件工程师 · BLE 应用开发者 · 小程序开发者",
+          tags:["PB系列","AT指令","Combo-AT","固件","透传"],
+          url:"https://docs.ai-thinker.com/blue_tooth_pb/"
         },
-        { title:"M61 安全体系 & 二次开发环境", source:"Ai-Thinker Docs", date:"2026-06-17","product":"WiFi Module",sourceType:"official",
-          summary:"TrustZone + 安全启动 + AES OTFAD + TRNG + PKA。开源 SDK（GitHub），Windows/Linux 环境，AT 指令集，Bouffalo Lab DevCube 烧录工具，功耗和可靠性报告齐备。",
-          tags:["M61","TrustZone","安全启动","SDK","DevCube"],
-          persona:"物联网安全工程师 · 固件开发者 · 产品认证工程师",
-          url:"https://docs.ai-thinker.com/ai_m61/"
+        { title:"PB系列 SDK 二次开发 (奉加微 PHY62 SDK)", source:"Ai-Thinker Docs", date:"2026-06-18","product":"BLE Module",sourceType:"official",
+          summary:"SDK V3.1.5（PHY62XX），Windows 环境 Keil 编译。开发指导 + 烧录工具 (PhyPlusKit V2.5.2b)。微信小程序源码 (AiPBxxForWeChat)，STM32 驱动 PB-03F 示例。",
+          persona:"BLE 嵌入式软件工程师 · SDK 二次开发者 · 微信生态开发者",
+          tags:["PB系列","SDK","PHY62XX","微信小程序","Keil"],
+          url:"https://docs.ai-thinker.com/blue_tooth_pb/"
+        },
+        { title:"TB系列 BLE 5.0 + SIG Mesh 模组总览 (泰凌微方案)", source:"Ai-Thinker Docs", date:"2026-06-18","product":"BLE Module",sourceType:"official",
+          summary:"泰凌微 TLSR8250F512 芯片，BLE 5.0 + SIG Mesh + 天猫精灵。含 TB-01/02/03F/04/05 + 4 款开发板。支持私有 Mesh 与 SIG Mesh V1.1，Android/iOS/微信小程序全平台控制。",
+          persona:"智能家居产品经理 · Mesh 网络方案选型 · 天猫精灵生态开发者",
+          tags:["TB系列","TLSR8250","BLE 5.0","SIG Mesh","天猫精灵"],
+          url:"https://docs.ai-thinker.com/blue_tooth/"
+        },
+        { title:"TB系列 固件演进路线 (从 V0.8 到 sig mesh V4.0.1)", source:"Ai-Thinker Docs", date:"2026-06-18","product":"BLE Module",sourceType:"official",
+          summary:"BLE AT 固件从 V0.8→V0.9→V2.0.5→V3.0.6(3426号主推)，sig mesh AT 固件 V4.0.1(3203号主推)。新增 OTA、MTU 扩展、配对加密、低功耗串口修复。烧录工具 V3.1.1。",
+          persona:"固件维护工程师 · 产品迭代决策者 · OTA 方案设计者",
+          tags:["TB系列","固件","AT指令","OTA","Sig Mesh"],
+          url:"https://docs.ai-thinker.com/blue_tooth/"
+        },
+        { title:"TB系列 二次开发环境 (Telink SDK + 原厂 IDE)", source:"Ai-Thinker Docs", date:"2026-06-18","product":"BLE Module",sourceType:"official",
+          summary:"Telink 825X SDK（GitHub）+ SIG Mesh SDK + 原厂 IDE（单连接/多连接/Mesh SDK）。CSDN 教程覆盖：Linux 环境搭建、微信小程序、Android BLE、天猫精灵语音控制、STM32 联动。",
+          persona:"BLE SDK 开发者 · Linux 嵌入式工程师 · 智能家居全栈开发者",
+          tags:["TB系列","Telink SDK","BLE Mesh","CSDN教程","全栈开发"],
+          url:"https://docs.ai-thinker.com/blue_tooth/"
+        },
+        { title:"ESP32-G Wi-Fi 蓝牙网关", source:"Ai-Thinker Docs", date:"2026-06-18","product":"WiFi Module",sourceType:"official",
+          summary:"ESP32 方案，Wi-Fi 802.11 b/g/n + BLE，自带 LAN 口。支持 STA/AP/STA_AP 模式、SmartConfig/AirKiss 配网。与 PB-02 模组可组网通讯，适用于智能家居网关、远程抄表、安防系统。",
+          persona:"网关方案选型工程师 · 智能家居系统架构师 · 楼宇自动化开发者",
+          tags:["ESP32-G","网关","WiFi","BLE","SmartConfig"],
+          url:"https://docs.ai-thinker.com/blue_tooth_gateway/"
+        },
+        { title:"蓝牙模组 选型对比一览", source:"Ai-Thinker Docs", date:"2026-06-18","product":"BLE Module",sourceType:"official",
+          summary:"PB系列(BLE 5.4, PHY6252, 奉加微) vs TB系列(BLE 5.0+SIG Mesh, TLSR8250, 泰凌微)。PB 优势：最新 BLE 5.4、典型 200mA、微信直连。TB 优势：SIG Mesh 组网、天猫精灵语音、全平台 APP。选型建议：单品智能→PB系列，Mesh 组网→TB系列。",
+          persona:"IoT 方案选型工程师 · 产品经理 · 采购技术评审",
+          tags:["PB系列","TB系列","BLE","选型对比","IoT方案"],
+          url:"https://docs.ai-thinker.com/bt/"
         }
       ];
 
