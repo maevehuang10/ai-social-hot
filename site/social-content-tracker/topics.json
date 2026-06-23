@@ -1,11 +1,71 @@
 {
-  "generatedAt": "2026-06-17T02:30:00.000Z",
+  "generatedAt": "2026-06-23T00:43:00.000Z",
   "sourceMode": "seed",
   "sources": [
     "Ai-Thinker Product Lines",
     "IoT Industry Analysis"
   ],
   "topics": [
+    {
+      "title": "Pine64 Pinevoice - RISC-V Smart Speaker with WiFi/BLE/Zigbee for Home Assistant",
+      "source": "CNX Software",
+      "date": "2026-06-20",
+      "product": "IoT Industry",
+      "score": 91,
+      "formats": ["LinkedIn Post", "Short Video"],
+      "platforms": ["LinkedIn", "Facebook", "YouTube"],
+      "tags": ["RISC-V", "Bouffalo BL606P", "WiFi+BLE+Zigbee", "Smart Speaker"],
+      "value": "Pine64 Pinevoice 基于 Bouffalo BL606P RISC-V 无线 MCU，集成 WiFi/BLE/Zigbee(802.15.4) 三模射频，$50 价位，专为 Home Assistant 开源智能家居设计。验证 RISC-V 在消费 IoT 的实用化。",
+      "summary": "RISC-V 无线 MCU 进入消费级智能音箱，WiFi+BLE+Zigbee 三模方案值得关注，对安信可 RISC-V 模组产品线有市场验证价值。",
+      "hook": "$50 的 RISC-V 智能音箱能做什么？WiFi+BLE+Zigbee 三模，专为开源智能家居而生。",
+      "post": "Pine64 推出 PineVoice 智能音箱，搭载 Bouffalo BL606P RISC-V 芯片，集成 WiFi 4、BLE 5.x 和 Zigbee 三模射频。双麦克风阵列 + RGB LED，原生支持 Home Assistant 生态。RISC-V 正在从实验阶段进入消费级 IoT 量产，对安信可 Ai-M61/M62/M64 系列是极好的市场信号。",
+      "url": "https://www.cnx-software.com/2026/06/20/pine64-pinevoice-a-50-risc-v-smart-speaker-for-home-assistant-based-on-bouffalo-lab-bl606p-mcu/"
+    },
+    {
+      "title": "Matter 1.6: NFC Commissioning and Thermostat Core Enhancements",
+      "source": "CNX Software",
+      "date": "2026-06-19",
+      "product": "WiFi Module",
+      "score": 92,
+      "formats": ["LinkedIn Post", "Industry Analysis"],
+      "platforms": ["LinkedIn"],
+      "tags": ["Matter 1.6", "NFC Commissioning", "Smart Home", "Protocol"],
+      "value": "CSA 发布 Matter 1.6，新增 NFC 双向配网（手机触碰即可配置吊顶灯/入墙开关等断电设备）、温控器智能建议，以及设备间通信和安全增强。持续降低 IoT 入网门槛。",
+      "summary": "Matter 1.6 引入 NFC 近场配网大幅降低安装复杂度，对安信可 Matter-ready 模组海外推广是重大利好。",
+      "hook": "Matter 1.6 来了：不用扫码、不用蓝牙配对，手机碰一下就能配网。",
+      "post": "CSA 正式发布 Matter 1.6 规范，关键更新：NFC 双向配网——只需手机靠近设备即可完成配置，特别适合吊顶灯、入墙开关等安装前无法上电的场景。温控器建议功能 + 设备间通信改进 + 安全增强。安信可 ESP32-C6/H2 等 Matter-ready 模组正在迎接更大的市场机会。",
+      "url": "https://www.cnx-software.com/2026/06/19/matter-1-6-specification-adds-nfc-based-commissioning-thermostat-suggestions-various-core-enhancements/"
+    },
+    {
+      "title": "Espressif ESP32-S31: RISC-V SoC with WiFi 6 + BLE 5.4 + Zigbee + Thread + Matter",
+      "source": "Electronics-Lab",
+      "date": "2026-06-22",
+      "product": "ESP32 Module",
+      "score": 94,
+      "formats": ["LinkedIn Post", "Short Video", "Carousel"],
+      "platforms": ["LinkedIn", "Facebook", "YouTube"],
+      "tags": ["ESP32-S31", "RISC-V", "WiFi 6", "BLE 5.4", "Zigbee", "Thread", "Matter"],
+      "value": "Espressif 发布全新 ESP32-S31 双核 RISC-V SoC，支持 WiFi 6 + BLE 5.4 + Zigbee + Thread + Matter 全协议栈，带千兆以太网和高级多媒体接口，面向 AIoT 人机交互和智能音频。Korvo 开发套件同步推出。",
+      "summary": "ESP32-S31 是 ESP32 家族最强多协议 SoC，五协议合一，目标 AIoT HMI 和智能音频，对模组行业下一代产品方向有重大指引。",
+      "hook": "一颗 RISC-V 芯片，同时跑 WiFi 6 + BLE 5.4 + Zigbee + Thread + Matter。ESP32-S31 做到了。",
+      "post": "Espressif 发布 ESP32-S31：双核 RISC-V SoC，集成 WiFi 6、BLE 5.4、Zigbee、Thread、Matter 五大协议。千兆以太网 + MIPI DSI + Audio Codec，面向智能面板、AIoT 网关和语音助手。Korvo 套件已同步推出。下一代 IoT 模组的多协议统一已触手可及——安信可等模组厂迎来新一轮产品升级机会。",
+      "url": "https://www.electronics-lab.com/espressif-esp32-s31-coreboard-and-korvo-kits-target-aiot-hmi-and-smart-audio-apps/"
+    },
+    {
+      "title": "World's First IEEE 802.15.4ab UWB Receiver from imec for Indoor Positioning",
+      "source": "Electronics-Lab",
+      "date": "2026-06-22",
+      "product": "UWB Module",
+      "score": 89,
+      "formats": ["LinkedIn Post", "Industry Analysis"],
+      "platforms": ["LinkedIn"],
+      "tags": ["UWB", "IEEE 802.15.4ab", "Indoor Positioning", "RF", "22nm CMOS"],
+      "value": "imec 发布全球首款 IEEE 802.15.4ab 标准 UWB 接收器，22nm CMOS 工艺，窄带辅助提升室内定位性能并有效抑制 Wi-Fi 干扰。UWB 定位从专有方案走向国际标准的关键里程碑。",
+      "summary": "UWB 定位标准 IEEE 802.15.4ab 首次芯片级实现，对安信可 BU 系列 UWB 模组的长期发展是重要技术信号。",
+      "hook": "全球首款 IEEE 802.15.4ab UWB 接收器诞生：10cm 室内定位，不再怕 Wi-Fi 干扰。",
+      "post": "imec 展示全球首款符合 IEEE 802.15.4ab 标准的 UWB 接收器芯片，22nm CMOS 工艺，窄带信号增强定位精度，有效抑制密集 Wi-Fi 干扰。UWB 定位从专有方案走向国际标准。对安信可 BU 系列 UWB 模组而言，标准化将加速仓储、零售、医疗等场景规模落地。",
+      "url": "https://www.electronics-lab.com/worlds-first-ieee-802-15-4ab-receiver-debuts-from-imec/"
+    },
     {
       "title": "ESP32-C6 WiFi 6 + BLE 5.3 module development walkthrough",
       "source": "Ai-Thinker Product Docs",
