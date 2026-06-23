@@ -5180,6 +5180,329 @@
 
       // Ai-Thinker 官方 Docs 累计学习（按日期追加，不覆盖历史）
       const OFFICIAL_DOCS = [
+        // ── 5月29日 Wi-Fi模组入门 ──
+        { title:"Wi-Fi模组基础：从协议栈到模组选型", source:"Ai-Thinker Docs", date:"2026-05-29","product":"WiFi Module",sourceType:"official",
+          summary:"802.11 b/g/n/ac/ax 协议演进、频段对比、Wi-Fi模组硬件架构（基带+RF+天线）。安信可 ESP8266 到 WiFi 6 模组的选型逻辑和典型应用场景。",
+          persona:"IoT 嵌入式工程师 · 无线通信初学者 · 模组选型决策",
+          tags:["WiFi","802.11","协议栈","选型","天线"],
+          url:"https://docs.ai-thinker.com/wifi/"
+        },
+        { title:"ESP8266 经典模组：从入门到量产", source:"Ai-Thinker Docs", date:"2026-05-29","product":"WiFi Module",sourceType:"official",
+          summary:"ESP8266 单频 2.4GHz，80MHz MCU，AT/SDK/Arduino 三种模式。覆盖 TCP/UDP/HTTP/MQTT 通信，大量社区资源，仍是低成本 IoT 首选。",
+          persona:"IoT 初学者 · 硬件原型开发者 · 成本敏感型方案",
+          tags:["ESP8266","WiFi","AT指令","MQTT","Arduino"],
+          url:"https://docs.ai-thinker.com/esp32/"
+        },
+        { title:"ESP32 系列模组架构与核心特性", source:"Ai-Thinker Docs", date:"2026-05-29","product":"WiFi Module",sourceType:"official",
+          summary:"ESP32 双核 Xtensa LX6，WiFi+BLE 双模，内置 Flash/PSRAM，SPI/I2C/UART/I2S 接口。安信可 ESP32-S / ESP32-A1S 等多封装形态。",
+          persona:"ESP32 开发者 · IoT 全栈工程师",
+          tags:["ESP32","WiFi+BLE","双核","外设"],
+          url:"https://docs.ai-thinker.com/esp32/"
+        },
+        // ── 5月30日 BLE模组入门 ──
+        { title:"BLE 协议栈基础：从广播到GATT服务", source:"Ai-Thinker Docs", date:"2026-05-30","product":"BLE Module",sourceType:"official",
+          summary:"BLE 4.0-5.4 协议栈分层：GAP(广播/扫描/连接) → GATT(Service/Characteristic) → ATT/L2CAP/HCI。理解协议栈层次对模组开发至关重要。",
+          persona:"BLE 嵌入式开发者 · 无线协议工程师",
+          tags:["BLE","GATT","GAP","协议栈","连接"],
+          url:"https://docs.ai-thinker.com/bt/"
+        },
+        { title:"BLE模组选型：芯片方案对比与场景适配", source:"Ai-Thinker Docs", date:"2026-05-30","product":"BLE Module",sourceType:"official",
+          summary:"对比 PHY6252(奉加微)、TLSR8250(泰凌微)、nRF52832(Nordic) 等主流 BLE 芯片方案。从功耗、射频性能、SDK生态、价格维度选型。",
+          persona:"BLE选型工程师 · IoT产品经理 · 采购",
+          tags:["BLE","芯片方案","PHY6252","TLSR8250","选型"],
+          url:"https://docs.ai-thinker.com/bt/"
+        },
+        { title:"BLE传输速率与功耗实战优化", source:"Ai-Thinker Docs", date:"2026-05-30","product":"BLE Module",sourceType:"official",
+          summary:"BLE 连接间隔/MTU/DLE/PHY 对吞吐量和功耗的影响。安信可模组的实测数据：1M/2M PHY差异、连接间隔50ms vs 20ms的电流对比。",
+          persona:"BLE应用开发者 · 低功耗IoT设计者",
+          tags:["BLE","功耗优化","PHY","MTU","连接间隔"],
+          url:"https://docs.ai-thinker.com/bt/"
+        },
+        // ── 5月31日 LoRa模组入门 ──
+        { title:"LoRa 技术基础：啁啾扩频与链路预算", source:"Ai-Thinker Docs", date:"2026-05-31","product":"LoRa Module",sourceType:"official",
+          summary:"LoRa 物理层原理：CSS(啁啾扩频)调制 > 覆盖范围优势。SF(扩频因子)7-12、BW(带宽)125-500kHz、CR(编码率)4/5-4/8 对速率和距离的影响。",
+          persona:"LoRa开发者 · 物联网协议工程师 · 远距离IoT初学者",
+          tags:["LoRa","扩频","SF","链路预算","CSS"],
+          url:"https://docs.ai-thinker.com/lora/"
+        },
+        { title:"LoRaWAN 协议架构与网络拓扑", source:"Ai-Thinker Docs", date:"2026-05-31","product":"LoRa Module",sourceType:"official",
+          summary:"LoRaWAN MAC层：Class A(上行后两窗口)/B(信标同步)/C(持续监听)。OTAA入网 > ABP静态密钥。安信可 Ra系列在LoRaWAN网关+节点场景中的应用。",
+          persona:"LoRaWAN方案商 · 智慧城市架构师",
+          tags:["LoRaWAN","Class ABC","OTAA","网关","网络"],
+          url:"https://docs.ai-thinker.com/lora/"
+        },
+        { title:"安信可 LoRa 模组选型速查", source:"Ai-Thinker Docs", date:"2026-05-31","product":"LoRa Module",sourceType:"official",
+          summary:"Ra-01(410-525MHz SX1278) · Ra-02(803-930MHz SX1278) · Ra-03(2.4GHz SX1280) · Ra-01SC(LLCC68国产) · Ra-11(LR1121双频) · Ra-20(LR2021三模)。一表全览。",
+          persona:"LoRa选型工程师 · 国产替代方案选型",
+          tags:["Ra系列","SX1278","LLCC68","LR1121","选型"],
+          url:"https://docs.ai-thinker.com/lora/"
+        },
+        // ── 6月1日 雷达传感器入门 ──
+        { title:"毫米波雷达基础原理：FMCW与微多普勒", source:"Ai-Thinker Docs", date:"2026-06-01","product":"Radar Sensor",sourceType:"official",
+          summary:"FMCW(调频连续波)雷达原理：发射调频信号 > 接收反射 > 混频=中频信号 > FFT提取距离/速度/角度信息。微多普勒效应用于人体呼吸/心跳检测。",
+          persona:"雷达传感器工程师 · IoT感知方案选型",
+          tags:["毫米波","FMCW","微多普勒","雷达原理"],
+          url:"https://docs.ai-thinker.com/radar/"
+        },
+        { title:"安信可雷达模组产品矩阵：从10G到60G全覆盖", source:"Ai-Thinker Docs", date:"2026-06-01","product":"Radar Sensor",sourceType:"official",
+          summary:"Rd-01(24G WiFi+BLE) · Rd-03(24G多型号) · Rd-04(10G微动) · Rd-6X(60G高精度)。频率越高分辨率越高但穿墙能力越差——选型核心权衡。",
+          persona:"雷达选型工程师 · 智能家居产品经理",
+          tags:["雷达","Rd系列","24GHz","60GHz","产品矩阵"],
+          url:"https://docs.ai-thinker.com/radar/"
+        },
+        { title:"雷达模组的智能家居应用场景", source:"Ai-Thinker Docs", date:"2026-06-01","product":"Radar Sensor",sourceType:"official",
+          summary:"人体存在检测→智能灯/空调自动开关 · 跌倒检测→老人看护 · 手势识别→无接触控制 · 睡眠监测→呼吸心率。非隐私侵入式传感器的核心优势。",
+          persona:"智能家居方案商 · 智慧养老产品经理",
+          tags:["雷达","智能家居","人体检测","跌倒检测","智慧养老"],
+          url:"https://docs.ai-thinker.com/radar/"
+        },
+        // ── 6月2日 WiFi 深度 ──
+        { title:"WiFi + BLE 双模共存机制与天线共享", source:"Ai-Thinker Docs", date:"2026-06-02","product":"WiFi Module",sourceType:"official",
+          summary:"WiFi 和 BLE 共享同一 2.4G 天线时的时隙分配、PTA(封包仲裁)、共存算法。安信可 ESP32/BW16/WB2 等双模模组的实测共存性能。",
+          persona:"双模模组开发者 · RF设计工程师",
+          tags:["WiFi+BLE","共存","PTA","天线共享","双模"],
+          url:"https://docs.ai-thinker.com/wifi/"
+        },
+        { title:"WiFi Mesh(ESP-MDF)自组网方案", source:"Ai-Thinker Docs", date:"2026-06-02","product":"WiFi Module",sourceType:"official",
+          summary:"ESP-MDF 基于 ESP-MESH 协议，无线路由即可自组网。覆盖 IoT 灯控、大范围传感器网络等场景。与 BLE Mesh/Zigbee Mesh 的对比选型指南。",
+          persona:"WiFi方案商 · 大覆盖IoT架构师",
+          tags:["ESP-MDF","WiFi Mesh","自组网","ESP-MESH"],
+          url:"https://docs.ai-thinker.com/esp32/"
+        },
+        { title:"WiFi 模组低功耗策略：Modem-sleep/Deep-sleep", source:"Ai-Thinker Docs", date:"2026-06-02","product":"WiFi Module",sourceType:"official",
+          summary:"Modem-sleep(CPU运行WiFi暂停~3mA) · Light-sleep(CPU暂停WiFi DTIM唤醒~0.8mA) · Deep-sleep(仅RTC~5μA)。wakeup sources: Timer/GPIO/Touch。",
+          persona:"电池供电IoT开发者 · 低功耗方案设计",
+          tags:["WiFi","低功耗","Deep-sleep","Modem-sleep","电池"],
+          url:"https://docs.ai-thinker.com/esp32/"
+        },
+        // ── 6月3日 BLE深度 ──
+        { title:"BLE 5.0/5.1/5.2/5.3/5.4 版本差异全解析", source:"Ai-Thinker Docs", date:"2026-06-03","product":"BLE Module",sourceType:"official",
+          summary:"5.0: 2M PHY+LE Coded(Long Range) · 5.1: AoA/AoD方向查找 · 5.2: LE Audio+ISOC · 5.3: 信道分类+连接子速率 · 5.4: PAwR+加密广播。安信可模组覆盖版本。",
+          persona:"BLE开发者 · 蓝牙协议工程师",
+          tags:["BLE","版本对比","AoA","LE Audio","PAwR"],
+          url:"https://docs.ai-thinker.com/bt/"
+        },
+        { title:"Bluetooth Mesh 组网实战：从Provisioning到消息路由", source:"Ai-Thinker Docs", date:"2026-06-03","product":"BLE Module",sourceType:"official",
+          summary:"Provisioning > 节点入网 > 模型绑定 > Publish/Subscribe消息路由。管理型洪泛 vs 可控型洪泛。安信可 TB 系列(SIG Mesh V1.1)的组网实测。",
+          persona:"Mesh开发者 · 智能照明系统架构师",
+          tags:["Bluetooth Mesh","Provisioning","SIG Mesh","TB系列"],
+          url:"https://docs.ai-thinker.com/blue_tooth/"
+        },
+        { title:"BLE OTA 升级方案设计与安全考量", source:"Ai-Thinker Docs", date:"2026-06-03","product":"BLE Module",sourceType:"official",
+          summary:"BLE OTA 双Bank/单Bank、OTA Service UUID标准、A/B分区回滚、签名校验防篡改。安信可模组 OTA流程：APP→DFU Mode→Image Transfer→Verify→Reset。",
+          persona:"固件工程师 · IoT产品维护者",
+          tags:["BLE","OTA","固件升级","双Bank","安全"],
+          url:"https://docs.ai-thinker.com/bt/"
+        },
+        // ── 6月4日 LoRa深度 ──
+        { title:"LoRa 空中速率与距离的实战调优", source:"Ai-Thinker Docs", date:"2026-06-04","product":"LoRa Module",sourceType:"official",
+          summary:"SF12=293bps(最远) vs SF7=5468bps(最快)。BW降低提升灵敏度但降低速率。CR=4/5→4/8。安信可 Ra 系列城市/郊区/开阔地实测数据对比。",
+          persona:"LoRa 应用开发者 · 远距离IoT调优者",
+          tags:["LoRa","空中速率","SF","BW","距离"],
+          url:"https://docs.ai-thinker.com/lora/"
+        },
+        { title:"LoRa 功耗优化：CAD唤醒与占空比管理", source:"Ai-Thinker Docs", date:"2026-06-04","product":"LoRa Module",sourceType:"official",
+          summary:"CAD(信道活动检测)代替持续RX降低功耗。占空比限制(ETSI 1%)应对策略。Ra系列睡眠电流+CAD功耗测算，电池寿命评估公式。",
+          persona:"低功耗IoT开发者 · 电池供电方案",
+          tags:["LoRa","CAD","功耗优化","占空比","电池寿命"],
+          url:"https://docs.ai-thinker.com/lora/"
+        },
+        { title:"LoRa 天线设计与匹配", source:"Ai-Thinker Docs", date:"2026-06-04","product":"LoRa Module",sourceType:"official",
+          summary:"433/868/915MHz 天线设计差异：波长越长天线尺寸越大。PCB/FPC/吸盘/胶棒天线选型。π型匹配网络、驻波比(SWR)调试。安信可天线产品适配方案。",
+          persona:"射频工程师 · 天线设计者",
+          tags:["LoRa","天线","匹配网络","SWR","射频"],
+          url:"https://docs.ai-thinker.com/antenna/"
+        },
+        // ── 6月5日 雷达应用案例 ──
+        { title:"雷达传感器在智能照明中的应用", source:"Ai-Thinker Docs", date:"2026-06-05","product":"Radar Sensor",sourceType:"official",
+          summary:"走廊/停车场的自动感应灯：Rd-03 取代红外PIR，穿透非金属遮挡，可测静止人体。车库照明实测：检测距离8m，响应<100ms，避免"人走灯灭"尴尬。",
+          persona:"智能照明方案商 · 建筑自动化工程师",
+          tags:["雷达","智能照明","静止检测","Rd-03"],
+          url:"https://docs.ai-thinker.com/radar/"
+        },
+        { title:"雷达 + 离线语音组合的智能马桶方案", source:"Ai-Thinker Docs", date:"2026-06-05","product":"Radar Sensor",sourceType:"official",
+          summary:"Rd-01 人体接近检测→自动翻盖 · VC-02 离线语音→冲水/清洗指令 · 无需联网。覆盖高端智能马桶、智能镜柜、浴室暖风机等场景。",
+          persona:"智能卫浴产品经理 · 传感器融合方案商",
+          tags:["雷达+语音","智能马桶","传感器融合","离线"],
+          url:"https://docs.ai-thinker.com/radar/"
+        },
+        { title:"毫米波雷达 vs 红外 vs 超声波传感器对比", source:"Ai-Thinker Docs", date:"2026-06-05","product":"Radar Sensor",sourceType:"official",
+          summary:"全维对比：检测精度/穿透能力/隐私性/功耗/成本。毫米波可检测静止人体、穿透塑料/玻璃，隐私友好。红外成本低但只能检测运动，超声波精度低。",
+          persona:"传感器选型工程师 · IoT产品经理",
+          tags:["毫米波","红外","超声波","传感器对比"],
+          url:"https://docs.ai-thinker.com/radar/"
+        },
+        // ── 6月6日 WiFi 6与IoT ──
+        { title:"WiFi 6 (802.11ax) 为 IoT 带来的变革", source:"Ai-Thinker Docs", date:"2026-06-06","product":"WiFi Module",sourceType:"official",
+          summary:"OFDMA(多用户并行) · Target Wake Time(省电70%+) · BSS Coloring(减少干扰)。WiFi 6 不是"更快"而是"更擅长多设备场景"——这正是 IoT 的痛点。",
+          persona:"IoT 协议选型者 · WiFi 方案架构师",
+          tags:["WiFi 6","OFDMA","TWT","IoT","802.11ax"],
+          url:"https://docs.ai-thinker.com/wifi/"
+        },
+        { title:"安信可 ESP32-C6 (WiFi 6 + BLE 5.3) 模组解析", source:"Ai-Thinker Docs", date:"2026-06-06","product":"WiFi Module",sourceType:"official",
+          summary:"ESP32-C6 单核 RISC-V @160MHz，WiFi 6 (802.11ax) + BLE 5.3 + Thread/Matter。TWT 省电模式下可做电池供电 IoT 传感器。与 ESP32-C3 的 WiFi 6增强对比。",
+          persona:"WiFi 6模组开发者 · Matter生态选型",
+          tags:["ESP32-C6","WiFi 6","BLE 5.3","Thread","RISC-V"],
+          url:"https://docs.ai-thinker.com/esp32/"
+        },
+        { title:"WiFi 6 vs WiFi 4 混合组网策略", source:"Ai-Thinker Docs", date:"2026-06-06","product":"WiFi Module",sourceType:"official",
+          summary:"WiFi 4(2.4G) 仍占 IoT 出货 70%+。WiFi 6 AP 向下兼容，但 TWT/OFDMA 仅 WiFi 6 Client 可用。建议方案：网关用 WiFi 6模组，终端节点可沿用 WiFi 4。",
+          persona:"IoT方案架构师 · 产品迭代决策者",
+          tags:["WiFi 6","WiFi 4","混合组网","兼容"],
+          url:"https://docs.ai-thinker.com/wifi/"
+        },
+        // ── 6月7日 BLE Mesh vs Thread ──
+        { title:"Bluetooth Mesh vs Thread vs Zigbee 三大Mesh协议横评", source:"Ai-Thinker Docs", date:"2026-06-07","product":"BLE Module",sourceType:"official",
+          summary:"Bluetooth Mesh(洪泛,手机直连) · Thread(路由,IPv6,需Border Router) · Zigbee(成熟,HA/ZLL应用层)。安信可产品覆盖BLE Mesh(TB系列),未来Thread/ESP32-C6。",
+          persona:"Mesh协议选型者 · 智能家居架构师",
+          tags:["Mesh","Bluetooth Mesh","Thread","Zigbee","协议对比"],
+          url:"https://docs.ai-thinker.com/bt/"
+        },
+        { title:"Matter 协议入门：IP-based统一智能家居标准", source:"Ai-Thinker Docs", date:"2026-06-07","product":"WiFi Module",sourceType:"official",
+          summary:"Matter Over WiFi/Thread/Ethernet：Application Layer 统一，解决各平台(Apple/Google/Alexa)兼容问题。安信可 ESP32-C6 已原生支持 Matter。",
+          persona:"Matter生态开发者 · 智能家居产品经理",
+          tags:["Matter","Thread","WiFi","兼容","智能家居"],
+          url:"https://docs.ai-thinker.com/esp32/"
+        },
+        { title:"安信可模组对Matter的适配路径", source:"Ai-Thinker Docs", date:"2026-06-07","product":"WiFi Module",sourceType:"official",
+          summary:"WiFi模组(Matter Over WiFi)：ESP32/ESP32-C3/C6 · Thread模组(Matter Over Thread)：ESP32-C6/H2 · BLE配网：Matter Commissioning。认证状态与Roadmap。",
+          persona:"Matter方案选型 · 产品经理",
+          tags:["Matter","认证","Commissioning","ESP32-C6"],
+          url:"https://docs.ai-thinker.com/esp32/"
+        },
+        // ── 6月8日 蜂窝IoT ──
+        { title:"NB-IoT vs Cat.1 vs Cat.M: 蜂窝IoT三点对比", source:"Ai-Thinker Docs", date:"2026-06-08","product":"Cellular IoT Module",sourceType:"official",
+          summary:"NB-IoT(低频深覆盖±20dB,~200kbps)适合静态抄表 · Cat.1(10Mbps,VoLTE)适合移动追踪 · Cat.M(eMTC,~1Mbps,可移动)适合中速率。2G退网后的替代选择。",
+          persona:"蜂窝IoT选型者 · 运营商方案对接",
+          tags:["NB-IoT","Cat.1","Cat.M","蜂窝IoT","2G退网"],
+          url:"https://docs.ai-thinker.com/nb-iot/"
+        },
+        { title:"安信可蜂窝IoT模组定位与方案", source:"Ai-Thinker Docs", date:"2026-06-08","product":"Cellular IoT Module",sourceType:"official",
+          summary:"NB-IoT系列(B5/B8频段, PSM省电) · 4G Cat.1系列(VoLTE+数据) · 预期5G RedCap模组。AT指令开发，MQTT over LTE的功耗优化实测。",
+          persona:"蜂窝模组开发者 · 广域IoT方案商",
+          tags:["NB-IoT","4G Cat.1","蜂窝模组","PSM","VoLTE"],
+          url:"https://docs.ai-thinker.com/"
+        },
+        { title:"物联网SIM卡与流量策略", source:"Ai-Thinker Docs", date:"2026-06-08","product":"Cellular IoT Module",sourceType:"official",
+          summary:"eSIM/eUICC远程换网 · 流量池共享 · 定向APN vs通用流量 · 跨国漫游方案。蜂窝IoT运营成本管控的关键。安信可模组支持的SIM类型。",
+          persona:"IoT运营经理 · 出海方案决策者",
+          tags:["eSIM","流量","SIM卡","漫游","运营"],
+          url:"https://docs.ai-thinker.com/"
+        },
+        // ── 6月9日 OTA升级方案 ──
+        { title:"IoT设备OTA升级架构设计", source:"Ai-Thinker Docs", date:"2026-06-09","product":"WiFi Module",sourceType:"official",
+          summary:"全量 vs 差分升级、A/B分区 vs 单Bank+Recovery、断点续传+完整性校验(CRC/SHA256)。安信可模组 OTA流程：Download→Verify→Swap→Reboot→Rollback。",
+          persona:"固件架构师 · IoT产品维护工程师",
+          tags:["OTA","固件升级","A/B分区","差分","回滚"],
+          url:"https://docs.ai-thinker.com/"
+        },
+        { title:"各模组的OTA方案对比", source:"Ai-Thinker Docs", date:"2026-06-09","product":"IoT Industry",sourceType:"official",
+          summary:"WiFi模组(ESP32 OTA/Web升级) · BLE模组(BLE DFU Service) · LoRa模组(FUOTA,LoRaWAN MAC Command) · 蜂窝模组(FOTA over LTE)。方案适用场景对比。",
+          persona:"多模组方案工程师 · IoT全栈开发者",
+          tags:["OTA","ESP32","BLE DFU","FUOTA","FOTA"],
+          url:"https://docs.ai-thinker.com/"
+        },
+        { title:"OTA升级的版本管理与灰度发布策略", source:"Ai-Thinker Docs", date:"2026-06-09","product":"IoT Industry",sourceType:"official",
+          summary:"语义化版本(SemVer)、强制升级 vs 可选升级、灰度比例控制、设备分组、A/B Test。安信可云平台的OTA管理功能。",
+          persona:"IoT产品经理 · 运维工程师",
+          tags:["OTA","版本管理","灰度","云平台"],
+          url:"https://docs.ai-thinker.com/open_cloud/"
+        },
+        // ── 6月10日 WiFi/BLE双模应用 ──
+        { title:"WiFi+BLE双模模组的典型应用架构", source:"Ai-Thinker Docs", date:"2026-06-10","product":"WiFi Module",sourceType:"official",
+          summary:"WiFi负责数据上云(MQTT/HTTP)+BLE负责本地配网和控制。典型场景：智能网关(WiFi接云+BLE管子设备)、传感器节点(BLE桥接+WiFi聚合上报)。",
+          persona:"双模方案架构师 · 智能家居开发者",
+          tags:["WiFi+BLE","双模","配网","网关","Cloud"],
+          url:"https://docs.ai-thinker.com/wifi/"
+        },
+        { title:"BLE配网(WiFi Provisioning)技术方案", source:"Ai-Thinker Docs", date:"2026-06-10","product":"WiFi Module",sourceType:"official",
+          summary:"BLE广播→手机APP连接→发送SSID/Password→WiFi连接。对比SmartConfig/AirKiss/SoftAP配网方式。安信可 ESP32/BW系列支持四种配网。",
+          persona:"IoT配网方案设计者 · APP开发者",
+          tags:["BLE配网","Provisioning","SmartConfig","SoftAP"],
+          url:"https://docs.ai-thinker.com/"
+        },
+        { title:"双模通信的功耗平衡策略", source:"Ai-Thinker Docs", date:"2026-06-10","product":"WiFi Module",sourceType:"official",
+          summary:"WiFi高功耗(持续连接) vs BLE低功耗的切换策略。典型方案：BLE维持低功耗连接，WiFi仅在需要大数据传输时唤醒。实测功耗对比数据。",
+          persona:"低功耗IoT架构师 · 电池产品开发者",
+          tags:["双模","功耗","WiFi","BLE","切换策略"],
+          url:"https://docs.ai-thinker.com/"
+        },
+        // ── 6月11日 Matter协议深度 ──
+        { title:"Matter 1.5/1.6 与 IoT 模组生态影响", source:"Ai-Thinker Docs", date:"2026-06-11","product":"WiFi Module",sourceType:"official",
+          summary:"Matter 1.5(能源管理+水阀) · 1.6(NFC配网+恒温器)。新设备类型扩展直接带动模组出货。CSA认证路径与安信可模组的适配状态。",
+          persona:"Matter生态决策者 · IoT标准跟踪者",
+          tags:["Matter 1.6","NFC配网","能源管理","CSA认证"],
+          url:"https://docs.ai-thinker.com/esp32/"
+        },
+        { title:"Matter设备开发实战：从CSA Spec到安信可模组", source:"Ai-Thinker Docs", date:"2026-06-11","product":"WiFi Module",sourceType:"official",
+          summary:"取CSA SDK > 选择Device Type(灯泡/插座/传感器) > 实现Cluster > 编译OTA固件 > 测试认证。安信可模组作为Matter终端设备的开发流程。",
+          persona:"Matter开发者 · 智能家居方案商",
+          tags:["Matter","CSA SDK","Cluster","开发流程"],
+          url:"https://docs.ai-thinker.com/"
+        },
+        { title:"Matter Bridging：把非Matter设备接入Matter生态", source:"Ai-Thinker Docs", date:"2026-06-11","product":"IoT Industry",sourceType:"official",
+          summary:"Matter Bridge原理：将Zigbee/BLE Mesh/私有协议设备映射为Matter端点。安信可模组可作为Bridge的通信核心(BLE端+WiFi/Thread上网端)。",
+          persona:"网关方案商 · 存量设备智能化",
+          tags:["Matter Bridge","网关","私有协议","映射"],
+          url:"https://docs.ai-thinker.com/"
+        },
+        // ── 6月12日 IoT安全 ──
+        { title:"IoT设备安全防护全栈体系", source:"Ai-Thinker Docs", date:"2026-06-12","product":"IoT Industry",sourceType:"official",
+          summary:"Secure Boot(签名验证)→Flash Encryption(数据加密)→TLS/DTLS(通讯加密)→Device Attestation(设备认证)→Secure OTA(升级验证)。五层纵深防御。",
+          persona:"IoT安全工程师 · 产品合规审查",
+          tags:["IoT安全","Secure Boot","加密","TLS","认证"],
+          url:"https://docs.ai-thinker.com/"
+        },
+        { title:"安信可模组安全特性汇总", source:"Ai-Thinker Docs", date:"2026-06-12","product":"WiFi Module",sourceType:"official",
+          summary:"ESP32-C3/C6: Secure Boot V2 + Flash Encryption + ECDSA · WB2: WPA3 + ECC-256 + TRNG · BLE: LE Secure Connections + 配对加密。各模组安全能力速查。",
+          persona:"安全合规工程师 · 模组选型者",
+          tags:["安全","Secure Boot","WPA3","ECC","加密"],
+          url:"https://docs.ai-thinker.com/"
+        },
+        { title:"IoT安全认证与合规：FCC/CE/SRRC/ETSI EN 303 645", source:"Ai-Thinker Docs", date:"2026-06-12","product":"IoT Industry",sourceType:"official",
+          summary:"RF认证(FCC/CE/SRRC/KCC)确保合法销售，安全认证(ETSI EN 303 645/IEC 62443)保障产品安全。安信可模组已获认证清单和客户认证指南。",
+          persona:"认证工程师 · 出海产品经理",
+          tags:["认证","FCC","CE","SRRC","ETSI"],
+          url:"https://docs.ai-thinker.com/"
+        },
+        // ── 6月13日 Ai-Thinker产品线全景 ──
+        { title:"安信可模组产品线全景图谱", source:"Ai-Thinker Docs", date:"2026-06-13","product":"IoT Industry",sourceType:"official",
+          summary:"WiFi(BW/WB/ESP系列) · BLE(PB/TB系列) · LoRa(Ra系列) · 雷达(Rd系列) · UWB(BU系列) · 离线语音(VC系列) · 蜂窝(NB-IoT/Cat.1) · 2.4G/RF433/GPS · 星闪 · 小安派。",
+          persona:"新入职工程师 · 模组全景了解 · 方案选型者",
+          tags:["安信可","产品线","模组","全景","选型"],
+          url:"https://docs.ai-thinker.com/"
+        },
+        { title:"安信可 PCBA 一站式服务能力", source:"Ai-Thinker Docs", date:"2026-06-13","product":"IoT Industry",sourceType:"official",
+          summary:"Gerber/BOM接收 > PCB制造 > 元器件采购 > SMT贴片 > 插件 > 测试 > 老化 > 包装。ISO9001/14001认证，RoHS/REACH合规。帮助客户从方案到量产。",
+          persona:"IoT硬件创业者 · 代工需求客户",
+          tags:["PCBA","SMT","代工","ISO9001","一站式"],
+          url:"https://www.ai-thinker.com/"
+        },
+        { title:"安信可 开发者生态与社区资源", source:"Ai-Thinker Docs", date:"2026-06-13","product":"IoT Industry",sourceType:"official",
+          summary:"GitHub(Ai-Thinker-Open)开源SDK · CSDN博客(技术教程) · 安信可论坛(问题解答) · B站(视频教程) · 官方文档中心。从新手到专家的成长路径。",
+          persona:"IoT开发者 · 社区贡献者 · 技术支持需求",
+          tags:["开发者生态","开源","社区","CSDN","GitHub"],
+          url:"https://docs.ai-thinker.com/"
+        },
+        // ── 6月14日 开发工具与调试 ──
+        { title:"安信可模组开发环境搭建全流程", source:"Ai-Thinker Docs", date:"2026-06-14","product":"WiFi Module",sourceType:"official",
+          summary:"ESP-IDF v5.x(WiFi/BLE) · 安信可定制SDK · Keil MDK-ARM(BLE PHY62) · Telink IDE(BLE TLSR8) · Arduino IDE(ESP) · 烧录工具。一键环境搭建指南。",
+          persona:"嵌入式开发新人 · 工具链搭建者",
+          tags:["开发环境","ESP-IDF","Keil","烧录","IDE"],
+          url:"https://docs.ai-thinker.com/"
+        },
+        { title:"安信可烧录工具与固件调试", source:"Ai-Thinker Docs", date:"2026-06-14","product":"IoT Industry",sourceType:"official",
+          summary:"ESP Flash Download Tool · PhyPlusKit(BLE PB) · Telink Burning Tool(BLE TB) · 串口调试助手。固件烧录成功率、波特率选择、硬件连接要点。",
+          persona:"固件开发者 · 生产测试工程师",
+          tags:["烧录","固件","调试","Flash Tool","串口"],
+          url:"https://docs.ai-thinker.com/"
+        },
+        { title:"IoT模组常见射频问题排查指南", source:"Ai-Thinker Docs", date:"2026-06-14","product":"IoT Industry",sourceType:"official",
+          summary:"距离不够→检查天线匹配/输出功率/障碍物 · 连接不稳定→检查供电/纹波/晶振频偏 · 吞吐量低→检查空口拥塞/RF校准。安信可技术支持的FAQ。",
+          persona:"硬件测试工程师 · FAE技术支持",
+          tags:["射频","排查","天线","供电","FAQ"],
+          url:"https://docs.ai-thinker.com/"
+        },
         // ── 6月15日 RTL87xx 系列 ──
         { title:"BW16 双频 Wi-Fi + BLE 5.0 模组", source:"Ai-Thinker Docs", date:"2026-06-15","product":"WiFi Module",sourceType:"official",
           summary:"基于瑞昱 RTL8720DN，2.4G/5G 双频 + BLE 5.0，双核 ARM V8/V8M MCU，支持 C SDK / Arduino / AT 指令三种开发方式，已适配 AWS IoT Core。",
