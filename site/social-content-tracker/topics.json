@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T00:43:00.000Z",
+  "generatedAt": "2026-06-24T00:56:00.000Z",
   "sourceMode": "seed",
   "sources": [
     "Ai-Thinker Product Lines",
@@ -2614,6 +2614,21 @@
       "hook": "Matter 之后又一个 CSA 标准来了——这次是门禁。NFC+BLE+UWB 读懂一扇智能门。",
       "post": "Connectivity Standards Alliance（Matter 的制定方）推出 Aliro 1.0 智能门禁控制标准，支持 NFC、BLE 和 UWB 三种通信方式。与 Matter 互补：Matter 管智能家居设备，Aliro 管门禁和访问控制。Nordic nRF54L15、ST ST64UWB、Qualcomm FastConnect 8800 等芯片已原生支持。对 BLE 模组和 UWB 模组厂商来说，Aliro 意味着一个新的垂直市场正在标准化——智能门锁、门禁系统、车库门都将是模组出货的新增长点。",
       "url": "https://www.cnx-software.com/2026/06/24/aliro-is-a-vendor-agnostic-standard-for-digital-access-control-working-over-nfc-bluetooth-le-or-uwb/"
+    },
+    {
+      "title": "为 ESP32-C6 编写 BIOS：微控制器也能像 PC 一样引导",
+      "source": "Hackaday",
+      "date": "2026-06-23",
+      "product": "ESP32 Module",
+      "score": 85,
+      "formats": ["LinkedIn Post"],
+      "platforms": ["LinkedIn"],
+      "tags": ["ESP32-C6", "BIOS", "固件", "RISC-V", "开源"],
+      "value": "为 ESP32-C6 开发了一个类似传统 PC BIOS 的引导固件系统，提供标准系统调用接口，支持从 RAM 动态加载可执行文件。体现了 MCU 与 MPU 界限正在打破的趋势。",
+      "summary": "社区为 ESP32-C6 开发 BIOS 式固件架构，MCU/MPU 界限模糊化趋势下，ESP32 生态可能性持续扩展。",
+      "hook": "有人为 ESP32-C6 写了一个 PC BIOS——微控制器正在变成微型电脑。",
+      "post": "Hackaday 报道了一个创新项目：为 ESP32-C6 RISC-V 微控制器开发了类似传统 PC BIOS 的固件系统，提供标准引导加载和系统调用，支持从 RAM 动态加载程序。ESP32-C6 社区生态不断壮大，安信可基于 C6 的模组方案将有更多创新应用空间。",
+      "url": "https://hackaday.com/2026/06/23/a-bios-for-your-esp32-c6/"
     }
   ]
 }
