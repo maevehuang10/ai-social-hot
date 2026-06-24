@@ -6143,7 +6143,7 @@
 
         // 按日期分组，每组取 Top 3
         const byDate = {};
-        allTopics.filter(t => t.score && t.url).forEach(t => {
+        allTopics.filter(t => t.score).forEach(t => {
           const d = t.date || "unknown";
           if (!byDate[d]) byDate[d] = [];
           byDate[d].push(t);

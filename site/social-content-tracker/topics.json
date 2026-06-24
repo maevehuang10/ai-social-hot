@@ -2569,6 +2569,51 @@
       "hook": "FAT 再见？这个不到 1000 行的文件系统正被嵌入式社区热捧。",
       "post": "CNX Software 详细介绍了 UTFS（Micro Tar File System），这是一款纯 C99 实现的轻量级嵌入式文件系统，零堆内存分配，仅两个源文件。已在 SAMD20 和 ATmega328 上验证通过，相比 FAT 文件系统大幅降低二进制体积和运行开销。对于 Wi-Fi/BLE 模组的 OTA 固件管理和数据日志存储来说，UTFS 提供了一个值得考虑的轻量替代方案。",
       "url": "https://www.cnx-software.com/2026/06/22/utfs-is-a-lightweight-zero-allocation-file-system-for-embedded-devices/"
+    },
+    {
+      "title": "Nordic nRF54L15 Tag: Coin-cell BLE 6.0 + Channel Sounding + Matter Prototyping Platform",
+      "source": "CNX Software",
+      "date": "2026-06-23",
+      "product": "BLE Module",
+      "score": 94,
+      "formats": ["LinkedIn Post"],
+      "platforms": ["LinkedIn"],
+      "tags": ["nRF54L15", "BLE 6.0", "Channel Sounding", "Matter", "Nordic"],
+      "value": "Nordic 发布 nRF54L15 纽扣电池标签原型平台，支持 BLE 6.0 Channel Sounding、Thread/Zigbee、Matter 和 NFC，Arm M33 + RISC-V 双核。",
+      "summary": "Nordic nRF54L15 Tag：BLE 6.0 + Channel Sounding + Matter + Thread 全栈，纽扣电池供电，定位对标Apple Find My。",
+      "hook": "一颗纽扣电池撑起 BLE 6.0 + Matter + Thread 全栈——Nordic 的新 Tag 方案重新定义了低功耗 IoT 的边界。",
+      "post": "Nordic Semi 推出 nRF54L15 Tag 原型平台：Arm Cortex-M33 @128MHz + RISC-V 协处理器，支持 BLE 6.0（含 Channel Sounding 精确定位）、Thread/Zigbee、Matter、Amazon Sidewalk 和 NFC。纽扣电池供电，33mm 直径，集成 6 轴 IMU 和环境传感器。对 Ai-Thinker 的 BLE 模组产品定位来说，这款芯片代表了下一代 BLE 芯片的能力基准——多协议、超低功耗、Channel Sounding 定位。",
+      "url": "https://www.cnx-software.com/2026/06/23/nordic-nrf54l15-tag-prototyping-platform-supports-bluetooth-channel-sounding-matter-edge-ai/"
+    },
+    {
+      "title": "MYiR MAC-B5760 Edge AI Industrial PC with Rockchip RK3576 + AI Modem Module",
+      "source": "CNX Software",
+      "date": "2026-06-23",
+      "product": "IoT Industry",
+      "score": 82,
+      "formats": ["LinkedIn Post"],
+      "platforms": ["LinkedIn"],
+      "tags": ["Edge AI", "Rockchip", "工业PC", "RK3576"],
+      "value": "MYiR 推出 MAC-B5760 无风扇 Edge AI 工业 PC，搭载瑞芯微 RK3576 SoC，可选 6 TOPS NPU RK1828 模块。",
+      "summary": "Rockchip RK3576 四核 A72+A53 + 6 TOPS NPU 模块，无风扇 IP40 工业级设计。",
+      "hook": "工业 AI 边缘计算需要什么样的硬件？MYiR 用一块瑞芯微 SoC 给出了标准答案。",
+      "post": "MYiR 发布 MAC-B5760 无风扇 Edge AI 嵌入式工业 PC，基于瑞芯微 RK3576（4×A72 + 4×A53 + Mali-G52 MC3 GPU，自带 6 TOPS NPU）。可选配 RK1828 AI 调制解调器模块增强 LLM/VLM 推理。IP40 防护等级，双千兆网口，专为工业视觉和边缘 AI 推理设计的硬件方案。对 IoT 模组厂商而言，边缘 AI 主机的发展方向值得持续关注。",
+      "url": "https://www.cnx-software.com/2026/06/23/myir-mac-b5760-fanless-edge-ai-industrial-pc-offers-rockchip-rk3576-soc-optional-rk1828-llm-vlm-module/"
+    },
+    {
+      "title": "Aliro: CSA's New Vendor-Agnostic Access Control Standard via NFC, BLE, or UWB",
+      "source": "CNX Software",
+      "date": "2026-06-24",
+      "product": "BLE Module",
+      "score": 91,
+      "formats": ["LinkedIn Post"],
+      "platforms": ["LinkedIn"],
+      "tags": ["Aliro", "NFC", "BLE", "UWB", "门禁控制"],
+      "value": "CSA 发布 Aliro 智能门禁控制标准，支持 NFC、BLE、UWB 三种通信方式，与 Matter 互补，是 IoT 在安防领域的又一个重磅协议。",
+      "summary": "Aliro 1.0：CSA 管理的智能门禁标准，NFC+BLE+UWB 三模，Nordic/ST/Qualcomm 芯片已支持。",
+      "hook": "Matter 之后又一个 CSA 标准来了——这次是门禁。NFC+BLE+UWB 读懂一扇智能门。",
+      "post": "Connectivity Standards Alliance（Matter 的制定方）推出 Aliro 1.0 智能门禁控制标准，支持 NFC、BLE 和 UWB 三种通信方式。与 Matter 互补：Matter 管智能家居设备，Aliro 管门禁和访问控制。Nordic nRF54L15、ST ST64UWB、Qualcomm FastConnect 8800 等芯片已原生支持。对 BLE 模组和 UWB 模组厂商来说，Aliro 意味着一个新的垂直市场正在标准化——智能门锁、门禁系统、车库门都将是模组出货的新增长点。",
+      "url": "https://www.cnx-software.com/2026/06/24/aliro-is-a-vendor-agnostic-standard-for-digital-access-control-working-over-nfc-bluetooth-le-or-uwb/"
     }
   ]
 }
