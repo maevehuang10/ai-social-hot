@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T00:56:00.000Z",
+  "generatedAt": "2026-06-26T09:01:34.323Z",
   "sourceMode": "seed",
   "sources": [
     "Ai-Thinker Product Lines",
@@ -2091,9 +2091,18 @@
       "date": "2026-06-25",
       "product": "BLE Module",
       "score": 90,
-      "formats": ["LinkedIn Post"],
-      "platforms": ["LinkedIn"],
-      "tags": ["BLE 6.0", "Channel Sounding", "定位", "厘米级"],
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "BLE 6.0",
+        "Channel Sounding",
+        "定位",
+        "厘米级"
+      ],
       "value": "蓝牙6.0 Channel Sounding 利用PBR/RTT实现厘米级定位，有望替代部分UWB场景。Nordic nRF54L15已原生支持。",
       "summary": "BLE 6.0 Channel Sounding 厘米级定位技术，低功耗+低成本，对标UWB定位市场。",
       "hook": "蓝牙也能做厘米级定位了——BLE 6.0 的 Channel Sounding 正在改写室内定位的游戏规则。",
@@ -2106,14 +2115,71 @@
       "date": "2026-06-25",
       "product": "WiFi Module",
       "score": 87,
-      "formats": ["LinkedIn Post"],
-      "platforms": ["LinkedIn"],
-      "tags": ["WiFi 6", "5G RedCap", "工业IoT", "趋势"],
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "WiFi 6",
+        "5G RedCap",
+        "工业IoT",
+        "趋势"
+      ],
       "value": "工业IoT连接两大趋势：WiFi 6/6E在工厂内网占据主导(低延迟<10ms)，5G RedCap在广域场景替代4G Cat.1。",
       "summary": "2026工业IoT连接趋势：WiFi 6E统治工厂内网，5G RedCap渗透广域场景。模组选型路线图。",
       "hook": "工业IoT的无线连接大战：WiFi 6E还是5G RedCap？答案取决于你的设备离基站有多远。",
       "post": "2026年工业IoT的连接竞选正在白热化：工厂内网场景 WiFi 6/6E 凭借低延迟(<10ms)和成熟生态占据主导，而广域场景 5G RedCap 以更低功耗和广覆盖优势替代 4G Cat.1。对模组厂商来说，双模(WiFi+蜂窝)或将成为工业IoT模组的新标配——一个模组覆盖内网和广域两种连接。",
       "url": "https://iot-now.com/2026/06/25/industrial-iot-wireless-trends-2026/"
+    },
+    {
+      "title": "LoRaWAN在精准农业中的2026年部署增长报告",
+      "source": "IoT Analytics",
+      "date": "2026-06-26",
+      "product": "LoRa Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "精准农业",
+        "LoRaWAN",
+        "智慧农业",
+        "增长趋势"
+      ],
+      "value": "报告显示2026年LoRaWAN农业部署增长40%+，土壤墒情和大棚环境监测是最大落地场景。",
+      "summary": "报告显示2026年LoRaWAN农业部署增长40%+，土壤墒情和大棚环境监测是最大落地场景。",
+      "hook": "农田也需要5G？不，农田更需要LoRa——2026年农业IoT增长最快的连接技术不是蜂窝，是LoRaWAN。",
+      "post": "IoT Analytics最新报告：2026年LoRaWAN在农业场景的部署增长率超过40%，超越蜂窝IoT成为农业领域增长最快的连接技术。关键应用是土壤墒情监测、大棚环境控制、畜牧追踪。安信可Ra系列LoRa模组直接受益于这一趋势——远距离、低功耗、低成本是农业IoT选型的三大硬指标。",
+      "url": "https://iot-analytics.com/lorawan-agriculture-2026/"
+    },
+    {
+      "title": "离线语音在农业自动化中的应用前景",
+      "source": "AI-Thinker Blog",
+      "date": "2026-06-26",
+      "product": "IoT Industry",
+      "score": 82,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "离线语音",
+        "农业",
+        "自动化",
+        "VC系列"
+      ],
+      "value": "农业场景噪声大、网络信号差，离线语音控制水泵、风机等设备具有天然优势。",
+      "summary": "农业场景噪声大、网络信号差，离线语音控制水泵、风机等设备具有天然优势。",
+      "hook": "农村没网？没关系——离线语音模组正在成为智慧农业的「声控开关」。",
+      "post": "智慧农业的难点之一是大棚/农场网络覆盖差。安信可VC离线语音模组直接在本地执行语音指令——'开启水泵'、'关闭风机'——无需联网。VC-01/02支持最大100条指令词自学习，普通话+方言混合识别。在农业自动化场景中，离线语音可能是比WiFi/BLE更「接地气」的解决方案。",
+      "url": "https://docs.ai-thinker.com/voice_module/"
     }
   ]
 }

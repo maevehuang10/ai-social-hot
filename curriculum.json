@@ -17,7 +17,7 @@
     {
       "id": 14,
       "title": "智慧农业模组方案",
-      "covered": false,
+      "covered": true,
       "official": [
         {
           "title": "智慧农业模组方案总览：从土壤到云端",
