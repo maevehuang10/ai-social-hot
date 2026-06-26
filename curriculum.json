@@ -323,6 +323,141 @@
           "url": "https://riscv.org/blog/2026/riscv-iot-billion/"
         }
       ]
+    },
+    {
+      "id": 19,
+      "title": "终端行业蓝海机会：智能穿戴/新能源/智慧医疗",
+      "covered": false,
+      "official": [
+        {
+          "title": "2026终端行业蓝海分析：五大赛道中的模组机遇",
+          "product": "IoT Industry",
+          "summary": "IOT-HOT蓝海分析：智能穿戴(年增25-30%,WiFi+BLE双模刚需)→新能源/储能(政策扶持,年增40%+,无线化替代)→智慧农业(渗透率<5%,LoRa天然场景)→工业IoT(国产替代,年增35%+)→智慧医疗(远程+可穿戴,认证壁垒)。安信可产品匹配建议。",
+          "persona": "IoT市场分析师 · 产品线规划决策者 · 行业拓展销售",
+          "tags": ["蓝海分析", "智能穿戴", "新能源", "智慧医疗", "市场机会"],
+          "url": "https://docs.ai-thinker.com/"
+        },
+        {
+          "title": "智能穿戴模组方案：WiFi+BLE双模超低功耗设计",
+          "product": "BLE Module",
+          "summary": "AI眼镜/手表/手环等穿戴设备对模组的核心要求： 1mW级低功耗(电池仅100-300mAh)、 双模WiFi+BLE(数据同步+手机连接)、 极小尺寸(<10×10mm)。安信可PB-03(BLE5.4,18×18mm)和WB2系列适配套餐。",
+          "persona": "穿戴设备硬件工程师 · 低功耗方案设计 · ODM厂商",
+          "tags": ["智能穿戴", "低功耗", "WiFi+BLE", "AI眼镜", "手表"],
+          "url": "https://docs.ai-thinker.com/bt/"
+        },
+        {
+          "title": "新能源/储能智能化：无线通信替代有线方案",
+          "product": "WiFi Module",
+          "summary": "光伏逆变器、储能BMS、充电桩等设备传统用RS485/CAN有线通信，正在被WiFi/BLE/LoRa无线方案替代。安信可WB2(WiFi+BLE,12μA休眠)和LoRa Ra-01SH(>10km)是典型方案。",
+          "persona": "新能源设备制造商 · 储能系统集成商 · 无线化替代方案",
+          "tags": ["新能源", "储能", "无线替代", "光伏", "BMS"],
+          "url": "https://docs.ai-thinker.com/"
+        }
+      ],
+      "external": [
+        {
+          "title": "AI眼镜/智能手表出货量2026年预测突破2亿台",
+          "source": "IOT-HOT",
+          "product": "IoT Industry",
+          "score": 89,
+          "tags": ["智能穿戴", "出货量", "AI眼镜", "市场预测"],
+          "summary": "2026年全球AI眼镜和智能手表出货量预计突破2亿台，WiFi+BLE双模连接是标准配置。",
+          "hook": "2亿台穿戴设备正在醒来——它们全都要连WiFi和蓝牙，你的模组准备好了吗？",
+          "post": "IOT-HOT行业趋势分析：2026年全球智能穿戴设备出货量预计突破2亿台。AI眼镜、智能手表、健康手环三大品类齐头并进，WiFi+BLE双模连接已成标配，单模方案正在被淘汰。安信可WB2系列的WiFi+BLE双模、12μA超低休眠功耗特性，正是穿戴设备对模组的典型需求。",
+          "url": "http://10.1.8.31:2217/trends"
+        },
+        {
+          "title": "光伏储能智能化：新能源IoT市场年增40%+",
+          "source": "IOT-HOT",
+          "product": "IoT Industry",
+          "score": 87,
+          "tags": ["新能源", "储能", "光伏", "IoT", "市场分析"],
+          "summary": "光伏储能智能化改造需求爆发，年增速超40%，LoRa/WiFi/BLE无线方案正在替代传统有线通信。",
+          "hook": "光伏板下面藏着一块IoT蛋糕——年增40%，LoRa和WiFi模组的又一片蓝海。",
+          "post": "IOT-HOT趋势报告：新能源/储能行业IoT化改造需求年增速超过40%。光伏逆变器、储能BMS、充电桩等设备正在从RS485/CAN有线方案转向WiFi/BLE/LoRa无线方案。安信可LoRa Ra系列模组在光伏电站的千米级监控和WB2系列在户用储能的数据上云场景中均有明确的切入机会。",
+          "url": "http://10.1.8.31:2217/trends"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "模组应用场景速览：Matter/智能家居/工业",
+      "covered": false,
+      "official": [
+        {
+          "title": "Matter 1.6 对模组产品的实际影响：NFC配网来了",
+          "product": "WiFi Module",
+          "summary": "Matter 1.6引入NFC-based Commissioning(碰触配网)→用户无需输入WiFi密码→大幅降低退货率。智能恒温器、灯光控制场景受益最大。安信可Matter兼容模组(BW21/Ai-M62)的认证状态更新。",
+          "persona": "Matter产品经理 · 智能家居ODM · 通信协议规划",
+          "tags": ["Matter 1.6", "NFC", "配网", "智能家居", "认证"],
+          "url": "https://docs.ai-thinker.com/"
+        },
+        {
+          "title": "Aliro数字门禁标准：NFC/BLE/UWB三模的新赛道",
+          "product": "BLE Module",
+          "summary": "CSA(Aliro标准)与Matter互补：Matter管智能家居，Aliro管门禁。NFC+BLE+UWB三模通信，需要多协议模组。安信可PB系列(BLE)、BU系列(UWB)可组合交付门禁方案。",
+          "persona": "门禁/门锁方案商 · 安防产品经理 · 多协议模组需求",
+          "tags": ["Aliro", "门禁", "NFC", "BLE", "UWB", "新赛道"],
+          "url": "https://docs.ai-thinker.com/"
+        },
+        {
+          "title": "Matter over WiFi智能开关：工业级DIN导轨应用",
+          "product": "WiFi Module",
+          "summary": "SONOFF Matter over WiFi智能开关支持DIN导轨安装和32A高功率电路，适用于电地暖、EV充电等场景。Matter工业级应用代表模组从消费级向工业级渗透的趋势。",
+          "persona": "工业IoT方案商 · 电力开关厂商 · Matter应用探索者",
+          "tags": ["Matter", "智能开关", "DIN导轨", "工业级", "WiFi"],
+          "url": "https://docs.ai-thinker.com/"
+        }
+      ],
+      "external": [
+        {
+          "title": "SONOFF Matter over WiFi开关：DIN导轨+32A工业级应用",
+          "source": "IOT-HOT",
+          "product": "WiFi Module",
+          "score": 86,
+          "tags": ["Matter", "智能开关", "DIN", "32A", "工业级"],
+          "summary": "SONOFF Matter over WiFi智能开关支持DIN导轨和32A高功率，Matter协议向工业场景渗透的标志性产品。",
+          "hook": "Matter不只是智能灯泡——这个32A的DIN导轨开关正在改写游戏规则。",
+          "post": "IOT-HOT报道：SONOFF推出Matter over WiFi智能开关，支持DIN导轨安装和32A高功率电路，适用于电地暖、EV充电等工业级场景。这是Matter协议从消费级走向工业级应用的重要信号——32A的Matter设备意味着模组需要在过流保护、温升控制和可靠性上达到工业标准。",
+          "url": "http://10.1.8.31:2217/scenarios"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "AI大模型与IoT模组的融合趋势",
+      "covered": false,
+      "official": [
+        {
+          "title": "AIoT模组新范式：端侧推理+云端大模型协同",
+          "product": "IoT Industry",
+          "summary": "2026年AIoT模组演进：端侧MCU做关键词唤醒/传感器预处理→WiFi/BLE模组上云→云端大模型做语义理解/决策→回传模组执行指令。安信可Ai-M62(WiFi6+BVLE5.3)+小安AI语音的二合一方案。",
+          "persona": "AIoT产品经理 · 语音交互方案商 · 边缘AI开发者",
+          "tags": ["AIoT", "大模型", "端侧推理", "语音", "融合"],
+          "url": "https://docs.ai-thinker.com/"
+        },
+        {
+          "title": "边缘AI加速：为什么模组需要本地AI算力",
+          "product": "WiFi Module",
+          "summary": "三个场景需要边缘AI： 1数据隐私(本地处理不传云)→医疗/安防  2低延迟(实时响应)→工业控制/语音助手  3断网可用(离线场景)→农业/野外。安信可BW21-CBV(AI摄像头模组)的边缘AI实践。",
+          "persona": "边缘AI架构师 · 隐私合规产品经理 · 离线IoT开发者",
+          "tags": ["边缘AI", "隐私", "低延迟", "离线", "视觉"],
+          "url": "https://docs.ai-thinker.com/"
+        }
+      ],
+      "external": [
+        {
+          "title": "2026年边缘AI芯片出货量增长300%",
+          "source": "IOT-HOT",
+          "product": "IoT Industry",
+          "score": 90,
+          "tags": ["边缘AI", "芯片", "增长", "趋势"],
+          "summary": "2026年全球边缘AI芯片出货量预计增长300%，端侧TinyML推理成为模组标配能力。",
+          "hook": "边缘AI芯片增长300%——不是云端GPU，是你手里的IoT模组里的那颗小芯片。",
+          "post": "IOT-HOT行业趋势：2026年全球边缘AI芯片出货量预计增长300%。TinyML(微型机器学习)正在成为IoT模组的标配能力——从语音唤醒词识别到振动异常检测到视觉人体识别，端侧AI推理让模组不再是简单的通信管道，而是智能决策节点。安信可BW21-CBV的YOLO视觉识别是这一趋势的典型实践。",
+          "url": "http://10.1.8.31:2217/trends"
+        }
+      ]
     }
   ]
 }
