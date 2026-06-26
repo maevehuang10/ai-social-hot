@@ -2084,6 +2084,36 @@
       "hook": "Matter 之后又一个 CSA 标准来了——这次是门禁。NFC+BLE+UWB 读懂一扇智能门。",
       "post": "Connectivity Standards Alliance（Matter 的制定方）推出 Aliro 1.0 智能门禁控制标准，支持 NFC、BLE 和 UWB 三种通信方式。与 Matter 互补：Matter 管智能家居设备，Aliro 管门禁和访问控制。Nordic nRF54L15、ST ST64UWB、Qualcomm FastConnect 8800 等芯片已原生支持。对 BLE 模组和 UWB 模组厂商来说，Aliro 意味着一个新的垂直市场正在标准化——智能门锁、门禁系统、车库门都将是模组出货的新增长点。",
       "url": "https://www.cnx-software.com/2026/06/24/aliro-is-a-vendor-agnostic-standard-for-digital-access-control-working-over-nfc-bluetooth-le-or-uwb/"
+    },
+    {
+      "title": "BLE Channel Sounding: 蓝牙6.0厘米级定位技术解析",
+      "source": "IoT Times",
+      "date": "2026-06-25",
+      "product": "BLE Module",
+      "score": 90,
+      "formats": ["LinkedIn Post"],
+      "platforms": ["LinkedIn"],
+      "tags": ["BLE 6.0", "Channel Sounding", "定位", "厘米级"],
+      "value": "蓝牙6.0 Channel Sounding 利用PBR/RTT实现厘米级定位，有望替代部分UWB场景。Nordic nRF54L15已原生支持。",
+      "summary": "BLE 6.0 Channel Sounding 厘米级定位技术，低功耗+低成本，对标UWB定位市场。",
+      "hook": "蓝牙也能做厘米级定位了——BLE 6.0 的 Channel Sounding 正在改写室内定位的游戏规则。",
+      "post": "BLE 6.0 最大的新特性 Channel Sounding 正式进入工程样片阶段。通过 PBR(Phase-Based Ranging)和 RTT(Round-Trip Time)双重测距，BLE 首次具备了厘米级定位能力。Nordic nRF54L15 是首批支持该特性的芯片。这意味着中低端定位场景可以不用昂贵的 UWB 方案——BLE 模组的市场边界被大幅拓宽了。",
+      "url": "https://www.cnx-software.com/2026/06/23/nordic-nrf54l15-tag-prototyping-platform-supports-bluetooth-channel-sounding-matter-edge-ai/"
+    },
+    {
+      "title": "2026工业IoT无线连接趋势：WiFi 6/6E与5G RedCap的博弈",
+      "source": "Industrial IoT World",
+      "date": "2026-06-25",
+      "product": "WiFi Module",
+      "score": 87,
+      "formats": ["LinkedIn Post"],
+      "platforms": ["LinkedIn"],
+      "tags": ["WiFi 6", "5G RedCap", "工业IoT", "趋势"],
+      "value": "工业IoT连接两大趋势：WiFi 6/6E在工厂内网占据主导(低延迟<10ms)，5G RedCap在广域场景替代4G Cat.1。",
+      "summary": "2026工业IoT连接趋势：WiFi 6E统治工厂内网，5G RedCap渗透广域场景。模组选型路线图。",
+      "hook": "工业IoT的无线连接大战：WiFi 6E还是5G RedCap？答案取决于你的设备离基站有多远。",
+      "post": "2026年工业IoT的连接竞选正在白热化：工厂内网场景 WiFi 6/6E 凭借低延迟(<10ms)和成熟生态占据主导，而广域场景 5G RedCap 以更低功耗和广覆盖优势替代 4G Cat.1。对模组厂商来说，双模(WiFi+蜂窝)或将成为工业IoT模组的新标配——一个模组覆盖内网和广域两种连接。",
+      "url": "https://iot-now.com/2026/06/25/industrial-iot-wireless-trends-2026/"
     }
   ]
 }
