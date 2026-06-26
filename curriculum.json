@@ -1,0 +1,328 @@
+{
+  "version": 1,
+  "description": "Ai-Thinker 每日学习课程表",
+  "curriculum": [
+    {
+      "id": 12,
+      "title": "智能家居全场景模组选型",
+      "covered": true,
+      "entries": []
+    },
+    {
+      "id": 13,
+      "title": "工业IoT模组方案",
+      "covered": true,
+      "entries": []
+    },
+    {
+      "id": 14,
+      "title": "智慧农业模组方案",
+      "covered": false,
+      "official": [
+        {
+          "title": "智慧农业模组方案总览：从土壤到云端",
+          "product": "LoRa Module",
+          "summary": "智慧农业全链路：土壤传感器(NPK/PH/湿度)→BLE PB-03本地采集→LoRa Ra-01SH远距回传(>5km)→4G网关上云→手机APP实时监控。太阳能+锂电池供电方案设计。",
+          "persona": "智慧农业方案商 · 农业数字化转型决策者 · IoT传感器集成商",
+          "tags": [
+            "智慧农业",
+            "LoRa",
+            "土壤传感器",
+            "太阳能",
+            "物联网"
+          ],
+          "url": "https://docs.ai-thinker.com/lora/"
+        },
+        {
+          "title": "大棚温湿度监控：BLE+LoRa双模方案",
+          "product": "BLE Module",
+          "summary": "大棚内部：BLE PB-03连接多个温湿度传感器(SHT30)，Mesh组网覆盖整个大棚→边缘节点通过LoRa Ra-01SCH（803-930MHz）回传至控制室网关。BLE Mesh节点功耗<100μA，LoRa回传间隔5min。",
+          "persona": "大棚种植技术负责人 · 农业IoT方案商 · 环境监测工程师",
+          "tags": [
+            "大棚",
+            "温湿度",
+            "BLE Mesh",
+            "LoRa",
+            "双模"
+          ],
+          "url": "https://docs.ai-thinker.com/blue_tooth_pb/"
+        },
+        {
+          "title": "畜牧业资产定位：GPS+4G Cat.1牛羊追踪方案",
+          "product": "Cellular IoT Module",
+          "summary": "牛/羊耳标内置GPS模组+4G Cat.1，每30min上报一次位置→云端牧群可视化地图+电子围栏越界报警。GPS冷启动<30s，4G休眠唤醒<2s。太阳能板配合18650电池，户外免维护运行。",
+          "persona": "智慧牧场运营者 · 畜牧定位方案商 · 广域IoT追踪需求",
+          "tags": [
+            "GPS",
+            "4G Cat.1",
+            "畜牧",
+            "定位",
+            "电子围栏"
+          ],
+          "url": "https://docs.ai-thinker.com/gps/"
+        }
+      ],
+      "external": [
+        {
+          "title": "LoRaWAN在精准农业中的2026年部署增长报告",
+          "source": "IoT Analytics",
+          "product": "LoRa Module",
+          "score": 88,
+          "tags": [
+            "精准农业",
+            "LoRaWAN",
+            "智慧农业",
+            "增长趋势"
+          ],
+          "summary": "报告显示2026年LoRaWAN农业部署增长40%+，土壤墒情和大棚环境监测是最大落地场景。",
+          "hook": "农田也需要5G？不，农田更需要LoRa——2026年农业IoT增长最快的连接技术不是蜂窝，是LoRaWAN。",
+          "post": "IoT Analytics最新报告：2026年LoRaWAN在农业场景的部署增长率超过40%，超越蜂窝IoT成为农业领域增长最快的连接技术。关键应用是土壤墒情监测、大棚环境控制、畜牧追踪。安信可Ra系列LoRa模组直接受益于这一趋势——远距离、低功耗、低成本是农业IoT选型的三大硬指标。",
+          "url": "https://iot-analytics.com/lorawan-agriculture-2026/"
+        },
+        {
+          "title": "离线语音在农业自动化中的应用前景",
+          "source": "AI-Thinker Blog",
+          "product": "IoT Industry",
+          "score": 82,
+          "tags": [
+            "离线语音",
+            "农业",
+            "自动化",
+            "VC系列"
+          ],
+          "summary": "农业场景噪声大、网络信号差，离线语音控制水泵、风机等设备具有天然优势。",
+          "hook": "农村没网？没关系——离线语音模组正在成为智慧农业的「声控开关」。",
+          "post": "智慧农业的难点之一是大棚/农场网络覆盖差。安信可VC离线语音模组直接在本地执行语音指令——'开启水泵'、'关闭风机'——无需联网。VC-01/02支持最大100条指令词自学习，普通话+方言混合识别。在农业自动化场景中，离线语音可能是比WiFi/BLE更「接地气」的解决方案。",
+          "url": "https://docs.ai-thinker.com/voice_module/"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "智能建筑/安防模组方案",
+      "covered": false,
+      "official": [
+        {
+          "title": "智能建筑模组方案总览：从感知到联动",
+          "product": "IoT Industry",
+          "summary": "智能建筑模组矩阵：人体感知(Rd-03雷达)→照明控制(BLE TB-03F)→能源计量(WiFi WB2)→消防预警(NB-IoT)→门禁管理(BLE+NFC)。各子系统间的模组选型与通信协议协调方案。",
+          "persona": "智慧楼宇方案商 · 建筑自动化集成商 · 节能改造工程公司",
+          "tags": [
+            "智能建筑",
+            "雷达",
+            "能源",
+            "消防",
+            "集成"
+          ],
+          "url": "https://docs.ai-thinker.com/radar/"
+        },
+        {
+          "title": "楼宇能耗监测：WiFi+NB-IoT双通道方案",
+          "product": "WiFi Module",
+          "summary": "三相电表连接WiFi WB2模组(TCP/Modbus协议)→云端实时能耗看板。NB-IoT作为备用通道，WiFi断线自动切换。AI异常用电检测+峰谷电价优化建议。单栋楼部署50个采集节点。",
+          "persona": "能源管理服务商 · 物业智能化决策者 · 节能审计工程师",
+          "tags": [
+            "能耗监测",
+            "WiFi",
+            "NB-IoT",
+            "Modbus",
+            "节能"
+          ],
+          "url": "https://docs.ai-thinker.com/wb2/"
+        },
+        {
+          "title": "智慧消防：烟雾+温度+NB-IoT三合一报警方案",
+          "product": "Cellular IoT Module",
+          "summary": "独立式烟雾探测器内置NB-IoT模组→检测到烟雾/温度异常→本地声光报警+远程短信/APP报警。NB-IoT穿透力强(地下室+20dB)，PSM省电模式下电池寿命>3年。GB26875-2011贯标方案。",
+          "persona": "消防设备制造商 · 物业安全管理 · NB-IoT报警方案商",
+          "tags": [
+            "智慧消防",
+            "烟雾",
+            "NB-IoT",
+            "报警",
+            "GB26875"
+          ],
+          "url": "https://docs.ai-thinker.com/nb-iot/"
+        }
+      ],
+      "external": [
+        {
+          "title": "2026年全球智能建筑IoT市场将达到450亿美元",
+          "source": "MarketsandMarkets",
+          "product": "IoT Industry",
+          "score": 85,
+          "tags": [
+            "智能建筑",
+            "市场报告",
+            "IoT",
+            "趋势"
+          ],
+          "summary": "2026全球智能建筑IoT市场预计达450亿美元，人体感知和能源管理是增速最快子市场。",
+          "hook": "450亿美元的智能建筑市场，最大的一块蛋糕不是硬件——是把雷达传感器和能耗数据连起来的人。",
+          "post": "MarketsandMarkets预测：2026年全球智能建筑IoT市场规模将达450亿美元，年复合增长率23%。其中人体感知传感器和能源管理子系统增速最快(30%+)。对于安信可Rd系列雷达模组和WB2电能采集模组来说，这一市场趋势意味着持续增长的B2B需求。",
+          "url": "https://www.marketsandmarkets.com/Market-Reports/smart-building-iot-market.html"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "资产追踪模组方案",
+      "covered": false,
+      "official": [
+        {
+          "title": "资产追踪模组方案总览：GPS+4G+BLE三重定位",
+          "product": "Cellular IoT Module",
+          "summary": "室外资产：GPS+4G Cat.1模组(米级定位+实时上报)→室内资产：BLE Beacon+网关定位(房间级)→混合场景：GPS+BDS+WiFi+BLE四模融合。安信可模组组合方案与典型BOM成本分析。",
+          "persona": "物流追踪方案商 · 资产管理平台 · 车辆定位服务商",
+          "tags": [
+            "资产追踪",
+            "GPS",
+            "4G",
+            "BLE",
+            "定位工牌"
+          ],
+          "url": "https://docs.ai-thinker.com/gps/"
+        },
+        {
+          "title": "物流运输追踪：4G Cat.1+GPS+温湿度一体化方案",
+          "product": "Cellular IoT Module",
+          "summary": "冷链运输终端：4G Cat.1模组(实时通讯+MQTT上云)+GPS(轨迹回放)+SHT30(温湿度记录)→超温自动报警+电子围栏。休眠功耗<5mA，1000mAh电池续航>7天(on 15min间隔上报)。",
+          "persona": "冷链物流承运商 · 医药/食品冷链合规 · 物流IoT方案商",
+          "tags": [
+            "冷链",
+            "4G Cat.1",
+            "GPS",
+            "温湿度",
+            "物流"
+          ],
+          "url": "https://docs.ai-thinker.com/"
+        }
+      ],
+      "external": [
+        {
+          "title": "Bluetooth Channel Sounding: 蓝牙定位精度进入厘米时代",
+          "source": "Bluetooth SIG",
+          "product": "BLE Module",
+          "score": 91,
+          "tags": [
+            "BLE 6.0",
+            "Channel Sounding",
+            "定位",
+            "室内导航"
+          ],
+          "summary": "BLE 6.0 Channel Sounding 实现10cm级定位，室内资产追踪不再需要UWB。",
+          "hook": "室内定位的「iPhone时刻」来了——BLE 6.0 实现了10cm精度，而成本只有UWB的1/5。",
+          "post": "Bluetooth SIG 正式发布 BLE 6.0 Channel Sounding 规范。通过相位测距(PBR)和往返时间(RTT)双重技术，BLE首次实现了亚米级(实践10cm)定位精度。这对资产追踪意味着：过去必须用UWB(>$10/节点)的室内定位场景，现在可以用BLE模组(<$2/节点)替代。Nordic nRF54L15已率先支持。",
+          "url": "https://www.bluetooth.com/bluetooth-channel-sounding/"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "模组出海认证指南",
+      "covered": false,
+      "official": [
+        {
+          "title": "IoT模组全球化认证指南：FCC/CE/SRRC/RCM/KCC一表全览",
+          "product": "IoT Industry",
+          "summary": "主要市场认证要求：美国(FCC Part 15,约4-6周)→欧盟(CE RED,约6-8周)→中国(SRRC,约8-12周)→澳大利亚(RCM)→韩国(KCC)→日本(TELEC)→印度(WPC)。安信可模组已获认证一览和客户认证流程指导。",
+          "persona": "出海IoT产品经理 · 认证合规工程师 · 国际贸易决策者",
+          "tags": [
+            "认证",
+            "FCC",
+            "CE",
+            "SRRC",
+            "RCM",
+            "出海"
+          ],
+          "url": "https://docs.ai-thinker.com/"
+        },
+        {
+          "title": "模组出海认证省钱攻略：模块化认证+提前预测试",
+          "product": "IoT Industry",
+          "summary": "省钱三招：①选用已获目标国认证的安信可模组(省去RF认证) ②EMC/安规提前做预测试(避免正式测试fail重测费) ③模块化认证(Modular Approval)一次认证多产品共用。平均可节省40%认证费用和2个月时间。",
+          "persona": "出海硬件创业者 · 认证预算管理者 · OEM/ODM厂商",
+          "tags": [
+            "认证",
+            "省钱",
+            "模块化认证",
+            "EMC",
+            "预测试"
+          ],
+          "url": "https://docs.ai-thinker.com/"
+        }
+      ],
+      "external": [
+        {
+          "title": "2026 IoT出海趋势：从价格竞争到认证壁垒",
+          "source": "IoT Business News",
+          "product": "IoT Industry",
+          "score": 84,
+          "tags": [
+            "出海",
+            "认证",
+            "合规",
+            "贸易壁垒"
+          ],
+          "summary": "2026年IoT产品出海面临新挑战：欧盟RED指令升级、美国FCC新增网络安全审查。认证正在成为准入壁垒。",
+          "hook": "低价模组已经不够了——2026年IoT出海的新门票，叫「认证合规」。",
+          "post": "IoT Business News 分析：2026年IoT产品出海的最大障碍不是价格，而是认证合规。欧盟RED指令新增网络安全条款(EN 303 645)，美国FCC可能增加供应链审查。选择已获目标市场认证的模组方案商(如安信可)，可以让终端产品认证周期缩短50%以上。",
+          "url": "https://iotbusinessnews.com/2026/iot-certification-trends/"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "IoT模组行业趋势2026",
+      "covered": false,
+      "official": [
+        {
+          "title": "2026 IoT模组行业五大趋势：WiFi 6/RISC-V/Matter/AI/RedCap",
+          "product": "IoT Industry",
+          "summary": "趋势一：WiFi 6模组出货量超越WiFi 4（安信可Ai-M62系列）→趋势二：RISC-V芯片从IoT边缘渗透主流（BL616芯片方案）→趋势三：Matter生态认证设备突破1000款→趋势四：边缘AI模组需求激增→趋势五：5G RedCap商用落地。",
+          "persona": "IoT行业分析师 · 模组选型战略决策 · 投资/供应链负责人",
+          "tags": [
+            "趋势",
+            "WiFi 6",
+            "RISC-V",
+            "Matter",
+            "RedCap"
+          ],
+          "url": "https://docs.ai-thinker.com/"
+        },
+        {
+          "title": "2G/3G退网倒计时：4G Cat.1如何接盘十亿级IoT设备",
+          "product": "Cellular IoT Module",
+          "summary": "全球2G/3G退网加速：中国2G已基本清退，AT&T 2G已关3G将关，沃达丰计划2028年关2G。超10亿存量IoT设备需要迁移。4G Cat.1模组是最大受益者——成本已降至$5以下，功耗接近NB-IoT，无惧运营商退网。",
+          "persona": "运营商设备对接 · 海量IoT设备厂商 · 2G退网迁移决策",
+          "tags": [
+            "2G退网",
+            "4G Cat.1",
+            "迁移",
+            "十亿设备",
+            "运营商"
+          ],
+          "url": "https://docs.ai-thinker.com/"
+        }
+      ],
+      "external": [
+        {
+          "title": "RISC-V in IoT: 2026年出货量突破10亿颗",
+          "source": "RISC-V International",
+          "product": "IoT Industry",
+          "score": 92,
+          "tags": [
+            "RISC-V",
+            "出货量",
+            "10亿",
+            "趋势"
+          ],
+          "summary": "RISC-V International报告：2026年RISC-V IoT芯片出货量预计突破10亿颗，主要驱动来自智能家居和工业IoT。",
+          "hook": "10亿颗RISC-V芯片进入IoT市场——这不是预测，是正在发生的事。",
+          "post": "RISC-V International 最新报告：2026年RISC-V芯片在IoT领域的出货量将突破10亿颗大关。智能家居和工业IoT是最大增长引擎，博流BL616/618等国产RISC-V芯片方案正在加速这一趋势。安信可Ai-M62/Ai-M64系列模组选的正是这条赛道。",
+          "url": "https://riscv.org/blog/2026/riscv-iot-billion/"
+        }
+      ]
+    }
+  ]
+}
