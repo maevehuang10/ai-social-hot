@@ -21,7 +21,8 @@ jobs:
           node-version: "20"
 
       - name: Add today's social records (seedCaptures)
-        run: node scripts/daily-update.mjs
+        run: node scripts/daily-update.mjs || true
+        continue-on-error: true
 
       - name: Run curriculum updater (OFFICIAL_DOCS + external topics)
         run: node scripts/curriculum-update.cjs

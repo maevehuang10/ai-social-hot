@@ -170,10 +170,13 @@ function appendDateTabs(html, labels) {
 }
 
 function insertRecords(html, records) {
-  const marker = "\n    ];\n\n    let captures = loadCaptures();";
-  if (!html.includes(marker)) {
+  // Use flexible marker that works regardless of indentation changes
+  const pattern = /\n\s*];\s*\n\s*let captures = loadCaptures\(\);/;
+  const match = html.match(pattern);
+  if (!match) {
     throw new Error("Could not find seedCaptures closing marker.");
   }
+  const marker = match[0];
 
   const existingIds = new Set([...html.matchAll(/"id":\s*"([^"]+)"|id:\s*"([^"]+)"/g)].map(match => match[1] || match[2]));
   const existingTimes = new Set([...html.matchAll(/"?createdAt"?\s*:\s*"([^"]+)"/g)].map(match => match[1]));

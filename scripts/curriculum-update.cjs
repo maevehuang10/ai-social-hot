@@ -22,28 +22,51 @@ function findNextTopic(curriculum) {
 
 function appendOfficialDocs(html, topic) {
   const date = todayStr();
-  const comment = `        // ── ${date} ${topic.title} ──\r\n`;
+  const comment = `        // ${date} ${topic.title}`;
 
   const entries = (topic.official || []).map(e => {
     const tags = JSON.stringify(e.tags);
     return `${comment}
         { title:"${e.title}", source:"Ai-Thinker Docs", date:"${date}","product":"${e.product}",sourceType:"official",
           summary:"${e.summary}",
-          persona:"${e.persona || "IoT 开发者 · 嵌入式工程师"}",
+          persona:"${e.persona || "IoT developer"}",
           tags:${tags},
           url:"${e.url}"
         }`;
   }).join(",\n");
 
-  // Find and replace the closing ]; before function escT
-  // Note: file uses CRLF line endings
-  const marker = "\r\n        \r\n      ];\r\n\r\n      function escT";
-  const idx = html.indexOf(marker);
-  if (idx === -1) {
-    console.error("Cannot find OFFICIAL_DOCS closing marker");
+  // Find the closing ]; before the first function escT after OFFICIAL_DOCS
+  // Strategy: find "const OFFICIAL_DOCS", then find the matching closing ];
+  const docStart = html.indexOf("const OFFICIAL_DOCS = [");
+  if (docStart === -1) { console.error("OFFICIAL_DOCS not found"); return html; }
+
+  // Find the matching closing ]; - scan forward from docStart
+  let depth = 0;
+  let inString = false;
+  let stringChar = '';
+  let docEnd = -1;
+  for (let i = docStart; i < html.length; i++) {
+    const ch = html[i];
+    if (inString) {
+      if (ch === '\\') { i++; continue; }
+      if (ch === stringChar) inString = false;
+      continue;
+    }
+    if (ch === '"' || ch === "'") { inString = true; stringChar = ch; continue; }
+    if (ch === '[') depth++;
+    if (ch === ']') {
+      depth--;
+      if (depth === 0) { docEnd = i + 1; break; }
+    }
+  }
+
+  if (docEnd === -1 || docEnd <= docStart) {
+    console.error("Cannot find OFFICIAL_DOCS closing bracket");
     return html;
   }
-  return html.substring(0, idx) + entries + ",\r\n        \r\n      ];\r\n\r\n      function escT" + html.substring(idx + marker.length);
+
+  // Insert before the closing ];
+  return html.substring(0, docEnd - 1) + entries + ",\n        \n      ]" + html.substring(docEnd);
 }
 
 function appendExternalTopics(json, topic) {
@@ -101,7 +124,6 @@ function main() {
     return;
   }
 
-  // Apply
   const html = fs.readFileSync(HTML_PATH, "utf-8");
   const topicsJson = fs.readFileSync(TOPICS_PATH, "utf-8");
 
@@ -113,11 +135,11 @@ function main() {
   fs.writeFileSync(TOPICS_PATH, updatedTopics, "utf-8");
   fs.writeFileSync(CURRICULUM_PATH, JSON.stringify({
     version: 1,
-    description: "Ai-Thinker 每日学习课程表",
+    description: "Ai-Thinker daily curriculum",
     curriculum: updatedCurriculum
   }, null, 2), "utf-8");
 
-  console.log(`✅ [${topic.title}] ${(topic.official||[]).length} official + ${(topic.external||[]).length} external entries added.`);
+  console.log(`OK [${topic.title}] ${(topic.official||[]).length} official + ${(topic.external||[]).length} external entries added.`);
 }
 
 main();
