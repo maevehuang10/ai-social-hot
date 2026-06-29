@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T09:01:34.323Z",
+  "generatedAt": "2026-06-29T06:02:21.369Z",
   "sourceMode": "seed",
   "sources": [
     "Ai-Thinker Product Lines",
@@ -2180,6 +2180,30 @@
       "hook": "农村没网？没关系——离线语音模组正在成为智慧农业的「声控开关」。",
       "post": "智慧农业的难点之一是大棚/农场网络覆盖差。安信可VC离线语音模组直接在本地执行语音指令——'开启水泵'、'关闭风机'——无需联网。VC-01/02支持最大100条指令词自学习，普通话+方言混合识别。在农业自动化场景中，离线语音可能是比WiFi/BLE更「接地气」的解决方案。",
       "url": "https://docs.ai-thinker.com/voice_module/"
+    },
+    {
+      "title": "2026 IoT出海趋势：从价格竞争到认证壁垒",
+      "source": "IoT Business News",
+      "date": "2026-06-29",
+      "product": "IoT Industry",
+      "score": 84,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "出海",
+        "认证",
+        "合规",
+        "贸易壁垒"
+      ],
+      "value": "2026年IoT产品出海面临新挑战：欧盟RED指令升级、美国FCC新增网络安全审查。认证正在成为准入壁垒。",
+      "summary": "2026年IoT产品出海面临新挑战：欧盟RED指令升级、美国FCC新增网络安全审查。认证正在成为准入壁垒。",
+      "hook": "低价模组已经不够了——2026年IoT出海的新门票，叫「认证合规」。",
+      "post": "IoT Business News 分析：2026年IoT产品出海的最大障碍不是价格，而是认证合规。欧盟RED指令新增网络安全条款(EN 303 645)，美国FCC可能增加供应链审查。选择已获目标市场认证的模组方案商(如安信可)，可以让终端产品认证周期缩短50%以上。",
+      "url": "https://iotbusinessnews.com/2026/iot-certification-trends/"
     }
   ]
 }

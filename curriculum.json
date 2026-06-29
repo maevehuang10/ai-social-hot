@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "description": "Ai-Thinker 每日学习课程表",
+  "description": "Ai-Thinker daily curriculum",
   "curriculum": [
     {
       "id": 12,
@@ -220,7 +220,7 @@
     {
       "id": 17,
       "title": "模组出海认证指南",
-      "covered": false,
+      "covered": true,
       "official": [
         {
           "title": "IoT模组全球化认证指南：FCC/CE/SRRC/RCM/KCC一表全览",
