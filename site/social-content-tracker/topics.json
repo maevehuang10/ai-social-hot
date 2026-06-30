@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T00:33:17.000Z",
+  "generatedAt": "2026-06-30T05:15:05.632Z",
   "sourceMode": "seed",
   "sources": [
     "Ai-Thinker Product Lines",
@@ -2254,6 +2254,30 @@
       "hook": "低价模组已经不够了——2026年IoT出海的新门票，叫「认证合规」。",
       "post": "IoT Business News 分析：2026年IoT产品出海的最大障碍不是价格，而是认证合规。欧盟RED指令新增网络安全条款(EN 303 645)，美国FCC可能增加供应链审查。选择已获目标市场认证的模组方案商(如安信可)，可以让终端产品认证周期缩短50%以上。",
       "url": "https://iotbusinessnews.com/2026/iot-certification-trends/"
+    },
+    {
+      "title": "RISC-V in IoT: 2026年出货量突破10亿颗",
+      "source": "RISC-V International",
+      "date": "2026-06-30",
+      "product": "IoT Industry",
+      "score": 92,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "RISC-V",
+        "出货量",
+        "10亿",
+        "趋势"
+      ],
+      "value": "RISC-V International报告：2026年RISC-V IoT芯片出货量预计突破10亿颗，主要驱动来自智能家居和工业IoT。",
+      "summary": "RISC-V International报告：2026年RISC-V IoT芯片出货量预计突破10亿颗，主要驱动来自智能家居和工业IoT。",
+      "hook": "10亿颗RISC-V芯片进入IoT市场——这不是预测，是正在发生的事。",
+      "post": "RISC-V International 最新报告：2026年RISC-V芯片在IoT领域的出货量将突破10亿颗大关。智能家居和工业IoT是最大增长引擎，博流BL616/618等国产RISC-V芯片方案正在加速这一趋势。安信可Ai-M62/Ai-M64系列模组选的正是这条赛道。",
+      "url": "https://riscv.org/blog/2026/riscv-iot-billion/"
     }
   ]
 }

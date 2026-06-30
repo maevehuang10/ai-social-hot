@@ -12,7 +12,14 @@
           "product": "WiFi Module",
           "summary": "安信可BW系列三款Wi-Fi模组横向对比：BW16(RTL8720DN,双频2.4G+5G WiFi 4+BLE 5.0,邮票孔封装)→BW20(RTL8720CF,双频WiFi 4+BLE,小尺寸)→BW21-CBV(RTL8730E,双频WiFi+BLE+AI视觉,YOLO推理)。从性能/功耗/封装/场景四维给出选型建议。",
           "persona": "嵌入式工程师 · WiFi模组选型决策者 · 智能家居/IoT产品经理",
-          "tags": ["BW16", "BW20", "BW21", "RTL87xx", "双频WiFi", "选型"],
+          "tags": [
+            "BW16",
+            "BW20",
+            "BW21",
+            "RTL87xx",
+            "双频WiFi",
+            "选型"
+          ],
           "url": "https://docs.ai-thinker.com/bw/"
         },
         {
@@ -20,7 +27,13 @@
           "product": "WiFi Module",
           "summary": "BW16基于瑞昱RTL8720DN芯片：ARM CM4 100MHz, 4MB Flash+2MB PSRAM, 双频2.4G+5G WiFi 4+BLE 5.0。邮票孔封装14×20mm, 16 GPIOs, UART/I2C/SPI/PWM多接口。对比单频WiFi模组在抗干扰和传输速率上的实测优势数据。",
           "persona": "WiFi模组开发工程师 · 双频方案评估 · 智能家电硬件设计",
-          "tags": ["BW16", "RTL8720DN", "双频WiFi", "ARM CM4", "邮票孔"],
+          "tags": [
+            "BW16",
+            "RTL8720DN",
+            "双频WiFi",
+            "ARM CM4",
+            "邮票孔"
+          ],
           "url": "https://docs.ai-thinker.com/bw16/"
         },
         {
@@ -28,7 +41,14 @@
           "product": "WiFi Module",
           "summary": "BW21-CBV搭载瑞昱RTL8730E芯片：ARM CM33+DSP双核, 最高480MHz, 支持YOLO轻量级目标检测推理。集成双频WiFi+BLE 5.2协议栈。典型应用：AI门禁(人脸识别+WiFi联动)、智能宠物喂食器(宠物识别+云端通知)、工业缺陷检测(视觉+WiFi数据回传)。",
           "persona": "AIoT视觉应用开发者 · 智能安防产品经理 · 边缘AI工程师",
-          "tags": ["BW21", "RTL8730E", "AI摄像头", "YOLO", "边缘AI", "视觉IoT"],
+          "tags": [
+            "BW21",
+            "RTL8730E",
+            "AI摄像头",
+            "YOLO",
+            "边缘AI",
+            "视觉IoT"
+          ],
           "url": "https://docs.ai-thinker.com/bw21/"
         }
       ],
@@ -38,7 +58,13 @@
           "source": "CNX Software",
           "product": "WiFi Module",
           "score": 89,
-          "tags": ["WiFi 6", "NB-IoT", "GNSS", "M.2", "多协议"],
+          "tags": [
+            "WiFi 6",
+            "NB-IoT",
+            "GNSS",
+            "M.2",
+            "多协议"
+          ],
           "summary": "Simplia推出6合1 M.2 2230无线模组，在一块22×30mm板上集成WiFi 6+BLE 5.4+802.15.4(Thread/Zigbee)+LTE-M+NB-IoT+GNSS，是迄今集成度最高的多协议IoT模组之一。",
           "hook": "一块M.2模组塞进6种无线协议——WiFi 6、BLE 5.4、Thread、NB-IoT、GNSS全都有，IoT模组的「瑞士军刀」来了。",
           "post": "Simplia CONNECT RW612 6合1 M.2无线模组将NXP RW612(WiFi 6+BLE 5.4+802.15.4)与Quectel BC77(LTE-M+NB-IoT+GNSS)整合到22×30mm的M.2 2230封装中。这意味着工业网关和边缘节点只需一个模组即可覆盖短距WiFi/BLE/Thread到长距蜂窝IoT+卫星定位的全场景连接。对模组选型来说，多协议单模组方案可以显著减少BOM面积和天线干扰复杂度。",
@@ -49,7 +75,12 @@
           "source": "CNX Software",
           "product": "IoT Industry",
           "score": 83,
-          "tags": ["Arduino", "I2C", "传感器网络", "长距离"],
+          "tags": [
+            "Arduino",
+            "I2C",
+            "传感器网络",
+            "长距离"
+          ],
           "summary": "Arduino推出Modulino Extender模块，将传统仅限板内通信的I2C总线扩展到30米距离，通过差分信号传输实现工业级传感器网络部署。",
           "hook": "I2C只能走几厘米？Arduino把这根「短线」拉到了30米——IoT传感器布线要彻底重写了。",
           "post": "Arduino Modulino Extender将I2C通信距离从传统的几厘米扩展到30米，使用差分信号传输克服了I2C的总线电容限制。配合Modulino Hub可连接多达64个I2C设备。这对IoT传感器部署来说是个惊喜——过去需要CAN/RS485才能实现的长距离传感器网络，现在用一个更简单、更低成本的I2C方案就能搞定。",
@@ -329,7 +360,7 @@
     {
       "id": 18,
       "title": "IoT模组行业趋势2026",
-      "covered": false,
+      "covered": true,
       "official": [
         {
           "title": "2026 IoT模组行业五大趋势：WiFi 6/RISC-V/Matter/AI/RedCap",
