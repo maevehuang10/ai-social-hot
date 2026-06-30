@@ -1,11 +1,61 @@
 {
-  "generatedAt": "2026-06-29T06:02:21.369Z",
+  "generatedAt": "2026-06-30T00:33:17.000Z",
   "sourceMode": "seed",
   "sources": [
     "Ai-Thinker Product Lines",
     "IoT Industry Analysis"
   ],
   "topics": [
+    {
+      "title": "Simplia CONNECT RW612 6-in-1 M.2 Module Combines WiFi 6, BLE 5.4, Thread, NB-IoT, GNSS",
+      "source": "CNX Software",
+      "date": "2026-06-29",
+      "product": "WiFi Module",
+      "score": 89,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "WiFi 6",
+        "NB-IoT",
+        "GNSS",
+        "M.2",
+        "多协议模组"
+      ],
+      "value": "Simplia CONNECT RW612 在 22×30mm M.2 2230 封装内集成 NXP RW612(WiFi 6+BLE 5.4+802.15.4)和 Quectel BC77(LTE-M+NB-IoT+GNSS)，是迄今集成度最高的多协议 IoT 模组。",
+      "summary": "一块 M.2 模组集成 WiFi 6/BLE 5.4/Thread/NB-IoT/GNSS 六种无线协议，IoT 网关和边缘节点只需单一模组即可覆盖全场景连接。",
+      "hook": "一块 M.2 模组塞进 6 种无线协议——WiFi 6、BLE 5.4、Thread、NB-IoT、GNSS 全都有，IoT 模组的「瑞士军刀」来了。",
+      "post": "Simplia CONNECT RW612 6合1 M.2 无线模组将 NXP RW612(WiFi 6+BLE 5.4+802.15.4)与 Quectel BC77(LTE-M+NB-IoT+GNSS)整合到 22×30mm 的 M.2 2230 封装中。对模组选型来说，多协议单模组方案可以显著减少 BOM 面积和天线干扰复杂度。",
+      "url": "https://www.cnx-software.com/2026/06/29/simplia-connect-rw612-6-in-1-m-2-2230-module-offers-wifi-6-bluetooth-5-4-802-15-4-lte-m-nb-iot-and-gnss-connectivity/"
+    },
+    {
+      "title": "Arduino Modulino Extender Pushes I2C Bus to 30-Meter Range for IoT Sensors",
+      "source": "CNX Software",
+      "date": "2026-06-28",
+      "product": "IoT Industry",
+      "score": 83,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Arduino",
+        "I2C",
+        "传感器网络",
+        "长距离",
+        "Modulino"
+      ],
+      "value": "Arduino Modulino Extender 通过差分信号将 I2C 总线通信距离从几厘米扩展到 30 米，配合 Hub 可连接 64 个设备，重新定义了 IoT 传感器网络布线方案。",
+      "summary": "I2C 突破板内限制实现 30 米长距离通信，为 IoT 传感器部署提供比 CAN/RS485 更简单低成本的替代方案。",
+      "hook": "I2C 只能走几厘米？Arduino 把这根「短线」拉到了 30 米——IoT 传感器布线要彻底重写了。",
+      "post": "Arduino Modulino Extender 将 I2C 通信距离从传统的几厘米扩展到 30 米，使用差分信号传输克服了 I2C 的总线电容限制。过去需要 CAN/RS485 才能实现的长距离传感器网络，现在用更简单低成本的 I2C 方案就能搞定。",
+      "url": "https://www.cnx-software.com/2026/06/28/arduino-modulino-hub-extender-modules-64-i2c-devices-30-meter-range/"
+    },
     {
       "title": "Pine64 Pinevoice - RISC-V Smart Speaker with WiFi/BLE/Zigbee for Home Assistant",
       "source": "CNX Software",
