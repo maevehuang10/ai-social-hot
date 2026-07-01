@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T05:15:05.632Z",
+  "generatedAt": "2026-07-01T05:50:43.368Z",
   "sourceMode": "seed",
   "sources": [
     "Ai-Thinker Product Lines",
@@ -2278,6 +2278,55 @@
       "hook": "10亿颗RISC-V芯片进入IoT市场——这不是预测，是正在发生的事。",
       "post": "RISC-V International 最新报告：2026年RISC-V芯片在IoT领域的出货量将突破10亿颗大关。智能家居和工业IoT是最大增长引擎，博流BL616/618等国产RISC-V芯片方案正在加速这一趋势。安信可Ai-M62/Ai-M64系列模组选的正是这条赛道。",
       "url": "https://riscv.org/blog/2026/riscv-iot-billion/"
+    },
+    {
+      "title": "AI眼镜/智能手表出货量2026年预测突破2亿台",
+      "source": "IOT-HOT",
+      "date": "2026-07-01",
+      "product": "IoT Industry",
+      "score": 89,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "智能穿戴",
+        "出货量",
+        "AI眼镜",
+        "市场预测"
+      ],
+      "value": "2026年全球AI眼镜和智能手表出货量预计突破2亿台，WiFi+BLE双模连接是标准配置。",
+      "summary": "2026年全球AI眼镜和智能手表出货量预计突破2亿台，WiFi+BLE双模连接是标准配置。",
+      "hook": "2亿台穿戴设备正在醒来——它们全都要连WiFi和蓝牙，你的模组准备好了吗？",
+      "post": "IOT-HOT行业趋势分析：2026年全球智能穿戴设备出货量预计突破2亿台。AI眼镜、智能手表、健康手环三大品类齐头并进，WiFi+BLE双模连接已成标配，单模方案正在被淘汰。安信可WB2系列的WiFi+BLE双模、12μA超低休眠功耗特性，正是穿戴设备对模组的典型需求。",
+      "url": "http://10.1.8.31:2217/trends"
+    },
+    {
+      "title": "光伏储能智能化：新能源IoT市场年增40%+",
+      "source": "IOT-HOT",
+      "date": "2026-07-01",
+      "product": "IoT Industry",
+      "score": 87,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "新能源",
+        "储能",
+        "光伏",
+        "IoT",
+        "市场分析"
+      ],
+      "value": "光伏储能智能化改造需求爆发，年增速超40%，LoRa/WiFi/BLE无线方案正在替代传统有线通信。",
+      "summary": "光伏储能智能化改造需求爆发，年增速超40%，LoRa/WiFi/BLE无线方案正在替代传统有线通信。",
+      "hook": "光伏板下面藏着一块IoT蛋糕——年增40%，LoRa和WiFi模组的又一片蓝海。",
+      "post": "IOT-HOT趋势报告：新能源/储能行业IoT化改造需求年增速超过40%。光伏逆变器、储能BMS、充电桩等设备正在从RS485/CAN有线方案转向WiFi/BLE/LoRa无线方案。安信可LoRa Ra系列模组在光伏电站的千米级监控和WB2系列在户用储能的数据上云场景中均有明确的切入机会。",
+      "url": "http://10.1.8.31:2217/trends"
     }
   ]
 }
