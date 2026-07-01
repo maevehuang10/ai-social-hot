@@ -89,6 +89,79 @@
       ]
     },
     {
+      "id": 2,
+      "title": "Ai-WB2 低功耗WiFi+BLE模组",
+      "covered": true,
+      "official": [
+        {
+          "title": "Ai-WB2 核心特性全解析：BL602 RISC-V 芯片+12μA 深度睡眠",
+          "product": "WiFi Module",
+          "summary": "Ai-WB2 系列搭载博流 BL602 RISC-V 32位MCU，集成WiFi 4+BLE 5.0双模协议栈。深度睡眠功耗仅12μA，支持多个睡眠等级（12μA/176μA/3.0mA）。邮票孔封装24×16mm，19个GPIO，SPI/I2C/UART/PWM/ADC接口齐全。对比同价位模组在功耗和性价比上的优势，12μA深度睡眠尤其适合电池供电的IoT传感器节点。",
+          "persona": "低功耗IoT设备开发 · BLE传感器节点 · 智能家居硬件工程师",
+          "tags": [
+            "Ai-WB2",
+            "BL602",
+            "RISC-V",
+            "低功耗",
+            "12μA",
+            "BLE"
+          ],
+          "url": "https://docs.ai-thinker.com/wb2/"
+        },
+        {
+          "title": "Ai-WB2 低功耗设计实战：BLE Beacon + WiFi数据上传双模调度",
+          "product": "WiFi Module",
+          "summary": "Ai-WB2 在电池供电场景下的功耗优化策略：①BLE持续广播(100ms间隔,平均30μA)+WiFi定时唤醒(5min间隔,峰值<300mA)双模时间片调度 ②GPIO电平保持睡眠设计 ③Flash深度睡眠省电技巧。典型应用：BLE Beacon(CR2032续航>1年)→WiFi数据上传(温湿度传感器每小时上报)→无线门磁(一年不用换电池)。",
+          "persona": "功耗优化工程师 · BLE IoT方案商 · 电池供电设备厂商",
+          "tags": [
+            "Ai-WB2",
+            "低功耗",
+            "BLE Beacon",
+            "双模调度",
+            "电池",
+            "门磁"
+          ],
+          "url": "https://docs.ai-thinker.com/wb2/"
+        }
+      ],
+      "external": [
+        {
+          "title": "XIAO nRF54LM20A: Bluetooth 6.0 + Matter + Thread + Zigbee in a thumb-sized board",
+          "source": "CNX Software",
+          "product": "BLE Module",
+          "score": 91,
+          "tags": [
+            "Bluetooth 6.0",
+            "nRF54",
+            "Matter",
+            "Thread",
+            "低功耗"
+          ],
+          "summary": "Seeed Studio XIAO nRF54LM20A 拇指大小开发板搭载 Nordic nRF54LM20A，支持 Bluetooth 6.0/Matter/Thread/Zigbee/NFC/Amazon Sidewalk 六种协议，是为数不多同时支持新兴Matter生态和传统Zigbee的微型BLE模组。",
+          "hook": "拇指大小的开发板塞进6种协议——Bluetooth 6.0、Matter、Thread、Zigbee全都有，BLE模组的多协议时代正式开启。",
+          "post": "Seeed Studio 推出 XIAO nRF54LM20A 开发板，基于 Nordic nRF54LM20A 无线SoC，拇指大小（21×17.5mm）却支持 Bluetooth 6.0、Matter、Thread、Zigbee、NFC 和 Amazon Sidewalk 六种无线协议。Sense版本增加数字麦克风和6轴IMU。对安信可 Ai-WB2 系列（BL602 BLE 5.0）来说，下一代BLE模组正走向多协议融合，BLE 6.0 Channel Sounding 厘米级定位是最大亮点。",
+          "url": "https://www.cnx-software.com/2026/06/30/xiao-nrf54lm20a-sense-board-bluetooth-6-0-matter-thread-zigbee/"
+        },
+        {
+          "title": "Flipper BUSY Bar: Open-source Matter multitool with STM32U5 + SiWG917 wireless",
+          "source": "CNX Software",
+          "product": "IoT Industry",
+          "score": 85,
+          "tags": [
+            "Matter",
+            "STM32U5",
+            "智能家居",
+            "开源",
+            "SiWG917"
+          ],
+          "summary": "Flipper 推出 BUSY Bar 开源生产力多工具，搭载 STM32U5 超低功耗MCU和 Silicon Labs SiWG917 WiFi/BLE/Matter 三模芯片，原生支持与 Home Assistant/Apple Home/Google Home 的Matter集成。",
+          "hook": "Flipper 这次不只是玩具——Matter原生支持的智能家居多工具，STM32U5超低功耗MCU给它7天续航。",
+          "post": "Flipper BUSY Bar 开源生产力多工具搭载 STM32U5 超低功耗MCU和 Silicon Labs SiWG917 芯片（WiFi+BLE+Matter），LED像素显示+OLED副屏，支持与 Home Assistant、Apple Home、Google Home 的 Matter 协议原生集成。Matter 正在从智能灯泡/开关扩展到创新型IoT设备，对安信可 Matter 兼容模组（如WB2系列的Matter固件适配）来说是积极的生态扩容信号。",
+          "url": "https://www.cnx-software.com/2026/07/01/flipper-busy-bar-open-source-productivity-multitool-features-led-pixel-display-supports-matter-connectivity/"
+        }
+      ]
+    },
+    {
       "id": 12,
       "title": "智能家居全场景模组选型",
       "covered": true,

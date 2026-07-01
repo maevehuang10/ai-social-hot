@@ -1,11 +1,63 @@
 {
-  "generatedAt": "2026-07-01T05:50:43.368Z",
+  "generatedAt": "2026-07-01T09:53:00.000Z",
   "sourceMode": "seed",
   "sources": [
     "Ai-Thinker Product Lines",
     "IoT Industry Analysis"
   ],
   "topics": [
+    {
+      "title": "XIAO nRF54LM20A: Bluetooth 6.0 + Matter + Thread + Zigbee in a thumb-sized board",
+      "source": "CNX Software",
+      "date": "2026-06-30",
+      "product": "BLE Module",
+      "score": 91,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "Bluetooth 6.0",
+        "nRF54",
+        "Matter",
+        "Thread",
+        "低功耗"
+      ],
+      "value": "Seeed Studio XIAO nRF54LM20A 拇指大小开发板搭载 Nordic nRF54LM20A，支持 Bluetooth 6.0/Matter/Thread/Zigbee/NFC/Amazon Sidewalk 六种协议。",
+      "summary": "拇指大小塞进6种协议——Bluetooth 6.0、Matter、Thread、Zigbee全都有，BLE模组的多协议时代开启。",
+      "hook": "拇指大小的开发板塞进6种协议——Bluetooth 6.0、Matter、Thread、Zigbee全都有，BLE模组的多协议时代正式开启。",
+      "post": "Seeed Studio 推出 XIAO nRF54LM20A 开发板，基于 Nordic nRF54LM20A 无线SoC，拇指大小（21×17.5mm）却支持 Bluetooth 6.0、Matter、Thread、Zigbee、NFC 和 Amazon Sidewalk 六种无线协议。Sense版本增加数字麦克风和6轴IMU。对安信可 Ai-WB2 系列来说，下一代BLE模组正走向多协议融合，BLE 6.0 Channel Sounding 厘米级定位是最大亮点。",
+      "url": "https://www.cnx-software.com/2026/06/30/xiao-nrf54lm20a-sense-board-bluetooth-6-0-matter-thread-zigbee/"
+    },
+    {
+      "title": "Flipper BUSY Bar: Open-source Matter multitool with STM32U5 + SiWG917 wireless",
+      "source": "CNX Software",
+      "date": "2026-07-01",
+      "product": "IoT Industry",
+      "score": 85,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "Matter",
+        "STM32U5",
+        "智能家居",
+        "开源",
+        "SiWG917"
+      ],
+      "value": "Flipper BUSY Bar 开源生产力多工具，搭载 STM32U5 + SiWG917 三模无线，原生支持 Matter 与 Home Assistant/Apple Home/Google Home 集成。",
+      "summary": "Matter 正在从智能灯泡扩展到创新型IoT多工具——Flipper BUSY Bar 是 Matter 生态扩容的又一个信号。",
+      "hook": "Flipper 这次不只是玩具——Matter原生支持的智能家居多工具，STM32U5超低功耗MCU给它7天续航。",
+      "post": "Flipper BUSY Bar 搭载 STM32U5 超低功耗MCU和 Silicon Labs SiWG917 芯片（WiFi+BLE+Matter），LED像素显示+OLED副屏，原生支持 Matter 协议与 Home Assistant/Apple Home/Google Home 集成。Matter 正在从智能灯泡/开关扩展到创新型IoT设备，对安信可 Matter 兼容模组来说是积极的生态扩容信号。",
+      "url": "https://www.cnx-software.com/2026/07/01/flipper-busy-bar-open-source-productivity-multitool-features-led-pixel-display-supports-matter-connectivity/"
+    },
     {
       "title": "Simplia CONNECT RW612 6-in-1 M.2 Module Combines WiFi 6, BLE 5.4, Thread, NB-IoT, GNSS",
       "source": "CNX Software",
