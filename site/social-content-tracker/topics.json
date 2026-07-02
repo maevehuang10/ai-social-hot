@@ -1,11 +1,63 @@
 {
-  "generatedAt": "2026-07-01T09:53:00.000Z",
+  "generatedAt": "2026-07-02T01:52:00.000Z",
   "sourceMode": "seed",
   "sources": [
     "Ai-Thinker Product Lines",
     "IoT Industry Analysis"
   ],
   "topics": [
+    {
+      "title": "Raspberry Pi CM0-based Industrial Data Acquisition Gateway: RS-485 + 4G Cat.1 Edge IoT Solution",
+      "source": "CNX Software",
+      "date": "2026-07-01",
+      "product": "Cellular IoT Module",
+      "score": 86,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "工业网关",
+        "RS-485",
+        "4G Cat.1",
+        "数据采集",
+        "边缘计算"
+      ],
+      "value": "EDATEC ED-IPC1200 industrial gateway powered by Raspberry Pi CM0, featuring RS-485, RS-232, 4xDI, 4xDO, optional 4G LTE CAT-1 and WiFi/BLE, designed for industrial automation edge nodes.",
+      "summary": "一个Raspberry Pi CM0就能驱动的工业网关——RS-485/4G Cat.1/DI/DO全配齐，边缘IoT的「瑞士军刀」。",
+      "hook": "一个Raspberry Pi CM0就能驱动的工业网关——RS-485/4G Cat.1/DI/DO全配齐，边缘IoT的「瑞士军刀」。",
+      "post": "EDATEC ED-IPC1200 以Raspberry Pi CM0为核心，集成了RS-485、RS-232、4路DI/DO、可选4G LTE Cat.1和WiFi/BLE。9-28V宽压输入+无风扇设计，典型工业边缘IoT网关配置。对安信可来说，这类工业网关方案中对RS-485/Modbus协议栈+4G Cat.1的组合需求是明确的——安信可的NB-IoT/Cat.1蜂窝模组线正是这类网关的无线连接关键组件。",
+      "url": "https://www.cnx-software.com/2026/07/01/raspberry-pi-cm0-based-industrial-data-acquisition-gateway-offer-rs485-rs232-di-do-interfaces/"
+    },
+    {
+      "title": "Banana Pi BPI-VP10: RISC-V Servo Control Board Targets Industrial IoT",
+      "source": "CNX Software",
+      "date": "2026-06-30",
+      "product": "IoT Industry",
+      "score": 82,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "RISC-V",
+        "伺服控制",
+        "工业IoT",
+        "Banana Pi",
+        "FU7512L"
+      ],
+      "value": "Banana Pi BPI-VP10 servo control board based on Fortior FU7512L dual-core RISC-V MCU, supporting absolute encoders and RS-485, targeting 100W/200W industrial servo applications.",
+      "summary": "RISC-V芯片正在打入工业伺服控制——不是概念验证，是量产级100W/200W伺服驱动板。",
+      "hook": "RISC-V芯片正在打入工业伺服控制——不是概念验证，是量产级100W/200W伺服驱动板。",
+      "post": "Banana Pi BPI-VP10 采用Fortior FU7512L双核RISC-V MCU(32-bit RISC-V@48MHz+ME2电机引擎核心+FOC模块)，支持Tamagawa/BiSS-C绝对编码器和RS-485通信。这说明RISC-V正在从IoT模组(BL602)向工业实时控制领域渗透——安信可Ai-M62/Ai-M64系列(WiFi6+RISC-V)的工业IoT定位正是踩在这条技术路径上。RISC-V的生态成熟度正在从「可用的IoT芯片」扩展到「可靠的工业芯片」。",
+      "url": "https://www.cnx-software.com/2026/06/30/banana-pi-bpi-vp10-a-low-cost-servo-control-board-based-on-fortior-fu7512l-dual-core-risc-v-mcu/"
+    },
     {
       "title": "XIAO nRF54LM20A: Bluetooth 6.0 + Matter + Thread + Zigbee in a thumb-sized board",
       "source": "CNX Software",

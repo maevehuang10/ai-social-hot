@@ -162,6 +162,79 @@
       ]
     },
     {
+      "id": 3,
+      "title": "Ai-Thinker AT固件通用架构",
+      "covered": true,
+      "official": [
+        {
+          "title": "Ai-Thinker Combo-AT 固件架构全景：一套AT命令驱动全系列模组",
+          "product": "WiFi Module",
+          "summary": "安信可 Combo-AT 通用固件架构深度解析：①AT命令解析层(标准Hayes AT扩展+自定义AT+)→②协议栈适配层(BL602/WiFi4+RTL87xx/双频统一抽象)→③外设抽象层(UART/SPI/GPIO)。一套Combo-AT固件覆盖WB2(WiFi4+BLE5.0)、BW16(双频WiFi4+BLE5.0)、BW21(双频+AI视觉)三大系列的WiFi配网、BLE广播、TCP/UDP/MQTT/HTTP通信命令。开发者只需学习一次AT命令集即可切换任意安信可模组。",
+          "persona": "嵌入式固件工程师 · AT命令集成开发者 · MCU+模组方案商",
+          "tags": [
+            "Combo-AT",
+            "AT固件",
+            "通用架构",
+            "BL602",
+            "RTL87xx",
+            "协议栈"
+          ],
+          "url": "https://docs.ai-thinker.com/at/"
+        },
+        {
+          "title": "Combo-AT 实战：从透传模式到MQTT云连接的AT命令链",
+          "product": "WiFi Module",
+          "summary": "一条MQTT云连接只需7条AT命令：①AT+CWMODE=1(Station模式)→②AT+CWJAP=\"SSID\",\"PWD\"(连接WiFi)→③AT+MQTTUSERCFG=0,1,\"dev01\",\"user\",\"pass\",0,0,\"\"(MQTT配置)→④AT+MQTTLONGCLIENTID=\"dev_id_001\"→⑤AT+MQTTCONN=0,\"broker.emqx.io\",1883,0(连接)→⑥AT+MQTTSUB=0,\"sensor/temp\",1(订阅)→⑦AT+MQTTPUB=0,\"sensor/temp\",\"25.6\",1,0(发布)。同时对比透传模式(AT+SAVETRANSLINK)在串口数据直连云端的应用场景差异，以及Combo-AT固件OTA升级(AT+CIUPDATE)的注意事项。",
+          "persona": "IoT应用开发工程师 · MQTT/云平台对接 · 串口透传方案评估",
+          "tags": [
+            "Combo-AT",
+            "MQTT",
+            "透传",
+            "OTA",
+            "AT命令",
+            "云连接"
+          ],
+          "url": "https://docs.ai-thinker.com/at/"
+        }
+      ],
+      "external": [
+        {
+          "title": "Raspberry Pi CM0-based Industrial Data Acquisition Gateway: RS-485 + 4G Cat.1 Edge IoT Solution",
+          "source": "CNX Software",
+          "product": "Cellular IoT Module",
+          "score": 86,
+          "tags": [
+            "工业网关",
+            "RS-485",
+            "4G Cat.1",
+            "数据采集",
+            "边缘计算"
+          ],
+          "summary": "EDATEC ED-IPC1200 industrial gateway powered by Raspberry Pi CM0, featuring RS-485, RS-232, 4xDI, 4xDO, optional 4G LTE CAT-1 and WiFi/BLE, designed for industrial automation edge nodes.",
+          "hook": "一个Raspberry Pi CM0就能驱动的工业网关——RS-485/4G Cat.1/DI/DO全配齐，边缘IoT的「瑞士军刀」。",
+          "post": "EDATEC ED-IPC1200 以Raspberry Pi CM0为核心，集成了RS-485、RS-232、4路DI/DO、可选4G LTE Cat.1和WiFi/BLE。9-28V宽压输入+无风扇设计，典型工业边缘IoT网关配置。对安信可来说，这类工业网关方案中对RS-485/Modbus协议栈+4G Cat.1的组合需求是明确的——安信可的NB-IoT/Cat.1蜂窝模组线正是这类网关的无线连接关键组件。",
+          "url": "https://www.cnx-software.com/2026/07/01/raspberry-pi-cm0-based-industrial-data-acquisition-gateway-offer-rs485-rs232-di-do-interfaces/"
+        },
+        {
+          "title": "Banana Pi BPI-VP10: RISC-V Servo Control Board Targets Industrial IoT",
+          "source": "CNX Software",
+          "product": "IoT Industry",
+          "score": 82,
+          "tags": [
+            "RISC-V",
+            "伺服控制",
+            "工业IoT",
+            "Banana Pi",
+            "FU7512L"
+          ],
+          "summary": "Banana Pi BPI-VP10 servo control board based on Fortior FU7512L dual-core RISC-V MCU, supporting absolute encoders and RS-485, targeting 100W/200W industrial servo applications.",
+          "hook": "RISC-V芯片正在打入工业伺服控制——不是概念验证，是量产级100W/200W伺服驱动板。",
+          "post": "Banana Pi BPI-VP10 采用Fortior FU7512L双核RISC-V MCU(32-bit RISC-V@48MHz+ME2电机引擎核心+FOC模块)，支持Tamagawa/BiSS-C绝对编码器和RS-485通信。这说明RISC-V正在从IoT模组(BL602)向工业实时控制领域渗透——安信可Ai-M62/Ai-M64系列(WiFi6+RISC-V)的工业IoT定位正是踩在这条技术路径上。RISC-V的生态成熟度正在从「可用的IoT芯片」扩展到「可靠的工业芯片」。",
+          "url": "https://www.cnx-software.com/2026/06/30/banana-pi-bpi-vp10-a-low-cost-servo-control-board-based-on-fortior-fu7512l-dual-core-risc-v-mcu/"
+        }
+      ]
+    },
+    {
       "id": 12,
       "title": "智能家居全场景模组选型",
       "covered": true,
