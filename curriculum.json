@@ -643,7 +643,7 @@
     {
       "id": 20,
       "title": "模组应用场景速览：Matter/智能家居/工业",
-      "covered": false,
+      "covered": true,
       "official": [
         {
           "title": "Matter 1.6 对模组产品的实际影响：NFC配网来了",

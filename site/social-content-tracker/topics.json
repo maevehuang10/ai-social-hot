@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T01:52:00.000Z",
+  "generatedAt": "2026-07-02T05:07:10.719Z",
   "sourceMode": "seed",
   "sources": [
     "Ai-Thinker Product Lines",
@@ -2431,6 +2431,31 @@
       "hook": "光伏板下面藏着一块IoT蛋糕——年增40%，LoRa和WiFi模组的又一片蓝海。",
       "post": "IOT-HOT趋势报告：新能源/储能行业IoT化改造需求年增速超过40%。光伏逆变器、储能BMS、充电桩等设备正在从RS485/CAN有线方案转向WiFi/BLE/LoRa无线方案。安信可LoRa Ra系列模组在光伏电站的千米级监控和WB2系列在户用储能的数据上云场景中均有明确的切入机会。",
       "url": "http://10.1.8.31:2217/trends"
+    },
+    {
+      "title": "SONOFF Matter over WiFi开关：DIN导轨+32A工业级应用",
+      "source": "IOT-HOT",
+      "date": "2026-07-02",
+      "product": "WiFi Module",
+      "score": 86,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Matter",
+        "智能开关",
+        "DIN",
+        "32A",
+        "工业级"
+      ],
+      "value": "SONOFF Matter over WiFi智能开关支持DIN导轨和32A高功率，Matter协议向工业场景渗透的标志性产品。",
+      "summary": "SONOFF Matter over WiFi智能开关支持DIN导轨和32A高功率，Matter协议向工业场景渗透的标志性产品。",
+      "hook": "Matter不只是智能灯泡——这个32A的DIN导轨开关正在改写游戏规则。",
+      "post": "IOT-HOT报道：SONOFF推出Matter over WiFi智能开关，支持DIN导轨安装和32A高功率电路，适用于电地暖、EV充电等工业级场景。这是Matter协议从消费级走向工业级应用的重要信号——32A的Matter设备意味着模组需要在过流保护、温升控制和可靠性上达到工业标准。",
+      "url": "http://10.1.8.31:2217/scenarios"
     }
   ]
 }
