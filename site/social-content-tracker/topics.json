@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T05:07:10.719Z",
+  "generatedAt": "2026-07-03T04:52:55.306Z",
   "sourceMode": "seed",
   "sources": [
     "Ai-Thinker Product Lines",
@@ -2456,6 +2456,30 @@
       "hook": "Matter不只是智能灯泡——这个32A的DIN导轨开关正在改写游戏规则。",
       "post": "IOT-HOT报道：SONOFF推出Matter over WiFi智能开关，支持DIN导轨安装和32A高功率电路，适用于电地暖、EV充电等工业级场景。这是Matter协议从消费级走向工业级应用的重要信号——32A的Matter设备意味着模组需要在过流保护、温升控制和可靠性上达到工业标准。",
       "url": "http://10.1.8.31:2217/scenarios"
+    },
+    {
+      "title": "2026年边缘AI芯片出货量增长300%",
+      "source": "IOT-HOT",
+      "date": "2026-07-03",
+      "product": "IoT Industry",
+      "score": 90,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "边缘AI",
+        "芯片",
+        "增长",
+        "趋势"
+      ],
+      "value": "2026年全球边缘AI芯片出货量预计增长300%，端侧TinyML推理成为模组标配能力。",
+      "summary": "2026年全球边缘AI芯片出货量预计增长300%，端侧TinyML推理成为模组标配能力。",
+      "hook": "边缘AI芯片增长300%——不是云端GPU，是你手里的IoT模组里的那颗小芯片。",
+      "post": "IOT-HOT行业趋势：2026年全球边缘AI芯片出货量预计增长300%。TinyML(微型机器学习)正在成为IoT模组的标配能力——从语音唤醒词识别到振动异常检测到视觉人体识别，端侧AI推理让模组不再是简单的通信管道，而是智能决策节点。安信可BW21-CBV的YOLO视觉识别是这一趋势的典型实践。",
+      "url": "http://10.1.8.31:2217/trends"
     }
   ]
 }

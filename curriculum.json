@@ -712,7 +712,7 @@
     {
       "id": 21,
       "title": "AI大模型与IoT模组的融合趋势",
-      "covered": false,
+      "covered": true,
       "official": [
         {
           "title": "AIoT模组新范式：端侧推理+云端大模型协同",
