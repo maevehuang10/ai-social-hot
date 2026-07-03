@@ -235,6 +235,47 @@
       ]
     },
     {
+      "id": 4,
+      "title": "Ra-11双频LoRa三模",
+      "covered": true,
+      "official": [
+        {
+          "title": "Ra-11双频LoRa三模模组全景解析：LR1121 Sub-GHz+2.4GHz+S-Band",
+          "product": "LoRa Module",
+          "summary": "安信可Ra-11系列基于Semtech LR1121芯片，业界罕见的三模LoRa方案：①Sub-GHz(150-960MHz)覆盖LoRaWAN/私有协议远距通信→②2.4GHz ISM频段GFSK模式高速组网→③S-Band(1.9-2.1GHz)卫星IoT直连。Sub-GHz模式下接收灵敏度-144dBm@SF12 BW125kHz LoRa，2.4GHz GFSK模式下可达2Mbps高速率。邮票孔封装16×16mm，SPI通信接口。对比单模LoRa(SX1276/SX1262)在灵活性上的代际优势。",
+          "persona": "LoRa方案商 · 远距离IoT设备开发 · 卫星IoT探索者",
+          "tags": [
+            "Ra-11",
+            "LR1121",
+            "LoRa",
+            "三模",
+            "Sub-GHz",
+            "2.4GHz",
+            "S-Band",
+            "卫星IoT"
+          ],
+          "url": "https://docs.ai-thinker.com/lora/"
+        },
+        {
+          "title": "Ra-11实战：三模LoRa在智慧农业与工业遥测中的应用设计",
+          "product": "LoRa Module",
+          "summary": "Ra-11三模通信的典型场景设计：①智慧农业：Sub-GHz LoRa覆盖>5km大田传感器网络(土壤湿度/气象站)→2.4GHz GFSK连接本地传感器Mesh→S-Band在无蜂窝覆盖区通过卫星回传异常告警。②工业遥测：Sub-GHz穿透工厂钢混结构(比2.4G多20dB链路预算)→2.4G频段高带宽传输设备运行日志(GFSK 2Mbps)→S-Band卫星备份确保极端天气下不丢数据。③Ra-11 vs 单频LoRa对比表：抗干扰/速率/卫星连接三大维度。",
+          "persona": "智慧农业IoT架构师 · 工业遥测工程师 · 多频段无线方案设计者",
+          "tags": [
+            "Ra-11",
+            "智慧农业",
+            "工业遥测",
+            "三模",
+            "卫星回传",
+            "LR1121",
+            "大田监测"
+          ],
+          "url": "https://docs.ai-thinker.com/lora/"
+        }
+      ],
+      "external": []
+    },
+    {
       "id": 12,
       "title": "智能家居全场景模组选型",
       "covered": true,

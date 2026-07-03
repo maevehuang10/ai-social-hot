@@ -1,11 +1,64 @@
 {
-  "generatedAt": "2026-07-03T04:52:55.306Z",
+  "generatedAt": "2026-07-03T06:45:25.063216.306Z",
   "sourceMode": "seed",
   "sources": [
     "Ai-Thinker Product Lines",
     "IoT Industry Analysis"
   ],
   "topics": [
+    {
+      "title": "Titan Mini: Renesas RA8P1 Cortex-M85 Edge AI Board Brings Helium MVE to RT-Thread RTOS",
+      "source": "CNX Software",
+      "date": "2026-07-02",
+      "product": "IoT Industry",
+      "score": 84,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "Edge AI",
+        "Cortex-M85",
+        "RT-Thread",
+        "Helium MVE",
+        "IoT开发板"
+      ],
+      "value": "Titan Mini is a compact Renesas RA8P1 Cortex-M85 development board designed for RT-Thread RTOS, featuring Helium MVE vector extensions for real-time edge AI inference, CAN Bus, Ethernet, and camera interface -- a powerful platform for industrial IoT edge computing.",
+      "summary": "Cortex-M85核心+RT-Thread RTOS——Titan Mini把工业级边缘AI装进了名片大小的开发板。",
+      "hook": "RT-Thread生态迎来M85旗舰——Titan Mini这块小板的Helium向量引擎能跑实时AI推理。",
+      "post": "Titan Mini基于Renesas RA8P1 Cortex-M85@480MHz，内置Helium MVE向量扩展引擎，原生支持RT-Thread RTOS。板载以太网、CAN Bus、摄像头接口——一块板覆盖工业IoT边缘AI的三大需求：实时控制(CAN)、高速数据(Ethernet)、机器视觉(Camera)。对安信可而言，Cortex-M85的AI推理能力进入RT-Thread生态，正是模组从「通信管道」升级为「智能节点」的技术风向标。",
+      "url": "https://www.cnx-software.com/2026/07/02/titan-mini-smaller-renesas-ra8p1-based-edge-ai-board-for-rt-thread-rtos-development/"
+    },
+    {
+      "title": "SONOFF NSPanel Pro Gen2: Zigbee Gateway + WiFi + Matter Smart Home Control Panel Review",
+      "source": "CNX Software",
+      "date": "2026-07-02",
+      "product": "Smart Home",
+      "score": 87,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "Smart Home",
+        "Zigbee",
+        "Matter",
+        "触控面板",
+        "WiFi",
+        "Home Assistant"
+      ],
+      "value": "SONOFF NSPanel Pro Gen2 smart home control panel integrates Zigbee 3.0 gateway, WiFi, and Matter protocol with eWeLink/Home Assistant, featuring a 480x480 touchscreen for whole-home automation control.",
+      "summary": "Zigbee网关+触控面板+Matter支持——SONOFF NSPanel Pro Gen2是全屋智能的「指挥中心」。",
+      "hook": "一块墙上触控面板同时搞定Zigbee网关+Matter+Home Assistant——SONOFF把智能家居中枢做成了艺术品。",
+      "post": "SONOFF NSPanel Pro Gen2 集成了Zigbee 3.0网关、WiFi和Matter协议支持，480×480触控屏可直接管理全屋智能设备，并原生对接eWeLink和Home Assistant。Matter协议让它能跨生态联动Apple Home、Google Home、Alexa。对安信可模组产品线来说，这类全屋智能面板对WiFi+BLE双模模组(WB2/BW16)和Zigbee网关级芯片方案的需求是明确的增量市场信号。",
+      "url": "https://www.cnx-software.com/2026/07/02/sonoff-nspanel-pro-gen2-review-ewelink-home-assistant/"
+    },
     {
       "title": "Raspberry Pi CM0-based Industrial Data Acquisition Gateway: RS-485 + 4G Cat.1 Edge IoT Solution",
       "source": "CNX Software",
