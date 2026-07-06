@@ -1,35 +1,327 @@
 {
-  "generatedAt": "2026-07-03T06:45:25.063216.306Z",
-  "sourceMode": "seed",
+  "generatedAt": "2026-07-06T06:37:32.638Z",
+  "sourceMode": "rss",
   "sources": [
-    "Ai-Thinker Product Lines",
-    "IoT Industry Analysis"
+    "CNX Software",
+    "IoT Now",
+    "IoT Tech News"
   ],
   "topics": [
     {
-      "title": "Titan Mini: Renesas RA8P1 Cortex-M85 Edge AI Board Brings Helium MVE to RT-Thread RTOS",
+      "title": "u-blox F11 low-power dual-band GNSS chips and modules consume just 7mW in LEAP mode",
       "source": "CNX Software",
-      "date": "2026-07-02",
-      "product": "IoT Industry",
-      "score": 84,
+      "date": "2026-07-06",
+      "product": "BLE Module",
+      "score": 97,
       "formats": [
-        "LinkedIn Post"
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "u-blox has introduced the F11 platform, a new family of low-power GNSS chips and modules that includes the UBX-F11270-KB and UBX-F11170-CC dual-band GNSS chips, the UBX-M11070-KB chip (L1-only), the MAX-M11N module (L1-only), and the EVK-F112 evaluation kit....",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "u-blox F11 low-power dual-band GNSS chips and modules consume just 7mW in LEAP mode\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/06/u-blox-f11-low-power-dual-band-gnss-chips-and-modules-consume-just-7mw-in-leap-mode/"
+    },
+    {
+      "title": "AMD Versal Premium Gen 2 MoP adaptive SoC integrates 32GB LPDDR5X to shrink board footprint by 60%",
+      "source": "CNX Software",
+      "date": "2026-07-06",
+      "product": "ESP32 Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
       ],
       "platforms": [
         "LinkedIn",
         "Facebook"
       ],
       "tags": [
-        "Edge AI",
-        "Cortex-M85",
-        "RT-Thread",
-        "Helium MVE",
-        "IoT开发板"
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
       ],
-      "value": "Titan Mini is a compact Renesas RA8P1 Cortex-M85 development board designed for RT-Thread RTOS, featuring Helium MVE vector extensions for real-time edge AI inference, CAN Bus, Ethernet, and camera interface -- a powerful platform for industrial IoT edge computing.",
-      "summary": "Cortex-M85核心+RT-Thread RTOS——Titan Mini把工业级边缘AI装进了名片大小的开发板。",
-      "hook": "RT-Thread生态迎来M85旗舰——Titan Mini这块小板的Helium向量引擎能跑实时AI推理。",
-      "post": "Titan Mini基于Renesas RA8P1 Cortex-M85@480MHz，内置Helium MVE向量扩展引擎，原生支持RT-Thread RTOS。板载以太网、CAN Bus、摄像头接口——一块板覆盖工业IoT边缘AI的三大需求：实时控制(CAN)、高速数据(Ethernet)、机器视觉(Camera)。对安信可而言，Cortex-M85的AI推理能力进入RT-Thread生态，正是模组从「通信管道」升级为「智能节点」的技术风向标。",
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "AMD has announced the Versal Premium Gen 2 Memory-on-Package (MoP) adaptive SoCs, adding an integrated memory option to the Premium Gen 2 family, a topic we covered back in November 2024. While the core silicon (dual-core Cortex-A72 + dual-core Cortex-R5F +...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "AMD Versal Premium Gen 2 MoP adaptive SoC integrates 32GB LPDDR5X to shrink board footprint by 60%\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/06/amd-versal-premium-gen-2-mop-adaptive-soc-integrates-32gb-lpddr5x-to-shrink-board-footprint-by-60/"
+    },
+    {
+      "title": "Macintosh emulator works on ESP32-P4 display devkits from M5Stack and Waveshare",
+      "source": "CNX Software",
+      "date": "2026-07-05",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "ESP32 chips have been used for retro gaming and computing for years, but Austin McChord (Amcchord) adds to that with a Macintosh emulator ported to a couple of ESP32-P4 display devkits. His project is a full port of the BasiliskII Macintosh 68k emulator,...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Macintosh emulator works on ESP32-P4 display devkits from M5Stack and Waveshare\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/05/macintosh-emulator-works-on-esp32-p4-display-devkits-from-m5stack-and-waveshare/"
+    },
+    {
+      "title": "BIGTREETECH Panda Sense Pro 8-in-1 smart air quality monitor works with Home Assistant and Klipper for 3D printers",
+      "source": "CNX Software",
+      "date": "2026-07-04",
+      "product": "BLE Module",
+      "score": 93,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "BIGTREETECH (BIQU) has introduced the BIQU Panda Sense Pro, an 8-in-1 smart air quality monitor designed for 3D printing environments such as home workshops, maker spaces, and print farms. It continuously measures airborne particles, gases, temperature, and...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "BIGTREETECH Panda Sense Pro 8-in-1 smart air quality monitor works with Home Assistant and Klipper for 3D printers\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/04/bigtreetech-panda-sense-pro-8-in-1-smart-air-quality-monitor-works-with-home-assistant-and-klipper-for-3d-printers/"
+    },
+    {
+      "title": "NVIDIA Jetson Orin Nano/NX-based Mekotronics AI Box targets humanoid robots, Smart Cities management, transportation applications",
+      "source": "CNX Software",
+      "date": "2026-07-03",
+      "product": "BLE Module",
+      "score": 98,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Better known for its unique Rockchip industrial PC designs, Mekotronics has now launched an “AI Box” based on the NVIDIA Jetson Orin Nano 4GB/8GB or Jetson Orin NX 8GB/16GB for humanoid robots, smart transportation (V2X) applications, Smart Cities, Smart...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "NVIDIA Jetson Orin Nano/NX-based Mekotronics AI Box targets humanoid robots, Smart Cities management, transportation applications\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/03/nvidia-jetson-orin-nano-nx-based-mekotronics-ai-box-targets-humanoid-robots-smart-cities-management-transportation-applications/"
+    },
+    {
+      "title": "2026年边缘AI芯片出货量增长300%",
+      "source": "IOT-HOT",
+      "date": "2026-07-03",
+      "product": "IoT Industry",
+      "score": 90,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "边缘AI",
+        "芯片",
+        "增长",
+        "趋势"
+      ],
+      "value": "2026年全球边缘AI芯片出货量预计增长300%，端侧TinyML推理成为模组标配能力。",
+      "summary": "2026年全球边缘AI芯片出货量预计增长300%，端侧TinyML推理成为模组标配能力。",
+      "hook": "边缘AI芯片增长300%——不是云端GPU，是你手里的IoT模组里的那颗小芯片。",
+      "post": "IOT-HOT行业趋势：2026年全球边缘AI芯片出货量预计增长300%。TinyML(微型机器学习)正在成为IoT模组的标配能力——从语音唤醒词识别到振动异常检测到视觉人体识别，端侧AI推理让模组不再是简单的通信管道，而是智能决策节点。安信可BW21-CBV的YOLO视觉识别是这一趋势的典型实践。",
+      "url": "http://10.1.8.31:2217/trends"
+    },
+    {
+      "title": "HALO TOUCH V2 – A customizable desktop USB hub with rotary encoder fitted with round touchscreen display",
+      "source": "CNX Software",
+      "date": "2026-07-03",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Designed by Innoelement in Guangzhou, China, the HALO TOUCH V2 is a multifunctional desktop USB hub with a round touchscreen and a rotary encoder designed as an interactive desk companion. It integrates system monitoring, media playback, and productivity...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "HALO TOUCH V2 – A customizable desktop USB hub with rotary encoder fitted with round touchscreen display\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/03/halo-touch-v2-a-customizable-desktop-usb-hub-with-rotary-encoder-fitted-with-round-touchscreen-display/"
+    },
+    {
+      "title": "ESP32-C5 dual-band WiFi 6 and Bluetooth LE IoT board features 1.47-inch color LCD",
+      "source": "CNX Software",
+      "date": "2026-07-03",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "We’ve covered plenty of connected displays based on ESP32 chips over the years, but the Waveshare ESP32-C5-LCD-1.47 is a little different, since it’s the first to feature an ESP32-C5 chip for dual-band WiFi 6 connectivity. It’s basically based on the...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "ESP32-C5 dual-band WiFi 6 and Bluetooth LE IoT board features 1.47-inch color LCD\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/03/esp32-c5-dual-band-wifi-6-and-bluetooth-le-iot-board-features-1-47-inch-color-lcd/"
+    },
+    {
+      "title": "SONOFF NSPanel Pro Gen2 touch control panel review with eWeLink and Home Assistant",
+      "source": "CNX Software",
+      "date": "2026-07-02",
+      "product": "BLE Module",
+      "score": 98,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "SONOFF sent us a sample of the NSPanel Pro Gen2 Smart Home control panel for review. It’s a standard 86-type controller powered by a Rockchip RK3326-S SoC, equipped with 2GB RAM and 32GB eMMC flash storage, a 3.95-inch touchscreen display, and a 2-channel...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "SONOFF NSPanel Pro Gen2 touch control panel review with eWeLink and Home Assistant\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/02/sonoff-nspanel-pro-gen2-review-ewelink-home-assistant/"
+    },
+    {
+      "title": "Nordic expands nRF Cloud with firmware vulnerability scanning",
+      "source": "IoT Now",
+      "date": "2026-07-02",
+      "product": "BLE Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Nordic Semiconductor, a global contributor in low-power wireless connectivity solutions, has announced that firmware vulnerability scanning is coming to nRF Cloud, further bolstering its capabilities for empowering device makers to … Continued The post Nordic...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Nordic expands nRF Cloud with firmware vulnerability scanning\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/07/02/157277-nordic-expands-nrf-cloud-with-firmware-vulnerability-scanning/"
+    },
+    {
+      "title": "Is manufacturing ready for the next phase of IIoT?",
+      "source": "IoT Now",
+      "date": "2026-07-02",
+      "product": "BLE Module",
+      "score": 93,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Manufacturing is moving into a more connected, intelligent era. As industrial organisations adopt sensor-based IoT, cellular connectivity and analytics, they can gain better visibility across equipment, assets, logistics, field service … Continued The post Is...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Is manufacturing ready for the next phase of IIoT?\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/07/02/157245-is-manufacturing-ready-for-the-next-phase-of-iiot/"
+    },
+    {
+      "title": "Titan Mini is a smaller Renesas RA8P1-based Edge AI board for RT-Thread RTOS development",
+      "source": "CNX Software",
+      "date": "2026-07-02",
+      "product": "ESP32 Module",
+      "score": 92,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "The Titan Mini is a smaller and somewhat cheaper version of the RA8P1 Titan board introduced in 2025 for AIoT applications and RT-Thread RTOS development. It still features a Renesas R7KA8P1 Cortex-M85/M33 microcontroller with an Arm Ethos-U55 NPU, but comes...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "Titan Mini is a smaller Renesas RA8P1-based Edge AI board for RT-Thread RTOS development\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/07/02/titan-mini-smaller-renesas-ra8p1-based-edge-ai-board-for-rt-thread-rtos-development/"
     },
     {
@@ -60,6 +352,210 @@
       "url": "https://www.cnx-software.com/2026/07/02/sonoff-nspanel-pro-gen2-review-ewelink-home-assistant/"
     },
     {
+      "title": "SONOFF Matter over WiFi开关：DIN导轨+32A工业级应用",
+      "source": "IOT-HOT",
+      "date": "2026-07-02",
+      "product": "WiFi Module",
+      "score": 86,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Matter",
+        "智能开关",
+        "DIN",
+        "32A",
+        "工业级"
+      ],
+      "value": "SONOFF Matter over WiFi智能开关支持DIN导轨和32A高功率，Matter协议向工业场景渗透的标志性产品。",
+      "summary": "SONOFF Matter over WiFi智能开关支持DIN导轨和32A高功率，Matter协议向工业场景渗透的标志性产品。",
+      "hook": "Matter不只是智能灯泡——这个32A的DIN导轨开关正在改写游戏规则。",
+      "post": "IOT-HOT报道：SONOFF推出Matter over WiFi智能开关，支持DIN导轨安装和32A高功率电路，适用于电地暖、EV充电等工业级场景。这是Matter协议从消费级走向工业级应用的重要信号——32A的Matter设备意味着模组需要在过流保护、温升控制和可靠性上达到工业标准。",
+      "url": "http://10.1.8.31:2217/scenarios"
+    },
+    {
+      "title": "Titan Mini: Renesas RA8P1 Cortex-M85 Edge AI Board Brings Helium MVE to RT-Thread RTOS",
+      "source": "CNX Software",
+      "date": "2026-07-02",
+      "product": "IoT Industry",
+      "score": 84,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "Edge AI",
+        "Cortex-M85",
+        "RT-Thread",
+        "Helium MVE",
+        "IoT开发板"
+      ],
+      "value": "Titan Mini is a compact Renesas RA8P1 Cortex-M85 development board designed for RT-Thread RTOS, featuring Helium MVE vector extensions for real-time edge AI inference, CAN Bus, Ethernet, and camera interface -- a powerful platform for industrial IoT edge computing.",
+      "summary": "Cortex-M85核心+RT-Thread RTOS——Titan Mini把工业级边缘AI装进了名片大小的开发板。",
+      "hook": "RT-Thread生态迎来M85旗舰——Titan Mini这块小板的Helium向量引擎能跑实时AI推理。",
+      "post": "Titan Mini基于Renesas RA8P1 Cortex-M85@480MHz，内置Helium MVE向量扩展引擎，原生支持RT-Thread RTOS。板载以太网、CAN Bus、摄像头接口——一块板覆盖工业IoT边缘AI的三大需求：实时控制(CAN)、高速数据(Ethernet)、机器视觉(Camera)。对安信可而言，Cortex-M85的AI推理能力进入RT-Thread生态，正是模组从「通信管道」升级为「智能节点」的技术风向标。",
+      "url": "https://www.cnx-software.com/2026/07/02/titan-mini-smaller-renesas-ra8p1-based-edge-ai-board-for-rt-thread-rtos-development/"
+    },
+    {
+      "title": "PaperBoy Game Boy Emulator works at 60 FPS on ESP32-S3 E Ink devkit",
+      "source": "CNX Software",
+      "date": "2026-07-02",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "60 FPS gaming on an E Ink display? That doesn’t seem right… But that’s exactly what Wenting Zhang’s PaperBoy Game Boy emulator project does, using the M5Stack PaperS3 devkit, pairing an ESP32-S3 wireless microcontroller with a 4.7-inch E Ink display with 960...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "PaperBoy Game Boy Emulator works at 60 FPS on ESP32-S3 E Ink devkit\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/02/paperboy-game-boy-emulator-works-at-60-fps-on-esp32-s3-e-ink-devkit/"
+    },
+    {
+      "title": "Raspberry Pi CM0-based industrial data acquisition gateway features RS-485, RS-232, DI, and DO interfaces",
+      "source": "CNX Software",
+      "date": "2026-07-01",
+      "product": "BLE Module",
+      "score": 93,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "EDATEC ED-IPC1200 is an industrial data acquisition gateway powered by the Raspberry Pi Compute Module Zero (CM0), designed for industrial automation and edge applications with various I/O interfaces, a fanless design, and a wide range (9–28V) DC power input....",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Raspberry Pi CM0-based industrial data acquisition gateway features RS-485, RS-232, DI, and DO interfaces\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/01/raspberry-pi-cm0-based-industrial-data-acquisition-gateway-offer-rs485-rs232-di-do-interfaces/"
+    },
+    {
+      "title": "AI眼镜/智能手表出货量2026年预测突破2亿台",
+      "source": "IOT-HOT",
+      "date": "2026-07-01",
+      "product": "IoT Industry",
+      "score": 89,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "智能穿戴",
+        "出货量",
+        "AI眼镜",
+        "市场预测"
+      ],
+      "value": "2026年全球AI眼镜和智能手表出货量预计突破2亿台，WiFi+BLE双模连接是标准配置。",
+      "summary": "2026年全球AI眼镜和智能手表出货量预计突破2亿台，WiFi+BLE双模连接是标准配置。",
+      "hook": "2亿台穿戴设备正在醒来——它们全都要连WiFi和蓝牙，你的模组准备好了吗？",
+      "post": "IOT-HOT行业趋势分析：2026年全球智能穿戴设备出货量预计突破2亿台。AI眼镜、智能手表、健康手环三大品类齐头并进，WiFi+BLE双模连接已成标配，单模方案正在被淘汰。安信可WB2系列的WiFi+BLE双模、12μA超低休眠功耗特性，正是穿戴设备对模组的典型需求。",
+      "url": "http://10.1.8.31:2217/trends"
+    },
+    {
+      "title": "Sipeed NanoKVM-Go – A 4K USB-C KVM with Recall-like function, AI integration (Crowdfunding)",
+      "source": "CNX Software",
+      "date": "2026-07-01",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Sipeed NanoKVM-Go is a 4K USB-C KVM designed to control any USB-C device from anywhere with one cable. It also supports “full screen memory”, a function similar to the controversial Microsoft Recall feature, which enables an AI agent to search through your...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Sipeed NanoKVM-Go – A 4K USB-C KVM with Recall-like function, AI integration (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/01/sipeed-nanokvm-go-an-4k-usb-c-kvm-with-recall-like-function-ai-integration/"
+    },
+    {
+      "title": "Tele2 IoT and Lenovo Connect partner to power global IoT for automotive and beyond",
+      "source": "IoT Now",
+      "date": "2026-07-01",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Tele2 IoT and Lenovo Connect have formed a partnership to help global businesses deploy and manage connected devices at scale, with a particular focus on the growing automotive sector and … Continued The post Tele2 IoT and Lenovo Connect partner to power...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Tele2 IoT and Lenovo Connect partner to power global IoT for automotive and beyond\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/07/01/157266-tele2-iot-and-lenovo-connect-partner-to-power-global-iot-for-automotive-and-beyond/"
+    },
+    {
+      "title": "光伏储能智能化：新能源IoT市场年增40%+",
+      "source": "IOT-HOT",
+      "date": "2026-07-01",
+      "product": "IoT Industry",
+      "score": 87,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "新能源",
+        "储能",
+        "光伏",
+        "IoT",
+        "市场分析"
+      ],
+      "value": "光伏储能智能化改造需求爆发，年增速超40%，LoRa/WiFi/BLE无线方案正在替代传统有线通信。",
+      "summary": "光伏储能智能化改造需求爆发，年增速超40%，LoRa/WiFi/BLE无线方案正在替代传统有线通信。",
+      "hook": "光伏板下面藏着一块IoT蛋糕——年增40%，LoRa和WiFi模组的又一片蓝海。",
+      "post": "IOT-HOT趋势报告：新能源/储能行业IoT化改造需求年增速超过40%。光伏逆变器、储能BMS、充电桩等设备正在从RS485/CAN有线方案转向WiFi/BLE/LoRa无线方案。安信可LoRa Ra系列模组在光伏电站的千米级监控和WB2系列在户用储能的数据上云场景中均有明确的切入机会。",
+      "url": "http://10.1.8.31:2217/trends"
+    },
+    {
       "title": "Raspberry Pi CM0-based Industrial Data Acquisition Gateway: RS-485 + 4G Cat.1 Edge IoT Solution",
       "source": "CNX Software",
       "date": "2026-07-01",
@@ -84,58 +580,6 @@
       "hook": "一个Raspberry Pi CM0就能驱动的工业网关——RS-485/4G Cat.1/DI/DO全配齐，边缘IoT的「瑞士军刀」。",
       "post": "EDATEC ED-IPC1200 以Raspberry Pi CM0为核心，集成了RS-485、RS-232、4路DI/DO、可选4G LTE Cat.1和WiFi/BLE。9-28V宽压输入+无风扇设计，典型工业边缘IoT网关配置。对安信可来说，这类工业网关方案中对RS-485/Modbus协议栈+4G Cat.1的组合需求是明确的——安信可的NB-IoT/Cat.1蜂窝模组线正是这类网关的无线连接关键组件。",
       "url": "https://www.cnx-software.com/2026/07/01/raspberry-pi-cm0-based-industrial-data-acquisition-gateway-offer-rs485-rs232-di-do-interfaces/"
-    },
-    {
-      "title": "Banana Pi BPI-VP10: RISC-V Servo Control Board Targets Industrial IoT",
-      "source": "CNX Software",
-      "date": "2026-06-30",
-      "product": "IoT Industry",
-      "score": 82,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "RISC-V",
-        "伺服控制",
-        "工业IoT",
-        "Banana Pi",
-        "FU7512L"
-      ],
-      "value": "Banana Pi BPI-VP10 servo control board based on Fortior FU7512L dual-core RISC-V MCU, supporting absolute encoders and RS-485, targeting 100W/200W industrial servo applications.",
-      "summary": "RISC-V芯片正在打入工业伺服控制——不是概念验证，是量产级100W/200W伺服驱动板。",
-      "hook": "RISC-V芯片正在打入工业伺服控制——不是概念验证，是量产级100W/200W伺服驱动板。",
-      "post": "Banana Pi BPI-VP10 采用Fortior FU7512L双核RISC-V MCU(32-bit RISC-V@48MHz+ME2电机引擎核心+FOC模块)，支持Tamagawa/BiSS-C绝对编码器和RS-485通信。这说明RISC-V正在从IoT模组(BL602)向工业实时控制领域渗透——安信可Ai-M62/Ai-M64系列(WiFi6+RISC-V)的工业IoT定位正是踩在这条技术路径上。RISC-V的生态成熟度正在从「可用的IoT芯片」扩展到「可靠的工业芯片」。",
-      "url": "https://www.cnx-software.com/2026/06/30/banana-pi-bpi-vp10-a-low-cost-servo-control-board-based-on-fortior-fu7512l-dual-core-risc-v-mcu/"
-    },
-    {
-      "title": "XIAO nRF54LM20A: Bluetooth 6.0 + Matter + Thread + Zigbee in a thumb-sized board",
-      "source": "CNX Software",
-      "date": "2026-06-30",
-      "product": "BLE Module",
-      "score": 91,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "Bluetooth 6.0",
-        "nRF54",
-        "Matter",
-        "Thread",
-        "低功耗"
-      ],
-      "value": "Seeed Studio XIAO nRF54LM20A 拇指大小开发板搭载 Nordic nRF54LM20A，支持 Bluetooth 6.0/Matter/Thread/Zigbee/NFC/Amazon Sidewalk 六种协议。",
-      "summary": "拇指大小塞进6种协议——Bluetooth 6.0、Matter、Thread、Zigbee全都有，BLE模组的多协议时代开启。",
-      "hook": "拇指大小的开发板塞进6种协议——Bluetooth 6.0、Matter、Thread、Zigbee全都有，BLE模组的多协议时代正式开启。",
-      "post": "Seeed Studio 推出 XIAO nRF54LM20A 开发板，基于 Nordic nRF54LM20A 无线SoC，拇指大小（21×17.5mm）却支持 Bluetooth 6.0、Matter、Thread、Zigbee、NFC 和 Amazon Sidewalk 六种无线协议。Sense版本增加数字麦克风和6轴IMU。对安信可 Ai-WB2 系列来说，下一代BLE模组正走向多协议融合，BLE 6.0 Channel Sounding 厘米级定位是最大亮点。",
-      "url": "https://www.cnx-software.com/2026/06/30/xiao-nrf54lm20a-sense-board-bluetooth-6-0-matter-thread-zigbee/"
     },
     {
       "title": "Flipper BUSY Bar: Open-source Matter multitool with STM32U5 + SiWG917 wireless",
@@ -164,6 +608,157 @@
       "url": "https://www.cnx-software.com/2026/07/01/flipper-busy-bar-open-source-productivity-multitool-features-led-pixel-display-supports-matter-connectivity/"
     },
     {
+      "title": "Automotive IoT – Connected intelligence for the road ahead",
+      "source": "IoT Now",
+      "date": "2026-07-01",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Automotive IoT depends on vehicle connections to ensure vehicles run optimally, can communicate with OEMs and road infrastructure and can support applications from infotainment to safety. The next wave will … Continued The post Automotive IoT – Connected...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Automotive IoT – Connected intelligence for the road ahead\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/07/01/157227-automotive-iot-connected-intelligence-for-the-road-ahead/"
+    },
+    {
+      "title": "RISC-V in IoT: 2026年出货量突破10亿颗",
+      "source": "RISC-V International",
+      "date": "2026-06-30",
+      "product": "IoT Industry",
+      "score": 92,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "RISC-V",
+        "出货量",
+        "10亿",
+        "趋势"
+      ],
+      "value": "RISC-V International报告：2026年RISC-V IoT芯片出货量预计突破10亿颗，主要驱动来自智能家居和工业IoT。",
+      "summary": "RISC-V International报告：2026年RISC-V IoT芯片出货量预计突破10亿颗，主要驱动来自智能家居和工业IoT。",
+      "hook": "10亿颗RISC-V芯片进入IoT市场——这不是预测，是正在发生的事。",
+      "post": "RISC-V International 最新报告：2026年RISC-V芯片在IoT领域的出货量将突破10亿颗大关。智能家居和工业IoT是最大增长引擎，博流BL616/618等国产RISC-V芯片方案正在加速这一趋势。安信可Ai-M62/Ai-M64系列模组选的正是这条赛道。",
+      "url": "https://riscv.org/blog/2026/riscv-iot-billion/"
+    },
+    {
+      "title": "XIAO nRF54LM20A: Bluetooth 6.0 + Matter + Thread + Zigbee in a thumb-sized board",
+      "source": "CNX Software",
+      "date": "2026-06-30",
+      "product": "BLE Module",
+      "score": 91,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "Bluetooth 6.0",
+        "nRF54",
+        "Matter",
+        "Thread",
+        "低功耗"
+      ],
+      "value": "Seeed Studio XIAO nRF54LM20A 拇指大小开发板搭载 Nordic nRF54LM20A，支持 Bluetooth 6.0/Matter/Thread/Zigbee/NFC/Amazon Sidewalk 六种协议。",
+      "summary": "拇指大小塞进6种协议——Bluetooth 6.0、Matter、Thread、Zigbee全都有，BLE模组的多协议时代开启。",
+      "hook": "拇指大小的开发板塞进6种协议——Bluetooth 6.0、Matter、Thread、Zigbee全都有，BLE模组的多协议时代正式开启。",
+      "post": "Seeed Studio 推出 XIAO nRF54LM20A 开发板，基于 Nordic nRF54LM20A 无线SoC，拇指大小（21×17.5mm）却支持 Bluetooth 6.0、Matter、Thread、Zigbee、NFC 和 Amazon Sidewalk 六种无线协议。Sense版本增加数字麦克风和6轴IMU。对安信可 Ai-WB2 系列来说，下一代BLE模组正走向多协议融合，BLE 6.0 Channel Sounding 厘米级定位是最大亮点。",
+      "url": "https://www.cnx-software.com/2026/06/30/xiao-nrf54lm20a-sense-board-bluetooth-6-0-matter-thread-zigbee/"
+    },
+    {
+      "title": "Telit Cinterion powers FleetSafe.ai AI video telematics for safer, data-driven fleet operations at scale",
+      "source": "IoT Now",
+      "date": "2026-06-30",
+      "product": "BLE Module",
+      "score": 86,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Telit Cinterion, an end-to-end Internet of Things (IoT) solutions enabler, has announced that its NExT IoT eSIM solutions are powering FleetSafe.ai’s AI video telematics deployment in the 2026 British Truck Racing … Continued The post Telit Cinterion powers...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Telit Cinterion powers FleetSafe.ai AI video telematics for safer, data-driven fleet operations at scale\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/06/30/157238-telit-cinterion-powers-fleetsafe-ai-ai-video-telematics-for-safer-data-driven-fleet-operations-at-scale/"
+    },
+    {
+      "title": "Banana Pi BPI-VP10: RISC-V Servo Control Board Targets Industrial IoT",
+      "source": "CNX Software",
+      "date": "2026-06-30",
+      "product": "IoT Industry",
+      "score": 82,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "RISC-V",
+        "伺服控制",
+        "工业IoT",
+        "Banana Pi",
+        "FU7512L"
+      ],
+      "value": "Banana Pi BPI-VP10 servo control board based on Fortior FU7512L dual-core RISC-V MCU, supporting absolute encoders and RS-485, targeting 100W/200W industrial servo applications.",
+      "summary": "RISC-V芯片正在打入工业伺服控制——不是概念验证，是量产级100W/200W伺服驱动板。",
+      "hook": "RISC-V芯片正在打入工业伺服控制——不是概念验证，是量产级100W/200W伺服驱动板。",
+      "post": "Banana Pi BPI-VP10 采用Fortior FU7512L双核RISC-V MCU(32-bit RISC-V@48MHz+ME2电机引擎核心+FOC模块)，支持Tamagawa/BiSS-C绝对编码器和RS-485通信。这说明RISC-V正在从IoT模组(BL602)向工业实时控制领域渗透——安信可Ai-M62/Ai-M64系列(WiFi6+RISC-V)的工业IoT定位正是踩在这条技术路径上。RISC-V的生态成熟度正在从「可用的IoT芯片」扩展到「可靠的工业芯片」。",
+      "url": "https://www.cnx-software.com/2026/06/30/banana-pi-bpi-vp10-a-low-cost-servo-control-board-based-on-fortior-fu7512l-dual-core-risc-v-mcu/"
+    },
+    {
+      "title": "GSMA MWC26 Shanghai wraps up as the AI economy and 6G innovation delight attendees from around the world",
+      "source": "IoT Now",
+      "date": "2026-06-30",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "MWC26 Shanghai has concluded with 37,300 attendees for three days of conference and exhibition focused on the AI economy, 6G innovation and more. International attendance at MWC Shanghai increased 33% year … Continued The post GSMA MWC26 Shanghai wraps up as...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "GSMA MWC26 Shanghai wraps up as the AI economy and 6G innovation delight attendees from around the world\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/06/30/157231-gsma-mwc26-shanghai-wraps-up-as-the-ai-economy-and-6g-innovation-delight-attendees-from-around-the-world/"
+    },
+    {
       "title": "Simplia CONNECT RW612 6-in-1 M.2 Module Combines WiFi 6, BLE 5.4, Thread, NB-IoT, GNSS",
       "source": "CNX Software",
       "date": "2026-06-29",
@@ -189,6 +784,55 @@
       "url": "https://www.cnx-software.com/2026/06/29/simplia-connect-rw612-6-in-1-m-2-2230-module-offers-wifi-6-bluetooth-5-4-802-15-4-lte-m-nb-iot-and-gnss-connectivity/"
     },
     {
+      "title": "Quectel expands combo antenna portfolio with rugged multi-network solutions for demanding IoT deployments",
+      "source": "IoT Now",
+      "date": "2026-06-29",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Quectel Wireless Solutions, a global end-to-end IoT solutions provider, has expanded its external antenna portfolio with four new combo antennas designed to simplify deployment of connected devices across smart cities, … Continued The post Quectel expands...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Quectel expands combo antenna portfolio with rugged multi-network solutions for demanding IoT deployments\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/06/29/157223-quectel-expands-combo-antenna-portfolio-with-rugged-multi-network-solutions-for-demanding-iot-deployments/"
+    },
+    {
+      "title": "2026 IoT出海趋势：从价格竞争到认证壁垒",
+      "source": "IoT Business News",
+      "date": "2026-06-29",
+      "product": "IoT Industry",
+      "score": 84,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "出海",
+        "认证",
+        "合规",
+        "贸易壁垒"
+      ],
+      "value": "2026年IoT产品出海面临新挑战：欧盟RED指令升级、美国FCC新增网络安全审查。认证正在成为准入壁垒。",
+      "summary": "2026年IoT产品出海面临新挑战：欧盟RED指令升级、美国FCC新增网络安全审查。认证正在成为准入壁垒。",
+      "hook": "低价模组已经不够了——2026年IoT出海的新门票，叫「认证合规」。",
+      "post": "IoT Business News 分析：2026年IoT产品出海的最大障碍不是价格，而是认证合规。欧盟RED指令新增网络安全条款(EN 303 645)，美国FCC可能增加供应链审查。选择已获目标市场认证的模组方案商(如安信可)，可以让终端产品认证周期缩短50%以上。",
+      "url": "https://iotbusinessnews.com/2026/iot-certification-trends/"
+    },
+    {
       "title": "Arduino Modulino Extender Pushes I2C Bus to 30-Meter Range for IoT Sensors",
       "source": "CNX Software",
       "date": "2026-06-28",
@@ -212,6 +856,406 @@
       "hook": "I2C 只能走几厘米？Arduino 把这根「短线」拉到了 30 米——IoT 传感器布线要彻底重写了。",
       "post": "Arduino Modulino Extender 将 I2C 通信距离从传统的几厘米扩展到 30 米，使用差分信号传输克服了 I2C 的总线电容限制。过去需要 CAN/RS485 才能实现的长距离传感器网络，现在用更简单低成本的 I2C 方案就能搞定。",
       "url": "https://www.cnx-software.com/2026/06/28/arduino-modulino-hub-extender-modules-64-i2c-devices-30-meter-range/"
+    },
+    {
+      "title": "Make UK and Make UK Defence to launch first joint pavilion at Advanced Engineering 2026",
+      "source": "IoT Now",
+      "date": "2026-06-26",
+      "product": "BLE Module",
+      "score": 91,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Make UK and Make UK Defence will, for the first time, host a joint pavilion at Advanced Engineering 2026, bringing together two of the UK’s most influential industrial advocates in … Continued The post Make UK and Make UK Defence to launch first joint...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Make UK and Make UK Defence to launch first joint pavilion at Advanced Engineering 2026\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/06/26/157211-make-uk-and-make-uk-defence-to-launch-first-joint-pavilion-at-advanced-engineering-2026/"
+    },
+    {
+      "title": "LoRaWAN在精准农业中的2026年部署增长报告",
+      "source": "IoT Analytics",
+      "date": "2026-06-26",
+      "product": "LoRa Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "精准农业",
+        "LoRaWAN",
+        "智慧农业",
+        "增长趋势"
+      ],
+      "value": "报告显示2026年LoRaWAN农业部署增长40%+，土壤墒情和大棚环境监测是最大落地场景。",
+      "summary": "报告显示2026年LoRaWAN农业部署增长40%+，土壤墒情和大棚环境监测是最大落地场景。",
+      "hook": "农田也需要5G？不，农田更需要LoRa——2026年农业IoT增长最快的连接技术不是蜂窝，是LoRaWAN。",
+      "post": "IoT Analytics最新报告：2026年LoRaWAN在农业场景的部署增长率超过40%，超越蜂窝IoT成为农业领域增长最快的连接技术。关键应用是土壤墒情监测、大棚环境控制、畜牧追踪。安信可Ra系列LoRa模组直接受益于这一趋势——远距离、低功耗、低成本是农业IoT选型的三大硬指标。",
+      "url": "https://iot-analytics.com/lorawan-agriculture-2026/"
+    },
+    {
+      "title": "离线语音在农业自动化中的应用前景",
+      "source": "AI-Thinker Blog",
+      "date": "2026-06-26",
+      "product": "IoT Industry",
+      "score": 82,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "离线语音",
+        "农业",
+        "自动化",
+        "VC系列"
+      ],
+      "value": "农业场景噪声大、网络信号差，离线语音控制水泵、风机等设备具有天然优势。",
+      "summary": "农业场景噪声大、网络信号差，离线语音控制水泵、风机等设备具有天然优势。",
+      "hook": "农村没网？没关系——离线语音模组正在成为智慧农业的「声控开关」。",
+      "post": "智慧农业的难点之一是大棚/农场网络覆盖差。安信可VC离线语音模组直接在本地执行语音指令——'开启水泵'、'关闭风机'——无需联网。VC-01/02支持最大100条指令词自学习，普通话+方言混合识别。在农业自动化场景中，离线语音可能是比WiFi/BLE更「接地气」的解决方案。",
+      "url": "https://docs.ai-thinker.com/voice_module/"
+    },
+    {
+      "title": "Iridium NTN Direct begins live testing with Mlink",
+      "source": "IoT Now",
+      "date": "2026-06-25",
+      "product": "BLE Module",
+      "score": 90,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Iridium Communications, a provider of global voice, data and positioning, navigation and timing (PNT) satellite services, has announced that Mlink Technology (Mlink), a fabless semiconductor company specialising in IoT and satellite … Continued The post...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Iridium NTN Direct begins live testing with Mlink\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/06/25/157200-iridium-ntn-direct-begins-live-testing-with-mlink/"
+    },
+    {
+      "title": "BLE Channel Sounding: 蓝牙6.0厘米级定位技术解析",
+      "source": "IoT Times",
+      "date": "2026-06-25",
+      "product": "BLE Module",
+      "score": 90,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "BLE 6.0",
+        "Channel Sounding",
+        "定位",
+        "厘米级"
+      ],
+      "value": "蓝牙6.0 Channel Sounding 利用PBR/RTT实现厘米级定位，有望替代部分UWB场景。Nordic nRF54L15已原生支持。",
+      "summary": "BLE 6.0 Channel Sounding 厘米级定位技术，低功耗+低成本，对标UWB定位市场。",
+      "hook": "蓝牙也能做厘米级定位了——BLE 6.0 的 Channel Sounding 正在改写室内定位的游戏规则。",
+      "post": "BLE 6.0 最大的新特性 Channel Sounding 正式进入工程样片阶段。通过 PBR(Phase-Based Ranging)和 RTT(Round-Trip Time)双重测距，BLE 首次具备了厘米级定位能力。Nordic nRF54L15 是首批支持该特性的芯片。这意味着中低端定位场景可以不用昂贵的 UWB 方案——BLE 模组的市场边界被大幅拓宽了。",
+      "url": "https://www.cnx-software.com/2026/06/23/nordic-nrf54l15-tag-prototyping-platform-supports-bluetooth-channel-sounding-matter-edge-ai/"
+    },
+    {
+      "title": "2026工业IoT无线连接趋势：WiFi 6/6E与5G RedCap的博弈",
+      "source": "Industrial IoT World",
+      "date": "2026-06-25",
+      "product": "WiFi Module",
+      "score": 87,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "WiFi 6",
+        "5G RedCap",
+        "工业IoT",
+        "趋势"
+      ],
+      "value": "工业IoT连接两大趋势：WiFi 6/6E在工厂内网占据主导(低延迟<10ms)，5G RedCap在广域场景替代4G Cat.1。",
+      "summary": "2026工业IoT连接趋势：WiFi 6E统治工厂内网，5G RedCap渗透广域场景。模组选型路线图。",
+      "hook": "工业IoT的无线连接大战：WiFi 6E还是5G RedCap？答案取决于你的设备离基站有多远。",
+      "post": "2026年工业IoT的连接竞选正在白热化：工厂内网场景 WiFi 6/6E 凭借低延迟(<10ms)和成熟生态占据主导，而广域场景 5G RedCap 以更低功耗和广覆盖优势替代 4G Cat.1。对模组厂商来说，双模(WiFi+蜂窝)或将成为工业IoT模组的新标配——一个模组覆盖内网和广域两种连接。",
+      "url": "https://iot-now.com/2026/06/25/industrial-iot-wireless-trends-2026/"
+    },
+    {
+      "title": "Easier IoT management through commercial SGP.32 solutions",
+      "source": "IoT Now",
+      "date": "2026-06-25",
+      "product": "BLE Module",
+      "score": 86,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Market developments around new standards are now making it easier for industries to deploy and manage their IoT systems, reports Antony Savvas. At the recent MWC26 in Barcelona, Tele2 IoT, … Continued The post Easier IoT management through commercial SGP.32...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Easier IoT management through commercial SGP.32 solutions\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/06/25/157203-easier-iot-management-through-commercial-sgp-32-solutions/"
+    },
+    {
+      "title": "Qualinx’s QLX3Gx Series Chip integration with Galileo OSNMA brings authenticated GNSS positioning to ultra-low-power devices",
+      "source": "IoT Now",
+      "date": "2026-06-24",
+      "product": "BLE Module",
+      "score": 98,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Qualinx, the European semiconductor company redefining ultra-low-power connectivity at the connected edge, has announced the completion of full Galileo OSNMA (Open Service Navigation Message Authentication) support on its QLX3Gx Series ultra-low-power GNSS...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Qualinx’s QLX3Gx Series Chip integration with Galileo OSNMA brings authenticated GNSS positioning to ultra-low-power devices\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/06/24/157157-qualinxs-qlx3gx-series-chip-integration-with-galileo-osnma-brings-authenticated-gnss-positioning-to-ultra-low-power-devices/"
+    },
+    {
+      "title": "Aliro: CSA's New Vendor-Agnostic Access Control Standard via NFC, BLE, or UWB",
+      "source": "CNX Software",
+      "date": "2026-06-24",
+      "product": "BLE Module",
+      "score": 91,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Aliro",
+        "NFC",
+        "BLE",
+        "UWB",
+        "门禁控制"
+      ],
+      "value": "CSA 发布 Aliro 智能门禁控制标准，支持 NFC、BLE、UWB 三种通信方式，与 Matter 互补，是 IoT 在安防领域的又一个重磅协议。",
+      "summary": "Aliro 1.0：CSA 管理的智能门禁标准，NFC+BLE+UWB 三模，Nordic/ST/Qualcomm 芯片已支持。",
+      "hook": "Matter 之后又一个 CSA 标准来了——这次是门禁。NFC+BLE+UWB 读懂一扇智能门。",
+      "post": "Connectivity Standards Alliance（Matter 的制定方）推出 Aliro 1.0 智能门禁控制标准，支持 NFC、BLE 和 UWB 三种通信方式。与 Matter 互补：Matter 管智能家居设备，Aliro 管门禁和访问控制。Nordic nRF54L15、ST ST64UWB、Qualcomm FastConnect 8800 等芯片已原生支持。对 BLE 模组和 UWB 模组厂商来说，Aliro 意味着一个新的垂直市场正在标准化——智能门锁、门禁系统、车库门都将是模组出货的新增长点。",
+      "url": "https://www.cnx-software.com/2026/06/24/aliro-is-a-vendor-agnostic-standard-for-digital-access-control-working-over-nfc-bluetooth-le-or-uwb/"
+    },
+    {
+      "title": "GSMA MWC26 Shanghai opens doors as AI, robotics and drones lead packed agenda",
+      "source": "IoT Now",
+      "date": "2026-06-24",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "MWC26 Shanghai, one of Asia’s largest and most influential connectivity event, officially opened at the Shanghai New International Expo Centre (SNIEC), as the global mobile ecosystem convenes in China for … Continued The post GSMA MWC26 Shanghai opens doors...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "GSMA MWC26 Shanghai opens doors as AI, robotics and drones lead packed agenda\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/06/24/157172-gsma-mwc26-shanghai-opens-doors-as-ai-robotics-and-drones-lead-packed-agenda/"
+    },
+    {
+      "title": "Nordic nRF54L15 Tag: Coin-cell BLE 6.0 + Channel Sounding + Matter Prototyping Platform",
+      "source": "CNX Software",
+      "date": "2026-06-23",
+      "product": "BLE Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "nRF54L15",
+        "BLE 6.0",
+        "Channel Sounding",
+        "Matter",
+        "Nordic"
+      ],
+      "value": "Nordic 发布 nRF54L15 纽扣电池标签原型平台，支持 BLE 6.0 Channel Sounding、Thread/Zigbee、Matter 和 NFC，Arm M33 + RISC-V 双核。",
+      "summary": "Nordic nRF54L15 Tag：BLE 6.0 + Channel Sounding + Matter + Thread 全栈，纽扣电池供电，定位对标Apple Find My。",
+      "hook": "一颗纽扣电池撑起 BLE 6.0 + Matter + Thread 全栈——Nordic 的新 Tag 方案重新定义了低功耗 IoT 的边界。",
+      "post": "Nordic Semi 推出 nRF54L15 Tag 原型平台：Arm Cortex-M33 @128MHz + RISC-V 协处理器，支持 BLE 6.0（含 Channel Sounding 精确定位）、Thread/Zigbee、Matter、Amazon Sidewalk 和 NFC。纽扣电池供电，33mm 直径，集成 6 轴 IMU 和环境传感器。对 Ai-Thinker 的 BLE 模组产品定位来说，这款芯片代表了下一代 BLE 芯片的能力基准——多协议、超低功耗、Channel Sounding 定位。",
+      "url": "https://www.cnx-software.com/2026/06/23/nordic-nrf54l15-tag-prototyping-platform-supports-bluetooth-channel-sounding-matter-edge-ai/"
+    },
+    {
+      "title": "MYiR MAC-B5760 Edge AI Industrial PC with Rockchip RK3576 + AI Modem Module",
+      "source": "CNX Software",
+      "date": "2026-06-23",
+      "product": "IoT Industry",
+      "score": 82,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Edge AI",
+        "Rockchip",
+        "工业PC",
+        "RK3576"
+      ],
+      "value": "MYiR 推出 MAC-B5760 无风扇 Edge AI 工业 PC，搭载瑞芯微 RK3576 SoC，可选 6 TOPS NPU RK1828 模块。",
+      "summary": "Rockchip RK3576 四核 A72+A53 + 6 TOPS NPU 模块，无风扇 IP40 工业级设计。",
+      "hook": "工业 AI 边缘计算需要什么样的硬件？MYiR 用一块瑞芯微 SoC 给出了标准答案。",
+      "post": "MYiR 发布 MAC-B5760 无风扇 Edge AI 嵌入式工业 PC，基于瑞芯微 RK3576（4×A72 + 4×A53 + Mali-G52 MC3 GPU，自带 6 TOPS NPU）。可选配 RK1828 AI 调制解调器模块增强 LLM/VLM 推理。IP40 防护等级，双千兆网口，专为工业视觉和边缘 AI 推理设计的硬件方案。对 IoT 模组厂商而言，边缘 AI 主机的发展方向值得持续关注。",
+      "url": "https://www.cnx-software.com/2026/06/23/myir-mac-b5760-fanless-edge-ai-industrial-pc-offers-rockchip-rk3576-soc-optional-rk1828-llm-vlm-module/"
+    },
+    {
+      "title": "World's First IEEE 802.15.4ab UWB Receiver from imec for Indoor Positioning",
+      "source": "Electronics-Lab",
+      "date": "2026-06-22",
+      "product": "UWB Module",
+      "score": 89,
+      "formats": [
+        "LinkedIn Post",
+        "Industry Analysis"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "UWB",
+        "IEEE 802.15.4ab",
+        "Indoor Positioning",
+        "RF",
+        "22nm CMOS"
+      ],
+      "value": "imec 发布全球首款 IEEE 802.15.4ab 标准 UWB 接收器，22nm CMOS 工艺，窄带辅助提升室内定位性能并有效抑制 Wi-Fi 干扰。UWB 定位从专有方案走向国际标准的关键里程碑。",
+      "summary": "UWB 定位标准 IEEE 802.15.4ab 首次芯片级实现，对安信可 BU 系列 UWB 模组的长期发展是重要技术信号。",
+      "hook": "全球首款 IEEE 802.15.4ab UWB 接收器诞生：10cm 室内定位，不再怕 Wi-Fi 干扰。",
+      "post": "imec 展示全球首款符合 IEEE 802.15.4ab 标准的 UWB 接收器芯片，22nm CMOS 工艺，窄带信号增强定位精度，有效抑制密集 Wi-Fi 干扰。UWB 定位从专有方案走向国际标准。对安信可 BU 系列 UWB 模组而言，标准化将加速仓储、零售、医疗等场景规模落地。",
+      "url": "https://www.electronics-lab.com/worlds-first-ieee-802-15-4ab-receiver-debuts-from-imec/"
+    },
+    {
+      "title": "ST VL53L9CX Direct ToF 3D LiDAR: 5cm-9m Range with 2.3K Zones for Arduino",
+      "source": "CNX Software",
+      "date": "2026-06-22",
+      "product": "Radar Sensor",
+      "score": 85,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "ToF传感器",
+        "LiDAR",
+        "ST",
+        "Arduino"
+      ],
+      "value": "意法半导体 VL53L9CX 直接飞行时间 3D LiDAR，5cm-9m 测距，2300 分区，已提供 Arduino 库。",
+      "summary": "ST VL53L9CX ToF 传感器：9m 远 3D 测距、2300 分区，Arduino 库已就绪。",
+      "hook": "一颗传感器同时看 2300 个点——ST 把工业级 3D 感知塞进了 Arduino 生态。",
+      "post": "ST 推出 VL53L9CX 直接飞行时间（dToF）3D LiDAR 传感器，支持 5cm 到 9m 测距，2300 分区分辨率。已提供 Arduino 库和示例代码，让开发者可以快速在嵌入式平台上实现 3D 感知。对 Ai-Thinker 的雷达传感器产品线来说，ToF 是毫米波之外的另一条感知技术路线，值得关注生态演进。",
+      "url": "https://www.cnx-software.com/2026/06/22/st-vl53l9cx-direct-time-of-flight-3d-lidar-supports-5cm-to-9m-range-2-3k-zones-resolution/"
+    },
+    {
+      "title": "UTFS Lightweight Zero-allocation File System for Embedded Devices (CNX Feature)",
+      "source": "CNX Software",
+      "date": "2026-06-22",
+      "product": "IoT Industry",
+      "score": 83,
+      "formats": [
+        "LinkedIn Post",
+        "Tutorial"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "嵌入式",
+        "文件系统",
+        "MCU"
+      ],
+      "value": "CNX Software 深度介绍 UTFS 轻量嵌入式文件系统，C99 实现，零堆内存分配。",
+      "summary": "UTFS 嵌入式文件系统获 CNX 推荐，极简设计适配各类 MCU 模组固件开发。",
+      "hook": "FAT 再见？这个不到 1000 行的文件系统正被嵌入式社区热捧。",
+      "post": "CNX Software 详细介绍了 UTFS（Micro Tar File System），这是一款纯 C99 实现的轻量级嵌入式文件系统，零堆内存分配，仅两个源文件。已在 SAMD20 和 ATmega328 上验证通过，相比 FAT 文件系统大幅降低二进制体积和运行开销。对于 Wi-Fi/BLE 模组的 OTA 固件管理和数据日志存储来说，UTFS 提供了一个值得考虑的轻量替代方案。",
+      "url": "https://www.cnx-software.com/2026/06/22/utfs-is-a-lightweight-zero-allocation-file-system-for-embedded-devices/"
+    },
+    {
+      "title": "SpacemiT K3 Pico-ITX RISC-V Board Review: What Works in Bianbu OS 4.0",
+      "source": "CNX Software",
+      "date": "2026-06-21",
+      "product": "IoT Industry",
+      "score": 84,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "RISC-V",
+        "SpacemiT K3",
+        "嵌入式Linux",
+        "开发板"
+      ],
+      "value": "SpacemiT K3 Pico-ITX RISC-V 开发板深度评测第二部分：Bianbu OS 4.0 实测可用与不可用功能。",
+      "summary": "RISC-V 16核 Pico-ITX 开发板实测，Linux 生态正在快速成熟。",
+      "hook": "16 核 RISC-V 迷你板能跑 Linux 了吗？实测结果比预想的要好。",
+      "post": "CNX Software 发布 SpacemiT K3 RISC-V Pico-ITX 开发板评测第二部分，深入测试 Bianbu OS 4.0 的兼容性。结果显示 USB、网络、显示输出等基础功能已经可用，但 GPU 加速和部分外设仍需完善。RISC-V 在嵌入式 Linux 场景的进展速度值得 IoT 模组厂商持续关注——生态成熟意味着未来可选方案更多。",
+      "url": "https://www.cnx-software.com/2026/06/21/spacemit-k3-pico-itx-risc-v-chassis-kit-review-part-2-what-works-what-doesnt-in-bianbu-os-4-0/"
     },
     {
       "title": "Pine64 Pinevoice - RISC-V Smart Speaker with WiFi/BLE/Zigbee for Home Assistant",
@@ -241,11 +1285,248 @@
       "url": "https://www.cnx-software.com/2026/06/20/pine64-pinevoice-a-50-risc-v-smart-speaker-for-home-assistant-based-on-bouffalo-lab-bl606p-mcu/"
     },
     {
-      "title": "World's First IEEE 802.15.4ab UWB Receiver from imec for Indoor Positioning",
-      "source": "Electronics-Lab",
-      "date": "2026-06-22",
-      "product": "UWB Module",
-      "score": 89,
+      "title": "Pine64 Pinevoice: $50 RISC-V Smart Speaker with WiFi/BLE/Zigbee for Home Assistant",
+      "source": "CNX Software",
+      "date": "2026-06-20",
+      "product": "WiFi Module",
+      "score": 90,
+      "formats": [
+        "LinkedIn Post",
+        "Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "YouTube"
+      ],
+      "tags": [
+        "RISC-V",
+        "智能音箱",
+        "WiFi/BLE/Zigbee",
+        "Home Assistant"
+      ],
+      "value": "Pine64 推出 $50 RISC-V 智能音箱 Pinevoice，基于博流 BL606P MCU，集成 WiFi/BLE/Zigbee 三模无线。",
+      "summary": "$50 RISC-V 智能音箱，BL606P MCU 驱动 WiFi/BLE/Zigbee 三模，专为 Home Assistant 设计。",
+      "hook": "$50 的 RISC-V 智能音箱？WiFi+BLE+Zigbee 三模全给——AIoT 硬件的价格天花板又被砸穿了。",
+      "post": "Pine64 发布 Pinevoice RISC-V 智能音箱，售价仅 $50。基于博流 BL606P MCU，内置 WiFi、BLE 和 Zigbee 三模无线，专为 Home Assistant 生态设计。博流是国产 RISC-V MCU 的代表性厂商，这个案例展示了 RISC-V 在智能家居模组市场的真实竞争力——不是 PPT，是你能买到的产品。",
+      "url": "https://www.cnx-software.com/2026/06/20/pine64-pinevoice-a-50-risc-v-smart-speaker-for-home-assistant-based-on-bouffalo-lab-bl606p-mcu/"
+    },
+    {
+      "title": "Matter 1.6 Introduces NFC-based Commissioning and Core Enhancements",
+      "source": "CNX Software",
+      "date": "2026-06-19",
+      "product": "WiFi Module",
+      "score": 93,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Matter 1.6",
+        "NFC",
+        "标准演进",
+        "智能家居"
+      ],
+      "value": "Matter 1.6 规范发布，新增 NFC 碰触配网、恒温器建议等核心功能增强。NFC 配网将极大降低非技术用户的 IoT 设备初次接入门槛。",
+      "summary": "Matter 1.6 新增 NFC 配网，智能家居设备入网像刷交通卡一样简单。",
+      "hook": "刷一下手机就能配网——Matter 1.6 把 IoT 门槛降到了奶奶也能用的程度。",
+      "post": "CSA 发布 Matter 1.6 规范，最重磅的新功能是 NFC-based Commissioning（碰触配网）。用户只需将手机靠近 Matter 设备即可完成配网，彻底消除了手动输入 WiFi 密码或扫码的痛点。对 Ai-Thinker 的 Matter 模组来说，这意味着终端用户体验的质变——配网环节不再是出货障碍。",
+      "url": "https://www.cnx-software.com/2026/06/19/matter-1-6-specification-adds-nfc-based-commissioning-thermostat-suggestions-various-core-enhancements/"
+    },
+    {
+      "title": "Qualcomm Promises Major Reset with Linux 2.0 for Dragonwing IoT Platforms",
+      "source": "CNX Software",
+      "date": "2026-06-19",
+      "product": "IoT Industry",
+      "score": 86,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Qualcomm",
+        "Linux",
+        "IoT平台",
+        "上游优先"
+      ],
+      "value": "高通宣布 Dragonwing IoT 平台将采用上游优先策略，承诺 Qualcomm Linux 2.0 大幅简化 IoT 设备 Linux 开发。",
+      "summary": "高通 IoT 平台转向上游优先 Linux 策略，不再依赖私有 BSP 补丁。",
+      "hook": "高通的 IoT 大转弯：放下自研 BSP，拥抱上游 Linux——这对模组生态意味着什么？",
+      "post": "Qualcomm 宣布 Dragonwing IoT 平台重大策略转变：全面转向上游优先的 Linux 策略，推出 Qualcomm Linux 2.0。以往开发者需要在高通私有 BSP 补丁上耗费大量适配工作，新方案意味着更多芯片功能将直接进入 Linux 主线。对于 IoT 模组厂商来说，芯片平台的可移植性和长期维护成本是选型关键因素，上游 Linux 支持是一项重要加分项。",
+      "url": "https://www.cnx-software.com/2026/06/19/qualcomm-promises-a-major-reset-with-upstream-first-qualcomm-linux-2-0-for-dragonwing-iot-platforms/"
+    },
+    {
+      "title": "Zhihe A210 octa-core RISC-V SoC with 12 TOPS NPU powers SoM-based development board",
+      "source": "CNX Software",
+      "date": "2026-06-18",
+      "product": "IoT Industry",
+      "score": 90,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "RISC-V",
+        "NPU",
+        "Edge AI",
+        "SoC"
+      ],
+      "value": "志合 A210 八核 RISC-V SoC 搭载 12 TOPS NPU，面向边缘 AI 推理场景，已发布 SoM 开发套件。",
+      "summary": "4 颗 C920 + 4 颗 C908 核心，12 TOPS NPU，SODIMM 形态 SoM，文档已公开。",
+      "hook": "RISC-V 正在边缘 AI 领域加速超车——12 TOPS NPU，八核异构，这不是 PPT。",
+      "post": "志合 A210 八核 RISC-V SoC 正式亮相：4 颗 C920 核心（最高 2.3GHz）+ 4 颗 C908 核心，内置 12 TOPS NPU。该芯片已应用于 SODIMM 系统级模块开发套件，技术文档全面公开。对于关注 RISC-V 生态的 IoT 开发者来说，这是一个值得追踪的里程碑——边缘 AI 推理不再只属于 ARM。",
+      "url": "https://www.cnx-software.com/2026/06/17/zhihe-a210-octa-core-risc-v-soc-with-12-tops-npu-powers-som-based-development-board/"
+    },
+    {
+      "title": "NTT DOCOMO and TRANSATEL launch Cellular SASE for IoT",
+      "source": "IoT Now",
+      "date": "2026-06-18",
+      "product": "Cellular IoT Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "蜂窝IoT",
+        "SASE",
+        "安全",
+        "连接管理"
+      ],
+      "value": "NTT 与 Zscaler 联合推出面向 IoT 的蜂窝 SASE，为 IoT 模组设备提供内置安全的蜂窝连接。",
+      "summary": "蜂窝 SASE 为 IoT 设备提供内置安全、身份认证和连接管理，降低模组部署的安全集成成本。",
+      "hook": "IoT 安全不能是事后补救——NTT 把 SASE 直接做进了蜂窝连接层。",
+      "post": "NTT DOCOMO 与 TRANSATEL 联合 Zscaler 推出 Cellular SASE for IoT，将安全访问服务边缘直接集成到蜂窝网络层。设备从首次连接即具备零信任安全能力。对于蜂窝 IoT 模组（4G Cat.1 / NB-IoT）的出海部署，这意味着安全合规不再需要额外硬件，直接在连接层完成。",
+      "url": "https://iot-now.com/2026/06/17/157054-ntt-docomo-business-and-transatel-launch-cellular-sase-for-iot/"
+    },
+    {
+      "title": "Skip the Embedded Filesystem with the TAR-like UTFS Format",
+      "source": "Hackaday",
+      "date": "2026-06-18",
+      "product": "IoT Industry",
+      "score": 86,
+      "formats": [
+        "LinkedIn Post",
+        "Tutorial"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "嵌入式",
+        "文件系统",
+        "MCU",
+        "Flash存储"
+      ],
+      "value": "UTFS 是一种全新的轻量嵌入式文件系统，针对资源受限 MCU 优化，零堆内存使用。",
+      "summary": "C99 实现仅两个源文件，零堆内存分配，SAMD20/ATmega328 已实测，对模组固件开发有参考价值。",
+      "hook": "MCU 上装 FAT 太重？两个文件的微型文件系统，让你的模组固件更轻更快。",
+      "post": "Hackaday 介绍了一个对模组固件开发极具参考价值的项目——UTFS（Micro Tar File System）。类似 TAR 但专为资源受限 MCU 设计：C99 实现、两个源文件、零堆内存。对于在 BLE/WiFi 模组上做数据日志和 OTA 固件管理的开发者来说，这种轻量存储方案可能比 FAT 更适合。",
+      "url": "https://hackaday.com/2026/06/17/skip-the-embedded-filesystem-with-the-tar-like-utfs-format/"
+    },
+    {
+      "title": "RISC-V gaining momentum in IoT module market",
+      "source": "EE Times",
+      "date": "2026-06-17",
+      "product": "WiFi Module",
+      "score": 92,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "RISC-V",
+        "IoT",
+        "Market Trend",
+        "BL618"
+      ],
+      "summary": "内存芯片短缺反而推动 RISC-V IoT 设备需求，因 RISC-V 芯片供应链更灵活、成本更低，RISC-V 在物联网模组市场加速渗透。",
+      "url": "https://iottechnews.com/news/risc-v-iot-devices-memory-chip-shortage-2026/"
+    },
+    {
+      "title": "WiFi 6 adoption in smart home devices accelerates",
+      "source": "WiFi Alliance",
+      "date": "2026-06-17",
+      "product": "WiFi Module",
+      "score": 90,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "WiFi 6",
+        "Smart Home",
+        "Adoption",
+        "Matter"
+      ],
+      "summary": "2026 年智能家居趋势：Matter+WiFi 6 成为新设备标配，AI 驱动主动式家庭管理，绿色可持续成为差异化卖点。",
+      "url": "https://www.technerdo.com/blog/smart-home-2026-matter-ai-sustainability"
+    },
+    {
+      "title": "Thread Mesh networking practical deployment guide",
+      "source": "Thread Group",
+      "date": "2026-06-17",
+      "product": "WiFi Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn",
+        "Tutorial"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "YouTube"
+      ],
+      "tags": [
+        "Thread",
+        "Mesh",
+        "Smart Home",
+        "Deployment"
+      ],
+      "summary": "2026 年蓝牙 Mesh vs Thread vs Matter 选型指南：三者在智能家居场景的优势与取舍，何时选 Thread 做 Mesh 组网。",
+      "url": "https://akraniq.com/blog/bluetooth-mesh-vs-thread-vs-matter-2026"
+    },
+    {
+      "title": "Arduino launches new IoT Cloud dashboard with LoRaWAN integration",
+      "source": "Arduino Blog",
+      "date": "2026-06-16",
+      "product": "LoRa Module",
+      "score": 91,
+      "formats": [
+        "LinkedIn Post",
+        "Demo Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "YouTube",
+        "Facebook"
+      ],
+      "tags": [
+        "Arduino",
+        "IoT Cloud",
+        "LoRaWAN",
+        "Developer"
+      ],
+      "summary": "Arduino IoT Cloud 新增 LoRaWAN 集成仪表盘，支持设备可视化和 OTA 管理，开发者社区响应热烈。适合关注 LoRa+云平台的运营内容方向。",
+      "url": "https://blog.arduino.cc/2026/06/16/new-iot-cloud-lorawan-dashboard/"
+    },
+    {
+      "title": "Matter 2.0 certification expands to industrial IoT devices",
+      "source": "IoT Now",
+      "date": "2026-06-16",
+      "product": "WiFi Module",
+      "score": 90,
       "formats": [
         "LinkedIn Post",
         "Industry Analysis"
@@ -254,17 +1535,13 @@
         "LinkedIn"
       ],
       "tags": [
-        "UWB",
-        "IEEE 802.15.4ab",
-        "Indoor Positioning",
-        "RF",
-        "22nm CMOS"
+        "Matter 2.0",
+        "Industrial IoT",
+        "Certification",
+        "Smart Home"
       ],
-      "value": "imec 发布全球首款 IEEE 802.15.4ab 标准 UWB 接收器，22nm CMOS 工艺，窄带辅助提升室内定位性能并有效抑制 Wi-Fi 干扰。UWB 定位从专有方案走向国际标准的关键里程碑。",
-      "summary": "UWB 定位标准 IEEE 802.15.4ab 首次芯片级实现，对安信可 BU 系列 UWB 模组的长期发展是重要技术信号。",
-      "hook": "全球首款 IEEE 802.15.4ab UWB 接收器诞生：10cm 室内定位，不再怕 Wi-Fi 干扰。",
-      "post": "imec 展示全球首款符合 IEEE 802.15.4ab 标准的 UWB 接收器芯片，22nm CMOS 工艺，窄带信号增强定位精度，有效抑制密集 Wi-Fi 干扰。UWB 定位从专有方案走向国际标准。对安信可 BU 系列 UWB 模组而言，标准化将加速仓储、零售、医疗等场景规模落地。",
-      "url": "https://www.electronics-lab.com/worlds-first-ieee-802-15-4ab-receiver-debuts-from-imec/"
+      "summary": "Matter 2.0 标准扩展覆盖工业物联网设备类型，新增摄像头和传感器品类认证，对安信可模组出海合规参考价值高。",
+      "url": "https://iot-now.com/2026/06/16/matter-2-0-expands-to-industrial-iot/"
     },
     {
       "title": "How Ai-Thinker Ra-08 LoRa module performs in real-world range tests",
@@ -292,33 +1569,6 @@
       "summary": "Practical range test results that help B2B buyers understand when to choose LoRa over WiFi or BLE for long-distance IoT.",
       "hook": "We sent a 128-byte payload 8 kilometers on a coin-cell-class module. The data surprised us.",
       "post": "Ai-Thinker Ra-08 LoRa module real-world test results: 8km range in rural, 2.5km in dense urban. Power draw under 2uA in sleep. Full comparison with RAKwireless and Semtech modules. Perfect for smart agriculture, metering, and asset tracking.",
-      "url": ""
-    },
-    {
-      "title": "UWB precise positioning for warehouse automation - Ai-Thinker BU01 module use case",
-      "source": "Ai-Thinker UWB Solutions",
-      "date": "2026-06-15",
-      "product": "UWB Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "White Paper",
-        "Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "YouTube"
-      ],
-      "tags": [
-        "UWB",
-        "Positioning",
-        "Warehouse",
-        "Industrial IoT"
-      ],
-      "value": "Demonstrate how Ai-Thinker BU01 UWB module achieves centimeter-level positioning for warehouse robots, AGVs, and personnel tracking systems.",
-      "summary": "UWB is the next frontier for indoor positioning. This shows how Ai-Thinker modules enable sub-10cm accuracy at a fraction of traditional costs.",
-      "hook": "GPS fails indoors. RFID is imprecise. BLE is slow. What if you needed 10cm accuracy in a 10,000 sqm warehouse?",
-      "post": "Ai-Thinker BU01 UWB module enables centimeter-level indoor positioning at a competitive cost. Integration guide, typical deployment architecture (anchor + tag), latency benchmarks, and comparison with Decawave/Qorvo solutions. Real use case: automated forklift guidance in logistics centers.",
       "url": ""
     },
     {
@@ -350,30 +1600,84 @@
       "url": ""
     },
     {
-      "title": "NB-IoT vs LoRa vs LTE-M for smart metering - which connectivity wins",
-      "source": "IoT Industry Analysis",
+      "title": "UWB ranging accuracy benchmark - Ai-Thinker BU01 vs Decawave DWM1000",
+      "source": "Ai-Thinker UWB Product Line",
       "date": "2026-06-15",
-      "product": "Cellular IoT Module",
-      "score": 91,
+      "product": "UWB Module",
+      "score": 95,
+      "formats": [
+        "LinkedIn Post",
+        "Benchmark Report",
+        "Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "YouTube"
+      ],
+      "tags": [
+        "UWB",
+        "Benchmark",
+        "Ranging",
+        "Comparison",
+        "BU01"
+      ],
+      "value": "Independent accuracy and precision benchmark comparing Ai-Thinker BU01 UWB module against Decawave/Qorvo DWM1000 in line-of-sight and non-line-of-sight conditions at various distances.",
+      "summary": "Benchmarks with hard data are the most trusted form of hardware content. Direct comparison with the market leader builds instant credibility.",
+      "hook": "We tested Ai-Thinker BU01 against the market-leading UWB module at 1m, 5m, 20m, and 50m. The accuracy gap is smaller than you think.",
+      "post": "UWB ranging benchmark: Ai-Thinker BU01 vs Qorvo DWM1000. Test methodology: 2-way ranging, 1000 samples per distance, LOS and NLOS (through drywall/brick). Results: BU01 achieves 4.2cm (LOS) vs DWM1000 3.8cm, at roughly half the cost. Full dataset and test setup photos.",
+      "url": ""
+    },
+    {
+      "title": "LoRaWAN solution content worth tracking",
+      "source": "LoRa Alliance",
+      "product": "LoRa Module",
+      "score": 95,
+      "formats": [
+        "LinkedIn Post",
+        "Carousel",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "LoRa",
+        "LoRaWAN",
+        "Gateway"
+      ],
+      "value": "Useful for explaining complete LoRaWAN solutions to B2B users, including modules, gateways, sensor nodes, and cloud workflows.",
+      "summary": "LoRa Alliance 发布三年 LoRaWAN 技术路线图，重点解决互操作性、大规模部署和安全性问题，对模组厂商内容选题有直接参考价值。",
+      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
+      "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
+      "url": "https://lora-alliance.org/lorawan-news/lora-alliance-unveils-3-year-roadmap-for-scaling-lorawan-globally/",
+      "date": "2026-06-15"
+    },
+    {
+      "title": "UWB precise positioning for warehouse automation - Ai-Thinker BU01 module use case",
+      "source": "Ai-Thinker UWB Solutions",
+      "date": "2026-06-15",
+      "product": "UWB Module",
+      "score": 94,
       "formats": [
         "LinkedIn Post",
         "White Paper",
-        "Infographic"
+        "Video"
       ],
       "platforms": [
-        "LinkedIn"
+        "LinkedIn",
+        "YouTube"
       ],
       "tags": [
-        "NB-IoT",
-        "LoRa",
-        "LTE-M",
-        "Smart Metering",
-        "LPWAN"
+        "UWB",
+        "Positioning",
+        "Warehouse",
+        "Industrial IoT"
       ],
-      "value": "Side-by-side comparison of LPWAN technologies for smart metering applications, highlighting where Ai-Thinker modules fit in each ecosystem.",
-      "summary": "Helps B2B customers navigate the confusing LPWAN landscape with practical guidance on when to choose each technology.",
-      "hook": "Smart meters do not need 5G. They need the right LPWAN. Here is how NB-IoT, LoRa, and LTE-M actually compare.",
-      "post": "LPWAN technology showdown for smart metering: NB-IoT (licensed spectrum, carrier-grade), LoRa (unlicensed, long range), LTE-M (mobility, voice). Cost analysis, deployment complexity, and where Ai-Thinker modules provide the best fit for each scenario.",
+      "value": "Demonstrate how Ai-Thinker BU01 UWB module achieves centimeter-level positioning for warehouse robots, AGVs, and personnel tracking systems.",
+      "summary": "UWB is the next frontier for indoor positioning. This shows how Ai-Thinker modules enable sub-10cm accuracy at a fraction of traditional costs.",
+      "hook": "GPS fails indoors. RFID is imprecise. BLE is slow. What if you needed 10cm accuracy in a 10,000 sqm warehouse?",
+      "post": "Ai-Thinker BU01 UWB module enables centimeter-level indoor positioning at a competitive cost. Integration guide, typical deployment architecture (anchor + tag), latency benchmarks, and comparison with Decawave/Qorvo solutions. Real use case: automated forklift guidance in logistics centers.",
       "url": ""
     },
     {
@@ -406,32 +1710,50 @@
       "url": ""
     },
     {
-      "title": "UWB ranging accuracy benchmark - Ai-Thinker BU01 vs Decawave DWM1000",
-      "source": "Ai-Thinker UWB Product Line",
-      "date": "2026-06-15",
-      "product": "UWB Module",
-      "score": 95,
+      "title": "Matter and smart-home compatibility story",
+      "source": "The Verge",
+      "product": "WiFi Module",
+      "score": 94,
       "formats": [
         "LinkedIn Post",
-        "Benchmark Report",
-        "Video"
+        "Carousel",
+        "Sales Material"
       ],
       "platforms": [
         "LinkedIn",
-        "YouTube"
+        "Facebook"
       ],
       "tags": [
-        "UWB",
-        "Benchmark",
-        "Ranging",
-        "Comparison",
-        "BU01"
+        "Matter",
+        "Smart Home",
+        "Interoperability"
       ],
-      "value": "Independent accuracy and precision benchmark comparing Ai-Thinker BU01 UWB module against Decawave/Qorvo DWM1000 in line-of-sight and non-line-of-sight conditions at various distances.",
-      "summary": "Benchmarks with hard data are the most trusted form of hardware content. Direct comparison with the market leader builds instant credibility.",
-      "hook": "We tested Ai-Thinker BU01 against the market-leading UWB module at 1m, 5m, 20m, and 50m. The accuracy gap is smaller than you think.",
-      "post": "UWB ranging benchmark: Ai-Thinker BU01 vs Qorvo DWM1000. Test methodology: 2-way ranging, 1000 samples per distance, LOS and NLOS (through drywall/brick). Results: BU01 achieves 4.2cm (LOS) vs DWM1000 3.8cm, at roughly half the cost. Full dataset and test setup photos.",
-      "url": ""
+      "value": "Useful for smart-home customers who care about compatibility, certification readiness, and faster product development.",
+      "summary": "Matter 智能家居标准 2026 年最新进展：更多设备类型支持、更简化的用户配置体验，智能家居生态加速成熟。",
+      "hook": "Smart home buyers are no longer asking only for connectivity. They want compatibility.",
+      "post": "For smart-home devices, wireless modules become more valuable when they reduce integration risk and help products fit into existing ecosystems.",
+      "url": "https://www.theverge.com/news/609779/matter-smart-home-2026",
+      "date": "2026-06-15"
+    },
+    {
+      "title": "BW16 dual-band WiFi module launched for smart home",
+      "source": "CNX Software",
+      "date": "2026-06-15",
+      "product": "WiFi Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "BW16",
+        "WiFi 6",
+        "Smart Home"
+      ],
+      "summary": "Ai-Thinker BW16 based on RTL8720DN brings dual-band WiFi and BLE 5.0 to IoT devices.",
+      "url": "https://www.cnx-software.com/2026/06/15/bw16/"
     },
     {
       "title": "Radar sensing for privacy-friendly presence detection",
@@ -462,56 +1784,113 @@
       "date": "2026-06-15"
     },
     {
-      "title": "LoRaWAN solution content worth tracking",
-      "source": "LoRa Alliance",
+      "title": "LoRaWAN gateway deployment guide for agriculture",
+      "source": "TTN",
+      "date": "2026-06-15",
       "product": "LoRa Module",
-      "score": 95,
+      "score": 92,
       "formats": [
-        "LinkedIn Post",
-        "Carousel",
-        "Sales Material"
+        "Tutorial"
       ],
       "platforms": [
         "LinkedIn",
-        "Facebook"
+        "YouTube"
       ],
       "tags": [
-        "LoRa",
         "LoRaWAN",
+        "Agriculture",
         "Gateway"
       ],
-      "value": "Useful for explaining complete LoRaWAN solutions to B2B users, including modules, gateways, sensor nodes, and cloud workflows.",
-      "summary": "LoRa Alliance 发布三年 LoRaWAN 技术路线图，重点解决互操作性、大规模部署和安全性问题，对模组厂商内容选题有直接参考价值。",
-      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
-      "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
-      "url": "https://lora-alliance.org/lorawan-news/lora-alliance-unveils-3-year-roadmap-for-scaling-lorawan-globally/",
-      "date": "2026-06-15"
+      "summary": "Complete guide for agricultural IoT using TTN gateways and sensors.",
+      "url": "https://www.thethingsnetwork.org/article/lorawan-agriculture-2026/"
     },
     {
-      "title": "Matter and smart-home compatibility story",
-      "source": "The Verge",
-      "product": "WiFi Module",
-      "score": 94,
+      "title": "NB-IoT vs LoRa vs LTE-M for smart metering - which connectivity wins",
+      "source": "IoT Industry Analysis",
+      "date": "2026-06-15",
+      "product": "Cellular IoT Module",
+      "score": 91,
       "formats": [
         "LinkedIn Post",
-        "Carousel",
-        "Sales Material"
+        "White Paper",
+        "Infographic"
       ],
       "platforms": [
-        "LinkedIn",
-        "Facebook"
+        "LinkedIn"
+      ],
+      "tags": [
+        "NB-IoT",
+        "LoRa",
+        "LTE-M",
+        "Smart Metering",
+        "LPWAN"
+      ],
+      "value": "Side-by-side comparison of LPWAN technologies for smart metering applications, highlighting where Ai-Thinker modules fit in each ecosystem.",
+      "summary": "Helps B2B customers navigate the confusing LPWAN landscape with practical guidance on when to choose each technology.",
+      "hook": "Smart meters do not need 5G. They need the right LPWAN. Here is how NB-IoT, LoRa, and LTE-M actually compare.",
+      "post": "LPWAN technology showdown for smart metering: NB-IoT (licensed spectrum, carrier-grade), LoRa (unlicensed, long range), LTE-M (mobility, voice). Cost analysis, deployment complexity, and where Ai-Thinker modules provide the best fit for each scenario.",
+      "url": ""
+    },
+    {
+      "title": "Matter 1.5 brings improved battery life",
+      "source": "Home Assistant",
+      "date": "2026-06-15",
+      "product": "WiFi Module",
+      "score": 90,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
       ],
       "tags": [
         "Matter",
         "Smart Home",
-        "Interoperability"
+        "Battery"
       ],
-      "value": "Useful for smart-home customers who care about compatibility, certification readiness, and faster product development.",
-      "summary": "Matter 智能家居标准 2026 年最新进展：更多设备类型支持、更简化的用户配置体验，智能家居生态加速成熟。",
-      "hook": "Smart home buyers are no longer asking only for connectivity. They want compatibility.",
-      "post": "For smart-home devices, wireless modules become more valuable when they reduce integration risk and help products fit into existing ecosystems.",
-      "url": "https://www.theverge.com/news/609779/matter-smart-home-2026",
-      "date": "2026-06-15"
+      "summary": "Matter 1.5 reduces power consumption for battery IoT devices.",
+      "url": "https://www.home-assistant.io/blog/matter-15/"
+    },
+    {
+      "title": "UWB precision positioning in warehouse robotics",
+      "source": "IoT Tech News",
+      "date": "2026-06-14",
+      "product": "UWB Module",
+      "score": 91,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "UWB",
+        "Robotics",
+        "Warehouse"
+      ],
+      "summary": "UWB enables centimeter-level accuracy for automated warehouse robots.",
+      "url": "https://iottechnews.com/news/uwb-warehouse-2026/"
+    },
+    {
+      "title": "Radar sensors for elderly fall detection",
+      "source": "Health IoT",
+      "date": "2026-06-14",
+      "product": "Radar Sensor",
+      "score": 89,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "Radar",
+        "Healthcare",
+        "Elderly"
+      ],
+      "summary": "24GHz radar sensors provide privacy-preserving fall detection for elderly care.",
+      "url": "https://health-iot.com/radar-elderly-2026/"
     },
     {
       "title": "Creality Sermoon S1 review – Part 3: 3D scanning with Khadas Mind 2 and NVIDIA GeForce RTX 5060 Ti 16GB dock",
@@ -537,6 +1916,47 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Creality Sermoon S1 review – Part 3: 3D scanning with Khadas Mind 2 and NVIDIA GeForce RTX 5060 Ti 16GB dock\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/06/14/creality-sermoon-s1-review-part-3-3d-scanning-with-khadas-mind-2-and-nvidia-geforce-rtx-5060-ti-16gb-dock/"
+    },
+    {
+      "title": "Bluetooth Mesh lighting at 1000+ node scale",
+      "source": "Silicon Labs",
+      "date": "2026-06-13",
+      "product": "BLE Module",
+      "score": 92,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE Mesh",
+        "Lighting",
+        "Smart Building"
+      ],
+      "summary": "Deploying BLE Mesh for commercial lighting with 1000 nodes.",
+      "url": "https://www.silabs.com/blog/ble-mesh-scale-2026/"
+    },
+    {
+      "title": "NB-IoT vs LoRa 2026 cost analysis",
+      "source": "IoT Now",
+      "date": "2026-06-13",
+      "product": "Cellular IoT Module",
+      "score": 90,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "NB-IoT",
+        "LoRa",
+        "Cost Analysis"
+      ],
+      "summary": "Updated cost comparison for LPWAN in smart metering.",
+      "url": "https://iot-now.com/2026/06/13/nb-iot-lora-2026/"
     },
     {
       "title": "Fortior FU75xx dual-core motor control MCU family combines 32-bit RISC-V core with 2nd-gen Motor Engine (ME2) core",
@@ -565,6 +1985,65 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Fortior FU75xx dual-core motor control MCU family combines 32-bit RISC-V core with 2nd-gen Motor Engine (ME2) core\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/06/12/fortior-fu75xx-dual-core-motor-control-mcu-family-combines-32-bit-risc-v-core-with-2nd-generation-motor-engine-me2-core/"
+    },
+    {
+      "title": "Smart agriculture LoRa and solar power",
+      "source": "RAKwireless",
+      "date": "2026-06-12",
+      "product": "LoRa Module",
+      "score": 91,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "LoRa",
+        "Agriculture",
+        "Solar"
+      ],
+      "summary": "Solar-powered LoRaWAN nodes achieve 5-year battery life.",
+      "url": "https://news.rakwireless.com/solar-lora-agriculture/"
+    },
+    {
+      "title": "WiFi 6E modules for industrial IoT",
+      "source": "Nordic",
+      "date": "2026-06-12",
+      "product": "WiFi Module",
+      "score": 89,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "WiFi 6E",
+        "Industrial IoT"
+      ],
+      "summary": "New WiFi 6E modules reduce interference in factory automation.",
+      "url": "https://www.nordicsemi.com/news/wifi-6e-industrial/"
+    },
+    {
+      "title": "Secure boot for ARM IoT devices",
+      "source": "ARM",
+      "date": "2026-06-12",
+      "product": "IoT Security",
+      "score": 87,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Security",
+        "Secure Boot",
+        "IoT"
+      ],
+      "summary": "Best practices for secure boot on ARM Cortex-M IoT devices.",
+      "url": "https://developer.arm.com/news/secure-boot-2026/"
     },
     {
       "title": "Global tech leaders converge in Berlin to set new AI directions for Europe’s €1.5 trillion tech economy",
@@ -669,6 +2148,47 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "SONOFF BASIC-1GSP Matter over WiFi smart switch supports DIN rail mounting, real-time energy monitoring\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/06/11/sonoff-basic-1gsp-matter-over-wifi-smart-switch-supports-din-rail-mounting-real-time-energy-monitoring/"
+    },
+    {
+      "title": "mmWave radar for presence detection",
+      "source": "Infineon",
+      "date": "2026-06-11",
+      "product": "Radar Sensor",
+      "score": 88,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Radar",
+        "mmWave",
+        "Presence"
+      ],
+      "summary": "60GHz mmWave radar vs PIR for human presence detection.",
+      "url": "https://www.infineon.com/news/mmwave-radar-2026/"
+    },
+    {
+      "title": "IoT device certification FCC/CE/SRRC",
+      "source": "IoT Cert",
+      "date": "2026-06-11",
+      "product": "IoT Industry",
+      "score": 86,
+      "formats": [
+        "LinkedIn"
+      ],
+      "platforms": [
+        "LinkedIn"
+      ],
+      "tags": [
+        "Certification",
+        "FCC",
+        "CE",
+        "Compliance"
+      ],
+      "summary": "Updated guide for global IoT device certification in 2026.",
+      "url": "https://iot-certification.com/guide/2026/"
     },
     {
       "title": "PZSDR P047 RF-ADC and RF-DAC high-end SDR board is based on AMD Zynq UltraScale+ ZU47DR RFSoC (Crowdfunding)",
@@ -804,395 +2324,6 @@
       "url": "https://www.cnx-software.com/2026/06/10/nanopi-m6v2-rk3588s-sbc-gains-support-for-dual-analog-microphone-input/"
     },
     {
-      "title": "Epiroc and Ericsson partner to accelerate industrial transformation in mining with LTE and 5G connectivity",
-      "source": "IoT Now",
-      "date": "2026-06-09",
-      "product": "BLE Module",
-      "score": 85,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Epiroc and Ericsson are joining forces through a global agreement to scale LTE and 5G connectivity for the mining industry. Under the agreement, Epiroc will offer Ericsson’s technology through its … Continued The post Epiroc and Ericsson partner to accelerate...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Epiroc and Ericsson partner to accelerate industrial transformation in mining with LTE and 5G connectivity\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/06/09/156968-epiroc-and-ericsson-partner-to-accelerate-industrial-transformation-in-mining-with-lte-and-5g-connectivity/"
-    },
-    {
-      "title": "Private 5G goes underground in Ericsson and Epiroc mining deal",
-      "source": "IoT Tech News",
-      "date": "2026-06-09",
-      "product": "Cellular IoT Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "NB-IoT",
-        "Cat.1",
-        "Cellular IoT"
-      ],
-      "value": "Useful for turning current industry news into content about remote monitoring, logistics, global coverage, and wide-area connected devices.",
-      "summary": "Ericsson and Epiroc are stepping up their joint efforts to push private 5G into the mining world. Getting a steady stream of data down into these subterranean spaces is tough. The conditions are brutal on both the human crews working there and the tech they...",
-      "hook": "Wide-area IoT starts with the right connectivity choice.",
-      "post": "Private 5G goes underground in Ericsson and Epiroc mining deal\n\nThis is a useful signal for IoT brands and product teams watching Cellular IoT Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
-      "url": "https://iottechnews.com/news/private-5g-underground-in-ericsson-and-epiroc-mining-deal/"
-    },
-    {
-      "title": "Origin Energy and Landis+Gyr bring large-scale smart gas technology to Australian homes and businesses",
-      "source": "IoT Now",
-      "date": "2026-06-08",
-      "product": "BLE Module",
-      "score": 85,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Gas customers across Australia could soon see fewer estimated bills, fewer manual meter readings, and a more modern energy service experience as the country’s gas networks begin a large-scale digital … Continued The post Origin Energy and Landis+Gyr bring...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Origin Energy and Landis+Gyr bring large-scale smart gas technology to Australian homes and businesses\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/06/08/156954-origin-energy-and-landisgyr-bring-large-scale-smart-gas-technology-to-australian-homes-and-businesses/"
-    },
-    {
-      "title": "IoT Now Contract Win List – May 2026",
-      "source": "IoT Now",
-      "date": "2026-06-08",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "The IoT Now Contract Win List for May 2026 shows the Internet of Things contracts placed worldwide and reported in the last months. Get the inside track on who’s winning what … Continued The post IoT Now Contract Win List – May 2026 appeared first on IoT Now...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "IoT Now Contract Win List – May 2026\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/06/08/156857-iot-now-contract-win-list-may-2026/"
-    },
-    {
-      "title": "Matter 2.0 certification expands to industrial IoT devices",
-      "source": "IoT Now",
-      "date": "2026-06-16",
-      "product": "WiFi Module",
-      "score": 90,
-      "formats": [
-        "LinkedIn Post",
-        "Industry Analysis"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Matter 2.0",
-        "Industrial IoT",
-        "Certification",
-        "Smart Home"
-      ],
-      "summary": "Matter 2.0 标准扩展覆盖工业物联网设备类型，新增摄像头和传感器品类认证，对安信可模组出海合规参考价值高。",
-      "url": "https://iot-now.com/2026/06/16/matter-2-0-expands-to-industrial-iot/"
-    },
-    {
-      "title": "Arduino launches new IoT Cloud dashboard with LoRaWAN integration",
-      "source": "Arduino Blog",
-      "date": "2026-06-16",
-      "product": "LoRa Module",
-      "score": 91,
-      "formats": [
-        "LinkedIn Post",
-        "Demo Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "YouTube",
-        "Facebook"
-      ],
-      "tags": [
-        "Arduino",
-        "IoT Cloud",
-        "LoRaWAN",
-        "Developer"
-      ],
-      "summary": "Arduino IoT Cloud 新增 LoRaWAN 集成仪表盘，支持设备可视化和 OTA 管理，开发者社区响应热烈。适合关注 LoRa+云平台的运营内容方向。",
-      "url": "https://blog.arduino.cc/2026/06/16/new-iot-cloud-lorawan-dashboard/"
-    },
-    {
-      "title": "BW16 dual-band WiFi module launched for smart home",
-      "source": "CNX Software",
-      "date": "2026-06-15",
-      "product": "WiFi Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "BW16",
-        "WiFi 6",
-        "Smart Home"
-      ],
-      "summary": "Ai-Thinker BW16 based on RTL8720DN brings dual-band WiFi and BLE 5.0 to IoT devices.",
-      "url": "https://www.cnx-software.com/2026/06/15/bw16/"
-    },
-    {
-      "title": "LoRaWAN gateway deployment guide for agriculture",
-      "source": "TTN",
-      "date": "2026-06-15",
-      "product": "LoRa Module",
-      "score": 92,
-      "formats": [
-        "Tutorial"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "YouTube"
-      ],
-      "tags": [
-        "LoRaWAN",
-        "Agriculture",
-        "Gateway"
-      ],
-      "summary": "Complete guide for agricultural IoT using TTN gateways and sensors.",
-      "url": "https://www.thethingsnetwork.org/article/lorawan-agriculture-2026/"
-    },
-    {
-      "title": "Matter 1.5 brings improved battery life",
-      "source": "Home Assistant",
-      "date": "2026-06-15",
-      "product": "WiFi Module",
-      "score": 90,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Matter",
-        "Smart Home",
-        "Battery"
-      ],
-      "summary": "Matter 1.5 reduces power consumption for battery IoT devices.",
-      "url": "https://www.home-assistant.io/blog/matter-15/"
-    },
-    {
-      "title": "UWB precision positioning in warehouse robotics",
-      "source": "IoT Tech News",
-      "date": "2026-06-14",
-      "product": "UWB Module",
-      "score": 91,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "UWB",
-        "Robotics",
-        "Warehouse"
-      ],
-      "summary": "UWB enables centimeter-level accuracy for automated warehouse robots.",
-      "url": "https://iottechnews.com/news/uwb-warehouse-2026/"
-    },
-    {
-      "title": "Radar sensors for elderly fall detection",
-      "source": "Health IoT",
-      "date": "2026-06-14",
-      "product": "Radar Sensor",
-      "score": 89,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "Radar",
-        "Healthcare",
-        "Elderly"
-      ],
-      "summary": "24GHz radar sensors provide privacy-preserving fall detection for elderly care.",
-      "url": "https://health-iot.com/radar-elderly-2026/"
-    },
-    {
-      "title": "Bluetooth Mesh lighting at 1000+ node scale",
-      "source": "Silicon Labs",
-      "date": "2026-06-13",
-      "product": "BLE Module",
-      "score": 92,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE Mesh",
-        "Lighting",
-        "Smart Building"
-      ],
-      "summary": "Deploying BLE Mesh for commercial lighting with 1000 nodes.",
-      "url": "https://www.silabs.com/blog/ble-mesh-scale-2026/"
-    },
-    {
-      "title": "NB-IoT vs LoRa 2026 cost analysis",
-      "source": "IoT Now",
-      "date": "2026-06-13",
-      "product": "Cellular IoT Module",
-      "score": 90,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "NB-IoT",
-        "LoRa",
-        "Cost Analysis"
-      ],
-      "summary": "Updated cost comparison for LPWAN in smart metering.",
-      "url": "https://iot-now.com/2026/06/13/nb-iot-lora-2026/"
-    },
-    {
-      "title": "Smart agriculture LoRa and solar power",
-      "source": "RAKwireless",
-      "date": "2026-06-12",
-      "product": "LoRa Module",
-      "score": 91,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "LoRa",
-        "Agriculture",
-        "Solar"
-      ],
-      "summary": "Solar-powered LoRaWAN nodes achieve 5-year battery life.",
-      "url": "https://news.rakwireless.com/solar-lora-agriculture/"
-    },
-    {
-      "title": "WiFi 6E modules for industrial IoT",
-      "source": "Nordic",
-      "date": "2026-06-12",
-      "product": "WiFi Module",
-      "score": 89,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "WiFi 6E",
-        "Industrial IoT"
-      ],
-      "summary": "New WiFi 6E modules reduce interference in factory automation.",
-      "url": "https://www.nordicsemi.com/news/wifi-6e-industrial/"
-    },
-    {
-      "title": "Secure boot for ARM IoT devices",
-      "source": "ARM",
-      "date": "2026-06-12",
-      "product": "IoT Security",
-      "score": 87,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Security",
-        "Secure Boot",
-        "IoT"
-      ],
-      "summary": "Best practices for secure boot on ARM Cortex-M IoT devices.",
-      "url": "https://developer.arm.com/news/secure-boot-2026/"
-    },
-    {
-      "title": "mmWave radar for presence detection",
-      "source": "Infineon",
-      "date": "2026-06-11",
-      "product": "Radar Sensor",
-      "score": 88,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Radar",
-        "mmWave",
-        "Presence"
-      ],
-      "summary": "60GHz mmWave radar vs PIR for human presence detection.",
-      "url": "https://www.infineon.com/news/mmwave-radar-2026/"
-    },
-    {
-      "title": "IoT device certification FCC/CE/SRRC",
-      "source": "IoT Cert",
-      "date": "2026-06-11",
-      "product": "IoT Industry",
-      "score": 86,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Certification",
-        "FCC",
-        "CE",
-        "Compliance"
-      ],
-      "summary": "Updated guide for global IoT device certification in 2026.",
-      "url": "https://iot-certification.com/guide/2026/"
-    },
-    {
       "title": "Smart city parking with LoRaWAN",
       "source": "Semtech",
       "date": "2026-06-10",
@@ -1273,6 +2404,31 @@
       "url": "https://www.qorvo.com/news/uwb-retail/"
     },
     {
+      "title": "Epiroc and Ericsson partner to accelerate industrial transformation in mining with LTE and 5G connectivity",
+      "source": "IoT Now",
+      "date": "2026-06-09",
+      "product": "BLE Module",
+      "score": 85,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Epiroc and Ericsson are joining forces through a global agreement to scale LTE and 5G connectivity for the mining industry. Under the agreement, Epiroc will offer Ericsson’s technology through its … Continued The post Epiroc and Ericsson partner to accelerate...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Epiroc and Ericsson partner to accelerate industrial transformation in mining with LTE and 5G connectivity\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/06/09/156968-epiroc-and-ericsson-partner-to-accelerate-industrial-transformation-in-mining-with-lte-and-5g-connectivity/"
+    },
+    {
       "title": "BLE beacon battery life to 10+ years",
       "source": "Bluetooth SIG",
       "date": "2026-06-09",
@@ -1293,1246 +2449,29 @@
       "url": "https://www.bluetooth.com/news/ble-beacon-battery/"
     },
     {
-      "title": "NB-IoT smart metering in Asia",
-      "source": "Huawei",
-      "date": "2026-06-08",
+      "title": "Private 5G goes underground in Ericsson and Epiroc mining deal",
+      "source": "IoT Tech News",
+      "date": "2026-06-09",
       "product": "Cellular IoT Module",
-      "score": 87,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "NB-IoT",
-        "Smart Meter",
-        "Asia"
-      ],
-      "summary": "Large-scale NB-IoT smart meter deployments across Asia.",
-      "url": "https://www.huawei.com/en/news/nb-iot-meters/"
-    },
-    {
-      "title": "TinyML on microcontrollers edge AI",
-      "source": "Edge Impulse",
-      "date": "2026-06-08",
-      "product": "AI",
-      "score": 85,
-      "formats": [
-        "Tutorial"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "YouTube"
-      ],
-      "tags": [
-        "TinyML",
-        "Edge AI",
-        "Microcontrollers"
-      ],
-      "summary": "Deploying ML models on resource-constrained microcontrollers.",
-      "url": "https://www.edgeimpulse.com/blog/tinyml-2026/"
-    },
-    {
-      "title": "Water quality monitoring with LoRa",
-      "source": "Seeed Studio",
-      "date": "2026-06-08",
-      "product": "Sensor",
-      "score": 83,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Water Quality",
-        "Sensors",
-        "Environment"
-      ],
-      "summary": "Open-source water quality monitoring with LoRa connectivity.",
-      "url": "https://www.seeedstudio.com/blog/water-quality-iot/"
-    },
-    {
-      "title": "RFID and IoT for smart warehouse",
-      "source": "Zebra",
-      "date": "2026-06-07",
-      "product": "IoT Industry",
-      "score": 86,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "RFID",
-        "Warehouse",
-        "Automation"
-      ],
-      "summary": "Combining RFID and IoT for real-time warehouse tracking.",
-      "url": "https://www.zebra.com/news/smart-warehouse/"
-    },
-    {
-      "title": "LPWAN comparison LoRa Sigfox NB-IoT",
-      "source": "IoT Analytics",
-      "date": "2026-06-07",
-      "product": "IoT Industry",
-      "score": 84,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "LPWAN",
-        "Comparison",
-        "IoT"
-      ],
-      "summary": "Comprehensive comparison of LPWAN technologies for IoT.",
-      "url": "https://iot-analytics.com/lpwan-2026/"
-    },
-    {
-      "title": "Matter protocol in building automation",
-      "source": "CSA",
-      "date": "2026-06-07",
-      "product": "WiFi Module",
-      "score": 82,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Matter",
-        "Building Automation",
-        "BMS"
-      ],
-      "summary": "Matter adoption in commercial building automation systems.",
-      "url": "https://csa-iot.org/news/matter-building/"
-    },
-    {
-      "title": "Solar-powered LoRa asset tracking",
-      "source": "Abeeway",
-      "date": "2026-06-06",
-      "product": "LoRa Module",
-      "score": 83,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "LoRa",
-        "Asset Tracking",
-        "Solar"
-      ],
-      "summary": "Solar-powered LoRa trackers for long-term asset monitoring.",
-      "url": "https://www.abeeway.com/news/solar-lora/"
-    },
-    {
-      "title": "Industrial IoT security framework 2026",
-      "source": "IEC",
-      "date": "2026-06-06",
-      "product": "IoT Security",
-      "score": 81,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "IIoT",
-        "Security",
-        "Standards"
-      ],
-      "summary": "Updated security framework for industrial IoT deployments.",
-      "url": "https://www.iec.ch/news/iiot-security/"
-    },
-    {
-      "title": "Smart retail with BLE beacons",
-      "source": "Estimote",
-      "date": "2026-06-05",
-      "product": "BLE Module",
-      "score": 84,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "BLE",
-        "Retail",
-        "Beacons"
-      ],
-      "summary": "Proximity marketing and analytics with BLE beacon deployments.",
-      "url": "https://estimote.com/blog/smart-retail-ble/"
-    },
-    {
-      "title": "WiFi 7 preview for IoT applications",
-      "source": "Qualcomm",
-      "date": "2026-06-05",
-      "product": "WiFi Module",
-      "score": 82,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "WiFi 7",
-        "IoT",
-        "Preview"
-      ],
-      "summary": "Early look at WiFi 7 capabilities for next-gen IoT devices.",
-      "url": "https://www.qualcomm.com/news/wifi7-iot/"
-    },
-    {
-      "title": "Air quality monitoring networks",
-      "source": "AirVisual",
-      "date": "2026-06-05",
-      "product": "Sensor",
       "score": 80,
       "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Air Quality",
-        "Sensors",
-        "Environment"
-      ],
-      "summary": "City-wide air quality monitoring with low-cost sensors.",
-      "url": "https://www.airvisual.com/news/air-quality/"
-    },
-    {
-      "title": "Predictive maintenance vibration sensors",
-      "source": "ST",
-      "date": "2026-06-04",
-      "product": "Sensor",
-      "score": 83,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Maintenance",
-        "Vibration",
-        "Industrial"
-      ],
-      "summary": "MEMS vibration sensors for machine health monitoring.",
-      "url": "https://www.st.com/news/predictive-maintenance/"
-    },
-    {
-      "title": "Smart grid communication protocols",
-      "source": "IEEE",
-      "date": "2026-06-04",
-      "product": "IoT Industry",
-      "score": 81,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Smart Grid",
-        "Communication",
-        "Standards"
-      ],
-      "summary": "Communication protocols for next-gen smart grid systems.",
-      "url": "https://www.ieee.org/news/smart-grid/"
-    },
-    {
-      "title": "IoT in healthcare remote monitoring",
-      "source": "Health IT",
-      "date": "2026-06-04",
-      "product": "IoT Industry",
-      "score": 79,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Healthcare",
-        "Remote Monitoring",
-        "IoT"
-      ],
-      "summary": "Growth of remote patient monitoring using connected devices.",
-      "url": "https://healthcare-it.com/remote-monitoring/"
-    },
-    {
-      "title": "Edge computing architectures IoT",
-      "source": "Edge World",
-      "date": "2026-06-03",
-      "product": "IoT Industry",
-      "score": 82,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Edge Computing",
-        "Architecture",
-        "IoT"
-      ],
-      "summary": "Designing edge architectures for large-scale IoT deployments.",
-      "url": "https://edgecomputingworld.com/architectures/"
-    },
-    {
-      "title": "Drone-based sensors smart farming",
-      "source": "Precision Ag",
-      "date": "2026-06-03",
-      "product": "Sensor",
-      "score": 80,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Drones",
-        "Agriculture",
-        "Sensors"
-      ],
-      "summary": "Multispectral drone sensors for crop health monitoring.",
-      "url": "https://precisionag.com/drone-sensors/"
-    },
-    {
-      "title": "Blockchain for IoT supply chain",
-      "source": "IBM",
-      "date": "2026-06-03",
-      "product": "IoT Industry",
-      "score": 78,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Blockchain",
-        "Supply Chain",
-        "IoT"
-      ],
-      "summary": "Blockchain for transparent IoT device supply chain tracking.",
-      "url": "https://www.ibm.com/news/blockchain-iot/"
-    },
-    {
-      "title": "Digital twins for manufacturing",
-      "source": "Siemens",
-      "date": "2026-06-02",
-      "product": "IoT Industry",
-      "score": 81,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Digital Twin",
-        "Manufacturing",
-        "Industry 4.0"
-      ],
-      "summary": "Implementing digital twin technology for smart manufacturing.",
-      "url": "https://www.siemens.com/news/digital-twin/"
-    },
-    {
-      "title": "Low-power design for IoT sensors",
-      "source": "ARM",
-      "date": "2026-06-02",
-      "product": "IoT Industry",
-      "score": 79,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Low Power",
-        "Sensors",
-        "Design"
-      ],
-      "summary": "Sub-uA sleep current techniques for IoT sensor nodes.",
-      "url": "https://developer.arm.com/news/low-power-iot/"
-    },
-    {
-      "title": "V2X connected vehicles communication",
-      "source": "5GAA",
-      "date": "2026-06-02",
-      "product": "Cellular IoT Module",
-      "score": 77,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "V2X",
-        "Connected Vehicles",
-        "5G"
-      ],
-      "summary": "Vehicle-to-everything communication standards and deployment.",
-      "url": "https://5gaa.org/news/v2x/"
-    },
-    {
-      "title": "GPS trackers for child safety",
-      "source": "Jiobit",
-      "date": "2026-06-01",
-      "product": "GPS Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "GPS",
-        "Child Safety",
-        "Wearables"
-      ],
-      "summary": "GPS tracking solutions for child and elderly safety.",
-      "url": "https://www.jiobit.com/news/gps-safety/"
-    },
-    {
-      "title": "Smart home energy management",
-      "source": "Energy Star",
-      "date": "2026-06-01",
-      "product": "IoT Industry",
-      "score": 78,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Smart Home",
-        "Energy",
-        "Management"
-      ],
-      "summary": "IoT-enabled energy management for residential buildings.",
-      "url": "https://www.energystar.gov/news/smart-home/"
-    },
-    {
-      "title": "Wearable health devices 2026 trends",
-      "source": "Wearable World",
-      "date": "2026-06-01",
-      "product": "IoT Industry",
-      "score": 76,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Wearables",
-        "Health",
-        "Trends"
-      ],
-      "summary": "2026 trends in wearable health monitoring devices.",
-      "url": "https://wearableworld.com/health-trends/"
-    },
-    {
-      "title": "Underwater IoT acoustic modems",
-      "source": "Subsea IoT",
-      "date": "2026-05-31",
-      "product": "IoT Industry",
-      "score": 79,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Underwater",
-        "Acoustic",
-        "Ocean"
-      ],
-      "summary": "Acoustic communication for underwater IoT sensor networks.",
-      "url": "https://subsea-iot.com/acoustic-modems/"
-    },
-    {
-      "title": "Smart waste management systems",
-      "source": "Bigbelly",
-      "date": "2026-05-31",
-      "product": "IoT Industry",
-      "score": 77,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Smart City",
-        "Waste",
-        "Sensors"
-      ],
-      "summary": "IoT-enabled smart bins for efficient waste collection.",
-      "url": "https://www.bigbelly.com/news/smart-waste/"
-    },
-    {
-      "title": "Animal tracking with LoRa wildlife",
-      "source": "Wildlife C",
-      "date": "2026-05-31",
-      "product": "LoRa Module",
-      "score": 75,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "LoRa",
-        "Wildlife",
-        "Tracking"
-      ],
-      "summary": "Long-range wildlife tracking using LoRa technology.",
-      "url": "https://wildlifecomputers.com/lora-tracking/"
-    },
-    {
-      "title": "Smart street lighting adaptive control",
-      "source": "Signify",
-      "date": "2026-05-30",
-      "product": "IoT Industry",
-      "score": 78,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Smart Lighting",
-        "Street Light",
-        "Adaptive"
-      ],
-      "summary": "Adaptive street lighting with motion and daylight sensors.",
-      "url": "https://www.signify.com/news/smart-lighting/"
-    },
-    {
-      "title": "HVAC optimization with IoT sensors",
-      "source": "Honeywell",
-      "date": "2026-05-30",
-      "product": "Sensor",
-      "score": 76,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "HVAC",
-        "Building",
-        "Energy"
-      ],
-      "summary": "IoT sensor networks for intelligent HVAC control.",
-      "url": "https://www.honeywell.com/news/hvac-iot/"
-    },
-    {
-      "title": "Fleet management with telematics",
-      "source": "Geotab",
-      "date": "2026-05-30",
-      "product": "IoT Industry",
-      "score": 74,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Fleet",
-        "Telematics",
-        "Vehicles"
-      ],
-      "summary": "Connected vehicle telematics for fleet optimization.",
-      "url": "https://www.geotab.com/news/fleet-telematics/"
-    },
-    {
-      "title": "IoT protocols MQTT vs CoAP comparison",
-      "source": "IoT Pro",
-      "date": "2026-05-29",
-      "product": "IoT Industry",
-      "score": 77,
-      "formats": [
-        "Tutorial"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "MQTT",
-        "CoAP",
-        "Protocols"
-      ],
-      "summary": "Comparing MQTT and CoAP for IoT device communication.",
-      "url": "https://iot-protocols.com/mqtt-coap/"
-    },
-    {
-      "title": "Smart parking with magnetic sensors",
-      "source": "Bosch",
-      "date": "2026-05-29",
-      "product": "Sensor",
-      "score": 75,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Parking",
-        "Sensors",
-        "Smart City"
-      ],
-      "summary": "Wireless magnetic sensors for real-time parking availability.",
-      "url": "https://www.bosch.com/news/smart-parking/"
-    },
-    {
-      "title": "Leak detection in water distribution",
-      "source": "Xylem",
-      "date": "2026-05-29",
-      "product": "Sensor",
-      "score": 73,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Leak Detection",
-        "Water",
-        "Utilities"
-      ],
-      "summary": "Acoustic sensors for detecting leaks in water pipelines.",
-      "url": "https://www.xylem.com/news/leak-detection/"
-    },
-    {
-      "title": "RISC-V gaining momentum in IoT module market",
-      "source": "EE Times",
-      "date": "2026-06-17",
-      "product": "WiFi Module",
-      "score": 92,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "RISC-V",
-        "IoT",
-        "Market Trend",
-        "BL618"
-      ],
-      "summary": "内存芯片短缺反而推动 RISC-V IoT 设备需求，因 RISC-V 芯片供应链更灵活、成本更低，RISC-V 在物联网模组市场加速渗透。",
-      "url": "https://iottechnews.com/news/risc-v-iot-devices-memory-chip-shortage-2026/"
-    },
-    {
-      "title": "WiFi 6 adoption in smart home devices accelerates",
-      "source": "WiFi Alliance",
-      "date": "2026-06-17",
-      "product": "WiFi Module",
-      "score": 90,
-      "formats": [
-        "LinkedIn"
+        "LinkedIn Post",
+        "Sales Material"
       ],
       "platforms": [
         "LinkedIn",
         "Facebook"
       ],
       "tags": [
-        "WiFi 6",
-        "Smart Home",
-        "Adoption",
-        "Matter"
-      ],
-      "summary": "2026 年智能家居趋势：Matter+WiFi 6 成为新设备标配，AI 驱动主动式家庭管理，绿色可持续成为差异化卖点。",
-      "url": "https://www.technerdo.com/blog/smart-home-2026-matter-ai-sustainability"
-    },
-    {
-      "title": "Thread Mesh networking practical deployment guide",
-      "source": "Thread Group",
-      "date": "2026-06-17",
-      "product": "WiFi Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn",
-        "Tutorial"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "YouTube"
-      ],
-      "tags": [
-        "Thread",
-        "Mesh",
-        "Smart Home",
-        "Deployment"
-      ],
-      "summary": "2026 年蓝牙 Mesh vs Thread vs Matter 选型指南：三者在智能家居场景的优势与取舍，何时选 Thread 做 Mesh 组网。",
-      "url": "https://akraniq.com/blog/bluetooth-mesh-vs-thread-vs-matter-2026"
-    },
-    {
-      "title": "Zhihe A210 octa-core RISC-V SoC with 12 TOPS NPU powers SoM-based development board",
-      "source": "CNX Software",
-      "date": "2026-06-18",
-      "product": "IoT Industry",
-      "score": 90,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "RISC-V",
-        "NPU",
-        "Edge AI",
-        "SoC"
-      ],
-      "value": "志合 A210 八核 RISC-V SoC 搭载 12 TOPS NPU，面向边缘 AI 推理场景，已发布 SoM 开发套件。",
-      "summary": "4 颗 C920 + 4 颗 C908 核心，12 TOPS NPU，SODIMM 形态 SoM，文档已公开。",
-      "hook": "RISC-V 正在边缘 AI 领域加速超车——12 TOPS NPU，八核异构，这不是 PPT。",
-      "post": "志合 A210 八核 RISC-V SoC 正式亮相：4 颗 C920 核心（最高 2.3GHz）+ 4 颗 C908 核心，内置 12 TOPS NPU。该芯片已应用于 SODIMM 系统级模块开发套件，技术文档全面公开。对于关注 RISC-V 生态的 IoT 开发者来说，这是一个值得追踪的里程碑——边缘 AI 推理不再只属于 ARM。",
-      "url": "https://www.cnx-software.com/2026/06/17/zhihe-a210-octa-core-risc-v-soc-with-12-tops-npu-powers-som-based-development-board/"
-    },
-    {
-      "title": "NTT DOCOMO and TRANSATEL launch Cellular SASE for IoT",
-      "source": "IoT Now",
-      "date": "2026-06-18",
-      "product": "Cellular IoT Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "蜂窝IoT",
-        "SASE",
-        "安全",
-        "连接管理"
-      ],
-      "value": "NTT 与 Zscaler 联合推出面向 IoT 的蜂窝 SASE，为 IoT 模组设备提供内置安全的蜂窝连接。",
-      "summary": "蜂窝 SASE 为 IoT 设备提供内置安全、身份认证和连接管理，降低模组部署的安全集成成本。",
-      "hook": "IoT 安全不能是事后补救——NTT 把 SASE 直接做进了蜂窝连接层。",
-      "post": "NTT DOCOMO 与 TRANSATEL 联合 Zscaler 推出 Cellular SASE for IoT，将安全访问服务边缘直接集成到蜂窝网络层。设备从首次连接即具备零信任安全能力。对于蜂窝 IoT 模组（4G Cat.1 / NB-IoT）的出海部署，这意味着安全合规不再需要额外硬件，直接在连接层完成。",
-      "url": "https://iot-now.com/2026/06/17/157054-ntt-docomo-business-and-transatel-launch-cellular-sase-for-iot/"
-    },
-    {
-      "title": "Skip the Embedded Filesystem with the TAR-like UTFS Format",
-      "source": "Hackaday",
-      "date": "2026-06-18",
-      "product": "IoT Industry",
-      "score": 86,
-      "formats": [
-        "LinkedIn Post",
-        "Tutorial"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "嵌入式",
-        "文件系统",
-        "MCU",
-        "Flash存储"
-      ],
-      "value": "UTFS 是一种全新的轻量嵌入式文件系统，针对资源受限 MCU 优化，零堆内存使用。",
-      "summary": "C99 实现仅两个源文件，零堆内存分配，SAMD20/ATmega328 已实测，对模组固件开发有参考价值。",
-      "hook": "MCU 上装 FAT 太重？两个文件的微型文件系统，让你的模组固件更轻更快。",
-      "post": "Hackaday 介绍了一个对模组固件开发极具参考价值的项目——UTFS（Micro Tar File System）。类似 TAR 但专为资源受限 MCU 设计：C99 实现、两个源文件、零堆内存。对于在 BLE/WiFi 模组上做数据日志和 OTA 固件管理的开发者来说，这种轻量存储方案可能比 FAT 更适合。",
-      "url": "https://hackaday.com/2026/06/17/skip-the-embedded-filesystem-with-the-tar-like-utfs-format/"
-    },
-    {
-      "title": "Matter 1.6 Introduces NFC-based Commissioning and Core Enhancements",
-      "source": "CNX Software",
-      "date": "2026-06-19",
-      "product": "WiFi Module",
-      "score": 93,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Matter 1.6",
-        "NFC",
-        "标准演进",
-        "智能家居"
-      ],
-      "value": "Matter 1.6 规范发布，新增 NFC 碰触配网、恒温器建议等核心功能增强。NFC 配网将极大降低非技术用户的 IoT 设备初次接入门槛。",
-      "summary": "Matter 1.6 新增 NFC 配网，智能家居设备入网像刷交通卡一样简单。",
-      "hook": "刷一下手机就能配网——Matter 1.6 把 IoT 门槛降到了奶奶也能用的程度。",
-      "post": "CSA 发布 Matter 1.6 规范，最重磅的新功能是 NFC-based Commissioning（碰触配网）。用户只需将手机靠近 Matter 设备即可完成配网，彻底消除了手动输入 WiFi 密码或扫码的痛点。对 Ai-Thinker 的 Matter 模组来说，这意味着终端用户体验的质变——配网环节不再是出货障碍。",
-      "url": "https://www.cnx-software.com/2026/06/19/matter-1-6-specification-adds-nfc-based-commissioning-thermostat-suggestions-various-core-enhancements/"
-    },
-    {
-      "title": "Qualcomm Promises Major Reset with Linux 2.0 for Dragonwing IoT Platforms",
-      "source": "CNX Software",
-      "date": "2026-06-19",
-      "product": "IoT Industry",
-      "score": 86,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Qualcomm",
-        "Linux",
-        "IoT平台",
-        "上游优先"
-      ],
-      "value": "高通宣布 Dragonwing IoT 平台将采用上游优先策略，承诺 Qualcomm Linux 2.0 大幅简化 IoT 设备 Linux 开发。",
-      "summary": "高通 IoT 平台转向上游优先 Linux 策略，不再依赖私有 BSP 补丁。",
-      "hook": "高通的 IoT 大转弯：放下自研 BSP，拥抱上游 Linux——这对模组生态意味着什么？",
-      "post": "Qualcomm 宣布 Dragonwing IoT 平台重大策略转变：全面转向上游优先的 Linux 策略，推出 Qualcomm Linux 2.0。以往开发者需要在高通私有 BSP 补丁上耗费大量适配工作，新方案意味着更多芯片功能将直接进入 Linux 主线。对于 IoT 模组厂商来说，芯片平台的可移植性和长期维护成本是选型关键因素，上游 Linux 支持是一项重要加分项。",
-      "url": "https://www.cnx-software.com/2026/06/19/qualcomm-promises-a-major-reset-with-upstream-first-qualcomm-linux-2-0-for-dragonwing-iot-platforms/"
-    },
-    {
-      "title": "Pine64 Pinevoice: $50 RISC-V Smart Speaker with WiFi/BLE/Zigbee for Home Assistant",
-      "source": "CNX Software",
-      "date": "2026-06-20",
-      "product": "WiFi Module",
-      "score": 90,
-      "formats": [
-        "LinkedIn Post",
-        "Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "YouTube"
-      ],
-      "tags": [
-        "RISC-V",
-        "智能音箱",
-        "WiFi/BLE/Zigbee",
-        "Home Assistant"
-      ],
-      "value": "Pine64 推出 $50 RISC-V 智能音箱 Pinevoice，基于博流 BL606P MCU，集成 WiFi/BLE/Zigbee 三模无线。",
-      "summary": "$50 RISC-V 智能音箱，BL606P MCU 驱动 WiFi/BLE/Zigbee 三模，专为 Home Assistant 设计。",
-      "hook": "$50 的 RISC-V 智能音箱？WiFi+BLE+Zigbee 三模全给——AIoT 硬件的价格天花板又被砸穿了。",
-      "post": "Pine64 发布 Pinevoice RISC-V 智能音箱，售价仅 $50。基于博流 BL606P MCU，内置 WiFi、BLE 和 Zigbee 三模无线，专为 Home Assistant 生态设计。博流是国产 RISC-V MCU 的代表性厂商，这个案例展示了 RISC-V 在智能家居模组市场的真实竞争力——不是 PPT，是你能买到的产品。",
-      "url": "https://www.cnx-software.com/2026/06/20/pine64-pinevoice-a-50-risc-v-smart-speaker-for-home-assistant-based-on-bouffalo-lab-bl606p-mcu/"
-    },
-    {
-      "title": "SpacemiT K3 Pico-ITX RISC-V Board Review: What Works in Bianbu OS 4.0",
-      "source": "CNX Software",
-      "date": "2026-06-21",
-      "product": "IoT Industry",
-      "score": 84,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "RISC-V",
-        "SpacemiT K3",
-        "嵌入式Linux",
-        "开发板"
-      ],
-      "value": "SpacemiT K3 Pico-ITX RISC-V 开发板深度评测第二部分：Bianbu OS 4.0 实测可用与不可用功能。",
-      "summary": "RISC-V 16核 Pico-ITX 开发板实测，Linux 生态正在快速成熟。",
-      "hook": "16 核 RISC-V 迷你板能跑 Linux 了吗？实测结果比预想的要好。",
-      "post": "CNX Software 发布 SpacemiT K3 RISC-V Pico-ITX 开发板评测第二部分，深入测试 Bianbu OS 4.0 的兼容性。结果显示 USB、网络、显示输出等基础功能已经可用，但 GPU 加速和部分外设仍需完善。RISC-V 在嵌入式 Linux 场景的进展速度值得 IoT 模组厂商持续关注——生态成熟意味着未来可选方案更多。",
-      "url": "https://www.cnx-software.com/2026/06/21/spacemit-k3-pico-itx-risc-v-chassis-kit-review-part-2-what-works-what-doesnt-in-bianbu-os-4-0/"
-    },
-    {
-      "title": "ST VL53L9CX Direct ToF 3D LiDAR: 5cm-9m Range with 2.3K Zones for Arduino",
-      "source": "CNX Software",
-      "date": "2026-06-22",
-      "product": "Radar Sensor",
-      "score": 85,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "ToF传感器",
-        "LiDAR",
-        "ST",
-        "Arduino"
-      ],
-      "value": "意法半导体 VL53L9CX 直接飞行时间 3D LiDAR，5cm-9m 测距，2300 分区，已提供 Arduino 库。",
-      "summary": "ST VL53L9CX ToF 传感器：9m 远 3D 测距、2300 分区，Arduino 库已就绪。",
-      "hook": "一颗传感器同时看 2300 个点——ST 把工业级 3D 感知塞进了 Arduino 生态。",
-      "post": "ST 推出 VL53L9CX 直接飞行时间（dToF）3D LiDAR 传感器，支持 5cm 到 9m 测距，2300 分区分辨率。已提供 Arduino 库和示例代码，让开发者可以快速在嵌入式平台上实现 3D 感知。对 Ai-Thinker 的雷达传感器产品线来说，ToF 是毫米波之外的另一条感知技术路线，值得关注生态演进。",
-      "url": "https://www.cnx-software.com/2026/06/22/st-vl53l9cx-direct-time-of-flight-3d-lidar-supports-5cm-to-9m-range-2-3k-zones-resolution/"
-    },
-    {
-      "title": "UTFS Lightweight Zero-allocation File System for Embedded Devices (CNX Feature)",
-      "source": "CNX Software",
-      "date": "2026-06-22",
-      "product": "IoT Industry",
-      "score": 83,
-      "formats": [
-        "LinkedIn Post",
-        "Tutorial"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "嵌入式",
-        "文件系统",
-        "MCU"
-      ],
-      "value": "CNX Software 深度介绍 UTFS 轻量嵌入式文件系统，C99 实现，零堆内存分配。",
-      "summary": "UTFS 嵌入式文件系统获 CNX 推荐，极简设计适配各类 MCU 模组固件开发。",
-      "hook": "FAT 再见？这个不到 1000 行的文件系统正被嵌入式社区热捧。",
-      "post": "CNX Software 详细介绍了 UTFS（Micro Tar File System），这是一款纯 C99 实现的轻量级嵌入式文件系统，零堆内存分配，仅两个源文件。已在 SAMD20 和 ATmega328 上验证通过，相比 FAT 文件系统大幅降低二进制体积和运行开销。对于 Wi-Fi/BLE 模组的 OTA 固件管理和数据日志存储来说，UTFS 提供了一个值得考虑的轻量替代方案。",
-      "url": "https://www.cnx-software.com/2026/06/22/utfs-is-a-lightweight-zero-allocation-file-system-for-embedded-devices/"
-    },
-    {
-      "title": "Nordic nRF54L15 Tag: Coin-cell BLE 6.0 + Channel Sounding + Matter Prototyping Platform",
-      "source": "CNX Software",
-      "date": "2026-06-23",
-      "product": "BLE Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "nRF54L15",
-        "BLE 6.0",
-        "Channel Sounding",
-        "Matter",
-        "Nordic"
-      ],
-      "value": "Nordic 发布 nRF54L15 纽扣电池标签原型平台，支持 BLE 6.0 Channel Sounding、Thread/Zigbee、Matter 和 NFC，Arm M33 + RISC-V 双核。",
-      "summary": "Nordic nRF54L15 Tag：BLE 6.0 + Channel Sounding + Matter + Thread 全栈，纽扣电池供电，定位对标Apple Find My。",
-      "hook": "一颗纽扣电池撑起 BLE 6.0 + Matter + Thread 全栈——Nordic 的新 Tag 方案重新定义了低功耗 IoT 的边界。",
-      "post": "Nordic Semi 推出 nRF54L15 Tag 原型平台：Arm Cortex-M33 @128MHz + RISC-V 协处理器，支持 BLE 6.0（含 Channel Sounding 精确定位）、Thread/Zigbee、Matter、Amazon Sidewalk 和 NFC。纽扣电池供电，33mm 直径，集成 6 轴 IMU 和环境传感器。对 Ai-Thinker 的 BLE 模组产品定位来说，这款芯片代表了下一代 BLE 芯片的能力基准——多协议、超低功耗、Channel Sounding 定位。",
-      "url": "https://www.cnx-software.com/2026/06/23/nordic-nrf54l15-tag-prototyping-platform-supports-bluetooth-channel-sounding-matter-edge-ai/"
-    },
-    {
-      "title": "MYiR MAC-B5760 Edge AI Industrial PC with Rockchip RK3576 + AI Modem Module",
-      "source": "CNX Software",
-      "date": "2026-06-23",
-      "product": "IoT Industry",
-      "score": 82,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Edge AI",
-        "Rockchip",
-        "工业PC",
-        "RK3576"
-      ],
-      "value": "MYiR 推出 MAC-B5760 无风扇 Edge AI 工业 PC，搭载瑞芯微 RK3576 SoC，可选 6 TOPS NPU RK1828 模块。",
-      "summary": "Rockchip RK3576 四核 A72+A53 + 6 TOPS NPU 模块，无风扇 IP40 工业级设计。",
-      "hook": "工业 AI 边缘计算需要什么样的硬件？MYiR 用一块瑞芯微 SoC 给出了标准答案。",
-      "post": "MYiR 发布 MAC-B5760 无风扇 Edge AI 嵌入式工业 PC，基于瑞芯微 RK3576（4×A72 + 4×A53 + Mali-G52 MC3 GPU，自带 6 TOPS NPU）。可选配 RK1828 AI 调制解调器模块增强 LLM/VLM 推理。IP40 防护等级，双千兆网口，专为工业视觉和边缘 AI 推理设计的硬件方案。对 IoT 模组厂商而言，边缘 AI 主机的发展方向值得持续关注。",
-      "url": "https://www.cnx-software.com/2026/06/23/myir-mac-b5760-fanless-edge-ai-industrial-pc-offers-rockchip-rk3576-soc-optional-rk1828-llm-vlm-module/"
-    },
-    {
-      "title": "Aliro: CSA's New Vendor-Agnostic Access Control Standard via NFC, BLE, or UWB",
-      "source": "CNX Software",
-      "date": "2026-06-24",
-      "product": "BLE Module",
-      "score": 91,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Aliro",
-        "NFC",
-        "BLE",
-        "UWB",
-        "门禁控制"
-      ],
-      "value": "CSA 发布 Aliro 智能门禁控制标准，支持 NFC、BLE、UWB 三种通信方式，与 Matter 互补，是 IoT 在安防领域的又一个重磅协议。",
-      "summary": "Aliro 1.0：CSA 管理的智能门禁标准，NFC+BLE+UWB 三模，Nordic/ST/Qualcomm 芯片已支持。",
-      "hook": "Matter 之后又一个 CSA 标准来了——这次是门禁。NFC+BLE+UWB 读懂一扇智能门。",
-      "post": "Connectivity Standards Alliance（Matter 的制定方）推出 Aliro 1.0 智能门禁控制标准，支持 NFC、BLE 和 UWB 三种通信方式。与 Matter 互补：Matter 管智能家居设备，Aliro 管门禁和访问控制。Nordic nRF54L15、ST ST64UWB、Qualcomm FastConnect 8800 等芯片已原生支持。对 BLE 模组和 UWB 模组厂商来说，Aliro 意味着一个新的垂直市场正在标准化——智能门锁、门禁系统、车库门都将是模组出货的新增长点。",
-      "url": "https://www.cnx-software.com/2026/06/24/aliro-is-a-vendor-agnostic-standard-for-digital-access-control-working-over-nfc-bluetooth-le-or-uwb/"
-    },
-    {
-      "title": "BLE Channel Sounding: 蓝牙6.0厘米级定位技术解析",
-      "source": "IoT Times",
-      "date": "2026-06-25",
-      "product": "BLE Module",
-      "score": 90,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "BLE 6.0",
-        "Channel Sounding",
-        "定位",
-        "厘米级"
-      ],
-      "value": "蓝牙6.0 Channel Sounding 利用PBR/RTT实现厘米级定位，有望替代部分UWB场景。Nordic nRF54L15已原生支持。",
-      "summary": "BLE 6.0 Channel Sounding 厘米级定位技术，低功耗+低成本，对标UWB定位市场。",
-      "hook": "蓝牙也能做厘米级定位了——BLE 6.0 的 Channel Sounding 正在改写室内定位的游戏规则。",
-      "post": "BLE 6.0 最大的新特性 Channel Sounding 正式进入工程样片阶段。通过 PBR(Phase-Based Ranging)和 RTT(Round-Trip Time)双重测距，BLE 首次具备了厘米级定位能力。Nordic nRF54L15 是首批支持该特性的芯片。这意味着中低端定位场景可以不用昂贵的 UWB 方案——BLE 模组的市场边界被大幅拓宽了。",
-      "url": "https://www.cnx-software.com/2026/06/23/nordic-nrf54l15-tag-prototyping-platform-supports-bluetooth-channel-sounding-matter-edge-ai/"
-    },
-    {
-      "title": "2026工业IoT无线连接趋势：WiFi 6/6E与5G RedCap的博弈",
-      "source": "Industrial IoT World",
-      "date": "2026-06-25",
-      "product": "WiFi Module",
-      "score": 87,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "WiFi 6",
-        "5G RedCap",
-        "工业IoT",
-        "趋势"
-      ],
-      "value": "工业IoT连接两大趋势：WiFi 6/6E在工厂内网占据主导(低延迟<10ms)，5G RedCap在广域场景替代4G Cat.1。",
-      "summary": "2026工业IoT连接趋势：WiFi 6E统治工厂内网，5G RedCap渗透广域场景。模组选型路线图。",
-      "hook": "工业IoT的无线连接大战：WiFi 6E还是5G RedCap？答案取决于你的设备离基站有多远。",
-      "post": "2026年工业IoT的连接竞选正在白热化：工厂内网场景 WiFi 6/6E 凭借低延迟(<10ms)和成熟生态占据主导，而广域场景 5G RedCap 以更低功耗和广覆盖优势替代 4G Cat.1。对模组厂商来说，双模(WiFi+蜂窝)或将成为工业IoT模组的新标配——一个模组覆盖内网和广域两种连接。",
-      "url": "https://iot-now.com/2026/06/25/industrial-iot-wireless-trends-2026/"
-    },
-    {
-      "title": "LoRaWAN在精准农业中的2026年部署增长报告",
-      "source": "IoT Analytics",
-      "date": "2026-06-26",
-      "product": "LoRa Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "精准农业",
-        "LoRaWAN",
-        "智慧农业",
-        "增长趋势"
-      ],
-      "value": "报告显示2026年LoRaWAN农业部署增长40%+，土壤墒情和大棚环境监测是最大落地场景。",
-      "summary": "报告显示2026年LoRaWAN农业部署增长40%+，土壤墒情和大棚环境监测是最大落地场景。",
-      "hook": "农田也需要5G？不，农田更需要LoRa——2026年农业IoT增长最快的连接技术不是蜂窝，是LoRaWAN。",
-      "post": "IoT Analytics最新报告：2026年LoRaWAN在农业场景的部署增长率超过40%，超越蜂窝IoT成为农业领域增长最快的连接技术。关键应用是土壤墒情监测、大棚环境控制、畜牧追踪。安信可Ra系列LoRa模组直接受益于这一趋势——远距离、低功耗、低成本是农业IoT选型的三大硬指标。",
-      "url": "https://iot-analytics.com/lorawan-agriculture-2026/"
-    },
-    {
-      "title": "离线语音在农业自动化中的应用前景",
-      "source": "AI-Thinker Blog",
-      "date": "2026-06-26",
-      "product": "IoT Industry",
-      "score": 82,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "离线语音",
-        "农业",
-        "自动化",
-        "VC系列"
-      ],
-      "value": "农业场景噪声大、网络信号差，离线语音控制水泵、风机等设备具有天然优势。",
-      "summary": "农业场景噪声大、网络信号差，离线语音控制水泵、风机等设备具有天然优势。",
-      "hook": "农村没网？没关系——离线语音模组正在成为智慧农业的「声控开关」。",
-      "post": "智慧农业的难点之一是大棚/农场网络覆盖差。安信可VC离线语音模组直接在本地执行语音指令——'开启水泵'、'关闭风机'——无需联网。VC-01/02支持最大100条指令词自学习，普通话+方言混合识别。在农业自动化场景中，离线语音可能是比WiFi/BLE更「接地气」的解决方案。",
-      "url": "https://docs.ai-thinker.com/voice_module/"
-    },
-    {
-      "title": "2026 IoT出海趋势：从价格竞争到认证壁垒",
-      "source": "IoT Business News",
-      "date": "2026-06-29",
-      "product": "IoT Industry",
-      "score": 84,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "出海",
-        "认证",
-        "合规",
-        "贸易壁垒"
-      ],
-      "value": "2026年IoT产品出海面临新挑战：欧盟RED指令升级、美国FCC新增网络安全审查。认证正在成为准入壁垒。",
-      "summary": "2026年IoT产品出海面临新挑战：欧盟RED指令升级、美国FCC新增网络安全审查。认证正在成为准入壁垒。",
-      "hook": "低价模组已经不够了——2026年IoT出海的新门票，叫「认证合规」。",
-      "post": "IoT Business News 分析：2026年IoT产品出海的最大障碍不是价格，而是认证合规。欧盟RED指令新增网络安全条款(EN 303 645)，美国FCC可能增加供应链审查。选择已获目标市场认证的模组方案商(如安信可)，可以让终端产品认证周期缩短50%以上。",
-      "url": "https://iotbusinessnews.com/2026/iot-certification-trends/"
-    },
-    {
-      "title": "RISC-V in IoT: 2026年出货量突破10亿颗",
-      "source": "RISC-V International",
-      "date": "2026-06-30",
-      "product": "IoT Industry",
-      "score": 92,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "RISC-V",
-        "出货量",
-        "10亿",
-        "趋势"
-      ],
-      "value": "RISC-V International报告：2026年RISC-V IoT芯片出货量预计突破10亿颗，主要驱动来自智能家居和工业IoT。",
-      "summary": "RISC-V International报告：2026年RISC-V IoT芯片出货量预计突破10亿颗，主要驱动来自智能家居和工业IoT。",
-      "hook": "10亿颗RISC-V芯片进入IoT市场——这不是预测，是正在发生的事。",
-      "post": "RISC-V International 最新报告：2026年RISC-V芯片在IoT领域的出货量将突破10亿颗大关。智能家居和工业IoT是最大增长引擎，博流BL616/618等国产RISC-V芯片方案正在加速这一趋势。安信可Ai-M62/Ai-M64系列模组选的正是这条赛道。",
-      "url": "https://riscv.org/blog/2026/riscv-iot-billion/"
-    },
-    {
-      "title": "AI眼镜/智能手表出货量2026年预测突破2亿台",
-      "source": "IOT-HOT",
-      "date": "2026-07-01",
-      "product": "IoT Industry",
-      "score": 89,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "智能穿戴",
-        "出货量",
-        "AI眼镜",
-        "市场预测"
-      ],
-      "value": "2026年全球AI眼镜和智能手表出货量预计突破2亿台，WiFi+BLE双模连接是标准配置。",
-      "summary": "2026年全球AI眼镜和智能手表出货量预计突破2亿台，WiFi+BLE双模连接是标准配置。",
-      "hook": "2亿台穿戴设备正在醒来——它们全都要连WiFi和蓝牙，你的模组准备好了吗？",
-      "post": "IOT-HOT行业趋势分析：2026年全球智能穿戴设备出货量预计突破2亿台。AI眼镜、智能手表、健康手环三大品类齐头并进，WiFi+BLE双模连接已成标配，单模方案正在被淘汰。安信可WB2系列的WiFi+BLE双模、12μA超低休眠功耗特性，正是穿戴设备对模组的典型需求。",
-      "url": "http://10.1.8.31:2217/trends"
-    },
-    {
-      "title": "光伏储能智能化：新能源IoT市场年增40%+",
-      "source": "IOT-HOT",
-      "date": "2026-07-01",
-      "product": "IoT Industry",
-      "score": 87,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "新能源",
-        "储能",
-        "光伏",
-        "IoT",
-        "市场分析"
-      ],
-      "value": "光伏储能智能化改造需求爆发，年增速超40%，LoRa/WiFi/BLE无线方案正在替代传统有线通信。",
-      "summary": "光伏储能智能化改造需求爆发，年增速超40%，LoRa/WiFi/BLE无线方案正在替代传统有线通信。",
-      "hook": "光伏板下面藏着一块IoT蛋糕——年增40%，LoRa和WiFi模组的又一片蓝海。",
-      "post": "IOT-HOT趋势报告：新能源/储能行业IoT化改造需求年增速超过40%。光伏逆变器、储能BMS、充电桩等设备正在从RS485/CAN有线方案转向WiFi/BLE/LoRa无线方案。安信可LoRa Ra系列模组在光伏电站的千米级监控和WB2系列在户用储能的数据上云场景中均有明确的切入机会。",
-      "url": "http://10.1.8.31:2217/trends"
-    },
-    {
-      "title": "SONOFF Matter over WiFi开关：DIN导轨+32A工业级应用",
-      "source": "IOT-HOT",
-      "date": "2026-07-02",
-      "product": "WiFi Module",
-      "score": 86,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Matter",
-        "智能开关",
-        "DIN",
-        "32A",
-        "工业级"
-      ],
-      "value": "SONOFF Matter over WiFi智能开关支持DIN导轨和32A高功率，Matter协议向工业场景渗透的标志性产品。",
-      "summary": "SONOFF Matter over WiFi智能开关支持DIN导轨和32A高功率，Matter协议向工业场景渗透的标志性产品。",
-      "hook": "Matter不只是智能灯泡——这个32A的DIN导轨开关正在改写游戏规则。",
-      "post": "IOT-HOT报道：SONOFF推出Matter over WiFi智能开关，支持DIN导轨安装和32A高功率电路，适用于电地暖、EV充电等工业级场景。这是Matter协议从消费级走向工业级应用的重要信号——32A的Matter设备意味着模组需要在过流保护、温升控制和可靠性上达到工业标准。",
-      "url": "http://10.1.8.31:2217/scenarios"
-    },
-    {
-      "title": "2026年边缘AI芯片出货量增长300%",
-      "source": "IOT-HOT",
-      "date": "2026-07-03",
-      "product": "IoT Industry",
-      "score": 90,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "边缘AI",
-        "芯片",
-        "增长",
-        "趋势"
-      ],
-      "value": "2026年全球边缘AI芯片出货量预计增长300%，端侧TinyML推理成为模组标配能力。",
-      "summary": "2026年全球边缘AI芯片出货量预计增长300%，端侧TinyML推理成为模组标配能力。",
-      "hook": "边缘AI芯片增长300%——不是云端GPU，是你手里的IoT模组里的那颗小芯片。",
-      "post": "IOT-HOT行业趋势：2026年全球边缘AI芯片出货量预计增长300%。TinyML(微型机器学习)正在成为IoT模组的标配能力——从语音唤醒词识别到振动异常检测到视觉人体识别，端侧AI推理让模组不再是简单的通信管道，而是智能决策节点。安信可BW21-CBV的YOLO视觉识别是这一趋势的典型实践。",
-      "url": "http://10.1.8.31:2217/trends"
+        "NB-IoT",
+        "Cat.1",
+        "Cellular IoT"
+      ],
+      "value": "Useful for turning current industry news into content about remote monitoring, logistics, global coverage, and wide-area connected devices.",
+      "summary": "Ericsson and Epiroc are stepping up their joint efforts to push private 5G into the mining world. Getting a steady stream of data down into these subterranean spaces is tough. The conditions are brutal on both the human crews working there and the tech they...",
+      "hook": "Wide-area IoT starts with the right connectivity choice.",
+      "post": "Private 5G goes underground in Ericsson and Epiroc mining deal\n\nThis is a useful signal for IoT brands and product teams watching Cellular IoT Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
+      "url": "https://iottechnews.com/news/private-5g-underground-in-ericsson-and-epiroc-mining-deal/"
     }
   ]
 }
