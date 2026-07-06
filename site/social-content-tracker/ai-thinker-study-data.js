@@ -1,12 +1,50 @@
 window.aiThinkerStudyData = {
-  "updatedAt": "2026-06-04T08:56:07.791Z",
+  "updatedAt": "2026-07-06T08:31:56.091Z",
   "memoryPath": "C:/Users/Ai/.codex/automations/ai-thinker/memory.md",
-  "totalEntries": 2,
+  "totalEntries": 6,
   "categories": [
-    "ESP32 Wi-Fi + Bluetooth voice module",
-    "LoRa wireless module"
+    "LoRa wireless module",
+    "UWB positioning module",
+    "Radar sensing module",
+    "ESP32 Wi-Fi + Bluetooth voice module"
   ],
   "entries": [
+    {
+      "date": "2026-07-06",
+      "product": "Ra-11",
+      "category": "LoRa wireless module",
+      "source": "https://aithinker-static.oss-cn-shenzhen.aliyuncs.com/docs/media/LoRa_LoRaWAN/Ra-11_Ra-20/Ra-11_V1.0.1_Specification_cn.pdf",
+      "sellingPoint": "LR1121-based LoRa module with Sub-GHz + 2.4GHz LR-FHSS support for long-range IoT sensor nodes and outdoor wireless applications.",
+      "notes": "Covered LoRa/(G)FSK, 470-510MHz and 2400-2500MHz ranges, up to +22dBm at Sub-GHz, SPI, SMD-20 20.0 x 16.0 x 3.2mm, external antenna options, and optional Modem-E LoRaWAN stack wording boundaries.",
+      "runTime": "2026-07-06 15:05:00 +08:00"
+    },
+    {
+      "date": "2026-07-06",
+      "product": "BU04",
+      "category": "UWB positioning module",
+      "source": "https://en.ai-thinker.com/pro_view-157.html",
+      "sellingPoint": "Dual-antenna UWB module for RTLS, asset tracking, personnel safety, and indoor industrial positioning.",
+      "notes": "Covered DW3000 + STM32F103 MCU, TWR/TDOA/PDOA support, up to 10 cm positioning accuracy under suitable deployment conditions, up to 6.8 Mbps data rate, and deployment-dependent accuracy disclaimer.",
+      "runTime": "2026-07-06 15:05:00 +08:00"
+    },
+    {
+      "date": "2026-07-06",
+      "product": "Rd-03H",
+      "category": "Radar sensing module",
+      "source": "https://aithinker-static.oss-cn-shenzhen.aliyuncs.com/docs/Specification/Rd-03H%20Specification%2020250522.pdf",
+      "sellingPoint": "Compact 24GHz FMCW radar module for privacy-friendly human presence sensing without image capture.",
+      "notes": "Covered motion and micro-motion detection, up to 8m open-space sensing, up to +/-60 degree coverage, UART, 35.0 x 7.0mm size, wall/ceiling mounting, and non-medical / environment-dependent wording boundaries.",
+      "runTime": "2026-07-06 15:05:00 +08:00"
+    },
+    {
+      "date": "2026-07-06",
+      "product": "Ra-01SCH-P",
+      "category": "LoRa wireless module",
+      "source": "https://docs.ai-thinker.com/lora/",
+      "sellingPoint": "High-power Sub-GHz LoRa module for remote sensors, metering, smart agriculture, outdoor monitoring, and industrial sensor networks.",
+      "notes": "Covered 803-930MHz, LoRa/FSK/GFSK, SPI, up to +29dBm output power, 17 x 16 x 3.2mm package, and deployment-chain messaging from sensor node to gateway to application.",
+      "runTime": "2026-07-06 15:05:00 +08:00"
+    },
     {
       "date": "2026-06-04",
       "product": "ESP32-A1S",
