@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T02:20:00.000Z",
+  "generatedAt": "2026-07-07T02:40:35.385Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -8,53 +8,118 @@
   ],
   "topics": [
     {
-      "title": "u-blox F11低功耗双频GNSS芯片：LEAP模式仅7mW，对标GPS/GNSS模组市场新基准",
-      "source": "CNX Software",
-      "date": "2026-07-06",
-      "product": "GPS/GNSS Module",
-      "score": 93,
-      "tags": [
-        "GNSS",
-        "低功耗",
-        "双频",
-        "u-blox",
-        "GPS",
-        "位置服务",
-        "Asset Tracking"
-      ],
-      "summary": "u-blox发布F11低功耗双频GNSS平台，LEAP模式下功耗仅7mW。双频L1+L5可消除电离层延迟误差，定位精度达亚米级。这对安信可GPS/GNSS模组产品线有重要对标参考价值——低功耗GNSS是资产追踪和可穿戴设备的关键需求。",
-      "hook": "7mW就能实现双频亚米级定位——低功耗GNSS正在改写资产追踪的电池预算。",
-      "post": "u-blox F11低功耗双频GNSS芯片LEAP模式功耗仅7mW，双频L1+L5消除电离层误差实现亚米级精度。对比单频GNSS方案，双频在城市峡谷和多径环境中定位可靠性提升60%。这对IoT模组选型意味着：电池供电的资产追踪器现在可以用双频GNSS方案了，过去因功耗而妥协精度的时代结束了。安信可GPS/GNSS产品线持续关注这一技术趋势。",
-      "url": "https://www.cnx-software.com/2026/07/06/u-blox-f11-low-power-dual-band-gnss-chips-and-modules-consume-just-7mw-in-leap-mode/",
+      "title": "Radar sensing for privacy-friendly presence detection",
+      "source": "Industry Sensing",
+      "product": "Radar Sensor",
+      "score": 92,
       "formats": [
+        "Short Video",
         "LinkedIn Post",
-        "Sales Material"
+        "Carousel"
       ],
       "platforms": [
         "LinkedIn",
-        "Facebook"
+        "Facebook",
+        "TikTok",
+        "YouTube"
       ],
-      "value": "低功耗双频GNSS是GPS模组升级方向。安信可GPS/GNSS产品线可用于资产追踪、可穿戴设备，本篇提供行业技术趋势对标参考。"
+      "tags": [
+        "Radar",
+        "Presence Detection",
+        "Smart Sensing"
+      ],
+      "value": "Useful for explaining camera-free sensing in elderly care, bathrooms, bedrooms, security, and automation scenarios.",
+      "summary": "Radar content is strongest when it starts from the user problem: reliable presence detection without a camera.",
+      "hook": "Not every sensing solution needs a camera.",
+      "post": "Radar sensing can be explained through practical spaces: bathroom, bedroom, entryway, or care facility. Start with the pain point, then explain why camera-free sensing matters.",
+      "url": "",
+      "date": "2026-07-07"
     },
     {
-      "title": "Calixto Systems AM62L工业自动化STAMP SOM：TI Cortex-A53+R5F双核，RS485+CAN+千兆以太网",
+      "title": "LoRaWAN solution content worth tracking",
+      "source": "RAKwireless",
+      "product": "LoRa Module",
+      "score": 95,
+      "formats": [
+        "LinkedIn Post",
+        "Carousel",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "LoRa",
+        "LoRaWAN",
+        "Gateway"
+      ],
+      "value": "Useful for explaining complete LoRaWAN solutions to B2B users, including modules, gateways, sensor nodes, and cloud workflows.",
+      "summary": "Track how LoRaWAN brands turn hardware into complete deployment stories.",
+      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
+      "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
+      "url": "https://www.linkedin.com/company/rakwireless/",
+      "date": "2026-07-07"
+    },
+    {
+      "title": "ESP32 developer ecosystem angle",
+      "source": "Espressif Systems",
+      "product": "ESP32 Module",
+      "score": 96,
+      "formats": [
+        "LinkedIn Post",
+        "Carousel",
+        "Short Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "YouTube"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for explaining how ESP32 modules support smart devices, control panels, gateways, and rapid prototyping.",
+      "summary": "ESP32 ecosystem content is useful when it turns chip capability into developer workflows and visible demos.",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "ESP32 content works best when it connects the module to a real device workflow: connectivity, control, UI, sensing, and deployment.",
+      "url": "https://www.linkedin.com/company/espressif-systems",
+      "date": "2026-07-07"
+    },
+    {
+      "title": "Matter and smart-home compatibility story",
+      "source": "Home Assistant",
+      "product": "WiFi Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Carousel",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "Matter",
+        "Smart Home",
+        "Interoperability"
+      ],
+      "value": "Useful for smart-home customers who care about compatibility, certification readiness, and faster product development.",
+      "summary": "Smart-home module content should explain compatibility and integration value, not only wireless specs.",
+      "hook": "Smart home buyers are no longer asking only for connectivity. They want compatibility.",
+      "post": "For smart-home devices, wireless modules become more valuable when they reduce integration risk and help products fit into existing ecosystems.",
+      "url": "https://www.home-assistant.io/",
+      "date": "2026-07-07"
+    },
+    {
+      "title": "Tiny Calixto Systems AM62L STAMP SOM targets industrial automation, HMI applications, EV chargers",
       "source": "CNX Software",
       "date": "2026-07-06",
-      "product": "IoT Industry",
-      "score": 88,
-      "tags": [
-        "工业自动化",
-        "SOM",
-        "TI Sitara",
-        "RS485",
-        "CAN",
-        "工业IoT",
-        "HMI"
-      ],
-      "summary": "Calixto Systems推出40×40mm微型STAMP SOM，搭载TI AM62L(Sitara系列, Cortex-A53+Cortex-R5F双核异构架构)。集成RS485、CAN FD、千兆以太网和LVDS显示接口，面向工业HMI、EV充电桩和PLC控制器。Yocto Linux+RT Linux双系统支持实时控制与边缘计算并行。",
-      "hook": "40×40mm的工业SOM塞进双核异构+RS485+CAN+千兆网——工业IoT控制器的「SOM化」正在加速。",
-      "post": "Calixto Systems STAMP SOM搭载TI AM62L，Cortex-A53(1GHz)运行Linux处理边缘计算+HMI界面，Cortex-R5F(800MHz)运行RT Linux处理实时控制。40×40mm封装集成RS485、CAN FD、千兆以太网和LVDS接口。这对IoT模组和工业网关行业来说是个重要信号——SOM正在取代传统DIN导轨PLC的硬件架构，模组化工业控制器将成为趋势。安信可工业IoT模组方案持续关注这一技术演进。",
-      "url": "https://www.cnx-software.com/2026/07/06/tiny-calixto-systems-am62l-stamp-som-targets-industrial-automation-hmi-applications-ev-chargers/",
+      "product": "ESP32 Module",
+      "score": 97,
       "formats": [
         "LinkedIn Post",
         "Sales Material"
@@ -63,7 +128,16 @@
         "LinkedIn",
         "Facebook"
       ],
-      "value": "工业IoT控制器SOM化趋势，安信可工业IoT模组方案可参考此类架构设计。"
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "Calixto Systems has introduced the AM62L STAMP SOM, a tiny (40x40mm) system-on-module around the Texas Instruments AM62L dual-core Arm Cortex-A53 CPU running at up to 1.25 GHz, along with an evaluation kit. Designed for embedded Linux applications, the module...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "Tiny Calixto Systems AM62L STAMP SOM targets industrial automation, HMI applications, EV chargers\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/06/tiny-calixto-systems-am62l-stamp-som-targets-industrial-automation-hmi-applications-ev-chargers/"
     },
     {
       "title": "u-blox F11 low-power dual-band GNSS chips and modules consume just 7mW in LEAP mode",
@@ -117,6 +191,143 @@
       "hook": "A small module can shape the whole connected product experience.",
       "post": "AMD Versal Premium Gen 2 MoP adaptive SoC integrates 32GB LPDDR5X to shrink board footprint by 60%\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/07/06/amd-versal-premium-gen-2-mop-adaptive-soc-integrates-32gb-lpddr5x-to-shrink-board-footprint-by-60/"
+    },
+    {
+      "title": "u-blox F11低功耗双频GNSS芯片：LEAP模式仅7mW，对标GPS/GNSS模组市场新基准",
+      "source": "CNX Software",
+      "date": "2026-07-06",
+      "product": "GPS/GNSS Module",
+      "score": 93,
+      "tags": [
+        "GNSS",
+        "低功耗",
+        "双频",
+        "u-blox",
+        "GPS",
+        "位置服务",
+        "Asset Tracking"
+      ],
+      "summary": "u-blox发布F11低功耗双频GNSS平台，LEAP模式下功耗仅7mW。双频L1+L5可消除电离层延迟误差，定位精度达亚米级。这对安信可GPS/GNSS模组产品线有重要对标参考价值——低功耗GNSS是资产追踪和可穿戴设备的关键需求。",
+      "hook": "7mW就能实现双频亚米级定位——低功耗GNSS正在改写资产追踪的电池预算。",
+      "post": "u-blox F11低功耗双频GNSS芯片LEAP模式功耗仅7mW，双频L1+L5消除电离层误差实现亚米级精度。对比单频GNSS方案，双频在城市峡谷和多径环境中定位可靠性提升60%。这对IoT模组选型意味着：电池供电的资产追踪器现在可以用双频GNSS方案了，过去因功耗而妥协精度的时代结束了。安信可GPS/GNSS产品线持续关注这一技术趋势。",
+      "url": "https://www.cnx-software.com/2026/07/06/u-blox-f11-low-power-dual-band-gnss-chips-and-modules-consume-just-7mw-in-leap-mode/",
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "value": "低功耗双频GNSS是GPS模组升级方向。安信可GPS/GNSS产品线可用于资产追踪、可穿戴设备，本篇提供行业技术趋势对标参考。"
+    },
+    {
+      "title": "Beelink EQi Wildcat Lake Core 3 304 mini PC review – Part 1: Specifications, unboxing, teardown, and first boot",
+      "source": "CNX Software",
+      "date": "2026-07-06",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "We’ve received our first Wildcat Lake hardware for review, as Beelink has sent us an EQi mini PC powered by the Intel Core 3 304 entry-level 5-core processor with a 15 TOPS AI accelerator. The mini PC ships with either 16GB of LPDDR5 (soldered-on) or...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Beelink EQi Wildcat Lake Core 3 304 mini PC review – Part 1: Specifications, unboxing, teardown, and first boot\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/06/beelink-eqi-wildcat-lake-core-3-304-mini-pc-review-part-1-specifications-unboxing-teardown-and-first-boot/"
+    },
+    {
+      "title": "Maersk deploys next‑generation connectivity technology for its reefers",
+      "source": "IoT Now",
+      "date": "2026-07-06",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Maersk has begun the roll-out of its next generation IoT connectivity devices for its fleet of refrigerated containers (reefers). The aim is to install the new devices on all reefers … Continued The post Maersk deploys next‑generation connectivity technology...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Maersk deploys next‑generation connectivity technology for its reefers\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/07/06/157303-maersk-deploys-next-generation-connectivity-technology-for-its-reefers/"
+    },
+    {
+      "title": "Calixto Systems AM62L工业自动化STAMP SOM：TI Cortex-A53+R5F双核，RS485+CAN+千兆以太网",
+      "source": "CNX Software",
+      "date": "2026-07-06",
+      "product": "IoT Industry",
+      "score": 88,
+      "tags": [
+        "工业自动化",
+        "SOM",
+        "TI Sitara",
+        "RS485",
+        "CAN",
+        "工业IoT",
+        "HMI"
+      ],
+      "summary": "Calixto Systems推出40×40mm微型STAMP SOM，搭载TI AM62L(Sitara系列, Cortex-A53+Cortex-R5F双核异构架构)。集成RS485、CAN FD、千兆以太网和LVDS显示接口，面向工业HMI、EV充电桩和PLC控制器。Yocto Linux+RT Linux双系统支持实时控制与边缘计算并行。",
+      "hook": "40×40mm的工业SOM塞进双核异构+RS485+CAN+千兆网——工业IoT控制器的「SOM化」正在加速。",
+      "post": "Calixto Systems STAMP SOM搭载TI AM62L，Cortex-A53(1GHz)运行Linux处理边缘计算+HMI界面，Cortex-R5F(800MHz)运行RT Linux处理实时控制。40×40mm封装集成RS485、CAN FD、千兆以太网和LVDS接口。这对IoT模组和工业网关行业来说是个重要信号——SOM正在取代传统DIN导轨PLC的硬件架构，模组化工业控制器将成为趋势。安信可工业IoT模组方案持续关注这一技术演进。",
+      "url": "https://www.cnx-software.com/2026/07/06/tiny-calixto-systems-am62l-stamp-som-targets-industrial-automation-hmi-applications-ev-chargers/",
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "value": "工业IoT控制器SOM化趋势，安信可工业IoT模组方案可参考此类架构设计。"
+    },
+    {
+      "title": "IoT Now Contract Win List – June 2026",
+      "source": "IoT Now",
+      "date": "2026-07-06",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "The IoT Now Contract Win List for June 2026 shows the Internet of Things contracts placed worldwide and reported in the last months. Get the inside track on who’s winning what … Continued The post IoT Now Contract Win List – June 2026 appeared first on IoT...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "IoT Now Contract Win List – June 2026\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/07/06/157306-iot-now-contract-win-list-june-2026/"
     },
     {
       "title": "Macintosh emulator works on ESP32-P4 display devkits from M5Stack and Waveshare",
@@ -539,31 +750,6 @@
       "url": "http://10.1.8.31:2217/trends"
     },
     {
-      "title": "Sipeed NanoKVM-Go – A 4K USB-C KVM with Recall-like function, AI integration (Crowdfunding)",
-      "source": "CNX Software",
-      "date": "2026-07-01",
-      "product": "BLE Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Sipeed NanoKVM-Go is a 4K USB-C KVM designed to control any USB-C device from anywhere with one cable. It also supports “full screen memory”, a function similar to the controversial Microsoft Recall feature, which enables an AI agent to search through your...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Sipeed NanoKVM-Go – A 4K USB-C KVM with Recall-like function, AI integration (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/07/01/sipeed-nanokvm-go-an-4k-usb-c-kvm-with-recall-like-function-ai-integration/"
-    },
-    {
       "title": "Tele2 IoT and Lenovo Connect partner to power global IoT for automotive and beyond",
       "source": "IoT Now",
       "date": "2026-07-01",
@@ -587,6 +773,31 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Tele2 IoT and Lenovo Connect partner to power global IoT for automotive and beyond\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/07/01/157266-tele2-iot-and-lenovo-connect-partner-to-power-global-iot-for-automotive-and-beyond/"
+    },
+    {
+      "title": "Sipeed NanoKVM-Go – A 4K USB-C KVM with Recall-like function, AI integration (Crowdfunding)",
+      "source": "CNX Software",
+      "date": "2026-07-01",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Sipeed NanoKVM-Go is a 4K USB-C KVM designed to control any USB-C device from anywhere with one cable. It also supports “full screen memory”, a function similar to the controversial Microsoft Recall feature, which enables an AI agent to search through your...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Sipeed NanoKVM-Go – A 4K USB-C KVM with Recall-like function, AI integration (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/01/sipeed-nanokvm-go-an-4k-usb-c-kvm-with-recall-like-function-ai-integration/"
     },
     {
       "title": "光伏储能智能化：新能源IoT市场年增40%+",
@@ -1814,34 +2025,6 @@
       "url": "https://www.cnx-software.com/2026/06/15/bw16/"
     },
     {
-      "title": "Radar sensing for privacy-friendly presence detection",
-      "source": "Industry Sensing",
-      "product": "Radar Sensor",
-      "score": 92,
-      "formats": [
-        "Short Video",
-        "LinkedIn Post",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "Radar",
-        "Presence Detection",
-        "Smart Sensing"
-      ],
-      "value": "Useful for explaining camera-free sensing in elderly care, bathrooms, bedrooms, security, and automation scenarios.",
-      "summary": "Radar content is strongest when it starts from the user problem: reliable presence detection without a camera.",
-      "hook": "Not every sensing solution needs a camera.",
-      "post": "Radar sensing can be explained through practical spaces: bathroom, bedroom, entryway, or care facility. Start with the pain point, then explain why camera-free sensing matters.",
-      "url": "",
-      "date": "2026-06-15"
-    },
-    {
       "title": "LoRaWAN gateway deployment guide for agriculture",
       "source": "TTN",
       "date": "2026-06-15",
@@ -2322,214 +2505,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "OQ Technology and Telefónica Germany launch direct-to-device satellite demo\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/06/10/156975-oq-technology-and-telefonica-germany-launch-direct-to-device-satellite-demo/"
-    },
-    {
-      "title": "Synaptics Astra SRW1500 Cortex-M52 Edge AI MCU features Ethos-U55 NPU, Wi-Fi 6/7, Bluetooth 6.0, 802.15.4 connectivity",
-      "source": "CNX Software",
-      "date": "2026-06-10",
-      "product": "BLE Module",
-      "score": 93,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Synaptics has introduced the Astra SRW1500 Series of AI-native Edge AI MCUs designed for smart IoT edge devices. The family features an Arm Cortex-M52 core, an optional Arm Ethos-U55 Neural Processing Unit (NPU), and tri-band Wi-Fi 7 or Wi-Fi 6, Bluetooth 6.0...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Synaptics Astra SRW1500 Cortex-M52 Edge AI MCU features Ethos-U55 NPU, Wi-Fi 6/7, Bluetooth 6.0, 802.15.4 connectivity\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/06/10/synaptics-astra-srw1500-cortex-m52-edge-ai-mcu-features-ethos-u55-npu-wi-fi-6-7-bluetooth-6-0-802-15-4-connectivity/"
-    },
-    {
-      "title": "NanoPi M6V2 RK3588S SBC gains support for dual analog microphone input",
-      "source": "CNX Software",
-      "date": "2026-06-10",
-      "product": "BLE Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "FriendlyELEC’s NanoPi M6V2 is an update to the NanoPi M6 Rockchip RK3588S SBC, whose main change is a 4-pin connector for dual analog microphone input. The RAM is also now fixed to 8GB (no more 4GB, 16GB, or 32GB options), some buttons have changed, and the...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "NanoPi M6V2 RK3588S SBC gains support for dual analog microphone input\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/06/10/nanopi-m6v2-rk3588s-sbc-gains-support-for-dual-analog-microphone-input/"
-    },
-    {
-      "title": "Smart city parking with LoRaWAN",
-      "source": "Semtech",
-      "date": "2026-06-10",
-      "product": "LoRa Module",
-      "score": 87,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "LoRaWAN",
-        "Smart City",
-        "Parking"
-      ],
-      "summary": "City-wide smart parking deployment using LoRaWAN sensors.",
-      "url": "https://www.semtech.com/blog/smart-parking-lorawan/"
-    },
-    {
-      "title": "OTA firmware updates best practices",
-      "source": "OTA Solutions",
-      "date": "2026-06-10",
-      "product": "IoT Industry",
-      "score": 85,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "OTA",
-        "Firmware",
-        "Security"
-      ],
-      "summary": "Secure over-the-air firmware updates for IoT devices.",
-      "url": "https://ota-solutions.com/best-practices/"
-    },
-    {
-      "title": "Private 5G for industrial automation",
-      "source": "Ericsson",
-      "date": "2026-06-09",
-      "product": "Cellular IoT Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "5G",
-        "Private Network",
-        "Industrial"
-      ],
-      "summary": "Private 5G networks enable ultra-reliable industrial automation.",
-      "url": "https://www.ericsson.com/en/news/private-5g-2026/"
-    },
-    {
-      "title": "UWB for indoor navigation in retail",
-      "source": "Qorvo",
-      "date": "2026-06-09",
-      "product": "UWB Module",
-      "score": 86,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "UWB",
-        "Retail",
-        "Navigation"
-      ],
-      "summary": "UWB enables precise indoor positioning for retail analytics.",
-      "url": "https://www.qorvo.com/news/uwb-retail/"
-    },
-    {
-      "title": "Epiroc and Ericsson partner to accelerate industrial transformation in mining with LTE and 5G connectivity",
-      "source": "IoT Now",
-      "date": "2026-06-09",
-      "product": "BLE Module",
-      "score": 85,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Epiroc and Ericsson are joining forces through a global agreement to scale LTE and 5G connectivity for the mining industry. Under the agreement, Epiroc will offer Ericsson’s technology through its … Continued The post Epiroc and Ericsson partner to accelerate...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Epiroc and Ericsson partner to accelerate industrial transformation in mining with LTE and 5G connectivity\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/06/09/156968-epiroc-and-ericsson-partner-to-accelerate-industrial-transformation-in-mining-with-lte-and-5g-connectivity/"
-    },
-    {
-      "title": "BLE beacon battery life to 10+ years",
-      "source": "Bluetooth SIG",
-      "date": "2026-06-09",
-      "product": "BLE Module",
-      "score": 84,
-      "formats": [
-        "LinkedIn"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "BLE",
-        "Battery",
-        "Beacons"
-      ],
-      "summary": "Techniques for extending BLE beacon battery life.",
-      "url": "https://www.bluetooth.com/news/ble-beacon-battery/"
-    },
-    {
-      "title": "Private 5G goes underground in Ericsson and Epiroc mining deal",
-      "source": "IoT Tech News",
-      "date": "2026-06-09",
-      "product": "Cellular IoT Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "NB-IoT",
-        "Cat.1",
-        "Cellular IoT"
-      ],
-      "value": "Useful for turning current industry news into content about remote monitoring, logistics, global coverage, and wide-area connected devices.",
-      "summary": "Ericsson and Epiroc are stepping up their joint efforts to push private 5G into the mining world. Getting a steady stream of data down into these subterranean spaces is tough. The conditions are brutal on both the human crews working there and the tech they...",
-      "hook": "Wide-area IoT starts with the right connectivity choice.",
-      "post": "Private 5G goes underground in Ericsson and Epiroc mining deal\n\nThis is a useful signal for IoT brands and product teams watching Cellular IoT Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
-      "url": "https://iottechnews.com/news/private-5g-underground-in-ericsson-and-epiroc-mining-deal/"
     }
   ]
 }

@@ -11,6 +11,9 @@ const SOURCES = [
   { name: "IoT Tech News", url: "https://iottechnews.com/feed/" }
 ];
 
+const IOT_HOT_BASE_URL = "http://10.1.8.31:2217";
+const IOT_HOT_PATHS = ["/", "/trends", "/scenarios"];
+const REMOTE_TRACKER_URL = "https://maevehuang10.github.io/ai-social-hot/site/social-content-tracker/topics.json";
 const MAX_TOPICS = 100;
 const MAX_SOURCE_ITEMS = 12;
 
@@ -180,6 +183,96 @@ async function fetchSource(source) {
   }
 }
 
+function parseChineseDate(text) {
+  const match = String(text || "").match(/(\d{4})年\s*(\d{1,2})月\s*(\d{1,2})日/);
+  if (!match) return todayString();
+  return `${match[1]}-${match[2].padStart(2, "0")}-${match[3].padStart(2, "0")}`;
+}
+
+function absoluteUrl(baseUrl, url) {
+  try {
+    return new URL(url, baseUrl).toString();
+  } catch {
+    return baseUrl;
+  }
+}
+
+function readClassText(block, className) {
+  const escaped = className.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const match = block.match(new RegExp(`<[^>]+class=["'][^"']*${escaped}[^"']*["'][^>]*>([\\s\\S]*?)<\\/[^>]+>`, "i"));
+  return match ? stripHtml(match[1]) : "";
+}
+
+function parseIotHotPage(html, pageUrl) {
+  const cards = html.match(/<article[\s\S]*?<\/article>/gi) || [];
+  return cards.map(card => {
+    const titleMatch = card.match(/<h[23][^>]*>[\s\S]*?<a[^>]+href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>[\s\S]*?<\/h[23]>/i);
+    if (!titleMatch) return null;
+
+    const source = readClassText(card, "source-badge") || "IOT-HOT";
+    const dateText = readClassText(card, "mono");
+    const summaries = [...card.matchAll(/<p[^>]+class=["'][^"']*(?:summary-text|line-clamp-2)[^"']*["'][^>]*>([\s\S]*?)<\/p>/gi)]
+      .map(match => stripHtml(match[1]))
+      .filter(Boolean);
+
+    return {
+      title: stripHtml(titleMatch[2]),
+      source,
+      url: absoluteUrl(pageUrl, titleMatch[1]),
+      description: summaries.join(" "),
+      date: parseChineseDate(dateText)
+    };
+  }).filter(item => item && item.title && item.url);
+}
+
+async function fetchText(url) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 12000);
+  try {
+    const res = await fetch(url, {
+      signal: controller.signal,
+      headers: { "User-Agent": "Social Content Tracker/1.0" }
+    });
+    if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+    return await res.text();
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function fetchIotHotTopics() {
+  const items = [];
+
+  for (const path of IOT_HOT_PATHS) {
+    const pageUrl = absoluteUrl(IOT_HOT_BASE_URL, path);
+    try {
+      const html = await fetchText(pageUrl);
+      const parsed = parseIotHotPage(html, pageUrl);
+      console.log(`IOT-HOT ${path}: ${parsed.length} items`);
+      items.push(...parsed);
+    } catch (error) {
+      console.warn(`IOT-HOT ${path}: ${error.message}`);
+    }
+  }
+
+  return dedupe(items).map(toTopic);
+}
+
+async function fetchRemoteTrackerTopics() {
+  try {
+    const json = await fetchText(`${REMOTE_TRACKER_URL}?ts=${Date.now()}`);
+    const data = JSON.parse(json);
+    if (Array.isArray(data.topics)) {
+      console.log(`Remote tracker fallback: ${data.topics.length} topics`);
+      return data.topics.map(withSummary);
+    }
+  } catch (error) {
+    console.warn(`Remote tracker fallback: ${error.message}`);
+  }
+
+  return [];
+}
+
 function classify(item) {
   const haystack = `${item.title} ${item.description}`.toLowerCase();
   const matched = productRules.find(rule => rule.keywords.some(keyword => haystack.includes(keyword)));
@@ -345,8 +438,10 @@ async function main() {
   }
 
   const newTopics = dedupe(fetched).map(toTopic);
+  const fallbackTopics = newTopics.length > 0 ? [] : await fetchIotHotTopics();
+  const remoteTopics = newTopics.length > 0 || fallbackTopics.length > 0 ? [] : await fetchRemoteTrackerTopics();
 
-  const merged = dedupe([...newTopics, ...existingTopics]);
+  const merged = dedupe([...newTopics, ...fallbackTopics, ...remoteTopics, ...existingTopics]);
   merged.sort((a, b) => {
     const dateDiff = new Date(b.date) - new Date(a.date);
     return dateDiff || b.score - a.score;
@@ -363,14 +458,18 @@ async function main() {
 
   const output = JSON.stringify({
     generatedAt: new Date().toISOString(),
-    sourceMode: newTopics.length > 0 ? "rss" : "fallback",
-    sources: SOURCES.map(source => source.name),
+    sourceMode: newTopics.length > 0 ? "rss" : fallbackTopics.length > 0 ? "iot-hot-fallback" : "fallback",
+    sources: [
+      ...SOURCES.map(source => source.name),
+      ...(fallbackTopics.length > 0 ? ["IOT-HOT"] : []),
+      ...(remoteTopics.length > 0 ? ["AI Social Hot Tracker"] : [])
+    ],
     topics: finalTopics
   }, null, 2) + "\n";
 
   await Promise.all(TOPICS_FILES.map(file => writeFile(file, output, "utf8")));
 
-  console.log(`Existing: ${existingTopics.length}, New: ${newTopics.length}, Final: ${finalTopics.length} topics`);
+  console.log(`Existing: ${existingTopics.length}, New: ${newTopics.length}, IOT-HOT: ${fallbackTopics.length}, Remote: ${remoteTopics.length}, Final: ${finalTopics.length} topics`);
   console.log(`Wrote ${finalTopics.length} topics to ${TOPICS_FILES.join(", ")}`);
 }
 
