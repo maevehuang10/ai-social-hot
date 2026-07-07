@@ -276,6 +276,49 @@
       "external": []
     },
     {
+      "id": 5,
+      "title": "LoRaWAN协议栈对接",
+      "covered": true,
+      "official": [
+        {
+          "title": "LoRaWAN协议栈深度解析：Class A/B/C三模式架构与安信可模组适配",
+          "product": "LoRa Module",
+          "summary": "LoRaWAN协议栈三层架构全景：终端设备(End-Device)→网关(Gateway)→网络服务器(Network Server)。Class A(双向通信，下行仅在上行窗口后开放)低功耗最优、Class B(增加定时ping slot实现周期性下行)适用于延迟敏感场景、Class C(持续监听)适用于常供电设备。安信可Ra-08/Ra-11模组全系列支持Class A/B/C三模式，SF7-SF12全扩频因子覆盖，适配全球主要频段规划。",
+          "persona": "IoT嵌入式工程师 · LoRaWAN网络规划者 · 低功耗广域网方案设计",
+          "tags": [
+            "LoRaWAN",
+            "Class A",
+            "Class B",
+            "Class C",
+            "Ra-08",
+            "Ra-11",
+            "协议栈",
+            "LPWAN"
+          ],
+          "url": "https://docs.ai-thinker.com/lora/"
+        },
+        {
+          "title": "LoRaWAN全球频段规划与信道部署实战：安信可Ra系列全适配方案",
+          "product": "LoRa Module",
+          "summary": "全球LoRaWAN频段规划全景：CN470(中国,上行470-510MHz)、EU868(欧洲,上行863-870MHz,1%占空比限制)、US915(美国,上行902-928MHz,64+8信道跳频)、AU915(澳洲)、AS923(亚洲)。安信可Ra-08/Ra-11系列模组通过AT指令一键切换Region参数，支持各区域信道频率、发射功率和占空比约束。典型部署场景：中国智慧农业(CN470,大功率优势)、欧洲智能表计(EU868,严苛占空比需优化上报策略)、北美智慧城市(US915,8信道上行提高并发容量)。LoRaWAN 1.0.4最新标准对漫游和被动漫游的支持解读。",
+          "persona": "IoT产品出海工程师 · 射频工程师 · 无线认证规划 · LoRaWAN网络运营",
+          "tags": [
+            "LoRaWAN",
+            "频段规划",
+            "CN470",
+            "EU868",
+            "US915",
+            "Ra-08",
+            "Ra-11",
+            "出海",
+            "FAE"
+          ],
+          "url": "https://docs.ai-thinker.com/lora/"
+        }
+      ],
+      "external": []
+    },
+    {
       "id": 12,
       "title": "智能家居全场景模组选型",
       "covered": true,

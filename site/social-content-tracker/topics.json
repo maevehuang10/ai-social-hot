@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T06:37:32.638Z",
+  "generatedAt": "2026-07-07T02:20:00.000Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,64 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "u-blox F11低功耗双频GNSS芯片：LEAP模式仅7mW，对标GPS/GNSS模组市场新基准",
+      "source": "CNX Software",
+      "date": "2026-07-06",
+      "product": "GPS/GNSS Module",
+      "score": 93,
+      "tags": [
+        "GNSS",
+        "低功耗",
+        "双频",
+        "u-blox",
+        "GPS",
+        "位置服务",
+        "Asset Tracking"
+      ],
+      "summary": "u-blox发布F11低功耗双频GNSS平台，LEAP模式下功耗仅7mW。双频L1+L5可消除电离层延迟误差，定位精度达亚米级。这对安信可GPS/GNSS模组产品线有重要对标参考价值——低功耗GNSS是资产追踪和可穿戴设备的关键需求。",
+      "hook": "7mW就能实现双频亚米级定位——低功耗GNSS正在改写资产追踪的电池预算。",
+      "post": "u-blox F11低功耗双频GNSS芯片LEAP模式功耗仅7mW，双频L1+L5消除电离层误差实现亚米级精度。对比单频GNSS方案，双频在城市峡谷和多径环境中定位可靠性提升60%。这对IoT模组选型意味着：电池供电的资产追踪器现在可以用双频GNSS方案了，过去因功耗而妥协精度的时代结束了。安信可GPS/GNSS产品线持续关注这一技术趋势。",
+      "url": "https://www.cnx-software.com/2026/07/06/u-blox-f11-low-power-dual-band-gnss-chips-and-modules-consume-just-7mw-in-leap-mode/",
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "value": "低功耗双频GNSS是GPS模组升级方向。安信可GPS/GNSS产品线可用于资产追踪、可穿戴设备，本篇提供行业技术趋势对标参考。"
+    },
+    {
+      "title": "Calixto Systems AM62L工业自动化STAMP SOM：TI Cortex-A53+R5F双核，RS485+CAN+千兆以太网",
+      "source": "CNX Software",
+      "date": "2026-07-06",
+      "product": "IoT Industry",
+      "score": 88,
+      "tags": [
+        "工业自动化",
+        "SOM",
+        "TI Sitara",
+        "RS485",
+        "CAN",
+        "工业IoT",
+        "HMI"
+      ],
+      "summary": "Calixto Systems推出40×40mm微型STAMP SOM，搭载TI AM62L(Sitara系列, Cortex-A53+Cortex-R5F双核异构架构)。集成RS485、CAN FD、千兆以太网和LVDS显示接口，面向工业HMI、EV充电桩和PLC控制器。Yocto Linux+RT Linux双系统支持实时控制与边缘计算并行。",
+      "hook": "40×40mm的工业SOM塞进双核异构+RS485+CAN+千兆网——工业IoT控制器的「SOM化」正在加速。",
+      "post": "Calixto Systems STAMP SOM搭载TI AM62L，Cortex-A53(1GHz)运行Linux处理边缘计算+HMI界面，Cortex-R5F(800MHz)运行RT Linux处理实时控制。40×40mm封装集成RS485、CAN FD、千兆以太网和LVDS接口。这对IoT模组和工业网关行业来说是个重要信号——SOM正在取代传统DIN导轨PLC的硬件架构，模组化工业控制器将成为趋势。安信可工业IoT模组方案持续关注这一技术演进。",
+      "url": "https://www.cnx-software.com/2026/07/06/tiny-calixto-systems-am62l-stamp-som-targets-industrial-automation-hmi-applications-ev-chargers/",
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "value": "工业IoT控制器SOM化趋势，安信可工业IoT模组方案可参考此类架构设计。"
+    },
     {
       "title": "u-blox F11 low-power dual-band GNSS chips and modules consume just 7mW in LEAP mode",
       "source": "CNX Software",
