@@ -397,6 +397,88 @@
       ]
     },
     {
+      "id": 7,
+      "title": "雷达+离线语音combo方案",
+      "covered": true,
+      "official": [
+        {
+          "title": "雷达+离线语音 Combo 方案全景：Rd系列感知触发 + VC系列语音播报的二合一架构",
+          "product": "Combo Solution",
+          "summary": "安信可雷达+离线语音二合一方案将Rd系列雷达模组的人体/微动感知能力与VC系列离线语音模组的本地播报能力深度融合，实现「感知→决策→播报」全链路离线化。架构核心：①Rd-04(10GHz多普勒)/Rd-6X(60GHz FMCW)雷达模组作为感知层，通过UART将检测结果(有人/无人/距离/人数)实时推送→②MCU主控层融合雷达数据与场景逻辑(SDK封装状态机)→③VC-02离线语音模组执行本地播报(如'欢迎光临'/'请注意台阶'/'老人离床超过30分钟')。三大技术优势：全链路离线运行(无网络依赖，隐私安全)、雷达无感触发(无需人工操作，比按键/触摸更自然)、<100ms端到端响应延迟(雷达检测到语音播报完成)。Rd-04+VC-01低配方案(<¥15 BOM增量)和Rd-61+VC-02高配方案(<¥30 BOM增量)两档选型建议。",
+          "persona": "智能终端产品经理 · 安防/康养方案商 · 离线语音+传感集成开发者",
+          "tags": [
+            "雷达",
+            "离线语音",
+            "Combo",
+            "Rd-04",
+            "Rd-6X",
+            "VC-02",
+            "人体感应",
+            "语音播报"
+          ],
+          "url": "https://docs.ai-thinker.com/radar/"
+        },
+        {
+          "title": "雷达+离线语音 Combo 实战：智能迎宾/安防联动/康养提醒三大落地场景",
+          "product": "Combo Solution",
+          "summary": "三大典型落地场景的完整方案设计：①智能迎宾：Rd-04雷达检测顾客靠近门口(0-3m)→VC-02播报定制欢迎语+促销信息，可穿透玻璃门安装，替代传统红外对射方案(红外仅能检测穿过，无法感知停留意图)。②安防联动：Rd-61(60GHz FMCW)识别可疑徘徊行为(反复折返>3次/2分钟阈值)→VC-02本地威慑语音('您已进入监控区域，请速离开')+可选NB-IoT远程报警，隐私合规(不传视频不传音频，本地执行)。③康养提醒：Rd-6X实时监测老人位置与活动状态→离床>30分钟自动触发VC-02语音提示('请及时回床休息')+向护工终端推送告警。BOM设计要点：Rd系列3.3V供电，VC系列5V供电，需LDO或双路电源设计；雷达与语音模组UART冲突解决方案(使用SW UART或MUX切换)；外壳声学设计(雷达天线区域不可有金属遮挡，语音扬声器需开孔)。",
+          "product_bak": "Combo Solution",
+          "persona": "智能硬件方案商 · 商业空间智能化 · 养老机构IoT部署 · 安防产品公司",
+          "tags": [
+            "雷达",
+            "离线语音",
+            "Combo",
+            "迎宾",
+            "安防",
+            "康养",
+            "落地场景",
+            "BOM设计"
+          ],
+          "url": "https://docs.ai-thinker.com/radar/"
+        }
+      ],
+      "external": [
+        {
+          "title": "u-blox F11 Low-Power Dual-Band GNSS: Just 7mW in LEAP Mode, Redefining Battery-Powered Positioning",
+          "source": "CNX Software",
+          "product": "GNSS Module",
+          "score": 90,
+          "tags": [
+            "GNSS",
+            "u-blox",
+            "低功耗",
+            "双频",
+            "LEAP",
+            "F11"
+          ],
+          "summary": "u-blox发布F11平台系列低功耗GNSS芯片和模块，支持L1/L5双频段定位，在LEAP（低功耗精确定位）模式下功耗仅约7mW，目标应用涵盖资产追踪、可穿戴设备、无人机和微出行等电池供电场景。为GNSS模组设定了新的低功耗标杆。",
+          "hook": "双频GNSS定位只要7mW——这个功耗数字，能把GPS追踪器塞进任何电池供电的设备里。",
+          "post": "u-blox F11系列低功耗双频GNSS芯片和模块在LEAP模式下功耗仅7mW，支持L1/L5双频定位。这对安信可GPS模组产品线是一个值得关注的行业标杆：7mW功耗意味着钮扣电池也能驱动双频GNSS持续工作，资产追踪和畜牧定位场景的续航能力将迎来数量级提升。同时，F11系列内置干扰抑制和抗欺骗功能，在工业级和车载定位场景中的鲁棒性也显著增强。安信可若能在GPS模组中实现类似功耗水平的方案，将在农产品追溯、冷链物流追踪、个人定位器等电池供电定位市场中建立差异化优势。",
+          "url": "https://www.cnx-software.com/2026/07/06/u-blox-f11-low-power-dual-band-gnss-chips-and-modules-consume-just-7mw-in-leap-mode/",
+          "date": "2026-07-06"
+        },
+        {
+          "title": "BIGTREETECH Panda Sense Pro: 8-in-1 Air Quality Monitor with WiFi/MQTT + Home Assistant Integration",
+          "source": "CNX Software",
+          "product": "IoT Sensor",
+          "score": 83,
+          "tags": [
+            "传感器融合",
+            "空气质量",
+            "WiFi",
+            "MQTT",
+            "Home Assistant",
+            "PM2.5"
+          ],
+          "summary": "BIGTREETECH Panda Sense Pro 面向 3D 打印环境的 8 合 1 智能空气质量监测器，集成激光颗粒物传感器、NDIR CO₂传感器和电化学甲醛传感器，通过 2.4GHz WiFi 和 MQTT 与 Home Assistant 智能家居平台集成。展示了传感器融合 + 无线连接的典型 IoT 产品形态。",
+          "hook": "一个3D打印用的空气质量监测器，里面塞了8种传感器——IoT产品正在从「连接」走向「感知」。",
+          "post": "BIGTREETECH Panda Sense Pro 将激光PM2.5、NDIR CO₂、电化学甲醛、TVOC、温湿度等8种传感器集成到一个WiFi+MQTT设备中，配合Home Assistant实现全屋环境自动化。对安信可的启示：传感器融合正在成为IoT模组的下一阶段需求——客户不只需要一个WiFi/BLE连接模组，还需要模组方案商能提供传感器驱动库、数据融合算法和云平台对接的完整SDK。雷达产品线的Rd系列如果能在模组层面预集成常用传感器驱动(温湿度/光照/CO₂等)，将大幅降低客户开发门槛。",
+          "url": "https://www.cnx-software.com/2026/07/04/bigtreetech-panda-sense-pro-8-in-1-smart-air-quality-monitor-works-with-home-assistant-and-klipper-for-3d-printers/",
+          "date": "2026-07-04"
+        }
+      ]
+    },
+    {
       "id": 12,
       "title": "智能家居全场景模组选型",
       "covered": true,
