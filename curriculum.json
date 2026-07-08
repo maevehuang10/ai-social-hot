@@ -319,6 +319,84 @@
       "external": []
     },
     {
+      "id": 6,
+      "title": "Rd-04/Rd-6X 10G+60G雷达",
+      "covered": true,
+      "official": [
+        {
+          "title": "Rd-04 10GHz多普勒雷达模组深度解析：非接触式人体感应原理与工程落地",
+          "product": "Radar Sensor",
+          "summary": "安信可Rd-04系列基于10.525GHz多普勒雷达芯片，实现非接触式人体存在与微动检测。核心原理：发射10.525GHz连续波→人体移动产生多普勒频移→混频器提取低频信号→MCU算法判定有人/无人/微动。相比传统PIR红外传感器有三点颠覆性优势：①可穿透非金属材质(塑料/玻璃/薄木板/石膏板)实现隐蔽安装 ②静止人体也能检测(呼吸产生的微弱胸腔微动) ③不受环境温度/光线/灰尘影响全天候工作。感应距离3-8m可调，感应角度±60°，UART/GPIO双输出接口，模块尺寸仅35×7mm。典型落地方案：智能灯控(人来灯亮人走灯灭，比PIR更灵敏无延时)→安防报警(隐蔽安装+穿透外壳)→康养监测(呼吸频率计算+离床/跌倒判断)。Rd-04与Rd-03H的差异：Rd-03H为24GHz FMCW支持测距，Rd-04为10.525GHz多普勒侧重成本优化和简单存在检测。",
+          "persona": "雷达传感器方案商 · 智能照明产品经理 · 康养IoT设备开发者",
+          "tags": [
+            "Rd-04",
+            "10GHz",
+            "多普勒雷达",
+            "人体感应",
+            "微动检测",
+            "非接触",
+            "PIR替代"
+          ],
+          "url": "https://docs.ai-thinker.com/radar/"
+        },
+        {
+          "title": "Rd-6X 60GHz毫米波FMCW雷达：精准测距、多目标跟踪与空间占位感知",
+          "product": "Radar Sensor",
+          "summary": "安信可Rd-6X系列采用60GHz FMCW(调频连续波)毫米波雷达技术，相比10GHz多普勒雷达实现了从'有人/无人'二元判断到'几个人、在哪里、往哪走'的多维度空间感知。核心技术栈：①FMCW线性调频信号通过中频FFT获取距离分辨率(可达cm级)→②MIMO多天线阵列(1T2R或2T4R)实现角度估计(DOA)→③CFAR恒虚警检测+DBSCAN聚类算法实现多目标检测与持续跟踪(ID保持)。关键性能指标：最大探测距离15m，距离分辨率<5cm，角度分辨率<10°，最多同时跟踪8个移动/静止目标。区别于Rd-04的三大升级：精准距离测量(非仅感知有无)、多人同时区分与计数、静止人体持续定位不丢失。典型应用场景：智能空调(人数+位置定向送风，分区控温)→会议室/办公室占位管理(实时空位统计+使用率分析)→康养跌倒检测(轨迹速度异常+高度突变双判策略+自动告警)→零售客流分析(进店人数+热力图+停留时间)。Rd-6X系列包含Rd-60(基础单目标)、Rd-61(多目标)和Rd-62(远距离)三个子型号，对应不同性能梯度和成本层次。",
+          "persona": "毫米波雷达方案商 · 智慧楼宇产品经理 · 人群感知算法工程师",
+          "tags": [
+            "Rd-6X",
+            "60GHz",
+            "FMCW",
+            "毫米波",
+            "多目标跟踪",
+            "占位感知",
+            "跌倒检测",
+            "MIMO"
+          ],
+          "url": "https://docs.ai-thinker.com/radar/"
+        }
+      ],
+      "external": [
+        {
+          "title": "Reverse Engineering the OBI Smart Energy Tracker: 868MHz LoRa + MQTT Self-Hosted IoT",
+          "source": "Hackaday",
+          "product": "LoRa Module",
+          "score": 87,
+          "tags": [
+            "LoRa",
+            "868MHz",
+            "MQTT",
+            "逆向工程",
+            "自托管",
+            "能源监测"
+          ],
+          "summary": "Hackaday报道对德国OBI智能能源追踪器的完整逆向工程：ARM Cortex-M0+ MCU通过868MHz LoRa无线通信将电表读数传输到网关，原作者成功破解私有协议并实现本地MQTT服务器完全自托管，摆脱云端依赖。验证了LoRa在家庭能源监测场景中穿墙通信的可行性和去云化IoT方案的用户需求。",
+          "hook": "OBI卖的这个智能电表追踪器里面跑的是LoRa——有人把它全逆向了出来，云端直接换成了本地MQTT。",
+          "post": "Hackaday报道了对德国OBI智能能源追踪器的完整逆向工程。该设备采用868MHz LoRa无线通信将电表数据从传感器节点(BAT32G135 ARM Cortex-M0+ MCU)传输到网关，原作者[Aaron Christophel]成功破解私有通信协议并搭建了本地MQTT服务器实现完全自托管。这对安信可Ra系列LoRa模组在智能表计/能源监测场景有两个启示：一是LoRa在家庭穿墙场景中完全胜任(电表箱→室内网关)，二是用户对数据主权(不依赖厂商云)的需求正在催生自托管/本地化IoT方案，LoRa+私有MQTT是低成本实现路径。",
+          "url": "https://hackaday.com/2026/07/07/reverse-engineering-and-self-hosting-the-obi-smart-energy-tracker/"
+        },
+        {
+          "title": "Calixto Systems AM62L STAMP SOM: 40x40mm Industrial Automation Module for HMI and EV Chargers",
+          "source": "CNX Software",
+          "product": "IoT Industry",
+          "score": 84,
+          "tags": [
+            "工业自动化",
+            "SOM",
+            "AM62L",
+            "HMI",
+            "EV充电",
+            "40x40mm"
+          ],
+          "summary": "Calixto Systems推出仅40x40mm的STAMP SOM系统模块，搭载TI AM62L双核Cortex-A53处理器，支持CAN-FD/千兆以太网/LVDS接口，目标工业自动化HMI和EV充电桩控制。代表IoT模组从纯通信向'通信+边缘算力'合一的演进方向。",
+          "hook": "一块40×40mm的板子能驱动工业HMI和EV充电桩——IoT模组正在吃掉传统PLC的地盘。",
+          "post": "CNX Software报道Calixto Systems基于TI AM62L处理器的40×40mm STAMP SOM系统模块。双核Cortex-A53(最高1.4GHz)搭配3D GPU，支持CAN-FD、千兆以太网和LVDS显示接口，目标工业自动化HMI和EV充电桩控制。对安信可模组产品线的参考意义：工业IoT正在从单纯的通信模组(WiFi/BLE/LoRa/NB-IoT)向'通信+边缘计算'二合一的AIoT模组演进。安信可BW21-CBV的AI视觉能力、Ai-M62系列的WiFi6+RISC-V算力组合，正是踩在这条'通信不纯通信'的技术路径上。",
+          "url": "https://www.cnx-software.com/2026/07/06/tiny-calixto-systems-am62l-stamp-som-targets-industrial-automation-hmi-applications-ev-chargers/"
+        }
+      ]
+    },
+    {
       "id": 12,
       "title": "智能家居全场景模组选型",
       "covered": true,

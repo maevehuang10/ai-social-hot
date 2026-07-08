@@ -1,10 +1,11 @@
 {
-  "generatedAt": "2026-07-07T02:40:35.385Z",
+  "generatedAt": "2026-07-08T01:20:00.000Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
     "IoT Now",
-    "IoT Tech News"
+    "IoT Tech News",
+    "Hackaday"
   ],
   "topics": [
     {
@@ -2505,6 +2506,67 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "OQ Technology and Telefónica Germany launch direct-to-device satellite demo\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/06/10/156975-oq-technology-and-telefonica-germany-launch-direct-to-device-satellite-demo/"
+    },
+    {
+      "title": "Reverse Engineering and Self-Hosting the OBI Smart Energy Tracker: 868MHz LoRa + MQTT",
+      "source": "Hackaday",
+      "date": "2026-07-07",
+      "product": "LoRa Module",
+      "score": 87,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "LoRa",
+        "868MHz",
+        "MQTT",
+        "逆向工程",
+        "自托管",
+        "能源监测"
+      ],
+      "value": "Useful for turning reverse-engineering / self-hosted IoT story into LoRa module content about smart metering, energy monitoring, and data sovereignty.",
+      "summary": "Hackaday reporter reverse-engineers the OBI Smart Energy Tracker: ARM Cortex-M0+ reads power meter pulses, sends data via 868MHz LoRa to gateway, then cracks proprietary protocol and replaces cloud with local MQTT server — proving LoRa viability for in-home energy monitoring and user demand for self-hosted IoT.",
+      "hook": "OBI's smart meter tracker runs on LoRa — and someone just reverse-engineered the entire thing to run on local MQTT instead of the cloud.",
+      "post": "Reverse Engineering and Self-Hosting the OBI Smart Energy Tracker: 868MHz LoRa + MQTT\n\nThis is a useful signal for IoT brands and product teams watching LoRa Module opportunities in smart metering and energy monitoring.\n\nFor overseas social content, the story can focus on data sovereignty, self-hosted IoT, and how LoRa modules enable low-cost in-home energy monitoring without cloud dependency.\n\nSource: Hackaday",
+      "url": "https://hackaday.com/2026/07/07/reverse-engineering-and-self-hosting-the-obi-smart-energy-tracker/"
+    },
+    {
+      "title": "Calixto Systems AM62L STAMP SOM: 40x40mm Industrial Automation Module for HMI and EV Chargers",
+      "source": "CNX Software",
+      "date": "2026-07-06",
+      "product": "IoT Industry",
+      "score": 84,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "工业自动化",
+        "SOM",
+        "AM62L",
+        "HMI",
+        "EV充电",
+        "边缘AI"
+      ],
+      "value": "Useful for turning industrial SOM news into content about IoT module evolution from pure communication to communication+edge-compute convergence.",
+      "summary": "Calixto Systems launches 40x40mm STAMP SOM with TI AM62L dual-core Cortex-A53, CAN-FD, GbE, and LVDS — targeting industrial automation HMI and EV charger control. Signals the trend of IoT modules evolving into compute-capable edge nodes.",
+      "hook": "A 40x40mm system-on-module driving industrial HMIs and EV chargers — IoT modules are eating into traditional PLC territory.",
+      "post": "Calixto Systems AM62L STAMP SOM: 40x40mm Industrial Automation Module for HMI and EV Chargers\n\nThis is a useful signal for IoT brands and product teams watching the convergence of wireless connectivity and edge computing in industrial automation.\n\nFor overseas social content, the story can focus on how BLE/WiFi modules are evolving into AIoT compute nodes — and why communication-only modules may no longer be enough in Industry 4.0.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/06/tiny-calixto-systems-am62l-stamp-som-targets-industrial-automation-hmi-applications-ev-chargers/"
     }
   ]
 }
