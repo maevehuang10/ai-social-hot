@@ -479,6 +479,68 @@
       ]
     },
     {
+      "id": 8,
+      "title": "VC离线语音深入",
+      "covered": true,
+      "official": [
+        {
+          "title": "VC系列离线语音模组深度解析：唤醒词自学习机制与声学前端处理",
+          "product": "Voice Module",
+          "summary": "安信可VC系列离线语音模组（VC-01/VC-02/VC-04）核心技术栈全解析：①唤醒词自学习机制——支持用户在本地通过3次语音录入完成自定义唤醒词训练，无需云端重训练，算法采用轻量级CNN+DTW联合决策，单次推理<50ms，唤醒率>95%（<3m安静环境）。②声学前端处理管線：麦克风阵列自适应波束成形(双麦/三麦)→AEC回声消除(参考信号自适应滤波)→NS降噪(谱减法+RNN)→AGC自动增益。③离线ASR引擎支持100-300条固定指令词识别，中英文混合，方言自适应（粤语/四川话/闽南语等8种方言）。④VC-01(基础单麦,100指令)/VC-02(双麦AEC,200指令)/VC-04(三麦远场,300指令)三档选型指南。对比云端语音方案（如天猫精灵/DuerOS），离线方案的三大优势：零延迟(<100ms端到端)、隐私安全(音频不出设备)、断网可用(无WiFi依赖)。",
+          "persona": "语音IoT产品经理 · 智能家电声学工程师 · 离线语音方案集成商",
+          "tags": [
+            "VC系列",
+            "离线语音",
+            "唤醒词自学习",
+            "AEC",
+            "波束成形",
+            "CNN+DTW",
+            "方言识别"
+          ],
+          "url": "https://docs.ai-thinker.com/voice_module/"
+        },
+        {
+          "title": "VC离线语音AEC回声消除实战：双麦阵列降噪与远场拾音方案",
+          "product": "Voice Module",
+          "summary": "离线语音场景中AEC(声学回声消除)是最大的工程难题——设备自身扬声器播放的音频会被麦克风重新拾取，形成回声闭环。安信可VC-02/VC-04的AEC实战方案：①双麦阵列物理布局优化——主麦(MIC0)靠近用户，副麦(MIC1)靠近扬声器作为参考通道，麦克风间距>35mm确保参考信号与目标信号的空间区分度。②AEC算法管線：参考信号延迟对齐→自适应NLMS滤波器(128-256阶,收敛<500ms)→双讲检测(DTD,区分近端语音+远端回声共存状态)→残余回声抑制(RES,非线性处理+包络检测)。③远场拾音方案：VC-04三麦圆形阵列240°波束覆盖→MVDR波束成形主瓣5-8m有效拾取距离→侧瓣抑制>15dB。④工程落地踩坑清单：麦克风密封胶影响频响(需在1kHz以下预留-3dB补偿)、扬声器振动传导至PCB导致低频串扰(需加泡棉隔振)、USB电源纹波导致底噪(需LC滤波>60dB ripple rejection)。⑤典型产品形态：VC-02用于智能音箱(双麦AEC+3m拾音)→VC-04用于智能中控屏(三麦远场+5m拾音)→VC-01用于开关面板(单麦近场+触控唤醒替代)。",
+          "persona": "声学工程师 · 智能硬件结构设计 · 离线语音产品方案商",
+          "tags": [
+            "AEC",
+            "回声消除",
+            "双麦阵列",
+            "远场拾音",
+            "NLMS",
+            "波束成形",
+            "MVDR",
+            "VC-02",
+            "VC-04"
+          ],
+          "url": "https://docs.ai-thinker.com/voice_module/"
+        }
+      ],
+      "external": [
+        {
+          "title": "Norik Systems nRF9151 USB Dongle: DECT NR+ Non-Cellular 5G IoT Gateway for Long-Range Mesh Networks",
+          "source": "CNX Software",
+          "product": "Cellular IoT Module",
+          "score": 86,
+          "tags": [
+            "DECT NR+",
+            "nRF9151",
+            "5G IoT",
+            "Mesh",
+            "LPWAN",
+            "USB Dongle"
+          ],
+          "summary": "Norik Systems推出基于Nordic nRF9151 SiP的USB Dongle，支持DECT NR+非蜂窝5G IoT标准，工作在1.9GHz频段，Mesh/Star/P2P拓扑，支持百万级节点组网，为长距离低功耗IoT提供新的无线协议选项。",
+          "hook": "DECT NR+——一个你可能没听说过的5G IoT标准，但Nordic已经在出货了。USB Dongle形态，百万节点组网，NB-IoT的潜在对手。",
+          "post": "Norik Systems基于Nordic nRF9151 SiP的USB Dongle将DECT NR+(非蜂窝5G IoT标准)带到开发者手中。DECT NR+工作在1.9GHz，Mesh/Star/P2P拓扑支持百万级节点，是面向大规模工业IoT和智慧城市的长距离低功耗无线新选项。与NB-IoT对比：DECT NR+无需SIM卡和运营商服务费，适合私有部署的大规模传感器网络。对安信可蜂窝产品线（NB-IoT/Cat.1）的参考价值：DECT NR+代表了一个新兴的免授权5G IoT频谱方案，未来可能在某些私有网络场景中与NB-IoT/Cat.1形成互补。",
+          "url": "https://www.cnx-software.com/2026/07/09/norik-systems-introduces-nrf9151-based-usb-dongle-for-dect-nr-deployments/",
+          "date": "2026-07-09"
+        }
+      ]
+    },
+    {
       "id": 12,
       "title": "智能家居全场景模组选型",
       "covered": true,
