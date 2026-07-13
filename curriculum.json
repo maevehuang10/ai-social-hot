@@ -541,6 +541,94 @@
       ]
     },
     {
+      "id": 9,
+      "title": "NB-IoT详解",
+      "covered": true,
+      "official": [
+        {
+          "title": "NB-IoT PSM与eDRX省电机制深度解析：让IoT设备续航十年的核心技术",
+          "product": "Cellular IoT Module",
+          "summary": "NB-IoT两大省电机制全景对比：①PSM(省电模式)——设备进入深度休眠，关闭射频和大部分电路，仅RTC保持计时，功耗低至3-5μA。设备周期性唤醒(TAU周期可设54min~310h)主动上报数据后才打开下行接收窗口。适用于水表/气表/环境传感器等被动上报型场景。②eDRX(扩展不连续接收)——设备周期性监听寻呼信道，eDRX周期最长可达2.92h(对比传统DRX仅2.56s)。功耗约50-100μA(休眠期间)，唤醒后20-50ms内可接收下行数据。适用于需要服务器随时下发指令的准实时场景(如路灯控制/阀门远程关闭)。③PSM vs eDRX选型决策树：上报频率>每小时一次→PSM；需要<10min响应下行命令→eDRX；混合模式(PSM为主+eDRX时间窗口)实现电池寿命与实时性折中。④安信可NB-IoT模组对PSM/eDRX/T3412/T3324定时器的完整AT命令支持(AT+CPSMS/AT+CEDRXS/AT+NPTWEDRXS)，开发者可灵活配置省电策略。",
+          "persona": "NB-IoT设备开发工程师 · 低功耗方案设计者 · 智能表计/消防产品经理",
+          "tags": [
+            "NB-IoT",
+            "PSM",
+            "eDRX",
+            "低功耗",
+            "省电机制",
+            "T3412",
+            "T3324",
+            "TAU",
+            "安信可NB-IoT"
+          ],
+          "url": "https://docs.ai-thinker.com/nb-iot/"
+        },
+        {
+          "title": "安信可NB-IoT模组实战：从AT指令到三大云平台对接全流程",
+          "product": "Cellular IoT Module",
+          "summary": "安信可NB-IoT模组的完整应用开发链路：①硬件上电——3.1-4.2V宽压供电, IPEX/U.FL天线接口(推荐850/900MHz频段天线, VSWR<2.0), SIM卡支持(3V/1.8V自适应, 支持eSIM)。②AT指令入网流程——AT+CFUN=1(全功能)→AT+NBAND=8(锁定B8 900MHz)→AT+CGATT=1(附着网络)→AT+CEREG?(查询EPS注册状态)。③三大云平台对接：电信天翼物联(CTWing/CoAP协议/AT+COAP系列指令)→华为OceanConnect(LwM2M协议/AT+QLW系列指令)→阿里云IoT(MQTT协议/AT+QMTCFG+QMTOPEN+QMTCONN)。④典型数据上报间隔与功耗实测表：每1h报一次(PSM)→年均功耗约18μA(1500mAh锂电池>8年)；每15min报一次(eDRX)→年均功耗约85μA(1500mAh锂电池>3年)。⑤NB-IoT模组选型建议：安信可NB系列支持Band3/5/8(国内运营商全覆盖), 上行峰值62.5kbps, 下行峰值26.15kbps, 适用于低带宽/低频次/深覆盖的IoT数传场景。",
+          "persona": "NB-IoT终端开发者 · 电信/华为/阿里云IoT平台对接工程师 · 智能表计OEM厂商",
+          "tags": [
+            "NB-IoT",
+            "AT指令",
+            "CoAP",
+            "LwM2M",
+            "MQTT",
+            "天翼物联",
+            "华为云",
+            "阿里云",
+            "功耗实测",
+            "安信可NB"
+          ],
+          "url": "https://docs.ai-thinker.com/nb-iot/"
+        }
+      ],
+      "external": [
+        {
+          "title": "Ambient Scientific GPX10 Pro MCU: Years of Always-On AI on a Coin-Cell Battery at <100μW",
+          "source": "CNX Software",
+          "product": "IoT Industry",
+          "score": 89,
+          "tags": [
+            "Edge AI",
+            "ultra-low-power",
+            "coin-cell",
+            "MCU",
+            "Cortex-M4F",
+            "NPU",
+            "IoT"
+          ],
+          "summary": "Ambient Scientific 推出 GPX10 Pro AI MCU，搭载10颗可编程MX8 AI核心，总功耗<100μW，可在纽扣电池供电下运行数年边缘AI推理。Cortex-M4F主核(100MHz)+2048KB SRAM，支持CNN/RNN/LSTM等标准神经网络，ADC精度16-bit(14-bit ENOB,<5μW@20KS/s)，集成8-bit DVP摄像头接口。超低功耗ADC和传感器融合能力对NB-IoT传感器节点的边缘预处理有参考价值。",
+          "hook": "一颗纽扣电池跑几年AI——这个<100μW的MCU，正在把边缘AI塞进任何没有电源的地方。",
+          "post": "Ambient Scientific GPX10 Pro 将10颗AI核心和Cortex-M4F MCU集成到一颗<100μW的SoC中，512GOPS@100MHz算力，效率>7TOP/W。对安信可NB-IoT模组产品线来说，这种超低功耗AI能力意味着未来的NB-IoT传感器节点不仅能在PSM模式下省电运行多年，还能在本地进行振动异常检测/声音事件分类/简单图像识别——在不增加功耗预算的前提下实现从纯数据透传到边缘智能的升级。",
+          "url": "https://www.cnx-software.com/2026/07/13/ambient-scientific-gpx10-pro-mcu-delivers-years-of-always-on-ai-on-a-coin-cell-battery/",
+          "date": "2026-07-13"
+        },
+        {
+          "title": "RAKwireless WisMesh Station Review: Meshtastic LoRa Gateway with Local MQTT/Node-RED/Grafana IoT Stack",
+          "source": "CNX Software",
+          "product": "LoRa Module",
+          "score": 86,
+          "tags": [
+            "LoRa",
+            "Meshtastic",
+            "MQTT",
+            "Grafana",
+            "Node-RED",
+            "网关",
+            "SX1262",
+            "nRF52840",
+            "IoT网关"
+          ],
+          "summary": "RAKwireless WisMesh Station 基于树莓派4 + SX1262 LoRa模块构建的Meshtastic网关评测(日文)。支持22dBm标准型号和30dBm(1W)高功率型号，内置GNSS，预装meshtasticd。评测者成功搭建本地化MQTT+Node-RED+InfluxDB+Grafana全栈IoT数据可视化管线，全程无需云服务。附带WisMesh Pocket V2(nRF52840+SX1262,带BME680传感器)和WisMesh Tag(GNSS追踪,IP66)节点测试。",
+          "hook": "一个LoRa网关+MQTT+Grafana，全程不依赖任何云服务——本地化IoT数据栈的最简架构，一套树莓派4全搞定。",
+          "post": "RAKwireless WisMesh Station评测展示了一套完整的本地化IoT数据链路：传感器节点(BME680)→LoRa Mesh(Meshtastic/SX1262)→网关(树莓派4)→本地服务器(MQTT+Node-RED+InfluxDB+Grafana)→可视化仪表盘。零云端依赖，全链路本地化。对安信可Ra系列LoRa模组来说，这种本地化IoT网关架构是LoRa在工业物联网中的重要部署模式——LoRa负责远距低功耗数据采集，本地网关负责数据处理与可视化，适合对数据主权和隐私有要求的工业/农业场景。",
+          "url": "https://www.cnx-software.com/2026/07/13/wismesh-station-review-telemetry-mqtt-and-grafana-tested-on-a-raspberry-pi-4-based-meshtastic-gateway/",
+          "date": "2026-07-13"
+        }
+      ]
+    },
+    {
       "id": 12,
       "title": "智能家居全场景模组选型",
       "covered": true,
