@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T04:32:50.692Z",
+  "generatedAt": "2026-07-13T04:38:35.699Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -8,30 +8,30 @@
   ],
   "topics": [
     {
-      "title": "LoRaWAN solution content worth tracking",
-      "source": "RAKwireless",
-      "product": "LoRa Module",
-      "score": 95,
+      "title": "Raspberry Pi gets 10BASE-T1S/T1L Single Pair Ethernet (SPE) HAT+ board",
+      "source": "CNX Software",
+      "date": "2026-07-13",
+      "product": "ESP32 Module",
+      "score": 98,
       "formats": [
         "LinkedIn Post",
-        "Carousel",
-        "Sales Material"
+        "Sales Material",
+        "Carousel"
       ],
       "platforms": [
         "LinkedIn",
         "Facebook"
       ],
       "tags": [
-        "LoRa",
-        "LoRaWAN",
-        "Gateway"
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
       ],
-      "value": "Useful for explaining complete LoRaWAN solutions to B2B users, including modules, gateways, sensor nodes, and cloud workflows.",
-      "summary": "Track how LoRaWAN brands turn hardware into complete deployment stories.",
-      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
-      "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
-      "url": "https://www.linkedin.com/company/rakwireless/",
-      "date": "2026-07-12"
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "Germany-based Brechel Electronic has launched two new Single Pair Ethernet (SPE) expansion boards for Raspberry Pi platforms: the BE-IIS-HPP-T1S and the BE-IIS-HPP-T1L. Designed for technology evaluation, industrial network prototyping, and educational...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "Raspberry Pi gets 10BASE-T1S/T1L Single Pair Ethernet (SPE) HAT+ board\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/13/raspberry-pi-gets-10base-t1s-t1l-single-pair-ethernet-spe-hat-board/"
     },
     {
       "title": "ESP32 developer ecosystem angle",
@@ -58,6 +58,32 @@
       "hook": "A small module can shape the whole connected product experience.",
       "post": "ESP32 content works best when it connects the module to a real device workflow: connectivity, control, UI, sensing, and deployment.",
       "url": "https://www.linkedin.com/company/espressif-systems",
+      "date": "2026-07-12"
+    },
+    {
+      "title": "LoRaWAN solution content worth tracking",
+      "source": "RAKwireless",
+      "product": "LoRa Module",
+      "score": 95,
+      "formats": [
+        "LinkedIn Post",
+        "Carousel",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "LoRa",
+        "LoRaWAN",
+        "Gateway"
+      ],
+      "value": "Useful for explaining complete LoRaWAN solutions to B2B users, including modules, gateways, sensor nodes, and cloud workflows.",
+      "summary": "Track how LoRaWAN brands turn hardware into complete deployment stories.",
+      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
+      "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
+      "url": "https://www.linkedin.com/company/rakwireless/",
       "date": "2026-07-12"
     },
     {
@@ -113,6 +139,31 @@
       "post": "Radar sensing can be explained through practical spaces: bathroom, bedroom, entryway, or care facility. Start with the pain point, then explain why camera-free sensing matters.",
       "url": "",
       "date": "2026-07-12"
+    },
+    {
+      "title": "Beelink EQi review – Part 2: An Intel Core 3 304 “Wildcat Lake” mini PC tested with Windows 11 Pro",
+      "source": "CNX Software",
+      "date": "2026-07-12",
+      "product": "WiFi Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "WiFi",
+        "Smart Home",
+        "Wireless Module"
+      ],
+      "value": "Useful for turning current industry news into content about smart home devices, gateways, control panels, and Wi-Fi connected IoT products.",
+      "summary": "We’ve already checked out the specifications and hardware of the Beelink EQi Wildcat Lake mini PC in the first part of the review, with an unboxing and a teardown, before booting the mini PC into the pre-installed Windows 11 Pro for a first quick look. We’ve...",
+      "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
+      "post": "Beelink EQi review – Part 2: An Intel Core 3 304 “Wildcat Lake” mini PC tested with Windows 11 Pro\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/12/beelink-eqi-review-intel-core-3-304-wildcat-lake-mini-pc-windows-11-pro/"
     },
     {
       "title": "Lua-programmable ELM11-Feather board puts Gowin GW1NR FPGA into Feather form factor (Crowdfunding)",
@@ -738,6 +789,31 @@
       "value": "低功耗双频GNSS是GPS模组升级方向。安信可GPS/GNSS产品线可用于资产追踪、可穿戴设备，本篇提供行业技术趋势对标参考。"
     },
     {
+      "title": "Maersk deploys next‑generation connectivity technology for its reefers",
+      "source": "IoT Now",
+      "date": "2026-07-06",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Maersk has begun the roll-out of its next generation IoT connectivity devices for its fleet of refrigerated containers (reefers). The aim is to install the new devices on all reefers … Continued The post Maersk deploys next‑generation connectivity technology...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Maersk deploys next‑generation connectivity technology for its reefers\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/07/06/157303-maersk-deploys-next-generation-connectivity-technology-for-its-reefers/"
+    },
+    {
       "title": "Beelink EQi Wildcat Lake Core 3 304 mini PC review – Part 1: Specifications, unboxing, teardown, and first boot",
       "source": "CNX Software",
       "date": "2026-07-06",
@@ -765,31 +841,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Beelink EQi Wildcat Lake Core 3 304 mini PC review – Part 1: Specifications, unboxing, teardown, and first boot\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/07/06/beelink-eqi-wildcat-lake-core-3-304-mini-pc-review-part-1-specifications-unboxing-teardown-and-first-boot/"
-    },
-    {
-      "title": "Maersk deploys next‑generation connectivity technology for its reefers",
-      "source": "IoT Now",
-      "date": "2026-07-06",
-      "product": "BLE Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Maersk has begun the roll-out of its next generation IoT connectivity devices for its fleet of refrigerated containers (reefers). The aim is to install the new devices on all reefers … Continued The post Maersk deploys next‑generation connectivity technology...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Maersk deploys next‑generation connectivity technology for its reefers\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/07/06/157303-maersk-deploys-next-generation-connectivity-technology-for-its-reefers/"
     },
     {
       "title": "Calixto Systems AM62L工业自动化STAMP SOM：TI Cortex-A53+R5F双核，RS485+CAN+千兆以太网",
@@ -2541,56 +2592,6 @@
       ],
       "summary": "Arduino IoT Cloud 新增 LoRaWAN 集成仪表盘，支持设备可视化和 OTA 管理，开发者社区响应热烈。适合关注 LoRa+云平台的运营内容方向。",
       "url": "https://blog.arduino.cc/2026/06/16/new-iot-cloud-lorawan-dashboard/"
-    },
-    {
-      "title": "Matter 2.0 certification expands to industrial IoT devices",
-      "source": "IoT Now",
-      "date": "2026-06-16",
-      "product": "WiFi Module",
-      "score": 90,
-      "formats": [
-        "LinkedIn Post",
-        "Industry Analysis"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Matter 2.0",
-        "Industrial IoT",
-        "Certification",
-        "Smart Home"
-      ],
-      "summary": "Matter 2.0 标准扩展覆盖工业物联网设备类型，新增摄像头和传感器品类认证，对安信可模组出海合规参考价值高。",
-      "url": "https://iot-now.com/2026/06/16/matter-2-0-expands-to-industrial-iot/"
-    },
-    {
-      "title": "How Ai-Thinker Ra-08 LoRa module performs in real-world range tests",
-      "source": "Ai-Thinker LoRa Product Line",
-      "date": "2026-06-15",
-      "product": "LoRa Module",
-      "score": 96,
-      "formats": [
-        "LinkedIn Post",
-        "Video",
-        "Case Study"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "YouTube",
-        "Facebook"
-      ],
-      "tags": [
-        "LoRa",
-        "Ra-08",
-        "Range Test",
-        "IoT"
-      ],
-      "value": "Real-world performance data for Ai-Thinker Ra-08 LoRa module, comparing range, power consumption, and data rate against competitors in urban and rural environments.",
-      "summary": "Practical range test results that help B2B buyers understand when to choose LoRa over WiFi or BLE for long-distance IoT.",
-      "hook": "We sent a 128-byte payload 8 kilometers on a coin-cell-class module. The data surprised us.",
-      "post": "Ai-Thinker Ra-08 LoRa module real-world test results: 8km range in rural, 2.5km in dense urban. Power draw under 2uA in sleep. Full comparison with RAKwireless and Semtech modules. Perfect for smart agriculture, metering, and asset tracking.",
-      "url": ""
     }
   ]
 }
