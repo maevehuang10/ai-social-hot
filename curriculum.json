@@ -629,6 +629,89 @@
       ]
     },
     {
+      "id": 10,
+      "title": "4G Cat.1选型",
+      "covered": true,
+      "official": [
+        {
+          "title": "4G Cat.1 vs NB-IoT 选型全景对比：VoLTE语音+数据双模策略与安信可模组矩阵",
+          "product": "Cellular IoT Module",
+          "summary": "4G Cat.1与NB-IoT作为2G/3G退网后两大蜂窝IoT接班人，定位差异清晰：①NB-IoT主打超低功耗（PSM 3-5μA）+超深覆盖（+20dB穿透增益）+海量连接（单小区5万终端）→适用于水/气/电表、烟感、路灯等低频次小数据场景。②4G Cat.1主打移动性（支持小区切换<100ms）+实时性（端到端延迟<100ms vs NB-IoT 1.6-10s）+语音支持（VoLTE全双工高清通话）+中速率（上行5Mbps/下行10Mbps，是NB-IoT的~80倍）→适用于车载定位、共享设备、语音对讲、移动支付、可穿戴等场景。③安信可蜂窝模组矩阵：NB-IoT模组→Cat.1模组→Cat.4模组，三档速率/功耗/成本递进覆盖全场景。④VoLTE关键指标：高清语音编码（AMR-WB 16kHz采样 23.85kbps）、IMS注册流程（P-CSCF发现→SIP Register→Subscribe）、eSRVCC（4G→2G/3G语音平滑切换）确保VoLTE通话不断线。⑤Cat.1功耗管理：RRC-IDLE 1.2mA vs NB-IoT PSM 5μA——Cat.1不适合电池供电多年场景但适合每日充电/常供电设备。⑥频段支持：B1/B3/B5/B8/B34/B38/B39/B40/B41，国内三网通全覆盖。选型决策树：移动+语音→Cat.1；静止+低频上报→NB-IoT；移动+视频流→Cat.4。",
+          "persona": "蜂窝IoT方案选型工程师 · 车载/共享终端产品经理 · 2G退网迁移决策者",
+          "tags": [
+            "4G Cat.1",
+            "NB-IoT",
+            "VoLTE",
+            "选型",
+            "2G退网",
+            "蜂窝模组",
+            "移动性",
+            "eSRVCC"
+          ],
+          "url": "https://docs.ai-thinker.com/cellular/"
+        },
+        {
+          "title": "安信可4G Cat.1模组实战：MQTT over LTE全链路数据通道+AT指令全流程+功耗优化",
+          "product": "Cellular IoT Module",
+          "summary": "安信可4G Cat.1模组的完整MQTT数据链路：①开机上电→AT+CPIN?(SIM卡状态)→AT+CSQ(信号强度,0-31)→AT+CREG?(网络注册)→AT+CGREG?(GPRS注册)→AT+CPSI?(小区信息含Band/LAC/CellID)。②PDP激活建立数据通道：AT+CGDCONT=1,\"IP\",\"CMNET\"(APN配置)→AT+CGACT=1,1(PDP上下文激活)→AT+CGPADDR=1(获取IP)→通过AT+QIOPEN建立TCP Socket到MQTT Broker(1883端口)。③MQTT连接全命令链：AT+QMTCFG=\"version\",0,4(配置MQTT 3.1.1)→AT+QMTOPEN=0,\"broker.emqx.io\",1883(打开MQTT连接)→AT+QMTCONN=0,\"cat1_dev_001\",\"user\",\"pass\"(连接认证)→AT+QMTSUB=0,1,\"device/cmd\",1(订阅下行指令通道)→AT+QMTPUB=0,1,1,0,\"sensor/gps\",\"{\\\"lat\\\":22.5431,\\\"lng\\\":113.9544,\\\"spd\\\":45}\"(发布GPS数据)。④MQTT保活与断线重连：KeepAlive 120s心跳+PINGREQ自动维护→网络波动自动重连(AT+QMTCLOSE+重走连接流程)→TCP长连接功耗约30mA(DRX-2.56s周期)。⑤VoLTE语音+MQTT数据并发策略：VoLTE通话中QoS-1(GBR bearer优先保障语音)→数据走QoS-9(Non-GBR,共享剩余带宽)→通话结束自动恢复全带宽数据通道。⑥功耗实测：RRC-IDLE(DRX 1.28s):1.2mA、RRC-Connected(MQTT 1min上报):30mA平均、VoLTE通话:250mA峰值、PSM深度休眠:<5μA。⑦典型应用：两轮车GPS追踪(5s上报+电子围栏+远程锁车Cat.1+MQTT)→共享充电宝(二维码支付+Cat.1+MQTT状态上报)→4G对讲机(VoLTE双工+Cat.1 PTT over MQTT)→OBD车载诊断(1min上报+Cat.1+MQTT在线升级)。",
+          "persona": "Cat.1嵌入式应用开发工程师 · MQTT IoT平台对接 · 车载/共享/对讲方案商",
+          "tags": [
+            "4G Cat.1",
+            "MQTT",
+            "AT指令",
+            "PDP激活",
+            "VoLTE",
+            "GPS追踪",
+            "功耗优化",
+            "KeepAlive",
+            "车载",
+            "共享设备"
+          ],
+          "url": "https://docs.ai-thinker.com/cellular/"
+        }
+      ],
+      "external": [
+        {
+          "title": "Raspberry Pi gets 10BASE-T1S/T1L Single Pair Ethernet HAT+: Industrial IoT Edge Gateway Connectivity",
+          "source": "CNX Software",
+          "product": "IoT Industry",
+          "score": 84,
+          "tags": [
+            "工业以太网",
+            "SPE",
+            "10BASE-T1S",
+            "10BASE-T1L",
+            "边缘网关",
+            "HAT+"
+          ],
+          "summary": "Brechel Electronic推出两款Raspberry Pi单对以太网(SPE)扩展板：BE-IIS-HPP-T1S支持IEEE 802.3cg多节点总线(8节点/25m)和BE-IIS-HPP-T1L支持千米级点对点连接。10BASE-T1S/T1L正成为工业IoT边缘网关的标准有线连接方案。",
+          "hook": "一根双绞线搞定工业以太网——Raspberry Pi的10BASE-T1S/T1L HAT把千米级有线连接拉进了IoT网关。",
+          "post": "Brechel Electronic为Raspberry Pi推出10BASE-T1S和10BASE-T1L两种单对以太网HAT+扩展板。10BASE-T1S(Microchip LAN8651)支持最多8节点多路总线，25m距离；10BASE-T1L(ADI ADIN1110)支持长达1km的点对点连接。对安信可工业IoT模组方案来说，边缘网关的有线回传+无线采集(WiFi/BLE/LoRa/NB-IoT)的混合网络架构是工业场景的典型部署模式——网关侧有线SPE确保可靠回传，终端侧无线模组灵活部署传感器节点。4G Cat.1模组作为备用WAN链路，可在有线断网时自动切换蜂窝网络保持云连接。",
+          "url": "https://www.cnx-software.com/2026/07/13/raspberry-pi-gets-10base-t1s-t1l-single-pair-ethernet-spe-hat-board/",
+          "date": "2026-07-13"
+        },
+        {
+          "title": "$50 Forgix Board: Raspberry Pi RP2354 MCU + Efinix Trion T8 FPGA in Teensy Form Factor",
+          "source": "CNX Software",
+          "product": "IoT Industry",
+          "score": 85,
+          "tags": [
+            "RP2354",
+            "FPGA",
+            "MCU+FPGA",
+            "Teensy",
+            "Edge Computing",
+            "RISC-V"
+          ],
+          "summary": "Adiuvo Engineering推出Forgix开发板：将Raspberry Pi RP2354 MCU(Cortex-M33+RISC-V双核可选)+Efinix Trion T8 FPGA集成到Teensy 4.0尺寸中，$50价位面向需要硬件加速的嵌入式边缘计算场景。",
+          "hook": "MCU和FPGA在一张Teensy大小的板上握手——50美元的边缘计算组合拳，RISC-V和ARM可以同时跑。",
+          "post": "Adiuvo Engineering的Forgix板将RP2354(Arm Cortex-M33+RISC-V Hazard3双架构可选)+Efinix Trion T8 FPGA组合到Teensy 4.0尺寸中，16 Mbit PSRAM+2MB Flash，$50定价。这种MCU+FPGA异构计算架构对IoT模组行业的意义：边缘IoT正在从单纯的通信管道(WiFi/BLE/LoRa/4G)向'连接+计算'二合一演进。FPGA在信号预处理(FFT/滤波)、协议加速(自定义MAC)、实时控制等场景中，可以与蜂窝模组的MQTT数据通道形成互补——模组负责云连接，FPGA负责本地数据流加速。",
+          "url": "https://www.cnx-software.com/2026/07/14/50-forgix-board-pairs-raspberry-pi-rp2354-mcu-with-trion-t8-fpga-in-teensy-form-factor/",
+          "date": "2026-07-14"
+        }
+      ]
+    },
+    {
       "id": 12,
       "title": "智能家居全场景模组选型",
       "covered": true,
