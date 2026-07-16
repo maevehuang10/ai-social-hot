@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T04:13:48.079Z",
+  "generatedAt": "2026-07-16T04:19:02.391Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,59 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "NVIDIA launches smaller, mainstream Jetson T2000 and T3000 modules for Edge AI and robotics applications",
+      "source": "CNX Software",
+      "date": "2026-07-16",
+      "product": "ESP32 Module",
+      "score": 98,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "NVIDIA has just launched the Jetson T2000 and T3000 “mainstream” modules as smaller and lower cost options to the Jetson T4000/T5000 modules introduced last year for Edge AI and robotics applications. The Jetson Thor T3000 and the industrial version IGX Thor...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "NVIDIA launches smaller, mainstream Jetson T2000 and T3000 modules for Edge AI and robotics applications\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/16/nvidia-jetson-t2000-and-t3000-modules-for-edge-ai-and-robotics-applications/"
+    },
+    {
+      "title": "Bigme Hibreak Dual 2 – An Android 16 smartphone with 6.13-inch 80fps E-Ink and 5-inch LCD display (Crowdfunding)",
+      "source": "CNX Software",
+      "date": "2026-07-15",
+      "product": "Cellular IoT Module",
+      "score": 98,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "NB-IoT",
+        "Cat.1",
+        "Cellular IoT"
+      ],
+      "value": "Useful for turning current industry news into content about remote monitoring, logistics, global coverage, and wide-area connected devices.",
+      "summary": "Bigme has launched the Hibreak Dual 2, an Android 16 smartphone with a 6.13-inch 80fps E-Ink display on the front and a 5-inch LCD on the rear. Built around the MediaTek Dimensity 8300 processor and supports dual 5G connectivity, positioning it as an E-Ink...",
+      "hook": "Wide-area IoT starts with the right connectivity choice.",
+      "post": "Bigme Hibreak Dual 2 – An Android 16 smartphone with 6.13-inch 80fps E-Ink and 5-inch LCD display (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching Cellular IoT Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/15/bigme-hibreak-dual-2-an-android-16-smartphone-with-6-13-inch-80fps-e-ink-and-5-inch-lcd-display/"
+    },
     {
       "title": "Big Savings Alert! AIVON PCBA Monthly SMT Special Deals + Free Shipping (Sponsored)",
       "source": "CNX Software",
@@ -35,6 +88,106 @@
       "hook": "A small module can shape the whole connected product experience.",
       "post": "Big Savings Alert! AIVON PCBA Monthly SMT Special Deals + Free Shipping (Sponsored)\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/07/15/big-savings-alert-aivon-pcba-monthly-smt-special-deals-free-shipping/"
+    },
+    {
+      "title": "Reverse-engineering brings RK3576 NPU support to open-source Rocket driver for mainline Linux",
+      "source": "CNX Software",
+      "date": "2026-07-15",
+      "product": "ESP32 Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "Back in 2024, we noted that the open-source driver for RK3588’s NPU by Tomeu Vizoso delivered decent performance for object detection. Since then, good progress has been made, and it’s now known as the Rocket driver in mainline Linux. However, the Rockchip...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "Reverse-engineering brings RK3576 NPU support to open-source Rocket driver for mainline Linux\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/15/reverse-engineering-brings-rk3576-npu-support-to-open-source-rocket-driver-for-mainline-linux/"
+    },
+    {
+      "title": "Thales, Singtel Group and Bridge Alliance enable world’s first multi-operator IoT eSIM network in Asia Pacific",
+      "source": "IoT Now",
+      "date": "2026-07-15",
+      "product": "BLE Module",
+      "score": 86,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Thales, Singtel, Optus, AIS and Globe Telecom has announced the successful deployment of the world’s first multi-operator enterprise eSIM connectivity network for the Internet of Things (IoT). This breakthrough enables … Continued The post Thales, Singtel...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Thales, Singtel Group and Bridge Alliance enable world’s first multi-operator IoT eSIM network in Asia Pacific\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/07/15/157414-thales-singtel-group-and-bridge-alliance-enable-worlds-first-multi-operator-iot-esim-network-in-asia-pacific/"
+    },
+    {
+      "title": "Private 5G market to reach $6.6 billion as physical AI accelerates adoption, reports SNS Telecom & IT",
+      "source": "IoT Now",
+      "date": "2026-07-15",
+      "product": "BLE Module",
+      "score": 85,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "A new report from SNS Telecom & IT indicates that annual spending on private 5G networks is projected to surpass $6.6 billion by 2029 as industrial giants scale multi-site, multi-national … Continued The post Private 5G market to reach $6.6 billion as...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Private 5G market to reach $6.6 billion as physical AI accelerates adoption, reports SNS Telecom & IT\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/07/15/157435-private-5g-market-to-reach-6-6-billion-as-physical-ai-accelerates-adoption-reports-sns-telecom-it/"
+    },
+    {
+      "title": "CSL Group buys IoTM for multi-carrier IoT SIM control",
+      "source": "IoT Tech News",
+      "date": "2026-07-15",
+      "product": "IoT Industry",
+      "score": 70,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "IoT",
+        "Industry Trend",
+        "Wireless Technology"
+      ],
+      "value": "Useful for turning current industry news into content about market education, B2B trend posts, sales context, and social content planning.",
+      "summary": "CSL Group is buying IoTM Solutions to consolidate multi-carrier SIM and eSIM management for enterprise IoT estates. IoTM Solutions is a cloud-native connectivity management vendor whose platform unifies SIM lifecycle operations, eSIM profile handling, usage...",
+      "hook": "Good IoT content starts with useful market context.",
+      "post": "CSL Group buys IoTM for multi-carrier IoT SIM control\n\nThis is a useful signal for IoT brands and product teams watching IoT Industry opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
+      "url": "https://iottechnews.com/news/csl-group-buys-iotm-for-multi-carrier-iot-sim-control/"
     },
     {
       "title": "IoTLabs wM-Bus gateway – An ESP32 device with Wireless M-Bus connectivity for Home Assistant",
@@ -139,6 +292,31 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Meet Moddo Pinch – The world’s smallest 32-bit Arduino-compatible board (2026 Edition)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/07/14/meet-moddo-pinch-the-world-smallest-arduino-compatible-board-2026-edition/"
+    },
+    {
+      "title": "IoT Now launches Orange Business Insight Library with Orange Business and Aeris",
+      "source": "IoT Now",
+      "date": "2026-07-14",
+      "product": "BLE Module",
+      "score": 86,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "IoT Now has launched the Orange Business Insight Library, a new free resource exploring how organisations can improve visibility, efficiency and performance across complex IoT environments. The insight library, developed with … Continued The post IoT Now...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "IoT Now launches Orange Business Insight Library with Orange Business and Aeris\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/07/14/157234-iot-now-launches-operational-visibility-hub-with-orange-business-and-aeris/"
     },
     {
       "title": "CSL Group acquires IoTM Solutions to power global eSIM orchestration",
@@ -2436,179 +2614,6 @@
       "hook": "全球首款 IEEE 802.15.4ab UWB 接收器诞生：10cm 室内定位，不再怕 Wi-Fi 干扰。",
       "post": "imec 展示全球首款符合 IEEE 802.15.4ab 标准的 UWB 接收器芯片，22nm CMOS 工艺，窄带信号增强定位精度，有效抑制密集 Wi-Fi 干扰。UWB 定位从专有方案走向国际标准。对安信可 BU 系列 UWB 模组而言，标准化将加速仓储、零售、医疗等场景规模落地。",
       "url": "https://www.electronics-lab.com/worlds-first-ieee-802-15-4ab-receiver-debuts-from-imec/"
-    },
-    {
-      "title": "ST VL53L9CX Direct ToF 3D LiDAR: 5cm-9m Range with 2.3K Zones for Arduino",
-      "source": "CNX Software",
-      "date": "2026-06-22",
-      "product": "Radar Sensor",
-      "score": 85,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "ToF传感器",
-        "LiDAR",
-        "ST",
-        "Arduino"
-      ],
-      "value": "意法半导体 VL53L9CX 直接飞行时间 3D LiDAR，5cm-9m 测距，2300 分区，已提供 Arduino 库。",
-      "summary": "ST VL53L9CX ToF 传感器：9m 远 3D 测距、2300 分区，Arduino 库已就绪。",
-      "hook": "一颗传感器同时看 2300 个点——ST 把工业级 3D 感知塞进了 Arduino 生态。",
-      "post": "ST 推出 VL53L9CX 直接飞行时间（dToF）3D LiDAR 传感器，支持 5cm 到 9m 测距，2300 分区分辨率。已提供 Arduino 库和示例代码，让开发者可以快速在嵌入式平台上实现 3D 感知。对 Ai-Thinker 的雷达传感器产品线来说，ToF 是毫米波之外的另一条感知技术路线，值得关注生态演进。",
-      "url": "https://www.cnx-software.com/2026/06/22/st-vl53l9cx-direct-time-of-flight-3d-lidar-supports-5cm-to-9m-range-2-3k-zones-resolution/"
-    },
-    {
-      "title": "UTFS Lightweight Zero-allocation File System for Embedded Devices (CNX Feature)",
-      "source": "CNX Software",
-      "date": "2026-06-22",
-      "product": "IoT Industry",
-      "score": 83,
-      "formats": [
-        "LinkedIn Post",
-        "Tutorial"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "嵌入式",
-        "文件系统",
-        "MCU"
-      ],
-      "value": "CNX Software 深度介绍 UTFS 轻量嵌入式文件系统，C99 实现，零堆内存分配。",
-      "summary": "UTFS 嵌入式文件系统获 CNX 推荐，极简设计适配各类 MCU 模组固件开发。",
-      "hook": "FAT 再见？这个不到 1000 行的文件系统正被嵌入式社区热捧。",
-      "post": "CNX Software 详细介绍了 UTFS（Micro Tar File System），这是一款纯 C99 实现的轻量级嵌入式文件系统，零堆内存分配，仅两个源文件。已在 SAMD20 和 ATmega328 上验证通过，相比 FAT 文件系统大幅降低二进制体积和运行开销。对于 Wi-Fi/BLE 模组的 OTA 固件管理和数据日志存储来说，UTFS 提供了一个值得考虑的轻量替代方案。",
-      "url": "https://www.cnx-software.com/2026/06/22/utfs-is-a-lightweight-zero-allocation-file-system-for-embedded-devices/"
-    },
-    {
-      "title": "SpacemiT K3 Pico-ITX RISC-V Board Review: What Works in Bianbu OS 4.0",
-      "source": "CNX Software",
-      "date": "2026-06-21",
-      "product": "IoT Industry",
-      "score": 84,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "RISC-V",
-        "SpacemiT K3",
-        "嵌入式Linux",
-        "开发板"
-      ],
-      "value": "SpacemiT K3 Pico-ITX RISC-V 开发板深度评测第二部分：Bianbu OS 4.0 实测可用与不可用功能。",
-      "summary": "RISC-V 16核 Pico-ITX 开发板实测，Linux 生态正在快速成熟。",
-      "hook": "16 核 RISC-V 迷你板能跑 Linux 了吗？实测结果比预想的要好。",
-      "post": "CNX Software 发布 SpacemiT K3 RISC-V Pico-ITX 开发板评测第二部分，深入测试 Bianbu OS 4.0 的兼容性。结果显示 USB、网络、显示输出等基础功能已经可用，但 GPU 加速和部分外设仍需完善。RISC-V 在嵌入式 Linux 场景的进展速度值得 IoT 模组厂商持续关注——生态成熟意味着未来可选方案更多。",
-      "url": "https://www.cnx-software.com/2026/06/21/spacemit-k3-pico-itx-risc-v-chassis-kit-review-part-2-what-works-what-doesnt-in-bianbu-os-4-0/"
-    },
-    {
-      "title": "Pine64 Pinevoice - RISC-V Smart Speaker with WiFi/BLE/Zigbee for Home Assistant",
-      "source": "CNX Software",
-      "date": "2026-06-20",
-      "product": "IoT Industry",
-      "score": 91,
-      "formats": [
-        "LinkedIn Post",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "YouTube"
-      ],
-      "tags": [
-        "RISC-V",
-        "Bouffalo BL606P",
-        "WiFi+BLE+Zigbee",
-        "Smart Speaker"
-      ],
-      "value": "Pine64 Pinevoice 基于 Bouffalo BL606P RISC-V 无线 MCU，集成 WiFi/BLE/Zigbee(802.15.4) 三模射频，$50 价位，专为 Home Assistant 开源智能家居设计。验证 RISC-V 在消费 IoT 的实用化。",
-      "summary": "RISC-V 无线 MCU 进入消费级智能音箱，WiFi+BLE+Zigbee 三模方案值得关注，对安信可 RISC-V 模组产品线有市场验证价值。",
-      "hook": "$50 的 RISC-V 智能音箱能做什么？WiFi+BLE+Zigbee 三模，专为开源智能家居而生。",
-      "post": "Pine64 推出 PineVoice 智能音箱，搭载 Bouffalo BL606P RISC-V 芯片，集成 WiFi 4、BLE 5.x 和 Zigbee 三模射频。双麦克风阵列 + RGB LED，原生支持 Home Assistant 生态。RISC-V 正在从实验阶段进入消费级 IoT 量产，对安信可 Ai-M61/M62/M64 系列是极好的市场信号。",
-      "url": "https://www.cnx-software.com/2026/06/20/pine64-pinevoice-a-50-risc-v-smart-speaker-for-home-assistant-based-on-bouffalo-lab-bl606p-mcu/"
-    },
-    {
-      "title": "Pine64 Pinevoice: $50 RISC-V Smart Speaker with WiFi/BLE/Zigbee for Home Assistant",
-      "source": "CNX Software",
-      "date": "2026-06-20",
-      "product": "WiFi Module",
-      "score": 90,
-      "formats": [
-        "LinkedIn Post",
-        "Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "YouTube"
-      ],
-      "tags": [
-        "RISC-V",
-        "智能音箱",
-        "WiFi/BLE/Zigbee",
-        "Home Assistant"
-      ],
-      "value": "Pine64 推出 $50 RISC-V 智能音箱 Pinevoice，基于博流 BL606P MCU，集成 WiFi/BLE/Zigbee 三模无线。",
-      "summary": "$50 RISC-V 智能音箱，BL606P MCU 驱动 WiFi/BLE/Zigbee 三模，专为 Home Assistant 设计。",
-      "hook": "$50 的 RISC-V 智能音箱？WiFi+BLE+Zigbee 三模全给——AIoT 硬件的价格天花板又被砸穿了。",
-      "post": "Pine64 发布 Pinevoice RISC-V 智能音箱，售价仅 $50。基于博流 BL606P MCU，内置 WiFi、BLE 和 Zigbee 三模无线，专为 Home Assistant 生态设计。博流是国产 RISC-V MCU 的代表性厂商，这个案例展示了 RISC-V 在智能家居模组市场的真实竞争力——不是 PPT，是你能买到的产品。",
-      "url": "https://www.cnx-software.com/2026/06/20/pine64-pinevoice-a-50-risc-v-smart-speaker-for-home-assistant-based-on-bouffalo-lab-bl606p-mcu/"
-    },
-    {
-      "title": "Matter 1.6 Introduces NFC-based Commissioning and Core Enhancements",
-      "source": "CNX Software",
-      "date": "2026-06-19",
-      "product": "WiFi Module",
-      "score": 93,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Matter 1.6",
-        "NFC",
-        "标准演进",
-        "智能家居"
-      ],
-      "value": "Matter 1.6 规范发布，新增 NFC 碰触配网、恒温器建议等核心功能增强。NFC 配网将极大降低非技术用户的 IoT 设备初次接入门槛。",
-      "summary": "Matter 1.6 新增 NFC 配网，智能家居设备入网像刷交通卡一样简单。",
-      "hook": "刷一下手机就能配网——Matter 1.6 把 IoT 门槛降到了奶奶也能用的程度。",
-      "post": "CSA 发布 Matter 1.6 规范，最重磅的新功能是 NFC-based Commissioning（碰触配网）。用户只需将手机靠近 Matter 设备即可完成配网，彻底消除了手动输入 WiFi 密码或扫码的痛点。对 Ai-Thinker 的 Matter 模组来说，这意味着终端用户体验的质变——配网环节不再是出货障碍。",
-      "url": "https://www.cnx-software.com/2026/06/19/matter-1-6-specification-adds-nfc-based-commissioning-thermostat-suggestions-various-core-enhancements/"
-    },
-    {
-      "title": "Qualcomm Promises Major Reset with Linux 2.0 for Dragonwing IoT Platforms",
-      "source": "CNX Software",
-      "date": "2026-06-19",
-      "product": "IoT Industry",
-      "score": 86,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Qualcomm",
-        "Linux",
-        "IoT平台",
-        "上游优先"
-      ],
-      "value": "高通宣布 Dragonwing IoT 平台将采用上游优先策略，承诺 Qualcomm Linux 2.0 大幅简化 IoT 设备 Linux 开发。",
-      "summary": "高通 IoT 平台转向上游优先 Linux 策略，不再依赖私有 BSP 补丁。",
-      "hook": "高通的 IoT 大转弯：放下自研 BSP，拥抱上游 Linux——这对模组生态意味着什么？",
-      "post": "Qualcomm 宣布 Dragonwing IoT 平台重大策略转变：全面转向上游优先的 Linux 策略，推出 Qualcomm Linux 2.0。以往开发者需要在高通私有 BSP 补丁上耗费大量适配工作，新方案意味着更多芯片功能将直接进入 Linux 主线。对于 IoT 模组厂商来说，芯片平台的可移植性和长期维护成本是选型关键因素，上游 Linux 支持是一项重要加分项。",
-      "url": "https://www.cnx-software.com/2026/06/19/qualcomm-promises-a-major-reset-with-upstream-first-qualcomm-linux-2-0-for-dragonwing-iot-platforms/"
     }
   ]
 }
