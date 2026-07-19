@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T04:09:32.412Z",
+  "generatedAt": "2026-07-19T04:29:36.930Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,32 +7,6 @@
     "IoT Tech News"
   ],
   "topics": [
-    {
-      "title": "Matter and smart-home compatibility story",
-      "source": "Home Assistant",
-      "product": "WiFi Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Carousel",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "Matter",
-        "Smart Home",
-        "Interoperability"
-      ],
-      "value": "Useful for smart-home customers who care about compatibility, certification readiness, and faster product development.",
-      "summary": "Smart-home module content should explain compatibility and integration value, not only wireless specs.",
-      "hook": "Smart home buyers are no longer asking only for connectivity. They want compatibility.",
-      "post": "For smart-home devices, wireless modules become more valuable when they reduce integration risk and help products fit into existing ecosystems.",
-      "url": "https://www.home-assistant.io/",
-      "date": "2026-07-18"
-    },
     {
       "title": "Radar sensing for privacy-friendly presence detection",
       "source": "Industry Sensing",
@@ -59,7 +33,7 @@
       "hook": "Not every sensing solution needs a camera.",
       "post": "Radar sensing can be explained through practical spaces: bathroom, bedroom, entryway, or care facility. Start with the pain point, then explain why camera-free sensing matters.",
       "url": "",
-      "date": "2026-07-18"
+      "date": "2026-07-19"
     },
     {
       "title": "LoRaWAN solution content worth tracking",
@@ -85,7 +59,7 @@
       "hook": "Some IoT projects need years of battery life, not more bandwidth.",
       "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
       "url": "https://www.linkedin.com/company/rakwireless/",
-      "date": "2026-07-18"
+      "date": "2026-07-19"
     },
     {
       "title": "ESP32 developer ecosystem angle",
@@ -112,7 +86,58 @@
       "hook": "A small module can shape the whole connected product experience.",
       "post": "ESP32 content works best when it connects the module to a real device workflow: connectivity, control, UI, sensing, and deployment.",
       "url": "https://www.linkedin.com/company/espressif-systems",
-      "date": "2026-07-18"
+      "date": "2026-07-19"
+    },
+    {
+      "title": "Matter and smart-home compatibility story",
+      "source": "Home Assistant",
+      "product": "WiFi Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Carousel",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "Matter",
+        "Smart Home",
+        "Interoperability"
+      ],
+      "value": "Useful for smart-home customers who care about compatibility, certification readiness, and faster product development.",
+      "summary": "Smart-home module content should explain compatibility and integration value, not only wireless specs.",
+      "hook": "Smart home buyers are no longer asking only for connectivity. They want compatibility.",
+      "post": "For smart-home devices, wireless modules become more valuable when they reduce integration risk and help products fit into existing ecosystems.",
+      "url": "https://www.home-assistant.io/",
+      "date": "2026-07-19"
+    },
+    {
+      "title": "M5Stack Core2 gets open-source firmware to reproduce OpenAI’s Codex Micro features",
+      "source": "CNX Software",
+      "date": "2026-07-18",
+      "product": "Cellular IoT Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "NB-IoT",
+        "Cat.1",
+        "Cellular IoT"
+      ],
+      "value": "Useful for turning current industry news into content about remote monitoring, logistics, global coverage, and wide-area connected devices.",
+      "summary": "IAMLIUBO has written firmware for the M5Stack Core2 IoT controller to reproduce the features of the $230 Codex Micro macro pad for OpenAI’s AI coding agent platform, enabling developers to more easily monitor and control agents. The original is neat with a...",
+      "hook": "Wide-area IoT starts with the right connectivity choice.",
+      "post": "M5Stack Core2 gets open-source firmware to reproduce OpenAI’s Codex Micro features\n\nThis is a useful signal for IoT brands and product teams watching Cellular IoT Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/18/m5stack-core2-gets-open-source-firmware-to-reproduce-openais-codex-micro-features/"
     },
     {
       "title": "Espressif releases SDK for Aliro smart door locks based on ESP32-C or ESP32-H SoCs",
@@ -2594,34 +2619,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Easier IoT management through commercial SGP.32 solutions\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/06/25/157203-easier-iot-management-through-commercial-sgp-32-solutions/"
-    },
-    {
-      "title": "Qualinx’s QLX3Gx Series Chip integration with Galileo OSNMA brings authenticated GNSS positioning to ultra-low-power devices",
-      "source": "IoT Now",
-      "date": "2026-06-24",
-      "product": "BLE Module",
-      "score": 98,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Qualinx, the European semiconductor company redefining ultra-low-power connectivity at the connected edge, has announced the completion of full Galileo OSNMA (Open Service Navigation Message Authentication) support on its QLX3Gx Series ultra-low-power GNSS...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Qualinx’s QLX3Gx Series Chip integration with Galileo OSNMA brings authenticated GNSS positioning to ultra-low-power devices\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/06/24/157157-qualinxs-qlx3gx-series-chip-integration-with-galileo-osnma-brings-authenticated-gnss-positioning-to-ultra-low-power-devices/"
     }
   ]
 }
