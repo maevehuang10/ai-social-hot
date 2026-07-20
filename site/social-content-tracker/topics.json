@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T04:29:36.930Z",
+  "generatedAt": "2026-07-20T04:46:48.612Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -8,41 +8,13 @@
   ],
   "topics": [
     {
-      "title": "Radar sensing for privacy-friendly presence detection",
-      "source": "Industry Sensing",
-      "product": "Radar Sensor",
-      "score": 92,
-      "formats": [
-        "Short Video",
-        "LinkedIn Post",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "Radar",
-        "Presence Detection",
-        "Smart Sensing"
-      ],
-      "value": "Useful for explaining camera-free sensing in elderly care, bathrooms, bedrooms, security, and automation scenarios.",
-      "summary": "Radar content is strongest when it starts from the user problem: reliable presence detection without a camera.",
-      "hook": "Not every sensing solution needs a camera.",
-      "post": "Radar sensing can be explained through practical spaces: bathroom, bedroom, entryway, or care facility. Start with the pain point, then explain why camera-free sensing matters.",
-      "url": "",
-      "date": "2026-07-19"
-    },
-    {
-      "title": "LoRaWAN solution content worth tracking",
-      "source": "RAKwireless",
-      "product": "LoRa Module",
-      "score": 95,
+      "title": "Efinix Titanium Edge FPGA family targets low-power edge AI and vision systems",
+      "source": "CNX Software",
+      "date": "2026-07-20",
+      "product": "BLE Module",
+      "score": 88,
       "formats": [
         "LinkedIn Post",
-        "Carousel",
         "Sales Material"
       ],
       "platforms": [
@@ -50,16 +22,15 @@
         "Facebook"
       ],
       "tags": [
-        "LoRa",
-        "LoRaWAN",
-        "Gateway"
+        "BLE",
+        "Bluetooth",
+        "Positioning"
       ],
-      "value": "Useful for explaining complete LoRaWAN solutions to B2B users, including modules, gateways, sensor nodes, and cloud workflows.",
-      "summary": "Track how LoRaWAN brands turn hardware into complete deployment stories.",
-      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
-      "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
-      "url": "https://www.linkedin.com/company/rakwireless/",
-      "date": "2026-07-19"
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Efinix has introduced the Titanium Edge FPGA family designed for low-power edge AI and machine vision applications. Based on the company’s Titanium FPGA architecture, the new family introduces lower static power consumption, configurable 2.5 Gbps MIPI I/O,...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Efinix Titanium Edge FPGA family targets low-power edge AI and vision systems\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/20/efinix-titanium-edge-fpga-family-targets-low-power-edge-ai-and-vision-systems/"
     },
     {
       "title": "ESP32 developer ecosystem angle",
@@ -89,6 +60,32 @@
       "date": "2026-07-19"
     },
     {
+      "title": "LoRaWAN solution content worth tracking",
+      "source": "RAKwireless",
+      "product": "LoRa Module",
+      "score": 95,
+      "formats": [
+        "LinkedIn Post",
+        "Carousel",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "LoRa",
+        "LoRaWAN",
+        "Gateway"
+      ],
+      "value": "Useful for explaining complete LoRaWAN solutions to B2B users, including modules, gateways, sensor nodes, and cloud workflows.",
+      "summary": "Track how LoRaWAN brands turn hardware into complete deployment stories.",
+      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
+      "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
+      "url": "https://www.linkedin.com/company/rakwireless/",
+      "date": "2026-07-19"
+    },
+    {
       "title": "Matter and smart-home compatibility story",
       "source": "Home Assistant",
       "product": "WiFi Module",
@@ -113,6 +110,59 @@
       "post": "For smart-home devices, wireless modules become more valuable when they reduce integration risk and help products fit into existing ecosystems.",
       "url": "https://www.home-assistant.io/",
       "date": "2026-07-19"
+    },
+    {
+      "title": "Radar sensing for privacy-friendly presence detection",
+      "source": "Industry Sensing",
+      "product": "Radar Sensor",
+      "score": 92,
+      "formats": [
+        "Short Video",
+        "LinkedIn Post",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "Radar",
+        "Presence Detection",
+        "Smart Sensing"
+      ],
+      "value": "Useful for explaining camera-free sensing in elderly care, bathrooms, bedrooms, security, and automation scenarios.",
+      "summary": "Radar content is strongest when it starts from the user problem: reliable presence detection without a camera.",
+      "hook": "Not every sensing solution needs a camera.",
+      "post": "Radar sensing can be explained through practical spaces: bathroom, bedroom, entryway, or care facility. Start with the pain point, then explain why camera-free sensing matters.",
+      "url": "",
+      "date": "2026-07-19"
+    },
+    {
+      "title": "Beelink EQi 304 review – Part 3: Ubuntu 26.04 on a Wildcat Lake mini PC",
+      "source": "CNX Software",
+      "date": "2026-07-19",
+      "product": "WiFi Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "WiFi",
+        "Smart Home",
+        "Wireless Module"
+      ],
+      "value": "Useful for turning current industry news into content about smart home devices, gateways, control panels, and Wi-Fi connected IoT products.",
+      "summary": "After checking out the hardware with an unboxing and a teardown of the Beelink EQi Wildcat Lake mini PC, we reviewed the Intel Core 3 304 computer with Windows 11 in detail. We’ve now had time to test the Beelink EQi mini PC running Ubuntu 26.04 with Linux...",
+      "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
+      "post": "Beelink EQi 304 review – Part 3: Ubuntu 26.04 on a Wildcat Lake mini PC\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/19/beelink-eqi-304-review-part-3-ubuntu-26-04-on-a-wildcat-lake-mini-pc/"
     },
     {
       "title": "M5Stack Core2 gets open-source firmware to reproduce OpenAI’s Codex Micro features",
@@ -2569,56 +2619,6 @@
       "hook": "蓝牙也能做厘米级定位了——BLE 6.0 的 Channel Sounding 正在改写室内定位的游戏规则。",
       "post": "BLE 6.0 最大的新特性 Channel Sounding 正式进入工程样片阶段。通过 PBR(Phase-Based Ranging)和 RTT(Round-Trip Time)双重测距，BLE 首次具备了厘米级定位能力。Nordic nRF54L15 是首批支持该特性的芯片。这意味着中低端定位场景可以不用昂贵的 UWB 方案——BLE 模组的市场边界被大幅拓宽了。",
       "url": "https://www.cnx-software.com/2026/06/23/nordic-nrf54l15-tag-prototyping-platform-supports-bluetooth-channel-sounding-matter-edge-ai/"
-    },
-    {
-      "title": "2026工业IoT无线连接趋势：WiFi 6/6E与5G RedCap的博弈",
-      "source": "Industrial IoT World",
-      "date": "2026-06-25",
-      "product": "WiFi Module",
-      "score": 87,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "WiFi 6",
-        "5G RedCap",
-        "工业IoT",
-        "趋势"
-      ],
-      "value": "工业IoT连接两大趋势：WiFi 6/6E在工厂内网占据主导(低延迟<10ms)，5G RedCap在广域场景替代4G Cat.1。",
-      "summary": "2026工业IoT连接趋势：WiFi 6E统治工厂内网，5G RedCap渗透广域场景。模组选型路线图。",
-      "hook": "工业IoT的无线连接大战：WiFi 6E还是5G RedCap？答案取决于你的设备离基站有多远。",
-      "post": "2026年工业IoT的连接竞选正在白热化：工厂内网场景 WiFi 6/6E 凭借低延迟(<10ms)和成熟生态占据主导，而广域场景 5G RedCap 以更低功耗和广覆盖优势替代 4G Cat.1。对模组厂商来说，双模(WiFi+蜂窝)或将成为工业IoT模组的新标配——一个模组覆盖内网和广域两种连接。",
-      "url": "https://iot-now.com/2026/06/25/industrial-iot-wireless-trends-2026/"
-    },
-    {
-      "title": "Easier IoT management through commercial SGP.32 solutions",
-      "source": "IoT Now",
-      "date": "2026-06-25",
-      "product": "BLE Module",
-      "score": 86,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Market developments around new standards are now making it easier for industries to deploy and manage their IoT systems, reports Antony Savvas. At the recent MWC26 in Barcelona, Tele2 IoT, … Continued The post Easier IoT management through commercial SGP.32...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Easier IoT management through commercial SGP.32 solutions\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/06/25/157203-easier-iot-management-through-commercial-sgp-32-solutions/"
     }
   ]
 }
