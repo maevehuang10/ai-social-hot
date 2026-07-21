@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T04:46:48.612Z",
+  "generatedAt": "2026-07-21T04:24:43.473Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,146 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "nRF54L Arduino Core project brings Arduino support to Nordic Semi nRF54L wireless SoCs",
+      "source": "CNX Software",
+      "date": "2026-07-21",
+      "product": "BLE Module",
+      "score": 98,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "nRF54L Arduino Core is an open-source project designed to bring Arduino support for Nordic Semiconductor nRF54L wireless SoCs, starting with Seeed Studio’s XIAO nRF54L15 (Sense) and XIAO nRF54LM20A (Sense) boards, as well as compatible Holyiot nRF54L15...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "nRF54L Arduino Core project brings Arduino support to Nordic Semi nRF54L wireless SoCs\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/21/nrf54l-arduino-core-project-brings-arduino-support-to-nordic-semi-nrf54l-wireless-socs/"
+    },
+    {
+      "title": "Globalscale Case8 – A MediaTek Genio 520/720 cyberdeck for gaming, home automation, and education (Crowdfunding)",
+      "source": "CNX Software",
+      "date": "2026-07-20",
+      "product": "BLE Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Globalscale Technologies has launched the Case8 series of open-source cyberdeck-style computing platforms based on MediaTek Genio 520 and Genio 720 processors. The platform is offered in hacker (PCBA only), gaming, home automation, and education variants. The...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Globalscale Case8 – A MediaTek Genio 520/720 cyberdeck for gaming, home automation, and education (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/20/globalscale-case8-mediatek-genio-520-720-cyberdeck-for-gaming-home-automation-and-education/"
+    },
+    {
+      "title": "Factory floor exposure grows as OT security spending climbs",
+      "source": "IoT Tech News",
+      "date": "2026-07-20",
+      "product": "BLE Module",
+      "score": 89,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Manufacturing cybersecurity spending is climbing fast, and the growth is exposing weak factory floor operational technology (OT). Anyone running production plants are stuck with a decision that doesn’t have a comfortable answer: keep OT isolated and accept...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Factory floor exposure grows as OT security spending climbs\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
+      "url": "https://iottechnews.com/news/factory-floor-exposure-grows-as-ot-security-spending-climbs/"
+    },
+    {
+      "title": "Geniatech XPI-3576-CM5 – A Raspberry Pi CM5-compatible Rockchip RK3576 AI Compute Module with WiFi 6, Bluetooth 5.3",
+      "source": "CNX Software",
+      "date": "2026-07-20",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Geniatech XPI-3576-CM5 is a Rockchip RK3576 octa-core Arm Cortex-A72/A53 system-on-module based on the Raspberry Pi CM4/CM5 form factor with up to 16GB LPDDR5 and 128GB eMMC flash. The module also features a RealTek RTL8211F Gigabit Ethernet controller, an...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Geniatech XPI-3576-CM5 – A Raspberry Pi CM5-compatible Rockchip RK3576 AI Compute Module with WiFi 6, Bluetooth 5.3\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/20/geniatech-xpi-3576-cm5-a-raspberry-pi-cm5-compatible-rockchip-rk3576-ai-compute-module-with-wifi-6-bluetooth-5-3/"
+    },
+    {
+      "title": "IoTextra modular automation boards with 4 inputs, 4 outputs work with Raspberry Pi and ESP32 MCU boards",
+      "source": "CNX Software",
+      "date": "2026-07-20",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Last week, we wrote about the Olimex PICO-EVB automation board equipped with four relays and four isolated inputs and designed for Raspberry Pi Pico-compatible boards. Make Things Happy does something similar, but in a modular way, with the IoTextra family of...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "IoTextra modular automation boards with 4 inputs, 4 outputs work with Raspberry Pi and ESP32 MCU boards\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/20/iotextra-modular-automation-boards-with-4-inputs-4-outputs-work-with-raspberry-pi-and-esp32-mcu-boards/"
+    },
     {
       "title": "Efinix Titanium Edge FPGA family targets low-power edge AI and vision systems",
       "source": "CNX Software",
@@ -31,6 +171,31 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Efinix Titanium Edge FPGA family targets low-power edge AI and vision systems\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/07/20/efinix-titanium-edge-fpga-family-targets-low-power-edge-ai-and-vision-systems/"
+    },
+    {
+      "title": "Viasat demonstrates first integrated automotive satellite voice call capability with BMW Group",
+      "source": "IoT Now",
+      "date": "2026-07-20",
+      "product": "BLE Module",
+      "score": 86,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Viasat, a global contributor in satellite communications, has announced a landmark technology demonstration showcasing the first automotive satellite voice call demonstration fully integrated into a BMW Group vehicle’s platform. It … Continued The post Viasat...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Viasat demonstrates first integrated automotive satellite voice call capability with BMW Group\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/07/20/157481-viasat-demonstrates-first-integrated-automotive-satellite-voice-call-capability-with-bmw-group/"
     },
     {
       "title": "ESP32 developer ecosystem angle",
@@ -2466,159 +2631,6 @@
       "hook": "I2C 只能走几厘米？Arduino 把这根「短线」拉到了 30 米——IoT 传感器布线要彻底重写了。",
       "post": "Arduino Modulino Extender 将 I2C 通信距离从传统的几厘米扩展到 30 米，使用差分信号传输克服了 I2C 的总线电容限制。过去需要 CAN/RS485 才能实现的长距离传感器网络，现在用更简单低成本的 I2C 方案就能搞定。",
       "url": "https://www.cnx-software.com/2026/06/28/arduino-modulino-hub-extender-modules-64-i2c-devices-30-meter-range/"
-    },
-    {
-      "title": "Berg Insight: Pricing volatility hits cellular IoT module shipments",
-      "source": "IoT Tech News",
-      "date": "2026-06-26",
-      "product": "Cellular IoT Module",
-      "score": 93,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "NB-IoT",
-        "Cat.1",
-        "Cellular IoT"
-      ],
-      "value": "Useful for turning current industry news into content about remote monitoring, logistics, global coverage, and wide-area connected devices.",
-      "summary": "Cellular IoT module shipments reached 612 million units in 2025 as industrial deployments advanced against pricing volatility, according to Berg Insight. Annual sales grew 19 percent to $5.6 billion, excluding automotive network access devices. Industrial...",
-      "hook": "Wide-area IoT starts with the right connectivity choice.",
-      "post": "Berg Insight: Pricing volatility hits cellular IoT module shipments\n\nThis is a useful signal for IoT brands and product teams watching Cellular IoT Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
-      "url": "https://iottechnews.com/news/berg-insight-pricing-volatility-cellular-iot-module-shipments/"
-    },
-    {
-      "title": "Make UK and Make UK Defence to launch first joint pavilion at Advanced Engineering 2026",
-      "source": "IoT Now",
-      "date": "2026-06-26",
-      "product": "BLE Module",
-      "score": 91,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Make UK and Make UK Defence will, for the first time, host a joint pavilion at Advanced Engineering 2026, bringing together two of the UK’s most influential industrial advocates in … Continued The post Make UK and Make UK Defence to launch first joint...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Make UK and Make UK Defence to launch first joint pavilion at Advanced Engineering 2026\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/06/26/157211-make-uk-and-make-uk-defence-to-launch-first-joint-pavilion-at-advanced-engineering-2026/"
-    },
-    {
-      "title": "LoRaWAN在精准农业中的2026年部署增长报告",
-      "source": "IoT Analytics",
-      "date": "2026-06-26",
-      "product": "LoRa Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "精准农业",
-        "LoRaWAN",
-        "智慧农业",
-        "增长趋势"
-      ],
-      "value": "报告显示2026年LoRaWAN农业部署增长40%+，土壤墒情和大棚环境监测是最大落地场景。",
-      "summary": "报告显示2026年LoRaWAN农业部署增长40%+，土壤墒情和大棚环境监测是最大落地场景。",
-      "hook": "农田也需要5G？不，农田更需要LoRa——2026年农业IoT增长最快的连接技术不是蜂窝，是LoRaWAN。",
-      "post": "IoT Analytics最新报告：2026年LoRaWAN在农业场景的部署增长率超过40%，超越蜂窝IoT成为农业领域增长最快的连接技术。关键应用是土壤墒情监测、大棚环境控制、畜牧追踪。安信可Ra系列LoRa模组直接受益于这一趋势——远距离、低功耗、低成本是农业IoT选型的三大硬指标。",
-      "url": "https://iot-analytics.com/lorawan-agriculture-2026/"
-    },
-    {
-      "title": "离线语音在农业自动化中的应用前景",
-      "source": "AI-Thinker Blog",
-      "date": "2026-06-26",
-      "product": "IoT Industry",
-      "score": 82,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "离线语音",
-        "农业",
-        "自动化",
-        "VC系列"
-      ],
-      "value": "农业场景噪声大、网络信号差，离线语音控制水泵、风机等设备具有天然优势。",
-      "summary": "农业场景噪声大、网络信号差，离线语音控制水泵、风机等设备具有天然优势。",
-      "hook": "农村没网？没关系——离线语音模组正在成为智慧农业的「声控开关」。",
-      "post": "智慧农业的难点之一是大棚/农场网络覆盖差。安信可VC离线语音模组直接在本地执行语音指令——'开启水泵'、'关闭风机'——无需联网。VC-01/02支持最大100条指令词自学习，普通话+方言混合识别。在农业自动化场景中，离线语音可能是比WiFi/BLE更「接地气」的解决方案。",
-      "url": "https://docs.ai-thinker.com/voice_module/"
-    },
-    {
-      "title": "Iridium NTN Direct begins live testing with Mlink",
-      "source": "IoT Now",
-      "date": "2026-06-25",
-      "product": "BLE Module",
-      "score": 90,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Iridium Communications, a provider of global voice, data and positioning, navigation and timing (PNT) satellite services, has announced that Mlink Technology (Mlink), a fabless semiconductor company specialising in IoT and satellite … Continued The post...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Iridium NTN Direct begins live testing with Mlink\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/06/25/157200-iridium-ntn-direct-begins-live-testing-with-mlink/"
-    },
-    {
-      "title": "BLE Channel Sounding: 蓝牙6.0厘米级定位技术解析",
-      "source": "IoT Times",
-      "date": "2026-06-25",
-      "product": "BLE Module",
-      "score": 90,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "BLE 6.0",
-        "Channel Sounding",
-        "定位",
-        "厘米级"
-      ],
-      "value": "蓝牙6.0 Channel Sounding 利用PBR/RTT实现厘米级定位，有望替代部分UWB场景。Nordic nRF54L15已原生支持。",
-      "summary": "BLE 6.0 Channel Sounding 厘米级定位技术，低功耗+低成本，对标UWB定位市场。",
-      "hook": "蓝牙也能做厘米级定位了——BLE 6.0 的 Channel Sounding 正在改写室内定位的游戏规则。",
-      "post": "BLE 6.0 最大的新特性 Channel Sounding 正式进入工程样片阶段。通过 PBR(Phase-Based Ranging)和 RTT(Round-Trip Time)双重测距，BLE 首次具备了厘米级定位能力。Nordic nRF54L15 是首批支持该特性的芯片。这意味着中低端定位场景可以不用昂贵的 UWB 方案——BLE 模组的市场边界被大幅拓宽了。",
-      "url": "https://www.cnx-software.com/2026/06/23/nordic-nrf54l15-tag-prototyping-platform-supports-bluetooth-channel-sounding-matter-edge-ai/"
     }
   ]
 }
