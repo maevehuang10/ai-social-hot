@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T04:24:43.473Z",
+  "generatedAt": "2026-07-22T04:27:32.755Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,31 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "NVIDIA increases the price of Jetson modules and devkits by up to 101%",
+      "source": "CNX Software",
+      "date": "2026-07-22",
+      "product": "BLE Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "A few months ago, NVIDIA phased out several Jetson modules due to high LPDDR4 prices, and now the company has decided to increase the prices on all its Jetson modules and developer kits by up to 101%. There was no specific announcement about the price, but...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "NVIDIA increases the price of Jetson modules and devkits by up to 101%\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/22/nvidia-increases-the-price-of-jetson-modules-and-devkits-by-up-to-101/"
+    },
     {
       "title": "nRF54L Arduino Core project brings Arduino support to Nordic Semi nRF54L wireless SoCs",
       "source": "CNX Software",
@@ -35,6 +60,213 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "nRF54L Arduino Core project brings Arduino support to Nordic Semi nRF54L wireless SoCs\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/07/21/nrf54l-arduino-core-project-brings-arduino-support-to-nordic-semi-nrf54l-wireless-socs/"
+    },
+    {
+      "title": "How Fibre Internet Enhances Smart Homes",
+      "source": "IoT Tech News",
+      "date": "2026-07-21",
+      "product": "WiFi Module",
+      "score": 97,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "WiFi",
+        "Smart Home",
+        "Wireless Module"
+      ],
+      "value": "Useful for turning current industry news into content about smart home devices, gateways, control panels, and Wi-Fi connected IoT products.",
+      "summary": "Modern homes have transformed into interconnected ecosystems where smart devices coordinate to deliver enhanced convenience, security and energy efficiency. As these intelligent environments grow more complex, the demands on home internet connections increase...",
+      "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
+      "post": "How Fibre Internet Enhances Smart Homes\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
+      "url": "https://iottechnews.com/news/how-fibre-internet-enhances-smart-homes/"
+    },
+    {
+      "title": "Can you bring intelligent edge IoT devices to market faster?",
+      "source": "IoT Now",
+      "date": "2026-07-21",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Edge AI is changing what IoT devices need to do. OPEN PDF IN BROWSER As organisations look to reduce cloud dependency, improve real-time decision-making and support more intelligent connected products, … Continued The post Can you bring intelligent edge IoT...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Can you bring intelligent edge IoT devices to market faster?\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/07/21/157471-can-you-bring-intelligent-edge-iot-devices-to-market-faster/"
+    },
+    {
+      "title": "Avalue RIVAR-1539 is a 15.6-inch fanless industrial panel PC powered by an Intel N150 Twin Lake processor",
+      "source": "CNX Software",
+      "date": "2026-07-21",
+      "product": "ESP32 Module",
+      "score": 85,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "Avalue Technology has introduced the RIVAR-1539, a 15.6-inch industrial fanless panel PC powered by the Intel N150 quad-core Twin Lake processor. The system features a Full HD projected capacitive touch display, dual Gigabit Ethernet, four USB 3.0 ports, and...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "Avalue RIVAR-1539 is a 15.6-inch fanless industrial panel PC powered by an Intel N150 Twin Lake processor\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/21/avalue-rivar-1539-is-a-15-6-inch-fanless-industrial-panel-pc-powered-by-an-intel-n150-twin-lake-processor/"
+    },
+    {
+      "title": "Lantronix ends the era of region-locked IoT routers with one globally certified SKU",
+      "source": "IoT Now",
+      "date": "2026-07-21",
+      "product": "BLE Module",
+      "score": 85,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Lantronix, a global provider of Edge AI and Industrial IoT solutions that power NDAA-compliant unmanned systems, critical infrastructure and resilient enterprise networks, has expanded its NDAA-compliant NTC family of industrial … Continued The post Lantronix...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Lantronix ends the era of region-locked IoT routers with one globally certified SKU\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/07/21/157523-lantronix-ends-the-era-of-region-locked-iot-routers-with-one-globally-certified-sku/"
+    },
+    {
+      "title": "ART-Pi II development board features 600 MHz STM32H7R7 Cortex-M7 MCU with NeoChrom GPU",
+      "source": "CNX Software",
+      "date": "2026-07-21",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "The 600 MHz STM32H7R/S Cortex-M7 microcontroller family with an optional NeoChrom 2.5D GPU and up to 640 KB SRAM and 64 KB flash was introduced in 2024. However, apart from ST’s own development boards such as the NUCLEO-H7S3L8 and STM32H7S78-DK, we hadn’t...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "ART-Pi II development board features 600 MHz STM32H7R7 Cortex-M7 MCU with NeoChrom GPU\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/21/art-pi-ii-development-board-features-600-mhz-stm32h7r7-cortex-m7-mcu-with-neochrom-gpu/"
+    },
+    {
+      "title": "It’s time we talk about… AI in IoT",
+      "source": "IoT Now",
+      "date": "2026-07-21",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Is your enterprise ready for AI in the IoT space? Join Kevin, broadcasting from Atlanta, Georgia, for the premiere episode of our new series, “It’s Time We Talk About…” While … Continued The post It’s time we talk about… AI in IoT appeared first on IoT Now...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "It’s time we talk about… AI in IoT\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/07/21/157496-its-time-we-talk-about-ai-in-iot/"
+    },
+    {
+      "title": "Inside Agile Telco Q2 2026: What do agile telcos need to succeed in the AI supercycle?",
+      "source": "IoT Now",
+      "date": "2026-07-21",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "The next phase of telecoms transformation is being shaped by a new set of priorities as telcos become integral to converged AI infrastructure. OPEN PDF IN BROWSER TAI is moving … Continued The post Inside Agile Telco Q2 2026: What do agile telcos need to...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Inside Agile Telco Q2 2026: What do agile telcos need to succeed in the AI supercycle?\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/07/21/157514-inside-agile-telco-q2-2026-what-do-agile-telcos-need-to-succeed-in-the-ai-supercycle/"
+    },
+    {
+      "title": "Anthropic and Nozomi bring AI vulnerability research to OT security",
+      "source": "IoT Tech News",
+      "date": "2026-07-21",
+      "product": "IoT Industry",
+      "score": 74,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "IoT",
+        "Industry Trend",
+        "Wireless Technology"
+      ],
+      "value": "Useful for turning current industry news into content about market education, B2B trend posts, sales context, and social content planning.",
+      "summary": "Nozomi Networks has joined Anthropic’s Project Glasswing, an initiative using artificial intelligence to identify software vulnerabilities in critical infrastructure and connected systems. The company will contribute expertise in operational technology, the...",
+      "hook": "Good IoT content starts with useful market context.",
+      "post": "Anthropic and Nozomi bring AI vulnerability research to OT security\n\nThis is a useful signal for IoT brands and product teams watching IoT Industry opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
+      "url": "https://iottechnews.com/news/anthropic-ai-vulnerability-research-ot-security-nozomi-networks/"
     },
     {
       "title": "Globalscale Case8 – A MediaTek Genio 520/720 cyberdeck for gaming, home automation, and education (Crowdfunding)",
@@ -488,31 +720,6 @@
       "url": "https://www.cnx-software.com/2026/07/16/openinfrared-point-esp32-s3-universal-remote-hub-infrared-ble-nfc-audio-streaming/"
     },
     {
-      "title": "Olimex PICO-EVB automation board adds high-voltage terminals to Raspberry Pi Pico family",
-      "source": "CNX Software",
-      "date": "2026-07-16",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Olimex PICO-EVB board for the Raspberry Pi Pico and compatible boards is designed for high-voltage automation with four 3.3-30V DC or 110-220V AC inputs and four 15V DC/220V AC relays. It features two 20-pin headers enabling users to connect their preferred...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Olimex PICO-EVB automation board adds high-voltage terminals to Raspberry Pi Pico family\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/07/17/olimex-pico-evb-automation-board-adds-high-voltage-terminals-to-raspberry-pi-pico-family/"
-    },
-    {
       "title": "Keysight and Sateliot selected by European Space Agency to develop blockchain‑enabled framework for 5G NTN",
       "source": "IoT Now",
       "date": "2026-07-16",
@@ -536,6 +743,31 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Keysight and Sateliot selected by European Space Agency to develop blockchain‑enabled framework for 5G NTN\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/07/16/157464-keysight-and-sateliot-selected-by-european-space-agency-to-develop-blockchain-enabled-framework-for-5g-ntn/"
+    },
+    {
+      "title": "Olimex PICO-EVB automation board adds high-voltage terminals to Raspberry Pi Pico family",
+      "source": "CNX Software",
+      "date": "2026-07-16",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Olimex PICO-EVB board for the Raspberry Pi Pico and compatible boards is designed for high-voltage automation with four 3.3-30V DC or 110-220V AC inputs and four 15V DC/220V AC relays. It features two 20-pin headers enabling users to connect their preferred...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Olimex PICO-EVB automation board adds high-voltage terminals to Raspberry Pi Pico family\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/17/olimex-pico-evb-automation-board-adds-high-voltage-terminals-to-raspberry-pi-pico-family/"
     },
     {
       "title": "NVIDIA T3000 and T2000 target robotics cost and power limits",
@@ -2405,232 +2637,6 @@
       "hook": "10亿颗RISC-V芯片进入IoT市场——这不是预测，是正在发生的事。",
       "post": "RISC-V International 最新报告：2026年RISC-V芯片在IoT领域的出货量将突破10亿颗大关。智能家居和工业IoT是最大增长引擎，博流BL616/618等国产RISC-V芯片方案正在加速这一趋势。安信可Ai-M62/Ai-M64系列模组选的正是这条赛道。",
       "url": "https://riscv.org/blog/2026/riscv-iot-billion/"
-    },
-    {
-      "title": "XIAO nRF54LM20A: Bluetooth 6.0 + Matter + Thread + Zigbee in a thumb-sized board",
-      "source": "CNX Software",
-      "date": "2026-06-30",
-      "product": "BLE Module",
-      "score": 91,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "Bluetooth 6.0",
-        "nRF54",
-        "Matter",
-        "Thread",
-        "低功耗"
-      ],
-      "value": "Seeed Studio XIAO nRF54LM20A 拇指大小开发板搭载 Nordic nRF54LM20A，支持 Bluetooth 6.0/Matter/Thread/Zigbee/NFC/Amazon Sidewalk 六种协议。",
-      "summary": "拇指大小塞进6种协议——Bluetooth 6.0、Matter、Thread、Zigbee全都有，BLE模组的多协议时代开启。",
-      "hook": "拇指大小的开发板塞进6种协议——Bluetooth 6.0、Matter、Thread、Zigbee全都有，BLE模组的多协议时代正式开启。",
-      "post": "Seeed Studio 推出 XIAO nRF54LM20A 开发板，基于 Nordic nRF54LM20A 无线SoC，拇指大小（21×17.5mm）却支持 Bluetooth 6.0、Matter、Thread、Zigbee、NFC 和 Amazon Sidewalk 六种无线协议。Sense版本增加数字麦克风和6轴IMU。对安信可 Ai-WB2 系列来说，下一代BLE模组正走向多协议融合，BLE 6.0 Channel Sounding 厘米级定位是最大亮点。",
-      "url": "https://www.cnx-software.com/2026/06/30/xiao-nrf54lm20a-sense-board-bluetooth-6-0-matter-thread-zigbee/"
-    },
-    {
-      "title": "Telit Cinterion powers FleetSafe.ai AI video telematics for safer, data-driven fleet operations at scale",
-      "source": "IoT Now",
-      "date": "2026-06-30",
-      "product": "BLE Module",
-      "score": 86,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Telit Cinterion, an end-to-end Internet of Things (IoT) solutions enabler, has announced that its NExT IoT eSIM solutions are powering FleetSafe.ai’s AI video telematics deployment in the 2026 British Truck Racing … Continued The post Telit Cinterion powers...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Telit Cinterion powers FleetSafe.ai AI video telematics for safer, data-driven fleet operations at scale\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/06/30/157238-telit-cinterion-powers-fleetsafe-ai-ai-video-telematics-for-safer-data-driven-fleet-operations-at-scale/"
-    },
-    {
-      "title": "Banana Pi BPI-VP10: RISC-V Servo Control Board Targets Industrial IoT",
-      "source": "CNX Software",
-      "date": "2026-06-30",
-      "product": "IoT Industry",
-      "score": 82,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "RISC-V",
-        "伺服控制",
-        "工业IoT",
-        "Banana Pi",
-        "FU7512L"
-      ],
-      "value": "Banana Pi BPI-VP10 servo control board based on Fortior FU7512L dual-core RISC-V MCU, supporting absolute encoders and RS-485, targeting 100W/200W industrial servo applications.",
-      "summary": "RISC-V芯片正在打入工业伺服控制——不是概念验证，是量产级100W/200W伺服驱动板。",
-      "hook": "RISC-V芯片正在打入工业伺服控制——不是概念验证，是量产级100W/200W伺服驱动板。",
-      "post": "Banana Pi BPI-VP10 采用Fortior FU7512L双核RISC-V MCU(32-bit RISC-V@48MHz+ME2电机引擎核心+FOC模块)，支持Tamagawa/BiSS-C绝对编码器和RS-485通信。这说明RISC-V正在从IoT模组(BL602)向工业实时控制领域渗透——安信可Ai-M62/Ai-M64系列(WiFi6+RISC-V)的工业IoT定位正是踩在这条技术路径上。RISC-V的生态成熟度正在从「可用的IoT芯片」扩展到「可靠的工业芯片」。",
-      "url": "https://www.cnx-software.com/2026/06/30/banana-pi-bpi-vp10-a-low-cost-servo-control-board-based-on-fortior-fu7512l-dual-core-risc-v-mcu/"
-    },
-    {
-      "title": "GSMA MWC26 Shanghai wraps up as the AI economy and 6G innovation delight attendees from around the world",
-      "source": "IoT Now",
-      "date": "2026-06-30",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "MWC26 Shanghai has concluded with 37,300 attendees for three days of conference and exhibition focused on the AI economy, 6G innovation and more. International attendance at MWC Shanghai increased 33% year … Continued The post GSMA MWC26 Shanghai wraps up as...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "GSMA MWC26 Shanghai wraps up as the AI economy and 6G innovation delight attendees from around the world\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/06/30/157231-gsma-mwc26-shanghai-wraps-up-as-the-ai-economy-and-6g-innovation-delight-attendees-from-around-the-world/"
-    },
-    {
-      "title": "Simplia CONNECT RW612 6-in-1 M.2 Module Combines WiFi 6, BLE 5.4, Thread, NB-IoT, GNSS",
-      "source": "CNX Software",
-      "date": "2026-06-29",
-      "product": "WiFi Module",
-      "score": 89,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "WiFi 6",
-        "NB-IoT",
-        "GNSS",
-        "M.2",
-        "多协议模组"
-      ],
-      "value": "Simplia CONNECT RW612 在 22×30mm M.2 2230 封装内集成 NXP RW612(WiFi 6+BLE 5.4+802.15.4)和 Quectel BC77(LTE-M+NB-IoT+GNSS)，是迄今集成度最高的多协议 IoT 模组。",
-      "summary": "一块 M.2 模组集成 WiFi 6/BLE 5.4/Thread/NB-IoT/GNSS 六种无线协议，IoT 网关和边缘节点只需单一模组即可覆盖全场景连接。",
-      "hook": "一块 M.2 模组塞进 6 种无线协议——WiFi 6、BLE 5.4、Thread、NB-IoT、GNSS 全都有，IoT 模组的「瑞士军刀」来了。",
-      "post": "Simplia CONNECT RW612 6合1 M.2 无线模组将 NXP RW612(WiFi 6+BLE 5.4+802.15.4)与 Quectel BC77(LTE-M+NB-IoT+GNSS)整合到 22×30mm 的 M.2 2230 封装中。对模组选型来说，多协议单模组方案可以显著减少 BOM 面积和天线干扰复杂度。",
-      "url": "https://www.cnx-software.com/2026/06/29/simplia-connect-rw612-6-in-1-m-2-2230-module-offers-wifi-6-bluetooth-5-4-802-15-4-lte-m-nb-iot-and-gnss-connectivity/"
-    },
-    {
-      "title": "Quectel expands combo antenna portfolio with rugged multi-network solutions for demanding IoT deployments",
-      "source": "IoT Now",
-      "date": "2026-06-29",
-      "product": "BLE Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Quectel Wireless Solutions, a global end-to-end IoT solutions provider, has expanded its external antenna portfolio with four new combo antennas designed to simplify deployment of connected devices across smart cities, … Continued The post Quectel expands...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Quectel expands combo antenna portfolio with rugged multi-network solutions for demanding IoT deployments\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/06/29/157223-quectel-expands-combo-antenna-portfolio-with-rugged-multi-network-solutions-for-demanding-iot-deployments/"
-    },
-    {
-      "title": "2026 IoT出海趋势：从价格竞争到认证壁垒",
-      "source": "IoT Business News",
-      "date": "2026-06-29",
-      "product": "IoT Industry",
-      "score": 84,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "出海",
-        "认证",
-        "合规",
-        "贸易壁垒"
-      ],
-      "value": "2026年IoT产品出海面临新挑战：欧盟RED指令升级、美国FCC新增网络安全审查。认证正在成为准入壁垒。",
-      "summary": "2026年IoT产品出海面临新挑战：欧盟RED指令升级、美国FCC新增网络安全审查。认证正在成为准入壁垒。",
-      "hook": "低价模组已经不够了——2026年IoT出海的新门票，叫「认证合规」。",
-      "post": "IoT Business News 分析：2026年IoT产品出海的最大障碍不是价格，而是认证合规。欧盟RED指令新增网络安全条款(EN 303 645)，美国FCC可能增加供应链审查。选择已获目标市场认证的模组方案商(如安信可)，可以让终端产品认证周期缩短50%以上。",
-      "url": "https://iotbusinessnews.com/2026/iot-certification-trends/"
-    },
-    {
-      "title": "Capgemini upgrades smart manufacturing at Bentley Motors",
-      "source": "IoT Tech News",
-      "date": "2026-06-29",
-      "product": "IoT Industry",
-      "score": 70,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "IoT",
-        "Industry Trend",
-        "Wireless Technology"
-      ],
-      "value": "Useful for turning current industry news into content about market education, B2B trend posts, sales context, and social content planning.",
-      "summary": "Capgemini is deploying AI and data infrastructure at Bentley Motors to upgrade smart manufacturing technology systems. Bentley Motors appointed Capgemini as its digital operations lead to support the delivery of its Beyond100+ vision. Operating as the digital...",
-      "hook": "Good IoT content starts with useful market context.",
-      "post": "Capgemini upgrades smart manufacturing at Bentley Motors\n\nThis is a useful signal for IoT brands and product teams watching IoT Industry opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
-      "url": "https://iottechnews.com/news/capgemini-upgrades-smart-manufacturing-bentley-motors/"
-    },
-    {
-      "title": "Arduino Modulino Extender Pushes I2C Bus to 30-Meter Range for IoT Sensors",
-      "source": "CNX Software",
-      "date": "2026-06-28",
-      "product": "IoT Industry",
-      "score": 83,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Arduino",
-        "I2C",
-        "传感器网络",
-        "长距离",
-        "Modulino"
-      ],
-      "value": "Arduino Modulino Extender 通过差分信号将 I2C 总线通信距离从几厘米扩展到 30 米，配合 Hub 可连接 64 个设备，重新定义了 IoT 传感器网络布线方案。",
-      "summary": "I2C 突破板内限制实现 30 米长距离通信，为 IoT 传感器部署提供比 CAN/RS485 更简单低成本的替代方案。",
-      "hook": "I2C 只能走几厘米？Arduino 把这根「短线」拉到了 30 米——IoT 传感器布线要彻底重写了。",
-      "post": "Arduino Modulino Extender 将 I2C 通信距离从传统的几厘米扩展到 30 米，使用差分信号传输克服了 I2C 的总线电容限制。过去需要 CAN/RS485 才能实现的长距离传感器网络，现在用更简单低成本的 I2C 方案就能搞定。",
-      "url": "https://www.cnx-software.com/2026/06/28/arduino-modulino-hub-extender-modules-64-i2c-devices-30-meter-range/"
     }
   ]
 }
