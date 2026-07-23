@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T04:25:48.454Z",
+  "generatedAt": "2026-07-23T15:55:00.000Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -2641,6 +2641,62 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Sipeed NanoKVM-Go – A 4K USB-C KVM with Recall-like function, AI integration (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/07/01/sipeed-nanokvm-go-an-4k-usb-c-kvm-with-recall-like-function-ai-integration/"
+    },
+    {
+      "title": "Icy Electronics nRF54L15 Discovery devboard integrates snappable nRF52820 CMSIS-DAP debugger",
+      "source": "CNX Software",
+      "date": "2026-07-23",
+      "product": "BLE Module",
+      "score": 91,
+      "formats": [
+        "LinkedIn Post",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "nRF54L15",
+        "Bluetooth LE",
+        "Thread",
+        "Zigbee",
+        "Matter",
+        "IoT"
+      ],
+      "value": "Multi-protocol IoT devboard covering Bluetooth LE/Thread/Zigbee/Matter/NFC with RISC-V co-processor. Useful for comparing with Ai-Thinker multi-protocol module offerings and understanding the competitive landscape of 2.4GHz IoT chips.",
+      "summary": "Icy Electronics nRF54L15 Discovery is a compact wireless devboard with Nordic nRF54L15 (Cortex-M33+RISC-V coprocessor) supporting Bluetooth LE, Thread, Zigbee, Matter, NFC and other 2.4GHz protocols. Features snappable nRF52820 debugger, nPM1300 PMIC with LiPo charging, USB-C PD, and configurable 1.8V/3.3V I/O.",
+      "hook": "One devboard, six protocols — Thread, Zigbee, Bluetooth LE, Matter, NFC, and 2.4GHz proprietary all in one place.",
+      "post": "Icy Electronics nRF54L15 Discovery devboard packs Nordic's latest nRF54L15 SoC (Arm Cortex-M33 + RISC-V coprocessor) into a compact form factor with an integrated snappable CMSIS-DAP debugger. The board supports Bluetooth LE, Thread, Zigbee, Matter, and NFC — all key protocols in the smart home and industrial IoT landscape.\n\nFor Ai-Thinker's BW series (RTL87xx-based dual-band WiFi+BLE) and WB2 series (BL602 WiFi+BLE), the competitive landscape is clear: multi-protocol support is the baseline expectation for 2026 IoT modules. The nRF54L15's RISC-V software-defined peripheral approach parallels the flexibility that Ai-Thinker's RISC-V offerings (Ai-M62/M64) bring to the table.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/23/icy-electronics-nrf54l15-discovery-devboard-integrates-a-snappable-nrf52820-cmsis-dap-debugger/"
+    },
+    {
+      "title": "AIS-1000 AI Surveillance Station: $3,640 NDAA-compliant AI box based on Raspberry Pi 5 and Hailo-8L",
+      "source": "CNX Software",
+      "date": "2026-07-23",
+      "product": "WiFi Module",
+      "score": 87,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "Edge AI",
+        "Surveillance",
+        "Raspberry Pi 5",
+        "Hailo-8L",
+        "NDAA",
+        "Industrial IoT"
+      ],
+      "value": "Edge AI surveillance device showing the trend of AI acceleration at the gateway level. Ai-Thinker modules can serve as wireless sensor nodes feeding data into such AI gateways.",
+      "summary": "Planet Technology AIS-1000 is a $3,640 NDAA/TAA-compliant AI surveillance box combining Raspberry Pi 5 with Hailo-8L AI accelerator and 1TB NVMe SSD. Targets government and critical infrastructure surveillance with edge AI processing, reducing cloud bandwidth and latency.",
+      "hook": "A $3,640 Raspberry Pi — not a joke, but an NDAA-compliant edge AI fortress for critical infrastructure.",
+      "post": "Planet Technology's AIS-1000 pairs a Raspberry Pi 5 with a Hailo-8L AI accelerator in a rugged metal enclosure, priced at $3,640 for NDAA and TAA compliance. It's designed for AI-enhanced surveillance in government, critical infrastructure, and high-security applications.\n\nFor Ai-Thinker's IoT module ecosystem, this represents the \"gateway tier\" above the sensor nodes. BW series WiFi modules and 4G Cat.1 cellular modules can serve as the wireless data ingestion layer — feeding camera feeds, sensor data, and alerts into AI gateways like this for on-premises processing before selective cloud upload.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/23/ais-1000-ai-surveillance-station-a-3640-ndaa-and-taa-compliant-ai-box-based-on-raspberry-pi-5-and-hailo-8l/"
     }
   ]
 }

@@ -12618,6 +12618,25 @@
                   ],
                   "url": "https://docs.ai-thinker.com/lora/"
         },
+        // ━━━ 2026-07-23 BW系列第二轮 ━━━
+        { title:"BW系列射频与天线设计实战：PCB天线阻抗匹配+S11参数调试全流程", source:"Ai-Thinker Docs", date:"2026-07-23","product":"WiFi Module",sourceType:"official",
+          summary:"BW系列双频WiFi模组天线设计量产避坑：PCB倒F型IFA(50Ω,14×6mm,双频双谐振点)vs IPEX外接天线选型→Smith圆图+π型匹配网络(串L+并C+串L)→VNA实测S11<-10dB判定通过→双频2.4G/5G谐振点相互干扰独立调试→实测案例：某智能插座S11从-6dB调到-17dB，通信距离30m→80m→量产一致性：±10%元件公差+塑料外壳介电偏移+OTA暗室方向图验证。",
+          persona:"射频天线工程师 · WiFi模组量产设计 · 智能家居硬件研发",
+          tags:["BW16","BW20","BW21","天线设计","阻抗匹配","S11","PCB天线","IPEX","射频","量产"],
+          url:"https://docs.ai-thinker.com/wifi/"
+        },
+        { title:"BW系列RTL87xx固件开发全流程：从SDK到OTA的完整交付链", source:"Ai-Thinker Docs", date:"2026-07-23","product":"WiFi Module",sourceType:"official",
+          summary:"瑞昱RTL87xx SDK固件开发全景：①SDK架构(AmebaZ2/Pro2/D,FreeRTOS+lwIP,CMSIS-RTOS)→②三模式选择：AT固件(快速上市)vs SDK裸开发(差异化)vs Arduino(原型)→③AT+SDK混合：AT托管WiFi/BLE连接层+自定义AT扩展私有业务→④OTA全链路：HTTP下载→SHA256校验→A/B双区切换→Bootloader回滚→Flash Download Tool量产烧录→⑤交付节奏：Arduino原型1天→SDK移植2周→OTA接入3天→产测1周→量产。",
+          persona:"嵌入式固件工程师 · OTA系统设计 · 模组量产交付",
+          tags:["RTL87xx","SDK","FreeRTOS","AT指令","OTA","双区切换","Bootloader","lwIP","量产","Arduino"],
+          url:"https://docs.ai-thinker.com/wifi/"
+        },
+        { title:"BW系列功耗优化深度：从15mA到12μA的全场景电池续航计算", source:"Ai-Thinker Docs", date:"2026-07-23","product":"WiFi Module",sourceType:"official",
+          summary:"BW系列五种功耗模式实战与电池选型：①Continuous TX(BW16:200mA,BW21:280mA)仅常供电→②Modem-sleep CPU运行WiFi待机,DTIM=1时15mA/DTIM=3时5mA,适合常供电实时设备→③Light-sleep DTIM唤醒+CPU暂停,平均<0.8mA@DTIM=3,门磁案例：上报200mA×0.3s+休眠0.8mA×299.7s=平均1.2mA,1000mAh续航33天→④Deep-sleep仅RTC,BW16:12μA/BW21:5μA,土壤湿度案例：每小时唤醒1次→WiFi连接1s@80mA→MQTT上报0.2s@200mA→休眠12μA,月均<1mAh,2000mAh电池>5年→⑤混合策略：高峰Modem-sleep在线+低谷Deep-sleep定时+GPIO中断优先唤醒。",
+          persona:"低功耗IoT设计师 · 电池供电设备研发 · 传感器节点方案商",
+          tags:["BW16","BW21","低功耗","Modem-sleep","Light-sleep","Deep-sleep","DTIM","电池续航","功耗实测","12μA"],
+          url:"https://docs.ai-thinker.com/wifi/"
+        },
         ];
 
       function escT(text) { return String(text||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;"); }
