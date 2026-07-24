@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T15:55:00.000Z",
+  "generatedAt": "2026-07-24T04:25:05.014Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,34 +7,6 @@
     "IoT Tech News"
   ],
   "topics": [
-    {
-      "title": "Radar sensing for privacy-friendly presence detection",
-      "source": "Industry Sensing",
-      "product": "Radar Sensor",
-      "score": 92,
-      "formats": [
-        "Short Video",
-        "LinkedIn Post",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "Radar",
-        "Presence Detection",
-        "Smart Sensing"
-      ],
-      "value": "Useful for explaining camera-free sensing in elderly care, bathrooms, bedrooms, security, and automation scenarios.",
-      "summary": "Radar content is strongest when it starts from the user problem: reliable presence detection without a camera.",
-      "hook": "Not every sensing solution needs a camera.",
-      "post": "Radar sensing can be explained through practical spaces: bathroom, bedroom, entryway, or care facility. Start with the pain point, then explain why camera-free sensing matters.",
-      "url": "",
-      "date": "2026-07-23"
-    },
     {
       "title": "LoRaWAN solution content worth tracking",
       "source": "RAKwireless",
@@ -59,7 +31,7 @@
       "hook": "Some IoT projects need years of battery life, not more bandwidth.",
       "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
       "url": "https://www.linkedin.com/company/rakwireless/",
-      "date": "2026-07-23"
+      "date": "2026-07-24"
     },
     {
       "title": "ESP32 developer ecosystem angle",
@@ -86,7 +58,7 @@
       "hook": "A small module can shape the whole connected product experience.",
       "post": "ESP32 content works best when it connects the module to a real device workflow: connectivity, control, UI, sensing, and deployment.",
       "url": "https://www.linkedin.com/company/espressif-systems",
-      "date": "2026-07-23"
+      "date": "2026-07-24"
     },
     {
       "title": "Matter and smart-home compatibility story",
@@ -112,7 +84,253 @@
       "hook": "Smart home buyers are no longer asking only for connectivity. They want compatibility.",
       "post": "For smart-home devices, wireless modules become more valuable when they reduce integration risk and help products fit into existing ecosystems.",
       "url": "https://www.home-assistant.io/",
-      "date": "2026-07-23"
+      "date": "2026-07-24"
+    },
+    {
+      "title": "Radar sensing for privacy-friendly presence detection",
+      "source": "Industry Sensing",
+      "product": "Radar Sensor",
+      "score": 92,
+      "formats": [
+        "Short Video",
+        "LinkedIn Post",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "Radar",
+        "Presence Detection",
+        "Smart Sensing"
+      ],
+      "value": "Useful for explaining camera-free sensing in elderly care, bathrooms, bedrooms, security, and automation scenarios.",
+      "summary": "Radar content is strongest when it starts from the user problem: reliable presence detection without a camera.",
+      "hook": "Not every sensing solution needs a camera.",
+      "post": "Radar sensing can be explained through practical spaces: bathroom, bedroom, entryway, or care facility. Start with the pain point, then explain why camera-free sensing matters.",
+      "url": "",
+      "date": "2026-07-24"
+    },
+    {
+      "title": "AIS-1000 AI Surveillance Station – A $3,640 NDAA and TAA-compliant AI box based on Raspberry Pi 5 and Hailo-8L",
+      "source": "CNX Software",
+      "date": "2026-07-23",
+      "product": "ESP32 Module",
+      "score": 92,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "If you feel like a cheapskate when purchasing a Raspberry Pi 5 16GB for only $305, there’s now a solution to avoid embarrassment. Meet the $3,640 AIS-1000 AI Surveillance Station, pairing a Raspberry Pi 5 with a Hailo-8L AI accelerator and a 1TB NVMe SSD, all...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "AIS-1000 AI Surveillance Station – A $3,640 NDAA and TAA-compliant AI box based on Raspberry Pi 5 and Hailo-8L\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/23/ais-1000-ai-surveillance-station-a-3640-ndaa-and-taa-compliant-ai-box-based-on-raspberry-pi-5-and-hailo-8l/"
+    },
+    {
+      "title": "Icy Electronics nRF54L15 Discovery devboard integrates snappable nRF52820 CMSIS-DAP debugger",
+      "source": "CNX Software",
+      "date": "2026-07-23",
+      "product": "BLE Module",
+      "score": 91,
+      "formats": [
+        "LinkedIn Post",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "nRF54L15",
+        "Bluetooth LE",
+        "Thread",
+        "Zigbee",
+        "Matter",
+        "IoT"
+      ],
+      "value": "Multi-protocol IoT devboard covering Bluetooth LE/Thread/Zigbee/Matter/NFC with RISC-V co-processor. Useful for comparing with Ai-Thinker multi-protocol module offerings and understanding the competitive landscape of 2.4GHz IoT chips.",
+      "summary": "Icy Electronics nRF54L15 Discovery is a compact wireless devboard with Nordic nRF54L15 (Cortex-M33+RISC-V coprocessor) supporting Bluetooth LE, Thread, Zigbee, Matter, NFC and other 2.4GHz protocols. Features snappable nRF52820 debugger, nPM1300 PMIC with LiPo charging, USB-C PD, and configurable 1.8V/3.3V I/O.",
+      "hook": "One devboard, six protocols — Thread, Zigbee, Bluetooth LE, Matter, NFC, and 2.4GHz proprietary all in one place.",
+      "post": "Icy Electronics nRF54L15 Discovery devboard packs Nordic's latest nRF54L15 SoC (Arm Cortex-M33 + RISC-V coprocessor) into a compact form factor with an integrated snappable CMSIS-DAP debugger. The board supports Bluetooth LE, Thread, Zigbee, Matter, and NFC — all key protocols in the smart home and industrial IoT landscape.\n\nFor Ai-Thinker's BW series (RTL87xx-based dual-band WiFi+BLE) and WB2 series (BL602 WiFi+BLE), the competitive landscape is clear: multi-protocol support is the baseline expectation for 2026 IoT modules. The nRF54L15's RISC-V software-defined peripheral approach parallels the flexibility that Ai-Thinker's RISC-V offerings (Ai-M62/M64) bring to the table.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/23/icy-electronics-nrf54l15-discovery-devboard-integrates-a-snappable-nrf52820-cmsis-dap-debugger/"
+    },
+    {
+      "title": "Augmental MouthPad is a tongue-controlled touchpad/trackpad",
+      "source": "CNX Software",
+      "date": "2026-07-23",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Check your calendar, everyone! It’s definitely not April 1st. Now that we have that out of the way, we can start with the main topic of this article. Ready? Augmental MouthPad is a Bluetooth HID device you put into your mouth and control like a touchpad or...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Augmental MouthPad is a tongue-controlled touchpad/trackpad\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/23/augmental-mouthpad-tongue-controlled-touchpad-trackpad/"
+    },
+    {
+      "title": "AIS-1000 AI Surveillance Station: $3,640 NDAA-compliant AI box based on Raspberry Pi 5 and Hailo-8L",
+      "source": "CNX Software",
+      "date": "2026-07-23",
+      "product": "WiFi Module",
+      "score": 87,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "Edge AI",
+        "Surveillance",
+        "Raspberry Pi 5",
+        "Hailo-8L",
+        "NDAA",
+        "Industrial IoT"
+      ],
+      "value": "Edge AI surveillance device showing the trend of AI acceleration at the gateway level. Ai-Thinker modules can serve as wireless sensor nodes feeding data into such AI gateways.",
+      "summary": "Planet Technology AIS-1000 is a $3,640 NDAA/TAA-compliant AI surveillance box combining Raspberry Pi 5 with Hailo-8L AI accelerator and 1TB NVMe SSD. Targets government and critical infrastructure surveillance with edge AI processing, reducing cloud bandwidth and latency.",
+      "hook": "A $3,640 Raspberry Pi — not a joke, but an NDAA-compliant edge AI fortress for critical infrastructure.",
+      "post": "Planet Technology's AIS-1000 pairs a Raspberry Pi 5 with a Hailo-8L AI accelerator in a rugged metal enclosure, priced at $3,640 for NDAA and TAA compliance. It's designed for AI-enhanced surveillance in government, critical infrastructure, and high-security applications.\n\nFor Ai-Thinker's IoT module ecosystem, this represents the \"gateway tier\" above the sensor nodes. BW series WiFi modules and 4G Cat.1 cellular modules can serve as the wireless data ingestion layer — feeding camera feeds, sensor data, and alerts into AI gateways like this for on-premises processing before selective cloud upload.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/23/ais-1000-ai-surveillance-station-a-3640-ndaa-and-taa-compliant-ai-box-based-on-raspberry-pi-5-and-hailo-8l/"
+    },
+    {
+      "title": "Soracom introduces Soracom Agent, an AI Agent for the full IoT project lifecycle",
+      "source": "IoT Now",
+      "date": "2026-07-23",
+      "product": "BLE Module",
+      "score": 86,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Soracom, a cloud-native IoT platform providing connectivity, cloud integration, an AI services for the Internet of Things, has announced Soracom Agent, an AI agent that works alongside teams across the … Continued The post Soracom introduces Soracom Agent, an...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Soracom introduces Soracom Agent, an AI Agent for the full IoT project lifecycle\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/07/23/157555-soracom-introduces-soracom-agent-an-ai-agent-for-the-full-iot-project-lifecycle/"
+    },
+    {
+      "title": "Icy Electronics nRF54L15 Discovery devboard integrates a snappable nRF52820 CMSIS-DAP debugger",
+      "source": "CNX Software",
+      "date": "2026-07-23",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "The nRF54L15 Discovery is a compact wireless devboard with an onboard nRF52820 CMSIS-DAP debugger/programmer for Bluetooth LE, Thread, Zigbee, Matter, NFC, and other 2.4 GHz IoT applications. Its snap-apart design allows the target and interface MCUs to be...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Icy Electronics nRF54L15 Discovery devboard integrates a snappable nRF52820 CMSIS-DAP debugger\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/23/icy-electronics-nrf54l15-discovery-devboard-integrates-a-snappable-nrf52820-cmsis-dap-debugger/"
+    },
+    {
+      "title": "$99 Xteink X4 Pro 4.3-inch touchscreen eReader to support CrossPoint Reader open-source firmware",
+      "source": "CNX Software",
+      "date": "2026-07-23",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Xteink X4 Pro is a pocket-sized eReader with a 4.3-inch touchscreen E Ink display, a 16GB microSD card, 2.4 GHz WiFi and Bluetooth wireless connectivity, and a 1100 mAh battery. Previous models like the X3 and X4 e-readers were based on the ESP32-C3 RISC-V...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "$99 Xteink X4 Pro 4.3-inch touchscreen eReader to support CrossPoint Reader open-source firmware\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/23/99-xteink-x4-pro-4-3-inch-touchscreen-ereader-to-support-crosspoint-reader-open-source-firmware/"
+    },
+    {
+      "title": "AI adoption in OT security outpaces governance controls",
+      "source": "IoT Tech News",
+      "date": "2026-07-23",
+      "product": "IoT Industry",
+      "score": 79,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "IoT",
+        "Industry Trend",
+        "Wireless Technology"
+      ],
+      "value": "Useful for turning current industry news into content about market education, B2B trend posts, sales context, and social content planning.",
+      "summary": "Industrial organisations are adopting artificial intelligence for threat detection, network monitoring, and security operations, but formal controls governing its use in operational technology environments remain limited, according to a new industry survey....",
+      "hook": "Good IoT content starts with useful market context.",
+      "post": "AI adoption in OT security outpaces governance controls\n\nThis is a useful signal for IoT brands and product teams watching IoT Industry opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
+      "url": "https://iottechnews.com/news/ai-ot-security-governance/"
     },
     {
       "title": "Arduino UNO Q Arcade bundle lets you build a custom retro gaming console for about $90",
@@ -2435,268 +2653,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "TXOne launches virtual OT inspection tool for industry\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
       "url": "https://iottechnews.com/news/txone-virtual-ot-inspection-tool/"
-    },
-    {
-      "title": "SONOFF NSPanel Pro Gen2: Zigbee Gateway + WiFi + Matter Smart Home Control Panel Review",
-      "source": "CNX Software",
-      "date": "2026-07-02",
-      "product": "Smart Home",
-      "score": 87,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "Smart Home",
-        "Zigbee",
-        "Matter",
-        "触控面板",
-        "WiFi",
-        "Home Assistant"
-      ],
-      "value": "SONOFF NSPanel Pro Gen2 smart home control panel integrates Zigbee 3.0 gateway, WiFi, and Matter protocol with eWeLink/Home Assistant, featuring a 480x480 touchscreen for whole-home automation control.",
-      "summary": "Zigbee网关+触控面板+Matter支持——SONOFF NSPanel Pro Gen2是全屋智能的「指挥中心」。",
-      "hook": "一块墙上触控面板同时搞定Zigbee网关+Matter+Home Assistant——SONOFF把智能家居中枢做成了艺术品。",
-      "post": "SONOFF NSPanel Pro Gen2 集成了Zigbee 3.0网关、WiFi和Matter协议支持，480×480触控屏可直接管理全屋智能设备，并原生对接eWeLink和Home Assistant。Matter协议让它能跨生态联动Apple Home、Google Home、Alexa。对安信可模组产品线来说，这类全屋智能面板对WiFi+BLE双模模组(WB2/BW16)和Zigbee网关级芯片方案的需求是明确的增量市场信号。",
-      "url": "https://www.cnx-software.com/2026/07/02/sonoff-nspanel-pro-gen2-review-ewelink-home-assistant/"
-    },
-    {
-      "title": "SONOFF Matter over WiFi开关：DIN导轨+32A工业级应用",
-      "source": "IOT-HOT",
-      "date": "2026-07-02",
-      "product": "WiFi Module",
-      "score": 86,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "Matter",
-        "智能开关",
-        "DIN",
-        "32A",
-        "工业级"
-      ],
-      "value": "SONOFF Matter over WiFi智能开关支持DIN导轨和32A高功率，Matter协议向工业场景渗透的标志性产品。",
-      "summary": "SONOFF Matter over WiFi智能开关支持DIN导轨和32A高功率，Matter协议向工业场景渗透的标志性产品。",
-      "hook": "Matter不只是智能灯泡——这个32A的DIN导轨开关正在改写游戏规则。",
-      "post": "IOT-HOT报道：SONOFF推出Matter over WiFi智能开关，支持DIN导轨安装和32A高功率电路，适用于电地暖、EV充电等工业级场景。这是Matter协议从消费级走向工业级应用的重要信号——32A的Matter设备意味着模组需要在过流保护、温升控制和可靠性上达到工业标准。",
-      "url": "http://10.1.8.31:2217/scenarios"
-    },
-    {
-      "title": "Titan Mini: Renesas RA8P1 Cortex-M85 Edge AI Board Brings Helium MVE to RT-Thread RTOS",
-      "source": "CNX Software",
-      "date": "2026-07-02",
-      "product": "IoT Industry",
-      "score": 84,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "Edge AI",
-        "Cortex-M85",
-        "RT-Thread",
-        "Helium MVE",
-        "IoT开发板"
-      ],
-      "value": "Titan Mini is a compact Renesas RA8P1 Cortex-M85 development board designed for RT-Thread RTOS, featuring Helium MVE vector extensions for real-time edge AI inference, CAN Bus, Ethernet, and camera interface -- a powerful platform for industrial IoT edge computing.",
-      "summary": "Cortex-M85核心+RT-Thread RTOS——Titan Mini把工业级边缘AI装进了名片大小的开发板。",
-      "hook": "RT-Thread生态迎来M85旗舰——Titan Mini这块小板的Helium向量引擎能跑实时AI推理。",
-      "post": "Titan Mini基于Renesas RA8P1 Cortex-M85@480MHz，内置Helium MVE向量扩展引擎，原生支持RT-Thread RTOS。板载以太网、CAN Bus、摄像头接口——一块板覆盖工业IoT边缘AI的三大需求：实时控制(CAN)、高速数据(Ethernet)、机器视觉(Camera)。对安信可而言，Cortex-M85的AI推理能力进入RT-Thread生态，正是模组从「通信管道」升级为「智能节点」的技术风向标。",
-      "url": "https://www.cnx-software.com/2026/07/02/titan-mini-smaller-renesas-ra8p1-based-edge-ai-board-for-rt-thread-rtos-development/"
-    },
-    {
-      "title": "PaperBoy Game Boy Emulator works at 60 FPS on ESP32-S3 E Ink devkit",
-      "source": "CNX Software",
-      "date": "2026-07-02",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "60 FPS gaming on an E Ink display? That doesn’t seem right… But that’s exactly what Wenting Zhang’s PaperBoy Game Boy emulator project does, using the M5Stack PaperS3 devkit, pairing an ESP32-S3 wireless microcontroller with a 4.7-inch E Ink display with 960...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "PaperBoy Game Boy Emulator works at 60 FPS on ESP32-S3 E Ink devkit\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/07/02/paperboy-game-boy-emulator-works-at-60-fps-on-esp32-s3-e-ink-devkit/"
-    },
-    {
-      "title": "Raspberry Pi CM0-based industrial data acquisition gateway features RS-485, RS-232, DI, and DO interfaces",
-      "source": "CNX Software",
-      "date": "2026-07-01",
-      "product": "BLE Module",
-      "score": 93,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "EDATEC ED-IPC1200 is an industrial data acquisition gateway powered by the Raspberry Pi Compute Module Zero (CM0), designed for industrial automation and edge applications with various I/O interfaces, a fanless design, and a wide range (9–28V) DC power input....",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Raspberry Pi CM0-based industrial data acquisition gateway features RS-485, RS-232, DI, and DO interfaces\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/07/01/raspberry-pi-cm0-based-industrial-data-acquisition-gateway-offer-rs485-rs232-di-do-interfaces/"
-    },
-    {
-      "title": "AI眼镜/智能手表出货量2026年预测突破2亿台",
-      "source": "IOT-HOT",
-      "date": "2026-07-01",
-      "product": "IoT Industry",
-      "score": 89,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "智能穿戴",
-        "出货量",
-        "AI眼镜",
-        "市场预测"
-      ],
-      "value": "2026年全球AI眼镜和智能手表出货量预计突破2亿台，WiFi+BLE双模连接是标准配置。",
-      "summary": "2026年全球AI眼镜和智能手表出货量预计突破2亿台，WiFi+BLE双模连接是标准配置。",
-      "hook": "2亿台穿戴设备正在醒来——它们全都要连WiFi和蓝牙，你的模组准备好了吗？",
-      "post": "IOT-HOT行业趋势分析：2026年全球智能穿戴设备出货量预计突破2亿台。AI眼镜、智能手表、健康手环三大品类齐头并进，WiFi+BLE双模连接已成标配，单模方案正在被淘汰。安信可WB2系列的WiFi+BLE双模、12μA超低休眠功耗特性，正是穿戴设备对模组的典型需求。",
-      "url": "http://10.1.8.31:2217/trends"
-    },
-    {
-      "title": "Tele2 IoT and Lenovo Connect partner to power global IoT for automotive and beyond",
-      "source": "IoT Now",
-      "date": "2026-07-01",
-      "product": "BLE Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Tele2 IoT and Lenovo Connect have formed a partnership to help global businesses deploy and manage connected devices at scale, with a particular focus on the growing automotive sector and … Continued The post Tele2 IoT and Lenovo Connect partner to power...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Tele2 IoT and Lenovo Connect partner to power global IoT for automotive and beyond\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/07/01/157266-tele2-iot-and-lenovo-connect-partner-to-power-global-iot-for-automotive-and-beyond/"
-    },
-    {
-      "title": "Sipeed NanoKVM-Go – A 4K USB-C KVM with Recall-like function, AI integration (Crowdfunding)",
-      "source": "CNX Software",
-      "date": "2026-07-01",
-      "product": "BLE Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Sipeed NanoKVM-Go is a 4K USB-C KVM designed to control any USB-C device from anywhere with one cable. It also supports “full screen memory”, a function similar to the controversial Microsoft Recall feature, which enables an AI agent to search through your...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Sipeed NanoKVM-Go – A 4K USB-C KVM with Recall-like function, AI integration (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/07/01/sipeed-nanokvm-go-an-4k-usb-c-kvm-with-recall-like-function-ai-integration/"
-    },
-    {
-      "title": "Icy Electronics nRF54L15 Discovery devboard integrates snappable nRF52820 CMSIS-DAP debugger",
-      "source": "CNX Software",
-      "date": "2026-07-23",
-      "product": "BLE Module",
-      "score": 91,
-      "formats": [
-        "LinkedIn Post",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "nRF54L15",
-        "Bluetooth LE",
-        "Thread",
-        "Zigbee",
-        "Matter",
-        "IoT"
-      ],
-      "value": "Multi-protocol IoT devboard covering Bluetooth LE/Thread/Zigbee/Matter/NFC with RISC-V co-processor. Useful for comparing with Ai-Thinker multi-protocol module offerings and understanding the competitive landscape of 2.4GHz IoT chips.",
-      "summary": "Icy Electronics nRF54L15 Discovery is a compact wireless devboard with Nordic nRF54L15 (Cortex-M33+RISC-V coprocessor) supporting Bluetooth LE, Thread, Zigbee, Matter, NFC and other 2.4GHz protocols. Features snappable nRF52820 debugger, nPM1300 PMIC with LiPo charging, USB-C PD, and configurable 1.8V/3.3V I/O.",
-      "hook": "One devboard, six protocols — Thread, Zigbee, Bluetooth LE, Matter, NFC, and 2.4GHz proprietary all in one place.",
-      "post": "Icy Electronics nRF54L15 Discovery devboard packs Nordic's latest nRF54L15 SoC (Arm Cortex-M33 + RISC-V coprocessor) into a compact form factor with an integrated snappable CMSIS-DAP debugger. The board supports Bluetooth LE, Thread, Zigbee, Matter, and NFC — all key protocols in the smart home and industrial IoT landscape.\n\nFor Ai-Thinker's BW series (RTL87xx-based dual-band WiFi+BLE) and WB2 series (BL602 WiFi+BLE), the competitive landscape is clear: multi-protocol support is the baseline expectation for 2026 IoT modules. The nRF54L15's RISC-V software-defined peripheral approach parallels the flexibility that Ai-Thinker's RISC-V offerings (Ai-M62/M64) bring to the table.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/07/23/icy-electronics-nrf54l15-discovery-devboard-integrates-a-snappable-nrf52820-cmsis-dap-debugger/"
-    },
-    {
-      "title": "AIS-1000 AI Surveillance Station: $3,640 NDAA-compliant AI box based on Raspberry Pi 5 and Hailo-8L",
-      "source": "CNX Software",
-      "date": "2026-07-23",
-      "product": "WiFi Module",
-      "score": 87,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "Edge AI",
-        "Surveillance",
-        "Raspberry Pi 5",
-        "Hailo-8L",
-        "NDAA",
-        "Industrial IoT"
-      ],
-      "value": "Edge AI surveillance device showing the trend of AI acceleration at the gateway level. Ai-Thinker modules can serve as wireless sensor nodes feeding data into such AI gateways.",
-      "summary": "Planet Technology AIS-1000 is a $3,640 NDAA/TAA-compliant AI surveillance box combining Raspberry Pi 5 with Hailo-8L AI accelerator and 1TB NVMe SSD. Targets government and critical infrastructure surveillance with edge AI processing, reducing cloud bandwidth and latency.",
-      "hook": "A $3,640 Raspberry Pi — not a joke, but an NDAA-compliant edge AI fortress for critical infrastructure.",
-      "post": "Planet Technology's AIS-1000 pairs a Raspberry Pi 5 with a Hailo-8L AI accelerator in a rugged metal enclosure, priced at $3,640 for NDAA and TAA compliance. It's designed for AI-enhanced surveillance in government, critical infrastructure, and high-security applications.\n\nFor Ai-Thinker's IoT module ecosystem, this represents the \"gateway tier\" above the sensor nodes. BW series WiFi modules and 4G Cat.1 cellular modules can serve as the wireless data ingestion layer — feeding camera feeds, sensor data, and alerts into AI gateways like this for on-premises processing before selective cloud upload.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/07/23/ais-1000-ai-surveillance-station-a-3640-ndaa-and-taa-compliant-ai-box-based-on-raspberry-pi-5-and-hailo-8l/"
     }
   ]
 }
