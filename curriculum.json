@@ -122,6 +122,39 @@
             "门磁"
           ],
           "url": "https://docs.ai-thinker.com/wb2/"
+        },
+        {
+          "title": "Ai-WB2 RISC-V开发全流程：BL602 SDK环境搭建与外设驱动实战",
+          "product": "WiFi Module",
+          "summary": "Ai-WB2基于博流BL602 RISC-V 32位MCU的完整开发链路：①Bouffalo Lab Dev Cube SDK环境搭建（工具链安装+工程模板+烧录配置）→②FreeRTOS任务调度（创建/优先级/消息队列）→③外设驱动实战：GPIO中断控制LED+按键消抖、I2C读写BME280温湿度传感器、SPI Flash文件系统（LittleFS）、PWM呼吸灯调光。所有代码可直接在Ai-WB2-12F开发板上运行，降低RISC-V IoT模组的上手门槛。",
+          "persona": "RISC-V嵌入式开发者 · IoT模组SDK集成工程师 · 从Arduino向RTOS迁移的硬件团队",
+          "tags": [
+            "Ai-WB2",
+            "BL602",
+            "RISC-V",
+            "FreeRTOS",
+            "SDK",
+            "外设驱动",
+            "Bouffalo Lab"
+          ],
+          "url": "https://docs.ai-thinker.com/wb2/"
+        },
+        {
+          "title": "Ai-WB2 量产部署与安全指南：硬件设计+Secure Boot+OTA升级+认证路径",
+          "product": "WiFi Module",
+          "summary": "Ai-WB2模组从原型到量产的四大关键环节：①硬件设计要点：π型天线阻抗匹配（50Ω）、电源去耦电容布局（100nF+10μF+22μF三级滤波）、EMC/ESD防护设计→②Secure Boot安全启动：BL602签名校验流程+efuse烧录+防固件篡改→③OTA固件升级：A/B双区Flash切换+断点续传+回滚保护机制→④FCC/CE认证路径：Ai-WB2已通过FCC/CE/SRRC认证的模组型号清单与复用策略。帮助产品团队从开发板到产线批量的全流程落地。",
+          "persona": "硬件设计工程师 · IoT产品量产经理 · 认证合规工程师 · 从原型到量产的NPI团队",
+          "tags": [
+            "Ai-WB2",
+            "量产",
+            "Secure Boot",
+            "OTA",
+            "天线匹配",
+            "FCC",
+            "CE",
+            "认证"
+          ],
+          "url": "https://docs.ai-thinker.com/wb2/"
         }
       ],
       "external": [
@@ -158,6 +191,42 @@
           "hook": "Flipper 这次不只是玩具——Matter原生支持的智能家居多工具，STM32U5超低功耗MCU给它7天续航。",
           "post": "Flipper BUSY Bar 开源生产力多工具搭载 STM32U5 超低功耗MCU和 Silicon Labs SiWG917 芯片（WiFi+BLE+Matter），LED像素显示+OLED副屏，支持与 Home Assistant、Apple Home、Google Home 的 Matter 协议原生集成。Matter 正在从智能灯泡/开关扩展到创新型IoT设备，对安信可 Matter 兼容模组（如WB2系列的Matter固件适配）来说是积极的生态扩容信号。",
           "url": "https://www.cnx-software.com/2026/07/01/flipper-busy-bar-open-source-productivity-multitool-features-led-pixel-display-supports-matter-connectivity/"
+        },
+        {
+          "title": "ART-Pi II STM32H7R7: 600MHz Cortex-M7 + NeoChrom GPU + WiFi/BLE for industrial RT-Thread",
+          "source": "CNX Software",
+          "product": "WiFi Module",
+          "score": 89,
+          "tags": [
+            "STM32H7R7",
+            "Cortex-M7",
+            "RT-Thread",
+            "NeoChrom GPU",
+            "工业MCU",
+            "WiFi+BLE"
+          ],
+          "summary": "ART-Pi II开发板搭载ST STM32H7R7 600MHz Cortex-M7+NeoChrom 2.5D GPU+32MB HyperRAM+64MB HyperFlash，集成CYWL6208 WiFi4+BLE5.1模组，运行RT-Thread RTOS。代表了工业MCU向GPU加速和无线连接集成方向演进的最新趋势，对安信可BL602/WB2系列的RISC-V+WiFi/BLE定位有参考意义。",
+          "hook": "600MHz Cortex-M7配上2.5D GPU和WiFi+BLE——这还是一颗MCU吗？工业嵌入式正在重新定义「单片机」的边界。",
+          "post": "ART-Pi II开发板基于STM32H7R7L8H（ARM Cortex-M7@600MHz+NeoChrom 2.5D GPU），搭载CYWL6208 WiFi4+BLE5.1无线模组，配备32MB HyperRAM和64MB HyperFlash，运行RT-Thread RTOS。RT-Thread社区为这块板子提供了完整的LVGL/TouchGFX GUI示例和WiFi联网demo。对安信可Ai-WB2（BL602 RISC-V, WiFi+BLE）来说，高端MCU集成GPU+WiFi/BLE的趋势意味着未来IoT模组不仅要提供连接能力，还需承载本地HMI渲染——这是WB2系列从透传模组向智能模组升级的方向。",
+          "url": "https://www.cnx-software.com/2026/07/21/art-pi-ii-development-board-features-600-mhz-stm32h7r7-cortex-m7-mcu-with-neochrom-gpu/"
+        },
+        {
+          "title": "nRF54L Arduino Core: nRF54L BLE SoCs get Arduino IDE support, lowering IoT dev barrier",
+          "source": "CNX Software",
+          "product": "BLE Module",
+          "score": 87,
+          "tags": [
+            "nRF54L",
+            "Arduino",
+            "BLE",
+            "RISC-V",
+            "Nordic",
+            "开源"
+          ],
+          "summary": "社区开源项目nRF54L Arduino Core为Nordic nRF54L15/LM20A系列BLE SoC（Cortex-M33+RISC-V协处理器）带来Arduino IDE支持，覆盖BLE外设/中心角色、HID、BLE UART、GPIO/ADC/PWM/I2C/SPI等全部外设。降低从Arduino生态迁移到新款BLE SoC的门槛。",
+          "hook": "终于不用啃Zephyr了——Nordic最新BLE芯片nRF54L系列现在可以直接用Arduino IDE编程。RISC-V协处理器也开放了。",
+          "post": "开源项目nRF54L Arduino Core让Nordic nRF54L15/LM20A（ARM Cortex-M33@128MHz+RISC-V协处理器）可以直接在Arduino IDE中开发，支持BLE外设/中心/双角色、HID配置文件、GPIO/ADC/PWM/SPI/I2C等全部外设，实验性支持Zigbee/Thread/Matter和BLE Channel Sounding。此举极大降低了从Arduino生态迁入新款BLE SoC的门槛，对安信可Ai-WB2（BL602 RISC-V+BLE5.0）的SDK易用性和开发者生态建设有启发意义——Arduino兼容层是IoT模组做大开发者生态的最短路径。",
+          "url": "https://www.cnx-software.com/2026/07/21/nrf54l-arduino-core-project-brings-arduino-support-to-nordic-semi-nrf54l-wireless-socs/"
         }
       ]
     },
