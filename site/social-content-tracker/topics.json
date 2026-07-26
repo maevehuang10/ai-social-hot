@@ -8,6 +8,43 @@
   ],
   "topics": [
     {
+      "title": "CirkitScape Top HAT adds RS-485, GPIO, ADC to Raspberry Pi for industrial IoT gateways",
+      "source": "CNX Software",
+      "product": "IoT Industry",
+      "score": 84,
+      "tags": [
+        "RS-485",
+        "GPIO",
+        "ADC",
+        "Raspberry Pi",
+        "工业网关"
+      ],
+      "summary": "CirkitScape Top HAT为Raspberry Pi提供16路GPIO、RS-485工业通信、3通道12-bit ADC和4个USB 2.0的工业级扩展板，面向工业自动化和传感器网络边缘网关场景。",
+      "hook": "一块Pi Hat加个RS-485和ADC，就能把树莓派变成工业传感器网关——35美元的方案比PLC便宜一个数量级。",
+      "post": "CirkitScape Top HAT将RS-485、12-bit ADC和GPIO集成到一块Raspberry Pi扩展板上，配合DIN导轨外壳，将树莓派升级为工业传感器网络边缘网关。对安信可模组方案来说，工业IoT网关有线回传(RS-485)+无线采集(WiFi/BLE/LoRa/NB-IoT)的混合架构是工业场景典型部署——安信可Combo-AT固件架构可为这种网关提供统一模组管理接口。",
+      "url": "https://www.cnx-software.com/2026/07/24/cirkitscape-top-hat-adds-extra-gpios-rs-485-3-channel-adc-four-usb-2-0-ports-to-raspberry-pi-sbcs/",
+      "date": "2026-07-24"
+    },
+    {
+      "title": "Geniatech XPI-3576-CM5: RK3576 AI module with WiFi 6 + BLE 5.3 in CM5 form factor",
+      "source": "CNX Software",
+      "product": "WiFi Module",
+      "score": 88,
+      "tags": [
+        "WiFi 6",
+        "BLE 5.3",
+        "RK3576",
+        "NPU",
+        "边缘AI",
+        "CM5"
+      ],
+      "summary": "Geniatech推出兼容Raspberry Pi CM5的XPI-3576-CM5系统模块，集成RK3576（6 TOPS NPU）、WiFi 6和BLE 5.3，面向边缘AI和工业IoT应用。",
+      "hook": "6 TOPS AI算力+WiFi 6+BLE 5.3，封装在CM5尺寸里——边缘AI模组正在把推理和连接塞进同一个芯片。",
+      "post": "Geniatech XPI-3576-CM5将WiFi 6+BLE 5.3与6 TOPS NPU AI算力整合到45×40mm封装中。对安信可的启示：IoT模组正从通信管道向通信+边缘算力融合演进——未来的Combo-AT固件体系若能集成边缘AI推理指令，将把AT固件从通信工具升级为AIoT设备统一管理平台。",
+      "url": "https://www.cnx-software.com/2026/07/20/geniatech-xpi-3576-cm5-a-raspberry-pi-cm5-compatible-rockchip-rk3576-ai-compute-module-with-wifi-6-bluetooth-5-3/",
+      "date": "2026-07-20"
+    },
+    {
       "title": "Matter and smart-home compatibility story",
       "source": "Home Assistant",
       "product": "WiFi Module",
@@ -2658,5 +2695,7 @@
       "post": "SONOFF NSPanel Pro Gen2 touch control panel review with eWeLink and Home Assistant\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/07/02/sonoff-nspanel-pro-gen2-review-ewelink-home-assistant/"
     }
-  ]
+  ],
+  "updatedAt": "2026-07-26T15:55:00.000Z",
+  "totalEntries": 102
 }

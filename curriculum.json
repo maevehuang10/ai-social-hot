@@ -264,6 +264,41 @@
             "云连接"
           ],
           "url": "https://docs.ai-thinker.com/at/"
+        },
+        {
+          "title": "Combo-AT固件版本管理与跨模组OTA升级部署实战",
+          "product": "WiFi Module",
+          "summary": "深入安信可Combo-AT固件的版本管理与OTA升级策略：①固件版本命名规范（主版本·次版本·Build号 + 目标模组后缀如_WB2/_BW16/_BW21）→②AT+CIUPDATE一键OTA完整流程（HTTP下载固件包→SHA256校验→分区写入→重启切换）→③A/B双区安全升级机制（Active/Inactive分区 + 升级失败自动回滚 + 双分区交替升级）→④跨模组固件兼容性矩阵（BW16/BW21/WB2三大系列Combo-AT功能差异对照表）→⑤批量设备OTA灰度策略（金丝雀发布5%→观察24h→50%→全量 + OTA进度AT+CIUPDATE?查询+升级失败告警联动）。强调Combo-AT统一固件框架使不同模组可以共用同一条AT+CIUPDATE命令完成OTA，大幅降低设备管理复杂度。",
+          "persona": "IoT设备固件工程师 · OTA系统架构师 · 设备批量管理运维",
+          "tags": [
+            "Combo-AT",
+            "OTA",
+            "固件版本",
+            "A/B分区",
+            "灰度",
+            "CIUPDATE",
+            "固件管理"
+          ],
+          "url": "https://docs.ai-thinker.com/at/"
+        },
+        {
+          "title": "Combo-AT高级功能实战：BLE一键配网+HTTPS安全连接+多云平台MQTT打通",
+          "product": "WiFi Module",
+          "summary": "Combo-AT固件的高级网络功能深度解析：①BLE辅助配网——手机APP通过BLE广播发送WiFi SSID/密码→模组通过AT+BLE系列指令接收→自动写入WiFi Station配置→替代传统SmartConfig/AirKiss方案（成功率>98% vs SmartConfig 70%）→②HTTPS安全连接——AT+HTTPSSL系列指令支持TLS 1.2双向认证→根证书管理（AT+HTTPSSLCA指令上传CA证书）→MQTT over TLS（AT+MQTTCONN启用SSL参数）满足IoT安全合规→③多云平台MQTT对接对比——阿里云IoT(AT+MQTTCFG阿里云三要素+HMAC鉴权) vs EMQX开源Broker(标准MQTT+ACL权限) vs ThingsBoard(属性/遥测/服务调用三大消息模型)→④WebSocket实时通道（AT+WS系列指令支持ws/wss协议）替代TCP长连接，穿透企业防火墙限制→⑤Combo-AT固件的网络诊断命令集（AT+PING/AT+CIPDOMAIN DNS解析/AT+CIPSTATUS连接状态查询）辅助远程故障排查。",
+          "persona": "IoT云平台对接工程师 · 安全合规架构师 · 智能家电方案商",
+          "tags": [
+            "Combo-AT",
+            "BLE配网",
+            "HTTPS",
+            "TLS",
+            "MQTT",
+            "阿里云",
+            "EMQX",
+            "ThingsBoard",
+            "WebSocket",
+            "网络诊断"
+          ],
+          "url": "https://docs.ai-thinker.com/at/"
         }
       ],
       "external": [
