@@ -122,39 +122,6 @@
             "门磁"
           ],
           "url": "https://docs.ai-thinker.com/wb2/"
-        },
-        {
-          "title": "Ai-WB2 RISC-V开发全流程：BL602 SDK环境搭建与外设驱动实战",
-          "product": "WiFi Module",
-          "summary": "Ai-WB2基于博流BL602 RISC-V 32位MCU的完整开发链路：①Bouffalo Lab Dev Cube SDK环境搭建（工具链安装+工程模板+烧录配置）→②FreeRTOS任务调度（创建/优先级/消息队列）→③外设驱动实战：GPIO中断控制LED+按键消抖、I2C读写BME280温湿度传感器、SPI Flash文件系统（LittleFS）、PWM呼吸灯调光。所有代码可直接在Ai-WB2-12F开发板上运行，降低RISC-V IoT模组的上手门槛。",
-          "persona": "RISC-V嵌入式开发者 · IoT模组SDK集成工程师 · 从Arduino向RTOS迁移的硬件团队",
-          "tags": [
-            "Ai-WB2",
-            "BL602",
-            "RISC-V",
-            "FreeRTOS",
-            "SDK",
-            "外设驱动",
-            "Bouffalo Lab"
-          ],
-          "url": "https://docs.ai-thinker.com/wb2/"
-        },
-        {
-          "title": "Ai-WB2 量产部署与安全指南：硬件设计+Secure Boot+OTA升级+认证路径",
-          "product": "WiFi Module",
-          "summary": "Ai-WB2模组从原型到量产的四大关键环节：①硬件设计要点：π型天线阻抗匹配（50Ω）、电源去耦电容布局（100nF+10μF+22μF三级滤波）、EMC/ESD防护设计→②Secure Boot安全启动：BL602签名校验流程+efuse烧录+防固件篡改→③OTA固件升级：A/B双区Flash切换+断点续传+回滚保护机制→④FCC/CE认证路径：Ai-WB2已通过FCC/CE/SRRC认证的模组型号清单与复用策略。帮助产品团队从开发板到产线批量的全流程落地。",
-          "persona": "硬件设计工程师 · IoT产品量产经理 · 认证合规工程师 · 从原型到量产的NPI团队",
-          "tags": [
-            "Ai-WB2",
-            "量产",
-            "Secure Boot",
-            "OTA",
-            "天线匹配",
-            "FCC",
-            "CE",
-            "认证"
-          ],
-          "url": "https://docs.ai-thinker.com/wb2/"
         }
       ],
       "external": [
@@ -191,42 +158,6 @@
           "hook": "Flipper 这次不只是玩具——Matter原生支持的智能家居多工具，STM32U5超低功耗MCU给它7天续航。",
           "post": "Flipper BUSY Bar 开源生产力多工具搭载 STM32U5 超低功耗MCU和 Silicon Labs SiWG917 芯片（WiFi+BLE+Matter），LED像素显示+OLED副屏，支持与 Home Assistant、Apple Home、Google Home 的 Matter 协议原生集成。Matter 正在从智能灯泡/开关扩展到创新型IoT设备，对安信可 Matter 兼容模组（如WB2系列的Matter固件适配）来说是积极的生态扩容信号。",
           "url": "https://www.cnx-software.com/2026/07/01/flipper-busy-bar-open-source-productivity-multitool-features-led-pixel-display-supports-matter-connectivity/"
-        },
-        {
-          "title": "ART-Pi II STM32H7R7: 600MHz Cortex-M7 + NeoChrom GPU + WiFi/BLE for industrial RT-Thread",
-          "source": "CNX Software",
-          "product": "WiFi Module",
-          "score": 89,
-          "tags": [
-            "STM32H7R7",
-            "Cortex-M7",
-            "RT-Thread",
-            "NeoChrom GPU",
-            "工业MCU",
-            "WiFi+BLE"
-          ],
-          "summary": "ART-Pi II开发板搭载ST STM32H7R7 600MHz Cortex-M7+NeoChrom 2.5D GPU+32MB HyperRAM+64MB HyperFlash，集成CYWL6208 WiFi4+BLE5.1模组，运行RT-Thread RTOS。代表了工业MCU向GPU加速和无线连接集成方向演进的最新趋势，对安信可BL602/WB2系列的RISC-V+WiFi/BLE定位有参考意义。",
-          "hook": "600MHz Cortex-M7配上2.5D GPU和WiFi+BLE——这还是一颗MCU吗？工业嵌入式正在重新定义「单片机」的边界。",
-          "post": "ART-Pi II开发板基于STM32H7R7L8H（ARM Cortex-M7@600MHz+NeoChrom 2.5D GPU），搭载CYWL6208 WiFi4+BLE5.1无线模组，配备32MB HyperRAM和64MB HyperFlash，运行RT-Thread RTOS。RT-Thread社区为这块板子提供了完整的LVGL/TouchGFX GUI示例和WiFi联网demo。对安信可Ai-WB2（BL602 RISC-V, WiFi+BLE）来说，高端MCU集成GPU+WiFi/BLE的趋势意味着未来IoT模组不仅要提供连接能力，还需承载本地HMI渲染——这是WB2系列从透传模组向智能模组升级的方向。",
-          "url": "https://www.cnx-software.com/2026/07/21/art-pi-ii-development-board-features-600-mhz-stm32h7r7-cortex-m7-mcu-with-neochrom-gpu/"
-        },
-        {
-          "title": "nRF54L Arduino Core: nRF54L BLE SoCs get Arduino IDE support, lowering IoT dev barrier",
-          "source": "CNX Software",
-          "product": "BLE Module",
-          "score": 87,
-          "tags": [
-            "nRF54L",
-            "Arduino",
-            "BLE",
-            "RISC-V",
-            "Nordic",
-            "开源"
-          ],
-          "summary": "社区开源项目nRF54L Arduino Core为Nordic nRF54L15/LM20A系列BLE SoC（Cortex-M33+RISC-V协处理器）带来Arduino IDE支持，覆盖BLE外设/中心角色、HID、BLE UART、GPIO/ADC/PWM/I2C/SPI等全部外设。降低从Arduino生态迁移到新款BLE SoC的门槛。",
-          "hook": "终于不用啃Zephyr了——Nordic最新BLE芯片nRF54L系列现在可以直接用Arduino IDE编程。RISC-V协处理器也开放了。",
-          "post": "开源项目nRF54L Arduino Core让Nordic nRF54L15/LM20A（ARM Cortex-M33@128MHz+RISC-V协处理器）可以直接在Arduino IDE中开发，支持BLE外设/中心/双角色、HID配置文件、GPIO/ADC/PWM/SPI/I2C等全部外设，实验性支持Zigbee/Thread/Matter和BLE Channel Sounding。此举极大降低了从Arduino生态迁入新款BLE SoC的门槛，对安信可Ai-WB2（BL602 RISC-V+BLE5.0）的SDK易用性和开发者生态建设有启发意义——Arduino兼容层是IoT模组做大开发者生态的最短路径。",
-          "url": "https://www.cnx-software.com/2026/07/21/nrf54l-arduino-core-project-brings-arduino-support-to-nordic-semi-nrf54l-wireless-socs/"
         }
       ]
     },
@@ -268,7 +199,112 @@
         {
           "title": "Combo-AT固件版本管理与跨模组OTA升级部署实战",
           "product": "WiFi Module",
-          "summary": "深入安信可Combo-AT固件的版本管理与OTA升级策略：①固件版本命名规范（主版本·次版本·Build号 + 目标模组后缀如_WB2/_BW16/_BW21）→②AT+CIUPDATE一键OTA完整流程（HTTP下载固件包→SHA256校验→分区写入→重启切换）→③A/B双区安全升级机制（Active/Inactive分区 + 升级失败自动回滚 + 双分区交替升级）→④跨模组固件兼容性矩阵（BW16/BW21/WB2三大系列Combo-AT功能差异对照表）→⑤批量设备OTA灰度策略（金丝雀发布5%→观察24h→50%→全量 + OTA进度AT+CIUPDATE?查询+升级失败告警联动）。强调Combo-AT统一固件框架使不同模组可以共用同一条AT+CIUPDATE命令完成OTA，大幅降低设备管理复杂度。",
+          "summary": "深入安信可Combo-AT固件的版本管理体系与OTA升级策略：①固件版本命名规范（主版本·次版本·Build号 + 目标模组后缀如_WB2/_BW16/_BW21）→②AT+CIUPDATE一键OTA完整流程（HTTP下载固件包→SHA256校验→分区写入→重启切换）→③A/B双区安全升级机制（Active/Inactive分区 + 升级失败自动回滚 + 双分区交替升级）→④跨模组固件兼容性矩阵（BW16/BW21/WB2三大系列Combo-AT功能差异对照表）→⑤批量设备OTA灰度策略（金丝雀发布5%→观察24h→50%→全量 + OTA进度AT+CIUPDATE?查询+升级失败告警联动）。强调Combo-AT统一固件框架使不同模组可以共用同一条AT+CIUPDATE命令完成OTA，大幅降低设备管理复杂度。",
+          "persona": "IoT设备固件工程师 · OTA系统架构师 · 设备批量管理运维",
+          "tags": [
+            "Combo-AT",
+            "OTA",
+            "固件版本",
+            "A/B分区",
+            "灰度",
+            "CIUPDATE",
+            "固件管理"
+          ],
+          "url": "https://docs.ai-thinker.com/at/"
+        },
+        {
+          "title": "Combo-AT高级功能实战：BLE一键配网+HTTPS安全连接+多云平台MQTT打通",
+          "product": "WiFi Module",
+          "summary": "Combo-AT固件的高级网络功能深度解析：①BLE辅助配网——手机APP通过BLE广播发送WiFi SSID/密码→模组通过AT+BLE系列指令接收→自动写入WiFi Station配置→替代传统SmartConfig/AirKiss方案（成功率>98% vs SmartConfig 70%）→②HTTPS安全连接——AT+HTTPSSL系列指令支持TLS 1.2双向认证→根证书管理（AT+HTTPSSLCA指令上传CA证书）→MQTT over TLS（AT+MQTTCONN启用SSL参数）满足IoT安全合规→③多云平台MQTT对接对比——阿里云IoT(AT+MQTTCFG阿里云三要素+HMAC鉴权) vs EMQX开源Broker(标准MQTT+ACL权限) vs ThingsBoard(属性/遥测/服务调用三大消息模型)→④WebSocket实时通道（AT+WS系列指令支持ws/wss协议）替代TCP长连接，穿透企业防火墙限制→⑤Combo-AT固件的网络诊断命令集（AT+PING/AT+CIPDOMAIN DNS解析/AT+CIPSTATUS连接状态查询）辅助远程故障排查。",
+          "persona": "IoT云平台对接工程师 · 安全合规架构师 · 智能家电方案商",
+          "tags": [
+            "Combo-AT",
+            "BLE配网",
+            "HTTPS",
+            "TLS",
+            "MQTT",
+            "阿里云",
+            "EMQX",
+            "ThingsBoard",
+            "WebSocket",
+            "网络诊断"
+          ],
+          "url": "https://docs.ai-thinker.com/at/"
+        },
+        {
+          "title": "Combo-AT固件版本管理与跨模组OTA升级部署实战",
+          "product": "WiFi Module",
+          "summary": "深入安信可Combo-AT固件的版本管理体系与OTA升级策略：①固件版本命名规范（主版本·次版本·Build号 + 目标模组后缀如_WB2/_BW16/_BW21）→②AT+CIUPDATE一键OTA完整流程（HTTP下载固件包→SHA256校验→分区写入→重启切换）→③A/B双区安全升级机制（Active/Inactive分区 + 升级失败自动回滚 + 双分区交替升级）→④跨模组固件兼容性矩阵（BW16/BW21/WB2三大系列Combo-AT功能差异对照表）→⑤批量设备OTA灰度策略（金丝雀发布5%→观察24h→50%→全量 + OTA进度AT+CIUPDATE?查询+升级失败告警联动）。强调Combo-AT统一固件框架使不同模组可以共用同一条AT+CIUPDATE命令完成OTA，大幅降低设备管理复杂度。",
+          "persona": "IoT设备固件工程师 · OTA系统架构师 · 设备批量管理运维",
+          "tags": [
+            "Combo-AT",
+            "OTA",
+            "固件版本",
+            "A/B分区",
+            "灰度",
+            "CIUPDATE",
+            "固件管理"
+          ],
+          "url": "https://docs.ai-thinker.com/at/"
+        },
+        {
+          "title": "Combo-AT高级功能实战：BLE一键配网+HTTPS安全连接+多云平台MQTT打通",
+          "product": "WiFi Module",
+          "summary": "Combo-AT固件的高级网络功能深度解析：①BLE辅助配网——手机APP通过BLE广播发送WiFi SSID/密码→模组通过AT+BLE系列指令接收→自动写入WiFi Station配置→替代传统SmartConfig/AirKiss方案（成功率>98% vs SmartConfig 70%）→②HTTPS安全连接——AT+HTTPSSL系列指令支持TLS 1.2双向认证→根证书管理（AT+HTTPSSLCA指令上传CA证书）→MQTT over TLS（AT+MQTTCONN启用SSL参数）满足IoT安全合规→③多云平台MQTT对接对比——阿里云IoT(AT+MQTTCFG阿里云三要素+HMAC鉴权) vs EMQX开源Broker(标准MQTT+ACL权限) vs ThingsBoard(属性/遥测/服务调用三大消息模型)→④WebSocket实时通道（AT+WS系列指令支持ws/wss协议）替代TCP长连接，穿透企业防火墙限制→⑤Combo-AT固件的网络诊断命令集（AT+PING/AT+CIPDOMAIN DNS解析/AT+CIPSTATUS连接状态查询）辅助远程故障排查。",
+          "persona": "IoT云平台对接工程师 · 安全合规架构师 · 智能家电方案商",
+          "tags": [
+            "Combo-AT",
+            "BLE配网",
+            "HTTPS",
+            "TLS",
+            "MQTT",
+            "阿里云",
+            "EMQX",
+            "ThingsBoard",
+            "WebSocket",
+            "网络诊断"
+          ],
+          "url": "https://docs.ai-thinker.com/at/"
+        },
+        {
+          "title": "Combo-AT固件版本管理与跨模组OTA升级部署实战",
+          "product": "WiFi Module",
+          "summary": "深入安信可Combo-AT固件的版本管理体系与OTA升级策略：①固件版本命名规范（主版本·次版本·Build号 + 目标模组后缀如_WB2/_BW16/_BW21）→②AT+CIUPDATE一键OTA完整流程（HTTP下载固件包→SHA256校验→分区写入→重启切换）→③A/B双区安全升级机制（Active/Inactive分区 + 升级失败自动回滚 + 双分区交替升级）→④跨模组固件兼容性矩阵（BW16/BW21/WB2三大系列Combo-AT功能差异对照表）→⑤批量设备OTA灰度策略（金丝雀发布5%→观察24h→50%→全量 + OTA进度AT+CIUPDATE?查询+升级失败告警联动）。强调Combo-AT统一固件框架使不同模组可以共用同一条AT+CIUPDATE命令完成OTA，大幅降低设备管理复杂度。",
+          "persona": "IoT设备固件工程师 · OTA系统架构师 · 设备批量管理运维",
+          "tags": [
+            "Combo-AT",
+            "OTA",
+            "固件版本",
+            "A/B分区",
+            "灰度",
+            "CIUPDATE",
+            "固件管理"
+          ],
+          "url": "https://docs.ai-thinker.com/at/"
+        },
+        {
+          "title": "Combo-AT高级功能实战：BLE一键配网+HTTPS安全连接+多云平台MQTT打通",
+          "product": "WiFi Module",
+          "summary": "Combo-AT固件的高级网络功能深度解析：①BLE辅助配网——手机APP通过BLE广播发送WiFi SSID/密码→模组通过AT+BLE系列指令接收→自动写入WiFi Station配置→替代传统SmartConfig/AirKiss方案（成功率>98% vs SmartConfig 70%）→②HTTPS安全连接——AT+HTTPSSL系列指令支持TLS 1.2双向认证→根证书管理（AT+HTTPSSLCA指令上传CA证书）→MQTT over TLS（AT+MQTTCONN启用SSL参数）满足IoT安全合规→③多云平台MQTT对接对比——阿里云IoT(AT+MQTTCFG阿里云三要素+HMAC鉴权) vs EMQX开源Broker(标准MQTT+ACL权限) vs ThingsBoard(属性/遥测/服务调用三大消息模型)→④WebSocket实时通道（AT+WS系列指令支持ws/wss协议）替代TCP长连接，穿透企业防火墙限制→⑤Combo-AT固件的网络诊断命令集（AT+PING/AT+CIPDOMAIN DNS解析/AT+CIPSTATUS连接状态查询）辅助远程故障排查。",
+          "persona": "IoT云平台对接工程师 · 安全合规架构师 · 智能家电方案商",
+          "tags": [
+            "Combo-AT",
+            "BLE配网",
+            "HTTPS",
+            "TLS",
+            "MQTT",
+            "阿里云",
+            "EMQX",
+            "ThingsBoard",
+            "WebSocket",
+            "网络诊断"
+          ],
+          "url": "https://docs.ai-thinker.com/at/"
+        },
+        {
+          "title": "Combo-AT固件版本管理与跨模组OTA升级部署实战",
+          "product": "WiFi Module",
+          "summary": "深入安信可Combo-AT固件的版本管理体系与OTA升级策略：①固件版本命名规范（主版本·次版本·Build号 + 目标模组后缀如_WB2/_BW16/_BW21）→②AT+CIUPDATE一键OTA完整流程（HTTP下载固件包→SHA256校验→分区写入→重启切换）→③A/B双区安全升级机制（Active/Inactive分区 + 升级失败自动回滚 + 双分区交替升级）→④跨模组固件兼容性矩阵（BW16/BW21/WB2三大系列Combo-AT功能差异对照表）→⑤批量设备OTA灰度策略（金丝雀发布5%→观察24h→50%→全量 + OTA进度AT+CIUPDATE?查询+升级失败告警联动）。强调Combo-AT统一固件框架使不同模组可以共用同一条AT+CIUPDATE命令完成OTA，大幅降低设备管理复杂度。",
           "persona": "IoT设备固件工程师 · OTA系统架构师 · 设备批量管理运维",
           "tags": [
             "Combo-AT",
@@ -375,9 +411,87 @@
             "大田监测"
           ],
           "url": "https://docs.ai-thinker.com/lora/"
+        },
+        {
+          "title": "Ra-11硬件设计与射频调试实战：天线匹配、PCB layout与量产一致性保障",
+          "product": "LoRa Module",
+          "summary": "Ra-11基于Semtech LR1121的硬件设计全流程避坑指南：①50Ω射频走线设计——计算微带线/共面波导阻抗，2层板vs 4层板方案对比，关键参数(线宽、铜厚、FR4介电常数4.2-4.5)→②天线匹配网络——π型匹配拓扑(L-C-L)，VNA矢量网络分析仪调试三步法(先测裸天线S11→加入π网络→微调LC值直至S11<-15dB)，常见天线选型(PCB倒F型/陶瓷贴片/IPEX外接)与适用场景对比→③电源完整性——LDO选型(噪声<50μVrms, PSRR>60dB@1kHz)，去耦电容布局(100nF+10nF+1nF并联)，PA发射瞬间电流浪涌(~120mA@+22dBm)的储能电容计算(>47μF钽电容)→④PCB布局避坑——LR1121数字/模拟地分离+单点星型接地，射频区域禁铺铜(keep-out >5mm)远离DC-DC和高速数字走线，SPI走线等长(<10mil偏差)串联22Ω阻尼电阻→⑤量产一致性保障——天线出厂S参数全检(S11<-10dB)、模组传导功率校准(±1dB tolerance)、宽温测试(-40~+85℃频率漂移<±2ppm)。附完整BOM清单与参考原理图(π网络/电源/SPI三个关键子电路)。",
+          "persona": "LoRa模组硬件工程师 · 射频调试工程师 · 量产NPI工艺工程师",
+          "tags": [
+            "Ra-11",
+            "LR1121",
+            "PCB设计",
+            "天线匹配",
+            "阻抗控制",
+            "射频调试",
+            "电源完整性",
+            "量产",
+            "π网络",
+            "VNA"
+          ],
+          "url": "https://docs.ai-thinker.com/lora/"
+        },
+        {
+          "title": "Ra-11固件开发与LoRa参数深度优化：Semtech SDK集成+SF/BW/CR调优+LoRaWAN移植实战",
+          "product": "LoRa Module",
+          "summary": "Ra-11基于Semtech LR1121的固件开发全链路深度解析：①Semtech LoRa Basics Modem SDK集成——SDK架构概览(radio driver→LoRa modem engine→application layer)，SPI底层驱动移植要点(SCK最大16MHz, CPOL=0/CPHA=0)，Modem-E固件(内置LoRaWAN 1.0.4协议栈)vs Transceiver裸PHY模式的选择决策树→②LoRa射频参数深度调优——扩频因子SF7-SF12对链路预算的影响(每增加1SF灵敏度提升~2.5dB但空中时间翻倍)、带宽BW 125/250/500kHz选型对照(SF12+BW125=293bps/-137dBm vs SF7+BW500=21900bps/-124dBm,覆盖距离差~4倍)、编码率CR 4/5(1.25x开销)~4/8(2x开销抗干扰最强)的场景化建议(城市密集干扰→CR4/8,开阔农田→CR4/5)→③空中时间计算与功耗优化——给定payload+SF+BW+CR计算ToA公式，Ra-11发射电流~110mA@+22dBm Sub-GHz/~60mA@2.4GHz，结合上报周期计算电池续航(SF10+BW125+10字节+15min间隔=~2年@2000mAh锂亚电池)→④LR-FHSS模式实战——适用于大规模IoT(海量终端+低碰撞概率)的跳频扩频配置，LR-FHSS vs LoRa对比(网络容量提升~10x,有效速率降低~3x)，Ra-11作为LR1121原生支持LR-FHSS的独有优势(单模SX1276/SX1262不具备)→⑤2.4GHz GFSK高速模式——最高2Mbps数据率配置，频率跳变信道表(CH0 2402MHz~CH39 2480MHz)，适用于固件批量升级和图片传输→⑥S-Band卫星IoT直连——LR1121 S-Band 1.9-2.1GHz配置流程，卫星过境时间窗口与数据发送策略，典型应用(海洋浮标/极地科考/偏远油井无蜂窝覆盖回传)→⑦LoRaWAN 1.0.4协议栈移植——基于Modem-E固件的AT指令集(AT+LW=JOIN/SEND/RECV)，OTAA入网vs ABP固定密钥认证方式选择，Device Class A/B/C切换，Region参数配置(CN470/EU868/US915一键切换)。强调Ra-11作为业界首款三模LoRa方案(LR1121)，Sub-GHz远距+2.4GHz高速+S-Band卫星三种模式可在同一固件中运行时切换。",
+          "persona": "LoRa嵌入式固件工程师 · LoRaWAN网络规划者 · 低功耗广域网方案设计 · 卫星IoT探索者",
+          "tags": [
+            "Ra-11",
+            "LR1121",
+            "Semtech SDK",
+            "LoRaWAN",
+            "SF调优",
+            "LR-FHSS",
+            "2.4GHz GFSK",
+            "S-Band",
+            "卫星IoT",
+            "空中时间",
+            "功耗优化",
+            "Modem-E"
+          ],
+          "url": "https://docs.ai-thinker.com/lora/"
         }
       ],
-      "external": []
+      "external": [
+        {
+          "title": "Jetway SMC-ARK1: Rockchip RK3588 SMARC 2.1 System-on-Module Targets Industrial Edge AI",
+          "source": "CNX Software",
+          "product": "IoT Industry",
+          "score": 84,
+          "tags": [
+            "SMARC",
+            "RK3588",
+            "SOM",
+            "边缘AI",
+            "工业IoT",
+            "模块化"
+          ],
+          "summary": "Jetway推出SMC-ARK1 SMARC 2.1标准系统模块，搭载Rockchip RK3588八核处理器(4xA76+4xA55)，集成6TOPS NPU和8K视频编解码，面向工业边缘AI和嵌入式视觉应用。SMARC标准化接口使IoT网关和边缘节点可以灵活升级核心算力模块。",
+          "hook": "RK3588装进SMARC 2.1标准模块——工业IoT网关的「心脏」正在走向标准化和可插拔。",
+          "post": "Jetway SMC-ARK1基于Rockchip RK3588(4xA76+4xA55, 6TOPS NPU, Mali-G610 GPU)的SMARC 2.1标准SOM，314-pin MXM连接器携带PCIe 3.0、SATA、USB 3.0、双千兆以太网、HDMI 2.1等接口。SMARC是工业嵌入式领域的标准化模块接口(由SGET制定)，这种模块化设计允许工业网关和边缘AI设备像换CPU卡一样升级核心算力——而不需要重新设计整块主板。对安信可IoT模组产品线的启示：通信模组(WiFi/BLE/LoRa/NB-IoT/Cat.1)如果也能走向标准化接口(如M.2/mini-PCIe)，将大幅降低客户集成门槛和设备升级成本。",
+          "url": "https://www.cnx-software.com/2026/07/27/jetway-smc-ark1-rockchip-rk3588-smarc-2-1-system-on-module/"
+        },
+        {
+          "title": "AMD Launches Ryzen AI Embedded X100 Processors and Kria AI SoM: Edge AI Goes Modular",
+          "source": "CNX Software",
+          "product": "IoT Industry",
+          "score": 86,
+          "tags": [
+            "AMD",
+            "Ryzen AI",
+            "边缘AI",
+            "Kria",
+            "SOM",
+            "机器人",
+            "NPU"
+          ],
+          "summary": "AMD发布Ryzen AI Embedded X100系列处理器(最高16核Zen5+50TOPS NPU)和Kria AI系统模块(SOM)，配套物理AI/机器人开发者平台Kria KR260 Robotics Kit V2。边缘AI正在从芯片级走向系统模块级，x86生态正面挑战NVIDIA Jetson。",
+          "hook": "AMD把50TOPS的AI算力塞进了一个系统模块——边缘AI正在从「选什么芯片」变成「插什么卡」。",
+          "post": "AMD推出Ryzen AI Embedded X100系列(最高16核Zen5+50TOPS XDNA 2 NPU)和Kria AI SoM系统模块，配合Kria KR260 Robotics Kit V2为物理AI和机器人场景提供模块化开发平台。这是x86生态对NVIDIA Jetson的正面回应。边缘AI硬件正在走向标准化SOM形态——开发者不再需要从零设计高速DDR/PCIe Layout，只需集成SOM模块即可获得AI算力。对安信可模组产品的意义：通信模组(WiFi 6/BLE/LoRa/蜂窝)与AI计算模组的组合将是下一代AIoT网关的标准架构——通信模组负责多协议无线接入，AI模组负责边缘推理，两者通过标准接口(UART/SPI/USB/PCIe)协同工作。",
+          "url": "https://www.cnx-software.com/2026/07/24/amd-ryzen-ai-embedded-x100-processors-kria-ai-som-robotics-developer-platform/"
+        }
+      ]
     },
     {
       "id": 5,
