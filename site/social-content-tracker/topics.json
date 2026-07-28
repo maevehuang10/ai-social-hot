@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T04:47:34.870Z",
+  "generatedAt": "2026-07-28T04:20:01.061Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,34 +7,6 @@
     "IoT Tech News"
   ],
   "topics": [
-    {
-      "title": "Radar sensing for privacy-friendly presence detection",
-      "source": "Industry Sensing",
-      "product": "Radar Sensor",
-      "score": 92,
-      "formats": [
-        "Short Video",
-        "LinkedIn Post",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "Radar",
-        "Presence Detection",
-        "Smart Sensing"
-      ],
-      "value": "Useful for explaining camera-free sensing in elderly care, bathrooms, bedrooms, security, and automation scenarios.",
-      "summary": "Radar content is strongest when it starts from the user problem: reliable presence detection without a camera.",
-      "hook": "Not every sensing solution needs a camera.",
-      "post": "Radar sensing can be explained through practical spaces: bathroom, bedroom, entryway, or care facility. Start with the pain point, then explain why camera-free sensing matters.",
-      "url": "",
-      "date": "2026-07-27"
-    },
     {
       "title": "LoRaWAN solution content worth tracking",
       "source": "RAKwireless",
@@ -59,7 +31,7 @@
       "hook": "Some IoT projects need years of battery life, not more bandwidth.",
       "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
       "url": "https://www.linkedin.com/company/rakwireless/",
-      "date": "2026-07-27"
+      "date": "2026-07-28"
     },
     {
       "title": "ESP32 developer ecosystem angle",
@@ -86,7 +58,7 @@
       "hook": "A small module can shape the whole connected product experience.",
       "post": "ESP32 content works best when it connects the module to a real device workflow: connectivity, control, UI, sensing, and deployment.",
       "url": "https://www.linkedin.com/company/espressif-systems",
-      "date": "2026-07-27"
+      "date": "2026-07-28"
     },
     {
       "title": "Matter and smart-home compatibility story",
@@ -112,7 +84,172 @@
       "hook": "Smart home buyers are no longer asking only for connectivity. They want compatibility.",
       "post": "For smart-home devices, wireless modules become more valuable when they reduce integration risk and help products fit into existing ecosystems.",
       "url": "https://www.home-assistant.io/",
-      "date": "2026-07-27"
+      "date": "2026-07-28"
+    },
+    {
+      "title": "Radar sensing for privacy-friendly presence detection",
+      "source": "Industry Sensing",
+      "product": "Radar Sensor",
+      "score": 92,
+      "formats": [
+        "Short Video",
+        "LinkedIn Post",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "Radar",
+        "Presence Detection",
+        "Smart Sensing"
+      ],
+      "value": "Useful for explaining camera-free sensing in elderly care, bathrooms, bedrooms, security, and automation scenarios.",
+      "summary": "Radar content is strongest when it starts from the user problem: reliable presence detection without a camera.",
+      "hook": "Not every sensing solution needs a camera.",
+      "post": "Radar sensing can be explained through practical spaces: bathroom, bedroom, entryway, or care facility. Start with the pain point, then explain why camera-free sensing matters.",
+      "url": "",
+      "date": "2026-07-28"
+    },
+    {
+      "title": "Orange Pi 5B SBC gets Ubuntu Desktop and Audio Production OS images with Bluetooth/Wi-Fi fix missed for 8 years",
+      "source": "CNX Software",
+      "date": "2026-07-27",
+      "product": "BLE Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Joshua Riek’s ubuntu-rockchip project helped many run working OS images for their Rockchip SBCs, but due to burnout and lack of support, he decided to step away in late 2024, and the project is now archived. However, that doesn’t mean his efforts have gone to...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Orange Pi 5B SBC gets Ubuntu Desktop and Audio Production OS images with Bluetooth/Wi-Fi fix missed for 8 years\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/27/orange-pi-5b-sbc-gets-ubuntu-desktop-and-audio-production-os-images-with-bluetooth-wi-fi-fix-missed-for-8-years/"
+    },
+    {
+      "title": "Jetway SMC-ARK1 – A Rockchip RK3588 SMARC 2.1 compliant system-on-module",
+      "source": "CNX Software",
+      "date": "2026-07-27",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Jetway has introduced the SMC-ARK1, a new SMARC system-on-module built around the Rockchip RK3588 octa-core processor. Designed for embedded computing and edge AI applications, the board includes up to 16GB of LPDDR4x memory and up to 128GB of eMMC flash,...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Jetway SMC-ARK1 – A Rockchip RK3588 SMARC 2.1 compliant system-on-module\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/27/jetway-smc-ark1-a-rockchip-rk3588-smarc-2-1-compliant-system-on-module/"
+    },
+    {
+      "title": "Open RC Spotter is an open-source ESP32 telemetry and data logger for RC cars and toys",
+      "source": "CNX Software",
+      "date": "2026-07-27",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Jake Wachlin (Energy Labs) has designed the Open RC Spotter, an open-source ESP32-based telemetry and data logger for RC cars, trucks, and other RC toys. The platform logs synchronized GPS position, acceleration, gyroscope, steering, throttle, battery...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Open RC Spotter is an open-source ESP32 telemetry and data logger for RC cars and toys\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/27/open-rc-spotter-is-an-open-source-esp32-telemetry-and-data-logger-for-rc-cars-and-toys/"
+    },
+    {
+      "title": "Chunghwa Telecom, Fujitsu and 1Finity advance Taiwan’s photonics and quantum future",
+      "source": "IoT Now",
+      "date": "2026-07-27",
+      "product": "BLE Module",
+      "score": 86,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Chunghwa Telecom, Fujitsu Limited and 1Finity, a Fujitsu company and provider of global network solutions, has announced a two-year partnership. This collaboration aims to further expand the application of All-Photonics … Continued The post Chunghwa Telecom,...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Chunghwa Telecom, Fujitsu and 1Finity advance Taiwan’s photonics and quantum future\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/07/27/157600-chunghwa-telecom-fujitsu-and-1finity-advance-taiwans-photonics-and-quantum-future/"
+    },
+    {
+      "title": "Redragon K688 Pro – An affordable tri-mode gasket mechanical keyboard with full numpad and media knob (Sponsored)",
+      "source": "CNX Software",
+      "date": "2026-07-27",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Redragon K688 Pro is a 96% layout tri-mode mechanical keyboard that aims to deliver enthusiast-level typing comfort and full productivity features in a compact, affordable package suitable for both work and gaming. The keyboard features a 98-key ANSI layout...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Redragon K688 Pro – An affordable tri-mode gasket mechanical keyboard with full numpad and media knob (Sponsored)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/07/27/redragon-k688-an-affordable-tri-mode-gasket-mechanical-keyboard-with-full-numpad-and-media-knob/"
     },
     {
       "title": "Creality Pika review – An affordable, portable 3D scanner with infrared and blue laser modes",
@@ -2505,137 +2642,6 @@
         "Facebook"
       ],
       "value": "工业IoT控制器SOM化趋势，安信可工业IoT模组方案可参考此类架构设计。"
-    },
-    {
-      "title": "IoT Now Contract Win List – June 2026",
-      "source": "IoT Now",
-      "date": "2026-07-06",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "The IoT Now Contract Win List for June 2026 shows the Internet of Things contracts placed worldwide and reported in the last months. Get the inside track on who’s winning what … Continued The post IoT Now Contract Win List – June 2026 appeared first on IoT...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "IoT Now Contract Win List – June 2026\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/07/06/157306-iot-now-contract-win-list-june-2026/"
-    },
-    {
-      "title": "Macintosh emulator works on ESP32-P4 display devkits from M5Stack and Waveshare",
-      "source": "CNX Software",
-      "date": "2026-07-05",
-      "product": "BLE Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "ESP32 chips have been used for retro gaming and computing for years, but Austin McChord (Amcchord) adds to that with a Macintosh emulator ported to a couple of ESP32-P4 display devkits. His project is a full port of the BasiliskII Macintosh 68k emulator,...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Macintosh emulator works on ESP32-P4 display devkits from M5Stack and Waveshare\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/07/05/macintosh-emulator-works-on-esp32-p4-display-devkits-from-m5stack-and-waveshare/"
-    },
-    {
-      "title": "BIGTREETECH Panda Sense Pro 8-in-1 smart air quality monitor works with Home Assistant and Klipper for 3D printers",
-      "source": "CNX Software",
-      "date": "2026-07-04",
-      "product": "BLE Module",
-      "score": 93,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "BIGTREETECH (BIQU) has introduced the BIQU Panda Sense Pro, an 8-in-1 smart air quality monitor designed for 3D printing environments such as home workshops, maker spaces, and print farms. It continuously measures airborne particles, gases, temperature, and...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "BIGTREETECH Panda Sense Pro 8-in-1 smart air quality monitor works with Home Assistant and Klipper for 3D printers\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/07/04/bigtreetech-panda-sense-pro-8-in-1-smart-air-quality-monitor-works-with-home-assistant-and-klipper-for-3d-printers/"
-    },
-    {
-      "title": "NVIDIA Jetson Orin Nano/NX-based Mekotronics AI Box targets humanoid robots, Smart Cities management, transportation applications",
-      "source": "CNX Software",
-      "date": "2026-07-03",
-      "product": "BLE Module",
-      "score": 98,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Better known for its unique Rockchip industrial PC designs, Mekotronics has now launched an “AI Box” based on the NVIDIA Jetson Orin Nano 4GB/8GB or Jetson Orin NX 8GB/16GB for humanoid robots, smart transportation (V2X) applications, Smart Cities, Smart...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "NVIDIA Jetson Orin Nano/NX-based Mekotronics AI Box targets humanoid robots, Smart Cities management, transportation applications\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/07/03/nvidia-jetson-orin-nano-nx-based-mekotronics-ai-box-targets-humanoid-robots-smart-cities-management-transportation-applications/"
-    },
-    {
-      "title": "2026年边缘AI芯片出货量增长300%",
-      "source": "IOT-HOT",
-      "date": "2026-07-03",
-      "product": "IoT Industry",
-      "score": 90,
-      "formats": [
-        "LinkedIn Post"
-      ],
-      "platforms": [
-        "LinkedIn"
-      ],
-      "tags": [
-        "边缘AI",
-        "芯片",
-        "增长",
-        "趋势"
-      ],
-      "value": "2026年全球边缘AI芯片出货量预计增长300%，端侧TinyML推理成为模组标配能力。",
-      "summary": "2026年全球边缘AI芯片出货量预计增长300%，端侧TinyML推理成为模组标配能力。",
-      "hook": "边缘AI芯片增长300%——不是云端GPU，是你手里的IoT模组里的那颗小芯片。",
-      "post": "IOT-HOT行业趋势：2026年全球边缘AI芯片出货量预计增长300%。TinyML(微型机器学习)正在成为IoT模组的标配能力——从语音唤醒词识别到振动异常检测到视觉人体识别，端侧AI推理让模组不再是简单的通信管道，而是智能决策节点。安信可BW21-CBV的YOLO视觉识别是这一趋势的典型实践。",
-      "url": "http://10.1.8.31:2217/trends"
     }
   ]
 }
