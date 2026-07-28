@@ -451,9 +451,91 @@
             "Modem-E"
           ],
           "url": "https://docs.ai-thinker.com/lora/"
+        },
+        {
+          "title": "LoRaWAN设备入网安全机制深度解析：OTAA vs ABP激活流程与密钥体系",
+          "product": "LoRa Module",
+          "summary": "深入LoRaWAN设备激活的两大模式及其安全架构：①OTAA空中激活(Join Request→Join Accept)→DevEUI+AppEUI+AppKey三元组鉴权→网络服务器动态分配DevAddr+NwkSKey+AppSKey→DevNonce防重放攻击机制→②ABP个性化激活→手动预置DevAddr+NwkSKey+AppSKey→跳过Join流程直接入网→适用固定网络部署场景→③密钥分层体系→AppKey(根密钥, OTAA专用)→NwkSKey(网络会话密钥, 加密MAC命令+FPort=0)→AppSKey(应用会话密钥, 加密Payload)→④Ra-08/Ra-11对两种模式的AT指令配置(AT+CLASS/AT+JOIN/AT+NWKSKEY)+⑤安全最佳实践→生产环境禁用ABP(密钥固定风险)→OTAA强制DevNonce递增→JOIN_ACCEPT_DELAY1/DELAY2参数调优→⑥对比表格: OTAA(安全, 需网络覆盖) vs ABP(快速, 无Join延迟)选型决策树。",
+          "persona": "LoRaWAN安全架构师 · 嵌入式安全工程师 · IoT设备固件开发 · LPWAN网络规划",
+          "tags": [
+            "LoRaWAN",
+            "OTAA",
+            "ABP",
+            "密钥体系",
+            "AppKey",
+            "NwkSKey",
+            "AppSKey",
+            "Ra-08",
+            "Ra-11",
+            "安全",
+            "AT指令"
+          ],
+          "url": "https://docs.ai-thinker.com/lora/"
+        },
+        {
+          "title": "LoRaWAN网关部署与网络覆盖规划实战：从链路预算到室内穿透",
+          "product": "LoRa Module",
+          "summary": "安信可Ra系列LoRaWAN网关部署全链路实战指南：①网关芯片选型→Semtech SX1301(8通道, 经典方案) vs SX1302(集成度高, 低功耗) vs SX1303(最新Finetune引擎, LBT增强)→室内网关vs室外工业网关(IP67)选型决策→②天线设计实战→网关侧高增益玻璃钢天线(5-8dBi) vs 吸盘天线(3dBi)→增益选择与覆盖距离的关系→终端侧弹簧天线/PCB天线对比→③链路预算计算→SF12@868MHz灵敏度-137dBm→发射功率+14dBm(终端)+天线增益-路径损耗需>灵敏度余量→Okumura-Hata室外/ITU-R室内路径损耗模型→④室内穿透衰减实测→混凝土墙-15dB/砖墙-10dB/玻璃窗-3dB/木质隔断-5dB/楼层间-20dB→⑤回传方案→以太网(稳定, 需布线)/4G Cat.1(灵活, 安信可蜂窝模组可选配)/WiFi(低成本)→⑥Ra-08/Ra-11端到端部署Checklist→网关选址准则(制高点+无遮挡)→终端安装位置验证→NS服务器(ChirpStack/TTN/自建)配置→⑦多网关覆盖规划→同频干扰规避(ADR自适应数据速率)→微蜂窝部署策略。",
+          "persona": "LoRaWAN网络工程师 · 无线通信方案商 · 智慧城市/园区IoT部署 · 网关产品选型",
+          "tags": [
+            "LoRaWAN",
+            "网关",
+            "SX1301",
+            "SX1302",
+            "SX1303",
+            "链路预算",
+            "天线",
+            "覆盖规划",
+            "室内穿透",
+            "Ra-08",
+            "Ra-11",
+            "回传"
+          ],
+          "url": "https://docs.ai-thinker.com/lora/"
         }
       ],
       "external": [
+        {
+          "title": "DFI X6X-ORN: IP67-Rated Rugged Jetson Orin NX/Nano Edge AI Computer with GMSL2 and PoE",
+          "source": "CNX Software",
+          "product": "IoT Industry",
+          "score": 87,
+          "tags": [
+            "Jetson Orin",
+            "边缘AI",
+            "IP67",
+            "GMSL2",
+            "工业IoT",
+            "NVIDIA",
+            "视觉AI"
+          ],
+          "summary": "DFI推出X6X-ORN工业级边缘AI计算机，搭载NVIDIA Jetson Orin NX/Nano模组(最高157 TOPS)，IP67全密封设计配合M12/M20防水连接器，支持GMSL2远距离相机和802.3af PoE供电，通过MIL-STD-810H军规振动冲击认证。应用于港口海事、智慧农业、建筑重型机械等极端环境下的边缘视觉AI。",
+          "hook": "157 TOPS的AI算力装进了IP67防水外壳——工业边缘AI正在从空调机房走向风吹日晒的现场。",
+          "post": "DFI X6X-ORN代表了工业边缘AI的一个重要趋势：从舒适的数据中心走向严苛的户外现场。IP67全密封、M12防水连接器、GMSL2远距离相机接口和PoE供电，这些工业级设计使AI视觉推理能力可以直接部署在港口起重机、农用机械和建筑工地上。对IoT模组行业来说，这释放了一个信号：边缘AI的下游应用场景正在从消费级向工业级扩张，高可靠性的连接模组(5G/LTE M.2)将成为这类设备的标配。",
+          "url": "https://www.cnx-software.com/2026/07/28/dfi-x6x-orn-an-ip67-rated-rugged-jetson-orin-nx-nano-edge-ai-computer-with-gmsl2-camera-support/",
+          "date": "2026-07-28"
+        },
+        {
+          "title": "Waveshare RP2350-POE-ETH: Raspberry Pi RP2350 MCU Board with PoE and WIZnet W6300 Ethernet",
+          "source": "CNX Software",
+          "product": "IoT Module",
+          "score": 82,
+          "tags": [
+            "RP2350",
+            "PoE",
+            "Ethernet",
+            "W6300",
+            "MCU",
+            "RISC-V",
+            "ARM Cortex-M33",
+            "IoT"
+          ],
+          "summary": "Waveshare推出RP2350-POE-ETH开发板，基于Raspberry Pi RP2350A双核MCU(ARM Cortex-M33+RISC-V Hazard3)，通过WIZnet W6300芯片实现10/100M以太网，并支持802.3af PoE供电。20个GPIO+2xSPI/2xI2C/2xUART/16xPWM/4xADC，支持MicroPython/C/Arduino开发。以$13.99起的价格为IoT传感器节点提供单线缆供电+数据方案。",
+          "hook": "一根网线既供电又传数据，$14就能跑MQTT——PoE正在告别「高攀不起」的时代。",
+          "post": "Waveshare RP2350-POE-ETH把PoE(Ethernet供电)带到了MCU级别开发板。传统上PoE是工业交换机和IP摄像头的专属，但这块$13.99的板子证明PoE可以成为IoT传感器节点的标配——一根网线同时解决供电和数据回传，省去了电池更换和WiFi信号不稳定的烦恼。对IoT模组行业来说，WIZnet W6300这类QSPI接口的以太网控制器芯片正在降低MCU接入有线网络的成本门槛，PoE+MCU的组合可能成为智能楼宇传感器和工业现场数据采集的新范式。",
+          "url": "https://www.cnx-software.com/2026/07/28/waveshare-rp2350-poe-eth-a-raspberry-pi-rp2350-mcu-board-with-poe/",
+          "date": "2026-07-28"
+        },
         {
           "title": "Jetway SMC-ARK1: Rockchip RK3588 SMARC 2.1 System-on-Module Targets Industrial Edge AI",
           "source": "CNX Software",
