@@ -655,6 +655,40 @@
             "MIMO"
           ],
           "url": "https://docs.ai-thinker.com/radar/"
+        },
+        {
+          "title": "Rd-04 10GHz多普勒雷达进阶实战：灵敏度分级调优、动态背景学习与智能灯控全场景参数部署",
+          "product": "Radar Sensor",
+          "summary": "深入Rd-04工程调优的核心参数与实战技法。①灵敏度分级方案：1-10级灵敏度寄存器配置与对应检测范围映射表（1级=仅强运动<1m，5级=正常走动≤5m，10级=微动呼吸≤3m）→过灵敏导致频繁误触发(风扇/窗帘飘动/PET活动)的抑制策略（数字带通滤波器0.5-5Hz+Duty Cycle占空比门限法）。②动态背景学习算法：上电后自动采集5分钟背景多普勒频谱建立基线→自适应阈值(μ+3σ动态更新)→电磁环境骤变(微波炉/变频器干扰)时的基线冻结与恢复策略。③智能灯控全场景参数套件：走廊(高灵敏度+短延时3s)→卧室(低灵敏度+呼吸检测模式)→办公室(中灵敏度+多人累计不熄灭逻辑)→卫生间(高灵敏度+最长延时15min防误关)。④Rd-04与Rd-03H的协同部署策略：Rd-03H(24GHz FMCW)用于大范围空间存在感知，Rd-04(10.525GHz多普勒)用于局部微动精密检测，UART互通实现分级唤醒。⑤量产校准SOP：屏蔽箱内标准人体目标(金属反射球模拟)的灵敏度校准→环境温度补偿(-20℃~+60℃偏置修正表)→出厂检测金机3步流程。",
+          "persona": "雷达传感器算法工程师 · 智能照明方案商 · 嵌入式固件开发者",
+          "tags": [
+            "Rd-04",
+            "10GHz",
+            "多普勒雷达",
+            "灵敏度调优",
+            "背景学习",
+            "智能灯控",
+            "量产校准"
+          ],
+          "url": "https://docs.ai-thinker.com/radar/"
+        },
+        {
+          "title": "Rd-6X 60GHz FMCW雷达进阶：点云DBSCAN聚类、跌倒检测特征工程与呼吸心率生命体征监测",
+          "product": "Radar Sensor",
+          "summary": "Rd-6X系列60GHz FMCW毫米波雷达的高级信号处理管线与核心算法详解。①点云生成链：ADC原始数据→Range FFT(距离维)→Doppler FFT(速度维)→Angle FFT(MIMO角度估计)→CFAR检测→生成3D点云(距离/角度/速度/SNR)。②多目标跟踪：DBSCAN聚类(ε邻域参数调优，区分紧邻双人vs单人体宽)→卡尔曼滤波轨迹预测(位置+速度状态向量)→匈牙利算法ID匹配(解决交叉行走ID Swap问题)→目标生命周期管理(新生/持续/消失状态机)。③跌倒检测特征工程：高度突变(质心高度下降>0.5m)→速度骤变(垂直速度>2m/s)→姿态变化(点云分布从垂直椭圆变为水平椭圆)→静止确认(跌倒后3秒无运动)→多特征加权投票判决(各特征权重通过ROC曲线AUC优化)→误报抑制(弯腰捡物/坐下/蹲下的运动学区分)。④呼吸心率生命体征监测：胸壁微动位移提取(相位解调+IQ不平衡校正)→带通滤波(呼吸0.1-0.5Hz，心跳0.8-2.0Hz)→FFT峰值检测→呼吸率精度±1bpm、心率精度±3bpm(静止状态)→运动干扰自动检测与数据剔除。⑤Rd-61 vs Rd-62 vs Rd-60三档选型对比：天线数(1T2R→1T4R)、最大目标数(1→8→16)、是否有生命体征功能、价格梯度，给出不同场景(灯控/安防/康养/车舱)的最优型号推荐。",
+          "persona": "毫米波雷达算法工程师 · 康养IoT产品经理 · 人群感知方案架构师",
+          "tags": [
+            "Rd-6X",
+            "60GHz",
+            "FMCW",
+            "点云",
+            "DBSCAN",
+            "跌倒检测",
+            "生命体征",
+            "呼吸心率",
+            "卡尔曼滤波"
+          ],
+          "url": "https://docs.ai-thinker.com/radar/"
         }
       ],
       "external": [
@@ -693,6 +727,43 @@
           "hook": "一块40×40mm的板子能驱动工业HMI和EV充电桩——IoT模组正在吃掉传统PLC的地盘。",
           "post": "CNX Software报道Calixto Systems基于TI AM62L处理器的40×40mm STAMP SOM系统模块。双核Cortex-A53(最高1.4GHz)搭配3D GPU，支持CAN-FD、千兆以太网和LVDS显示接口，目标工业自动化HMI和EV充电桩控制。对安信可模组产品线的参考意义：工业IoT正在从单纯的通信模组(WiFi/BLE/LoRa/NB-IoT)向'通信+边缘计算'二合一的AIoT模组演进。安信可BW21-CBV的AI视觉能力、Ai-M62系列的WiFi6+RISC-V算力组合，正是踩在这条'通信不纯通信'的技术路径上。",
           "url": "https://www.cnx-software.com/2026/07/06/tiny-calixto-systems-am62l-stamp-som-targets-industrial-automation-hmi-applications-ev-chargers/"
+        },
+        {
+          "title": "NXP RW610FML Wi-Fi 6 and BLE 5.4 Module: RW610 Cortex-M33 Wireless MCU Enters Compact Module Market",
+          "source": "CNX Software",
+          "product": "WiFi Module",
+          "score": 87,
+          "tags": [
+            "WiFi 6",
+            "BLE 5.4",
+            "NXP",
+            "RW610",
+            "Cortex-M33",
+            "IoT模组"
+          ],
+          "summary": "NXP推出基于RW610 Cortex-M33无线MCU的紧凑型Wi-Fi 6+BLE 5.4模组RW610FML，支持Matter over WiFi，目标智能家电、工业网关和医疗设备等IoT场景。该模组将NXP自研无线MCU方案带入模组形态，标志着WiFi 6在IoT模组市场加速渗透。",
+          "hook": "NXP亲自下场做WiFi 6模组了——RW610 Cortex-M33单芯片方案塞进紧凑封装，Matter over WiFi原生支持，IoT模组的WiFi 6时代真的来了。",
+          "post": "CNX Software报道NXP基于RW610（Cortex-M33 260MHz+WiFi 6+BLE 5.4+Matter）无线MCU推出的RW610FML紧凑型模组。对安信可WiFi模组产品线的参考意义：WiFi 6正在从高端路由器和手机向IoT模组市场下沉。安信可Ai-M62系列已布局WiFi 6+RISC-V方案，NXP RW610的入局验证了'WiFi 6模组是2026年IoT刚需'的判断。在智能家居和工业网关场景，WiFi 6的OFDMA、TWT省电、BSS Coloring抗干扰等特性相比WiFi 4有代际优势。",
+          "url": "https://www.cnx-software.com/2026/07/29/nxp-rw610fml-wi-fi-6-and-ble-5-4-module-features-rw610-cortex-m33-wireless-mcu/"
+        },
+        {
+          "title": "SensWear: Open-Source Nordic nRF54L15 Modular Wearable Dev Platform with 6-axis IMU and PPG Expansion",
+          "source": "CNX Software",
+          "product": "BLE Module",
+          "score": 83,
+          "tags": [
+            "nRF54L15",
+            "Nordic",
+            "可穿戴",
+            "开源",
+            "BLE",
+            "IMU",
+            "PPG"
+          ],
+          "summary": "SensWear推出基于Nordic nRF54L15 BLE SoC的开源模块化可穿戴开发平台，集成6轴IMU并支持PPG心率、温度、触觉反馈等子板扩展，为可穿戴IoT设备原型开发提供完整的硬件+软件参考设计。",
+          "hook": "Nordic最新的nRF54L15被做成了开源可穿戴平台——6轴IMU+PPG心率+触觉反馈全模块化，BLE可穿戴原型开发的门槛又降了一截。",
+          "post": "CNX Software报道SensWear基于Nordic nRF54L15（Bluetooth LE+多协议）的开源模块化可穿戴开发平台。平台集成6轴IMU传感器，并通过子板扩展支持PPG心率监测、皮肤温度、触觉反馈等功能。对安信可BLE模组产品线的参考意义：可穿戴设备对BLE模组的体积、功耗和传感器接口要求越来越苛刻。Nordic nRF54L系列代表了2026年BLE SoC的最高水平（支持Bluetooth 6.0、LE Audio、Channel Sounding定位），安信可PB系列(PHY62xx)和WB系列(BL602)在可穿戴场景的竞争力需要重点关注功耗/体积/协议栈完整度三个维度。",
+          "url": "https://www.cnx-software.com/2026/07/29/senswear-an-open-source-modular-nordic-nrf54l15-development-platform-for-wearables/"
         }
       ]
     },
