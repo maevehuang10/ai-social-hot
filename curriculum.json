@@ -806,6 +806,41 @@
             "BOM设计"
           ],
           "url": "https://docs.ai-thinker.com/radar/"
+        },
+        {
+          "title": "雷达+离线语音 Combo 多传感器数据融合与智能场景决策引擎：Rd区域判决+VC优先级仲裁+自适应策略",
+          "product": "Combo Solution",
+          "summary": "深度解析雷达+离线语音Combo方案的多传感器数据融合架构与智能决策算法。①雷达感知层输出抽象：Rd-04多普勒运动检测生成有人/无人+运动强度二元事件→Rd-6X FMCW生成区域网格化人体坐标(Zone 0-7分区)+运动方向向量→统一感知事件总线格式{zone_id, confidence, velocity, timestamp}。②语音决策优先级仲裁引擎：感知事件→语音播报映射表(迎宾:Zone入口→欢迎光临/安防:Zone禁区→请勿靠近/康养:Zone卧室+静止超时→请确认安全)→优先级仲裁规则(安防警报>康养提醒>迎宾播报>环境提示)→重复抑制(同区域同事件30秒内不重复播报)→播报队列管理(紧急事件打断当前播报)。③场景自适应策略引擎：Home Mode(低灵敏度/短间隔/亲和语气)→Store Mode(高灵敏度/标准间隔/迎宾语音包)→Office Mode(中灵敏度/长间隔/简洁提示)→Night Mode(Rd-6X接管,仅安防触发,降低播报音量)→模式切换可通过VC离线语音命令实现(小白小白,切换到夜间模式)。④决策引擎代码实现框架：基于FreeRTOS的双任务架构(Task_Radar处理雷达中断→Task_Voice管理播报队列+状态机)→共享环形缓冲区传递感知事件→决策规则表用C语言结构体数组实现,支持云端下发规则热更新。",
+          "persona": "嵌入式算法工程师 · Combo方案系统架构师 · 智能传感产品经理",
+          "tags": [
+            "雷达",
+            "离线语音",
+            "Combo",
+            "数据融合",
+            "决策引擎",
+            "优先级仲裁",
+            "自适应策略",
+            "FreeRTOS"
+          ],
+          "url": "https://docs.ai-thinker.com/radar/"
+        },
+        {
+          "title": "雷达+离线语音 Combo 硬件协同设计与量产部署实战：EMI隔离/双芯片供电/产线校准/EMC合规",
+          "product": "Combo Solution",
+          "summary": "雷达+离线语音Combo方案的硬件工程落地全流程详解。①PCB共模干扰隔离设计：雷达模组(Rd-04 10.525GHz/Rd-6X 60GHz)与语音模组(VC-02)的物理布局策略→RF微波区域与数字音频区域强制分离(间距≥15mm)+中间地铜皮隔离带→雷达天线净空区(≥5mm无铜)与语音MIC走线差分对(包地+等长误差<5mil)→关键去耦方案(雷达VDD加100pF+10nF+10μF三级滤波,语音PA电源加220μF大电容储能)→实测对比：未隔离vs隔离方案的语音播报底噪改善>12dB。②双芯片电源树管理：单路5V/12V输入→Rd-04需3.3V@200mA(峰值500mA)→VC-02需3.3V@80mA+PA功放5V@1A→推荐LDO+DCDC混合方案(雷达用超低噪声LDO RT9013-33 噪声<30μVRMS防止RF相噪恶化,语音PA用DCDC SY8088 效率>90%)→宽压输入设计(5-24V兼容工业/车载场景)→防反接+TVS浪涌保护。③产线校准与测试工装：雷达模组校准(微波暗箱标定→量产工装用金属反射板+已知距离快速S参数自检)→语音模组校准(MIC灵敏度±1dB A-wt量产测试→喇叭频响自动扫频→唤醒词误唤醒率<1次/24h出厂抽检)→Combo整机功能测试(雷达触发→语音播报→端到端延迟<200ms→100次循环测试通过率>99.5%)。④EMC电磁兼容认证路径：辐射发射RE(雷达10.525GHz/60GHz基频+谐波,CISPR 32 Class B)→传导发射CE(电源端口,CISPR 32)→ESD静电(接触±8kV/空气±15kV,IEC 61000-4-2)→RS辐射抗扰(80MHz-6GHz 10V/m)→安信可Combo方案的认证经验总结与设计Checklist。",
+          "persona": "硬件设计工程师 · 量产NPI工程师 · EMC认证工程师",
+          "tags": [
+            "雷达",
+            "离线语音",
+            "Combo",
+            "EMI",
+            "电源树",
+            "PCB",
+            "产线校准",
+            "EMC",
+            "量产"
+          ],
+          "url": "https://docs.ai-thinker.com/radar/"
         }
       ],
       "external": [
@@ -846,6 +881,44 @@
           "post": "BIGTREETECH Panda Sense Pro 将激光PM2.5、NDIR CO₂、电化学甲醛、TVOC、温湿度等8种传感器集成到一个WiFi+MQTT设备中，配合Home Assistant实现全屋环境自动化。对安信可的启示：传感器融合正在成为IoT模组的下一阶段需求——客户不只需要一个WiFi/BLE连接模组，还需要模组方案商能提供传感器驱动库、数据融合算法和云平台对接的完整SDK。雷达产品线的Rd系列如果能在模组层面预集成常用传感器驱动(温湿度/光照/CO₂等)，将大幅降低客户开发门槛。",
           "url": "https://www.cnx-software.com/2026/07/04/bigtreetech-panda-sense-pro-8-in-1-smart-air-quality-monitor-works-with-home-assistant-and-klipper-for-3d-printers/",
           "date": "2026-07-04"
+        },
+        {
+          "title": "Luxonis M8 Controller Box: Industrial I/O Expansion for OAK4 AI Vision Cameras Adds CAN Bus and Relay Control",
+          "source": "CNX Software",
+          "product": "AI Camera",
+          "score": 79,
+          "tags": [
+            "Luxonis",
+            "OAK4",
+            "AI相机",
+            "工业IoT",
+            "CAN总线",
+            "RP2040",
+            "边缘AI"
+          ],
+          "summary": "Luxonis推出M8控制器盒，通过M8接口为OAK4(QCS8550) AI视觉相机扩展GPIO/继电器/CAN 2.0/RS232等工业接口，内置RP2040 MCU协处理，DIN导轨安装，面向机器视觉+工业控制一体化场景。",
+          "hook": "AI视觉相机+工业控制IO的二合一盒子来了——Luxonis M8给OAK4加上CAN总线、继电器和GPIO，DIN导轨直接上产线。",
+          "post": "CNX Software 2026年7月30日报道Luxonis M8工业控制器盒。M8为搭载高通QCS8550的OAK4深度相机增加工业级I/O扩展：4路继电器输出、CAN 2.0总线、RS232串口、隔离GPIO，内置RP2040 MCU做实时控制协处理。对安信可模组产品线的参考意义：边缘AI视觉+工业控制融合是2026年IoT的重要趋势，安信可BW21-CBV(RTL8730E+AI视觉)配合4G Cat.1或LoRa模组可实现类似的工业视觉检测+远程控制方案，M8的CAN总线扩展思路值得借鉴。",
+          "url": "https://www.cnx-software.com/2026/07/30/luxonis-m8-controller-box-adds-industrial-i-o-to-oak4-ai-vision-camera/"
+        },
+        {
+          "title": "InHand Mo 62A/68A: Credit-Card-Sized TI AM62A/AM68A Edge AI SBC with MIPI CSI and Raspberry Pi HAT Support",
+          "source": "CNX Software",
+          "product": "AI SBC",
+          "score": 81,
+          "tags": [
+            "TI",
+            "AM62A",
+            "AM68A",
+            "边缘AI",
+            "SBC",
+            "工业视觉",
+            "MIPI"
+          ],
+          "summary": "InHand推出信用卡大小的Mo 62A/68A边缘AI单板计算机，分别搭载TI AM62A(2 TOPS)和AM68A(8 TOPS)处理器，支持MIPI CSI摄像头、树莓派HAT扩展、第7代ISP图像处理，面向工业AI视觉和智能相机场景。",
+          "hook": "信用卡大小的边缘AI板——TI AM68A 8 TOPS，支持MIPI摄像头+树莓派HAT，工业视觉又一个新选项。",
+          "post": "CNX Software 2026年7月30日报道InHand Mo系列边缘AI SBC。Mo 62A和Mo 68A两款产品分别基于TI AM62A(2 TOPS AI算力)和AM68A(8 TOPS)，均支持MIPI CSI摄像头输入、树莓派40pin HAT兼容、第7代ISP图像处理管线。对安信可模组的参考意义：边缘AI算力平台向小型化和标准化演进趋势明显，安信可BW21-CBV(RTL8730E)可作为这类平台的无线连接模组(WiFi+BLE)，与TI AM68A等AI主控形成端侧AI+无线上云的互补方案。8 TOPS算力已经可以跑轻量级YOLO+目标跟踪+行为分析，工业视觉模组的无线化是明确需求。",
+          "url": "https://www.cnx-software.com/2026/07/30/inhand-mo-62a-mo-68a-credit-card-sized-ti-am62a-am68a-edge-ai-sbc/"
         }
       ]
     },
