@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T04:28:54.239Z",
+  "generatedAt": "2026-08-02T04:32:32.473Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,33 +7,6 @@
     "IoT Tech News"
   ],
   "topics": [
-    {
-      "title": "ESP32 developer ecosystem angle",
-      "source": "Espressif Systems",
-      "product": "ESP32 Module",
-      "score": 96,
-      "formats": [
-        "LinkedIn Post",
-        "Carousel",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "YouTube"
-      ],
-      "tags": [
-        "ESP32",
-        "Embedded Development",
-        "Smart Device"
-      ],
-      "value": "Useful for explaining how ESP32 modules support smart devices, control panels, gateways, and rapid prototyping.",
-      "summary": "ESP32 ecosystem content is useful when it turns chip capability into developer workflows and visible demos.",
-      "hook": "A small module can shape the whole connected product experience.",
-      "post": "ESP32 content works best when it connects the module to a real device workflow: connectivity, control, UI, sensing, and deployment.",
-      "url": "https://www.linkedin.com/company/espressif-systems",
-      "date": "2026-08-01"
-    },
     {
       "title": "Matter and smart-home compatibility story",
       "source": "Home Assistant",
@@ -58,7 +31,7 @@
       "hook": "Smart home buyers are no longer asking only for connectivity. They want compatibility.",
       "post": "For smart-home devices, wireless modules become more valuable when they reduce integration risk and help products fit into existing ecosystems.",
       "url": "https://www.home-assistant.io/",
-      "date": "2026-08-01"
+      "date": "2026-08-02"
     },
     {
       "title": "Radar sensing for privacy-friendly presence detection",
@@ -86,7 +59,7 @@
       "hook": "Not every sensing solution needs a camera.",
       "post": "Radar sensing can be explained through practical spaces: bathroom, bedroom, entryway, or care facility. Start with the pain point, then explain why camera-free sensing matters.",
       "url": "",
-      "date": "2026-08-01"
+      "date": "2026-08-02"
     },
     {
       "title": "LoRaWAN solution content worth tracking",
@@ -112,7 +85,59 @@
       "hook": "Some IoT projects need years of battery life, not more bandwidth.",
       "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
       "url": "https://www.linkedin.com/company/rakwireless/",
-      "date": "2026-08-01"
+      "date": "2026-08-02"
+    },
+    {
+      "title": "ESP32 developer ecosystem angle",
+      "source": "Espressif Systems",
+      "product": "ESP32 Module",
+      "score": 96,
+      "formats": [
+        "LinkedIn Post",
+        "Carousel",
+        "Short Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "YouTube"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for explaining how ESP32 modules support smart devices, control panels, gateways, and rapid prototyping.",
+      "summary": "ESP32 ecosystem content is useful when it turns chip capability into developer workflows and visible demos.",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "ESP32 content works best when it connects the module to a real device workflow: connectivity, control, UI, sensing, and deployment.",
+      "url": "https://www.linkedin.com/company/espressif-systems",
+      "date": "2026-08-02"
+    },
+    {
+      "title": "Creality Falcon T1 review – A 5-in-1 modular laser engraver tested with 20W fiber and 40W diode laser modules",
+      "source": "CNX Software",
+      "date": "2026-08-01",
+      "product": "ESP32 Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "Creality sent us a sample of the Falcon T1 5-in-1 modular laser engraver for review. The company describes it as the world’s first 5-in-1 laser engraving and cutting machine that supports five types of laser modules in a single unit: 20W diode laser 20W, 40W...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "Creality Falcon T1 review – A 5-in-1 modular laser engraver tested with 20W fiber and 40W diode laser modules\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/08/01/creality-falcon-t1-review-a-5-in-1-modular-laser-engraver-tested-with-20w-fiber-and-40w-diode-laser-modules/"
     },
     {
       "title": "NanoPi R28S – A tiny dual GbE Rockchip RK3528A wireless SBC and router with a USB-C console port",
@@ -2595,35 +2620,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Lua-programmable ELM11-Feather board puts Gowin GW1NR FPGA into Feather form factor (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/07/11/lua-programmable-elm11-feather-board-puts-gowin-gw1nr-fpga-into-feather-form-factor/"
-    },
-    {
-      "title": "M5Stack Stamp-C5 – A Tiny ESP32-C5 USB-C board/module with up to 19 GPIO, 3.7V battery support",
-      "source": "CNX Software",
-      "date": "2026-07-10",
-      "product": "BLE Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "M5Stack Stamp-C5, also known as the M5Stamp-C5, is a tiny wireless IoT USB-C board based on the Espressif ESP32-C5 RISC-V microcontroller with dual-band WiFi 6, Bluetooth LE, and 802.15.4 (Zigbee/Thread) connectivity. Despite its small size (19.1 x 17.6mm),...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "M5Stack Stamp-C5 – A Tiny ESP32-C5 USB-C board/module with up to 19 GPIO, 3.7V battery support\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/07/10/m5stack-stamp-c5-a-tiny-esp32-c5-usb-c-board-module-with-up-to-19-gpio-3-7v-battery-support/"
     }
   ]
 }
