@@ -960,6 +960,36 @@
             "VC-04"
           ],
           "url": "https://docs.ai-thinker.com/voice_module/"
+        },
+        {
+          "title": "VC离线语音唤醒词自学习进阶：模型压缩量化与量产阶段一致性保障",
+          "product": "Voice Module",
+          "summary": "安信可VC系列离线语音唤醒词自学习进阶实战：①轻量级CNN模型INT8量化——将浮点模型压缩至<200KB Flash占用，推理速度提升2x，Mac值下降<0.5%；②低资源增量训练——仅需3-5次用户语音录入即可完成自适应微调，无需云端重训练，增量训练时间<30s；③量产一致性保障——声学暗室校准（标准声源94dB SPL@1kHz Reference）→每模组5角度唤醒率全检（正对/±30°/±60°，标准唤醒率>95%@1m）→产线自动化测试脚本（Python串口控制+噪声叠加+误唤醒率<1次/72h验收）→金样留存与批次SPC管控。",
+          "persona": "离线语音算法工程师 · 嵌入式AI产品经理 · 消费电子语音交互负责人",
+          "tags": [
+            "VC系列",
+            "离线语音",
+            "唤醒词",
+            "模型量化",
+            "CNN",
+            "产线校准"
+          ],
+          "url": "https://docs.ai-thinker.com/vc/"
+        },
+        {
+          "title": "VC离线语音端侧ASR全链路工程优化：声学前端管线+识别解码+低功耗调度实战",
+          "product": "Voice Module",
+          "summary": "安信可VC-02/VC-04离线语音ASR全链路工程优化：①声学前端增强管线——自适应波束成形（双麦MVDR，SNR提升8-12dB）→单通道降噪（RNNoise轻量版，<0.5MIPS）→AEC（NLMS 128-tap，ERLE>30dB）→动态增益控制（AGC Target -26dBFS）；②识别解码优化——CTC贪婪解码+WFST语言图联合优化，识别延迟<100ms，支持50+条离线命令词；③低功耗调度策略——三级功耗管理：Always-On VAD（<2mA）→唤醒触发全流水线（~35mA）→空闲Standby（<50μA），典型电池产品（2000mAh）在日均100次唤醒场景下续航>90天。",
+          "persona": "嵌入式语音DSP工程师 · IoT语音产品架构师 · 低功耗终端开发者",
+          "tags": [
+            "VC系列",
+            "离线语音",
+            "ASR",
+            "AEC",
+            "波束成形",
+            "低功耗"
+          ],
+          "url": "https://docs.ai-thinker.com/vc/"
         }
       ],
       "external": [
@@ -981,6 +1011,40 @@
           "post": "Norik Systems基于Nordic nRF9151 SiP的USB Dongle将DECT NR+(非蜂窝5G IoT标准)带到开发者手中。DECT NR+工作在1.9GHz，Mesh/Star/P2P拓扑支持百万级节点，是面向大规模工业IoT和智慧城市的长距离低功耗无线新选项。与NB-IoT对比：DECT NR+无需SIM卡和运营商服务费，适合私有部署的大规模传感器网络。对安信可蜂窝产品线（NB-IoT/Cat.1）的参考价值：DECT NR+代表了一个新兴的免授权5G IoT频谱方案，未来可能在某些私有网络场景中与NB-IoT/Cat.1形成互补。",
           "url": "https://www.cnx-software.com/2026/07/09/norik-systems-introduces-nrf9151-based-usb-dongle-for-dect-nr-deployments/",
           "date": "2026-07-09"
+        },
+        {
+          "title": "LoRa Alliance Introduces QR Codes and Relay Specs for Easier Large-Scale LoRaWAN Deployments",
+          "source": "CNX Software",
+          "product": "LoRa Module",
+          "score": 88,
+          "tags": [
+            "LoRaWAN",
+            "LoRa Alliance",
+            "QR code",
+            "relay",
+            "deployment"
+          ],
+          "summary": "LoRa联盟发布TS014、TS018和TR016三份新规范，通过QR码扫码自动入网和LoRaWAN中继(Relay)机制大幅简化大规模设备部署。TS014定义了终端设备能力API，让网络服务器自动拉取设备Profile；TS018引入LoRaWAN Relay功能，通过电池供电中继节点扩展覆盖盲区。",
+          "hook": "LoRaWAN大规模部署最大的痛点——手动录入DevEUI/AppKey——终于被QR码扫码终结了，LoRa联盟还放出了Relay中继规范来填补覆盖盲区。",
+          "post": "LoRa联盟一次性发布三份新规范：TS014-设备能力API让网络服务器自动拉取设备参数，告别手动录入上百台设备的噩梦；TS018-LoRaWAN Relay支持电池供电中继节点，把信号延伸到地下室、电梯井等传统覆盖盲区；TR016则给出了QR码标签的标准化设计建议。对安信可Ra系列LoRa模组用户来说，这些新规范意味着未来的设备入网和网络扩展将更加自动化——尤其适合智慧农业、智能楼宇等需要批量部署的场景。",
+          "url": "https://www.cnx-software.com/2026/08/05/large-scale-lorawan-deployments-become-easier-through-qr-codes-and-relays/"
+        },
+        {
+          "title": "Silicon Labs BG2B: Lowest-Power Bluetooth 6 LE SoC with Channel Sounding and 1.1μA Sleep Current",
+          "source": "CNX Software",
+          "product": "BLE Module",
+          "score": 86,
+          "tags": [
+            "Bluetooth 6",
+            "BLE",
+            "Silicon Labs",
+            "Channel Sounding",
+            "低功耗"
+          ],
+          "summary": "Silicon Labs发布BG2B超低功耗Bluetooth 6 LE SoC：Arm Cortex-M33@80MHz，EM2睡眠仅1.1μA（RAM保持），支持Bluetooth 6 Channel Sounding精确定位、Secure Vault High安全认证和CAN-FD车载接口，目标资产追踪、电子价签、智能家居和工业监测。",
+          "hook": "1.1μA睡眠电流+Bluetooth 6 Channel Sounding——Silicon Labs把BLE SoC的功耗和定位精度同时推到了新高度，IoT传感器和资产追踪赛道又要卷了。",
+          "post": "Silicon Labs BG2B在1.1μA EM2睡眠下保持RAM不掉电，比上一代BG22再降14%的MCU活跃电流。它还首次在中低端BLE SoC中集成了CAN-FD接口，直接切入车载诊断和工业IoT场景。Bluetooth 6 Channel Sounding让厘米级定位成为标配——对安信可BLE模组(WB2/BW系列)来说，这预示着下一代BLE模组将朝着更低功耗+精确定位的方向演进，尤其在资产追踪和智能家居场景中需求强烈。",
+          "url": "https://www.cnx-software.com/2026/08/04/bg2b-lowest-power-bluetooth-le-soc-from-silicon-labs/"
         }
       ]
     },
