@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T04:01:15.948Z",
+  "generatedAt": "2026-08-08T02:58:32.051Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -8,13 +8,13 @@
   ],
   "topics": [
     {
-      "title": "Proxmox VE now officially supports 64-bit Arm (Arch64) targets",
-      "source": "CNX Software",
-      "date": "2026-08-07",
-      "product": "BLE Module",
-      "score": 94,
+      "title": "LoRaWAN solution content worth tracking",
+      "source": "RAKwireless",
+      "product": "LoRa Module",
+      "score": 95,
       "formats": [
         "LinkedIn Post",
+        "Carousel",
         "Sales Material"
       ],
       "platforms": [
@@ -22,15 +22,16 @@
         "Facebook"
       ],
       "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
+        "LoRa",
+        "LoRaWAN",
+        "Gateway"
       ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Proxmox has recently announced the first official release of Proxmox Virtual Environment (VE) with support for 64-bit Arm (arm64/aarch64), as the popular virtualization solution was only available for x86-64 (amd64) so far. Proxmox VE 9.2 for arm64 is built...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Proxmox VE now officially supports 64-bit Arm (Arch64) targets\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/07/proxmox-ve-now-officially-supports-64-bit-arm-arch64-targets/"
+      "value": "Useful for explaining complete LoRaWAN solutions to B2B users, including modules, gateways, sensor nodes, and cloud workflows.",
+      "summary": "Track how LoRaWAN brands turn hardware into complete deployment stories.",
+      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
+      "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
+      "url": "https://www.linkedin.com/company/rakwireless/",
+      "date": "2026-08-08"
     },
     {
       "title": "ESP32 developer ecosystem angle",
@@ -57,13 +58,13 @@
       "hook": "A small module can shape the whole connected product experience.",
       "post": "ESP32 content works best when it connects the module to a real device workflow: connectivity, control, UI, sensing, and deployment.",
       "url": "https://www.linkedin.com/company/espressif-systems",
-      "date": "2026-08-06"
+      "date": "2026-08-08"
     },
     {
-      "title": "LoRaWAN solution content worth tracking",
-      "source": "RAKwireless",
-      "product": "LoRa Module",
-      "score": 95,
+      "title": "Matter and smart-home compatibility story",
+      "source": "Home Assistant",
+      "product": "WiFi Module",
+      "score": 94,
       "formats": [
         "LinkedIn Post",
         "Carousel",
@@ -74,16 +75,177 @@
         "Facebook"
       ],
       "tags": [
-        "LoRa",
-        "LoRaWAN",
-        "Gateway"
+        "Matter",
+        "Smart Home",
+        "Interoperability"
       ],
-      "value": "Useful for explaining complete LoRaWAN solutions to B2B users, including modules, gateways, sensor nodes, and cloud workflows.",
-      "summary": "Track how LoRaWAN brands turn hardware into complete deployment stories.",
-      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
-      "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
-      "url": "https://www.linkedin.com/company/rakwireless/",
-      "date": "2026-08-06"
+      "value": "Useful for smart-home customers who care about compatibility, certification readiness, and faster product development.",
+      "summary": "Smart-home module content should explain compatibility and integration value, not only wireless specs.",
+      "hook": "Smart home buyers are no longer asking only for connectivity. They want compatibility.",
+      "post": "For smart-home devices, wireless modules become more valuable when they reduce integration risk and help products fit into existing ecosystems.",
+      "url": "https://www.home-assistant.io/",
+      "date": "2026-08-08"
+    },
+    {
+      "title": "Radar sensing for privacy-friendly presence detection",
+      "source": "Industry Sensing",
+      "product": "Radar Sensor",
+      "score": 92,
+      "formats": [
+        "Short Video",
+        "LinkedIn Post",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "Radar",
+        "Presence Detection",
+        "Smart Sensing"
+      ],
+      "value": "Useful for explaining camera-free sensing in elderly care, bathrooms, bedrooms, security, and automation scenarios.",
+      "summary": "Radar content is strongest when it starts from the user problem: reliable presence detection without a camera.",
+      "hook": "Not every sensing solution needs a camera.",
+      "post": "Radar sensing can be explained through practical spaces: bathroom, bedroom, entryway, or care facility. Start with the pain point, then explain why camera-free sensing matters.",
+      "url": "",
+      "date": "2026-08-08"
+    },
+    {
+      "title": "Proxmox VE now officially supports 64-bit Arm (Aarch64) targets",
+      "source": "CNX Software",
+      "date": "2026-08-07",
+      "product": "BLE Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Proxmox has recently announced the first official release of Proxmox Virtual Environment (VE) with support for 64-bit Arm (arm64/aarch64). Until now, the popular virtualization solution was only available for x86-64 (amd64). Proxmox VE 9.2 for arm64 is built...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Proxmox VE now officially supports 64-bit Arm (Aarch64) targets\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/08/07/proxmox-ve-now-officially-supports-64-bit-arm-aarch64-targets/"
+    },
+    {
+      "title": "Proxmox VE now officially supports 64-bit Arm (Arch64) targets",
+      "source": "CNX Software",
+      "date": "2026-08-07",
+      "product": "BLE Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Proxmox has recently announced the first official release of Proxmox Virtual Environment (VE) with support for 64-bit Arm (arm64/aarch64), as the popular virtualization solution was only available for x86-64 (amd64) so far. Proxmox VE 9.2 for arm64 is built...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Proxmox VE now officially supports 64-bit Arm (Arch64) targets\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/08/07/proxmox-ve-now-officially-supports-64-bit-arm-arch64-targets/"
+    },
+    {
+      "title": "Token Monitor – An ESP32-S3 desktop display that tracks AI coding assistant usage (Crowdfunding)",
+      "source": "CNX Software",
+      "date": "2026-08-07",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Fractal Manifold has introduced the Token Monitor, a 4-inch ESP32-S3-based desktop display for monitoring real-time AI coding assistant usage. The device features a 4-inch 480×480 IPS touchscreen with 5-point capacitive touch, Wi-Fi 4 and Bluetooth LE 5...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Token Monitor – An ESP32-S3 desktop display that tracks AI coding assistant usage (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/08/07/token-monitor-an-esp32-s3-desktop-display-that-tracks-ai-coding-assistant-usage/"
+    },
+    {
+      "title": "GEEKOM IT13 Max mini PC review – Part 1: specifications, unboxing, teardown, and first boot",
+      "source": "CNX Software",
+      "date": "2026-08-07",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "We’ve just received a sample of the GEEKOM IT13 Max mini PC powered by an Intel Core Ultra 9 185H CPU for review. With up to 35 TOPS, sixteen cores clocked up to 5.1 GHz, and up to 24 GB LPDDR5 memory, the Meteor Lake mini PC is well-suited for AI workloads,...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "GEEKOM IT13 Max mini PC review – Part 1: specifications, unboxing, teardown, and first boot\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/08/07/geekom-it13-max-mini-pc-review-part-1-specifications-unboxing-teardown-and-first-boot/"
+    },
+    {
+      "title": "IoT Now Contract Win List – July 2026",
+      "source": "IoT Now",
+      "date": "2026-08-07",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "The IoT Now Contract Win List for July 2026 shows the Internet of Things contracts placed worldwide and reported in the last months. Get the inside track on who’s winning what … Continued The post IoT Now Contract Win List – July 2026 appeared first on IoT...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "IoT Now Contract Win List – July 2026\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/08/07/157806-iot-now-contract-win-list-july-2026/"
     },
     {
       "title": "Espressif Systems releases ESP RainMaker Neo open-source device-to-cloud-to-phone IoT platform",
@@ -134,60 +296,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Antmicro releases open-source hardware Thunderbolt to dual 10GbE adapter\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/08/06/antmicro-releases-open-source-hardware-thunderbolt-to-dual-10gbe-adapter/"
-    },
-    {
-      "title": "Matter and smart-home compatibility story",
-      "source": "Home Assistant",
-      "product": "WiFi Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Carousel",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "Matter",
-        "Smart Home",
-        "Interoperability"
-      ],
-      "value": "Useful for smart-home customers who care about compatibility, certification readiness, and faster product development.",
-      "summary": "Smart-home module content should explain compatibility and integration value, not only wireless specs.",
-      "hook": "Smart home buyers are no longer asking only for connectivity. They want compatibility.",
-      "post": "For smart-home devices, wireless modules become more valuable when they reduce integration risk and help products fit into existing ecosystems.",
-      "url": "https://www.home-assistant.io/",
-      "date": "2026-08-06"
-    },
-    {
-      "title": "Radar sensing for privacy-friendly presence detection",
-      "source": "Industry Sensing",
-      "product": "Radar Sensor",
-      "score": 92,
-      "formats": [
-        "Short Video",
-        "LinkedIn Post",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "Radar",
-        "Presence Detection",
-        "Smart Sensing"
-      ],
-      "value": "Useful for explaining camera-free sensing in elderly care, bathrooms, bedrooms, security, and automation scenarios.",
-      "summary": "Radar content is strongest when it starts from the user problem: reliable presence detection without a camera.",
-      "hook": "Not every sensing solution needs a camera.",
-      "post": "Radar sensing can be explained through practical spaces: bathroom, bedroom, entryway, or care facility. Start with the pain point, then explain why camera-free sensing matters.",
-      "url": "",
-      "date": "2026-08-06"
     },
     {
       "title": "Silicon Labs unveils BG2B, its lowest-power Bluetooth LE SoC with power efficiency, security and integration",
@@ -589,31 +697,6 @@
       "url": "https://iot-now.com/2026/08/04/157439-the-connected-vehicle-market-is-growing-fast/"
     },
     {
-      "title": "28.9M-parameter LLM runs locally on ESP32-S3 at 9 tokens/s",
-      "source": "CNX Software",
-      "date": "2026-08-03",
-      "product": "ESP32 Module",
-      "score": 93,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "ESP32",
-        "Embedded Development",
-        "Smart Device"
-      ],
-      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
-      "summary": "Slava S. (slvDev) has optimized a 28.9M-parameter LLM running locally on an ESP32-S3 development board at around 9 tokens/s while generating text, or more exactly, telling short stories. We’ve written about LLMs and ESP32 in the past, but usually the boards...",
-      "hook": "A small module can shape the whole connected product experience.",
-      "post": "28.9M-parameter LLM runs locally on ESP32-S3 at 9 tokens/s\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/03/28-9m-parameter-llm-runs-locally-on-esp32-s3-at-9-tokens-s/"
-    },
-    {
       "title": "IoT is entering a new phase. One defined by scale.",
       "source": "IoT Now",
       "date": "2026-08-03",
@@ -637,6 +720,31 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "IoT is entering a new phase. One defined by scale.\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/08/03/157669-iot-is-entering-a-new-phase-one-defined-by-scale/"
+    },
+    {
+      "title": "28.9M-parameter LLM runs locally on ESP32-S3 at 9 tokens/s",
+      "source": "CNX Software",
+      "date": "2026-08-03",
+      "product": "ESP32 Module",
+      "score": 93,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "Slava S. (slvDev) has optimized a 28.9M-parameter LLM running locally on an ESP32-S3 development board at around 9 tokens/s while generating text, or more exactly, telling short stories. We’ve written about LLMs and ESP32 in the past, but usually the boards...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "28.9M-parameter LLM runs locally on ESP32-S3 at 9 tokens/s\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/08/03/28-9m-parameter-llm-runs-locally-on-esp32-s3-at-9-tokens-s/"
     },
     {
       "title": "Handling IoT Data at Scale: Why Unlimited Bandwidth VPS Matters for Connected Devices",
@@ -768,31 +876,6 @@
       "url": "https://iot-now.com/2026/08/03/157710-the-one-security-layer-the-it-acquisition-wave-keeps-missing/"
     },
     {
-      "title": "ChronoWatch X2040 – A DIY watch with off-the-shelf Raspberry Pi RP2040 round display, 3D printed case, and custom firmware",
-      "source": "CNX Software",
-      "date": "2026-08-03",
-      "product": "ESP32 Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "ESP32",
-        "Embedded Development",
-        "Smart Device"
-      ],
-      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
-      "summary": "If you’ve ever wanted to build your own watch, the ChronoWatch X2040 DIY watch allows you to do it the easy way with a Waveshare RP2040-Touch-LCD-1.28 touch LCD board, a 3D-printed case, a 3.7V LiPo battery, a few screws, and firmware using the Pico C/C++...",
-      "hook": "A small module can shape the whole connected product experience.",
-      "post": "ChronoWatch X2040 – A DIY watch with off-the-shelf Raspberry Pi RP2040 round display, 3D printed case, and custom firmware\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/03/chronowatch-x2040-a-diy-watch-with-off-the-shelf-raspberry-pi-rp2040-round-display-3d-printed-case-and-custom-firmware/"
-    },
-    {
       "title": "How operational visibility drives the connected car experience",
       "source": "IoT Now",
       "date": "2026-08-03",
@@ -816,6 +899,31 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "How operational visibility drives the connected car experience\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/08/03/157702-how-operational-visibility-drives-the-connected-car-experience/"
+    },
+    {
+      "title": "ChronoWatch X2040 – A DIY watch with off-the-shelf Raspberry Pi RP2040 round display, 3D printed case, and custom firmware",
+      "source": "CNX Software",
+      "date": "2026-08-03",
+      "product": "ESP32 Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "If you’ve ever wanted to build your own watch, the ChronoWatch X2040 DIY watch allows you to do it the easy way with a Waveshare RP2040-Touch-LCD-1.28 touch LCD board, a 3D-printed case, a 3.7V LiPo battery, a few screws, and firmware using the Pico C/C++...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "ChronoWatch X2040 – A DIY watch with off-the-shelf Raspberry Pi RP2040 round display, 3D printed case, and custom firmware\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/08/03/chronowatch-x2040-a-diy-watch-with-off-the-shelf-raspberry-pi-rp2040-round-display-3d-printed-case-and-custom-firmware/"
     },
     {
       "title": "Play games with your brain signals using Octopus 16 wireless EEG device",
@@ -2523,106 +2631,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Geniatech XPI-3576-CM5 – A Raspberry Pi CM5-compatible Rockchip RK3576 AI Compute Module with WiFi 6, Bluetooth 5.3\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/07/20/geniatech-xpi-3576-cm5-a-raspberry-pi-cm5-compatible-rockchip-rk3576-ai-compute-module-with-wifi-6-bluetooth-5-3/"
-    },
-    {
-      "title": "IoTextra modular automation boards with 4 inputs, 4 outputs work with Raspberry Pi and ESP32 MCU boards",
-      "source": "CNX Software",
-      "date": "2026-07-20",
-      "product": "BLE Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Last week, we wrote about the Olimex PICO-EVB automation board equipped with four relays and four isolated inputs and designed for Raspberry Pi Pico-compatible boards. Make Things Happy does something similar, but in a modular way, with the IoTextra family of...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "IoTextra modular automation boards with 4 inputs, 4 outputs work with Raspberry Pi and ESP32 MCU boards\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/07/20/iotextra-modular-automation-boards-with-4-inputs-4-outputs-work-with-raspberry-pi-and-esp32-mcu-boards/"
-    },
-    {
-      "title": "Efinix Titanium Edge FPGA family targets low-power edge AI and vision systems",
-      "source": "CNX Software",
-      "date": "2026-07-20",
-      "product": "BLE Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Efinix has introduced the Titanium Edge FPGA family designed for low-power edge AI and machine vision applications. Based on the company’s Titanium FPGA architecture, the new family introduces lower static power consumption, configurable 2.5 Gbps MIPI I/O,...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Efinix Titanium Edge FPGA family targets low-power edge AI and vision systems\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/07/20/efinix-titanium-edge-fpga-family-targets-low-power-edge-ai-and-vision-systems/"
-    },
-    {
-      "title": "Viasat demonstrates first integrated automotive satellite voice call capability with BMW Group",
-      "source": "IoT Now",
-      "date": "2026-07-20",
-      "product": "BLE Module",
-      "score": 86,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Viasat, a global contributor in satellite communications, has announced a landmark technology demonstration showcasing the first automotive satellite voice call demonstration fully integrated into a BMW Group vehicle’s platform. It … Continued The post Viasat...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Viasat demonstrates first integrated automotive satellite voice call capability with BMW Group\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/07/20/157481-viasat-demonstrates-first-integrated-automotive-satellite-voice-call-capability-with-bmw-group/"
-    },
-    {
-      "title": "Beelink EQi 304 review – Part 3: Ubuntu 26.04 on a Wildcat Lake mini PC",
-      "source": "CNX Software",
-      "date": "2026-07-19",
-      "product": "WiFi Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "WiFi",
-        "Smart Home",
-        "Wireless Module"
-      ],
-      "value": "Useful for turning current industry news into content about smart home devices, gateways, control panels, and Wi-Fi connected IoT products.",
-      "summary": "After checking out the hardware with an unboxing and a teardown of the Beelink EQi Wildcat Lake mini PC, we reviewed the Intel Core 3 304 computer with Windows 11 in detail. We’ve now had time to test the Beelink EQi mini PC running Ubuntu 26.04 with Linux...",
-      "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
-      "post": "Beelink EQi 304 review – Part 3: Ubuntu 26.04 on a Wildcat Lake mini PC\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/07/19/beelink-eqi-304-review-part-3-ubuntu-26-04-on-a-wildcat-lake-mini-pc/"
     }
   ]
 }
