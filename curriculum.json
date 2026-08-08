@@ -1254,6 +1254,44 @@
             "共享设备"
           ],
           "url": "https://docs.ai-thinker.com/cellular/"
+        },
+        {
+          "title": "4G Cat.1 VoLTE深度实战：IMS注册全流程与音频编解码链路调优",
+          "product": "Cellular IoT Module",
+          "summary": "4G Cat.1 VoLTE语音方案完整技术栈拆解：①IMS注册信令全链路(SIP Register→401 Unauthorized Challenge→AKA鉴权(Milenage算法,RAND+AUTN→RES+CK+IK)→200 OK)→200 OK Subscribe→Notify→P-CSCF/S-CSCF角色→TCP/TLS承载→注册周期T1=2s重传策略。②音频编解码实战：AMR-NB(8kHz/12.2kbps) vs AMR-WB(16kHz/23.85kbps)→RTP打包(20ms帧间隔,PT=Dynamic)→RTCP QoS监测(jitter/loss/RTT)→Jitter Buffer自适应(静态/动态/自适应,目标延迟40-100ms)→PLC丢包补偿→DTX/VAD静音检测(降低50%上行带宽)。③Cat.1模组AT指令语音呼叫链：AT+CPIN→AT+CREG?→AT+COPS?→AT+CLCC→AT+CVHU(SCO路由)→AT+CHFA(PCM/I2S/模拟三选一)→AT+CMIC(Gain 0-15)→AT+CLVL(Speaker 0-100)→AT+CAUDIO(编码协商)。④eSRVCC 4G→2G/3G语音切换：SRVCC触发条件(RSRP<-115dBm+B2事件)→MME→MSC Server信令承载切换→HO Complete→远端SDP更新(<300ms完成)→切换失败回退策略。⑤音频硬件设计：PCM接口(TDM 8kHz同步,FS/CLK/DIN/DOUT)+ES8388 Codec+Class-D功放(NS4150)+硅麦(MSM261S4030H0,SNR 62dB)+腔体设计(共振频率>3kHz)→整机THD+N<1%@1kHz。",
+          "persona": "蜂窝IoT音频方案工程师 · 车载T-Box/对讲终端开发者 · VoLTE语音产品经理",
+          "tags": [
+            "4G Cat.1",
+            "VoLTE",
+            "IMS",
+            "AMR-WB",
+            "eSRVCC",
+            "音频Codec",
+            "AT指令",
+            "SIP",
+            "PCM",
+            "蜂窝模组"
+          ],
+          "url": "https://docs.ai-thinker.com/cellular/"
+        },
+        {
+          "title": "4G Cat.1 MQTT over LTE长连接优化：TCP KeepAlive策略与多场景功耗实测",
+          "product": "Cellular IoT Module",
+          "summary": "4G Cat.1 MQTT数据通道深度优化实战：①MQTT协议层KPI：QoS 0(至多一次,7ms)→QoS 1(至少一次,PUBACK确认,14ms)→QoS 2(恰好一次,四步握手25ms)→Clean Session持久化→Will Message遗嘱机制(断线自动通知,Connect时注册)→Retained Message(新订阅者自动获取最新状态)。②TCP KeepAlive vs MQTT PINGREQ双保险：TCP层KeepAlive(tcp_keepalive_time 120s→tcp_keepalive_intvl 30s→tcp_keepalive_probes 3次,总检测=120+30×3=210s)→MQTT层PINGREQ(keepalive_interval 60-300s,运营商NAT超时通常120s,建议设60s)→自适应心跳策略(网络质量RSSI>-85dBm→加大间隔省电,RSSI<-95dBm→缩短间隔防断连)。③多场景功耗实测数据(安信可Cat.1模组,3.8V供电,26°C室温)：idle(RRC-IDLE+DRX 1.28s)→1.2mA；PSM(仅32.768kHz RTC)→5μA；eDRX(eDRX周期20.48s,寻呼窗口PTW 2.56s)→0.15mA；MQTT PINGREQ每60s→平均1.8mA；MQTT数据上报(1KB/min)→平均15mA；VoLTE通话→平均180mA；峰值(TX 23dBm)→620mA。④AT指令实战链路：AT+CPIN→AT+CGATT=1→AT+CSTT(APN)→AT+CIICR→AT+CIFSR(获取IP)→AT+MQTTCONN(ClientID/Broker/Port/User/Pass)→AT+MQTTSUB(topic,QoS)→AT+MQTTPUB(topic,payload,QoS,retain)→AT+MQTTCONN?→AT+CIPSHUT(优雅断开PDP)。⑤TCP重连风暴防御：指数退避(1s→2s→4s→8s→16s→最大60s)+随机抖动±25%+PDP重新激活(AT+CGACT=0,1)→MQTT Broker选型(EMQX/ThingsBoard/阿里云IoT,连接数/throughput对比)。⑥一体化模组方案：Cat.1内嵌MQTT SDK(无需外挂MCU)→OpenCPU开发节省BOM→单模组完成定位(AT+CGNSSINFO)+数据上报+远程OTA一条龙。",
+          "persona": "IoT数据通道架构师 · 蜂窝模组低功耗优化工程师 · 共享设备/车联网/远程监测产品开发者",
+          "tags": [
+            "4G Cat.1",
+            "MQTT",
+            "TCP KeepAlive",
+            "功耗实测",
+            "AT指令",
+            "PINGREQ",
+            "OpenCPU",
+            "OTA",
+            "eDRX",
+            "蜂窝模组"
+          ],
+          "url": "https://docs.ai-thinker.com/cellular/"
         }
       ],
       "external": [
@@ -1294,6 +1332,45 @@
           "post": "Adiuvo Engineering的Forgix板将RP2354(Arm Cortex-M33+RISC-V Hazard3双架构可选)+Efinix Trion T8 FPGA组合到Teensy 4.0尺寸中，16 Mbit PSRAM+2MB Flash，$50定价。这种MCU+FPGA异构计算架构对IoT模组行业的意义：边缘IoT正在从单纯的通信管道(WiFi/BLE/LoRa/4G)向'连接+计算'二合一演进。FPGA在信号预处理(FFT/滤波)、协议加速(自定义MAC)、实时控制等场景中，可以与蜂窝模组的MQTT数据通道形成互补——模组负责云连接，FPGA负责本地数据流加速。",
           "url": "https://www.cnx-software.com/2026/07/14/50-forgix-board-pairs-raspberry-pi-rp2354-mcu-with-trion-t8-fpga-in-teensy-form-factor/",
           "date": "2026-07-14"
+        },
+        {
+          "title": "LILYGO T-Echo Card: Weatherproof Solar-Powered nRF52840 LoRa + GPS Development Kit for Off-Grid Asset Tracking",
+          "source": "CNX Software",
+          "product": "IoT Module",
+          "score": 90,
+          "tags": [
+            "nRF52840",
+            "LoRa",
+            "GPS",
+            "太阳能",
+            "资产追踪",
+            "Meshtastic",
+            "离网通信"
+          ],
+          "summary": "LILYGO T-Echo Card 是一款基于 Nordic nRF52840 + Semtech SX1262 LoRa 的防水太阳能开发套件，集成 GNSS(L76K)、9轴IMU、OLED屏、数字麦克风和扬声器，支持离网文本/语音通信和资产追踪。",
+          "hook": "太阳能+LoRa+GPS三合一——LILYGO这张信用卡大小的防水开发板，把离网资产追踪的门槛降到了零。",
+          "post": "LILYGO T-Echo Card 将 nRF52840(ARM Cortex-M4F,Bluetooth 5/NFC/Zigbee/Thread)+SX1262 LoRa+GNSS+太阳能充电集成到一张薄型开发板上，内置800mAh电池和磁吸USB接口。支持 LoRaWAN 和 Meshtastic 开源 mesh 协议，可实现无蜂窝网络覆盖下的文本/语音通信和位置共享。对安信可 4G Cat.1+GPS 资产追踪方案来说，T-Echo Card 展示了在无蜂窝信号区域的 LoRa mesh 补充方案——Cat.1 做广域回传+GNSS 定位，LoRa 做末梢 mesh 扩展，两者互补构成全场景资产追踪覆盖。",
+          "url": "https://www.cnx-software.com/2026/08/08/lilygo-t-echo-card-a-weatherproof-solar-powered-nrf52840-based-lora-gps-development-kit/",
+          "date": "2026-08-08"
+        },
+        {
+          "title": "Antmicro Open-Source Hardware Thunderbolt to Dual 10GbE Adapter for Smart IoT Gateways",
+          "source": "CNX Software",
+          "product": "IoT Industry",
+          "score": 82,
+          "tags": [
+            "开源硬件",
+            "Thunderbolt",
+            "10GbE",
+            "IoT网关",
+            "边缘计算",
+            "KiCad"
+          ],
+          "summary": "Antmicro 发布开源硬件 Thunderbolt 3 转双 10GbE 适配器(KiCad 设计)，Intel JHL6340+X710-AT2 方案，适用于智能终端、IoT 网关和边缘计算场景的高速有线回传。",
+          "hook": "Thunderbolt转双万兆——Antmicro 把 IoT 网关的高速有线回传方案开源了，KiCad 图纸随便拿。",
+          "post": "Antmicro 以开源硬件形式发布 Thunderbolt 3→双 10GbE 适配器，采用 Intel JHL6340 Thunderbolt 3 控制器(PCIe Gen3 x4)+X710-AT2 双 10GbE MAC，110×70mm 紧凑尺寸支持被动散热。对安信可工业 IoT 网关方案来说，这是有线回传链路的「顶配」参考设计——网关侧通过 Thunderbolt 高速接入边缘计算主机，无线侧用 4G Cat.1/WiFi/LoRa/NB-IoT 采集传感器节点数据。开源 KiCad 设计文件意味着客户可基于此定制自己的网关底板，缩短从原型到量产的时间。",
+          "url": "https://www.cnx-software.com/2026/08/06/antmicro-releases-open-source-hardware-thunderbolt-to-dual-10gbe-adapter/",
+          "date": "2026-08-06"
         }
       ]
     },
