@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T02:58:32.051Z",
+  "generatedAt": "2026-08-09T03:06:04.350Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,32 +7,6 @@
     "IoT Tech News"
   ],
   "topics": [
-    {
-      "title": "LoRaWAN solution content worth tracking",
-      "source": "RAKwireless",
-      "product": "LoRa Module",
-      "score": 95,
-      "formats": [
-        "LinkedIn Post",
-        "Carousel",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "LoRa",
-        "LoRaWAN",
-        "Gateway"
-      ],
-      "value": "Useful for explaining complete LoRaWAN solutions to B2B users, including modules, gateways, sensor nodes, and cloud workflows.",
-      "summary": "Track how LoRaWAN brands turn hardware into complete deployment stories.",
-      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
-      "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
-      "url": "https://www.linkedin.com/company/rakwireless/",
-      "date": "2026-08-08"
-    },
     {
       "title": "ESP32 developer ecosystem angle",
       "source": "Espressif Systems",
@@ -58,7 +32,7 @@
       "hook": "A small module can shape the whole connected product experience.",
       "post": "ESP32 content works best when it connects the module to a real device workflow: connectivity, control, UI, sensing, and deployment.",
       "url": "https://www.linkedin.com/company/espressif-systems",
-      "date": "2026-08-08"
+      "date": "2026-08-09"
     },
     {
       "title": "Matter and smart-home compatibility story",
@@ -84,7 +58,7 @@
       "hook": "Smart home buyers are no longer asking only for connectivity. They want compatibility.",
       "post": "For smart-home devices, wireless modules become more valuable when they reduce integration risk and help products fit into existing ecosystems.",
       "url": "https://www.home-assistant.io/",
-      "date": "2026-08-08"
+      "date": "2026-08-09"
     },
     {
       "title": "Radar sensing for privacy-friendly presence detection",
@@ -112,7 +86,62 @@
       "hook": "Not every sensing solution needs a camera.",
       "post": "Radar sensing can be explained through practical spaces: bathroom, bedroom, entryway, or care facility. Start with the pain point, then explain why camera-free sensing matters.",
       "url": "",
-      "date": "2026-08-08"
+      "date": "2026-08-09"
+    },
+    {
+      "title": "LoRaWAN solution content worth tracking",
+      "source": "RAKwireless",
+      "product": "LoRa Module",
+      "score": 95,
+      "formats": [
+        "LinkedIn Post",
+        "Carousel",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "LoRa",
+        "LoRaWAN",
+        "Gateway"
+      ],
+      "value": "Useful for explaining complete LoRaWAN solutions to B2B users, including modules, gateways, sensor nodes, and cloud workflows.",
+      "summary": "Track how LoRaWAN brands turn hardware into complete deployment stories.",
+      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
+      "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
+      "url": "https://www.linkedin.com/company/rakwireless/",
+      "date": "2026-08-09"
+    },
+    {
+      "title": "LILYGO T-Echo Card – A weatherproof, solar-powered, nRF52840-based LoRa + GPS development kit",
+      "source": "CNX Software",
+      "date": "2026-08-08",
+      "product": "LoRa Module",
+      "score": 93,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "LoRa",
+        "LPWAN",
+        "Smart City"
+      ],
+      "value": "Useful for turning current industry news into content about smart city, utility metering, asset tracking, and low-power wide-area IoT scenarios.",
+      "summary": "LILYGO T-Echo Card is a thin development kit based on Nordic Semi nRF52840 wireless MCU and a Semtech SX1262 LoRa transceiver with a solar panel for charging an 800 mAh battery. It supports Bluetooth 5, NFC, Bluetooth Mesh, ANT, 802.15.4 (Zigbee/Thread),...",
+      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
+      "post": "LILYGO T-Echo Card – A weatherproof, solar-powered, nRF52840-based LoRa + GPS development kit\n\nThis is a useful signal for IoT brands and product teams watching LoRa Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/08/08/lilygo-t-echo-card-a-weatherproof-solar-powered-nrf52840-based-lora-gps-development-kit/"
     },
     {
       "title": "Proxmox VE now officially supports 64-bit Arm (Aarch64) targets",
@@ -2602,35 +2631,6 @@
       "post": "Geniatech XPI-3576-CM5将WiFi 6+BLE 5.3与6 TOPS NPU AI算力整合到45×40mm封装中。对安信可的启示：IoT模组正从通信管道向通信+边缘算力融合演进——未来的Combo-AT固件体系若能集成边缘AI推理指令，将把AT固件从通信工具升级为AIoT设备统一管理平台。",
       "url": "https://www.cnx-software.com/2026/07/20/geniatech-xpi-3576-cm5-a-raspberry-pi-cm5-compatible-rockchip-rk3576-ai-compute-module-with-wifi-6-bluetooth-5-3/",
       "date": "2026-07-20"
-    },
-    {
-      "title": "Geniatech XPI-3576-CM5 – A Raspberry Pi CM5-compatible Rockchip RK3576 AI Compute Module with WiFi 6, Bluetooth 5.3",
-      "source": "CNX Software",
-      "date": "2026-07-20",
-      "product": "BLE Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Geniatech XPI-3576-CM5 is a Rockchip RK3576 octa-core Arm Cortex-A72/A53 system-on-module based on the Raspberry Pi CM4/CM5 form factor with up to 16GB LPDDR5 and 128GB eMMC flash. The module also features a RealTek RTL8211F Gigabit Ethernet controller, an...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Geniatech XPI-3576-CM5 – A Raspberry Pi CM5-compatible Rockchip RK3576 AI Compute Module with WiFi 6, Bluetooth 5.3\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/07/20/geniatech-xpi-3576-cm5-a-raspberry-pi-cm5-compatible-rockchip-rk3576-ai-compute-module-with-wifi-6-bluetooth-5-3/"
     }
   ]
 }
