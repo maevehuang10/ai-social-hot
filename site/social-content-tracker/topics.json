@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T03:06:04.350Z",
+  "generatedAt": "2026-08-09T15:55:00.000Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,36 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "Aliensense NXS plug-and-play GMSL 2/3 + CAN-FD robot sensor board",
+      "source": "CNX Software",
+      "product": "IoT Module",
+      "score": 86,
+      "formats": ["LinkedIn Post", "Carousel", "Short Video"],
+      "platforms": ["LinkedIn", "Facebook", "YouTube"],
+      "tags": ["GMSL", "CAN-FD", "机器人感知", "工业IoT", "STM32", "传感器"],
+      "value": "Shows modular sensor architecture for industrial robots — plug-and-play GMSL cameras + CAN-FD sensors in a 40x30mm board.",
+      "summary": "Aliensense NXS: STM32G491 + MAX96793 GMSL 2/3 serializer, single coax cable for power+video+sensor data up to 15m, mikroBUS expansion for 2000+ Click sensors, ROS 2 + OpenCyphal support.",
+      "hook": "One coax cable handles camera, sensors, and power — this 40x30mm board shrinks robot perception into a tiny aluminum case.",
+      "post": "Aliensense NXS packs GMSL 2/3 high-speed serial link (MAX96793) + CAN-FD fieldbus + STM32G491 MCU into a 40×30×28mm aluminum housing. With mikroBUS expansion for 2000+ sensor types and ROS 2 + OpenCyphal middleware, it enables plug-and-play robot perception. For Ai-Thinker industrial IoT modules, NXS demonstrates where modular sensor architecture is heading — future industrial IoT gateways can unify sensors (vision/IMU/environmental) over GMSL/CAN-FD buses, then backhaul to cloud via 4G Cat.1/LoRa/WiFi modules, creating a complete 'sense → process → connect' three-layer architecture. At $199 pre-order, the barrier to prototyping industrial robot perception just dropped significantly.",
+      "url": "https://www.cnx-software.com/2026/08/03/aliensense-nxs-plug-and-play-gmsl-2-3-and-can-fd-sensor-board-for-robots/",
+      "date": "2026-08-03"
+    },
+    {
+      "title": "Seeed Studio reComputer Mini J501 Jetson AGX Orin edge AI for industrial robotics",
+      "source": "CNX Software",
+      "product": "IoT Industry",
+      "score": 88,
+      "formats": ["LinkedIn Post", "Carousel", "Short Video"],
+      "platforms": ["LinkedIn", "Facebook", "YouTube"],
+      "tags": ["边缘AI", "Jetson", "AGX Orin", "GMSL2", "机器人", "工业视觉"],
+      "value": "275 TOPS edge AI with 8x GMSL2 cameras shows the top-tier architecture for industrial robot perception and autonomous navigation.",
+      "summary": "Seeed Studio reComputer Mini J501: NVIDIA Jetson AGX Orin (200-275 TOPS), 8x GMSL2 cameras via 2x FAKRA, 10GbE+GbE dual Ethernet, CAN-FD, RS485. Price from $2,399 (early bird).",
+      "hook": "275 TOPS Jetson AGX Orin in a palm-sized industrial box — 8 GMSL2 cameras + 10GbE + CAN-FD, the 'super brain' for robot edge AI.",
+      "post": "Seeed Studio reComputer Mini J501 packs NVIDIA Jetson AGX Orin (up to 12-core Cortex-A78AE + 2048 CUDA + 64 Tensor Cores, 275 TOPS) into a 119×119×100mm industrial embedded PC. Key features: 8x GMSL2 camera inputs (MAX96712 deserializer) → 2x CAN-FD + RS485 industrial buses → 10GbE + GbE dual Ethernet → 128GB NVMe SSD. For Ai-Thinker industrial IoT gateway solutions, the J501 illustrates the top-layer architecture for edge AI in industrial settings — GPU handles sensor fusion and AI inference, wired buses (CAN/RS485/10GbE) connect field devices, and wireless (4G Cat.1/WiFi/LoRa/NB-IoT) handles telemetry and cloud sync. Ai-Thinker cellular/WiFi/LoRa modules serve as the 'edge AI → cloud' data bridge in this architecture, pushing inference results and anomaly events in real time. Starting at $2,399 early bird, industrial-grade edge AI deployment just became significantly more accessible.",
+      "url": "https://www.cnx-software.com/2026/08/04/recomputer-mini-j501-edge-ai-computer-features-nvidia-jetson-agx-orin-64gb-32gb-module-two-fakra-camera-connectors/",
+      "date": "2026-08-04"
+    },
     {
       "title": "ESP32 developer ecosystem angle",
       "source": "Espressif Systems",

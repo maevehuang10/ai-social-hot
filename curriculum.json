@@ -1375,6 +1375,55 @@
       ]
     },
     {
+      "id": 11,
+      "title": "GPS/GNSS RTK",
+      "covered": true,
+      "official": [
+        {
+          "title": "GPS/GNSS RTK高精度差分定位原理与安信可模组组网实战",
+          "product": "GNSS Module",
+          "summary": "RTK(Real-Time Kinematic)厘米级差分定位技术深度解析：①载波相位差分vs伪距单点定位→RTK精度从米级跃升至厘米级的核心原理。②RTCM 3.x差分改正电文协议架构(1004/1006/1008/1033消息类型)→基准站→流动站(NTRIP Caster中转)实时改正数传输链路→收敛时间<30s,定位精度±2cm+1ppm。③安信可GNSS模组矩阵：单频L1模组(米级)→双频L1+L2/L5模组(亚米级)→RTK模组(厘米级)。④RTK部署实战：基准站选址(开阔天空、无多径、稳定电源)+4G Cat.1/NTRIP回传+流动站低功耗设计。⑤北斗三号B1C/B2a新信号与GPS L1C/L5联合定位→多星座融合提升RTK可用性(Fix率从85%→98%)。⑥典型应用：无人机精准降落(±5cm)→精准农业自动驾驶(±2.5cm)→测绘GIS采集器→工程机械自动引导。",
+          "persona": "高精度定位方案工程师 · 无人机/精准农业/测绘产品经理 · GNSS算法开发者",
+          "tags": ["GPS", "GNSS", "RTK", "差分定位", "NTRIP", "RTCM", "厘米级定位", "载波相位", "北斗", "安信可GNSS"],
+          "url": "https://docs.ai-thinker.com/gnss/"
+        },
+        {
+          "title": "NMEA协议全解析与GNSS模组低功耗工程优化实战",
+          "product": "GNSS Module",
+          "summary": "NMEA 0183协议深度解析与GNSS模组低功耗优化全链路：①NMEA核心语句：$GPGGA(定位信息,经纬度+高程+HDOP)→$GPRMC(推荐最小数据,时间+速度+航向+日期)→$GPVTG(对地速度与航向)→$GPGSA(精度因子,DOP值)→$GPGSV(可见卫星,SNR+C/N0)→$GPGLL(地理位置)。②串口参数最优配置：波特率(9600/38400/115200bps)→更新率(1/5/10Hz,高动态场景选10Hz)→语句选择性输出(关闭非必要语句降低MCU解析开销50%)。③冷/温/热启动优化：冷启动(TTFF 30-35s,下载完整星历)→温启动(TTFF 10-15s,保留有效星历)→热启动(TTFF 1-2s,保留位置+时间+星历)→AGPS辅助(蜂窝网络预取星历,TTFF<5s)。④低功耗策略：Duty Cycling(1s定位+9s休眠,平均功耗<15mA)→Backup模式(RTC+BBRAM保持星历,唤醒TTFF<5s,待机<50μA)→Periodic模式(可配置间隔5s-18h)→Standby模式(<10μA)。⑤安信可GNSS模组AT指令链：AT+CGNSSPWR=1(上电)→AT+CGNSSINFO(获取定位)→AT+CGNSSPM(功耗模式)→AT+CGNSSCH(频段配置)→AT+CGNSSTTFF(启动模式)。⑥天线设计要点：有源陶瓷天线(25×25mm,增益15-30dB,NF<2dB)→LNA+SAW滤波器→50Ω阻抗匹配→接地平面≥50×50mm。⑦典型工程案例：GPS追踪器(5min上报,2000mAh续航>7天)→共享单车(1s上报,太阳能免维护)。",
+          "persona": "GNSS嵌入式开发工程师 · 低功耗IoT设备设计师 · 车队管理/资产追踪方案商",
+          "tags": ["GPS", "GNSS", "NMEA", "TTFF", "冷启动", "低功耗", "唤醒", "AT指令", "天线设计", "AGPS", "资产追踪"],
+          "url": "https://docs.ai-thinker.com/gnss/"
+        }
+      ],
+      "external": [
+        {
+          "title": "Aliensense NXS: Plug-and-Play GMSL 2/3 + CAN-FD Sensor Board for Robot Perception Systems",
+          "source": "CNX Software",
+          "product": "IoT Module",
+          "score": 86,
+          "tags": ["GMSL", "CAN-FD", "传感器", "机器人", "STM32", "工业IoT", "感知"],
+          "summary": "阿联酋Aliensense推出NXS即插即用机器人传感器板：STM32G491 Cortex-M4F MCU+MAX96793 GMSL 2/3串行器，单根同轴电缆可传输电源+视频+传感数据最远15m(通过CAN-FD可扩展至40m)。兼容MikroElektronika 2000+ Click生态传感器，支持ROS 2+OpenCyphal机器人中间件，工业温度范围-40°C~+85°C，预售价$199。",
+          "hook": "一根同轴电缆解决机器人的摄像头+传感器+供电——40×30mm的NXS板把工业机器人感知系统塞进了一个微型铝壳。",
+          "post": "Aliensense NXS将GMSL 2/3高速串行链路(MAX96793)+CAN-FD现场总线+STM32G491 MCU集成到铝合金外壳中，尺寸仅40×30×28mm。通过mikroBUS扩展接口可接入2000+种传感器，结合ROS 2+OpenCyphal中间件实现即插即用的机器人感知。对安信可工业IoT模组方案来说，NXS展示了模块化传感器架构的发展方向——未来工业IoT网关可通过GMSL/CAN-FD总线统一接入多种传感器(视觉/IMU/环境)，再通过4G Cat.1/LoRa/WiFi模组回传云端，构成完整的'感知→处理→连接'三层架构。$199预售价位的即用型传感器模块也降低了工业机器人感知系统原型的门槛。",
+          "url": "https://www.cnx-software.com/2026/08/03/aliensense-nxs-plug-and-play-gmsl-2-3-and-can-fd-sensor-board-for-robots/",
+          "date": "2026-08-03"
+        },
+        {
+          "title": "Seeed Studio reComputer Mini J501: Jetson AGX Orin Edge AI Computer with 8x GMSL2 Cameras for Industrial Robotics",
+          "source": "CNX Software",
+          "product": "IoT Industry",
+          "score": 88,
+          "tags": ["边缘AI", "Jetson", "AGX Orin", "GMSL2", "机器人", "工业视觉", "GPU"],
+          "summary": "Seeed Studio推出reComputer Mini J501工业边缘AI计算机，搭载NVIDIA Jetson AGX Orin(32GB/64GB,200-275 TOPS)，支持10GbE+GbE双网口、8路GMSL2相机(2×FAKRA)、CAN-FD、RS485。目标：人形机器人、AI视觉、多传感器融合自主导航、边缘生成式AI。早鸟价$2399起(32GB版)。",
+          "hook": "275 TOPS的Jetson AGX Orin塞进手掌大小的工业盒子——8路GMSL2相机+10GbE+CAN-FD，机器人边缘AI的'超级大脑'来了。",
+          "post": "Seeed Studio reComputer Mini J501将NVIDIA Jetson AGX Orin(最高12核Cortex-A78AE+2048 CUDA+64 Tensor Core,275 TOPS)集成到119×119×100mm的工业级嵌入式计算机中。关键特性：8路GMSL2相机输入(MAX96712解串器)→2路CAN-FD+RS485工业总线→10GbE+GbE双以太网→128GB NVMe SSD。对安信可工业IoT网关方案来说，J501展示了边缘AI在工业场景的顶层架构——GPU做传感器融合与AI推理，有线(CAN/RS485/10GbE)接入现场设备，无线(4G Cat.1/WiFi/LoRa/NB-IoT)做遥测和云端同步。安信可的蜂窝/WiFi/LoRa模组在这类架构中作为'边缘AI→云端'的数据桥梁，将推理结果和异常事件实时上报。$2399起的早鸟定价使工业级边缘AI部署门槛显著降低。",
+          "url": "https://www.cnx-software.com/2026/08/04/recomputer-mini-j501-edge-ai-computer-features-nvidia-jetson-agx-orin-64gb-32gb-module-two-fakra-camera-connectors/",
+          "date": "2026-08-04"
+        }
+      ]
+    },
+    {
       "id": 12,
       "title": "智能家居全场景模组选型",
       "covered": true,
