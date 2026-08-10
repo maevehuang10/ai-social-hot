@@ -2644,6 +2644,61 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Inside Agile Telco Q2 2026: What do agile telcos need to succeed in the AI supercycle?\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/07/21/157514-inside-agile-telco-q2-2026-what-do-agile-telcos-need-to-succeed-in-the-ai-supercycle/"
+    },
+    {
+      "title": "RAKwireless WisGate Connect Router RAK7392: CM4/CM5 Industrial IoT Gateway with 2.5GbE, LoRaWAN & WisBlock Expansion",
+      "source": "CNX Software",
+      "date": "2026-08-10",
+      "product": "IoT Module",
+      "score": 89,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "LoRaWAN",
+        "Gateway",
+        "Industrial IoT",
+        "Edge Computing",
+        "2.5GbE"
+      ],
+      "value": "Useful for content about industrial IoT gateways, LoRaWAN deployment, edge computing, and multi-protocol IoT architectures.",
+      "summary": "RAKwireless WisGate Connect Router RAK7392 is an industrial-grade edge router built around Raspberry Pi CM4/CM5, featuring 3x GbE + 1x 2.5GbE, mini PCIe wireless expansion, and WisBlock sensor connectors. Supports LoRaWAN packet forwarding, Modbus-to-MQTT conversion, edge computing, and VPN tunneling for complex industrial IoT deployments.",
+      "hook": "One board, one gateway—2.5GbE, LoRaWAN, and WisBlock sensors all in a single CM5-powered industrial router.",
+      "post": "RAKwireless WisGate Connect Router RAK7392: CM4/CM5 Industrial IoT Gateway with 2.5GbE, LoRaWAN & WisBlock Expansion\n\nThis is a useful signal for IoT brands and product teams watching Industrial IoT and Gateway opportunities.\n\nFor overseas social content, the story can focus on edge gateway architectures, multi-protocol integration, and how module-level wireless (WiFi/LoRa/Cellular) connects to cloud platforms through industrial-grade routers.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/08/10/raspberry-pi-cm4-cm5-based-wisgate-connect-router-rak7392-offers-2-5gbe-mini-pcie-and-wisblock-expansion/"
+    },
+    {
+      "title": "Comu: $6 CH32V203 RISC-V Micro Dev Board with Capacitive Touch, Fits Inside a USB Port",
+      "source": "CNX Software",
+      "date": "2026-08-10",
+      "product": "MCU",
+      "score": 82,
+      "formats": [
+        "LinkedIn Post",
+        "Short Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "RISC-V",
+        "MCU",
+        "Low Cost",
+        "Embedded",
+        "USB"
+      ],
+      "value": "Useful for content about RISC-V ecosystem growth, ultra-low-cost MCU trends, and embedded development accessibility.",
+      "summary": "Icy Electronics Comu is a $6 tiny development board based on WCH CH32V203 RISC-V MCU (144MHz, 20KB SRAM, 224KB Flash), measuring just 13×9.4mm—smaller than a microSD card. Plugs directly into a USB port with 2 LEDs, 4 capacitive touch buttons, and 6 GPIO test pads. Ideal for bare-metal programming, USB HID projects, and embedded experimentation.",
+      "hook": "$6 and smaller than a microSD—RISC-V just hit the sweet spot between price and accessibility.",
+      "post": "Comu: $6 CH32V203 RISC-V Micro Dev Board with Capacitive Touch, Fits Inside a USB Port\n\nThis is a useful signal for IoT brands and product teams watching MCU and RISC-V ecosystem opportunities.\n\nFor overseas social content, the story can focus on how RISC-V is democratizing embedded development at price points below traditional ARM MCUs, and how pairing ultra-low-cost RISC-V MCUs with wireless modules opens new possibilities for IoT sensor nodes.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/08/10/comu-6-tiny-ch32v203-risc-v-development-board-that-fits-inside-a-usb-port/"
     }
   ]
 }
