@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T15:55:00.000Z",
+  "generatedAt": "2026-08-10T03:16:55.415Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -8,34 +8,33 @@
   ],
   "topics": [
     {
-      "title": "Aliensense NXS plug-and-play GMSL 2/3 + CAN-FD robot sensor board",
+      "title": "Elecrow ThinkNode M9 – A standalone ESP32-S3 MeshCore communication terminal with color LCD, QWERTY keyboard",
       "source": "CNX Software",
-      "product": "IoT Module",
-      "score": 86,
-      "formats": ["LinkedIn Post", "Carousel", "Short Video"],
-      "platforms": ["LinkedIn", "Facebook", "YouTube"],
-      "tags": ["GMSL", "CAN-FD", "机器人感知", "工业IoT", "STM32", "传感器"],
-      "value": "Shows modular sensor architecture for industrial robots — plug-and-play GMSL cameras + CAN-FD sensors in a 40x30mm board.",
-      "summary": "Aliensense NXS: STM32G491 + MAX96793 GMSL 2/3 serializer, single coax cable for power+video+sensor data up to 15m, mikroBUS expansion for 2000+ Click sensors, ROS 2 + OpenCyphal support.",
-      "hook": "One coax cable handles camera, sensors, and power — this 40x30mm board shrinks robot perception into a tiny aluminum case.",
-      "post": "Aliensense NXS packs GMSL 2/3 high-speed serial link (MAX96793) + CAN-FD fieldbus + STM32G491 MCU into a 40×30×28mm aluminum housing. With mikroBUS expansion for 2000+ sensor types and ROS 2 + OpenCyphal middleware, it enables plug-and-play robot perception. For Ai-Thinker industrial IoT modules, NXS demonstrates where modular sensor architecture is heading — future industrial IoT gateways can unify sensors (vision/IMU/environmental) over GMSL/CAN-FD buses, then backhaul to cloud via 4G Cat.1/LoRa/WiFi modules, creating a complete 'sense → process → connect' three-layer architecture. At $199 pre-order, the barrier to prototyping industrial robot perception just dropped significantly.",
-      "url": "https://www.cnx-software.com/2026/08/03/aliensense-nxs-plug-and-play-gmsl-2-3-and-can-fd-sensor-board-for-robots/",
-      "date": "2026-08-03"
-    },
-    {
-      "title": "Seeed Studio reComputer Mini J501 Jetson AGX Orin edge AI for industrial robotics",
-      "source": "CNX Software",
-      "product": "IoT Industry",
-      "score": 88,
-      "formats": ["LinkedIn Post", "Carousel", "Short Video"],
-      "platforms": ["LinkedIn", "Facebook", "YouTube"],
-      "tags": ["边缘AI", "Jetson", "AGX Orin", "GMSL2", "机器人", "工业视觉"],
-      "value": "275 TOPS edge AI with 8x GMSL2 cameras shows the top-tier architecture for industrial robot perception and autonomous navigation.",
-      "summary": "Seeed Studio reComputer Mini J501: NVIDIA Jetson AGX Orin (200-275 TOPS), 8x GMSL2 cameras via 2x FAKRA, 10GbE+GbE dual Ethernet, CAN-FD, RS485. Price from $2,399 (early bird).",
-      "hook": "275 TOPS Jetson AGX Orin in a palm-sized industrial box — 8 GMSL2 cameras + 10GbE + CAN-FD, the 'super brain' for robot edge AI.",
-      "post": "Seeed Studio reComputer Mini J501 packs NVIDIA Jetson AGX Orin (up to 12-core Cortex-A78AE + 2048 CUDA + 64 Tensor Cores, 275 TOPS) into a 119×119×100mm industrial embedded PC. Key features: 8x GMSL2 camera inputs (MAX96712 deserializer) → 2x CAN-FD + RS485 industrial buses → 10GbE + GbE dual Ethernet → 128GB NVMe SSD. For Ai-Thinker industrial IoT gateway solutions, the J501 illustrates the top-layer architecture for edge AI in industrial settings — GPU handles sensor fusion and AI inference, wired buses (CAN/RS485/10GbE) connect field devices, and wireless (4G Cat.1/WiFi/LoRa/NB-IoT) handles telemetry and cloud sync. Ai-Thinker cellular/WiFi/LoRa modules serve as the 'edge AI → cloud' data bridge in this architecture, pushing inference results and anomaly events in real time. Starting at $2,399 early bird, industrial-grade edge AI deployment just became significantly more accessible.",
-      "url": "https://www.cnx-software.com/2026/08/04/recomputer-mini-j501-edge-ai-computer-features-nvidia-jetson-agx-orin-64gb-32gb-module-two-fakra-camera-connectors/",
-      "date": "2026-08-04"
+      "date": "2026-08-10",
+      "product": "LoRa Module",
+      "score": 92,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "LoRa",
+        "LPWAN",
+        "Smart City"
+      ],
+      "value": "Useful for turning current industry news into content about smart city, utility metering, asset tracking, and low-power wide-area IoT scenarios.",
+      "summary": "Elecrow ThinkNode M9 is a standalone LoRa terminal that runs MeshCore firmware and features a QWERTY keyboard, color display, GPS, LoRa connectivity, and a 2,300mAh battery, making it suitable for outdoor and emergency communication. The device is built...",
+      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
+      "post": "Elecrow ThinkNode M9 – A standalone ESP32-S3 MeshCore communication terminal with color LCD, QWERTY keyboard\n\nThis is a useful signal for IoT brands and product teams watching LoRa Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/08/10/elecrow-thinknode-m9-a-standalone-esp32-s3-meshcore-communication-terminal-with-color-lcd-qwerty-keyboard/"
     },
     {
       "title": "ESP32 developer ecosystem angle",
@@ -65,6 +64,32 @@
       "date": "2026-08-09"
     },
     {
+      "title": "LoRaWAN solution content worth tracking",
+      "source": "RAKwireless",
+      "product": "LoRa Module",
+      "score": 95,
+      "formats": [
+        "LinkedIn Post",
+        "Carousel",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "LoRa",
+        "LoRaWAN",
+        "Gateway"
+      ],
+      "value": "Useful for explaining complete LoRaWAN solutions to B2B users, including modules, gateways, sensor nodes, and cloud workflows.",
+      "summary": "Track how LoRaWAN brands turn hardware into complete deployment stories.",
+      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
+      "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
+      "url": "https://www.linkedin.com/company/rakwireless/",
+      "date": "2026-08-09"
+    },
+    {
       "title": "Matter and smart-home compatibility story",
       "source": "Home Assistant",
       "product": "WiFi Module",
@@ -89,6 +114,35 @@
       "post": "For smart-home devices, wireless modules become more valuable when they reduce integration risk and help products fit into existing ecosystems.",
       "url": "https://www.home-assistant.io/",
       "date": "2026-08-09"
+    },
+    {
+      "title": "MaTouch ESP32-S3 MaUWB board integrates 3.95-inch touchscreen and UWB module for indoor positioning and ranging",
+      "source": "CNX Software",
+      "date": "2026-08-09",
+      "product": "UWB Module",
+      "score": 92,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "UWB",
+        "RTLS",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about precise indoor positioning, factory tracking, logistics, and RTLS projects.",
+      "summary": "Makerfabs MaTouch ESP32-S3 MaUWB is a development board that combines an ESP32-S3 wireless MCU, a 3.95-inch touchscreen display, and a UWB module for indoor positioning and ranging applications. The board can be used as a portable positioning terminal. It...",
+      "hook": "When meter-level location is not enough, UWB becomes interesting.",
+      "post": "MaTouch ESP32-S3 MaUWB board integrates 3.95-inch touchscreen and UWB module for indoor positioning and ranging\n\nThis is a useful signal for IoT brands and product teams watching UWB Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/08/09/matouch-esp32-s3-mauwb-board-integrates-3-95-inch-touchscreen-and-uwb-module-for-indoor-positioning-and-ranging/"
     },
     {
       "title": "Radar sensing for privacy-friendly presence detection",
@@ -119,13 +173,13 @@
       "date": "2026-08-09"
     },
     {
-      "title": "LoRaWAN solution content worth tracking",
-      "source": "RAKwireless",
-      "product": "LoRa Module",
-      "score": 95,
+      "title": "Podcast: The New Reality of Connected Infrastructure: Continuous Connectivity in an Unpredictable World",
+      "source": "IoT Now",
+      "date": "2026-08-09",
+      "product": "BLE Module",
+      "score": 85,
       "formats": [
         "LinkedIn Post",
-        "Carousel",
         "Sales Material"
       ],
       "platforms": [
@@ -133,16 +187,15 @@
         "Facebook"
       ],
       "tags": [
-        "LoRa",
-        "LoRaWAN",
-        "Gateway"
+        "BLE",
+        "Bluetooth",
+        "Positioning"
       ],
-      "value": "Useful for explaining complete LoRaWAN solutions to B2B users, including modules, gateways, sensor nodes, and cloud workflows.",
-      "summary": "Track how LoRaWAN brands turn hardware into complete deployment stories.",
-      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
-      "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
-      "url": "https://www.linkedin.com/company/rakwireless/",
-      "date": "2026-08-09"
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Exploring how resilient connectivity is transforming critical infrastructure, industrial IoT, and remote operations. As organisations become increasingly reliant on connected infrastructure, maintaining continuous connectivity is no longer just an operational...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Podcast: The New Reality of Connected Infrastructure: Continuous Connectivity in an Unpredictable World\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/08/10/157778-podcast-the-new-reality-of-connected-infrastructure-continuous-connectivity-in-an-unpredictable-world/"
     },
     {
       "title": "LILYGO T-Echo Card – A weatherproof, solar-powered, nRF52840-based LoRa + GPS development kit",
@@ -681,6 +734,36 @@
       "url": "https://www.cnx-software.com/2026/08/04/espressif-esp32-c61-mini-1-1u-wi-fi-6-and-ble-iot-module-2-dollars/"
     },
     {
+      "title": "Seeed Studio reComputer Mini J501 Jetson AGX Orin edge AI for industrial robotics",
+      "source": "CNX Software",
+      "product": "IoT Industry",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Carousel",
+        "Short Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "YouTube"
+      ],
+      "tags": [
+        "边缘AI",
+        "Jetson",
+        "AGX Orin",
+        "GMSL2",
+        "机器人",
+        "工业视觉"
+      ],
+      "value": "275 TOPS edge AI with 8x GMSL2 cameras shows the top-tier architecture for industrial robot perception and autonomous navigation.",
+      "summary": "Seeed Studio reComputer Mini J501: NVIDIA Jetson AGX Orin (200-275 TOPS), 8x GMSL2 cameras via 2x FAKRA, 10GbE+GbE dual Ethernet, CAN-FD, RS485. Price from $2,399 (early bird).",
+      "hook": "275 TOPS Jetson AGX Orin in a palm-sized industrial box — 8 GMSL2 cameras + 10GbE + CAN-FD, the 'super brain' for robot edge AI.",
+      "post": "Seeed Studio reComputer Mini J501 packs NVIDIA Jetson AGX Orin (up to 12-core Cortex-A78AE + 2048 CUDA + 64 Tensor Cores, 275 TOPS) into a 119×119×100mm industrial embedded PC. Key features: 8x GMSL2 camera inputs (MAX96712 deserializer) → 2x CAN-FD + RS485 industrial buses → 10GbE + GbE dual Ethernet → 128GB NVMe SSD. For Ai-Thinker industrial IoT gateway solutions, the J501 illustrates the top-layer architecture for edge AI in industrial settings — GPU handles sensor fusion and AI inference, wired buses (CAN/RS485/10GbE) connect field devices, and wireless (4G Cat.1/WiFi/LoRa/NB-IoT) handles telemetry and cloud sync. Ai-Thinker cellular/WiFi/LoRa modules serve as the 'edge AI → cloud' data bridge in this architecture, pushing inference results and anomaly events in real time. Starting at $2,399 early bird, industrial-grade edge AI deployment just became significantly more accessible.",
+      "url": "https://www.cnx-software.com/2026/08/04/recomputer-mini-j501-edge-ai-computer-features-nvidia-jetson-agx-orin-64gb-32gb-module-two-fakra-camera-connectors/",
+      "date": "2026-08-04"
+    },
+    {
       "title": "reComputer Mini J501 Edge AI computer features NVIDIA Jetson AGX Orin 64GB/32GB module, two FAKRA camera connectors",
       "source": "CNX Software",
       "date": "2026-08-04",
@@ -908,6 +991,36 @@
       "hook": "A small module can shape the whole connected product experience.",
       "post": "$299.99 ASUS UGen300 USB AI accelerator combines 40 TOPS Hailo-10H chip with 8GB LPDDR4\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/08/03/299-99-asus-ugen300-usb-ai-accelerator-hailo-10h-8gb-lpddr4/"
+    },
+    {
+      "title": "Aliensense NXS plug-and-play GMSL 2/3 + CAN-FD robot sensor board",
+      "source": "CNX Software",
+      "product": "IoT Module",
+      "score": 86,
+      "formats": [
+        "LinkedIn Post",
+        "Carousel",
+        "Short Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "YouTube"
+      ],
+      "tags": [
+        "GMSL",
+        "CAN-FD",
+        "机器人感知",
+        "工业IoT",
+        "STM32",
+        "传感器"
+      ],
+      "value": "Shows modular sensor architecture for industrial robots — plug-and-play GMSL cameras + CAN-FD sensors in a 40x30mm board.",
+      "summary": "Aliensense NXS: STM32G491 + MAX96793 GMSL 2/3 serializer, single coax cable for power+video+sensor data up to 15m, mikroBUS expansion for 2000+ Click sensors, ROS 2 + OpenCyphal support.",
+      "hook": "One coax cable handles camera, sensors, and power — this 40x30mm board shrinks robot perception into a tiny aluminum case.",
+      "post": "Aliensense NXS packs GMSL 2/3 high-speed serial link (MAX96793) + CAN-FD fieldbus + STM32G491 MCU into a 40×30×28mm aluminum housing. With mikroBUS expansion for 2000+ sensor types and ROS 2 + OpenCyphal middleware, it enables plug-and-play robot perception. For Ai-Thinker industrial IoT modules, NXS demonstrates where modular sensor architecture is heading — future industrial IoT gateways can unify sensors (vision/IMU/environmental) over GMSL/CAN-FD buses, then backhaul to cloud via 4G Cat.1/LoRa/WiFi modules, creating a complete 'sense → process → connect' three-layer architecture. At $199 pre-order, the barrier to prototyping industrial robot perception just dropped significantly.",
+      "url": "https://www.cnx-software.com/2026/08/03/aliensense-nxs-plug-and-play-gmsl-2-3-and-can-fd-sensor-board-for-robots/",
+      "date": "2026-08-03"
     },
     {
       "title": "The one security layer the IT acquisition wave keeps missing",
@@ -2531,136 +2644,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Inside Agile Telco Q2 2026: What do agile telcos need to succeed in the AI supercycle?\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/07/21/157514-inside-agile-telco-q2-2026-what-do-agile-telcos-need-to-succeed-in-the-ai-supercycle/"
-    },
-    {
-      "title": "ART-Pi II development board features 600 MHz STM32H7R7 Cortex-M7 MCU with NeoChrom GPU",
-      "source": "CNX Software",
-      "date": "2026-07-21",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "The 600 MHz STM32H7R/S Cortex-M7 microcontroller family with an optional NeoChrom 2.5D GPU and up to 640 KB SRAM and 64 KB flash was introduced in 2024. However, apart from ST’s own development boards such as the NUCLEO-H7S3L8 and STM32H7S78-DK, we hadn’t...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "ART-Pi II development board features 600 MHz STM32H7R7 Cortex-M7 MCU with NeoChrom GPU\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/07/21/art-pi-ii-development-board-features-600-mhz-stm32h7r7-cortex-m7-mcu-with-neochrom-gpu/"
-    },
-    {
-      "title": "Anthropic and Nozomi bring AI vulnerability research to OT security",
-      "source": "IoT Tech News",
-      "date": "2026-07-21",
-      "product": "IoT Industry",
-      "score": 74,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "IoT",
-        "Industry Trend",
-        "Wireless Technology"
-      ],
-      "value": "Useful for turning current industry news into content about market education, B2B trend posts, sales context, and social content planning.",
-      "summary": "Nozomi Networks has joined Anthropic’s Project Glasswing, an initiative using artificial intelligence to identify software vulnerabilities in critical infrastructure and connected systems. The company will contribute expertise in operational technology, the...",
-      "hook": "Good IoT content starts with useful market context.",
-      "post": "Anthropic and Nozomi bring AI vulnerability research to OT security\n\nThis is a useful signal for IoT brands and product teams watching IoT Industry opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
-      "url": "https://iottechnews.com/news/anthropic-ai-vulnerability-research-ot-security-nozomi-networks/"
-    },
-    {
-      "title": "Globalscale Case8 – A MediaTek Genio 520/720 cyberdeck for gaming, home automation, and education (Crowdfunding)",
-      "source": "CNX Software",
-      "date": "2026-07-20",
-      "product": "BLE Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Globalscale Technologies has launched the Case8 series of open-source cyberdeck-style computing platforms based on MediaTek Genio 520 and Genio 720 processors. The platform is offered in hacker (PCBA only), gaming, home automation, and education variants. The...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Globalscale Case8 – A MediaTek Genio 520/720 cyberdeck for gaming, home automation, and education (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/07/20/globalscale-case8-mediatek-genio-520-720-cyberdeck-for-gaming-home-automation-and-education/"
-    },
-    {
-      "title": "Factory floor exposure grows as OT security spending climbs",
-      "source": "IoT Tech News",
-      "date": "2026-07-20",
-      "product": "BLE Module",
-      "score": 89,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Manufacturing cybersecurity spending is climbing fast, and the growth is exposing weak factory floor operational technology (OT). Anyone running production plants are stuck with a decision that doesn’t have a comfortable answer: keep OT isolated and accept...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Factory floor exposure grows as OT security spending climbs\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
-      "url": "https://iottechnews.com/news/factory-floor-exposure-grows-as-ot-security-spending-climbs/"
-    },
-    {
-      "title": "Geniatech XPI-3576-CM5: RK3576 AI module with WiFi 6 + BLE 5.3 in CM5 form factor",
-      "source": "CNX Software",
-      "product": "WiFi Module",
-      "score": 88,
-      "tags": [
-        "WiFi 6",
-        "BLE 5.3",
-        "RK3576",
-        "NPU",
-        "边缘AI",
-        "CM5"
-      ],
-      "summary": "Geniatech推出兼容Raspberry Pi CM5的XPI-3576-CM5系统模块，集成RK3576（6 TOPS NPU）、WiFi 6和BLE 5.3，面向边缘AI和工业IoT应用。",
-      "hook": "6 TOPS AI算力+WiFi 6+BLE 5.3，封装在CM5尺寸里——边缘AI模组正在把推理和连接塞进同一个芯片。",
-      "post": "Geniatech XPI-3576-CM5将WiFi 6+BLE 5.3与6 TOPS NPU AI算力整合到45×40mm封装中。对安信可的启示：IoT模组正从通信管道向通信+边缘算力融合演进——未来的Combo-AT固件体系若能集成边缘AI推理指令，将把AT固件从通信工具升级为AIoT设备统一管理平台。",
-      "url": "https://www.cnx-software.com/2026/07/20/geniatech-xpi-3576-cm5-a-raspberry-pi-cm5-compatible-rockchip-rk3576-ai-compute-module-with-wifi-6-bluetooth-5-3/",
-      "date": "2026-07-20"
     }
   ]
 }
