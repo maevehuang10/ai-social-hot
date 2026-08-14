@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T03:31:19.094Z",
+  "generatedAt": "2026-08-14T03:28:40.018Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,33 +7,6 @@
     "IoT Tech News"
   ],
   "topics": [
-    {
-      "title": "ESP32 developer ecosystem angle",
-      "source": "Espressif Systems",
-      "product": "ESP32 Module",
-      "score": 96,
-      "formats": [
-        "LinkedIn Post",
-        "Carousel",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "YouTube"
-      ],
-      "tags": [
-        "ESP32",
-        "Embedded Development",
-        "Smart Device"
-      ],
-      "value": "Useful for explaining how ESP32 modules support smart devices, control panels, gateways, and rapid prototyping.",
-      "summary": "ESP32 ecosystem content is useful when it turns chip capability into developer workflows and visible demos.",
-      "hook": "A small module can shape the whole connected product experience.",
-      "post": "ESP32 content works best when it connects the module to a real device workflow: connectivity, control, UI, sensing, and deployment.",
-      "url": "https://www.linkedin.com/company/espressif-systems",
-      "date": "2026-08-13"
-    },
     {
       "title": "Matter and smart-home compatibility story",
       "source": "Home Assistant",
@@ -58,7 +31,7 @@
       "hook": "Smart home buyers are no longer asking only for connectivity. They want compatibility.",
       "post": "For smart-home devices, wireless modules become more valuable when they reduce integration risk and help products fit into existing ecosystems.",
       "url": "https://www.home-assistant.io/",
-      "date": "2026-08-13"
+      "date": "2026-08-14"
     },
     {
       "title": "Radar sensing for privacy-friendly presence detection",
@@ -86,7 +59,7 @@
       "hook": "Not every sensing solution needs a camera.",
       "post": "Radar sensing can be explained through practical spaces: bathroom, bedroom, entryway, or care facility. Start with the pain point, then explain why camera-free sensing matters.",
       "url": "",
-      "date": "2026-08-13"
+      "date": "2026-08-14"
     },
     {
       "title": "LoRaWAN solution content worth tracking",
@@ -112,7 +85,135 @@
       "hook": "Some IoT projects need years of battery life, not more bandwidth.",
       "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
       "url": "https://www.linkedin.com/company/rakwireless/",
-      "date": "2026-08-13"
+      "date": "2026-08-14"
+    },
+    {
+      "title": "ESP32 developer ecosystem angle",
+      "source": "Espressif Systems",
+      "product": "ESP32 Module",
+      "score": 96,
+      "formats": [
+        "LinkedIn Post",
+        "Carousel",
+        "Short Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "YouTube"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for explaining how ESP32 modules support smart devices, control panels, gateways, and rapid prototyping.",
+      "summary": "ESP32 ecosystem content is useful when it turns chip capability into developer workflows and visible demos.",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "ESP32 content works best when it connects the module to a real device workflow: connectivity, control, UI, sensing, and deployment.",
+      "url": "https://www.linkedin.com/company/espressif-systems",
+      "date": "2026-08-14"
+    },
+    {
+      "title": "WCH CH32V407/467 RISC-V MCU integrates Fast Ethernet MAC + PHY, 480 Mbps USB 2.0 PHY, up to 8 MB on-chip PSRAM",
+      "source": "CNX Software",
+      "date": "2026-08-13",
+      "product": "BLE Module",
+      "score": 93,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "WCH CH32V407 and CH32V467 are new 200 MHz RISC-V microcontrollers with a built-in 10/100 Mbps Ethernet MAC + PHY, a USB 2.0 high-speed (480 Mbps) host PHY, up to 8 MB on-chip PSRAM, and a range of peripherals for industrial IoT & edge AI applications. Both...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "WCH CH32V407/467 RISC-V MCU integrates Fast Ethernet MAC + PHY, 480 Mbps USB 2.0 PHY, up to 8 MB on-chip PSRAM\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/08/13/wch-ch32v407-467-risc-v-mcu-integrates-fast-ethernet-mac-phy-480-mbps-usb-2-0-phy-up-to-8-mb-on-chip-psram/"
+    },
+    {
+      "title": "AAEON PICO-ADN2 – A low-profile Alder Lake-N Pico-ITX SBC for space-constrained applications",
+      "source": "CNX Software",
+      "date": "2026-08-13",
+      "product": "ESP32 Module",
+      "score": 91,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "AAEON PICO-ADN2 is a low-profile Alder Lake-N Pico-ITX SBC powered by an Intel N97 or Core i3-N305 SoC and designed for space-constrained transportation, digital signage, industrial automation, and smart kiosk applications. Its features are very similar to...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "AAEON PICO-ADN2 – A low-profile Alder Lake-N Pico-ITX SBC for space-constrained applications\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/08/13/aaeon-pico-adn2-a-low-profile-alder-lake-n-pico-itx-sbc-for-space-constrained-applications/"
+    },
+    {
+      "title": "Context Labs enters multi-year agreement with Trafigura and acquires Kinertic to power carbon-informed commodities trading",
+      "source": "IoT Now",
+      "date": "2026-08-13",
+      "product": "BLE Module",
+      "score": 91,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Context Labs B.V., the industrial AI infrastructure company, has announced three connected transactions with Trafigura PTE Ltd: the acquisition of Agora (Europe) Limited and its Kinertic carbon-intelligence platform, developed by … Continued The post Context...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Context Labs enters multi-year agreement with Trafigura and acquires Kinertic to power carbon-informed commodities trading\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/08/13/157909-context-labs-enters-multi-year-agreement-with-trafigura-and-acquires-kinertic-to-power-carbon-informed-commodities-trading/"
+    },
+    {
+      "title": "Qualcomm Snapdragon C Arm SoC outperforms an Intel N250 CPU by up to 67 percent in “unplugged” benchmarks",
+      "source": "CNX Software",
+      "date": "2026-08-13",
+      "product": "ESP32 Module",
+      "score": 86,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "Qualcomm unveiled the Snapdragon C entry-level Arm SoC for $300+ Windows laptops at Computex 2026 with a ridiculously small amount of details last May, so we had to rely on the specs of the upcoming Acer Aspire Go 15 (AG15-Q31P) laptop. Qualcomm has now...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "Qualcomm Snapdragon C Arm SoC outperforms an Intel N250 CPU by up to 67 percent in “unplugged” benchmarks\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/08/13/qualcomm-snapdragon-c-arm-soc-outperforms-an-intel-n250-cpu-by-up-to-67-percent-in-unplugged-benchmarks/"
     },
     {
       "title": "Forlinx AM62L32 Local EVM – A low-power industrial SBC powered by TI’s AM62L32 Cortex-A53/M4F SoC",
@@ -2545,116 +2646,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "$379.99 BOSGAME E6 ECO mini PC features Intel Core 3 304 Wildcat Lake CPU, 12GB LPDDR5X, 512GB NVMe SSD\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/07/24/379-99-bosgame-e6-eco-mini-pc-features-intel-core-3-304-wildcat-lake-cpu-12gb-lpddr5x-512gb-nvme-ssd/"
-    },
-    {
-      "title": "AIS-1000 AI Surveillance Station – A $3,640 NDAA and TAA-compliant AI box based on Raspberry Pi 5 and Hailo-8L",
-      "source": "CNX Software",
-      "date": "2026-07-23",
-      "product": "ESP32 Module",
-      "score": 92,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "ESP32",
-        "Embedded Development",
-        "Smart Device"
-      ],
-      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
-      "summary": "If you feel like a cheapskate when purchasing a Raspberry Pi 5 16GB for only $305, there’s now a solution to avoid embarrassment. Meet the $3,640 AIS-1000 AI Surveillance Station, pairing a Raspberry Pi 5 with a Hailo-8L AI accelerator and a 1TB NVMe SSD, all...",
-      "hook": "A small module can shape the whole connected product experience.",
-      "post": "AIS-1000 AI Surveillance Station – A $3,640 NDAA and TAA-compliant AI box based on Raspberry Pi 5 and Hailo-8L\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/07/23/ais-1000-ai-surveillance-station-a-3640-ndaa-and-taa-compliant-ai-box-based-on-raspberry-pi-5-and-hailo-8l/"
-    },
-    {
-      "title": "Icy Electronics nRF54L15 Discovery devboard integrates snappable nRF52820 CMSIS-DAP debugger",
-      "source": "CNX Software",
-      "date": "2026-07-23",
-      "product": "BLE Module",
-      "score": 91,
-      "formats": [
-        "LinkedIn Post",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "nRF54L15",
-        "Bluetooth LE",
-        "Thread",
-        "Zigbee",
-        "Matter",
-        "IoT"
-      ],
-      "value": "Multi-protocol IoT devboard covering Bluetooth LE/Thread/Zigbee/Matter/NFC with RISC-V co-processor. Useful for comparing with Ai-Thinker multi-protocol module offerings and understanding the competitive landscape of 2.4GHz IoT chips.",
-      "summary": "Icy Electronics nRF54L15 Discovery is a compact wireless devboard with Nordic nRF54L15 (Cortex-M33+RISC-V coprocessor) supporting Bluetooth LE, Thread, Zigbee, Matter, NFC and other 2.4GHz protocols. Features snappable nRF52820 debugger, nPM1300 PMIC with LiPo charging, USB-C PD, and configurable 1.8V/3.3V I/O.",
-      "hook": "One devboard, six protocols — Thread, Zigbee, Bluetooth LE, Matter, NFC, and 2.4GHz proprietary all in one place.",
-      "post": "Icy Electronics nRF54L15 Discovery devboard packs Nordic's latest nRF54L15 SoC (Arm Cortex-M33 + RISC-V coprocessor) into a compact form factor with an integrated snappable CMSIS-DAP debugger. The board supports Bluetooth LE, Thread, Zigbee, Matter, and NFC — all key protocols in the smart home and industrial IoT landscape.\n\nFor Ai-Thinker's BW series (RTL87xx-based dual-band WiFi+BLE) and WB2 series (BL602 WiFi+BLE), the competitive landscape is clear: multi-protocol support is the baseline expectation for 2026 IoT modules. The nRF54L15's RISC-V software-defined peripheral approach parallels the flexibility that Ai-Thinker's RISC-V offerings (Ai-M62/M64) bring to the table.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/07/23/icy-electronics-nrf54l15-discovery-devboard-integrates-a-snappable-nrf52820-cmsis-dap-debugger/"
-    },
-    {
-      "title": "Augmental MouthPad is a tongue-controlled touchpad/trackpad",
-      "source": "CNX Software",
-      "date": "2026-07-23",
-      "product": "BLE Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Check your calendar, everyone! It’s definitely not April 1st. Now that we have that out of the way, we can start with the main topic of this article. Ready? Augmental MouthPad is a Bluetooth HID device you put into your mouth and control like a touchpad or...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Augmental MouthPad is a tongue-controlled touchpad/trackpad\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/07/23/augmental-mouthpad-tongue-controlled-touchpad-trackpad/"
-    },
-    {
-      "title": "AIS-1000 AI Surveillance Station: $3,640 NDAA-compliant AI box based on Raspberry Pi 5 and Hailo-8L",
-      "source": "CNX Software",
-      "date": "2026-07-23",
-      "product": "WiFi Module",
-      "score": 87,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "Edge AI",
-        "Surveillance",
-        "Raspberry Pi 5",
-        "Hailo-8L",
-        "NDAA",
-        "Industrial IoT"
-      ],
-      "value": "Edge AI surveillance device showing the trend of AI acceleration at the gateway level. Ai-Thinker modules can serve as wireless sensor nodes feeding data into such AI gateways.",
-      "summary": "Planet Technology AIS-1000 is a $3,640 NDAA/TAA-compliant AI surveillance box combining Raspberry Pi 5 with Hailo-8L AI accelerator and 1TB NVMe SSD. Targets government and critical infrastructure surveillance with edge AI processing, reducing cloud bandwidth and latency.",
-      "hook": "A $3,640 Raspberry Pi — not a joke, but an NDAA-compliant edge AI fortress for critical infrastructure.",
-      "post": "Planet Technology's AIS-1000 pairs a Raspberry Pi 5 with a Hailo-8L AI accelerator in a rugged metal enclosure, priced at $3,640 for NDAA and TAA compliance. It's designed for AI-enhanced surveillance in government, critical infrastructure, and high-security applications.\n\nFor Ai-Thinker's IoT module ecosystem, this represents the \"gateway tier\" above the sensor nodes. BW series WiFi modules and 4G Cat.1 cellular modules can serve as the wireless data ingestion layer — feeding camera feeds, sensor data, and alerts into AI gateways like this for on-premises processing before selective cloud upload.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/07/23/ais-1000-ai-surveillance-station-a-3640-ndaa-and-taa-compliant-ai-box-based-on-raspberry-pi-5-and-hailo-8l/"
     }
   ]
 }
