@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T02:34:55.854Z",
+  "generatedAt": "2026-08-22T02:19:16.726Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,33 +7,6 @@
     "IoT Tech News"
   ],
   "topics": [
-    {
-      "title": "ESP32 developer ecosystem angle",
-      "source": "Espressif Systems",
-      "product": "ESP32 Module",
-      "score": 96,
-      "formats": [
-        "LinkedIn Post",
-        "Carousel",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "YouTube"
-      ],
-      "tags": [
-        "ESP32",
-        "Embedded Development",
-        "Smart Device"
-      ],
-      "value": "Useful for explaining how ESP32 modules support smart devices, control panels, gateways, and rapid prototyping.",
-      "summary": "ESP32 ecosystem content is useful when it turns chip capability into developer workflows and visible demos.",
-      "hook": "A small module can shape the whole connected product experience.",
-      "post": "ESP32 content works best when it connects the module to a real device workflow: connectivity, control, UI, sensing, and deployment.",
-      "url": "https://www.linkedin.com/company/espressif-systems",
-      "date": "2026-08-21"
-    },
     {
       "title": "Matter and smart-home compatibility story",
       "source": "Home Assistant",
@@ -58,7 +31,7 @@
       "hook": "Smart home buyers are no longer asking only for connectivity. They want compatibility.",
       "post": "For smart-home devices, wireless modules become more valuable when they reduce integration risk and help products fit into existing ecosystems.",
       "url": "https://www.home-assistant.io/",
-      "date": "2026-08-21"
+      "date": "2026-08-22"
     },
     {
       "title": "Radar sensing for privacy-friendly presence detection",
@@ -86,7 +59,7 @@
       "hook": "Not every sensing solution needs a camera.",
       "post": "Radar sensing can be explained through practical spaces: bathroom, bedroom, entryway, or care facility. Start with the pain point, then explain why camera-free sensing matters.",
       "url": "",
-      "date": "2026-08-21"
+      "date": "2026-08-22"
     },
     {
       "title": "LoRaWAN solution content worth tracking",
@@ -112,7 +85,114 @@
       "hook": "Some IoT projects need years of battery life, not more bandwidth.",
       "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
       "url": "https://www.linkedin.com/company/rakwireless/",
-      "date": "2026-08-21"
+      "date": "2026-08-22"
+    },
+    {
+      "title": "ESP32 developer ecosystem angle",
+      "source": "Espressif Systems",
+      "product": "ESP32 Module",
+      "score": 96,
+      "formats": [
+        "LinkedIn Post",
+        "Carousel",
+        "Short Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "YouTube"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for explaining how ESP32 modules support smart devices, control panels, gateways, and rapid prototyping.",
+      "summary": "ESP32 ecosystem content is useful when it turns chip capability into developer workflows and visible demos.",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "ESP32 content works best when it connects the module to a real device workflow: connectivity, control, UI, sensing, and deployment.",
+      "url": "https://www.linkedin.com/company/espressif-systems",
+      "date": "2026-08-22"
+    },
+    {
+      "title": "AAEON uCOM-Q6490 – A SMARC 2.1-compliant SoM powered by Qualcomm Dragonwing QCS6490 SoC",
+      "source": "CNX Software",
+      "date": "2026-08-21",
+      "product": "ESP32 Module",
+      "score": 98,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "AAEON uCOM-Q6490 is a SMARC 2.1-compliant System-on-Module (SoM) built around the Qualcomm Dragonwing QCS6490 octa-core SoC, designed for robotics, healthcare, industrial automation, and digital signage applications. The 82 × 50 mm module ships with up to...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "AAEON uCOM-Q6490 – A SMARC 2.1-compliant SoM powered by Qualcomm Dragonwing QCS6490 SoC\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/08/21/aaeon-ucom-q6490-a-smarc-2-1-qualcomm-dragonwing-qcs6490-som/"
+    },
+    {
+      "title": "NXP MCX C15 and C16 low-cost Cortex-M23 MCUs target IoT, analog, and motor control applications",
+      "source": "CNX Software",
+      "date": "2026-08-21",
+      "product": "ESP32 Module",
+      "score": 98,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "We recently noted that NXP expanded its MCX A series with the MCX A5 Cortex-M33 family, integrating 10BASE-T1S Single Pair Ethernet, topology discovery, and PQC for industrial connectivity. However, it’s not the only recent announcement from the company, as...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "NXP MCX C15 and C16 low-cost Cortex-M23 MCUs target IoT, analog, and motor control applications\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/08/21/nxp-mcx-c15-and-c16-low-cost-cortex-m23-mcus-target-iot-analog-and-motor-control-applications/"
+    },
+    {
+      "title": "M5Stack Paper Mono – An ESP32-S3 e-paper development board with 3.97-inch touchscreen, LoRa, and NFC",
+      "source": "CNX Software",
+      "date": "2026-08-21",
+      "product": "LoRa Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "LoRa",
+        "LPWAN",
+        "Smart City"
+      ],
+      "value": "Useful for turning current industry news into content about smart city, utility metering, asset tracking, and low-power wide-area IoT scenarios.",
+      "summary": "M5Stack introduced the PaperColor ESP32-S3 devkit last May, but if you prefer faster refresh rates, the new Paper Mono should be a better option. The kit is based on a 3.97-inch monochrome e-Paper touch display and also supports LoRa and NFC long-range and...",
+      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
+      "post": "M5Stack Paper Mono – An ESP32-S3 e-paper development board with 3.97-inch touchscreen, LoRa, and NFC\n\nThis is a useful signal for IoT brands and product teams watching LoRa Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/08/21/m5stack-paper-mono-an-esp32-s3-e-paper-development-board-with-3-97-inch-touchscreen-lora-and-nfc/"
     },
     {
       "title": "KAGA FEI ES4L15MA1 is a ridiculously small, ready-to-use BLE 6.0 module based on Nordic nRF54L15 SoC",
@@ -322,6 +402,31 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Private 5G a $2.5 billion opportunity in the defence sector, says SNS Telecom & IT\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/08/20/157998-private-5g-a-2-5-billion-opportunity-in-the-defence-sector-says-sns-telecom-it/"
+    },
+    {
+      "title": "Generalist AI’s GEN-1.5 robot model learns tasks from one demo",
+      "source": "IoT Tech News",
+      "date": "2026-08-20",
+      "product": "IoT Industry",
+      "score": 70,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "IoT",
+        "Industry Trend",
+        "Wireless Technology"
+      ],
+      "value": "Useful for turning current industry news into content about market education, B2B trend posts, sales context, and social content planning.",
+      "summary": "The GEN-1.5 robot model from Generalist AI learns new physical tasks from one demo, without gradient updates. The company describes GEN-1.5 as the first model it knows of to show one-shot and few-shot learning of physical skills at scale. That claim points at...",
+      "hook": "Good IoT content starts with useful market context.",
+      "post": "Generalist AI’s GEN-1.5 robot model learns tasks from one demo\n\nThis is a useful signal for IoT brands and product teams watching IoT Industry opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
+      "url": "https://iottechnews.com/news/generalist-ai-gen-1-5-robot-model-learns-tasks-one-demo/"
     },
     {
       "title": "NXP MCX A5 Cortex-M33 MCU family supports 10BASE-T1S Single Pair Ethernet and Post-Quantum Cryptography",
@@ -604,6 +709,34 @@
       "url": "https://www.cnx-software.com/2026/08/17/google-chrome-is-now-available-for-arm-linux-we-tested-it-on-a-raspberry-pi-5/"
     },
     {
+      "title": "Edge computing on the factory floor now starts with a memory conversation",
+      "source": "IoT Tech News",
+      "date": "2026-08-17",
+      "product": "BLE Module",
+      "score": 93,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Edge computing has become the default answer to a familiar problem on the factory floor. Rather than sending camera footage and sensor readings to a distant cloud server and waiting for a verdict, a plant puts a small computer next to the machine and gets the...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Edge computing on the factory floor now starts with a memory conversation\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
+      "url": "https://iottechnews.com/news/edge-computing-memory-supply/"
+    },
+    {
       "title": "SONOFF Hydro DUO review – A dual-zone BLE and Zigbee water valve tested with eWeLink and Home Assistant",
       "source": "CNX Software",
       "date": "2026-08-17",
@@ -660,34 +793,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Luckfox Lyra PLC – A Linux-based Rockchip RK3506B industrial controller with RS232, RS422, RS485, CAN bus, and relays\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/08/17/luckfox-lyra-plc-a-linux-based-rockchip-rk3506b-industrial-controller-with-rs232-rs422-rs485-can-bus-and-relays/"
-    },
-    {
-      "title": "Edge computing on the factory floor now starts with a memory conversation",
-      "source": "IoT Tech News",
-      "date": "2026-08-17",
-      "product": "BLE Module",
-      "score": 93,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Edge computing has become the default answer to a familiar problem on the factory floor. Rather than sending camera footage and sensor readings to a distant cloud server and waiting for a verdict, a plant puts a small computer next to the machine and gets the...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Edge computing on the factory floor now starts with a memory conversation\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
-      "url": "https://iottechnews.com/news/edge-computing-memory-supply/"
     },
     {
       "title": "e& UAE leads industry transition to 5G-native IoT with successful testing of Reduced Capability readiness on a live network",
@@ -2536,118 +2641,6 @@
       "hook": "A small module can shape the whole connected product experience.",
       "post": "Creality Falcon T1 review – A 5-in-1 modular laser engraver tested with 20W fiber and 40W diode laser modules\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/08/01/creality-falcon-t1-review-a-5-in-1-modular-laser-engraver-tested-with-20w-fiber-and-40w-diode-laser-modules/"
-    },
-    {
-      "title": "NanoPi R28S – A tiny dual GbE Rockchip RK3528A wireless SBC and router with a USB-C console port",
-      "source": "CNX Software",
-      "date": "2026-07-31",
-      "product": "BLE Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "NanoPi R28S is yet another tiny dual Gigabit Ethernet single board computer or router (with a metal enclosure), and the second from FriendlyELEC to implement a USB-C console port, often requested by our readers, after the NanoPi R2S Plus launched in 2024. At...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "NanoPi R28S – A tiny dual GbE Rockchip RK3528A wireless SBC and router with a USB-C console port\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/07/31/nanopi-r28s-a-tiny-dual-gbe-rockchip-rk3528a-wireless-sbc-and-router-with-a-usb-c-console-port/"
-    },
-    {
-      "title": "Maker Go ESP32-C5-EVB board features RS-485 interface, four relays, four opto-isolated inputs",
-      "source": "CNX Software",
-      "date": "2026-07-31",
-      "product": "BLE Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Maker Go ESP32-C5-EVB is an ESP32-C5 board with four relays, four opto-isolated inputs, RS-485 communication, and support for Wi-Fi 6, Bluetooth Low Energy 5.0, and Thread/Zigbee connectivity. It’s a variant of the Maker Go ESP32-C6-EVB released in 2024 that...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Maker Go ESP32-C5-EVB board features RS-485 interface, four relays, four opto-isolated inputs\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/07/31/maker-go-esp32-c5-evb-board-features-rs-485-interface-four-relays-four-opto-isolated-inputs/"
-    },
-    {
-      "title": "reTerminal Sticky 3.97-inch touch ePaper display is supported by four open-source firmware projects (so far)",
-      "source": "CNX Software",
-      "date": "2026-07-31",
-      "product": "BLE Module",
-      "score": 93,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Seeed Studio’s reTerminal Sticky is a 3.97-inch “AI-powered” magnetic touch ePaper display powered by an ESP32-S3 microcontroller, which serves as a sticky-note alternative, an e-reader, a live dashboard, or a home automation controller. The 800 x 480...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "reTerminal Sticky 3.97-inch touch ePaper display is supported by four open-source firmware projects (so far)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/07/31/reterminal-sticky-3-97-inch-magnetic-touch-epaper-display-is-supported-by-four-open-source-firmware-projects/"
-    },
-    {
-      "title": "EY widens SymphonyAI alliance into manufacturing AI",
-      "source": "IoT Tech News",
-      "date": "2026-07-31",
-      "product": "IoT Industry",
-      "score": 75,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "IoT",
-        "Industry Trend",
-        "Wireless Technology"
-      ],
-      "value": "Useful for turning current industry news into content about market education, B2B trend posts, sales context, and social content planning.",
-      "summary": "Ernst & Young (EY) has expanded its alliance with SymphonyAI, pushing the partnership into manufacturing and supply chain intelligence. Manufacturers have already proven AI can cut waste on one production line or flag a failing asset in one plant. Repeating...",
-      "hook": "Good IoT content starts with useful market context.",
-      "post": "EY widens SymphonyAI alliance into manufacturing AI\n\nThis is a useful signal for IoT brands and product teams watching IoT Industry opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
-      "url": "https://iottechnews.com/news/ey-widens-symphonyai-alliance-manufacturing-ai/"
     }
   ]
 }
