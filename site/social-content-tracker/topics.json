@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T02:35:10.263Z",
+  "generatedAt": "2026-08-24T02:35:20.196Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,34 +7,6 @@
     "IoT Tech News"
   ],
   "topics": [
-    {
-      "title": "Radar sensing for privacy-friendly presence detection",
-      "source": "Industry Sensing",
-      "product": "Radar Sensor",
-      "score": 92,
-      "formats": [
-        "Short Video",
-        "LinkedIn Post",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "Radar",
-        "Presence Detection",
-        "Smart Sensing"
-      ],
-      "value": "Useful for explaining camera-free sensing in elderly care, bathrooms, bedrooms, security, and automation scenarios.",
-      "summary": "Radar content is strongest when it starts from the user problem: reliable presence detection without a camera.",
-      "hook": "Not every sensing solution needs a camera.",
-      "post": "Radar sensing can be explained through practical spaces: bathroom, bedroom, entryway, or care facility. Start with the pain point, then explain why camera-free sensing matters.",
-      "url": "",
-      "date": "2026-08-23"
-    },
     {
       "title": "LoRaWAN solution content worth tracking",
       "source": "RAKwireless",
@@ -59,7 +31,7 @@
       "hook": "Some IoT projects need years of battery life, not more bandwidth.",
       "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
       "url": "https://www.linkedin.com/company/rakwireless/",
-      "date": "2026-08-23"
+      "date": "2026-08-24"
     },
     {
       "title": "ESP32 developer ecosystem angle",
@@ -86,7 +58,7 @@
       "hook": "A small module can shape the whole connected product experience.",
       "post": "ESP32 content works best when it connects the module to a real device workflow: connectivity, control, UI, sensing, and deployment.",
       "url": "https://www.linkedin.com/company/espressif-systems",
-      "date": "2026-08-23"
+      "date": "2026-08-24"
     },
     {
       "title": "Matter and smart-home compatibility story",
@@ -112,7 +84,118 @@
       "hook": "Smart home buyers are no longer asking only for connectivity. They want compatibility.",
       "post": "For smart-home devices, wireless modules become more valuable when they reduce integration risk and help products fit into existing ecosystems.",
       "url": "https://www.home-assistant.io/",
-      "date": "2026-08-23"
+      "date": "2026-08-24"
+    },
+    {
+      "title": "Radar sensing for privacy-friendly presence detection",
+      "source": "Industry Sensing",
+      "product": "Radar Sensor",
+      "score": 92,
+      "formats": [
+        "Short Video",
+        "LinkedIn Post",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "Radar",
+        "Presence Detection",
+        "Smart Sensing"
+      ],
+      "value": "Useful for explaining camera-free sensing in elderly care, bathrooms, bedrooms, security, and automation scenarios.",
+      "summary": "Radar content is strongest when it starts from the user problem: reliable presence detection without a camera.",
+      "hook": "Not every sensing solution needs a camera.",
+      "post": "Radar sensing can be explained through practical spaces: bathroom, bedroom, entryway, or care facility. Start with the pain point, then explain why camera-free sensing matters.",
+      "url": "",
+      "date": "2026-08-24"
+    },
+    {
+      "title": "Rockchip RV1126B-based Forlinx FCU3101 fanless edge AI system targets IIoT and smart security applications",
+      "source": "CNX Software",
+      "date": "2026-08-23",
+      "product": "BLE Module",
+      "score": 97,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Forlinx has just introduced the FCU3101, a fanless Edge AI system based on the Rockchip RV1126B/RV1126BJ SoC and designed for Industrial IoT (IIoT) and smart security applications, such as video surveillance, license plate recognition, intrusion detection,...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Rockchip RV1126B-based Forlinx FCU3101 fanless edge AI system targets IIoT and smart security applications\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/08/24/rockchip-rv1126b-based-forlinx-fcu3101-fanless-edge-ai-system-targets-iiot-and-smart-security-applications/"
+    },
+    {
+      "title": "Openterface KeyMod turns your smartphone into a USB keyboard, mouse, gamepad, or SSH client (Crowdfunding)",
+      "source": "CNX Software",
+      "date": "2026-08-23",
+      "product": "BLE Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "After successfully launching the Openterface Mini-KVM and Openterface KVM-GO, TechxArtisan has just introduced the Openterface KeyMod pocket-sized USB multi-tool that turns an Android or iOS smartphone into a wireless keyboard, mouse, gamepad, presentation...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Openterface KeyMod turns your smartphone into a USB keyboard, mouse, gamepad, or SSH client (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/08/24/openterface-keymod-turns-your-smartphone-into-a-usb-keyboard-mouse-gamepad-or-ssh-client/"
+    },
+    {
+      "title": "Framework Laptop 12 repairable, convertible laptop gets Wildcat Lake motherboard, ships with Fedora 44 or Windows 11",
+      "source": "CNX Software",
+      "date": "2026-08-23",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "First introduced in 2025, the Framework Laptop 12 upgradable and repairable laptop has just gotten a new motherboard offered with a choice of Wildcat Lake (Intel Core Series 3) processors from the Core 3 304 up to the Core 7 350. The Wildcat Lake-based...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Framework Laptop 12 repairable, convertible laptop gets Wildcat Lake motherboard, ships with Fedora 44 or Windows 11\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/08/23/framework-laptop-12-repairable-convertible-laptop-gets-wildcat-lake-motherboard-ships-with-fedora-44-or-windows-11/"
     },
     {
       "title": "Espressif Systems releases a Linux BSP developer preview for ESP32-S31 RISC-V microprocessor",
@@ -479,31 +562,6 @@
       "url": "https://www.cnx-software.com/2026/08/19/nxp-mcx-a5-cortex-m33-mcu-family-supports-10base-t1s-single-pair-ethernet-and-post-quantum-cryptography/"
     },
     {
-      "title": "Pine64 hits pause on Linux devices due to RAM and eMMC shortage/high prices",
-      "source": "CNX Software",
-      "date": "2026-08-19",
-      "product": "BLE Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "While some companies keep increasing prices, the Pine64 community has now announced they don’t intend to manufacture Linux devices due to the current RAM and eMMC flash shortage and related high prices. Pine64 started with the launch of the Pine A64...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Pine64 hits pause on Linux devices due to RAM and eMMC shortage/high prices\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/19/pine64-hits-pause-on-linux-devices-due-to-ram-and-emmc-shortage-high-prices/"
-    },
-    {
       "title": "Quectel launches Android 16 smart modules for 4G and 5G IoT devices",
       "source": "IoT Now",
       "date": "2026-08-19",
@@ -527,6 +585,31 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Quectel launches Android 16 smart modules for 4G and 5G IoT devices\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/08/19/157994-quectel-launches-android-16-smart-modules-for-4g-and-5g-iot-devices/"
+    },
+    {
+      "title": "Pine64 hits pause on Linux devices due to RAM and eMMC shortage/high prices",
+      "source": "CNX Software",
+      "date": "2026-08-19",
+      "product": "BLE Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "While some companies keep increasing prices, the Pine64 community has now announced they don’t intend to manufacture Linux devices due to the current RAM and eMMC flash shortage and related high prices. Pine64 started with the launch of the Pine A64...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Pine64 hits pause on Linux devices due to RAM and eMMC shortage/high prices\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/08/19/pine64-hits-pause-on-linux-devices-due-to-ram-and-emmc-shortage-high-prices/"
     },
     {
       "title": "PwrBlock 323 – A USB-C PD programmable power supply for automated test fixtures (Crowdfunding)",
@@ -2566,81 +2649,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "The one security layer the IT acquisition wave keeps missing\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/08/03/157710-the-one-security-layer-the-it-acquisition-wave-keeps-missing/"
-    },
-    {
-      "title": "How operational visibility drives the connected car experience",
-      "source": "IoT Now",
-      "date": "2026-08-03",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "The modern car behaves increasingly like a smartphone on wheels and connected-car features are the norm. Owners expect a reliable app they can use for basic functions such as unlocking … Continued The post How operational visibility drives the connected car...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "How operational visibility drives the connected car experience\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/08/03/157702-how-operational-visibility-drives-the-connected-car-experience/"
-    },
-    {
-      "title": "ChronoWatch X2040 – A DIY watch with off-the-shelf Raspberry Pi RP2040 round display, 3D printed case, and custom firmware",
-      "source": "CNX Software",
-      "date": "2026-08-03",
-      "product": "ESP32 Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "ESP32",
-        "Embedded Development",
-        "Smart Device"
-      ],
-      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
-      "summary": "If you’ve ever wanted to build your own watch, the ChronoWatch X2040 DIY watch allows you to do it the easy way with a Waveshare RP2040-Touch-LCD-1.28 touch LCD board, a 3D-printed case, a 3.7V LiPo battery, a few screws, and firmware using the Pico C/C++...",
-      "hook": "A small module can shape the whole connected product experience.",
-      "post": "ChronoWatch X2040 – A DIY watch with off-the-shelf Raspberry Pi RP2040 round display, 3D printed case, and custom firmware\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/03/chronowatch-x2040-a-diy-watch-with-off-the-shelf-raspberry-pi-rp2040-round-display-3d-printed-case-and-custom-firmware/"
-    },
-    {
-      "title": "Play games with your brain signals using Octopus 16 wireless EEG device",
-      "source": "CNX Software",
-      "date": "2026-08-02",
-      "product": "BLE Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Octopus 16 is a wireless biosignal HID device for the XIAO ESP32-S3 board designed to let users play computer games using brain signals (EEG) with no hands (or implants) needed. The board packs 16 electrodes to measure biosignals, including EEG...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Play games with your brain signals using Octopus 16 wireless EEG device\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/02/play-games-with-your-brain-signals-using-octopus-16-wireless-eeg-device/"
     }
   ]
 }
