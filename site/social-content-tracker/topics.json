@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T02:35:20.196Z",
+  "generatedAt": "2026-08-25T02:21:42.404Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,32 +7,6 @@
     "IoT Tech News"
   ],
   "topics": [
-    {
-      "title": "LoRaWAN solution content worth tracking",
-      "source": "RAKwireless",
-      "product": "LoRa Module",
-      "score": 95,
-      "formats": [
-        "LinkedIn Post",
-        "Carousel",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "LoRa",
-        "LoRaWAN",
-        "Gateway"
-      ],
-      "value": "Useful for explaining complete LoRaWAN solutions to B2B users, including modules, gateways, sensor nodes, and cloud workflows.",
-      "summary": "Track how LoRaWAN brands turn hardware into complete deployment stories.",
-      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
-      "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
-      "url": "https://www.linkedin.com/company/rakwireless/",
-      "date": "2026-08-24"
-    },
     {
       "title": "ESP32 developer ecosystem angle",
       "source": "Espressif Systems",
@@ -58,7 +32,7 @@
       "hook": "A small module can shape the whole connected product experience.",
       "post": "ESP32 content works best when it connects the module to a real device workflow: connectivity, control, UI, sensing, and deployment.",
       "url": "https://www.linkedin.com/company/espressif-systems",
-      "date": "2026-08-24"
+      "date": "2026-08-25"
     },
     {
       "title": "Matter and smart-home compatibility story",
@@ -84,7 +58,7 @@
       "hook": "Smart home buyers are no longer asking only for connectivity. They want compatibility.",
       "post": "For smart-home devices, wireless modules become more valuable when they reduce integration risk and help products fit into existing ecosystems.",
       "url": "https://www.home-assistant.io/",
-      "date": "2026-08-24"
+      "date": "2026-08-25"
     },
     {
       "title": "Radar sensing for privacy-friendly presence detection",
@@ -112,7 +86,167 @@
       "hook": "Not every sensing solution needs a camera.",
       "post": "Radar sensing can be explained through practical spaces: bathroom, bedroom, entryway, or care facility. Start with the pain point, then explain why camera-free sensing matters.",
       "url": "",
-      "date": "2026-08-24"
+      "date": "2026-08-25"
+    },
+    {
+      "title": "LoRaWAN solution content worth tracking",
+      "source": "RAKwireless",
+      "product": "LoRa Module",
+      "score": 95,
+      "formats": [
+        "LinkedIn Post",
+        "Carousel",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "LoRa",
+        "LoRaWAN",
+        "Gateway"
+      ],
+      "value": "Useful for explaining complete LoRaWAN solutions to B2B users, including modules, gateways, sensor nodes, and cloud workflows.",
+      "summary": "Track how LoRaWAN brands turn hardware into complete deployment stories.",
+      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
+      "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
+      "url": "https://www.linkedin.com/company/rakwireless/",
+      "date": "2026-08-25"
+    },
+    {
+      "title": "MNT Station fanless, modular open-hardware computer supports a choice of 10+ Arm CPU or FPGA modules (Crowdfunding)",
+      "source": "CNX Software",
+      "date": "2026-08-24",
+      "product": "ESP32 Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "MNT Research, the Berlin-based team behind the MNT Reform, MNT Pocket Reform, Reform 2, and MNT Reform Next, has launched the MNT Station, a fanless, open-hardware modular computer designed for use as a desktop PC, home server, NAS, router, edge device, or...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "MNT Station fanless, modular open-hardware computer supports a choice of 10+ Arm CPU or FPGA modules (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/08/24/mnt-station-fanless-modular-open-hardware-computer-supports-a-choice-of-10-arm-cpu-or-fpga-modules/"
+    },
+    {
+      "title": "$60+ Nordic Semi nRF93M1 Development Kit (DK) targets LTE Cat 1 bis IoT applications",
+      "source": "CNX Software",
+      "date": "2026-08-24",
+      "product": "BLE Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Nordic Semiconductor has launched the nRF93M1 DK (Development Kit) based on the nRF93M1-LABA LTE Cat 1 bis with Wi-Fi and cellular location and a Nordic Semi nRF54L15 host microcontroller. The nRF93M1 module was first introduced at Embedded World 2026 last...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "$60+ Nordic Semi nRF93M1 Development Kit (DK) targets LTE Cat 1 bis IoT applications\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/08/24/60-nordic-semi-nrf93m1-development-kit-dk-targets-lte-cat-1-bis-iot-applications/"
+    },
+    {
+      "title": "Morse Micro announces two Wi-Fi HaLow USB Dongle Reference Designs to enable long-range Edge AI connectivity",
+      "source": "IoT Now",
+      "date": "2026-08-24",
+      "product": "BLE Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Morse Micro, one of the world’s Wi-Fi HaLow silicon provider, has announced two Wi-Fi HaLow USB Dongle Reference Designs that can bring long-range Wi-Fi HaLow connectivity to existing devices via … Continued The post Morse Micro announces two Wi-Fi HaLow USB...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Morse Micro announces two Wi-Fi HaLow USB Dongle Reference Designs to enable long-range Edge AI connectivity\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/08/24/158025-morse-micro-announces-two-wi-fi-halow-usb-dongle-reference-designs-to-enable-long-range-edge-ai-connectivity/"
+    },
+    {
+      "title": "Podcast: eSIM-first IoT and why AI in the device changes the network",
+      "source": "IoT Now",
+      "date": "2026-08-24",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "In this episode of the Trending Tech podcast, host Jim Morrish, co-founder of Transforma Insights, is joined by Rony Cohen, co-founder of FLOLIVE and Loic Bonvarlet, senior VP of ecosystem … Continued The post Podcast: eSIM-first IoT and why AI in the device...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Podcast: eSIM-first IoT and why AI in the device changes the network\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/08/24/158028-podcast-esim-first-iot-and-why-ai-in-the-device-changes-the-network/"
+    },
+    {
+      "title": "Jetway PIC-TWL1 Intel N150 Pico-ITX motherboard is made for industrial automation and embedded systems",
+      "source": "CNX Software",
+      "date": "2026-08-24",
+      "product": "BLE Module",
+      "score": 85,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Jetway PIC-TWL1 is a compact (100×72 mm) fanless Pico-ITX motherboard powered by an Intel N150 Twin Lake processor and engineered for industrial control, factory automation, facial recognition, and edge embedded systems. The board supports up to 32GB DDR5...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Jetway PIC-TWL1 Intel N150 Pico-ITX motherboard is made for industrial automation and embedded systems\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/08/25/jetway-pic-twl1-intel-n150-pico-itx-motherboard-is-made-for-industrial-automation-and-embedded-systems/"
     },
     {
       "title": "Rockchip RV1126B-based Forlinx FCU3101 fanless edge AI system targets IIoT and smart security applications",
@@ -2519,136 +2653,6 @@
       "hook": "A small module can shape the whole connected product experience.",
       "post": "28.9M-parameter LLM runs locally on ESP32-S3 at 9 tokens/s\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/08/03/28-9m-parameter-llm-runs-locally-on-esp32-s3-at-9-tokens-s/"
-    },
-    {
-      "title": "Aliensense NXS is a plug-and-play GMSL 2/3 and CAN-FD sensor board for robots",
-      "source": "CNX Software",
-      "date": "2026-08-03",
-      "product": "BLE Module",
-      "score": 93,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Abu Dhabi-based Aliensense has introduced NXS, a compact sensor board designed to easily connect cameras and sensors to robots, without custom wiring or driver work. The board relies on a single GMSL 2/3 cable for power, video, and sensor data over up to 15...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Aliensense NXS is a plug-and-play GMSL 2/3 and CAN-FD sensor board for robots\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/03/aliensense-nxs-plug-and-play-gmsl-2-3-and-can-fd-sensor-board-for-robots/"
-    },
-    {
-      "title": "EY US expands its alliance with SymphonyAI to bring manufacturing intelligence to enterprise operations",
-      "source": "IoT Now",
-      "date": "2026-08-03",
-      "product": "BLE Module",
-      "score": 91,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Ernst & Young LLP (EY US), has announced an expanded alliance with SymphonyAI, extending the collaboration into manufacturing and supply chain intelligence. The expansion integrates SymphonyAI’s industrial AI platform into … Continued The post EY US expands...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "EY US expands its alliance with SymphonyAI to bring manufacturing intelligence to enterprise operations\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/08/03/157689-ey-us-expands-its-alliance-with-symphonyai-to-bring-manufacturing-intelligence-to-enterprise-operations/"
-    },
-    {
-      "title": "$299.99 ASUS UGen300 USB AI accelerator combines 40 TOPS Hailo-10H chip with 8GB LPDDR4",
-      "source": "CNX Software",
-      "date": "2026-08-03",
-      "product": "ESP32 Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "ESP32",
-        "Embedded Development",
-        "Smart Device"
-      ],
-      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
-      "summary": "ASUS UGen300 USB AI accelerator features a 40 TOPS Hailo-10H AI processor and 8GB of LPDDR4 memory to support large language models (LLMs), vision language models (VLMs), and AI vision workloads while consuming less than 2.5 Watts. In some ways, the hardware...",
-      "hook": "A small module can shape the whole connected product experience.",
-      "post": "$299.99 ASUS UGen300 USB AI accelerator combines 40 TOPS Hailo-10H chip with 8GB LPDDR4\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/03/299-99-asus-ugen300-usb-ai-accelerator-hailo-10h-8gb-lpddr4/"
-    },
-    {
-      "title": "Aliensense NXS plug-and-play GMSL 2/3 + CAN-FD robot sensor board",
-      "source": "CNX Software",
-      "product": "IoT Module",
-      "score": 86,
-      "formats": [
-        "LinkedIn Post",
-        "Carousel",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "YouTube"
-      ],
-      "tags": [
-        "GMSL",
-        "CAN-FD",
-        "机器人感知",
-        "工业IoT",
-        "STM32",
-        "传感器"
-      ],
-      "value": "Shows modular sensor architecture for industrial robots — plug-and-play GMSL cameras + CAN-FD sensors in a 40x30mm board.",
-      "summary": "Aliensense NXS: STM32G491 + MAX96793 GMSL 2/3 serializer, single coax cable for power+video+sensor data up to 15m, mikroBUS expansion for 2000+ Click sensors, ROS 2 + OpenCyphal support.",
-      "hook": "One coax cable handles camera, sensors, and power — this 40x30mm board shrinks robot perception into a tiny aluminum case.",
-      "post": "Aliensense NXS packs GMSL 2/3 high-speed serial link (MAX96793) + CAN-FD fieldbus + STM32G491 MCU into a 40×30×28mm aluminum housing. With mikroBUS expansion for 2000+ sensor types and ROS 2 + OpenCyphal middleware, it enables plug-and-play robot perception. For Ai-Thinker industrial IoT modules, NXS demonstrates where modular sensor architecture is heading — future industrial IoT gateways can unify sensors (vision/IMU/environmental) over GMSL/CAN-FD buses, then backhaul to cloud via 4G Cat.1/LoRa/WiFi modules, creating a complete 'sense → process → connect' three-layer architecture. At $199 pre-order, the barrier to prototyping industrial robot perception just dropped significantly.",
-      "url": "https://www.cnx-software.com/2026/08/03/aliensense-nxs-plug-and-play-gmsl-2-3-and-can-fd-sensor-board-for-robots/",
-      "date": "2026-08-03"
-    },
-    {
-      "title": "The one security layer the IT acquisition wave keeps missing",
-      "source": "IoT Now",
-      "date": "2026-08-03",
-      "product": "BLE Module",
-      "score": 84,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "We live in a world of connections, far more than most individuals and companies take time to appreciate. Historically, the companies with the most durable value in this ecosystem owned … Continued The post The one security layer the IT acquisition wave keeps...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "The one security layer the IT acquisition wave keeps missing\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/08/03/157710-the-one-security-layer-the-it-acquisition-wave-keeps-missing/"
     }
   ]
 }
