@@ -433,7 +433,7 @@
       "title": "Rockchip RV1126B-based Forlinx FCU3101 fanless edge AI system targets IIoT and smart security applications",
       "source": "CNX Software",
       "date": "2026-08-23",
-      "product": "BLE Module",
+      "product": "IoT Module",
       "score": 97,
       "formats": [
         "LinkedIn Post",
@@ -448,14 +448,17 @@
         "YouTube"
       ],
       "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
+        "Industrial IoT",
+        "Edge AI",
+        "RV1126B",
+        "Smart Security",
+        "Fanless",
+        "Vision"
       ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Forlinx has just introduced the FCU3101, a fanless Edge AI system based on the Rockchip RV1126B/RV1126BJ SoC and designed for Industrial IoT (IIoT) and smart security applications, such as video surveillance, license plate recognition, intrusion detection,...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Rockchip RV1126B-based Forlinx FCU3101 fanless edge AI system targets IIoT and smart security applications\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "value": "Useful for content about industrial IoT edge gateways, predictive maintenance, smart factory video inspection, and multi-protocol industrial connectivity.",
+      "summary": "Forlinx FCU3101 is a fanless edge AI system built around Rockchip RV1126B (quad-core Cortex-A53 @1.6GHz) with up to 4GB DDR4 and 64GB eMMC, supporting 4K@30fps H.265/H.264 encode/decode. It packs dual Ethernet, RS485/RS232, digital I/O and relay outputs, optional 4G LTE, 9-36V wide-input power, and -40 to +85C operating range for IIoT and smart security (video surveillance, license plate recognition, intrusion detection, industrial inspection, material counting).",
+      "hook": "One fanless box that handles industrial vision inspection and 4K security at -40C.",
+      "post": "Forlinx FCU3101: Rockchip RV1126B Fanless Edge AI System Targets IIoT & Smart Security\n\nThis is a useful signal for IoT brands and product teams watching Industrial IoT and Edge AI opportunities.\n\nFor overseas social content, the story can focus on how edge AI boxes paired with wireless modules (4G/LoRa/WiFi) enable predictive maintenance and smart-factory video inspection, and how wide-temperature industrial gateways connect PLCs, meters and sensors to the cloud.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/08/24/rockchip-rv1126b-based-forlinx-fcu3101-fanless-edge-ai-system-targets-iiot-and-smart-security-applications/"
     },
     {
@@ -567,7 +570,7 @@
       "title": "NXP MCX C15 and C16 low-cost Cortex-M23 MCUs target IoT, analog, and motor control applications",
       "source": "CNX Software",
       "date": "2026-08-21",
-      "product": "ESP32 Module",
+      "product": "MCU",
       "score": 98,
       "formats": [
         "LinkedIn Post",
@@ -578,14 +581,17 @@
         "Facebook"
       ],
       "tags": [
-        "ESP32",
-        "Embedded Development",
-        "Smart Device"
+        "NXP",
+        "Cortex-M23",
+        "MCU",
+        "Industrial IoT",
+        "Motor Control",
+        "Analog"
       ],
-      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
-      "summary": "We recently noted that NXP expanded its MCX A series with the MCX A5 Cortex-M33 family, integrating 10BASE-T1S Single Pair Ethernet, topology discovery, and PQC for industrial connectivity. However, it’s not the only recent announcement from the company, as...",
-      "hook": "A small module can shape the whole connected product experience.",
-      "post": "NXP MCX C15 and C16 low-cost Cortex-M23 MCUs target IoT, analog, and motor control applications\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "value": "Useful for content about low-cost industrial MCUs, motor control, analog sensing, and how MCU + wireless module pairing builds industrial sensor nodes.",
+      "summary": "NXP MCX C15/C16 are low-cost entry-level MCUs based on Arm Cortex-M23 with up to 64KB Flash and 12KB SRAM. They integrate a 16-bit SAR ADC, high-speed comparator with DAC, internal op-amps, FlexPWM for motor/power control, up to 4 UARTs plus LPI2C/LPSPI, and 45 GPIOs. They target industrial IoT, analog and motor control, with migration paths from LPC800/LPC1100/Kinetis and pin-to-pin compatibility with MCX A series.",
+      "hook": "A Cortex-M23 with 16-bit ADC, op-amps and FlexPWM at rock-bottom cost.",
+      "post": "NXP MCX C15 & C16: Low-Cost Cortex-M23 MCUs Target Industrial IoT, Analog & Motor Control\n\nThis is a useful signal for IoT brands and product teams watching MCU and Industrial IoT opportunities.\n\nFor overseas social content, the story can focus on how low-cost industrial MCUs paired with wireless modules (BLE/LoRa/4G) build affordable sensor nodes for motor control, current sensing and vibration monitoring in predictive maintenance terminals.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/08/21/nxp-mcx-c15-and-c16-low-cost-cortex-m23-mcus-target-iot-analog-and-motor-control-applications/"
     },
     {

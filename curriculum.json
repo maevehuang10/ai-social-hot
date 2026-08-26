@@ -1384,7 +1384,18 @@
           "product": "GNSS Module",
           "summary": "RTK(Real-Time Kinematic)厘米级差分定位技术深度解析：①载波相位差分vs伪距单点定位→RTK精度从米级跃升至厘米级的核心原理。②RTCM 3.x差分改正电文协议架构(1004/1006/1008/1033消息类型)→基准站→流动站(NTRIP Caster中转)实时改正数传输链路→收敛时间<30s,定位精度±2cm+1ppm。③安信可GNSS模组矩阵：单频L1模组(米级)→双频L1+L2/L5模组(亚米级)→RTK模组(厘米级)。④RTK部署实战：基准站选址(开阔天空、无多径、稳定电源)+4G Cat.1/NTRIP回传+流动站低功耗设计。⑤北斗三号B1C/B2a新信号与GPS L1C/L5联合定位→多星座融合提升RTK可用性(Fix率从85%→98%)。⑥典型应用：无人机精准降落(±5cm)→精准农业自动驾驶(±2.5cm)→测绘GIS采集器→工程机械自动引导。",
           "persona": "高精度定位方案工程师 · 无人机/精准农业/测绘产品经理 · GNSS算法开发者",
-          "tags": ["GPS", "GNSS", "RTK", "差分定位", "NTRIP", "RTCM", "厘米级定位", "载波相位", "北斗", "安信可GNSS"],
+          "tags": [
+            "GPS",
+            "GNSS",
+            "RTK",
+            "差分定位",
+            "NTRIP",
+            "RTCM",
+            "厘米级定位",
+            "载波相位",
+            "北斗",
+            "安信可GNSS"
+          ],
           "url": "https://docs.ai-thinker.com/gnss/"
         },
         {
@@ -1392,7 +1403,19 @@
           "product": "GNSS Module",
           "summary": "NMEA 0183协议深度解析与GNSS模组低功耗优化全链路：①NMEA核心语句：$GPGGA(定位信息,经纬度+高程+HDOP)→$GPRMC(推荐最小数据,时间+速度+航向+日期)→$GPVTG(对地速度与航向)→$GPGSA(精度因子,DOP值)→$GPGSV(可见卫星,SNR+C/N0)→$GPGLL(地理位置)。②串口参数最优配置：波特率(9600/38400/115200bps)→更新率(1/5/10Hz,高动态场景选10Hz)→语句选择性输出(关闭非必要语句降低MCU解析开销50%)。③冷/温/热启动优化：冷启动(TTFF 30-35s,下载完整星历)→温启动(TTFF 10-15s,保留有效星历)→热启动(TTFF 1-2s,保留位置+时间+星历)→AGPS辅助(蜂窝网络预取星历,TTFF<5s)。④低功耗策略：Duty Cycling(1s定位+9s休眠,平均功耗<15mA)→Backup模式(RTC+BBRAM保持星历,唤醒TTFF<5s,待机<50μA)→Periodic模式(可配置间隔5s-18h)→Standby模式(<10μA)。⑤安信可GNSS模组AT指令链：AT+CGNSSPWR=1(上电)→AT+CGNSSINFO(获取定位)→AT+CGNSSPM(功耗模式)→AT+CGNSSCH(频段配置)→AT+CGNSSTTFF(启动模式)。⑥天线设计要点：有源陶瓷天线(25×25mm,增益15-30dB,NF<2dB)→LNA+SAW滤波器→50Ω阻抗匹配→接地平面≥50×50mm。⑦典型工程案例：GPS追踪器(5min上报,2000mAh续航>7天)→共享单车(1s上报,太阳能免维护)。",
           "persona": "GNSS嵌入式开发工程师 · 低功耗IoT设备设计师 · 车队管理/资产追踪方案商",
-          "tags": ["GPS", "GNSS", "NMEA", "TTFF", "冷启动", "低功耗", "唤醒", "AT指令", "天线设计", "AGPS", "资产追踪"],
+          "tags": [
+            "GPS",
+            "GNSS",
+            "NMEA",
+            "TTFF",
+            "冷启动",
+            "低功耗",
+            "唤醒",
+            "AT指令",
+            "天线设计",
+            "AGPS",
+            "资产追踪"
+          ],
           "url": "https://docs.ai-thinker.com/gnss/"
         }
       ],
@@ -1402,7 +1425,15 @@
           "source": "CNX Software",
           "product": "IoT Module",
           "score": 86,
-          "tags": ["GMSL", "CAN-FD", "传感器", "机器人", "STM32", "工业IoT", "感知"],
+          "tags": [
+            "GMSL",
+            "CAN-FD",
+            "传感器",
+            "机器人",
+            "STM32",
+            "工业IoT",
+            "感知"
+          ],
           "summary": "阿联酋Aliensense推出NXS即插即用机器人传感器板：STM32G491 Cortex-M4F MCU+MAX96793 GMSL 2/3串行器，单根同轴电缆可传输电源+视频+传感数据最远15m(通过CAN-FD可扩展至40m)。兼容MikroElektronika 2000+ Click生态传感器，支持ROS 2+OpenCyphal机器人中间件，工业温度范围-40°C~+85°C，预售价$199。",
           "hook": "一根同轴电缆解决机器人的摄像头+传感器+供电——40×30mm的NXS板把工业机器人感知系统塞进了一个微型铝壳。",
           "post": "Aliensense NXS将GMSL 2/3高速串行链路(MAX96793)+CAN-FD现场总线+STM32G491 MCU集成到铝合金外壳中，尺寸仅40×30×28mm。通过mikroBUS扩展接口可接入2000+种传感器，结合ROS 2+OpenCyphal中间件实现即插即用的机器人感知。对安信可工业IoT模组方案来说，NXS展示了模块化传感器架构的发展方向——未来工业IoT网关可通过GMSL/CAN-FD总线统一接入多种传感器(视觉/IMU/环境)，再通过4G Cat.1/LoRa/WiFi模组回传云端，构成完整的'感知→处理→连接'三层架构。$199预售价位的即用型传感器模块也降低了工业机器人感知系统原型的门槛。",
@@ -1414,7 +1445,15 @@
           "source": "CNX Software",
           "product": "IoT Industry",
           "score": 88,
-          "tags": ["边缘AI", "Jetson", "AGX Orin", "GMSL2", "机器人", "工业视觉", "GPU"],
+          "tags": [
+            "边缘AI",
+            "Jetson",
+            "AGX Orin",
+            "GMSL2",
+            "机器人",
+            "工业视觉",
+            "GPU"
+          ],
           "summary": "Seeed Studio推出reComputer Mini J501工业边缘AI计算机，搭载NVIDIA Jetson AGX Orin(32GB/64GB,200-275 TOPS)，支持10GbE+GbE双网口、8路GMSL2相机(2×FAKRA)、CAN-FD、RS485。目标：人形机器人、AI视觉、多传感器融合自主导航、边缘生成式AI。早鸟价$2399起(32GB版)。",
           "hook": "275 TOPS的Jetson AGX Orin塞进手掌大小的工业盒子——8路GMSL2相机+10GbE+CAN-FD，机器人边缘AI的'超级大脑'来了。",
           "post": "Seeed Studio reComputer Mini J501将NVIDIA Jetson AGX Orin(最高12核Cortex-A78AE+2048 CUDA+64 Tensor Core,275 TOPS)集成到119×119×100mm的工业级嵌入式计算机中。关键特性：8路GMSL2相机输入(MAX96712解串器)→2路CAN-FD+RS485工业总线→10GbE+GbE双以太网→128GB NVMe SSD。对安信可工业IoT网关方案来说，J501展示了边缘AI在工业场景的顶层架构——GPU做传感器融合与AI推理，有线(CAN/RS485/10GbE)接入现场设备，无线(4G Cat.1/WiFi/LoRa/NB-IoT)做遥测和云端同步。安信可的蜂窝/WiFi/LoRa模组在这类架构中作为'边缘AI→云端'的数据桥梁，将推理结果和异常事件实时上报。$2399起的早鸟定价使工业级边缘AI部署门槛显著降低。",
@@ -1433,7 +1472,18 @@
           "product": "WiFi Module",
           "summary": "智能灯控与智能插座场景模组选型矩阵：①WiFi单控灯(通断器)→BW16(RTL8720DN,双频WiFi+BLE 5.0,成本最优,邮票孔封装)→支持MQTT直连云平台,响应<200ms。②WiFi全彩灯带(PWM调光调色)→Ai-WB2(BL602 RISC-V,5路PWM,12μA深度睡眠,3.3V直接驱动MOS管)。③BLE Mesh灯组(多灯同步)→PB-03(PHY62xx BLE 5.2,支持128节点Mesh组网,广播功耗<15μA)→手机APP群控+场景联动。④WiFi智能插座(电量计量)→Ai-WB2+HLW8032计量芯片→UART读取电压/电流/功率→MQTT上报云端→过流过温保护固件逻辑。⑤Zigbee插座(网关子设备)→BW16运行Zigbee+WiFi双协议→WiFi上行+Zigbee下行控制和插座子设备。⑥低功耗电池插座(纽扣电池)→BLE PB-02(PHY6212,待机<3μA,触点按钮唤醒)→BLE广播配网+定时/倒计时本地执行→1颗CR2032续航>2年。选型决策树：需双频抗干扰→BW16;需低功耗电池场景→Ai-WB2/PB-02;需Mesh多设备→PB-03 Mesh;需本地AI→BW21-CBV。",
           "persona": "智能家居产品经理 · 照明方案商 · 插座/通断器硬件工程师 · IoT全屋智能集成商",
-          "tags": ["智能家居", "灯控", "智能插座", "BW16", "Ai-WB2", "PB-03", "BLE Mesh", "WiFi", "PWM", "选型"],
+          "tags": [
+            "智能家居",
+            "灯控",
+            "智能插座",
+            "BW16",
+            "Ai-WB2",
+            "PB-03",
+            "BLE Mesh",
+            "WiFi",
+            "PWM",
+            "选型"
+          ],
           "url": "https://docs.ai-thinker.com/smart-home/"
         },
         {
@@ -1441,7 +1491,19 @@
           "product": "BLE Module",
           "summary": "智能门锁场景模组选型矩阵：①WiFi门锁(远程开锁+状态上报)→BW16双频WiFi+TLS双向认证安全通道→MQTT实时事件推送(开锁/防撬/低电量/胁迫报警)→OTA固件升级→配合RTOS实现<100ms本地指纹/密码验证。②BLE门锁(手机靠近开锁)→PB-03 BLE 5.2(PHY6252,连接间隔15ms,延迟<30ms)→支持AES-128加密绑定→APP远程授权临时密码(云端→手机→门锁三级下发)。③NB-IoT门锁(公寓/公租房)→NB-IoT模组(PSM模式待机<5μA,T3324定时器60s)→运营商eSIM直连云平台→无需WiFi网关,覆盖地下室+楼道。④CAT.1门锁(带视频)→4G Cat.1模组+摄像头(JPEG抓拍)→MQTT推送开锁记录+抓拍图片→VoLTE语音对讲(访客→业主)。电动窗帘场景选型矩阵：①WiFi窗帘电机→Ai-WB2+直流有刷电机驱动(DRV8870)→MQTT远程开关+百分比行程控制→IFTTT日出日落自动化。②BLE窗帘遥控器→PB-03(广播间隔20ms)→手机APP/遥控器本地直连→TOF传感器自动开合(光照自适应)。③离线语音窗帘→VC-02模组(本地唤醒词'开窗帘''关窗帘''停',唤醒率>95%,响应<200ms)→PWM控制电机→无需WiFi/BLE,离线独立运行。门锁+窗帘联动场景：BW16 WiFi门锁检测开锁事件→MQTT→Ai-WB2窗帘电机自动开启到场景预设位置→语音VC-02播报'欢迎回家'。安全建议：门锁固件务必启用Secure Boot+Flash加密,WiFi通信强制TLS 1.2,密钥通过安全元件(SE)或TrustZone存储。",
           "persona": "智能门锁产品经理 · 电动窗帘方案商 · 智能家居全屋集成商 · 安防产品工程师",
-          "tags": ["智能门锁", "电动窗帘", "BLE", "WiFi", "NB-IoT", "离线语音", "VC-02", "BW16", "PB-03", "4G Cat.1", "安全"],
+          "tags": [
+            "智能门锁",
+            "电动窗帘",
+            "BLE",
+            "WiFi",
+            "NB-IoT",
+            "离线语音",
+            "VC-02",
+            "BW16",
+            "PB-03",
+            "4G Cat.1",
+            "安全"
+          ],
           "url": "https://docs.ai-thinker.com/smart-home/"
         },
         {
@@ -1449,7 +1511,20 @@
           "product": "Radar Module",
           "summary": "智能空调/温控场景模组选型矩阵：①WiFi红外空调伴侣→Ai-WB2+红外发射管→学习空调遥控码(RAW/NEC/RC5协议)→MQTT远程控制+定时开关→云端联动温湿度传感器(SHT30 I2C)实现恒温闭环。②BLE温控器(壁挂面板)→PB-03 BLE+2.4寸LCD→本地PID温控算法→BLE Mesh与各房间传感器联动→手机APP场景切换(离家/回家/睡眠)。③雷达人体感应空调节能→Rd-04 10GHz多普勒雷达(感应距离0.5-8m,穿透非金属)→有人时维持设定温度,无人>30min自动调升2°C→节省空调能耗30%+→无需摄像头,隐私友好。④离线语音空调面板→VC-02模组(支持'温度调到26度''风速最大'等自然语言指令,离线识别,<200ms响应)→PWM控制红外发射角度(UART转步进电机扫风)。全屋智能模组选型总览表：①灯控：单灯WiFi→BW16;彩灯带→Ai-WB2;多灯Mesh→PB-03。②插座：WiFi计量→Ai-WB2;BLE电池→PB-02。③门锁：WiFi远程→BW16;BLE靠近→PB-03;NB-IoT公寓→NB-IoT;猫眼视频→4G Cat.1。④窗帘：WiFi→Ai-WB2;BLE→PB-03;离线语音→VC-02。⑤空调：WiFi红外→Ai-WB2;BLE面板→PB-03;雷达节能→Rd-04;语音面板→VC-02。⑥网关：BW16(Access Point+Station双模,WiFi→BLE桥接)或BW21-CBV(内置AI本地场景引擎)。⑦传感：温湿度/门磁/人体红外→BLE PB-02(广播<1s,纽扣电池>2年)。全屋智能推荐架构：BW16作为家庭网关(WiFi上云+Bridge BLE Mesh本地设备)→各房间PB-03 Mesh覆盖灯/插座/传感器→Ai-WB2直连空调/窗帘等高吞吐设备→VC-02离线语音面板作为人机交互入口→Rd-04雷达实现无感自动化。",
           "persona": "智能家居系统架构师 · 全屋智能集成商 · 空调/温控方案商 · 智能节能产品经理",
-          "tags": ["智能空调", "温控", "全屋智能", "红外", "WiFi", "雷达", "Rd-04", "离线语音", "VC-02", "BLE Mesh", "节能", "模组选型"],
+          "tags": [
+            "智能空调",
+            "温控",
+            "全屋智能",
+            "红外",
+            "WiFi",
+            "雷达",
+            "Rd-04",
+            "离线语音",
+            "VC-02",
+            "BLE Mesh",
+            "节能",
+            "模组选型"
+          ],
           "url": "https://docs.ai-thinker.com/smart-home/"
         }
       ],
@@ -1459,7 +1534,16 @@
           "source": "CNX Software",
           "product": "IoT Module",
           "score": 89,
-          "tags": ["工业IoT", "LoRaWAN", "网关", "CM4", "CM5", "2.5GbE", "WisBlock", "边缘计算"],
+          "tags": [
+            "工业IoT",
+            "LoRaWAN",
+            "网关",
+            "CM4",
+            "CM5",
+            "2.5GbE",
+            "WisBlock",
+            "边缘计算"
+          ],
           "summary": "RAKwireless发布WisGate Connect Router RAK7392工业级边缘路由器/网关，基于Raspberry Pi CM4/CM5模组，配备3个千兆网口+1个2.5GbE+mini PCIe无线扩展+WisBlock传感器模块接口，支持LoRaWAN包转发、Modbus→MQTT协议转换、边缘计算和VPN隧道，无需外接USB适配器即可完成复杂工业IoT部署。",
           "hook": "Pi CM5驱动、2.5GbE+LoRaWAN+WisBlock传感器三合一——RAK7392把工业IoT网关的BOM从'一堆板子+一堆USB线'浓缩到一块板。",
           "post": "RAKwireless WisGate Connect Router RAK7392将Raspberry Pi CM4/CM5(BCM2712四核Cortex-A76 2.4GHz)与三路千兆+一路2.5GbE以太网、mini PCIe无线扩展、WisBlock传感器接口集成到单板工业网关中。对安信可智能家居/工业IoT模组方案来说，RAK7392展示了边缘网关的'全合一路线'——有线侧(2.5GbE/CAN/RS485)接入工业设备，无线侧(mini PCIe插安信可4G Cat.1/LoRa/WiFi模组)连接传感器网络，WisBlock扩展温湿度/光照/空气质量等环境传感器。这种架构下安信可BW/Ai-WB2/Ra系列模组可扮演WiFi Mesh本地组网、LoRa远距传感器回传、4G蜂窝上云三个角色，与RAK7392形成完整的'模组→网关→云端'三级IoT架构。",
@@ -1471,7 +1555,15 @@
           "source": "CNX Software",
           "product": "MCU",
           "score": 82,
-          "tags": ["RISC-V", "CH32V203", "USB", "开发板", "电容触摸", "低成本", "嵌入式"],
+          "tags": [
+            "RISC-V",
+            "CH32V203",
+            "USB",
+            "开发板",
+            "电容触摸",
+            "低成本",
+            "嵌入式"
+          ],
           "summary": "Icy Electronics推出Comu微型开发板，基于WCH CH32V203 RISC-V MCU(144MHz,20KB SRAM,224KB Flash)，尺寸仅13×9.4mm(小于microSD卡)，直接插入USB端口运行。集成2颗白光LED+4颗电容触摸按键+6个GPIO测试点，售价仅$6，适合裸机编程、USB HID定制项目和数据包实验。",
           "hook": "比microSD还小的RISC-V开发板，$6直接插USB口——Comu把嵌入式开发的入门门槛打到了白菜价。",
           "post": "Comu基于WCH CH32V203F8 RISC-V MCU(144MHz单核32位,20KB SRAM,224KB Flash)，以13×9.4mm微型尺寸集成2颗LED+4路电容触摸+6个GPIO，全部塞进USB-A公头直接供电和编程。对安信可模组生态来说，CH32V203代表了RISC-V在超低成本MCU领域的渗透——虽然无线连接仍需外接模组(如安信可PB-03 BLE/Ai-WB2 WiFi/蜂窝模组)，但国产RISC-V MCU+安信可无线模组的组合可以在智能家居传感器节点(门磁/温湿度/按键遥控器)中实现BOM总成本<$2的极致方案。$6的定价也说明RISC-V MCU在IoT边缘节点正在进入'比Cortex-M0更便宜'的价格区间。",
@@ -1484,7 +1576,106 @@
       "id": 13,
       "title": "工业IoT模组方案",
       "covered": true,
-      "entries": []
+      "official": [
+        {
+          "title": "工业IoT远程监测模组选型：从传感器到云端的全链路数据采集方案",
+          "product": "LoRa Module",
+          "summary": "工业远程监测场景模组选型矩阵（设备运行参数/环境温湿度/能耗/液位/压力/电流）：①短距节点采集→BLE PB-03(PHY62xx BLE 5.2)连接多路传感器(温度/湿度/压力/电流互感器)，广播或Mesh本地组网，节点休眠功耗<100μA，纽扣电池续航>2年。②中距回传→LoRa Ra-01SCH/Ra-11(Sub-GHz 803-930MHz，视距>5km，SF12灵敏度-137dBm)，穿透工厂钢构/地下管廊，点对多点星型组网。③广域蜂窝上报→NB-IoT(PSM深睡3-5μA，eDRX准实时50-100μA)/4G Cat.1(MQTT实时，主通道)覆盖无网关的分散站点。④WiFi局域网→Ai-WB2(BL602 RISC-V，12μA深睡)接入工厂内网，适合有WiFi覆盖的车间/产线。⑤网关汇聚→BW16双频WiFi+BLE桥接，或4G Cat.1工业网关统一上云。选型决策树：无供电偏远点→LoRa+太阳能供电；需实时+移动设备→4G Cat.1；室内密布传感器→BLE Mesh+WiFi网关；超低功耗仪表(水表/气表)→NB-IoT PSM。",
+          "persona": "工业IoT方案商 · 设备远程运维工程师 · 能源/水务/环保监测集成商 · 工业数据采集产品经理",
+          "tags": [
+            "工业IoT",
+            "远程监测",
+            "数据采集",
+            "LoRa",
+            "NB-IoT",
+            "4G Cat.1",
+            "BLE",
+            "WiFi",
+            "传感器",
+            "网关"
+          ],
+          "url": "https://docs.ai-thinker.com/lora/"
+        },
+        {
+          "title": "工业预测性维护模组方案：振动/温度边缘采集与云端AI分析",
+          "product": "BLE Module",
+          "summary": "预测性维护(PdM)方案架构：①振动采集→BLE PB-03/4G Cat.1模组接三轴加速度计(如LIS3DH/ADXL345，采样率≥1.6kHz)，时域特征(RMS/峰值/峭度)+频域FFT提取轴承/齿轮故障特征频率(如BPFO/BPFI)。②温度监测→接触式PT100或红外温度传感器接BLE PB-03定时上报(10min)，电机/泵轴温升异常提前预警。③边缘计算→BW21-CBV(RTL8730E AI芯片)本地跑轻量CNN/异常检测模型，无云实时告警(<100ms)，降低回传带宽90%。④云端AI→4G Cat.1 MQTT上云，时序数据库记录设备健康度曲线，机器学习预测剩余寿命(RUL)，自动派发工单。⑤低功耗设计→振动采集阈值中断触发唤醒，非采集期深睡，2000mAh电池续航>1年。选型建议：移动设备(电机/泵/风机)→BLE采集+4G Cat.1上云；固定设备密集→BLE Mesh+WiFi网关；本地实时告警→BW21-CBV边缘AI。",
+          "persona": "工业设备制造商 · 预测性维护方案商 · 旋转机械(泵/风机/电机)运维工程师 · 边缘AI产品经理",
+          "tags": [
+            "预测性维护",
+            "振动",
+            "温度",
+            "边缘计算",
+            "BLE",
+            "4G Cat.1",
+            "AI",
+            "剩余寿命",
+            "工业IoT"
+          ],
+          "url": "https://docs.ai-thinker.com/cellular/"
+        },
+        {
+          "title": "工业网关多协议接入方案：Modbus/CAN/RS485 → 4G/WiFi/LoRa上云",
+          "product": "IoT Module",
+          "summary": "工业网关多协议接入架构：①现场总线接入→RS485(Modbus RTU)/RS232/DI/DO接BW16(双频WiFi+BLE 5.0，多路UART)采集PLC/仪表/变频器数据，Modbus寄存器轮询。②CAN总线→工业CAN 2.0B(车辆/机器人/伺服)经CAN收发器+MCU转UART→4G Cat.1模组透传。③协议转换→Modbus RTU↔TCP、DL/T645电表、MQTT→BW16边缘协议转换，本地缓存断网续传。④上云通道→4G Cat.1(MQTT over LTE主通道)+WiFi(局域网)+LoRa Ra-01SCH(远距传感器回传)+NB-IoT(备用)。⑤网关选型→集中式网关BW16(AP+Station双模，WiFi→BLE桥接)；工业级多协议→4G Cat.1 OpenCPU单模组方案；远距LoRa网关→SX1302+Ra模组。⑥可靠性→看门狗+断网重连(指数退避)+本地数据缓存(Flash)，掉线不丢数据。典型架构：现场设备(Modbus/CAN)→BW16/4G Cat.1网关协议转换→MQTT→云平台(数据看板+远程运维+OTA)。",
+          "persona": "工业网关方案商 · 协议转换/边缘计算工程师 · 工厂数字化集成商 · PLC/DCS对接工程师",
+          "tags": [
+            "工业网关",
+            "Modbus",
+            "CAN",
+            "RS485",
+            "协议转换",
+            "4G Cat.1",
+            "WiFi",
+            "LoRa",
+            "MQTT",
+            "边缘计算"
+          ],
+          "url": "https://docs.ai-thinker.com/"
+        }
+      ],
+      "external": [
+        {
+          "title": "Forlinx FCU3101: Rockchip RV1126B Fanless Edge AI System Targets IIoT & Smart Security",
+          "source": "CNX Software",
+          "product": "IoT Module",
+          "score": 87,
+          "tags": [
+            "工业IoT",
+            "边缘AI",
+            "RV1126B",
+            "智能安防",
+            "无风扇",
+            "工业级",
+            "视频监控"
+          ],
+          "summary": "飞凌嵌入式(Forlinx)推出FCU3101无风扇边缘AI系统，基于瑞芯微Rockchip RV1126B四核Cortex-A53(1.6GHz)处理器，最高4GB DDR4+64GB eMMC，支持H.265/H.264 4K@30fps编解码。工业接口齐全：双以太网+RS485/RS232+数字IO+继电器输出，可选4G LTE，9-36V宽压DC供电，工作温度-40~+85°C。面向工业物联网(IIoT)与智能安防场景：视频监控、车牌识别、入侵检测、工业检测、物料计数。",
+          "hook": "一台无风扇盒子，同时搞定工业视觉检测和4K安防——RV1126B的-40°C宽温把边缘AI塞进了产线机柜。",
+          "post": "Forlinx FCU3101将Rockchip RV1126B四核A53与4GB内存、64GB eMMC、双网口、RS485/RS232、DI/DO、继电器集成进-40~+85°C的无风扇机箱，9-36V宽压直连工业电源。对安信可工业IoT模组方案而言，FCU3101代表了边缘网关的'视觉+控制'路线——有线侧RS485/CAN接PLC与仪表，无线侧可插安信可4G Cat.1/LoRa/WiFi模组回传传感器网络，视觉侧本地跑车牌识别/入侵检测。这种'边缘AI盒子+安信可无线模组'的组合，是预测性维护与智慧工厂视频巡检场景的高性价比落地架构。",
+          "url": "https://www.cnx-software.com/2026/08/24/rockchip-rv1126b-based-forlinx-fcu3101-fanless-edge-ai-system-targets-iiot-and-smart-security-applications/",
+          "date": "2026-08-24"
+        },
+        {
+          "title": "NXP MCX C15 & C16: Low-Cost Cortex-M23 MCUs Target Industrial IoT, Analog & Motor Control",
+          "source": "CNX Software",
+          "product": "MCU",
+          "score": 85,
+          "tags": [
+            "NXP",
+            "Cortex-M23",
+            "MCU",
+            "工业IoT",
+            "模拟",
+            "电机控制",
+            "低成本"
+          ],
+          "summary": "NXP发布MCX C15/C16低成本入门级MCU，基于Arm Cortex-M23内核，最高64KB Flash+12KB SRAM。集成16位SAR ADC、带DAC的高速比较器、内部运算放大器(OpAmp)、FlexPWM(电机/电源控制)、最多4路UART+LPI2C+LPSPI、45个GPIO。面向工业IoT、模拟信号处理与电机控制场景，提供从LPC800/LPC1100/Kinetis的迁移路径，并与MCX A系列引脚兼容。",
+          "hook": "64KB Flash的Cortex-M23卖到白菜价，还把16位ADC+运放+FlexPWM全塞进去——工业传感器节点的MCU选型更卷了。",
+          "post": "NXP MCX C15/C16把Cortex-M23、64KB Flash、16位SAR ADC、内部运放、FlexPWM与4路UART压缩进低成本封装，并提供LPC/Kinetis迁移路径与MCX A系列引脚兼容。对安信可模组生态来说，这类低成本工业MCU是'采集+控制'主控，外挂安信可BLE PB-03(本地Mesh组网)、LoRa Ra系列(远距回传)或4G Cat.1(蜂窝上云)即可构成完整工业传感器节点。Cortex-M23的低功耗+丰富模拟外设，尤其适合电机驱动、电流检测、振动采集等预测性维护终端，BOM成本可压到极低。",
+          "url": "https://www.cnx-software.com/2026/08/21/nxp-mcx-c15-and-c16-low-cost-cortex-m23-mcus-target-iot-analog-and-motor-control-applications/",
+          "date": "2026-08-21"
+        }
+      ]
     },
     {
       "id": 14,
