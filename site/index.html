@@ -243,156 +243,111 @@
       content: "-";
     }
 
-    .module-hot-panel {
-      margin-bottom: 22px;
+    .side-hot-panel {
+      display: none;
+      margin-top: 18px;
       border: 1px solid rgba(148, 163, 184, 0.18);
       border-radius: 10px;
       background: #0d1424;
       color: #e5edf8;
-      padding: 18px;
+      padding: 12px;
     }
 
-    .module-hot-head {
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      gap: 14px;
-      margin-bottom: 14px;
-    }
-
-    .module-hot-head h2 {
+    .side-hot-title {
       margin: 0 0 6px;
       color: #f8fafc;
-      font-size: 20px;
-    }
-
-    .module-hot-head p {
-      margin: 0;
-      color: #8f9aaa;
       font-size: 13px;
-      line-height: 1.7;
+      font-weight: 800;
+      line-height: 1.4;
     }
 
-    .module-hot-stats {
+    .side-hot-desc {
+      margin: 0 0 10px;
+      color: #8f9aaa;
+      font-size: 11px;
+      line-height: 1.6;
+    }
+
+    .side-hot-meta {
       display: flex;
       flex-wrap: wrap;
-      gap: 8px;
-      margin-bottom: 14px;
+      gap: 6px;
+      margin-bottom: 10px;
     }
 
-    .module-hot-stat {
+    .side-hot-pill {
       border: 1px solid rgba(34, 211, 238, 0.22);
       border-radius: 999px;
       background: rgba(8, 145, 178, 0.1);
       color: #a5f3fc;
-      padding: 5px 11px;
-      font-size: 12px;
+      padding: 3px 7px;
+      font-size: 10px;
       white-space: nowrap;
     }
 
-    .module-hot-grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 12px;
+    .side-hot-card {
+      border-top: 1px solid rgba(148, 163, 184, 0.12);
+      padding-top: 10px;
     }
 
-    .module-hot-card {
-      border: 1px solid rgba(148, 163, 184, 0.12);
-      border-radius: 8px;
-      background: rgba(255, 255, 255, 0.035);
-      padding: 14px;
-    }
-
-    .module-hot-kicker {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 8px;
-      margin-bottom: 8px;
+    .side-hot-kicker {
+      margin-bottom: 6px;
       color: #67e8f9;
-      font-size: 12px;
-      font-weight: 700;
+      font-size: 11px;
+      font-weight: 800;
     }
 
-    .module-hot-score {
-      color: #ffb86b;
-      font-size: 12px;
-      white-space: nowrap;
-    }
-
-    .module-hot-card h3 {
+    .side-hot-card h3 {
       margin: 0 0 8px;
       color: #f8fafc;
-      font-size: 15px;
-      line-height: 1.5;
-    }
-
-    .module-hot-card p {
-      margin: 0;
-      color: #9aa7ba;
       font-size: 12px;
-      line-height: 1.7;
+      line-height: 1.45;
     }
 
-    .module-hot-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-      margin-top: 10px;
-    }
-
-    .module-hot-tags span {
-      border-radius: 999px;
-      background: rgba(192, 132, 252, 0.11);
-      color: #dabaff;
-      padding: 3px 8px;
+    .side-hot-product,
+    .side-hot-idea,
+    .side-hot-check {
+      margin: 0 0 8px;
+      color: #9aa7ba;
       font-size: 11px;
+      line-height: 1.55;
     }
 
-    .module-hot-product {
-      margin-top: 10px;
+    .side-hot-product {
       border: 1px solid rgba(74, 222, 128, 0.18);
       border-radius: 6px;
       background: rgba(34, 197, 94, 0.08);
       color: #bbf7d0;
-      padding: 8px 10px;
-      font-size: 12px;
-      line-height: 1.6;
+      padding: 7px 8px;
     }
 
-    .module-hot-product strong,
-    .module-hot-idea strong,
-    .module-hot-check strong {
+    .side-hot-product strong,
+    .side-hot-idea strong,
+    .side-hot-check strong {
       color: #f8fafc;
     }
 
-    .module-hot-idea {
+    .side-hot-link {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 6px;
+      width: 100%;
       margin-top: 10px;
-      padding-top: 10px;
-      border-top: 1px solid rgba(148, 163, 184, 0.08);
-      color: #cbd5e1;
-      font-size: 12px;
-      line-height: 1.7;
-    }
-
-    .module-hot-check {
-      margin-top: 8px;
-      color: #94a3b8;
-      font-size: 12px;
-      line-height: 1.7;
-    }
-
-    .module-hot-link {
-      display: inline-flex;
-      margin-top: 10px;
+      border: 1px solid rgba(34, 211, 238, 0.24);
+      border-radius: 8px;
+      background: rgba(8, 145, 178, 0.13);
       color: #67e8f9;
+      padding: 7px 8px;
       font-size: 12px;
       font-weight: 700;
       text-decoration: none;
     }
 
-    .module-hot-link:hover {
-      text-decoration: underline;
+    .side-hot-empty {
+      color: #8f9aaa;
+      font-size: 11px;
+      line-height: 1.6;
     }
 
     .form-grid {
@@ -549,14 +504,6 @@
 
       .toolbar,
       .form-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .module-hot-head {
-        display: block;
-      }
-
-      .module-hot-grid {
         grid-template-columns: 1fr;
       }
 
@@ -1737,6 +1684,10 @@
         margin: 0;
       }
 
+      .side-hot-panel {
+        display: none !important;
+      }
+
       .page {
         padding: 18px 14px 40px;
       }
@@ -1772,6 +1723,14 @@
     <a class="side-link active" href="#tracker" data-view="tracker">内容追踪</a>
     <a class="side-link" href="#picks" data-view="picks">每日选题</a>
     <a class="side-link" href="#hot" data-view="hot">内容回顾</a>
+    <section class="side-hot-panel" id="moduleHotPanel">
+      <h2 class="side-hot-title">物联网模组热点</h2>
+      <p class="side-hot-desc">自动匹配 Ai-Thinker 产品线，告诉你这条热点能怎么用。</p>
+      <div class="side-hot-meta" id="moduleHotStats"></div>
+      <div id="moduleHotGrid">
+        <div class="side-hot-empty">正在整理近期热点...</div>
+      </div>
+    </section>
 
 
   </aside>
@@ -1871,19 +1830,6 @@
         <button class="button wide" type="submit">保存内容</button>
       </form>
     </details>
-
-    <section class="module-hot-panel" id="moduleHotPanel">
-      <div class="module-hot-head">
-        <div>
-          <h2>物联网模组热点雷达</h2>
-          <p>从内容追踪里自动筛出和 Ai-Thinker 产品线有关的热点，直接标出关联产品、改写角度和发布前要核对的信息。</p>
-        </div>
-      </div>
-      <div class="module-hot-stats" id="moduleHotStats"></div>
-      <div class="module-hot-grid" id="moduleHotGrid">
-        <div class="empty">正在整理近期模组热点...</div>
-      </div>
-    </section>
 
     <section class="toolbar">
       <input id="search" type="search" placeholder="搜索账号、标题、标签、原因">
@@ -19712,6 +19658,14 @@
       render();
     });
 
+    document.addEventListener("click", event => {
+      const link = event.target.closest("[data-action='show-hot']");
+      if (!link) return;
+      event.preventDefault();
+      showView("hot");
+      history.replaceState(null, "", "#hot");
+    });
+
     sideLinks.forEach(link => {
       link.addEventListener("click", event => {
         event.preventDefault();
@@ -19921,32 +19875,19 @@
         ...Object.entries(productCounts).slice(0, 4).map(([line, count]) => `${line} ${count}`)
       ].map(text => `<span class="module-hot-stat">${escapeHtml(text)}</span>`).join("");
 
-      const selected = [];
-      for (const topic of moduleTopics) {
-        if (!selected.some(item => item.aiMatch.line === topic.aiMatch.line)) selected.push(topic);
-        if (selected.length >= 6) break;
-      }
+      const topic = moduleTopics[0];
+      const idea = topic.aiMatch.angle || moduleContentIdea(topic, topic.hotCategory);
 
-      gridEl.innerHTML = selected.map(topic => {
-        const tags = (topic.tags || []).slice(0, 4);
-        const summary = topic.summary || topic.value || "";
-        const idea = topic.aiMatch.angle || moduleContentIdea(topic, topic.hotCategory);
-        return `
-          <article class="module-hot-card">
-            <div class="module-hot-kicker">
-              <span>${escapeHtml(topic.hotCategory)} · ${escapeHtml(topic.source || "行业热点")}</span>
-              <span class="module-hot-score">${escapeHtml(topic.score || "90")}分</span>
-            </div>
-            <h3>${escapeHtml(topic.title)}</h3>
-            <p>${escapeHtml(summary)}</p>
-            <div class="module-hot-tags">${tags.map(tag => `<span>${escapeHtml(tag)}</span>`).join("")}</div>
-            <div class="module-hot-product"><strong>关联 Ai-Thinker：</strong>${escapeHtml(topic.aiMatch.products)}</div>
-            <div class="module-hot-idea"><strong>怎么利用：</strong>${escapeHtml(idea)}</div>
-            <div class="module-hot-check"><strong>发布前核对：</strong>${escapeHtml(topic.aiMatch.check)}</div>
-            <a class="module-hot-link" href="${escapeAttribute(topic.url)}" target="_blank" rel="noopener noreferrer">查看来源</a>
-          </article>
-        `;
-      }).join("");
+      gridEl.innerHTML = `
+        <article class="side-hot-card">
+          <div class="side-hot-kicker">${escapeHtml(topic.aiMatch.line)} · ${escapeHtml(topic.score || "90")}分</div>
+          <h3>${escapeHtml(topic.title)}</h3>
+          <p class="side-hot-product"><strong>关联：</strong>${escapeHtml(topic.aiMatch.products)}</p>
+          <p class="side-hot-idea"><strong>利用：</strong>${escapeHtml(idea)}</p>
+          <p class="side-hot-check"><strong>核对：</strong>${escapeHtml(topic.aiMatch.check)}</p>
+          <a class="side-hot-link" href="#hot" data-action="show-hot">看内容回顾 <span>→</span></a>
+        </article>
+      `;
     }
 
     loadTopicCaptures().then(() => {
