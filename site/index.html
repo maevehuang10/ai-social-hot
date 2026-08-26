@@ -243,6 +243,134 @@
       content: "-";
     }
 
+    .module-hot-panel {
+      margin-bottom: 22px;
+      border: 1px solid rgba(148, 163, 184, 0.18);
+      border-radius: 10px;
+      background: #0d1424;
+      color: #e5edf8;
+      padding: 18px;
+    }
+
+    .module-hot-head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 14px;
+      margin-bottom: 14px;
+    }
+
+    .module-hot-head h2 {
+      margin: 0 0 6px;
+      color: #f8fafc;
+      font-size: 20px;
+    }
+
+    .module-hot-head p {
+      margin: 0;
+      color: #8f9aaa;
+      font-size: 13px;
+      line-height: 1.7;
+    }
+
+    .module-hot-stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+
+    .module-hot-stat {
+      border: 1px solid rgba(34, 211, 238, 0.22);
+      border-radius: 999px;
+      background: rgba(8, 145, 178, 0.1);
+      color: #a5f3fc;
+      padding: 5px 11px;
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
+    .module-hot-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .module-hot-card {
+      border: 1px solid rgba(148, 163, 184, 0.12);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.035);
+      padding: 14px;
+    }
+
+    .module-hot-kicker {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 8px;
+      color: #67e8f9;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .module-hot-score {
+      color: #ffb86b;
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
+    .module-hot-card h3 {
+      margin: 0 0 8px;
+      color: #f8fafc;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    .module-hot-card p {
+      margin: 0;
+      color: #9aa7ba;
+      font-size: 12px;
+      line-height: 1.7;
+    }
+
+    .module-hot-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 10px;
+    }
+
+    .module-hot-tags span {
+      border-radius: 999px;
+      background: rgba(192, 132, 252, 0.11);
+      color: #dabaff;
+      padding: 3px 8px;
+      font-size: 11px;
+    }
+
+    .module-hot-idea {
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid rgba(148, 163, 184, 0.08);
+      color: #cbd5e1;
+      font-size: 12px;
+      line-height: 1.7;
+    }
+
+    .module-hot-link {
+      display: inline-flex;
+      margin-top: 10px;
+      color: #67e8f9;
+      font-size: 12px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .module-hot-link:hover {
+      text-decoration: underline;
+    }
+
     .form-grid {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -397,6 +525,14 @@
 
       .toolbar,
       .form-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .module-hot-head {
+        display: block;
+      }
+
+      .module-hot-grid {
         grid-template-columns: 1fr;
       }
 
@@ -1711,6 +1847,19 @@
         <button class="button wide" type="submit">保存内容</button>
       </form>
     </details>
+
+    <section class="module-hot-panel" id="moduleHotPanel">
+      <div class="module-hot-head">
+        <div>
+          <h2>物联网模组热点雷达</h2>
+          <p>从内容追踪里自动筛出和无线模组、传感器、IoT 方案相关的高分热点，直接辅助 LinkedIn / Facebook / 短视频选题。</p>
+        </div>
+      </div>
+      <div class="module-hot-stats" id="moduleHotStats"></div>
+      <div class="module-hot-grid" id="moduleHotGrid">
+        <div class="empty">正在整理近期模组热点...</div>
+      </div>
+    </section>
 
     <section class="toolbar">
       <input id="search" type="search" placeholder="搜索账号、标题、标签、原因">
@@ -19151,7 +19300,7 @@
 
     function getDateOptions() {
       const fixedDates = ["5/29", "5/30", "5/31", "6/1", "6/2", "6/3", "6/4", "6/5", "6/16", "6/15", "6/14", "6/18", "6/17", "6/19", "6/20", "6/21", "6/22", "6/23", "6/29", "6/28", "6/27", "6/30", "7/1", "7/2", "7/3", "7/4", "7/5", "7/6", "7/7", "7/8", "7/9", "7/10", "7/11", "7/12", "7/13", "7/14", "7/15", "7/16", "7/17", "7/18", "7/19", "7/20", "7/21", "7/22", "7/23", "7/24", "7/25", "7/26", "7/27", "7/28", "7/29", "7/30", "7/31", "8/1", "8/2", "8/3", "8/4", "8/5", "8/6", "8/7", "8/8", "8/9", "8/10", "8/11", "8/12", "8/13", "8/14", "8/15", "8/16", "8/17", "8/18", "8/19", "8/20", "8/21", "8/22", "8/23", "8/24", "8/25"];
-      const captureDates = captures.map(item => getDateKey(item.createdAt));
+      const captureDates = [...captures, ...topicCaptures].map(item => getDateKey(item.createdAt));
       const all = ["all", ...new Set([...fixedDates, ...captureDates])].filter(d => d !== "all");
       all.sort((a, b) => {
         const [ma, da] = a.split("/").map(Number);
@@ -19349,14 +19498,17 @@
     });
 
     let topicCaptures = [];
+    let topicLibrary = [];
 
     async function loadTopicCaptures() {
       topicCaptures = [];
+      topicLibrary = [];
       try {
         const res = await fetch("social-content-tracker/topics.json?ts=" + Date.now());
         if (!res.ok) return;
         const data = await res.json();
         if (!Array.isArray(data.topics)) return;
+        topicLibrary = data.topics;
         topicCaptures = data.topics
           .filter(t => t.url && t.url.length > 0)
           .map(t => ({
@@ -19376,7 +19528,81 @@
       } catch(e) {}
     }
 
-    loadTopicCaptures().then(() => render());
+    function getModuleHotCategory(topic) {
+      const product = String(topic.product || "").toLowerCase();
+      const text = [topic.title, topic.summary, topic.value, (topic.tags || []).join(" ")].join(" ").toLowerCase();
+      if (/radar|uwb/.test(product)) return "传感热点";
+      if (/wifi|wi-fi|ble|bluetooth|lora|cellular|gnss|gps|esp32/.test(product)) return "通信模组";
+      if (/radar|uwb|presence|positioning|rtls/.test(text)) return "传感热点";
+      if (/lora|lorawan|wifi|wi-fi|ble|bluetooth|cellular|nb-iot|cat\.?1|gnss|gps|module|wireless/.test(text)) return "通信模组";
+      return "成品方案";
+    }
+
+    function moduleContentIdea(topic, category) {
+      if (topic.hook) return topic.hook;
+      if (category === "传感热点") return "做成场景短视频：先展示用户痛点，再解释传感器如何解决。";
+      if (category === "通信模组") return "做成选型内容：协议、距离、功耗、部署链路各讲一句。";
+      return "做成 B2B 案例拆解：应用场景、系统结构、客户价值三段式。";
+    }
+
+    function renderModuleHotBoard() {
+      const statsEl = document.getElementById("moduleHotStats");
+      const gridEl = document.getElementById("moduleHotGrid");
+      if (!statsEl || !gridEl) return;
+
+      const moduleTopics = topicLibrary
+        .filter(topic => topic.url && topic.title)
+        .map(topic => ({ ...topic, hotCategory: getModuleHotCategory(topic) }))
+        .filter(topic => ["通信模组", "传感热点", "成品方案"].includes(topic.hotCategory))
+        .sort((a, b) => (Number(b.score) || 0) - (Number(a.score) || 0));
+
+      if (!moduleTopics.length) {
+        statsEl.innerHTML = "";
+        gridEl.innerHTML = `<div class="empty">暂无可用热点，等 tracker 更新后这里会自动出现。</div>`;
+        return;
+      }
+
+      const latestDate = moduleTopics.map(topic => topic.date).filter(Boolean).sort().pop() || "近期";
+      const categoryCounts = moduleTopics.reduce((counts, topic) => {
+        counts[topic.hotCategory] = (counts[topic.hotCategory] || 0) + 1;
+        return counts;
+      }, {});
+
+      statsEl.innerHTML = [
+        `最新：${latestDate}`,
+        `通信模组 ${categoryCounts["通信模组"] || 0}`,
+        `传感热点 ${categoryCounts["传感热点"] || 0}`,
+        `成品方案 ${categoryCounts["成品方案"] || 0}`
+      ].map(text => `<span class="module-hot-stat">${escapeHtml(text)}</span>`).join("");
+
+      const selected = ["通信模组", "传感热点", "成品方案"].map(category => {
+        return moduleTopics.find(topic => topic.hotCategory === category);
+      }).filter(Boolean);
+
+      gridEl.innerHTML = selected.map(topic => {
+        const tags = (topic.tags || []).slice(0, 4);
+        const summary = topic.summary || topic.value || "";
+        const idea = moduleContentIdea(topic, topic.hotCategory);
+        return `
+          <article class="module-hot-card">
+            <div class="module-hot-kicker">
+              <span>${escapeHtml(topic.hotCategory)} · ${escapeHtml(topic.source || "行业热点")}</span>
+              <span class="module-hot-score">${escapeHtml(topic.score || "90")}分</span>
+            </div>
+            <h3>${escapeHtml(topic.title)}</h3>
+            <p>${escapeHtml(summary)}</p>
+            <div class="module-hot-tags">${tags.map(tag => `<span>${escapeHtml(tag)}</span>`).join("")}</div>
+            <div class="module-hot-idea"><strong>可转内容：</strong>${escapeHtml(idea)}</div>
+            <a class="module-hot-link" href="${escapeAttribute(topic.url)}" target="_blank" rel="noopener noreferrer">查看来源</a>
+          </article>
+        `;
+      }).join("");
+    }
+
+    loadTopicCaptures().then(() => {
+      renderModuleHotBoard();
+      render();
+    });
     renderAccountsView();
     initTracker();
     initPicks();
