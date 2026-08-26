@@ -349,11 +349,35 @@
       font-size: 11px;
     }
 
+    .module-hot-product {
+      margin-top: 10px;
+      border: 1px solid rgba(74, 222, 128, 0.18);
+      border-radius: 6px;
+      background: rgba(34, 197, 94, 0.08);
+      color: #bbf7d0;
+      padding: 8px 10px;
+      font-size: 12px;
+      line-height: 1.6;
+    }
+
+    .module-hot-product strong,
+    .module-hot-idea strong,
+    .module-hot-check strong {
+      color: #f8fafc;
+    }
+
     .module-hot-idea {
       margin-top: 10px;
       padding-top: 10px;
       border-top: 1px solid rgba(148, 163, 184, 0.08);
       color: #cbd5e1;
+      font-size: 12px;
+      line-height: 1.7;
+    }
+
+    .module-hot-check {
+      margin-top: 8px;
+      color: #94a3b8;
       font-size: 12px;
       line-height: 1.7;
     }
@@ -1852,7 +1876,7 @@
       <div class="module-hot-head">
         <div>
           <h2>物联网模组热点雷达</h2>
-          <p>从内容追踪里自动筛出和无线模组、传感器、IoT 方案相关的高分热点，直接辅助 LinkedIn / Facebook / 短视频选题。</p>
+          <p>从内容追踪里自动筛出和 Ai-Thinker 产品线有关的热点，直接标出关联产品、改写角度和发布前要核对的信息。</p>
         </div>
       </div>
       <div class="module-hot-stats" id="moduleHotStats"></div>
@@ -19777,6 +19801,93 @@
       return "做成 B2B 案例拆解：应用场景、系统结构、客户价值三段式。";
     }
 
+    function getAiThinkerMatch(topic) {
+      const product = String(topic.product || "").toLowerCase();
+      const text = [topic.title, topic.summary, topic.value, topic.post, (topic.tags || []).join(" ")].join(" ").toLowerCase();
+
+      if (/radar/.test(product) || /radar|mmwave|presence detection|occupancy|camera-free/.test(text)) {
+        return {
+          line: "雷达传感器",
+          products: "Rd-03H / Rd-04 / Rd-6X",
+          angle: "把热点改成 camera-free presence detection 场景内容：浴室、卧室、安防、养老看护或智能照明联动。",
+          check: "发布前核对具体型号的频段、探测距离、接口和适用边界。",
+          priority: 100
+        };
+      }
+
+      if (/uwb|ultra wideband|rtls/.test(text)) {
+        return {
+          line: "UWB 定位模组",
+          products: "BU01 / BU03 / BU04",
+          angle: "把热点改成资产追踪、人员定位、仓储物流或工业现场定位内容，重点讲定位链路和部署场景。",
+          check: "发布前核对定位精度、算法支持、天线形态和测试环境限制。",
+          priority: 98
+        };
+      }
+
+      if (/lora/.test(product) || /lora|lorawan|lpwan|long range|low-power wide-area/.test(text)) {
+        return {
+          line: "LoRa / LoRaWAN 模组",
+          products: "Ra-01SCH / Ra-01SCH-P / Ra-08 / Ra-11",
+          angle: "把热点改成低功耗远距离选题：传感器节点 -> LoRa 链路 -> 网关 -> 云平台 -> 行业动作。",
+          check: "发布前核对频段、发射功率、LoRaWAN 协议栈支持和目标地区法规。",
+          priority: 96
+        };
+      }
+
+      if (/wifi|wi-fi|esp32/.test(product) && /wifi|wi-fi|matter|smart home|gateway|esp32|thread/.test(text) || /matter|smart home|esp32|thread/.test(text)) {
+        return {
+          line: "Wi-Fi / Matter / 网关模组",
+          products: "Ai-WB2 / BW16 / BW20 / BW21 / Ai-M61 / Ai-M62 / Ai-M64",
+          angle: "把热点改成智能家居或网关选型内容，讲连接方式、生态兼容、开发效率和量产风险。",
+          check: "发布前核对具体模组的协议支持、认证、功耗和固件能力。",
+          priority: 88
+        };
+      }
+
+      if (/ble|bluetooth|beacon|mesh|gatt|proximity/.test(text)) {
+        return {
+          line: "BLE 蓝牙模组",
+          products: "PB 系列 / TB 系列",
+          angle: "把热点改成蓝牙应用选题：配网、Beacon、Mesh 灯控、近距离控制或低功耗传感节点。",
+          check: "发布前核对蓝牙版本、Mesh 支持、功耗和手机/网关适配。",
+          priority: 86
+        };
+      }
+
+      if (/nb-iot|cat\.?1|lte|esim|gnss|gps|asset tracking/.test(text)) {
+        return {
+          line: "蜂窝 / GNSS 方向",
+          products: "NB-IoT / Cat.1 / GPS-GNSS 产品线",
+          angle: "把热点改成广域连接或资产追踪选题，重点讲覆盖、定位、运维和行业部署价值。",
+          check: "具体可用型号、频段、运营商适配和认证信息需核对。",
+          priority: 82
+        };
+      }
+
+      if (/voice|audio|speech|wake word|aec/.test(text)) {
+        return {
+          line: "离线语音 / AIoT 方向",
+          products: "VC 系列 / 小安 AI 相关方案",
+          angle: "把热点改成离线控制、唤醒词、降噪或端侧交互内容，适合短视频演示和产品页卖点拆解。",
+          check: "发布前核对语种、唤醒词能力、接口和云端/离线边界。",
+          priority: 80
+        };
+      }
+
+      if (/industrial|agriculture|smart city|meter|factory|hmi|gateway|sensor node|monitoring/.test(text)) {
+        return {
+          line: "行业方案组合",
+          products: "按场景组合 Wi-Fi / BLE / LoRa / UWB / 雷达模组",
+          angle: "把热点改成方案图或轮播：场景痛点、连接链路、推荐模组位置、客户价值。",
+          check: "发布前按实际方案核对每个环节使用的模组型号和参数。",
+          priority: 60
+        };
+      }
+
+      return null;
+    }
+
     function renderModuleHotBoard() {
       const statsEl = document.getElementById("moduleHotStats");
       const gridEl = document.getElementById("moduleHotGrid");
@@ -19784,37 +19895,42 @@
 
       const moduleTopics = topicLibrary
         .filter(topic => topic.url && topic.title)
-        .map(topic => ({ ...topic, hotCategory: getModuleHotCategory(topic) }))
-        .filter(topic => ["通信模组", "传感热点", "成品方案"].includes(topic.hotCategory))
-        .sort((a, b) => (Number(b.score) || 0) - (Number(a.score) || 0));
+        .map(topic => ({ ...topic, hotCategory: getModuleHotCategory(topic), aiMatch: getAiThinkerMatch(topic) }))
+        .filter(topic => topic.aiMatch)
+        .sort((a, b) => {
+          const priorityDiff = (b.aiMatch.priority || 0) - (a.aiMatch.priority || 0);
+          return priorityDiff || (Number(b.score) || 0) - (Number(a.score) || 0);
+        });
 
       if (!moduleTopics.length) {
         statsEl.innerHTML = "";
-        gridEl.innerHTML = `<div class="empty">暂无可用热点，等 tracker 更新后这里会自动出现。</div>`;
+        gridEl.innerHTML = `<div class="empty">暂无可关联到 Ai-Thinker 产品线的热点，等 tracker 更新后这里会自动出现。</div>`;
         return;
       }
 
       const latestDate = moduleTopics.map(topic => topic.date).filter(Boolean).sort().pop() || "近期";
-      const categoryCounts = moduleTopics.reduce((counts, topic) => {
-        counts[topic.hotCategory] = (counts[topic.hotCategory] || 0) + 1;
+      const productCounts = moduleTopics.reduce((counts, topic) => {
+        const line = topic.aiMatch.line;
+        counts[line] = (counts[line] || 0) + 1;
         return counts;
       }, {});
 
       statsEl.innerHTML = [
         `最新：${latestDate}`,
-        `通信模组 ${categoryCounts["通信模组"] || 0}`,
-        `传感热点 ${categoryCounts["传感热点"] || 0}`,
-        `成品方案 ${categoryCounts["成品方案"] || 0}`
+        `可关联热点 ${moduleTopics.length}`,
+        ...Object.entries(productCounts).slice(0, 4).map(([line, count]) => `${line} ${count}`)
       ].map(text => `<span class="module-hot-stat">${escapeHtml(text)}</span>`).join("");
 
-      const selected = ["通信模组", "传感热点", "成品方案"].map(category => {
-        return moduleTopics.find(topic => topic.hotCategory === category);
-      }).filter(Boolean);
+      const selected = [];
+      for (const topic of moduleTopics) {
+        if (!selected.some(item => item.aiMatch.line === topic.aiMatch.line)) selected.push(topic);
+        if (selected.length >= 6) break;
+      }
 
       gridEl.innerHTML = selected.map(topic => {
         const tags = (topic.tags || []).slice(0, 4);
         const summary = topic.summary || topic.value || "";
-        const idea = moduleContentIdea(topic, topic.hotCategory);
+        const idea = topic.aiMatch.angle || moduleContentIdea(topic, topic.hotCategory);
         return `
           <article class="module-hot-card">
             <div class="module-hot-kicker">
@@ -19824,7 +19940,9 @@
             <h3>${escapeHtml(topic.title)}</h3>
             <p>${escapeHtml(summary)}</p>
             <div class="module-hot-tags">${tags.map(tag => `<span>${escapeHtml(tag)}</span>`).join("")}</div>
-            <div class="module-hot-idea"><strong>可转内容：</strong>${escapeHtml(idea)}</div>
+            <div class="module-hot-product"><strong>关联 Ai-Thinker：</strong>${escapeHtml(topic.aiMatch.products)}</div>
+            <div class="module-hot-idea"><strong>怎么利用：</strong>${escapeHtml(idea)}</div>
+            <div class="module-hot-check"><strong>发布前核对：</strong>${escapeHtml(topic.aiMatch.check)}</div>
             <a class="module-hot-link" href="${escapeAttribute(topic.url)}" target="_blank" rel="noopener noreferrer">查看来源</a>
           </article>
         `;
