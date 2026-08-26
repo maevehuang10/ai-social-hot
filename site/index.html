@@ -253,6 +253,10 @@
       padding: 12px;
     }
 
+    body.hot-view-active .side-hot-panel {
+      display: block;
+    }
+
     .side-hot-title {
       margin: 0 0 6px;
       color: #f8fafc;
@@ -19448,6 +19452,7 @@
       sideLinks.forEach(link => {
         link.classList.toggle("active", link.dataset.view === name);
       });
+      document.body.classList.toggle("hot-view-active", name === "hot");
 
       if (name === "accounts") renderAccountsView();
     }
@@ -19873,7 +19878,7 @@
         `最新：${latestDate}`,
         `可关联热点 ${moduleTopics.length}`,
         ...Object.entries(productCounts).slice(0, 4).map(([line, count]) => `${line} ${count}`)
-      ].map(text => `<span class="module-hot-stat">${escapeHtml(text)}</span>`).join("");
+      ].map(text => `<span class="side-hot-pill">${escapeHtml(text)}</span>`).join("");
 
       const topic = moduleTopics[0];
       const idea = topic.aiMatch.angle || moduleContentIdea(topic, topic.hotCategory);
