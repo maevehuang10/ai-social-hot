@@ -244,17 +244,13 @@
     }
 
     .side-hot-panel {
-      display: none;
+      display: block;
       margin-top: 18px;
       border: 1px solid rgba(148, 163, 184, 0.18);
       border-radius: 10px;
       background: #0d1424;
       color: #e5edf8;
       padding: 12px;
-    }
-
-    body.hot-view-active .side-hot-panel {
-      display: block;
     }
 
     .side-hot-title {
@@ -19452,7 +19448,6 @@
       sideLinks.forEach(link => {
         link.classList.toggle("active", link.dataset.view === name);
       });
-      document.body.classList.toggle("hot-view-active", name === "hot");
 
       if (name === "accounts") renderAccountsView();
     }
