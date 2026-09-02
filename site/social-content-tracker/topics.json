@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T06:12:36.474Z",
+  "generatedAt": "2026-09-02T05:42:24.211Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,33 +7,6 @@
     "IoT Tech News"
   ],
   "topics": [
-    {
-      "title": "ESP32 developer ecosystem angle",
-      "source": "Espressif Systems",
-      "product": "ESP32 Module",
-      "score": 96,
-      "formats": [
-        "LinkedIn Post",
-        "Carousel",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "YouTube"
-      ],
-      "tags": [
-        "ESP32",
-        "Embedded Development",
-        "Smart Device"
-      ],
-      "value": "Useful for explaining how ESP32 modules support smart devices, control panels, gateways, and rapid prototyping.",
-      "summary": "ESP32 ecosystem content is useful when it turns chip capability into developer workflows and visible demos.",
-      "hook": "A small module can shape the whole connected product experience.",
-      "post": "ESP32 content works best when it connects the module to a real device workflow: connectivity, control, UI, sensing, and deployment.",
-      "url": "https://www.linkedin.com/company/espressif-systems",
-      "date": "2026-09-01"
-    },
     {
       "title": "Matter and smart-home compatibility story",
       "source": "Home Assistant",
@@ -58,7 +31,7 @@
       "hook": "Smart home buyers are no longer asking only for connectivity. They want compatibility.",
       "post": "For smart-home devices, wireless modules become more valuable when they reduce integration risk and help products fit into existing ecosystems.",
       "url": "https://www.home-assistant.io/",
-      "date": "2026-09-01"
+      "date": "2026-09-02"
     },
     {
       "title": "Radar sensing for privacy-friendly presence detection",
@@ -86,7 +59,7 @@
       "hook": "Not every sensing solution needs a camera.",
       "post": "Radar sensing can be explained through practical spaces: bathroom, bedroom, entryway, or care facility. Start with the pain point, then explain why camera-free sensing matters.",
       "url": "",
-      "date": "2026-09-01"
+      "date": "2026-09-02"
     },
     {
       "title": "LoRaWAN solution content worth tracking",
@@ -112,7 +85,141 @@
       "hook": "Some IoT projects need years of battery life, not more bandwidth.",
       "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
       "url": "https://www.linkedin.com/company/rakwireless/",
-      "date": "2026-09-01"
+      "date": "2026-09-02"
+    },
+    {
+      "title": "ESP32 developer ecosystem angle",
+      "source": "Espressif Systems",
+      "product": "ESP32 Module",
+      "score": 96,
+      "formats": [
+        "LinkedIn Post",
+        "Carousel",
+        "Short Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "YouTube"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for explaining how ESP32 modules support smart devices, control panels, gateways, and rapid prototyping.",
+      "summary": "ESP32 ecosystem content is useful when it turns chip capability into developer workflows and visible demos.",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "ESP32 content works best when it connects the module to a real device workflow: connectivity, control, UI, sensing, and deployment.",
+      "url": "https://www.linkedin.com/company/espressif-systems",
+      "date": "2026-09-02"
+    },
+    {
+      "title": "Qualcomm introduces Dragonwing Q-2390 and IQ-2390 for consumer and industrial AIoT applications",
+      "source": "CNX Software",
+      "date": "2026-09-01",
+      "product": "WiFi Module",
+      "score": 98,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "WiFi",
+        "Smart Home",
+        "Wireless Module"
+      ],
+      "value": "Useful for turning current industry news into content about smart home devices, gateways, control panels, and Wi-Fi connected IoT products.",
+      "summary": "Qualcomm has announced the Qualcomm Dragonwing Q-2390 and IQ-2390 quad-core Cortex-A78/A55 processors for AIoT consumer, commercial and industrial applications. The Dragonwing Q-2390 processor is designed for commercial and consumer devices, notably for...",
+      "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
+      "post": "Qualcomm introduces Dragonwing Q-2390 and IQ-2390 for consumer and industrial AIoT applications\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/09/01/qualcomm-introduces-dragonwing-q-2390-and-iq-2390-for-consumer-and-industrial-aiot-applications/"
+    },
+    {
+      "title": "GigaDevice strengthens EMEA and Southeast Asia market reach through partnership with Rutronik",
+      "source": "IoT Now",
+      "date": "2026-09-01",
+      "product": "BLE Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "GigaDevice, a semiconductor company specialising in Flash memory, 32-bit microcontrollers (MCUs), sensors and analogue products, has announced a new franchise partnership with Rutronik Elektronische Bauelemente GmbH, one of Europe’s broadline … Continued The...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "GigaDevice strengthens EMEA and Southeast Asia market reach through partnership with Rutronik\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/09/01/158197-gigadevice-strengthens-emea-and-southeast-asia-market-reach-through-partnership-with-rutronik/"
+    },
+    {
+      "title": "Makera Z1 Desktop CNC Review – Smart milling, 4-th axis module, and 5W laser engraving",
+      "source": "CNX Software",
+      "date": "2026-09-01",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "The Makera Z1 Desktop CNC is a desktop CNC machine designed for milling and engraving work that requires precision. The fully enclosed machine features an aluminum structure, offers a 200 × 200 × 100 mm work volume, and is suitable for wood, plastic, acrylic,...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Makera Z1 Desktop CNC Review – Smart milling, 4-th axis module, and 5W laser engraving\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/09/01/makera-z1-desktop-cnc-review-smart-milling-4-axis-module-and-5w-laser-engraving/"
+    },
+    {
+      "title": "ArmSoM Sige6 Allwinner A733 SBC features up to 128GB soldered-on eMMC flash, 16GB LPDDR5",
+      "source": "CNX Software",
+      "date": "2026-09-01",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "ArmSoM Sige6 is yet another SBC powered by the Allwinner A733 octa-core SoC, offered in a credit card form factor with up to 128GB soldered-on eMMC flash and up to 16GB LPDDR5. The single board computer features a microSD card slot and an M.2 M-key PCIe 3.0...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "ArmSoM Sige6 Allwinner A733 SBC features up to 128GB soldered-on eMMC flash, 16GB LPDDR5\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/09/01/armsom-sige6-allwinner-a733-sbc-features-up-to-128gb-soldered-on-emmc-flash-16gb-lpddr5/"
     },
     {
       "title": "ARK Just A Pi – A tiny NDAA-compliant Raspberry Pi CM5 carrier board for drones and robots",
@@ -560,31 +667,6 @@
       "url": "https://iot-now.com/2026/08/27/158075-gct-semiconductor-forms-partnership-to-advance-next-generation-uav-control-and-communications/"
     },
     {
-      "title": "LUNYEE 3020 Nova review – A desktop CNC router with 710W spindle tested with UGS and Easel software",
-      "source": "CNX Software",
-      "date": "2026-08-27",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "We’ve gotten a sample of the LUNYEE 3020 Nova desktop CNC router for review. The machine features a 710W trim router spindle suitable for carving wood, acrylic, and aluminum. The drive system relies on dual HG15 linear guides and 1204 ball screws for enhanced...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "LUNYEE 3020 Nova review – A desktop CNC router with 710W spindle tested with UGS and Easel software\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/27/lunyee-3020-nova-review-a-desktop-cnc-router-with-710w-spindle-tested-with-ugs-and-easel-software/"
-    },
-    {
       "title": "Is your IoT strategy ready for APAC complexity?",
       "source": "IoT Now",
       "date": "2026-08-27",
@@ -608,6 +690,31 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Is your IoT strategy ready for APAC complexity?\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/08/27/157922-is-your-iot-strategy-ready-for-apac-complexity/"
+    },
+    {
+      "title": "LUNYEE 3020 Nova review – A desktop CNC router with 710W spindle tested with UGS and Easel software",
+      "source": "CNX Software",
+      "date": "2026-08-27",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "We’ve gotten a sample of the LUNYEE 3020 Nova desktop CNC router for review. The machine features a 710W trim router spindle suitable for carving wood, acrylic, and aluminum. The drive system relies on dual HG15 linear guides and 1204 ball screws for enhanced...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "LUNYEE 3020 Nova review – A desktop CNC router with 710W spindle tested with UGS and Easel software\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/08/27/lunyee-3020-nova-review-a-desktop-cnc-router-with-710w-spindle-tested-with-ugs-and-easel-software/"
     },
     {
       "title": "Waymo explains AI behind 200M driverless miles",
@@ -2528,112 +2635,6 @@
       "hook": "One board, one gateway—2.5GbE, LoRaWAN, and WisBlock sensors all in a single CM5-powered industrial router.",
       "post": "RAKwireless WisGate Connect Router RAK7392: CM4/CM5 Industrial IoT Gateway with 2.5GbE, LoRaWAN & WisBlock Expansion\n\nThis is a useful signal for IoT brands and product teams watching Industrial IoT and Gateway opportunities.\n\nFor overseas social content, the story can focus on edge gateway architectures, multi-protocol integration, and how module-level wireless (WiFi/LoRa/Cellular) connects to cloud platforms through industrial-grade routers.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/08/10/raspberry-pi-cm4-cm5-based-wisgate-connect-router-rak7392-offers-2-5gbe-mini-pcie-and-wisblock-expansion/"
-    },
-    {
-      "title": "SolidRun and Leopard Imaging collaborate to accelerate Edge AI vision development",
-      "source": "IoT Now",
-      "date": "2026-08-10",
-      "product": "BLE Module",
-      "score": 86,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "SolidRun, a developer of embedded computing and edge AI solutions, and Leopard Imaging, a global contributor in embedded vision and camera technology, has announced a technology collaboration to simplify and … Continued The post SolidRun and Leopard Imaging...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "SolidRun and Leopard Imaging collaborate to accelerate Edge AI vision development\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/08/10/157857-solidrun-and-leopard-imaging-collaborate-to-accelerate-edge-ai-vision-development/"
-    },
-    {
-      "title": "PyBLE open-source MicroPython IDE works over Bluetooth LE for tablet and iPad users",
-      "source": "CNX Software",
-      "date": "2026-08-10",
-      "product": "BLE Module",
-      "score": 86,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "PyBLE is an open-source, MIT-licensed MicroPython IDE for programming microcontroller boards over Bluetooth Low Energy (BLE), which targets Android tablet and iPad users. PyBLE combines a Flutter-based IDE for iPad and Android with support for MicroPython and...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "PyBLE open-source MicroPython IDE works over Bluetooth LE for tablet and iPad users\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/10/pyble-open-source-micropython-ide-works-over-bluetooth-le-for-tablet-and-ipad-users/"
-    },
-    {
-      "title": "Comu is a $6 tiny CH32V203 RISC-V development board that fits inside a USB port",
-      "source": "CNX Software",
-      "date": "2026-08-10",
-      "product": "ESP32 Module",
-      "score": 84,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "ESP32",
-        "Embedded Development",
-        "Smart Device"
-      ],
-      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
-      "summary": "Over the years, we have seen several tiny “omu” USB boards that share this “fits-in-a-USB-port” form factor. It started with the Tomu, based on a Silicon Labs EFM32 Cortex-M0+, followed by the Fomu with a Lattice iCE40 FPGA, Qomu with an EOS S3 Cortex-M4F MCU...",
-      "hook": "A small module can shape the whole connected product experience.",
-      "post": "Comu is a $6 tiny CH32V203 RISC-V development board that fits inside a USB port\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/10/comu-6-tiny-ch32v203-risc-v-development-board-that-fits-inside-a-usb-port/"
-    },
-    {
-      "title": "Comu: $6 CH32V203 RISC-V Micro Dev Board with Capacitive Touch, Fits Inside a USB Port",
-      "source": "CNX Software",
-      "date": "2026-08-10",
-      "product": "MCU",
-      "score": 82,
-      "formats": [
-        "LinkedIn Post",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "RISC-V",
-        "MCU",
-        "Low Cost",
-        "Embedded",
-        "USB"
-      ],
-      "value": "Useful for content about RISC-V ecosystem growth, ultra-low-cost MCU trends, and embedded development accessibility.",
-      "summary": "Icy Electronics Comu is a $6 tiny development board based on WCH CH32V203 RISC-V MCU (144MHz, 20KB SRAM, 224KB Flash), measuring just 13×9.4mm—smaller than a microSD card. Plugs directly into a USB port with 2 LEDs, 4 capacitive touch buttons, and 6 GPIO test pads. Ideal for bare-metal programming, USB HID projects, and embedded experimentation.",
-      "hook": "$6 and smaller than a microSD—RISC-V just hit the sweet spot between price and accessibility.",
-      "post": "Comu: $6 CH32V203 RISC-V Micro Dev Board with Capacitive Touch, Fits Inside a USB Port\n\nThis is a useful signal for IoT brands and product teams watching MCU and RISC-V ecosystem opportunities.\n\nFor overseas social content, the story can focus on how RISC-V is democratizing embedded development at price points below traditional ARM MCUs, and how pairing ultra-low-cost RISC-V MCUs with wireless modules opens new possibilities for IoT sensor nodes.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/10/comu-6-tiny-ch32v203-risc-v-development-board-that-fits-inside-a-usb-port/"
     }
   ]
 }
