@@ -276,7 +276,7 @@
       "title": "Qualcomm introduces Dragonwing Q-2390 and IQ-2390 for consumer and industrial AIoT applications",
       "source": "CNX Software",
       "date": "2026-09-01",
-      "product": "WiFi Module",
+      "product": "AIoT Module",
       "score": 98,
       "formats": [
         "LinkedIn Post",
@@ -290,14 +290,17 @@
         "YouTube"
       ],
       "tags": [
-        "WiFi",
+        "AIoT",
+        "Edge AI",
+        "Qualcomm",
+        "Industrial IoT",
         "Smart Home",
-        "Wireless Module"
+        "Processor"
       ],
-      "value": "Useful for turning current industry news into content about smart home devices, gateways, control panels, and Wi-Fi connected IoT products.",
-      "summary": "Qualcomm has announced the Qualcomm Dragonwing Q-2390 and IQ-2390 quad-core Cortex-A78/A55 processors for AIoT consumer, commercial and industrial applications. The Dragonwing Q-2390 processor is designed for commercial and consumer devices, notably for...",
-      "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
-      "post": "Qualcomm introduces Dragonwing Q-2390 and IQ-2390 for consumer and industrial AIoT applications\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "value": "Useful for content about AIoT edge computing, edge AI processors, smart home hubs, industrial gateways, and the AIoT chip landscape.",
+      "summary": "Qualcomm has announced the Dragonwing Q-2390 and IQ-2390 processors, based on Cortex-A78/A55 multi-core architecture, for consumer, commercial and industrial AIoT applications. The Dragonwing series targets edge AI inference, heterogeneous computing and connectivity (integrated WiFi/Bluetooth), for smart home hubs, industrial gateways, edge AI boxes and smart retail. It marks Qualcomm's continued push into the AIoT edge-computing market, competing with Rockchip, NXP and MediaTek.",
+      "hook": "Qualcomm bets the AIoT edge on Dragonwing — one SoC spanning consumer to industrial edge AI.",
+      "post": "Qualcomm Dragonwing Q-2390 & IQ-2390 Target Consumer and Industrial AIoT Applications\n\nThis is a useful signal for IoT brands and product teams watching AIoT and edge AI opportunities.\n\nFor overseas social content, the story can focus on how edge-AI compute is moving toward the device, and how 'edge AI box + wireless modules (LoRa/4G/WiFi)' combos are unlocking smart agriculture visual inspection and industrial predictive maintenance.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/09/01/qualcomm-introduces-dragonwing-q-2390-and-iq-2390-for-consumer-and-industrial-aiot-applications/"
     },
     {
@@ -724,7 +727,7 @@
       "title": "Opener is an open-source reference implementation of the DECT NR+ massive IoT, low-latency standard",
       "source": "CNX Software",
       "date": "2026-08-27",
-      "product": "BLE Module",
+      "product": "IoT Module",
       "score": 94,
       "formats": [
         "LinkedIn Post",
@@ -736,14 +739,17 @@
         "Facebook"
       ],
       "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
+        "DECT NR+",
+        "Massive IoT",
+        "mMTC",
+        "Wireless Standard",
+        "Open Source",
+        "Low Latency"
       ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Opener is an open-source reference implementation of the DECT NR+ protocol stack, formally known as DECT-2020 NR, used for massive IoT (mMTC) and low-latency (URLLC) machine-to-machine communication applications. It is developed by the Opener Initiative,...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Opener is an open-source reference implementation of the DECT NR+ massive IoT, low-latency standard\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "value": "Useful for content about non-cellular massive IoT connectivity, the DECT NR+ standard, large-scale sensor networks, and alternative wireless standards for smart agriculture and industrial IoT.",
+      "summary": "Opener is an open-source reference implementation of the DECT NR+ (formally DECT-2020 NR) protocol stack, targeting massive IoT (mMTC) and low-latency (URLLC) machine-to-machine communication. DECT NR+ is an ETSI-standardized non-cellular 5G technology operating on the 1.9GHz license-free band, supporting mesh topology and gateway-free self-organizing networks with up to millions of nodes and millisecond-level latency. For large-scale smart agriculture sensor deployments, DECT NR+ offers another connectivity route between LoRa/NB-IoT (long-range low-power) and WiFi (high-speed short-range).",
+      "hook": "No cellular, no LoRa — one open-source stack lets a million agriculture sensors self-organize on the 1.9GHz license-free band.",
+      "post": "Opener: Open-Source Reference Implementation of the DECT NR+ Massive IoT, Low-Latency Standard\n\nThis is a useful signal for IoT brands and product teams watching non-cellular massive IoT connectivity.\n\nFor overseas social content, the story can focus on how DECT NR+ complements LoRa (long-range low-power) and NB-IoT (cellular wide-area) for large-scale smart agriculture and industrial sensor networks, and how Ai-Thinker's Ra/LoRa and cellular product lines can track this emerging standard.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/08/27/opener-open-source-reference-implementation-of-the-dect-nr-massive-iot-standard/"
     },
     {

@@ -1723,6 +1723,38 @@
             "电子围栏"
           ],
           "url": "https://docs.ai-thinker.com/gps/"
+        },
+        {
+          "title": "智慧农业土壤墒情监测模组方案：LoRa远距采集 + 太阳能低功耗供电全链路设计",
+          "product": "LoRa Module",
+          "summary": "智慧农业土壤墒情监测全链路方案：①土壤传感器选型——电容式FDR土壤湿度传感器(模拟/RS485/Modbus输出)、EC电导率、pH、NPK氮磷钾、土壤温度，成本与精度对比(电容式FDR vs TDR时域反射)。②数据采集——安信可BLE PB-03本地组网或MCU直采传感器，本地缓存+异常门限预判。③远距回传——Ra-01SCH-P高功率LoRa模组(803-930MHz, 发射功率高达+29dBm, 开阔地>5km)点对点或LoRaWAN组网回传，SF7-SF12自适应扩频在速率与距离间权衡。④网关汇聚——Ra-11双频LoRa三模(LR1121)作田间网关，再经4G Cat.1/WiFi上云。⑤云端——MQTT接入农业云平台，生成土壤墒情地图与灌溉决策建议。全链路低功耗：传感器节点休眠<10μA、30min上报一次，配太阳能供电可常年免维护运行。",
+          "persona": "智慧农业方案商 · 土壤墒情监测系统集成 · 大田种植IoT架构师",
+          "tags": [
+            "智慧农业",
+            "土壤传感器",
+            "LoRa",
+            "Ra-01SCH-P",
+            "墒情监测",
+            "低功耗",
+            "网关"
+          ],
+          "url": "https://docs.ai-thinker.com/lora/"
+        },
+        {
+          "title": "智慧农业太阳能供电系统设计实战：MPPT充放电管理与模组低功耗协同",
+          "product": "LoRa Module",
+          "summary": "智慧农业户外设备的太阳能供电系统设计实战：①太阳能板选型——单晶硅(效率>22%)vs多晶硅vs柔性板，按设备日均功耗×阴雨天冗余系数计算峰值功率(公式：P=日均Wh/(峰值日照小时×0.6效率系数))。②充电管理——MPPT最大功率点跟踪(效率>95%)vs PWM(成本低但损失大)对比，太阳能充电IC(CN3065/CN3791)选型。③储能——18650三元锂/磷酸铁锂(LiFePO4, 更耐宽温更安全)电芯串并联，BMS过充/过放/过流保护。④低功耗协同——模组Duty Cycling(采集30s+休眠30min)、LoRa Class A上报、深睡模式<10μA，电池续航计算(2000mAh支持>6个月)。⑤户外防护——IP67防水外壳、防凝露、-20~+70°C宽温、防雷浪涌。落地案例：太阳能土壤墒情站、太阳能气象站、太阳能畜牧追踪耳标。",
+          "persona": "农业IoT硬件工程师 · 低功耗供电设计 · 户外设备产品经理",
+          "tags": [
+            "太阳能",
+            "MPPT",
+            "锂电池",
+            "低功耗",
+            "智慧农业",
+            "户外部署",
+            "续航计算"
+          ],
+          "url": "https://docs.ai-thinker.com/lora/"
         }
       ],
       "external": [
@@ -1757,6 +1789,44 @@
           "hook": "农村没网？没关系——离线语音模组正在成为智慧农业的「声控开关」。",
           "post": "智慧农业的难点之一是大棚/农场网络覆盖差。安信可VC离线语音模组直接在本地执行语音指令——'开启水泵'、'关闭风机'——无需联网。VC-01/02支持最大100条指令词自学习，普通话+方言混合识别。在农业自动化场景中，离线语音可能是比WiFi/BLE更「接地气」的解决方案。",
           "url": "https://docs.ai-thinker.com/voice_module/"
+        },
+        {
+          "title": "Opener: Open-Source Reference Implementation of the DECT NR+ Massive IoT, Low-Latency Standard",
+          "source": "CNX Software",
+          "product": "IoT Module",
+          "score": 89,
+          "tags": [
+            "DECT NR+",
+            "Massive IoT",
+            "mMTC",
+            "Wireless Standard",
+            "Open Source",
+            "Low Latency"
+          ],
+          "summary": "Opener 是 DECT NR+（正式名 DECT-2020 NR）协议栈的开源参考实现，面向大规模物联网(mMTC)与低延迟(URLLC)机器间通信。DECT NR+ 是 ETSI 标准化的非蜂窝 5G 技术，运行于 1.9GHz 免授权频段，支持网状拓扑、无网关自治组网，单网络可承载百万级节点，延迟低至毫秒级。对智慧农业等大规模传感器部署而言，DECT NR+ 提供了介于 LoRa/NB-IoT(远距低功耗)与 WiFi(高速短距)之间的另一条连接技术路线。",
+          "hook": "不靠蜂窝、不靠 LoRa——一个开源协议栈，让百万级农业传感器在 1.9GHz 免授权频段自组网。",
+          "post": "Opener 把 ETSI DECT-2020 NR（DECT NR+）协议栈开源，主打大规模 IoT(mMTC)与低延迟(URLLC)。对安信可模组生态而言，这是一条值得关注的非蜂窝连接路线：DECT NR+ 运行于 1.9GHz 免授权频段、支持网状拓扑与无网关组网，适合智慧农业、工业传感等海量节点场景。现阶段其模组生态仍在起步，但与 LoRa(远距低功耗)、NB-IoT(蜂窝广域)互补，未来有望成为大规模传感器网络的又一选择，安信可 Ra/LoRa 与蜂窝产品线可持续关注其演进。",
+          "url": "https://www.cnx-software.com/2026/08/27/opener-open-source-reference-implementation-of-the-dect-nr-massive-iot-standard/",
+          "date": "2026-08-27"
+        },
+        {
+          "title": "Qualcomm Dragonwing Q-2390 & IQ-2390 Target Consumer and Industrial AIoT Applications",
+          "source": "CNX Software",
+          "product": "AIoT Module",
+          "score": 92,
+          "tags": [
+            "AIoT",
+            "Edge AI",
+            "Qualcomm",
+            "Industrial IoT",
+            "Smart Home",
+            "Processor"
+          ],
+          "summary": "高通发布 Dragonwing Q-2390 与 IQ-2390 处理器，采用 Cortex-A78/A55 多核架构，面向消费、商业与工业 AIoT 应用。Dragonwing 系列主打边缘 AI 推理、异构计算与连接能力(集成 WiFi/蓝牙等)，用于智能家居中枢、工业网关、边缘 AI 盒子、智慧零售等场景。这标志着高通在 AIoT 边缘算力市场的持续加码，与瑞芯微、NXP、联发科等形成正面竞争。",
+          "hook": "高通把 AIoT 边缘算力押注 Dragonwing——从消费到工业，一颗 SoC 通吃边缘 AI。",
+          "post": "高通 Dragonwing Q-2390/IQ-2390 把 Cortex-A78/A55 多核架构、边缘 AI 推理与连接能力打进 AIoT 市场，覆盖智能家居中枢、工业网关、边缘 AI 与智慧零售。对安信可海外内容团队而言，AIoT 边缘算力下沉是 2026 年的明确信号：'边缘 AI 盒子 + 安信可无线模组(LoRa/4G/WiFi)'的组合在智慧农业视觉巡检、工业预测性维护等场景的需求正在放大，可借势做一期'边缘 AI 与无线模组协同'的选题。",
+          "url": "https://www.cnx-software.com/2026/09/01/qualcomm-introduces-dragonwing-q-2390-and-iq-2390-for-consumer-and-industrial-aiot-applications/",
+          "date": "2026-09-01"
         }
       ]
     },
