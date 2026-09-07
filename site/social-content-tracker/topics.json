@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T05:50:15.801Z",
+  "generatedAt": "2026-09-07T05:59:23.003Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,84 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "XIAO SAMD21 Plus and RP2350 Plus USB-C boards get additional GPIO pins, integrated Li-ion battery management",
+      "source": "CNX Software",
+      "date": "2026-09-07",
+      "product": "ESP32 Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "Seeed Studio has expanded its XIAO Plus Series introduced in 2025, with the XIAO SAMD21 Plus and XIAO RP2350 Plus USB-C boards adding several GPIOs and integrated Li-ion battery management to the XIAO (SAMD21) and XIAO RP2040, launched in 2020 and 2021,...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "XIAO SAMD21 Plus and RP2350 Plus USB-C boards get additional GPIO pins, integrated Li-ion battery management\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/09/07/xiao-samd21-plus-and-rp2350-plus-usb-c-boards-get-additional-gpio-pins-integrated-li-ion-battery-management/"
+    },
+    {
+      "title": "ESP32 developer ecosystem angle",
+      "source": "Espressif Systems",
+      "product": "ESP32 Module",
+      "score": 96,
+      "formats": [
+        "LinkedIn Post",
+        "Carousel",
+        "Short Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "YouTube"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for explaining how ESP32 modules support smart devices, control panels, gateways, and rapid prototyping.",
+      "summary": "ESP32 ecosystem content is useful when it turns chip capability into developer workflows and visible demos.",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "ESP32 content works best when it connects the module to a real device workflow: connectivity, control, UI, sensing, and deployment.",
+      "url": "https://www.linkedin.com/company/espressif-systems",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "LoRaWAN solution content worth tracking",
+      "source": "RAKwireless",
+      "product": "LoRa Module",
+      "score": 95,
+      "formats": [
+        "LinkedIn Post",
+        "Carousel",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "LoRa",
+        "LoRaWAN",
+        "Gateway"
+      ],
+      "value": "Useful for explaining complete LoRaWAN solutions to B2B users, including modules, gateways, sensor nodes, and cloud workflows.",
+      "summary": "Track how LoRaWAN brands turn hardware into complete deployment stories.",
+      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
+      "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
+      "url": "https://www.linkedin.com/company/rakwireless/",
+      "date": "2026-09-06"
+    },
     {
       "title": "Matter and smart-home compatibility story",
       "source": "Home Assistant",
@@ -62,13 +140,13 @@
       "date": "2026-09-06"
     },
     {
-      "title": "LoRaWAN solution content worth tracking",
-      "source": "RAKwireless",
-      "product": "LoRa Module",
-      "score": 95,
+      "title": "ACEMAGIC Kron Mini K5 Review – Part 2: A $400 Intel Core 3 304 Wildcat Lake mini PC tested with Windows 11 Pro",
+      "source": "CNX Software",
+      "date": "2026-09-06",
+      "product": "WiFi Module",
+      "score": 88,
       "formats": [
         "LinkedIn Post",
-        "Carousel",
         "Sales Material"
       ],
       "platforms": [
@@ -76,43 +154,15 @@
         "Facebook"
       ],
       "tags": [
-        "LoRa",
-        "LoRaWAN",
-        "Gateway"
+        "WiFi",
+        "Smart Home",
+        "Wireless Module"
       ],
-      "value": "Useful for explaining complete LoRaWAN solutions to B2B users, including modules, gateways, sensor nodes, and cloud workflows.",
-      "summary": "Track how LoRaWAN brands turn hardware into complete deployment stories.",
-      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
-      "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
-      "url": "https://www.linkedin.com/company/rakwireless/",
-      "date": "2026-09-06"
-    },
-    {
-      "title": "ESP32 developer ecosystem angle",
-      "source": "Espressif Systems",
-      "product": "ESP32 Module",
-      "score": 96,
-      "formats": [
-        "LinkedIn Post",
-        "Carousel",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "YouTube"
-      ],
-      "tags": [
-        "ESP32",
-        "Embedded Development",
-        "Smart Device"
-      ],
-      "value": "Useful for explaining how ESP32 modules support smart devices, control panels, gateways, and rapid prototyping.",
-      "summary": "ESP32 ecosystem content is useful when it turns chip capability into developer workflows and visible demos.",
-      "hook": "A small module can shape the whole connected product experience.",
-      "post": "ESP32 content works best when it connects the module to a real device workflow: connectivity, control, UI, sensing, and deployment.",
-      "url": "https://www.linkedin.com/company/espressif-systems",
-      "date": "2026-09-06"
+      "value": "Useful for turning current industry news into content about smart home devices, gateways, control panels, and Wi-Fi connected IoT products.",
+      "summary": "After checking out the hardware of the ACEMAGIC Kron Mini K5 with an unboxing and a teardown in the first part of the review, we’ve now had time to test the Intel Core 3 304 Wildcat Lake mini PC in more depth with Windows 11 Pro. So in this article, we’ll...",
+      "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
+      "post": "ACEMAGIC Kron Mini K5 Review – Part 2: A $400 Intel Core 3 304 Wildcat Lake mini PC tested with Windows 11 Pro\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/09/06/acemagic-kron-mini-k5-review-part-2-a-400-intel-core-3-304-wildcat-lake-mini-pc-tested-with-windows-11-pro/"
     },
     {
       "title": "OpenTrailPaper transforms LILYGO T5 E-Paper S3 Pro devkit into a DIY e‑paper bike computer",
@@ -2575,60 +2625,6 @@
       "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
       "post": "EITWatch open-source ESP32-S3 smartwatch implements planar EIT hand gesture recognition\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/08/14/eitwatch-open-source-esp32-s3-smartwatch-implements-planar-eit-hand-gesture-recognition/"
-    },
-    {
-      "title": "Gemma Translator multilingual interpreter runs locally on Raspberry Pi 5 with the LiteRT runtime",
-      "source": "CNX Software",
-      "date": "2026-08-14",
-      "product": "ESP32 Module",
-      "score": 93,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "ESP32",
-        "Embedded Development",
-        "Smart Device"
-      ],
-      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
-      "summary": "Gemma Translator is an open-source project for the Raspberry Pi 5 that acts as a multilingual interpreter running locally without access to the cloud using Google Gemma 4 and LiteRT runtime. It’s a project built by three Google engineers with the help of...",
-      "hook": "A small module can shape the whole connected product experience.",
-      "post": "Gemma Translator multilingual interpreter runs locally on Raspberry Pi 5 with the LiteRT runtime\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/14/gemma-translator-multilingual-interpreter-runs-locally-on-raspberry-pi-5-with-the-litert-runtime/"
-    },
-    {
-      "title": "Giada DK320 digital signage player and Edge AI embedded PC supports up to the Intel Core 5 315 Wildcat Lake processor",
-      "source": "CNX Software",
-      "date": "2026-08-14",
-      "product": "BLE Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Giada DK320 is an ultra-compact Wildcat Lake mini PC powered by up to an Intel Core 5 315 hexa-core processor and designed for digital signage, edge computing, and embedded applications requiring real-time analytics, intelligent monitoring, and automated...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Giada DK320 digital signage player and Edge AI embedded PC supports up to the Intel Core 5 315 Wildcat Lake processor\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/14/giada-dk320-digital-signage-player-and-edge-ai-embedded-pc-supports-up-to-the-intel-core-5-315-wildcat-lake-processor/"
     }
   ]
 }
