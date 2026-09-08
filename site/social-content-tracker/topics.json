@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T05:59:23.003Z",
+  "generatedAt": "2026-09-08T05:53:09.778Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,56 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "Arm CSS for Mobile 2 “AI-Native” platform: Arm C2-Ultra and C2-Pro CPU cores, Mali G2-Ultra NX GPU",
+      "source": "CNX Software",
+      "date": "2026-09-08",
+      "product": "BLE Module",
+      "score": 84,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Arm has introduced the CSS for Mobile 2 platform as an AI-native compute foundation comprised of the Arm C2-Ultra and C2-Pro CPUs with SME2 (Scalable Matrix Extension 2) units and the Mali G2-Ultra NX GPU with dedicated neural accelerators that enable neural...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Arm CSS for Mobile 2 “AI-Native” platform: Arm C2-Ultra and C2-Pro CPU cores, Mali G2-Ultra NX GPU\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/09/08/arm-css-for-mobile-2-ai-native-platform-arm-c2-ultra-and-c2-pro-cpu-cores-mali-g2-ultra-nx-gpu/"
+    },
+    {
+      "title": "XIAO SAMD21 Plus and RP2040 Plus USB-C boards get additional GPIO pins, integrated Li-ion battery management",
+      "source": "CNX Software",
+      "date": "2026-09-07",
+      "product": "ESP32 Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "Seeed Studio has expanded its XIAO Plus Series introduced in 2025, with the XIAO SAMD21 Plus and XIAO RP2040 Plus USB-C boards adding several GPIOs and integrated Li-ion battery management to the XIAO (SAMD21) and XIAO RP2040, launched in 2020 and 2021,...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "XIAO SAMD21 Plus and RP2040 Plus USB-C boards get additional GPIO pins, integrated Li-ion battery management\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/09/07/xiao-samd21-plus-and-rp2040-plus-usb-c-boards-get-additional-gpio-pins-integrated-li-ion-battery-management/"
+    },
     {
       "title": "XIAO SAMD21 Plus and RP2350 Plus USB-C boards get additional GPIO pins, integrated Li-ion battery management",
       "source": "CNX Software",
@@ -31,6 +81,81 @@
       "hook": "A small module can shape the whole connected product experience.",
       "post": "XIAO SAMD21 Plus and RP2350 Plus USB-C boards get additional GPIO pins, integrated Li-ion battery management\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/09/07/xiao-samd21-plus-and-rp2350-plus-usb-c-boards-get-additional-gpio-pins-integrated-li-ion-battery-management/"
+    },
+    {
+      "title": "YuzukiNeko – A Linux-capable Allwinner F101 RISC-V SBC with Raspberry Pi Pico form factor",
+      "source": "CNX Software",
+      "date": "2026-09-07",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "YuzukiHD has made another open-source hardware Linux SBC. YuzukiNeko is a Raspberry Pi Pico-sized single board computer powered by a new Allwinner F101 RISC-V SoC. The Allwinner F101 processor features a single 1.008 GHz C907 RISC-V core, 8MB or 16 MB PSRAM,...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "YuzukiNeko – A Linux-capable Allwinner F101 RISC-V SBC with Raspberry Pi Pico form factor\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/09/08/yuzukineko-a-linux-capable-allwinner-f101-64-bit-risc-v-sbc-with-raspberry-pi-pico-form-factor/"
+    },
+    {
+      "title": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs (Sponsored)",
+      "source": "CNX Software",
+      "date": "2026-09-07",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "When the Part Exists, but the Data Doesn’t Reverse engineering often starts with a physical part but no reliable digital data. In restoration and customization, manual measurement can provide basic dimensions, but it becomes limiting when complex curves,...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs (Sponsored)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/09/07/reverse-engineering-without-cad-data-how-metroy-ultra-turns-physical-parts-into-digital-designs/"
+    },
+    {
+      "title": "Kinéis and Netmore partner on hybrid satellite and terrestrial IoT connectivity",
+      "source": "IoT Now",
+      "date": "2026-09-07",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "The partnership makes Kinéis satellite connectivity available directly from Netmore across the 18 countries where Netmore already operates. The post Kinéis and Netmore partner on hybrid satellite and terrestrial IoT connectivity appeared first on IoT Now News...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Kinéis and Netmore partner on hybrid satellite and terrestrial IoT connectivity\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/09/07/158275-kineis-netmore-partner-hybrid-satellite-terrestrial-iot-connectivity/"
     },
     {
       "title": "ESP32 developer ecosystem angle",
@@ -531,31 +656,6 @@
       "url": "https://www.cnx-software.com/2026/09/02/gpibee-usbgpib-v3-usb-to-gpib-adapter-gains-ethernet-poe-but-launches-as-closed-source-hardware/"
     },
     {
-      "title": "Circuit Valley CHC5 – A modular USB, HDMI, and Ethernet camera system (Crowdfunding)",
-      "source": "CNX Software",
-      "date": "2026-09-02",
-      "product": "ESP32 Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "ESP32",
-        "Embedded Development",
-        "Smart Device"
-      ],
-      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
-      "summary": "Circuit Valley’s CHC5 is a modular camera system based on a Core board powered by an AMD/Xilinx Zynq-7020 SoC FPGA, a range of interface boards with USB, HDMI, or Ethernet (PoE), various sensor boards, and a metal enclosure. The solution can be customized...",
-      "hook": "A small module can shape the whole connected product experience.",
-      "post": "Circuit Valley CHC5 – A modular USB, HDMI, and Ethernet camera system (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/02/circuit-valley-chc5-a-modular-usb-hdmi-and-ethernet-camera-system/"
-    },
-    {
       "title": "CSA opens certification for Zigbee sub-GHz extension Suzi",
       "source": "IoT Tech News",
       "date": "2026-09-02",
@@ -582,11 +682,11 @@
       "url": "https://iottechnews.com/news/csa-opens-certification-for-zigbee-sub-ghz-extension-suzi/"
     },
     {
-      "title": "LightMake L4 3D printer features four independent heads for simultaneous or multi-color printing (Crowdfunding)",
+      "title": "Circuit Valley CHC5 – A modular USB, HDMI, and Ethernet camera system (Crowdfunding)",
       "source": "CNX Software",
       "date": "2026-09-02",
       "product": "ESP32 Module",
-      "score": 80,
+      "score": 88,
       "formats": [
         "LinkedIn Post",
         "Sales Material"
@@ -601,10 +701,10 @@
         "Smart Device"
       ],
       "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
-      "summary": "The LightMake L4 is a desktop 3D printer with four independent printing heads for high-throughput multi-color, multi-material, and batch production. It uses four independently controlled printheads and linear-motor motion instead of conventional belts,...",
+      "summary": "Circuit Valley’s CHC5 is a modular camera system based on a Core board powered by an AMD/Xilinx Zynq-7020 SoC FPGA, a range of interface boards with USB, HDMI, or Ethernet (PoE), various sensor boards, and a metal enclosure. The solution can be customized...",
       "hook": "A small module can shape the whole connected product experience.",
-      "post": "LightMake L4 3D printer features four independent heads for simultaneous or multi-color printing (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/02/lightmake-l4-3d-printer-features-four-independent-printing-heads/"
+      "post": "Circuit Valley CHC5 – A modular USB, HDMI, and Ethernet camera system (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/09/02/circuit-valley-chc5-a-modular-usb-hdmi-and-ethernet-camera-system/"
     },
     {
       "title": "Suresh Sathyamurthy joins Aeris as CMO for physical AI push",
@@ -659,6 +759,31 @@
       "hook": "Some IoT projects need years of battery life, not more bandwidth.",
       "post": "Flashnet joins Netmore Pulse Partner Program to scale smart street lighting\n\nThis is a useful signal for IoT brands and product teams watching LoRa Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/09/02/158213-flashnet-joins-netmore-pulse-partner-program-smart-street-lighting/"
+    },
+    {
+      "title": "LightMake L4 3D printer features four independent heads for simultaneous or multi-color printing (Crowdfunding)",
+      "source": "CNX Software",
+      "date": "2026-09-02",
+      "product": "ESP32 Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "The LightMake L4 is a desktop 3D printer with four independent printing heads for high-throughput multi-color, multi-material, and batch production. It uses four independently controlled printheads and linear-motor motion instead of conventional belts,...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "LightMake L4 3D printer features four independent heads for simultaneous or multi-color printing (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/09/02/lightmake-l4-3d-printer-features-four-independent-printing-heads/"
     },
     {
       "title": "Qualcomm introduces Dragonwing Q-2390 and IQ-2390 for consumer and industrial AIoT applications",
@@ -2499,132 +2624,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "e& UAE leads industry transition to 5G-native IoT with successful testing of Reduced Capability readiness on a live network\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/08/17/157935-e-uae-leads-industry-transition-to-5g-native-iot-with-successful-testing-of-reduced-capability-readiness-on-a-live-network/"
-    },
-    {
-      "title": "The latest wave of IT strategic acquisitions is missing the vital IoT security layer",
-      "source": "IoT Now",
-      "date": "2026-08-17",
-      "product": "BLE Module",
-      "score": 84,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "We live in a world of connections, far more than most individuals and companies take time to appreciate. Historically, the companies with the most durable value in this ecosystem owned … Continued The post The latest wave of IT strategic acquisitions is...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "The latest wave of IT strategic acquisitions is missing the vital IoT security layer\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/08/17/157710-the-one-security-layer-the-it-acquisition-wave-keeps-missing/"
-    },
-    {
-      "title": "How the software-defined vehicle is rewriting the rules of connectivity",
-      "source": "IoT Now",
-      "date": "2026-08-17",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "The connected car is becoming a software-defined vehicle: a platform that improves through software upgrades throughout its life. The number of these vehicles is climbing quickly: Analysys Mason expects the … Continued The post How the software-defined...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "How the software-defined vehicle is rewriting the rules of connectivity\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/08/17/157957-how-the-software-defined-vehicle-is-rewriting-the-rules-of-connectivity/"
-    },
-    {
-      "title": "Using the Khadas Mind Graphics 2 (NVIDIA RTX 5060 Ti USB4 eGPU) on Ubuntu 26.04",
-      "source": "CNX Software",
-      "date": "2026-08-16",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "When we used the NVIDIA GeForce RTX 5060 Ti 16GB-based Khadas Mind Graphics 2 dock with a mini PC running Ubuntu 26.04 last week, the USB4-connected eGPU was detected and enabled automatically, but we encountered two issues: very poor performance and the mini...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Using the Khadas Mind Graphics 2 (NVIDIA RTX 5060 Ti USB4 eGPU) on Ubuntu 26.04\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/16/using-the-khadas-mind-graphics-2-nvidia-rtx-5060-ti-usb4-egpu-on-ubuntu-26-04/"
-    },
-    {
-      "title": "GEEKOM IT13 Max Review – Part 3: Ubuntu 26.04 on an Intel Core Ultra 9 185H mini computer",
-      "source": "CNX Software",
-      "date": "2026-08-15",
-      "product": "WiFi Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "WiFi",
-        "Smart Home",
-        "Wireless Module"
-      ],
-      "value": "Useful for turning current industry news into content about smart home devices, gateways, control panels, and Wi-Fi connected IoT products.",
-      "summary": "We’ve already checked out the hardware with an unboxing and a teardown of the GEEKOM IT13 Max in the first part of the review, before testing the Intel Core Ultra 9 185H mini PC with Windows 11, so it’s now time to test Linux on the mini computer using Ubuntu...",
-      "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
-      "post": "GEEKOM IT13 Max Review – Part 3: Ubuntu 26.04 on an Intel Core Ultra 9 185H mini computer\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/15/geekom-it13-max-review-part-3-ubuntu-26-04-on-an-intel-core-ultra-9-185h-mini-computer/"
-    },
-    {
-      "title": "EITWatch open-source ESP32-S3 smartwatch implements planar EIT hand gesture recognition",
-      "source": "CNX Software",
-      "date": "2026-08-14",
-      "product": "WiFi Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "WiFi",
-        "Smart Home",
-        "Wireless Module"
-      ],
-      "value": "Useful for turning current industry news into content about smart home devices, gateways, control panels, and Wi-Fi connected IoT products.",
-      "summary": "Researchers from Northwestern University have introduced EITWatch, an open-source ESP32-S3-based EIT (Electrical Impedance Tomography) gesture-sensing system that fits within a standard smartwatch footprint. It relies on a Seeed Studio XIAO ESP32-S3 board and...",
-      "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
-      "post": "EITWatch open-source ESP32-S3 smartwatch implements planar EIT hand gesture recognition\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/14/eitwatch-open-source-esp32-s3-smartwatch-implements-planar-eit-hand-gesture-recognition/"
     }
   ]
 }
