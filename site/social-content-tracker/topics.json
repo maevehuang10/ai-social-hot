@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T05:53:12.079Z",
+  "generatedAt": "2026-09-11T05:52:10.842Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,31 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "Amlogic A123X and C305X2 Arm Cortex-A320 SoCs target industrial and low-power AIoT applications",
+      "source": "CNX Software",
+      "date": "2026-09-11",
+      "product": "ESP32 Module",
+      "score": 98,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "Amlogic has unveiled the A123X quad-core and C305X2 dual-core Arm Cortex-A320 SoCs for industrial and battery-powered Edge AI and IoT applications such as robots, dashcams, IP cameras, video conferencing equipment, and so on. The Arm Cortex-A320 low-power...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "Amlogic A123X and C305X2 Arm Cortex-A320 SoCs target industrial and low-power AIoT applications\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/09/11/amlogic-a123x-and-c305x2-arm-cortex-a320-socs-target-industrial-and-low-power-aiot-applications/"
+    },
     {
       "title": "Arduino UNO Media Carrier adds MIPI CSI/DSI and audio connectors to UNO Q and VENTUNO Q boards",
       "source": "CNX Software",
@@ -34,6 +59,31 @@
       "url": "https://www.cnx-software.com/2026/09/10/arduino-uno-media-carrier-adds-mipi-csi-dsi-and-audio-connectors-to-uno-q-and-ventuno-q-boards/"
     },
     {
+      "title": "Telit Cinterion details edge AI SDK for cellular modules",
+      "source": "IoT Tech News",
+      "date": "2026-09-10",
+      "product": "BLE Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Telit Cinterion has revealed an edge AI SDK alongside planned AI-enabled cellular module variants designed to run machine learning on-device. The SDK runs machine learning models directly on the cellular module’s internal hardware. By executing workloads...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Telit Cinterion details edge AI SDK for cellular modules\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
+      "url": "https://iottechnews.com/news/telit-cinterion-details-edge-ai-sdk-for-cellular-modules/"
+    },
+    {
       "title": "LattePanda Mu Ultra Compute Module features Intel Core Ultra 5 226V/7 256V Lunar Lake CPU for AI workloads",
       "source": "CNX Software",
       "date": "2026-09-10",
@@ -57,6 +107,107 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "LattePanda Mu Ultra Compute Module features Intel Core Ultra 5 226V/7 256V Lunar Lake CPU for AI workloads\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/09/10/lattepanda-mu-ultra-compute-module-features-intel-core-ultra-5-226v-7-256v-lunar-lake-cpu-for-ai-workloads/"
+    },
+    {
+      "title": "Solve Networks brings global eSIM connectivity to enterprise IoT deployments",
+      "source": "IoT Now",
+      "date": "2026-09-10",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "The offering gives enterprises with distributed, cross-border device fleets one connectivity profile across more than 200 countries and territories. The post Solve Networks brings global eSIM connectivity to enterprise IoT deployments appeared first on IoT...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Solve Networks brings global eSIM connectivity to enterprise IoT deployments\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/09/10/158338-solve-networks-global-esim-connectivity-enterprise-iot/"
+    },
+    {
+      "title": "Siemens Transform puts urgent focus on real-world AI and automation adoption",
+      "source": "IoT Now",
+      "date": "2026-09-10",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Advanced Engineering returns to NEC Birmingham on 4–5 November 2026 with a dedicated AI, Digitalisation and Automation track. The post Siemens Transform puts urgent focus on real-world AI and automation adoption appeared first on IoT Now News - How to run an...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Siemens Transform puts urgent focus on real-world AI and automation adoption\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/09/10/158345-advanced-engineering-2026-ai-digitalisation-automation-track/"
+    },
+    {
+      "title": "Podcast: From Mars to machines: How connectivity powers physical AI in Smart Mobility",
+      "source": "IoT Now",
+      "date": "2026-09-10",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Back by popular demand, Trending Tech returns for 2026 with a brand-new episode on one of the year’s hottest topics: physical AI in smart mobility. Explore how physical AI is … Continued The post Podcast: From Mars to machines: How connectivity powers...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Podcast: From Mars to machines: How connectivity powers physical AI in Smart Mobility\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/09/10/157746-podcast-from-mars-to-machines-how-connectivity-powers-physical-ai-in-smart-mobility/"
+    },
+    {
+      "title": "GITEX Ai Türkiye debuts in Istanbul, spotlighting the nation’s path towards becoming a global AI epicentre",
+      "source": "IoT Now",
+      "date": "2026-09-10",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Tech leaders, investors, entrepreneurs and policymakers converge as opening day centres attention on the innovation and cross-border collaboration powering Türkiye’s digital economy. The post GITEX Ai Türkiye debuts in Istanbul, spotlighting the nation’s path...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "GITEX Ai Türkiye debuts in Istanbul, spotlighting the nation’s path towards becoming a global AI epicentre\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/09/10/158333-gitex-ai-turkiye-debuts-istanbul-ai-action-plan/"
     },
     {
       "title": "ESP32-C5 Pico board follows Raspberry Pi Pico form factor, ships with on-board or external antenna",
@@ -195,7 +346,7 @@
       "url": "https://iottechnews.com/news/usi-edge-ai-camera-factory-inspection/"
     },
     {
-      "title": "Four days left: The 2026 IoT Global Awards programme closes for entries this Friday",
+      "title": "Two days left: The 2026 IoT Global Awards programme closes for entries this Friday",
       "source": "IoT Now",
       "date": "2026-09-08",
       "product": "BLE Module",
@@ -214,9 +365,9 @@
         "Positioning"
       ],
       "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "The IoT Global Awards will stop accepting entries for this year’s programme, at 17:00 CET on Friday 11th September. Entries are to be submitted via the official IoT Global Awards … Continued The post Four days left: The 2026 IoT Global Awards programme closes...",
+      "summary": "The IoT Global Awards will stop accepting entries for this year’s programme, at 17:00 CET on Friday 11th September. Entries are to be submitted via the official IoT Global Awards … Continued The post Two days left: The 2026 IoT Global Awards programme closes...",
       "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Four days left: The 2026 IoT Global Awards programme closes for entries this Friday\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "post": "Two days left: The 2026 IoT Global Awards programme closes for entries this Friday\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/09/08/158292-four-days-left-the-2026-iot-global-awards-programme-closes-for-entries-this-friday/"
     },
     {
@@ -243,6 +394,31 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Dyna.Ai and GAPP partner to power Saudi Arabia’s digital infrastructure and next-gen AI workforce\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/09/08/158280-dynaai-gapp-partner-saudi-arabia-digital-infrastructure-ai-workforce/"
+    },
+    {
+      "title": "Four days left: The 2026 IoT Global Awards programme closes for entries this Friday",
+      "source": "IoT Now",
+      "date": "2026-09-08",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "The IoT Global Awards will stop accepting entries for this year’s programme, at 17:00 CET on Friday 11th September. Entries are to be submitted via the official IoT Global Awards … Continued The post Four days left: The 2026 IoT Global Awards programme closes...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Four days left: The 2026 IoT Global Awards programme closes for entries this Friday\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/09/08/158292-four-days-left-the-2026-iot-global-awards-programme-closes-for-entries-this-friday/"
     },
     {
       "title": "XIAO SAMD21 Plus and RP2040 Plus USB-C boards get additional GPIO pins, integrated Li-ion battery management",
@@ -2445,185 +2621,6 @@
       "hook": "Good IoT content starts with useful market context.",
       "post": "Generalist AI’s GEN-1.5 robot model learns tasks from one demo\n\nThis is a useful signal for IoT brands and product teams watching IoT Industry opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
       "url": "https://iottechnews.com/news/generalist-ai-gen-1-5-robot-model-learns-tasks-one-demo/"
-    },
-    {
-      "title": "NXP MCX A5 Cortex-M33 MCU family supports 10BASE-T1S Single Pair Ethernet and Post-Quantum Cryptography",
-      "source": "CNX Software",
-      "date": "2026-08-19",
-      "product": "ESP32 Module",
-      "score": 97,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "ESP32",
-        "Embedded Development",
-        "Smart Device"
-      ],
-      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
-      "summary": "NXP has introduced the MCX A5 family of Cortex-M33 MCUs, which features a 10/100Mbps Ethernet MAC and an integrated 10BASE-T1S Single Pair Ethernet digital PHY. It targets industrial and networking applications such as controllers, PLCs, remote I/O, building...",
-      "hook": "A small module can shape the whole connected product experience.",
-      "post": "NXP MCX A5 Cortex-M33 MCU family supports 10BASE-T1S Single Pair Ethernet and Post-Quantum Cryptography\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/19/nxp-mcx-a5-cortex-m33-mcu-family-supports-10base-t1s-single-pair-ethernet-and-post-quantum-cryptography/"
-    },
-    {
-      "title": "Quectel launches Android 16 smart modules for 4G and 5G IoT devices",
-      "source": "IoT Now",
-      "date": "2026-08-19",
-      "product": "BLE Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Quectel Wireless Solutions, a global end-to-end IoT solutions provider, has announced the launch of two new Android 16 smart modules: the SH602FA, a high-performance 4G smart module and the SE505FE, an entry-level … Continued The post Quectel launches Android...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Quectel launches Android 16 smart modules for 4G and 5G IoT devices\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/08/19/157994-quectel-launches-android-16-smart-modules-for-4g-and-5g-iot-devices/"
-    },
-    {
-      "title": "Pine64 hits pause on Linux devices due to RAM and eMMC shortage/high prices",
-      "source": "CNX Software",
-      "date": "2026-08-19",
-      "product": "BLE Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "While some companies keep increasing prices, the Pine64 community has now announced they don’t intend to manufacture Linux devices due to the current RAM and eMMC flash shortage and related high prices. Pine64 started with the launch of the Pine A64...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Pine64 hits pause on Linux devices due to RAM and eMMC shortage/high prices\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/19/pine64-hits-pause-on-linux-devices-due-to-ram-and-emmc-shortage-high-prices/"
-    },
-    {
-      "title": "PwrBlock 323 – A USB-C PD programmable power supply for automated test fixtures (Crowdfunding)",
-      "source": "CNX Software",
-      "date": "2026-08-19",
-      "product": "BLE Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Finland-based Everypin has introduced the PwrBlock 323, a programmable USB-C PD power supply designed specifically for automated test fixtures. It can provide 1 to 32V at up to 3A, with up to 92W output from a 100W USB-C PD source, and supports...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "PwrBlock 323 – A USB-C PD programmable power supply for automated test fixtures (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/19/pwrblock-323-usb-c-pd-programmable-power-supply-for-automated-test-fixtures/"
-    },
-    {
-      "title": "Raspberry Pi Compute Module 5 gets an official programming jig",
-      "source": "CNX Software",
-      "date": "2026-08-19",
-      "product": "BLE Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "The Raspberry Pi Compute Module 5 Programming Jig is a single-head provisioning system designed to easily flash an OS to the Raspberry Pi CM5 without a carrier board. The jig connects to the provisioning network via Ethernet or Wi-Fi and also features a...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Raspberry Pi Compute Module 5 gets an official programming jig\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/19/raspberry-pi-compute-module-5-gets-an-official-programming-jig/"
-    },
-    {
-      "title": "LILYGO T-Echo Lite Kit adds a keyboard shield to the nrRF52840-based ePaper LoRa and GPS development board",
-      "source": "CNX Software",
-      "date": "2026-08-18",
-      "product": "LoRa Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "LoRa",
-        "LPWAN",
-        "Smart City"
-      ],
-      "value": "Useful for turning current industry news into content about smart city, utility metering, asset tracking, and low-power wide-area IoT scenarios.",
-      "summary": "LILYGO T-Echo Lite Kit is a Nordic nRF52840-based LoRa + GPS development kit with a built-in keyboard that enables direct off-grid communication without a smartphone. The kit is not entirely new since it’s based on the T-Echo Lite devkit introduced last year,...",
-      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
-      "post": "LILYGO T-Echo Lite Kit adds a keyboard shield to the nrRF52840-based ePaper LoRa and GPS development board\n\nThis is a useful signal for IoT brands and product teams watching LoRa Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/18/lilygo-t-echo-lite-kit-adds-a-keyboard-shield-to-the-nrrf52840-based-epaper-lora-and-gps-development-board/"
-    },
-    {
-      "title": "USBridge-KVM 2.0 – An open-source IP-KVM with BIOS access over SSH, OCR, and AI support (Crowdfunding)",
-      "source": "CNX Software",
-      "date": "2026-08-18",
-      "product": "BLE Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "USBridge-KVM 2.0 is a compact open-source AI-enabled IP-KVM designed for remote management and troubleshooting of servers and PCs, including systems that are unresponsive or have not yet booted. It provides out-of-band BIOS access, remote display and input...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "USBridge-KVM 2.0 – An open-source IP-KVM with BIOS access over SSH, OCR, and AI support (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/18/usbridge-kvm-2-0-an-open-source-ip-kvm-with-bios-access-over-ssh-ocr-and-ai-support/"
     }
   ]
 }
