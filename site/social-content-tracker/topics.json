@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T06:08:02.891Z",
+  "generatedAt": "2026-09-15T06:06:16.092Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,31 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "Design in KiCad, Quote with AIVON: A Faster Path to PCB Prototyping (Sponsored)",
+      "source": "CNX Software",
+      "date": "2026-09-15",
+      "product": "ESP32 Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "Finished your PCB layout in KiCad? You don’t necessarily need to leave the PCB Editor, export a separate set of manufacturing files, and manually upload them to a PCB manufacturer. AIVON’s KiCad Plugin creates a direct path from your PCB design to an online...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "Design in KiCad, Quote with AIVON: A Faster Path to PCB Prototyping (Sponsored)\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/09/15/design-in-kicad-quote-with-aivon-a-faster-path-to-pcb-prototyping/"
+    },
     {
       "title": "JetKVM Mini – A low-cost, ESP32-P4X-based KVM with Ethernet or WiFi connectivity",
       "source": "CNX Software",
@@ -31,6 +56,82 @@
       "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
       "post": "JetKVM Mini – A low-cost, ESP32-P4X-based KVM with Ethernet or WiFi connectivity\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/09/14/jetkvm-mini-a-low-cost-esp32-p4x-based-kvm-with-ethernet-or-wifi-connectivity/"
+    },
+    {
+      "title": "Morse Micro Wi-Fi HaLow USB adapters add 802.11ah connectivity to PCs and routers",
+      "source": "CNX Software",
+      "date": "2026-09-14",
+      "product": "WiFi Module",
+      "score": 86,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "WiFi",
+        "Smart Home",
+        "Wireless Module"
+      ],
+      "value": "Useful for turning current industry news into content about smart home devices, gateways, control panels, and Wi-Fi connected IoT products.",
+      "summary": "Last year, we saw Morse Micro introduce the MM8108 Wi-Fi HaLow (802.11ah) SoC with up to 43.33 Mbps throughput, along with an MM8108-RD09 USB dongle reference design, for which we had virtually no details at the time. Morse Micro has now released USB-A and...",
+      "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
+      "post": "Morse Micro Wi-Fi HaLow USB adapters add 802.11ah connectivity to PCs and routers\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/09/14/morse-micro-wi-fi-halow-usb-adapters-add-802-11ah-connectivity-to-pcs-and-routers/"
+    },
+    {
+      "title": "IoT Now Contract Win List – August 2026",
+      "source": "IoT Now",
+      "date": "2026-09-14",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "The IoT Now Contract Win List for August 2026 shows the Internet of Things contracts placed worldwide and reported in the last months. Get the inside track on who’s winning what … Continued The post IoT Now Contract Win List – August 2026 appeared first on...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "IoT Now Contract Win List – August 2026\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/09/14/158386-iot-now-contract-win-list-august-2026/"
+    },
+    {
+      "title": "Iridium, Deutsche Telekom IoT and Toyota demonstrate voice messaging over satellite via Iridium NTN Direct",
+      "source": "IoT Now",
+      "date": "2026-09-14",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Newly completed roaming agreement extends Deutsche Telekom’s IoT coverage onto Iridium’s satellite network. The post Iridium, Deutsche Telekom IoT and Toyota demonstrate voice messaging over satellite via Iridium NTN Direct appeared first on IoT Now News -...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Iridium, Deutsche Telekom IoT and Toyota demonstrate voice messaging over satellite via Iridium NTN Direct\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/09/14/158379-iridium-deutsche-telekom-iot-toyota-voice-messaging-satellite-ntn-direct/"
     },
     {
       "title": "M5Stack Module13.2 LoRa-1262 expansion board integrates 14×10 mm Stamp LoRa-1262 module",
@@ -649,31 +750,6 @@
       "url": "https://www.cnx-software.com/2026/09/08/yuzukineko-a-linux-capable-allwinner-f101-64-bit-risc-v-sbc-with-raspberry-pi-pico-form-factor/"
     },
     {
-      "title": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs (Sponsored)",
-      "source": "CNX Software",
-      "date": "2026-09-07",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "When the Part Exists, but the Data Doesn’t Reverse engineering often starts with a physical part but no reliable digital data. In restoration and customization, manual measurement can provide basic dimensions, but it becomes limiting when complex curves,...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs (Sponsored)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/07/reverse-engineering-without-cad-data-how-metroy-ultra-turns-physical-parts-into-digital-designs/"
-    },
-    {
       "title": "Kinéis and Netmore partner on hybrid satellite and terrestrial IoT connectivity",
       "source": "IoT Now",
       "date": "2026-09-07",
@@ -697,6 +773,31 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Kinéis and Netmore partner on hybrid satellite and terrestrial IoT connectivity\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/09/07/158275-kineis-netmore-partner-hybrid-satellite-terrestrial-iot-connectivity/"
+    },
+    {
+      "title": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs (Sponsored)",
+      "source": "CNX Software",
+      "date": "2026-09-07",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "When the Part Exists, but the Data Doesn’t Reverse engineering often starts with a physical part but no reliable digital data. In restoration and customization, manual measurement can provide basic dimensions, but it becomes limiting when complex curves,...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs (Sponsored)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/09/07/reverse-engineering-without-cad-data-how-metroy-ultra-turns-physical-parts-into-digital-designs/"
     },
     {
       "title": "ESP32 developer ecosystem angle",
@@ -2511,119 +2612,6 @@
       "hook": "A Cortex-M23 with 16-bit ADC, op-amps and FlexPWM at rock-bottom cost.",
       "post": "NXP MCX C15 & C16: Low-Cost Cortex-M23 MCUs Target Industrial IoT, Analog & Motor Control\n\nThis is a useful signal for IoT brands and product teams watching MCU and Industrial IoT opportunities.\n\nFor overseas social content, the story can focus on how low-cost industrial MCUs paired with wireless modules (BLE/LoRa/4G) build affordable sensor nodes for motor control, current sensing and vibration monitoring in predictive maintenance terminals.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/08/21/nxp-mcx-c15-and-c16-low-cost-cortex-m23-mcus-target-iot-analog-and-motor-control-applications/"
-    },
-    {
-      "title": "M5Stack Paper Mono – An ESP32-S3 e-paper development board with 3.97-inch touchscreen, LoRa, and NFC",
-      "source": "CNX Software",
-      "date": "2026-08-21",
-      "product": "LoRa Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "LoRa",
-        "LPWAN",
-        "Smart City"
-      ],
-      "value": "Useful for turning current industry news into content about smart city, utility metering, asset tracking, and low-power wide-area IoT scenarios.",
-      "summary": "M5Stack introduced the PaperColor ESP32-S3 devkit last May, but if you prefer faster refresh rates, the new Paper Mono should be a better option. The kit is based on a 3.97-inch monochrome e-Paper touch display and also supports LoRa and NFC long-range and...",
-      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
-      "post": "M5Stack Paper Mono – An ESP32-S3 e-paper development board with 3.97-inch touchscreen, LoRa, and NFC\n\nThis is a useful signal for IoT brands and product teams watching LoRa Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/21/m5stack-paper-mono-an-esp32-s3-e-paper-development-board-with-3-97-inch-touchscreen-lora-and-nfc/"
-    },
-    {
-      "title": "KAGA FEI ES4L15MA1 is a ridiculously small, ready-to-use BLE 6.0 module based on Nordic nRF54L15 SoC",
-      "source": "CNX Software",
-      "date": "2026-08-20",
-      "product": "BLE Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Japanese company KAGA FEI has introduced another incredibly small ES4L15MA1 Bluetooth LE 6.0 module based on Nordic Semiconductor’s nRF54L15 ultra-low-power Cortex-M33 wireless MCU. Launched alongside the larger EC4L15MA1 module, the ES4L15MA1 module appears...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "KAGA FEI ES4L15MA1 is a ridiculously small, ready-to-use BLE 6.0 module based on Nordic nRF54L15 SoC\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/20/kaga-fei-es4l15ma1-is-a-ridiculously-small-ready-to-use-ble-6-0-module-based-on-nordic-nrf54l15-soc/"
-    },
-    {
-      "title": "StarFive Dubhe-100 – A 64-bit, RVA23-compliant RISC-V core for high-performance applications",
-      "source": "CNX Software",
-      "date": "2026-08-20",
-      "product": "BLE Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "StarFive has launched a new high-performance 64-bit RISC-V core from the Dubhe family with the RVA23-compliant Dubhe-100 designed for servers and HPC, as well as other high-performance applications. The new RISC-V IP core delivers a SPECint2006 score of...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "StarFive Dubhe-100 – A 64-bit, RVA23-compliant RISC-V core for high-performance applications\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/20/starfive-dubhe-100-a-64-bit-rva23-compliant-risc-v-core-for-high-performance-applications/"
-    },
-    {
-      "title": "Quectel SH602FA and SE505FE smart modules bring Android 16 to 4G LTE and 5G IoT devices",
-      "source": "CNX Software",
-      "date": "2026-08-20",
-      "product": "BLE Module",
-      "score": 93,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Quectel has just introduced the SH602FA 4G LTE Cat 4 and SE505FE 5G Sub-6 GHz Android 16-smart IoT modules. Both integrate octa-core MediaTek processors, cellular connectivity, wireless interfaces, and multimedia functions for devices such as smart displays,...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Quectel SH602FA and SE505FE smart modules bring Android 16 to 4G LTE and 5G IoT devices\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/20/quectel-sh602fa-and-se505fe-smart-modules-bring-android-16-to-4g-lte-and-5g-iot-devices/"
     }
   ]
 }
