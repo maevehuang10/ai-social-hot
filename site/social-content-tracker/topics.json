@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T05:45:04.162Z",
+  "generatedAt": "2026-09-20T06:06:39.152Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,31 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "High-end 8-channel oscilloscope features 12-core AMD EPYC CPU, 96GB RAM, 15.6-inch display, and more",
+      "source": "CNX Software",
+      "date": "2026-09-20",
+      "product": "ESP32 Module",
+      "score": 86,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "Tektronix has launched the 7 Series DPO (Digital Phosphor Oscilloscope), and the company claims the DPO718AX model is the world’s first 8-channel performance oscilloscope with up to 25 GHz analog bandwidth per channel (and 125 GS/s sampling). The new family...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "High-end 8-channel oscilloscope features 12-core AMD EPYC CPU, 96GB RAM, 15.6-inch display, and more\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/09/20/high-end-8-channel-oscilloscope-features-12-core-amd-epyc-cpu-96gb-ram-15-6-inch-display/"
+    },
     {
       "title": "OpenMote – An ESP32-S3 programmable universal remote in a Wiimote shell (Crowdfunding)",
       "source": "CNX Software",
@@ -2586,31 +2611,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "LUNYEE 3020 Nova review – A desktop CNC router with 710W spindle tested with UGS and Easel software\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/08/27/lunyee-3020-nova-review-a-desktop-cnc-router-with-710w-spindle-tested-with-ugs-and-easel-software/"
-    },
-    {
-      "title": "Waymo explains AI behind 200M driverless miles",
-      "source": "IoT Tech News",
-      "date": "2026-08-27",
-      "product": "IoT Industry",
-      "score": 78,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "IoT",
-        "Industry Trend",
-        "Wireless Technology"
-      ],
-      "value": "Useful for turning current industry news into content about market education, B2B trend posts, sales context, and social content planning.",
-      "summary": "Waymo has outlined the AI architecture behind more than 200 million fully driverless miles, from sensor fusion to safety validation. The company published an account describing ten lessons drawn from that mileage, covering sensor design, model architecture,...",
-      "hook": "Good IoT content starts with useful market context.",
-      "post": "Waymo explains AI behind 200M driverless miles\n\nThis is a useful signal for IoT brands and product teams watching IoT Industry opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
-      "url": "https://iottechnews.com/news/waymo-explains-ai-behind-200m-driverless-miles/"
     }
   ]
 }
