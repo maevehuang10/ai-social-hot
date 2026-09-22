@@ -50,6 +50,58 @@
             "视觉IoT"
           ],
           "url": "https://docs.ai-thinker.com/bw21/"
+        },
+        {
+          "title": "BW系列三款Wi-Fi模组芯片架构深度对比：RTL8720DN vs RTL8720CF vs RTL8730E",
+          "product": "WiFi Module",
+          "summary": "从芯片层解构安信可BW系列三款Wi-Fi模组架构差异：BW16搭载RTL8720DN(ARM CM4 100MHz,4MB Flash+2MB PSRAM,双频WiFi4+BLE5.0),BW20搭载RTL8720CF(双频WiFi4+BLE,小封装低成本),BW21-CBV搭载RTL8730E(CM33+DSP异构双核,最高480MHz,双频WiFi+BLE5.2+YOLO边缘AI)。选型决策:纯连接选BW16、极致体积/成本选BW20、端侧AI视觉选BW21。",
+          "persona": "嵌入式工程师 · WiFi模组选型决策者 · 智能家居/IoT产品经理",
+          "tags": [
+            "BW16",
+            "BW20",
+            "BW21",
+            "RTL8720DN",
+            "RTL8720CF",
+            "RTL8730E",
+            "芯片架构",
+            "选型",
+            "双频WiFi"
+          ],
+          "url": "https://docs.ai-thinker.com/wifi/"
+        },
+        {
+          "title": "双频WiFi(2.4G+5G)深度解析：BW系列单频vs双频实测差异与漫游策略",
+          "product": "WiFi Module",
+          "summary": "2.4G覆盖远但信道拥挤,5G速率高(80MHz最高433Mbps)但穿墙衰减大。BW系列双频方案通过Band Steering+快速漫游(802.11k/v/r)实现2.4G/5G自动切换,近距5G高吞吐(实测单频2.4G的2-3倍、延迟降40%)。选型:低速稳定场景单频2.4G即可,视频门铃/网关/投屏等高吞吐场景必须双频5G。",
+          "persona": "WiFi方案工程师 · 智能家居硬件研发 · 无线性能调优",
+          "tags": [
+            "BW16",
+            "BW20",
+            "BW21",
+            "双频WiFi",
+            "2.4G",
+            "5G",
+            "Band Steering",
+            "漫游",
+            "802.11k"
+          ],
+          "url": "https://docs.ai-thinker.com/wifi/"
+        },
+        {
+          "title": "BW系列RTL87xx安全架构与量产交付：Secure Boot/TrustZone/安全OTA全链路",
+          "product": "WiFi Module",
+          "summary": "RTL87xx安全能力:Secure Boot三级签名校验、TrustZone-M硬件隔离、硬件加密引擎(AES/SHA-256/TRNG)、Flash加密存储。量产交付链:HSM私钥→烧录公钥→签名固件→产测→安全OTA(HTTPS+SHA256+A/B回滚)。门锁/支付/安防启用TrustZone+Secure Boot,普通IoT至少Flash加密+签名OTA。",
+          "persona": "嵌入式安全工程师 · 量产交付 · OTA系统设计",
+          "tags": [
+            "RTL87xx",
+            "Secure Boot",
+            "TrustZone",
+            "AES",
+            "SHA-256",
+            "安全OTA",
+            "量产"
+          ],
+          "url": "https://docs.ai-thinker.com/wifi/"
         }
       ],
       "external": [
@@ -85,6 +137,42 @@
           "hook": "I2C只能走几厘米？Arduino把这根「短线」拉到了30米——IoT传感器布线要彻底重写了。",
           "post": "Arduino Modulino Extender将I2C通信距离从传统的几厘米扩展到30米，使用差分信号传输克服了I2C的总线电容限制。配合Modulino Hub可连接多达64个I2C设备。这对IoT传感器部署来说是个惊喜——过去需要CAN/RS485才能实现的长距离传感器网络，现在用一个更简单、更低成本的I2C方案就能搞定。",
           "url": "https://www.cnx-software.com/2026/06/28/arduino-modulino-hub-extender-modules-64-i2c-devices-30-meter-range/"
+        },
+        {
+          "title": "Gearotons M17 – A low-cost NEMA-17 4-in-1 servomotor with driver, motion controller, and encoder",
+          "source": "CNX Software",
+          "product": "MCU",
+          "score": 84,
+          "tags": [
+            "Industrial IoT",
+            "Motion Control",
+            "STM32",
+            "Servo",
+            "Open Source",
+            "RS-485"
+          ],
+          "summary": "Gearotons M17 packs a motor, driver, motion controller, and encoder into a single NEMA-17 body with no protrusions. Built on an ST STM32G0 Cortex-M0+ MCU running a 32 kHz PID closed loop, it uses RS-485 at 230400 baud for daisy-chaining, accepts 12-24V DC, and reaches up to 560 RPM. Four models (M17-60/48/40/34) span 0.28-0.65 N·m and cost $20-35, with KiCad files, firmware, and Python/Arduino libraries all open-sourced on GitHub.",
+          "hook": "Four boards, one cable: a $20 NEMA-17 servo that hides its driver, controller, and encoder inside one motor body.",
+          "post": "Gearotons M17 - A low-cost NEMA-17 4-in-1 servomotor with driver, motion controller, and encoder\n\nThis is a useful signal for IoT brands and product teams watching Industrial IoT and motion control opportunities.\n\nFor overseas social content, the story can focus on how open-source, all-in-one actuators simplify robotics and CNC builds, and how industrial automation is moving toward smarter, networkable drive systems.\n\nSource: CNX Software",
+          "url": "https://www.cnx-software.com/2026/09/22/gearotons-m17-a-low-cost-nema-17-4-in-1-servomotor-with-driver-motion-controller-and-encoder/"
+        },
+        {
+          "title": "Tiny Scratch-Built Cyberdeck Is In Mint Condition",
+          "source": "Hackaday",
+          "product": "SBC",
+          "score": 78,
+          "tags": [
+            "Embedded",
+            "Raspberry Pi",
+            "Custom PCB",
+            "QMK",
+            "Maker",
+            "SBC"
+          ],
+          "summary": "Salim Benbouziyane's TN Deck fits a full cyberdeck inside an Altoids tin, built around the Raspberry Pi Compute Module Zero in its compact castellated PCB form factor. A custom PCB handles power, sound, and a QMK keyboard, with 3D-printed TPU-membrane keys and IR-laser-marked keycaps. It shows how castellation-based compute modules let makers pack display, input, audio, and battery into ultra-dense custom devices.",
+          "hook": "A working computer inside an Altoids tin: compute module, custom PCB, QMK keyboard, and speaker in one pocket build.",
+          "post": "Tiny Scratch-Built Cyberdeck Is In Mint Condition\n\nThis is a useful signal for IoT brands and product teams watching embedded design and the maker/developer community.\n\nFor overseas social content, the story can focus on how compact compute modules and custom PCBs enable ultra-dense device integration, a theme that resonates with Ai-Thinker's module and PCBA service audience.\n\nSource: Hackaday",
+          "url": "https://hackaday.com/2026/09/22/tiny-scratch-built-cyberdeck-is-in-mint-condition/"
         }
       ]
     },

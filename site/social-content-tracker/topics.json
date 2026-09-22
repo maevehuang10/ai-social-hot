@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T06:05:02.323Z",
+  "generatedAt": "2026-09-22T16:15:22.852Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,64 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "Gearotons M17 – A low-cost NEMA-17 4-in-1 servomotor with driver, motion controller, and encoder",
+      "source": "CNX Software",
+      "date": "2026-09-22",
+      "product": "MCU",
+      "score": 84,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "Industrial IoT",
+        "Motion Control",
+        "STM32",
+        "Servo",
+        "Open Source",
+        "RS-485"
+      ],
+      "value": "Useful for turning current industry news into content about industrial automation, motion control, and how open-source smart actuators lower the barrier to robotics and CNC deployment.",
+      "summary": "Gearotons M17 packs a motor, driver, motion controller, and encoder into a single NEMA-17 body with no protrusions. Built on an ST STM32G0 Cortex-M0+ MCU running a 32 kHz PID closed loop, it uses RS-485 at 230400 baud for daisy-chaining, accepts 12-24V DC, and reaches up to 560 RPM. Four models (M17-60/48/40/34) span 0.28-0.65 N·m and cost $20-35, with KiCad files, firmware, and Python/Arduino libraries all open-sourced on GitHub.",
+      "hook": "Four boards, one cable: a $20 NEMA-17 servo that hides its driver, controller, and encoder inside one motor body.",
+      "post": "Gearotons M17 - A low-cost NEMA-17 4-in-1 servomotor with driver, motion controller, and encoder\n\nThis is a useful signal for IoT brands and product teams watching Industrial IoT and motion control opportunities.\n\nFor overseas social content, the story can focus on how open-source, all-in-one actuators simplify robotics and CNC builds, and how industrial automation is moving toward smarter, networkable drive systems.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/09/22/gearotons-m17-a-low-cost-nema-17-4-in-1-servomotor-with-driver-motion-controller-and-encoder/"
+    },
+    {
+      "title": "Tiny Scratch-Built Cyberdeck Is In Mint Condition",
+      "source": "Hackaday",
+      "date": "2026-09-22",
+      "product": "SBC",
+      "score": 78,
+      "formats": [
+        "LinkedIn Post",
+        "Short Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "Embedded",
+        "Raspberry Pi",
+        "Custom PCB",
+        "QMK",
+        "Maker",
+        "SBC"
+      ],
+      "value": "Useful for turning current industry news into content about embedded design, custom PCB integration, and the maker/developer community.",
+      "summary": "Salim Benbouziyane's TN Deck fits a full cyberdeck inside an Altoids tin, built around the Raspberry Pi Compute Module Zero in its compact castellated PCB form factor. A custom PCB handles power, sound, and a QMK keyboard, with 3D-printed TPU-membrane keys and IR-laser-marked keycaps. It shows how castellation-based compute modules let makers pack display, input, audio, and battery into ultra-dense custom devices.",
+      "hook": "A working computer inside an Altoids tin: compute module, custom PCB, QMK keyboard, and speaker in one pocket build.",
+      "post": "Tiny Scratch-Built Cyberdeck Is In Mint Condition\n\nThis is a useful signal for IoT brands and product teams watching embedded design and the maker/developer community.\n\nFor overseas social content, the story can focus on how compact compute modules and custom PCBs enable ultra-dense device integration, a theme that resonates with Ai-Thinker's module and PCBA service audience.\n\nSource: Hackaday",
+      "url": "https://hackaday.com/2026/09/22/tiny-scratch-built-cyberdeck-is-in-mint-condition/"
+    },
     {
       "title": "Nordic nRF54LC10A – A tiny Bluetooth LE and 802.15.4 SoC with sub-50 nA hibernation mode",
       "source": "CNX Software",

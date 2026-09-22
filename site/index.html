@@ -27103,6 +27103,26 @@
           tags:["BW16","BW21","低功耗","Modem-sleep","Light-sleep","Deep-sleep","DTIM","电池续航","功耗实测","12μA"],
           url:"https://docs.ai-thinker.com/wifi/"
         },
+        
+        // ── 9月23日 BW系列第三轮：芯片架构/双频/安全 ──
+        { title:"BW系列三款Wi-Fi模组芯片架构深度对比：RTL8720DN vs RTL8720CF vs RTL8730E", source:"Ai-Thinker Docs", date:"2026-09-23","product":"WiFi Module",sourceType:"official",
+          summary:"从芯片层解构安信可BW系列三款Wi-Fi模组架构差异：①BW16搭载瑞昱RTL8720DN(ARM Cortex-M4 100MHz,4MB Flash+2MB PSRAM,双频2.4G+5G WiFi 4+BLE 5.0,邮票孔14×20mm),定位通用连接主力;②BW20搭载RTL8720CF(双频WiFi 4+BLE,更小封装+更低成本),主攻空间受限与成本敏感场景;③BW21-CBV搭载RTL8730E(ARM Cortex-M33+DSP异构双核,最高480MHz,双频WiFi+BLE 5.2,支持YOLO级边缘AI推理),定位视觉AIoT旗舰。选型决策路径:纯数据连接选BW16、极致体积/成本选BW20、需要端侧AI视觉选BW21。",
+          persona:"嵌入式工程师 · WiFi模组选型决策者 · 智能家居/IoT产品经理",
+          tags:["BW16","BW20","BW21","RTL8720DN","RTL8720CF","RTL8730E","芯片架构","选型","双频WiFi"],
+          url:"https://docs.ai-thinker.com/wifi/"
+        },
+        { title:"双频WiFi(2.4G+5G)深度解析：BW系列单频vs双频实测差异与漫游策略", source:"Ai-Thinker Docs", date:"2026-09-23","product":"WiFi Module",sourceType:"official",
+          summary:"2.4G与5G频段核心差异实测：2.4G覆盖远但信道拥挤(仅3个不重叠信道,易受蓝牙/微波炉/邻居AP干扰);5G速率高(80MHz带宽最高433Mbps)但穿墙衰减大、覆盖半径短。BW16/BW20/BW21双频方案通过Band Steering+快速漫游(802.11k/v/r)实现2.4G/5G自动无感切换:近距5G高吞吐(实测达单频2.4G的2-3倍、延迟降低约40%),远离AP自动回落2.4G保连接。选型结论:门锁/传感器/开关等低速稳定场景单频2.4G即可;视频门铃/网关/投屏/智能音箱等高吞吐场景必须双频5G。",
+          persona:"WiFi方案工程师 · 智能家居硬件研发 · 无线性能调优",
+          tags:["BW16","BW20","BW21","双频WiFi","2.4G","5G","Band Steering","漫游","802.11k","吞吐量"],
+          url:"https://docs.ai-thinker.com/wifi/"
+        },
+        { title:"BW系列RTL87xx安全架构与量产交付：Secure Boot/TrustZone/安全OTA全链路", source:"Ai-Thinker Docs", date:"2026-09-23","product":"WiFi Module",sourceType:"official",
+          summary:"RTL87xx芯片安全能力全景：①Secure Boot(ROM→Bootloader→App三级签名校验,防固件篡改)②TrustZone-M硬件隔离(敏感密钥/加解密运行于安全世界)③硬件加密引擎(AES-128/256、SHA-256、TRNG真随机数)④Flash加密存储(密钥不明文落盘)。量产交付链:离线HSM保管私钥→量产工具烧录公钥→签名固件打包→产测(每片唯一ID+MAC烧录)→安全OTA(HTTPS下载+SHA256校验+A/B双区回滚)。落地建议:门锁/支付/安防等敏感场景启用TrustZone+Secure Boot,普通IoT设备至少启用Flash加密+签名OTA。",
+          persona:"嵌入式安全工程师 · 量产交付 · OTA系统设计",
+          tags:["RTL87xx","Secure Boot","TrustZone","AES","SHA-256","安全OTA","A/B回滚","量产"],
+          url:"https://docs.ai-thinker.com/wifi/"
+        },
         ];
 
       function escT(text) { return String(text||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;"); }
