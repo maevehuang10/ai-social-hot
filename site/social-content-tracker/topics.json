@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T16:15:22.852Z",
+  "generatedAt": "2026-09-23T05:52:35.535Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -8,11 +8,11 @@
   ],
   "topics": [
     {
-      "title": "Gearotons M17 – A low-cost NEMA-17 4-in-1 servomotor with driver, motion controller, and encoder",
+      "title": "Soulart Station – A markerless full-body motion tracker for VR and VTubers (Crowdfunding)",
       "source": "CNX Software",
-      "date": "2026-09-22",
-      "product": "MCU",
-      "score": 84,
+      "date": "2026-09-23",
+      "product": "Radar Sensor",
+      "score": 98,
       "formats": [
         "LinkedIn Post",
         "Sales Material"
@@ -22,18 +22,95 @@
         "Facebook"
       ],
       "tags": [
-        "Industrial IoT",
-        "Motion Control",
-        "STM32",
-        "Servo",
-        "Open Source",
-        "RS-485"
+        "Radar",
+        "Presence Detection",
+        "Smart Sensing"
       ],
-      "value": "Useful for turning current industry news into content about industrial automation, motion control, and how open-source smart actuators lower the barrier to robotics and CNC deployment.",
-      "summary": "Gearotons M17 packs a motor, driver, motion controller, and encoder into a single NEMA-17 body with no protrusions. Built on an ST STM32G0 Cortex-M0+ MCU running a 32 kHz PID closed loop, it uses RS-485 at 230400 baud for daisy-chaining, accepts 12-24V DC, and reaches up to 560 RPM. Four models (M17-60/48/40/34) span 0.28-0.65 N·m and cost $20-35, with KiCad files, firmware, and Python/Arduino libraries all open-sourced on GitHub.",
-      "hook": "Four boards, one cable: a $20 NEMA-17 servo that hides its driver, controller, and encoder inside one motor body.",
-      "post": "Gearotons M17 - A low-cost NEMA-17 4-in-1 servomotor with driver, motion controller, and encoder\n\nThis is a useful signal for IoT brands and product teams watching Industrial IoT and motion control opportunities.\n\nFor overseas social content, the story can focus on how open-source, all-in-one actuators simplify robotics and CNC builds, and how industrial automation is moving toward smarter, networkable drive systems.\n\nSource: CNX Software",
+      "value": "Useful for turning current industry news into content about privacy-friendly sensing, elderly care, smart bathrooms, security, and presence detection.",
+      "summary": "South Korean startup Soulart has launched the Soulart Station, a markerless full-body motion tracker for VR, VTubing, and motion capture. The device uses a Time-of-Flight (ToF) sensor and an onboard Neural Processing Unit (NPU) to capture 3D point cloud data...",
+      "hook": "Not every sensing solution needs a camera.",
+      "post": "Soulart Station – A markerless full-body motion tracker for VR and VTubers (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching Radar Sensor opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/09/23/soulart-station-a-markerless-full-body-motion-tracker-for-vr-and-vtubers/"
+    },
+    {
+      "title": "Gearotons M17 – A low-cost NEMA-17 4-in-1 servomotor with driver, motion controller, and encoder",
+      "source": "CNX Software",
+      "date": "2026-09-22",
+      "product": "BLE Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Gearotons M17 open-source hardware servomotor integrates the four parts of a motion axis into one standard NEMA-17 body with no protrusions: the motor, the driver, the motion controller, and the encoder. This level of integration enables it to be low-cost...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Gearotons M17 – A low-cost NEMA-17 4-in-1 servomotor with driver, motion controller, and encoder\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/09/22/gearotons-m17-a-low-cost-nema-17-4-in-1-servomotor-with-driver-motion-controller-and-encoder/"
+    },
+    {
+      "title": "Nordic nRF54LC10A – A tiny Bluetooth LE and 802.15.4 SoC with sub-50 nA hibernation mode",
+      "source": "CNX Software",
+      "date": "2026-09-22",
+      "product": "BLE Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Nordic Semiconductor recently expanded its nRF54L Series with the nRF54LC10A, a new SoC with less memory and a smaller peripheral set compared to the higher-end nRF54L15, while supporting Bluetooth LE with Channel Sounding and IEEE 802.15.4 for Thread,...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Nordic nRF54LC10A – A tiny Bluetooth LE and 802.15.4 SoC with sub-50 nA hibernation mode\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/09/22/nordic-nrf54lc10a-a-tiny-bluetooth-le-and-802-15-4-soc-with-sub-50-na-hibernation-mode/"
+    },
+    {
+      "title": "Semtech enables 50G optical transition for AI-driven 5G-Advanced",
+      "source": "IoT Now",
+      "date": "2026-09-22",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Semtech’s wireless transceiver portfolio is now in full production for 10 km, 15 km BiDi and WDM links, enabling 50G fronthaul for 5G-Advanced radio deployments. The post Semtech enables 50G optical transition for AI-driven 5G-Advanced appeared first on IoT...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Semtech enables 50G optical transition for AI-driven 5G-Advanced\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/09/22/158483-semtech-50g-optical-transition-ai-driven-5g-advanced/"
     },
     {
       "title": "Tiny Scratch-Built Cyberdeck Is In Mint Condition",
@@ -64,35 +141,6 @@
       "hook": "A working computer inside an Altoids tin: compute module, custom PCB, QMK keyboard, and speaker in one pocket build.",
       "post": "Tiny Scratch-Built Cyberdeck Is In Mint Condition\n\nThis is a useful signal for IoT brands and product teams watching embedded design and the maker/developer community.\n\nFor overseas social content, the story can focus on how compact compute modules and custom PCBs enable ultra-dense device integration, a theme that resonates with Ai-Thinker's module and PCBA service audience.\n\nSource: Hackaday",
       "url": "https://hackaday.com/2026/09/22/tiny-scratch-built-cyberdeck-is-in-mint-condition/"
-    },
-    {
-      "title": "Nordic nRF54LC10A – A tiny Bluetooth LE and 802.15.4 SoC with sub-50 nA hibernation mode",
-      "source": "CNX Software",
-      "date": "2026-09-22",
-      "product": "BLE Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Nordic Semiconductor recently expanded its nRF54L Series with the nRF54LC10A, a new SoC with less memory and a smaller peripheral set compared to the higher-end nRF54L15, while supporting Bluetooth LE with Channel Sounding and IEEE 802.15.4 for Thread,...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Nordic nRF54LC10A – A tiny Bluetooth LE and 802.15.4 SoC with sub-50 nA hibernation mode\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/22/nordic-nrf54lc10a-a-tiny-bluetooth-le-and-802-15-4-soc-with-sub-50-na-hibernation-mode/"
     },
     {
       "title": "Realtek RTL8773J – A Bluetooth 7-ready Cortex-M55/M33 microcontroller with HDT support",
@@ -390,6 +438,31 @@
       "url": "https://www.cnx-software.com/2026/09/17/enilinx-tickey-esp32-s3-color-e-paper-badge-with-open-firmware/"
     },
     {
+      "title": "Onomondo launches SGP.32 eSIM IoT Remote Manager to prevent vendor lock-in undermining cellular IoT",
+      "source": "IoT Now",
+      "date": "2026-09-17",
+      "product": "BLE Module",
+      "score": 86,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Onomondo’s new eSIM IoT Remote Manager is designed to make cellular IoT connectivity providers interchangeable in practice, not merely interoperable in theory. The post Onomondo launches SGP.32 eSIM IoT Remote Manager to prevent vendor lock-in undermining...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Onomondo launches SGP.32 eSIM IoT Remote Manager to prevent vendor lock-in undermining cellular IoT\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/09/17/158452-onomondo-sgp-32-esim-iot-remote-manager-eim/"
+    },
+    {
       "title": "Onomondo launches its own SGP.32 eSIM IoT Remote Manager to prevent vendor lock-in undermining cellular IoT",
       "source": "IoT Now",
       "date": "2026-09-17",
@@ -547,6 +620,31 @@
       "url": "https://iottechnews.com/news/ambarella-zededa-cloud-orchestration-to-edge-ai-silicon/"
     },
     {
+      "title": "SES and Elveo Mobile deepen collaboration to advance direct-to-device services in Europe",
+      "source": "IoT Now",
+      "date": "2026-09-16",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "The expanded collaboration covers European manufacturing of LEO direct-to-device satellites and a multi-orbit architecture spanning LEO, MEO and GEO. The post SES and Elveo Mobile deepen collaboration to advance direct-to-device services in Europe appeared...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "SES and Elveo Mobile deepen collaboration to advance direct-to-device services in Europe\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/09/16/158437-ses-elveo-mobile-direct-to-device-services-europe/"
+    },
+    {
       "title": "OpenMANET – A higher-bandwidth Meshtastic alternative leveraging 802.11ah WiFi HaLow",
       "source": "CNX Software",
       "date": "2026-09-16",
@@ -573,31 +671,6 @@
       "hook": "Some IoT projects need years of battery life, not more bandwidth.",
       "post": "OpenMANET – A higher-bandwidth Meshtastic alternative leveraging 802.11ah WiFi HaLow\n\nThis is a useful signal for IoT brands and product teams watching LoRa Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/09/16/openmanet-a-higher-bandwidth-meshtastic-alternative-leveraging-802-11ah-wifi-halow/"
-    },
-    {
-      "title": "SES and Elveo Mobile deepen collaboration to advance direct-to-device services in Europe",
-      "source": "IoT Now",
-      "date": "2026-09-16",
-      "product": "BLE Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "The expanded collaboration covers European manufacturing of LEO direct-to-device satellites and a multi-orbit architecture spanning LEO, MEO and GEO. The post SES and Elveo Mobile deepen collaboration to advance direct-to-device services in Europe appeared...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "SES and Elveo Mobile deepen collaboration to advance direct-to-device services in Europe\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/09/16/158437-ses-elveo-mobile-direct-to-device-services-europe/"
     },
     {
       "title": "IoT Global Awards reveals its 2026 shortlist",
@@ -2541,142 +2614,6 @@
       "hook": "Good IoT content starts with useful market context.",
       "post": "Anthropic standard lets AI agents run lab and factory hardware\n\nThis is a useful signal for IoT brands and product teams watching IoT Industry opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
       "url": "https://iottechnews.com/news/anthropic-standard-ai-agents-run-lab-factory-hardware/"
-    },
-    {
-      "title": "The advent of 3GPP Non-Terrestrial Networks: satellite becomes anoption for cellular devices",
-      "source": "IoT Now",
-      "date": "2026-08-28",
-      "product": "BLE Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "IoT deployments are moving further beyond the reach of traditional networks. As connected devices expand into remote, mobile and geographically dispersed environments, satellite connectivity is becoming an increasingly important complement … Continued The...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "The advent of 3GPP Non-Terrestrial Networks: satellite becomes anoption for cellular devices\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/08/28/158085-the-advent-of-3gpp-non-terrestrial-networks-satellite-becomes-anoption-for-cellular-devices/"
-    },
-    {
-      "title": "Spark Solder one-handed USB-C soldering iron supports TS100 tips, integrates solder feeder (Crowdfunding)",
-      "source": "CNX Software",
-      "date": "2026-08-28",
-      "product": "BLE Module",
-      "score": 86,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Spark Solder is a compact, USB-C-powered one-handed soldering iron with a built-in motorized solder feeder for convenient one-handed operation. It supports standard TS100 tips, delivers up to 45W of heating power, and features a 1-inch LCD for adjusting the...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Spark Solder one-handed USB-C soldering iron supports TS100 tips, integrates solder feeder (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/28/spark-solder-one-handed-usb-c-soldering-iron-ts100-tips-automated-solder-feeder/"
-    },
-    {
-      "title": "Nvidia Jetson Orin Nano 2 targets factory-floor edge AI",
-      "source": "IoT Tech News",
-      "date": "2026-08-28",
-      "product": "IoT Industry",
-      "score": 83,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "IoT",
-        "Industry Trend",
-        "Wireless Technology"
-      ],
-      "value": "Useful for turning current industry news into content about market education, B2B trend posts, sales context, and social content planning.",
-      "summary": "Nvidia has introduced the Jetson Orin Nano 2, a compact robotics computer designed to run AI workloads at the edge. The company is targeting robots, delivery and inspection drones, and vision AI systems. Smaller and more efficient AI models are allowing more...",
-      "hook": "Good IoT content starts with useful market context.",
-      "post": "Nvidia Jetson Orin Nano 2 targets factory-floor edge AI\n\nThis is a useful signal for IoT brands and product teams watching IoT Industry opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
-      "url": "https://iottechnews.com/news/nvidia-jetson-orin-nano-2-factory-edge-ai/"
-    },
-    {
-      "title": "Opener is an open-source reference implementation of the DECT NR+ massive IoT, low-latency standard",
-      "source": "CNX Software",
-      "date": "2026-08-27",
-      "product": "IoT Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "DECT NR+",
-        "Massive IoT",
-        "mMTC",
-        "Wireless Standard",
-        "Open Source",
-        "Low Latency"
-      ],
-      "value": "Useful for content about non-cellular massive IoT connectivity, the DECT NR+ standard, large-scale sensor networks, and alternative wireless standards for smart agriculture and industrial IoT.",
-      "summary": "Opener is an open-source reference implementation of the DECT NR+ (formally DECT-2020 NR) protocol stack, targeting massive IoT (mMTC) and low-latency (URLLC) machine-to-machine communication. DECT NR+ is an ETSI-standardized non-cellular 5G technology operating on the 1.9GHz license-free band, supporting mesh topology and gateway-free self-organizing networks with up to millions of nodes and millisecond-level latency. For large-scale smart agriculture sensor deployments, DECT NR+ offers another connectivity route between LoRa/NB-IoT (long-range low-power) and WiFi (high-speed short-range).",
-      "hook": "No cellular, no LoRa — one open-source stack lets a million agriculture sensors self-organize on the 1.9GHz license-free band.",
-      "post": "Opener: Open-Source Reference Implementation of the DECT NR+ Massive IoT, Low-Latency Standard\n\nThis is a useful signal for IoT brands and product teams watching non-cellular massive IoT connectivity.\n\nFor overseas social content, the story can focus on how DECT NR+ complements LoRa (long-range low-power) and NB-IoT (cellular wide-area) for large-scale smart agriculture and industrial sensor networks, and how Ai-Thinker's Ra/LoRa and cellular product lines can track this emerging standard.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/27/opener-open-source-reference-implementation-of-the-dect-nr-massive-iot-standard/"
-    },
-    {
-      "title": "USB-C Deskradar – An ESP32-C3 ADS-B flight tracker with a 1.28-inch round display",
-      "source": "CNX Software",
-      "date": "2026-08-27",
-      "product": "Radar Sensor",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "Radar",
-        "Presence Detection",
-        "Smart Sensing"
-      ],
-      "value": "Useful for turning current industry news into content about privacy-friendly sensing, elderly care, smart bathrooms, security, and presence detection.",
-      "summary": "The USB-C Deskradar is an ESP32-C3-based, aviation-themed ADS-B flight tracker that tracks and displays live aircraft positions around your location on a sonar-style circular grid. A 1.28-inch round display and a 3D-printed enclosure provide a real-time view...",
-      "hook": "Not every sensing solution needs a camera.",
-      "post": "USB-C Deskradar – An ESP32-C3 ADS-B flight tracker with a 1.28-inch round display\n\nThis is a useful signal for IoT brands and product teams watching Radar Sensor opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/08/27/usb-c-deskradar-an-esp32-c3-ads-b-flight-tracker-with-a-1-28-inch-round-display/"
     }
   ]
 }
