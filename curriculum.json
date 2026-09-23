@@ -210,6 +210,39 @@
             "门磁"
           ],
           "url": "https://docs.ai-thinker.com/wb2/"
+        },
+        {
+          "title": "Ai-WB2 射频与天线设计实战：从PCB布局到FCC/CE/SRRC认证全流程",
+          "product": "WiFi Module",
+          "summary": "射频工程视角拆解Ai-WB2天线设计与认证落地。BL602 2.4G射频链路:发射功率+20dBm级、接收灵敏度约-98dBm(BLE 1M)、板载PCB天线增益约2dBi。邮票孔封装PCB布局要点:①天线净空区≥5mm(周围禁铺铜/禁走线)②底层完整地平面保证射频回路③50Ω微带线阻抗匹配④预留π型匹配网络便于调试。天线选型:板载PCB天线(成本低/体积小/适合小外壳)vs IPEX外置天线(增益高/可延长/适合金属外壳)。认证路径:FCC(美国,Part 15C)、CE(欧盟,RED 2014/53/EU)、SRRC(中国)对2.4G发射功率/杂散/占用带宽的限值要求,安信可WB2系列已有多款取得FCC/CE/SRRC认证,出海项目可直接选用已认证型号省去认证周期。",
+          "persona": "射频工程师 · 硬件Layout工程师 · 出海产品认证专员",
+          "tags": [
+            "Ai-WB2",
+            "BL602",
+            "天线",
+            "PCB布局",
+            "FCC",
+            "CE",
+            "SRRC",
+            "阻抗匹配"
+          ],
+          "url": "https://docs.ai-thinker.com/wb2/"
+        },
+        {
+          "title": "Ai-WB2 电池续航工程测算：12μA深度睡眠的电量预算与太阳能供电方案",
+          "product": "WiFi Module",
+          "summary": "电池供电场景下Ai-WB2续航的工程化测算。电流基准:深度睡眠12μA、BLE广播(1s间隔)均值约30μA、WiFi连接轻载约80mA峰值。续航公式:T(小时)=电池容量(mAh)×1000÷平均电流(μA)。典型场景测算:①BLE Beacon(CR2032 240mAh,1s广播)→约300天②温湿度传感器(WiFi每小时上报一次,其余深睡)→锂亚硫酰氯3600mAh可用3年以上③门磁(事件触发+BLE回传)→一年以上无需换电。户外太阳能方案:5V/80mA光伏板+法拉电容缓存,白天充电夜间放电,适合智慧农业/环境监测节点。低功耗设计三原则:能用BLE不用WiFi、减少唤醒次数、优先GPIO/定时器唤醒。",
+          "persona": "低功耗硬件工程师 · 电池供电IoT设计 · 户外传感器节点方案商",
+          "tags": [
+            "Ai-WB2",
+            "12μA",
+            "深度睡眠",
+            "电池续航",
+            "BLE Beacon",
+            "太阳能",
+            "低功耗"
+          ],
+          "url": "https://docs.ai-thinker.com/wb2/"
         }
       ],
       "external": [
@@ -246,6 +279,23 @@
           "hook": "Flipper 这次不只是玩具——Matter原生支持的智能家居多工具，STM32U5超低功耗MCU给它7天续航。",
           "post": "Flipper BUSY Bar 开源生产力多工具搭载 STM32U5 超低功耗MCU和 Silicon Labs SiWG917 芯片（WiFi+BLE+Matter），LED像素显示+OLED副屏，支持与 Home Assistant、Apple Home、Google Home 的 Matter 协议原生集成。Matter 正在从智能灯泡/开关扩展到创新型IoT设备，对安信可 Matter 兼容模组（如WB2系列的Matter固件适配）来说是积极的生态扩容信号。",
           "url": "https://www.cnx-software.com/2026/07/01/flipper-busy-bar-open-source-productivity-multitool-features-led-pixel-display-supports-matter-connectivity/"
+        },
+        {
+          "title": "MediaTek Dimensity CX C10 Max octa-core Cortex-X925/X9/A720 SoC targets Googlebooks",
+          "source": "CNX Software",
+          "product": "IoT Industry",
+          "score": 88,
+          "tags": [
+            "Edge AI",
+            "NPU",
+            "SoC",
+            "AIoT",
+            "MediaTek"
+          ],
+          "summary": "MediaTek Dimensity CX C10 Max is a 3nm 'All Big Core' octa-core Armv9 SoC: 1x Cortex-X925 at up to 3.73 GHz, 3x Cortex-X4, and 4x Cortex-A720, with an 11-core Immortalis-G925 MC11 GPU and a MediaTek 890 NPU delivering up to 55 TOPS. It targets Google's new premium 'Googlebook' laptop category running Googlebook OS, signaling how Arm-based SoCs are pushing NPU compute into more mainstream edge devices.",
+          "hook": "Edge AI is moving from the cloud into the silicon.",
+          "post": "MediaTek Dimensity CX C10 Max octa-core Cortex-X925/X9/A720 SoC targets Googlebooks\n\nThis is a useful signal for IoT brands and product teams watching the edge AI and AIoT compute trend.\n\nFor overseas social content, the story can focus on how on-device NPU acceleration is shrinking the need for cloud round-trips - the same force driving smarter, lower-power IoT modules.\n\nSource: CNX Software",
+          "url": "https://www.cnx-software.com/2026/09/23/mediatek-dimensity-cx-c10-max-octa-core-cortex-x925-x9-a720-soc-targets-googlebooks/"
         }
       ]
     },

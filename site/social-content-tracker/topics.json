@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T05:52:35.535Z",
+  "generatedAt": "2026-09-24T00:00:00.000Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,33 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "MediaTek Dimensity CX C10 Max octa-core Cortex-X925/X9/A720 SoC targets Googlebooks",
+      "source": "CNX Software",
+      "date": "2026-09-23",
+      "product": "IoT Industry",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "Edge AI",
+        "NPU",
+        "SoC",
+        "AIoT",
+        "MediaTek"
+      ],
+      "value": "Useful for turning current industry news into content about edge AI compute, on-device NPU acceleration, and how AIoT devices are gaining more local intelligence instead of cloud round-trips.",
+      "summary": "MediaTek Dimensity CX C10 Max is a 3nm 'All Big Core' octa-core Armv9 SoC: 1x Cortex-X925 at up to 3.73 GHz, 3x Cortex-X4, and 4x Cortex-A720, with an 11-core Immortalis-G925 MC11 GPU and a MediaTek 890 NPU delivering up to 55 TOPS. It targets Google's new premium 'Googlebook' laptop category running Googlebook OS, signaling how Arm-based SoCs are pushing NPU compute into more mainstream edge devices.",
+      "hook": "Edge AI is moving from the cloud into the silicon.",
+      "post": "MediaTek Dimensity CX C10 Max octa-core Cortex-X925/X9/A720 SoC targets Googlebooks\n\nThis is a useful signal for IoT brands and product teams watching the edge AI and AIoT compute trend.\n\nFor overseas social content, the story can focus on how on-device NPU acceleration is shrinking the need for cloud round-trips - the same force driving smarter, lower-power IoT modules.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/09/23/mediatek-dimensity-cx-c10-max-octa-core-cortex-x925-x9-a720-soc-targets-googlebooks/"
+    },
     {
       "title": "Soulart Station – A markerless full-body motion tracker for VR and VTubers (Crowdfunding)",
       "source": "CNX Software",
