@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T06:06:18.883Z",
+  "generatedAt": "2026-09-26T06:05:32.927Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,56 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "KryonOS turns ESP32 boards into JavaScript-powered mini computer",
+      "source": "CNX Software",
+      "date": "2026-09-26",
+      "product": "WiFi Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "WiFi",
+        "Smart Home",
+        "Wireless Module"
+      ],
+      "value": "Useful for turning current industry news into content about smart home devices, gateways, control panels, and Wi-Fi connected IoT products.",
+      "summary": "KryonOS is a small JavaScript-powered OS that turns a supported ESP32 development board with a touchscreen into a standalone computer with its own graphical interface, application launcher, and file storage. It provides the basic software environment needed...",
+      "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
+      "post": "KryonOS turns ESP32 boards into JavaScript-powered mini computer\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/09/26/kryonos-turns-esp32-boards-into-javascript-powered-mini-computer/"
+    },
+    {
+      "title": "Compact Long-Wave Infrared camera pairs STM32N6 MCU with Lynred ATI320 thermal sensor",
+      "source": "CNX Software",
+      "date": "2026-09-25",
+      "product": "ESP32 Module",
+      "score": 93,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "8devices 8Sight T100 is a compact Long-Wave Infrared (thermal imaging) camera for UAS, robotics, and industrial applications. It combines a Lynred ATI320 LWIR sensor with an STM32N6 Arm Cortex-M55 microcontroller featuring a Neural-ART NPU and a hardware ISP...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "Compact Long-Wave Infrared camera pairs STM32N6 MCU with Lynred ATI320 thermal sensor\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/09/25/compact-long-wave-infrared-camera-pairs-stm32n6-mcu-with-lynred-ati320-thermal-sensor/"
+    },
     {
       "title": "MemBrowse continuously tracks firmware memory footprint, is free for open-source projects",
       "source": "CNX Software",
@@ -2562,59 +2612,6 @@
       "hook": "Some IoT projects need years of battery life, not more bandwidth.",
       "post": "Flashnet joins Netmore Pulse Partner Program to scale smart street lighting\n\nThis is a useful signal for IoT brands and product teams watching LoRa Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/09/02/158213-flashnet-joins-netmore-pulse-partner-program-smart-street-lighting/"
-    },
-    {
-      "title": "LightMake L4 3D printer features four independent heads for simultaneous or multi-color printing (Crowdfunding)",
-      "source": "CNX Software",
-      "date": "2026-09-02",
-      "product": "ESP32 Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "ESP32",
-        "Embedded Development",
-        "Smart Device"
-      ],
-      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
-      "summary": "The LightMake L4 is a desktop 3D printer with four independent printing heads for high-throughput multi-color, multi-material, and batch production. It uses four independently controlled printheads and linear-motor motion instead of conventional belts,...",
-      "hook": "A small module can shape the whole connected product experience.",
-      "post": "LightMake L4 3D printer features four independent heads for simultaneous or multi-color printing (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/02/lightmake-l4-3d-printer-features-four-independent-printing-heads/"
-    },
-    {
-      "title": "Qualcomm introduces Dragonwing Q-2390 and IQ-2390 for consumer and industrial AIoT applications",
-      "source": "CNX Software",
-      "date": "2026-09-01",
-      "product": "WiFi Module",
-      "score": 98,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "WiFi",
-        "Smart Home",
-        "Wireless Module"
-      ],
-      "value": "Useful for turning current industry news into content about smart home devices, gateways, control panels, and Wi-Fi connected IoT products.",
-      "summary": "Qualcomm has announced the Qualcomm Dragonwing Q-2390 and IQ-2390 quad-core Cortex-A78/A55 processors for AIoT consumer, commercial and industrial applications. The Dragonwing Q-2390 processor is designed for commercial and consumer devices, notably for...",
-      "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
-      "post": "Qualcomm introduces Dragonwing Q-2390 and IQ-2390 for consumer and industrial AIoT applications\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/01/qualcomm-introduces-dragonwing-q-2390-and-iq-2390-for-consumer-and-industrial-aiot-applications/"
     }
   ]
 }
