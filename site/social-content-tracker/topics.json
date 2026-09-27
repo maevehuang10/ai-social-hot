@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T06:05:32.927Z",
+  "generatedAt": "2026-09-27T06:32:41.388Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,35 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "LILYGO T-Dongle-C5 – An ESP32-C5 USB dongle with microSD card slot, optional 0.96-inch OLED",
+      "source": "CNX Software",
+      "date": "2026-09-27",
+      "product": "BLE Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "LILYGO T-Dongle-C5 is an ESP32-C5 dual-band WiFi 6, BLE, and 802.15.4 USB dongle that builds upon the earlier ESP32-S3-based T-Dongle-S3 board. The new board still features an optional 0.96-inch color display, a microSD card slot, and a USB-A male port. The...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "LILYGO T-Dongle-C5 – An ESP32-C5 USB dongle with microSD card slot, optional 0.96-inch OLED\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/09/27/lilygo-t-dongle-c5-an-esp32-c5-usb-dongle-with-microsd-card-slot-optional-0-96-inch-oled/"
+    },
     {
       "title": "KryonOS turns ESP32 boards into JavaScript-powered mini computer",
       "source": "CNX Software",
@@ -2583,35 +2612,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Suresh Sathyamurthy joins Aeris as CMO for physical AI push\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/09/02/158216-suresh-sathyamurthy-joins-aeris-as-cmo-for-physical-ai-push/"
-    },
-    {
-      "title": "Flashnet joins Netmore Pulse Partner Program to scale smart street lighting",
-      "source": "IoT Now",
-      "date": "2026-09-02",
-      "product": "LoRa Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "LoRa",
-        "LPWAN",
-        "Smart City"
-      ],
-      "value": "Useful for turning current industry news into content about smart city, utility metering, asset tracking, and low-power wide-area IoT scenarios.",
-      "summary": "Collaboration combines carrier-grade LoRaWAN connectivity with smart street lighting technology to accelerate smart city transformation. The post Flashnet joins Netmore Pulse Partner Program to scale smart street lighting appeared first on IoT Now News - How...",
-      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
-      "post": "Flashnet joins Netmore Pulse Partner Program to scale smart street lighting\n\nThis is a useful signal for IoT brands and product teams watching LoRa Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/09/02/158213-flashnet-joins-netmore-pulse-partner-program-smart-street-lighting/"
     }
   ]
 }
