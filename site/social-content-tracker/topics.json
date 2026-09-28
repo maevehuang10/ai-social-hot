@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T06:32:41.388Z",
+  "generatedAt": "2026-09-28T06:43:09.364Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,31 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "Up2Stream spins off from Arylic as a dedicated DIY audio brand (Sponsored)",
+      "source": "CNX Software",
+      "date": "2026-09-28",
+      "product": "ESP32 Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "Up2Stream started as Arylic’s DIY audio board line and has now been spun off as its own brand. The split is not a rebadge or a clone of Arylic’s finished consumer streamers and amplifiers. It is a deliberate move to put the maker community first: boards,...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "Up2Stream spins off from Arylic as a dedicated DIY audio brand (Sponsored)\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/09/28/up2stream-spins-off-from-arylic-as-a-dedicated-diy-audio-brand/"
+    },
     {
       "title": "LILYGO T-Dongle-C5 – An ESP32-C5 USB dongle with microSD card slot, optional 0.96-inch OLED",
       "source": "CNX Software",
@@ -2587,31 +2612,6 @@
       "hook": "A small module can shape the whole connected product experience.",
       "post": "Circuit Valley CHC5 – A modular USB, HDMI, and Ethernet camera system (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/09/02/circuit-valley-chc5-a-modular-usb-hdmi-and-ethernet-camera-system/"
-    },
-    {
-      "title": "Suresh Sathyamurthy joins Aeris as CMO for physical AI push",
-      "source": "IoT Now",
-      "date": "2026-09-02",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Former Microsoft, Palo Alto Networks and Dell EMC executive Suresh Sathyamurthy has joined Aeris as chief marketing officer. In his new role, Sathyamurthy will lead Aeris’ marketing, communications and go-to-market … Continued The post Suresh Sathyamurthy...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Suresh Sathyamurthy joins Aeris as CMO for physical AI push\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/09/02/158216-suresh-sathyamurthy-joins-aeris-as-cmo-for-physical-ai-push/"
     }
   ]
 }
