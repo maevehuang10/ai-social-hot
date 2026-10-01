@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T06:37:22.536Z",
+  "generatedAt": "2026-10-01T07:08:21.122Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,61 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "$30 Raspberry Pi Smart Display Module for CM5 targets digital signage displays and kiosks",
+      "source": "CNX Software",
+      "date": "2026-10-01",
+      "product": "BLE Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Raspberry Pi Smart Display Module is a CM5 carrier board compatible with the Intel Smart Display Module (SDM) specification, more specifically the SDM-L form factor (as opposed to the smaller SDM-S option). The Intel SDM standard has been around for years,...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "$30 Raspberry Pi Smart Display Module for CM5 targets digital signage displays and kiosks\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/01/30-raspberry-pi-smart-display-module-for-cm5-targets-digital-signage-displays-and-kiosks/"
+    },
+    {
+      "title": "OpenArm 2.0 – An open-source 7-DOF robot arm with QDD joints, bilateral force feedback, in-hand camera",
+      "source": "CNX Software",
+      "date": "2026-09-30",
+      "product": "BLE Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Tokyo-based Enactic OpenArm 2.0 is an open-source hardware 7-DOF robot arm designed for physical AI research, teleoperation, and contact-rich data collection. It uses quasi-direct-drive (QDD) backdrivable joints to support compliant motion and bilateral...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "OpenArm 2.0 – An open-source 7-DOF robot arm with QDD joints, bilateral force feedback, in-hand camera\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/09/30/openarm-2-0-an-open-source-7-dof-robot-arm-with-qdd-joints-bilateral-force-feedback-in-hand-camera/"
+    },
     {
       "title": "ESP32-C5 devkit features 3.5-inch touch LCD, optional camera and battery",
       "source": "CNX Software",
@@ -35,6 +90,31 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "ESP32-C5 devkit features 3.5-inch touch LCD, optional camera and battery\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/09/30/esp32-c5-devkit-features-3-5-inch-touch-lcd-optional-camera-and-battery/"
+    },
+    {
+      "title": "NTT DOCOMO BUSINESS and stc group launch IoT connectivity solution for Komatsu construction equipment in Saudi Arabia",
+      "source": "IoT Now",
+      "date": "2026-09-30",
+      "product": "BLE Module",
+      "score": 86,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "The two companies have launched an in-country IoT connectivity solution for Komatsu construction equipment in Saudi Arabia, a market that restricts permanent roaming by foreign operators. The post NTT DOCOMO BUSINESS and stc group launch IoT connectivity...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "NTT DOCOMO BUSINESS and stc group launch IoT connectivity solution for Komatsu construction equipment in Saudi Arabia\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/09/30/158634-ntt-docomo-business-stc-group-komatsu-iot-connectivity-saudi-arabia/"
     },
     {
       "title": "NXP FRDM-IMXRT1186 development board features i.MX RT1186 crossover MCU, four Ethernet ports",
@@ -2541,85 +2621,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Podcast: How satellite connectivity is bringing global IoT into the mainstream\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/09/04/158122-podcast-how-satellite-connectivity-is-bringing-global-iot-into-the-mainstream/"
-    },
-    {
-      "title": "TickrCast – An ESP32-S3 HUB75 LED ticker display with server-side rendering and OTA (Crowdfunding)",
-      "source": "CNX Software",
-      "date": "2026-09-03",
-      "product": "BLE Module",
-      "score": 98,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Layered Ventures LLC has launched the TickrCast, an expandable HUB75 LED ticker display built around an ESP32-S3. The TickrCast ships as a full consumer product designed to display live esports data, traditional sports scores, social media metrics, and flight...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "TickrCast – An ESP32-S3 HUB75 LED ticker display with server-side rendering and OTA (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/03/tickrcast-esp32-s3-hub75-led-ticker-display-with-server-side-rendering-and-ota/"
-    },
-    {
-      "title": "Fibocom launches RU311 5G RedCap module series for streamlined 5G upgrades in mid-tier IoT",
-      "source": "IoT Now",
-      "date": "2026-09-03",
-      "product": "BLE Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "The RU311 series gives mid-tier IoT devices a dual-mode 5G RedCap and LTE Cat.4 upgrade path in LGA, M.2 and Mini PCIe form factors. The post Fibocom launches RU311 5G RedCap module series for streamlined 5G upgrades in mid-tier IoT appeared first on IoT Now...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Fibocom launches RU311 5G RedCap module series for streamlined 5G upgrades in mid-tier IoT\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/09/03/158234-fibocom-launches-ru311-5g-redcap-module-series-mid-tier-iot/"
-    },
-    {
-      "title": "IoT in Transition: Navigating a Rapidly Evolving Global Regulatory and Connectivity Landscape",
-      "source": "IoT Now",
-      "date": "2026-09-03",
-      "product": "BLE Module",
-      "score": 92,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "IoT is entering a new phase, and the stakes are getting higher. As connected devices become more central to business operations, organisations are facing new pressure around cybersecurity, software updates, … Continued The post IoT in Transition: Navigating a...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "IoT in Transition: Navigating a Rapidly Evolving Global Regulatory and Connectivity Landscape\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/09/03/158106-iot-in-transition-navigating-a-rapidly-evolving-global-regulatory-and-connectivity-landscape/"
     }
   ]
 }
