@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T07:08:21.122Z",
+  "generatedAt": "2026-10-02T06:57:04.590Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,60 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "Avaota F2 – Allwinner V861 RISC-V SBC targets AI cameras with PTZ and audio support",
+      "source": "CNX Software",
+      "date": "2026-10-02",
+      "product": "WiFi Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "WiFi",
+        "Smart Home",
+        "Wireless Module"
+      ],
+      "value": "Useful for turning current industry news into content about smart home devices, gateways, control panels, and Wi-Fi connected IoT products.",
+      "summary": "Avaota F2 is the first SBC based on an Allwinner V861 dual-core 64-bit RISC-V SoC with 128MB on-chip DDR3 memory, support for 4K cameras, H.265 video codec, and a 1 TOPS AI accelerator. It’s an update to the earlier Avaota F1 camera board based on an...",
+      "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
+      "post": "Avaota F2 – Allwinner V861 RISC-V SBC targets AI cameras with PTZ and audio support\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/02/avaota-f2-allwinner-v861-risc-v-sbc-targets-ai-cameras-with-ptz-and-audio-support/"
+    },
+    {
+      "title": "ASRock Industrial NUC 300 series – Intel Core 3 304/Core 5 320 mini PCs and motherboards",
+      "source": "CNX Software",
+      "date": "2026-10-02",
+      "product": "BLE Module",
+      "score": 85,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "ASRock Industrial has introduced the NUC Core 300 BOX series of mini PCs and the NUC Core 300 motherboards built around Intel Core Series 3 Wildcat Lake-U processors. The lineup includes the NUC BOX-320, with the Intel Core 5 320 SoC, and the NUC BOX-304,...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "ASRock Industrial NUC 300 series – Intel Core 3 304/Core 5 320 mini PCs and motherboards\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/02/asrock-industrial-nuc-300-series-intel-core-3-304-core-5-320-mini-pcs-and-motherboards/"
+    },
     {
       "title": "$30 Raspberry Pi Smart Display Module for CM5 targets digital signage displays and kiosks",
       "source": "CNX Software",
@@ -35,6 +89,60 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "$30 Raspberry Pi Smart Display Module for CM5 targets digital signage displays and kiosks\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/10/01/30-raspberry-pi-smart-display-module-for-cm5-targets-digital-signage-displays-and-kiosks/"
+    },
+    {
+      "title": "LakeShark firmware turns LilyGO T-Display P4 into a handheld ESP32-P4 SDR scanner",
+      "source": "CNX Software",
+      "date": "2026-10-01",
+      "product": "LoRa Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "LoRa",
+        "LPWAN",
+        "Smart City"
+      ],
+      "value": "Useful for turning current industry news into content about smart city, utility metering, asset tracking, and low-power wide-area IoT scenarios.",
+      "summary": "LakeShark is open-source firmware by Samuel Reynolds (SAMS0N1TE) that turns the ESP32-P4-based LilyGO T-Display P4 into a handheld SDR scanner. Paired with an RTL-SDR Blog V3 or V4 dongle, it supports P25 Phase I trunking, analog FM/AM, POCSAG pager decoding,...",
+      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
+      "post": "LakeShark firmware turns LilyGO T-Display P4 into a handheld ESP32-P4 SDR scanner\n\nThis is a useful signal for IoT brands and product teams watching LoRa Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/01/lakeshark-firmware-turns-lilygo-t-display-p4-into-a-handheld-esp32-p4-sdr-scanner/"
+    },
+    {
+      "title": "Telit Cinterion and Commstar Radio partner to bring multi-network connectivity to municipal and critical infrastructure operations",
+      "source": "IoT Now",
+      "date": "2026-10-01",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Telit Cinterion’s NExT connectivity solutions provide coverage and secure communications for Commstar Radio’s customers across urban, rural and hard-to-reach environments. The post Telit Cinterion and Commstar Radio partner to bring multi-network connectivity...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Telit Cinterion and Commstar Radio partner to bring multi-network connectivity to municipal and critical infrastructure operations\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/10/01/158657-telit-cinterion-commstar-radio-multi-network-connectivity-municipal-critical-infrastructure/"
     },
     {
       "title": "OpenArm 2.0 – An open-source 7-DOF robot arm with QDD joints, bilateral force feedback, in-hand camera",
@@ -2517,110 +2625,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "ArduinoCore-Zephyr 1.0.0 adds support for Arduino VENTUNO Q, updates to Zephyr 4.4.1, and more\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/09/04/arduinocore-zephyr-1-0-0-adds-support-for-arduino-ventuno-q-updates-to-zephyr-4-4-1-and-more/"
-    },
-    {
-      "title": "TinyGo 0.42 adds support for 87 Puya PY32 MCU variants and two EmbedFire boards",
-      "source": "CNX Software",
-      "date": "2026-09-04",
-      "product": "BLE Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "CNXSoft: This is a guest post by Pavel Burgr, who recently added Puya PY32 MCU support to TinyGo 0.42, the latest version of the Go compiler for microcontrollers. We first covered TinyGo in 2019, and the project is still going strong with 17.7k stars, 1.1k...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "TinyGo 0.42 adds support for 87 Puya PY32 MCU variants and two EmbedFire boards\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/04/tinygo-0-42-adds-support-for-87-puya-py32-mcu-variants-and-two-embedfire-boards/"
-    },
-    {
-      "title": "Petoi Quaddle – A mini robot dog for physical AI experimentation (Crowdfunding)",
-      "source": "CNX Software",
-      "date": "2026-09-04",
-      "product": "BLE Module",
-      "score": 85,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "If you are not into ducks, but still would like to play around with physical AI, the Petoi Quaddle is a mini robot dog equipped with 4 servos controlling its legs and is designed to help people learn robotics, coding, AI, and 3D printing. The robot is powered...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Petoi Quaddle – A mini robot dog for physical AI experimentation (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/04/petoi-quaddle-a-mini-robot-dog-for-physical-ai-experimentation/"
-    },
-    {
-      "title": "Netmore adds Kinéis satellite connectivity to LPWAN network",
-      "source": "IoT Tech News",
-      "date": "2026-09-04",
-      "product": "LoRa Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "LoRa",
-        "LPWAN",
-        "Smart City"
-      ],
-      "value": "Useful for turning current industry news into content about smart city, utility metering, asset tracking, and low-power wide-area IoT scenarios.",
-      "summary": "Netmore Group has added Kinéis satellite connectivity to its LPWAN network to support hybrid terrestrial and orbital IoT operations. The integration provides single-platform management for customers across the utilities, water, infrastructure, and smart city...",
-      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
-      "post": "Netmore adds Kinéis satellite connectivity to LPWAN network\n\nThis is a useful signal for IoT brands and product teams watching LoRa Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
-      "url": "https://iottechnews.com/news/netmore-adds-kineis-satellite-connectivity-lpwan-network/"
-    },
-    {
-      "title": "Podcast: How satellite connectivity is bringing global IoT into the mainstream",
-      "source": "IoT Now",
-      "date": "2026-09-04",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "In this episode of the Trending Tech podcast, host Jim Morrish, co-founder of Transforma Insights is joined by Tim Last, executive vice president at Iridium, to explore how satellite connectivity … Continued The post Podcast: How satellite connectivity is...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Podcast: How satellite connectivity is bringing global IoT into the mainstream\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/09/04/158122-podcast-how-satellite-connectivity-is-bringing-global-iot-into-the-mainstream/"
     }
   ]
 }
