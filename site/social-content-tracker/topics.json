@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T06:57:04.590Z",
+  "generatedAt": "2026-10-03T06:23:19.989Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,56 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "UUNA TEK iAuto review – A professional handwriting and drawing machine",
+      "source": "CNX Software",
+      "date": "2026-10-03",
+      "product": "BLE Module",
+      "score": 85,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Hello, today I am going to review the UUNA TEK iAuto, an automatic handwriting machine designed to reproduce physical handwriting using a real pen on real paper. It also supports wireless connectivity, spreadsheet-based mail merge, custom fonts, and font...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "UUNA TEK iAuto review – A professional handwriting and drawing machine\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/03/uuna-tek-iauto-review-a-professional-handwriting-and-drawing-machine/"
+    },
+    {
+      "title": "Kigen Automotive eSIM first to achieve GSMA eSA certification",
+      "source": "IoT Now",
+      "date": "2026-10-02",
+      "product": "BLE Module",
+      "score": 90,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Kigen has achieved GSMA eUICC Security Assurance certification for its Automotive eSIMs, the first eSA-certified eSIM supporting SGP.32 v1.3, combining its eSIM OS with Infineon’s TEGRION SLI22 controller. The post Kigen Automotive eSIM first to achieve GSMA...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Kigen Automotive eSIM first to achieve GSMA eSA certification\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/10/02/158664-kigen-automotive-esim-gsma-esa-certification-sgp32-connected-vehicles/"
+    },
     {
       "title": "Avaota F2 – Allwinner V861 RISC-V SBC targets AI cameras with PTZ and audio support",
       "source": "CNX Software",
@@ -60,6 +110,31 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "ASRock Industrial NUC 300 series – Intel Core 3 304/Core 5 320 mini PCs and motherboards\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/10/02/asrock-industrial-nuc-300-series-intel-core-3-304-core-5-320-mini-pcs-and-motherboards/"
+    },
+    {
+      "title": "UP Xtreme PTL Edge Air Panther Lake Mini PC gets AirJet solid-state active cooling solution",
+      "source": "CNX Software",
+      "date": "2026-10-02",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "AAEON has introduced a new version of its UP Xtreme PTL Edge Panther Lake mini PC with the “Air” variant featuring Frore Systems AirJet solid-state active cooling solution. The company says the AirJet passive cooling technology makes the Panther Lake mini PC...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "UP Xtreme PTL Edge Air Panther Lake Mini PC gets AirJet solid-state active cooling solution\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/02/up-xtreme-ptl-edge-air-panther-lake-mini-pc-gets-airjet-solid-state-active-cooling-solution/"
     },
     {
       "title": "$30 Raspberry Pi Smart Display Module for CM5 targets digital signage displays and kiosks",
@@ -2546,85 +2621,6 @@
       "post": "Radar sensing can be explained through practical spaces: bathroom, bedroom, entryway, or care facility. Start with the pain point, then explain why camera-free sensing matters.",
       "url": "",
       "date": "2026-09-06"
-    },
-    {
-      "title": "ACEMAGIC Kron Mini K5 Review – Part 2: A $400 Intel Core 3 304 Wildcat Lake mini PC tested with Windows 11 Pro",
-      "source": "CNX Software",
-      "date": "2026-09-06",
-      "product": "WiFi Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "WiFi",
-        "Smart Home",
-        "Wireless Module"
-      ],
-      "value": "Useful for turning current industry news into content about smart home devices, gateways, control panels, and Wi-Fi connected IoT products.",
-      "summary": "After checking out the hardware of the ACEMAGIC Kron Mini K5 with an unboxing and a teardown in the first part of the review, we’ve now had time to test the Intel Core 3 304 Wildcat Lake mini PC in more depth with Windows 11 Pro. So in this article, we’ll...",
-      "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
-      "post": "ACEMAGIC Kron Mini K5 Review – Part 2: A $400 Intel Core 3 304 Wildcat Lake mini PC tested with Windows 11 Pro\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/06/acemagic-kron-mini-k5-review-part-2-a-400-intel-core-3-304-wildcat-lake-mini-pc-tested-with-windows-11-pro/"
-    },
-    {
-      "title": "OpenTrailPaper transforms LILYGO T5 E-Paper S3 Pro devkit into a DIY e‑paper bike computer",
-      "source": "CNX Software",
-      "date": "2026-09-05",
-      "product": "BLE Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "OpenTrailPaper is an open-source, DIY e-paper bike computer project comprised of firmware for the ESP32-S3-based T5 E-Paper S3 Pro devkit and Android and iOS companion apps for maps, routes, and settings. It shows ride data and offline maps, follows standard...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "OpenTrailPaper transforms LILYGO T5 E-Paper S3 Pro devkit into a DIY e‑paper bike computer\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/05/opentrailpaper-transforms-lilygo-t5-e-paper-s3-pro-devkit-into-a-diy-e-paper-bike-computer/"
-    },
-    {
-      "title": "ArduinoCore-Zephyr 1.0.0 adds support for Arduino VENTUNO Q, updates to Zephyr 4.4.1, and more",
-      "source": "CNX Software",
-      "date": "2026-09-04",
-      "product": "BLE Module",
-      "score": 98,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Arduino has just announced the release of ArduinoCore-Zephyr version 1.0.0, with new hardware support, including the VENTUNO Q SBC, an updated Zephyr 4.4.1 base, support for the Nicla Vision camera, and various fixes and improvements. Arduino first announced...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "ArduinoCore-Zephyr 1.0.0 adds support for Arduino VENTUNO Q, updates to Zephyr 4.4.1, and more\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/04/arduinocore-zephyr-1-0-0-adds-support-for-arduino-ventuno-q-updates-to-zephyr-4-4-1-and-more/"
     }
   ]
 }
