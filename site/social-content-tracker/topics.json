@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T07:09:25.909Z",
+  "generatedAt": "2026-10-08T07:16:10.064Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,31 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "Efinix Sapphire RV64 SoC – Configurable RISC-V soft-cores with DDR3, LPDDR4x, and HyperRAM for Efinix FPGAs",
+      "source": "CNX Software",
+      "date": "2026-10-08",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Efinix has introduced the Sapphire RV64 SoC, a configurable 64-bit RISC-V soft-core processor designed for its Titanium and Trion FPGAs. It is based on the VexiiRiscv core and can be configured with one to four RISC-V cores running at up to 400 MHz. The...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Efinix Sapphire RV64 SoC – Configurable RISC-V soft-cores with DDR3, LPDDR4x, and HyperRAM for Efinix FPGAs\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/08/efinix-sapphire-rv64-soc-configurable-risc-v-soft-cores-with-ddr3-lpddr4x-and-hyperram-for-efinix-fpgas/"
+    },
     {
       "title": "NuMaker-IoT-MA35D0-A2 (Chili Pro) ultra-compact evaluation board features MA35D0K Cortex-A35/M4 MPU",
       "source": "CNX Software",
@@ -31,6 +56,81 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "NuMaker-IoT-MA35D0-A2 (Chili Pro) ultra-compact evaluation board features MA35D0K Cortex-A35/M4 MPU\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/10/07/numaker-iot-ma35d0-a2-chili-pro-ultra-compact-evaluation-board-features-ma35d0k-cortex-a35-m4-mpu/"
+    },
+    {
+      "title": "IoT Global Awards 2026 winners announced",
+      "source": "IoT Now",
+      "date": "2026-10-07",
+      "product": "BLE Module",
+      "score": 91,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Recognising innovation in iSIM, industrial AI and fleet technology, the winners of the IoT Global Awards for 2026 have been selected. Following a rigorous evaluation by an independent judging panel … Continued The post IoT Global Awards 2026 winners announced...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "IoT Global Awards 2026 winners announced\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/10/07/158736-iot-global-awards-2026-winners-announced/"
+    },
+    {
+      "title": "DSPi firmware turns Raspberry Pi RP2040/RP2350 into a USB sound card with an onboard DSP engine",
+      "source": "CNX Software",
+      "date": "2026-10-07",
+      "product": "ESP32 Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "DSPi is a full-featured audio DSP firmware for the Raspberry Pi Pico, Pico 2, and other Raspberry Pi RP2040/RP2350 boards, which turns them into a USB sound card with an integrated DSP. It allows users to make use of essential tools like room correction,...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "DSPi firmware turns Raspberry Pi RP2040/RP2350 into a USB sound card with an onboard DSP engine\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/07/dspi-firmware-turns-raspberry-pi-rp2040-rp2350-into-a-usb-sound-card-with-an-onboard-dsp-engine/"
+    },
+    {
+      "title": "Aeris and Telna partner to reduce global IoT connectivity fragmentation, expanding IoT Accelerator coverage in Brazil",
+      "source": "IoT Now",
+      "date": "2026-10-07",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "The partnership pairs Aeris’ Connectivity Management Platform with Telna’s cloud-native core network to deliver zero-touch eSIM, local breakout and single-interface management in Brazil. The post Aeris and Telna partner to reduce global IoT connectivity...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Aeris and Telna partner to reduce global IoT connectivity fragmentation, expanding IoT Accelerator coverage in Brazil\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/10/07/158733-aeris-telna-partnership-iot-connectivity-brazil-iot-accelerator/"
     },
     {
       "title": "XIMEA MU003TG-SY-UC – A miniature, modular 0.3MP USB 3.0 ToF Sensor based on Sony IMX556",
@@ -2523,106 +2623,6 @@
       "hook": "Good IoT content starts with useful market context.",
       "post": "USI launches edge AI camera for factory-floor inspection\n\nThis is a useful signal for IoT brands and product teams watching IoT Industry opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
       "url": "https://iottechnews.com/news/usi-edge-ai-camera-factory-inspection/"
-    },
-    {
-      "title": "Entries for the 2026 IoT Global Awards programme have closed",
-      "source": "IoT Now",
-      "date": "2026-09-08",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "The IoT Global Awards will stop accepting entries for this year’s programme, at 17:00 CET on Friday 11th September. Entries are to be submitted via the official IoT Global Awards … Continued The post Entries for the 2026 IoT Global Awards programme have...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Entries for the 2026 IoT Global Awards programme have closed\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/09/08/158292-four-days-left-the-2026-iot-global-awards-programme-closes-for-entries-this-friday/"
-    },
-    {
-      "title": "Dyna.Ai and GAPP partner to power Saudi Arabia’s digital infrastructure and next-gen AI workforce",
-      "source": "IoT Now",
-      "date": "2026-09-08",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "The partnership will bring Dyna.Ai’s agentic AI platform into the enterprise IT environments GAPP supports across Saudi Arabia. The post Dyna.Ai and GAPP partner to power Saudi Arabia’s digital infrastructure and next-gen AI workforce appeared first on IoT...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Dyna.Ai and GAPP partner to power Saudi Arabia’s digital infrastructure and next-gen AI workforce\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/09/08/158280-dynaai-gapp-partner-saudi-arabia-digital-infrastructure-ai-workforce/"
-    },
-    {
-      "title": "One day left: The 2026 IoT Global Awards programme closes for entries today",
-      "source": "IoT Now",
-      "date": "2026-09-08",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "The IoT Global Awards will stop accepting entries for this year’s programme, at 17:00 CET on Friday 11th September. Entries are to be submitted via the official IoT Global Awards … Continued The post One day left: The 2026 IoT Global Awards programme closes...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "One day left: The 2026 IoT Global Awards programme closes for entries today\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/09/08/158292-four-days-left-the-2026-iot-global-awards-programme-closes-for-entries-this-friday/"
-    },
-    {
-      "title": "Two days left: The 2026 IoT Global Awards programme closes for entries this Friday",
-      "source": "IoT Now",
-      "date": "2026-09-08",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "The IoT Global Awards will stop accepting entries for this year’s programme, at 17:00 CET on Friday 11th September. Entries are to be submitted via the official IoT Global Awards … Continued The post Two days left: The 2026 IoT Global Awards programme closes...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Two days left: The 2026 IoT Global Awards programme closes for entries this Friday\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/09/08/158292-four-days-left-the-2026-iot-global-awards-programme-closes-for-entries-this-friday/"
     }
   ]
 }
