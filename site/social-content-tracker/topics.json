@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T07:16:46.272Z",
+  "generatedAt": "2026-10-13T07:38:59.705Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,31 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "Dragonwing FWA Gen 6 Elite Platform combines 5G Advanced, NR-NTN, and tri-band Wi-Fi 8",
+      "source": "CNX Software",
+      "date": "2026-10-13",
+      "product": "WiFi Module",
+      "score": 84,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "WiFi",
+        "Smart Home",
+        "Wireless Module"
+      ],
+      "value": "Useful for turning current industry news into content about smart home devices, gateways, control panels, and Wi-Fi connected IoT products.",
+      "summary": "Unveiled at Network X 2026, the Qualcomm Dragonwing FWA Gen 6 Elite Platform combines 5G Advanced (3GPP Rel-19), NR-NTN (New Radio – Non-Terrestrial Networks) satellite communication, and tri-band Wi-Fi 8 with a 5×5 radio configuration. The new Fixed Wireless...",
+      "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
+      "post": "Dragonwing FWA Gen 6 Elite Platform combines 5G Advanced, NR-NTN, and tri-band Wi-Fi 8\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/13/dragonwing-fwa-gen-6-elite-platform-combines-5g-advanced-nr-ntn-and-tri-band-wi-fi-8/"
+    },
     {
       "title": "Facebook releases Muse Gadgets SDK for ESP32 and Raspberry Pi/Linux-based devices",
       "source": "CNX Software",
@@ -31,6 +56,56 @@
       "hook": "A small module can shape the whole connected product experience.",
       "post": "Facebook releases Muse Gadgets SDK for ESP32 and Raspberry Pi/Linux-based devices\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/10/12/facebook-releases-muse-gadgets-sdk-for-esp32-and-raspberry-pi-linux-based-devices/"
+    },
+    {
+      "title": "PlugMate and PlugClaw Review – Thumb-sized Android-based private computers with optional Ubuntu/OpenClaw support",
+      "source": "CNX Software",
+      "date": "2026-10-12",
+      "product": "BLE Module",
+      "score": 92,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "We received two unusual little devices for review this month: the PlugMate and the PlugClaw, both built by TrustKernel, a security company better known for the trusted-execution tech inside other people’s phones than for consumer gadgets. Each is a complete,...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "PlugMate and PlugClaw Review – Thumb-sized Android-based private computers with optional Ubuntu/OpenClaw support\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/12/plugmate-and-plugclaw-review-thumb-sized-android-based-private-computers-with-optional-ubuntu-openclaw-support/"
+    },
+    {
+      "title": "Fibocom and Grid-OS accelerate IoT deployment at scale in India at IMC 2026",
+      "source": "IoT Now",
+      "date": "2026-10-12",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Fibocom is collaborating with India-based IoT ODM Grid-OS on smart payment and vehicle tracking devices built on its LTE Cat 1 bis modules, showcased at IMC 2026. The post Fibocom and Grid-OS accelerate IoT deployment at scale in India at IMC 2026 appeared...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Fibocom and Grid-OS accelerate IoT deployment at scale in India at IMC 2026\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/10/12/158773-fibocom-grid-os-iot-deployment-at-scale-india-imc-2026/"
     },
     {
       "title": "ESP32 developer ecosystem angle",
@@ -448,31 +523,6 @@
       "url": "https://www.cnx-software.com/2026/10/06/ximea-mu003tg-sy-uc-a-miniature-modular-0-3mp-usb-3-0-tof-sensor-based-on-sony-imx556/"
     },
     {
-      "title": "Save $70 on GEEKOM A5 Pro 2026 Edition mini PC during Prime Day Sale (Sponsored)",
-      "source": "CNX Software",
-      "date": "2026-10-06",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "The GEEKOM A5 Pro 2026 Edition is a pocket-sized 0.47L mini PC available at a $70 discount for the company’s Prime Day Sale until October 7. Powered by the 6-core Ryzen 5 7530U (up to 4.5GHz), it handles browsing, documents, video calls, and AI-agent tasks...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Save $70 on GEEKOM A5 Pro 2026 Edition mini PC during Prime Day Sale (Sponsored)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/10/06/save-70-on-geekom-a5-pro-2026-edition-mini-pc-for-prime-day-sale/"
-    },
-    {
       "title": "SEALSQ’s sister company WISeSat.Space completes business combination with Columbus Acquisition Corporation",
       "source": "IoT Now",
       "date": "2026-10-06",
@@ -521,6 +571,31 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Can you see your whole IoT estate across the Asia Pacific region?\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/10/06/158697-see-whole-iot-estate-asia-pacific-visibility-apac/"
+    },
+    {
+      "title": "Save $70 on GEEKOM A5 Pro 2026 Edition mini PC during Prime Day Sale (Sponsored)",
+      "source": "CNX Software",
+      "date": "2026-10-06",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "The GEEKOM A5 Pro 2026 Edition is a pocket-sized 0.47L mini PC available at a $70 discount for the company’s Prime Day Sale until October 7. Powered by the 6-core Ryzen 5 7530U (up to 4.5GHz), it handles browsing, documents, video calls, and AI-agent tasks...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Save $70 on GEEKOM A5 Pro 2026 Edition mini PC during Prime Day Sale (Sponsored)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/06/save-70-on-geekom-a5-pro-2026-edition-mini-pc-for-prime-day-sale/"
     },
     {
       "title": "Geekworm UPS Scap 5V5A – A supercapacitor UPS HAT for Raspberry Pi 5",
@@ -2549,82 +2624,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Renesas RZ/G3L & RZ/G3SE – Ultra-low-power Cortex-A55 MPUs for industrial HMI and IoT applications\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/09/11/renesas-rz-g3l-rz-g3se-ultra-low-power-cortex-a55-mpus-for-industrial-hmi-and-iot-applications/"
-    },
-    {
-      "title": "Skild trains S1 robot physical AI model on NVIDIA infrastructure",
-      "source": "IoT Tech News",
-      "date": "2026-09-11",
-      "product": "IoT Industry",
-      "score": 81,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "IoT",
-        "Industry Trend",
-        "Wireless Technology"
-      ],
-      "value": "Useful for turning current industry news into content about market education, B2B trend posts, sales context, and social content planning.",
-      "summary": "Skild AI has launched its S1 robot foundation model on NVIDIA infrastructure, training robotics systems using single video demonstrations. The system uses video inputs to execute long-horizon, previously unseen tasks through in-context learning, operating...",
-      "hook": "Good IoT content starts with useful market context.",
-      "post": "Skild trains S1 robot physical AI model on NVIDIA infrastructure\n\nThis is a useful signal for IoT brands and product teams watching IoT Industry opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
-      "url": "https://iottechnews.com/news/skild-trains-s1-robot-physical-ai-model-on-nvidia-infrastructure/"
-    },
-    {
-      "title": "Telit Cinterion details edge AI SDK for cellular modules",
-      "source": "IoT Tech News",
-      "date": "2026-09-10",
-      "product": "BLE Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Telit Cinterion has revealed an edge AI SDK alongside planned AI-enabled cellular module variants designed to run machine learning on-device. The SDK runs machine learning models directly on the cellular module’s internal hardware. By executing workloads...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Telit Cinterion details edge AI SDK for cellular modules\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
-      "url": "https://iottechnews.com/news/telit-cinterion-details-edge-ai-sdk-for-cellular-modules/"
-    },
-    {
-      "title": "Arduino UNO Media Carrier adds MIPI CSI/DSI and audio connectors to UNO Q and VENTUNO Q boards",
-      "source": "CNX Software",
-      "date": "2026-09-10",
-      "product": "BLE Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Arduino UNO Media Carrier board adds three audio jacks, a MIPI DSI display connector, two MIPI CSI camera connectors, and a few RGB LEDs to the Arduino UNO Q and Arduino VENTUNO Q SBCs. Both Arduino “Q” boards already expose MIPI CSI/DSI and audio interfaces,...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Arduino UNO Media Carrier adds MIPI CSI/DSI and audio connectors to UNO Q and VENTUNO Q boards\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/10/arduino-uno-media-carrier-adds-mipi-csi-dsi-and-audio-connectors-to-uno-q-and-ventuno-q-boards/"
     }
   ]
 }
