@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T06:03:34.057Z",
+  "generatedAt": "2026-10-15T05:49:53.349Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,113 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "Radar sensing for privacy-friendly presence detection",
+      "source": "Industry Sensing",
+      "product": "Radar Sensor",
+      "score": 92,
+      "formats": [
+        "Short Video",
+        "LinkedIn Post",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "Radar",
+        "Presence Detection",
+        "Smart Sensing"
+      ],
+      "value": "Useful for explaining camera-free sensing in elderly care, bathrooms, bedrooms, security, and automation scenarios.",
+      "summary": "Radar content is strongest when it starts from the user problem: reliable presence detection without a camera.",
+      "hook": "Not every sensing solution needs a camera.",
+      "post": "Radar sensing can be explained through practical spaces: bathroom, bedroom, entryway, or care facility. Start with the pain point, then explain why camera-free sensing matters.",
+      "url": "",
+      "date": "2026-10-15"
+    },
+    {
+      "title": "LoRaWAN solution content worth tracking",
+      "source": "RAKwireless",
+      "product": "LoRa Module",
+      "score": 95,
+      "formats": [
+        "LinkedIn Post",
+        "Carousel",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "LoRa",
+        "LoRaWAN",
+        "Gateway"
+      ],
+      "value": "Useful for explaining complete LoRaWAN solutions to B2B users, including modules, gateways, sensor nodes, and cloud workflows.",
+      "summary": "Track how LoRaWAN brands turn hardware into complete deployment stories.",
+      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
+      "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
+      "url": "https://www.linkedin.com/company/rakwireless/",
+      "date": "2026-10-15"
+    },
+    {
+      "title": "ESP32 developer ecosystem angle",
+      "source": "Espressif Systems",
+      "product": "ESP32 Module",
+      "score": 96,
+      "formats": [
+        "LinkedIn Post",
+        "Carousel",
+        "Short Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "YouTube"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for explaining how ESP32 modules support smart devices, control panels, gateways, and rapid prototyping.",
+      "summary": "ESP32 ecosystem content is useful when it turns chip capability into developer workflows and visible demos.",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "ESP32 content works best when it connects the module to a real device workflow: connectivity, control, UI, sensing, and deployment.",
+      "url": "https://www.linkedin.com/company/espressif-systems",
+      "date": "2026-10-15"
+    },
+    {
+      "title": "Matter and smart-home compatibility story",
+      "source": "Home Assistant",
+      "product": "WiFi Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Carousel",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "Matter",
+        "Smart Home",
+        "Interoperability"
+      ],
+      "value": "Useful for smart-home customers who care about compatibility, certification readiness, and faster product development.",
+      "summary": "Smart-home module content should explain compatibility and integration value, not only wireless specs.",
+      "hook": "Smart home buyers are no longer asking only for connectivity. They want compatibility.",
+      "post": "For smart-home devices, wireless modules become more valuable when they reduce integration risk and help products fit into existing ecosystems.",
+      "url": "https://www.home-assistant.io/",
+      "date": "2026-10-15"
+    },
     {
       "title": "VIEWE launches 4.3-inch ESP32-S31 display development board",
       "source": "CNX Software",
@@ -35,6 +142,135 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "VIEWE launches 4.3-inch ESP32-S31 display development board\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/10/14/viewe-4-3-inch-esp32-s31-display-development-board/"
+    },
+    {
+      "title": "Romu – A Tiny Raspberry Pi RP2354A board for USB application development (Crowdfunding)",
+      "source": "CNX Software",
+      "date": "2026-10-14",
+      "product": "BLE Module",
+      "score": 92,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Bitmerse Romu is a tiny (15.5 x 12 mm), almost minimal Raspberry Pi RP2354A USB board with a USB 2.0 interface on one side of the PCB, and the dual Cortex-M33/RISC-V MCU on the other side, connected to a few debugging/programming pads, buttons, and an RGB...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Romu – A Tiny Raspberry Pi RP2354A board for USB application development (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/14/romu-tiny-raspberry-pi-rp2354a-usb-board/"
+    },
+    {
+      "title": "Orange Pi O1 SBC features 16 TOPS SOPHGO BM1688 AI SoC, supports 4G/5G cellular connectivity",
+      "source": "CNX Software",
+      "date": "2026-10-14",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Orange Pi O1 is a new single board computer (SBC) based on the somewhat older SOPHGO BM1688 octa-core Cortex-A53 SoC with a built-in 16 TOPS AI accelerator/TPU, and support for decoding up to sixteen 1080p30 video streams, or encoding ten. The board comes...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Orange Pi O1 SBC features 16 TOPS SOPHGO BM1688 AI SoC, supports 4G/5G cellular connectivity\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/15/orange-pi-o1-sbc-features-16-tops-sophgo-bm1688-ai-soc-supports-4g-5g-cellular-connectivity/"
+    },
+    {
+      "title": "GSMA MWC26 Doha: New agenda-setting speaker and exhibitor line-up revealed",
+      "source": "IoT Now",
+      "date": "2026-10-14",
+      "product": "BLE Module",
+      "score": 86,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "The GSMA has announced the speaker and exhibitor line-up for MWC26 Doha, which returns to the Doha Exhibition and Convention Center on 8 to 10 November 2026, co-located with the ITU Plenipotentiary Conference. The post GSMA MWC26 Doha: New agenda-setting...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "GSMA MWC26 Doha: New agenda-setting speaker and exhibitor line-up revealed\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/10/14/158817-gsma-mwc26-doha-speaker-exhibitor-line-up-revealed/"
+    },
+    {
+      "title": "BroadForward delivers secure signalling for Terrestar’s satellite direct-to-mobile connectivity across Canada",
+      "source": "IoT Now",
+      "date": "2026-10-14",
+      "product": "BLE Module",
+      "score": 85,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "BroadForward’s 4G routing and Diameter Firewall are now live in Terrestar Solutions’ network, routing signalling between satellite and cellular domains to extend mobile and IoT coverage across remote Canada. The post BroadForward delivers secure signalling...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "BroadForward delivers secure signalling for Terrestar’s satellite direct-to-mobile connectivity across Canada\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/10/14/158814-broadforward-terrestar-satellite-direct-to-mobile-signalling-canada/"
+    },
+    {
+      "title": "IoT Now Contract Win List – September 2026",
+      "source": "IoT Now",
+      "date": "2026-10-14",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "The IoT Now Contract Win List for September 2026 shows the Internet of Things contracts placed worldwide and reported in the last months. Get the inside track on who’s winning what … Continued The post IoT Now Contract Win List – September 2026 appeared first...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "IoT Now Contract Win List – September 2026\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/10/14/158809-iot-now-contract-win-list-september-2026/"
     },
     {
       "title": "Microchip MTCH3380P and MTCH3240P capacitive touch controllers support up to 64 buttons with parallel sensing",
@@ -187,85 +423,6 @@
       "url": "https://iot-now.com/2026/10/12/158773-fibocom-grid-os-iot-deployment-at-scale-india-imc-2026/"
     },
     {
-      "title": "ESP32 developer ecosystem angle",
-      "source": "Espressif Systems",
-      "product": "ESP32 Module",
-      "score": 96,
-      "formats": [
-        "LinkedIn Post",
-        "Carousel",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "YouTube"
-      ],
-      "tags": [
-        "ESP32",
-        "Embedded Development",
-        "Smart Device"
-      ],
-      "value": "Useful for explaining how ESP32 modules support smart devices, control panels, gateways, and rapid prototyping.",
-      "summary": "ESP32 ecosystem content is useful when it turns chip capability into developer workflows and visible demos.",
-      "hook": "A small module can shape the whole connected product experience.",
-      "post": "ESP32 content works best when it connects the module to a real device workflow: connectivity, control, UI, sensing, and deployment.",
-      "url": "https://www.linkedin.com/company/espressif-systems",
-      "date": "2026-10-11"
-    },
-    {
-      "title": "LoRaWAN solution content worth tracking",
-      "source": "RAKwireless",
-      "product": "LoRa Module",
-      "score": 95,
-      "formats": [
-        "LinkedIn Post",
-        "Carousel",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "LoRa",
-        "LoRaWAN",
-        "Gateway"
-      ],
-      "value": "Useful for explaining complete LoRaWAN solutions to B2B users, including modules, gateways, sensor nodes, and cloud workflows.",
-      "summary": "Track how LoRaWAN brands turn hardware into complete deployment stories.",
-      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
-      "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
-      "url": "https://www.linkedin.com/company/rakwireless/",
-      "date": "2026-10-11"
-    },
-    {
-      "title": "Matter and smart-home compatibility story",
-      "source": "Home Assistant",
-      "product": "WiFi Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Carousel",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "Matter",
-        "Smart Home",
-        "Interoperability"
-      ],
-      "value": "Useful for smart-home customers who care about compatibility, certification readiness, and faster product development.",
-      "summary": "Smart-home module content should explain compatibility and integration value, not only wireless specs.",
-      "hook": "Smart home buyers are no longer asking only for connectivity. They want compatibility.",
-      "post": "For smart-home devices, wireless modules become more valuable when they reduce integration risk and help products fit into existing ecosystems.",
-      "url": "https://www.home-assistant.io/",
-      "date": "2026-10-11"
-    },
-    {
       "title": "Wireless-Tag WT32P4C5-43S – A fully integrated 4.3-inch ESP32-P4 and ESP32-C5 touch display devkit",
       "source": "CNX Software",
       "date": "2026-10-11",
@@ -293,34 +450,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Wireless-Tag WT32P4C5-43S – A fully integrated 4.3-inch ESP32-P4 and ESP32-C5 touch display devkit\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/10/11/wireless-tag-wt32p4c5-43s-a-fully-integrated-4-3-inch-esp32-p4-and-esp32-c5-touch-display-devkit/"
-    },
-    {
-      "title": "Radar sensing for privacy-friendly presence detection",
-      "source": "Industry Sensing",
-      "product": "Radar Sensor",
-      "score": 92,
-      "formats": [
-        "Short Video",
-        "LinkedIn Post",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "Radar",
-        "Presence Detection",
-        "Smart Sensing"
-      ],
-      "value": "Useful for explaining camera-free sensing in elderly care, bathrooms, bedrooms, security, and automation scenarios.",
-      "summary": "Radar content is strongest when it starts from the user problem: reliable presence detection without a camera.",
-      "hook": "Not every sensing solution needs a camera.",
-      "post": "Radar sensing can be explained through practical spaces: bathroom, bedroom, entryway, or care facility. Start with the pain point, then explain why camera-free sensing matters.",
-      "url": "",
-      "date": "2026-10-11"
     },
     {
       "title": "M5Stack ToughC5 weatherproof ESP32-C5 IoT controller offers dual-band Wi-Fi 6, BLE 5, and Zigbee/Thread",
@@ -527,31 +656,6 @@
       "url": "https://iot-now.com/2026/10/07/158736-iot-global-awards-2026-winners-announced/"
     },
     {
-      "title": "DSPi firmware turns Raspberry Pi RP2040/RP2350 into a USB sound card with an onboard DSP engine",
-      "source": "CNX Software",
-      "date": "2026-10-07",
-      "product": "ESP32 Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "ESP32",
-        "Embedded Development",
-        "Smart Device"
-      ],
-      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
-      "summary": "DSPi is a full-featured audio DSP firmware for the Raspberry Pi Pico, Pico 2, and other Raspberry Pi RP2040/RP2350 boards, which turns them into a USB sound card with an integrated DSP. It allows users to make use of essential tools like room correction,...",
-      "hook": "A small module can shape the whole connected product experience.",
-      "post": "DSPi firmware turns Raspberry Pi RP2040/RP2350 into a USB sound card with an onboard DSP engine\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/10/07/dspi-firmware-turns-raspberry-pi-rp2040-rp2350-into-a-usb-sound-card-with-an-onboard-dsp-engine/"
-    },
-    {
       "title": "Aeris and Telna partner to reduce global IoT connectivity fragmentation, expanding IoT Accelerator coverage in Brazil",
       "source": "IoT Now",
       "date": "2026-10-07",
@@ -575,6 +679,31 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Aeris and Telna partner to reduce global IoT connectivity fragmentation, expanding IoT Accelerator coverage in Brazil\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/10/07/158733-aeris-telna-partnership-iot-connectivity-brazil-iot-accelerator/"
+    },
+    {
+      "title": "DSPi firmware turns Raspberry Pi RP2040/RP2350 into a USB sound card with an onboard DSP engine",
+      "source": "CNX Software",
+      "date": "2026-10-07",
+      "product": "ESP32 Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "DSPi is a full-featured audio DSP firmware for the Raspberry Pi Pico, Pico 2, and other Raspberry Pi RP2040/RP2350 boards, which turns them into a USB sound card with an integrated DSP. It allows users to make use of essential tools like room correction,...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "DSPi firmware turns Raspberry Pi RP2040/RP2350 into a USB sound card with an onboard DSP engine\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/07/dspi-firmware-turns-raspberry-pi-rp2040-rp2350-into-a-usb-sound-card-with-an-onboard-dsp-engine/"
     },
     {
       "title": "XIMEA MU003TG-SY-UC – A miniature, modular 0.3MP USB 3.0 ToF Sensor based on Sony IMX556",
@@ -2499,135 +2628,6 @@
       "hook": "Good IoT content starts with useful market context.",
       "post": "LG brings factory AI closer to production data with EXAONE\n\nThis is a useful signal for IoT brands and product teams watching IoT Industry opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
       "url": "https://iottechnews.com/news/lg-factory-ai-exaone-production-data/"
-    },
-    {
-      "title": "JetKVM Mini – A low-cost, ESP32-P4X-based KVM with Ethernet or WiFi connectivity",
-      "source": "CNX Software",
-      "date": "2026-09-14",
-      "product": "WiFi Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "WiFi",
-        "Smart Home",
-        "Wireless Module"
-      ],
-      "value": "Useful for turning current industry news into content about smart home devices, gateways, control panels, and Wi-Fi connected IoT products.",
-      "summary": "JetKVM Mini is a smaller, lower-cost version of the popular JetKVM KVM over IP solution. The new model features a small information display, offers Ethernet or WiFi connectivity, and supports 1080p video capture. The main under-the-hood change is that they...",
-      "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
-      "post": "JetKVM Mini – A low-cost, ESP32-P4X-based KVM with Ethernet or WiFi connectivity\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/14/jetkvm-mini-a-low-cost-esp32-p4x-based-kvm-with-ethernet-or-wifi-connectivity/"
-    },
-    {
-      "title": "Morse Micro Wi-Fi HaLow USB adapters add 802.11ah connectivity to PCs and routers",
-      "source": "CNX Software",
-      "date": "2026-09-14",
-      "product": "WiFi Module",
-      "score": 86,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "WiFi",
-        "Smart Home",
-        "Wireless Module"
-      ],
-      "value": "Useful for turning current industry news into content about smart home devices, gateways, control panels, and Wi-Fi connected IoT products.",
-      "summary": "Last year, we saw Morse Micro introduce the MM8108 Wi-Fi HaLow (802.11ah) SoC with up to 43.33 Mbps throughput, along with an MM8108-RD09 USB dongle reference design, for which we had virtually no details at the time. Morse Micro has now released USB-A and...",
-      "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
-      "post": "Morse Micro Wi-Fi HaLow USB adapters add 802.11ah connectivity to PCs and routers\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/14/morse-micro-wi-fi-halow-usb-adapters-add-802-11ah-connectivity-to-pcs-and-routers/"
-    },
-    {
-      "title": "IoT Now Contract Win List – August 2026",
-      "source": "IoT Now",
-      "date": "2026-09-14",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "The IoT Now Contract Win List for August 2026 shows the Internet of Things contracts placed worldwide and reported in the last months. Get the inside track on who’s winning what … Continued The post IoT Now Contract Win List – August 2026 appeared first on...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "IoT Now Contract Win List – August 2026\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/09/14/158386-iot-now-contract-win-list-august-2026/"
-    },
-    {
-      "title": "Iridium, Deutsche Telekom IoT and Toyota demonstrate voice messaging over satellite via Iridium NTN Direct",
-      "source": "IoT Now",
-      "date": "2026-09-14",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Newly completed roaming agreement extends Deutsche Telekom’s IoT coverage onto Iridium’s satellite network. The post Iridium, Deutsche Telekom IoT and Toyota demonstrate voice messaging over satellite via Iridium NTN Direct appeared first on IoT Now News -...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Iridium, Deutsche Telekom IoT and Toyota demonstrate voice messaging over satellite via Iridium NTN Direct\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/09/14/158379-iridium-deutsche-telekom-iot-toyota-voice-messaging-satellite-ntn-direct/"
-    },
-    {
-      "title": "M5Stack Module13.2 LoRa-1262 expansion board integrates 14×10 mm Stamp LoRa-1262 module",
-      "source": "CNX Software",
-      "date": "2026-09-13",
-      "product": "LoRa Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "LoRa",
-        "LPWAN",
-        "Smart City"
-      ],
-      "value": "Useful for turning current industry news into content about smart city, utility metering, asset tracking, and low-power wide-area IoT scenarios.",
-      "summary": "After launching the SX1262-based M5Stamp C6LoRa tiny module, M5Stack has launched two SX1262-based LoRa add-ons for the 868–923 MHz band: the tiny Stamp LoRa-1262 SMD module for custom PCBs, and the stackable Module13.2 LoRa-1262 module for the M5Stack Core...",
-      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
-      "post": "M5Stack Module13.2 LoRa-1262 expansion board integrates 14×10 mm Stamp LoRa-1262 module\n\nThis is a useful signal for IoT brands and product teams watching LoRa Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/13/m5stack-module13-2-lora-1262-expansion-board-integrates-14x10-mm-stamp-lora-1262-module/"
     }
   ]
 }
