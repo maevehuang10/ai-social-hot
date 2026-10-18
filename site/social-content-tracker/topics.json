@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T05:31:38.158Z",
+  "generatedAt": "2026-10-18T05:46:46.585Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,35 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "M5Stack PaperDIY Kits pair an ESP32-S3 MCU with a 4.7-inch e-Paper display",
+      "source": "CNX Software",
+      "date": "2026-10-18",
+      "product": "BLE Module",
+      "score": 98,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "M5Stack has released the PaperDIY series, an updated version of its 2020 M5Paper ESP32 development kit, featuring an ESP32-S3 MCU and a 4.7-inch e-paper display with 16 levels of gray. It comes in two versions: the PaperDIY Complete Kit, which ships...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "M5Stack PaperDIY Kits pair an ESP32-S3 MCU with a 4.7-inch e-Paper display\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/18/m5stack-paperdiy-kits-pair-an-esp32-s3-mcu-with-a-4-7-inch-e-paper-display/"
+    },
     {
       "title": "Seeed Studio XIAO IPS display series features ESP32-S3 or nRF52840 SoC with 0.96-inch to 1.47-inch LCD options",
       "source": "CNX Software",
@@ -2601,34 +2630,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "SES and Elveo Mobile deepen collaboration to advance direct-to-device services in Europe\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/09/16/158437-ses-elveo-mobile-direct-to-device-services-europe/"
-    },
-    {
-      "title": "OpenMANET – A higher-bandwidth Meshtastic alternative leveraging 802.11ah WiFi HaLow",
-      "source": "CNX Software",
-      "date": "2026-09-16",
-      "product": "LoRa Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "LoRa",
-        "LPWAN",
-        "Smart City"
-      ],
-      "value": "Useful for turning current industry news into content about smart city, utility metering, asset tracking, and low-power wide-area IoT scenarios.",
-      "summary": "OpenMANET is an open-source project for building long-range wireless mesh Mobile Ad-hoc Networks (MANETs) using Raspberry Pi SBCs and Wi-Fi HaLow (802.11ah) chips from Morse Micro. This came up when we wrote about Morse Micro USB WiFi HaLow adapters, and an X...",
-      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
-      "post": "OpenMANET – A higher-bandwidth Meshtastic alternative leveraging 802.11ah WiFi HaLow\n\nThis is a useful signal for IoT brands and product teams watching LoRa Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/16/openmanet-a-higher-bandwidth-meshtastic-alternative-leveraging-802-11ah-wifi-halow/"
     }
   ]
 }
