@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T05:46:46.585Z",
+  "generatedAt": "2026-10-19T06:03:41.131Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,31 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "Axera AX8860P 16-core Cortex-A55 SoC takes on NVIDIA DGX Spark at fraction of the cost",
+      "source": "CNX Software",
+      "date": "2026-10-19",
+      "product": "ESP32 Module",
+      "score": 93,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "Axera AX8860P is a new 16-core Cortex-A55 SoC with up to 128 TOPS/256 TOPS (FP4) NPU, 256-bit LPDDR5/5X memory, and PCIe 5.0 connectivity, aiming to power desktop AI solutions competing with NVIDIA DGX Spark at a fraction of the cost. Dr. Qiu Xiaoxin, founder...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "Axera AX8860P 16-core Cortex-A55 SoC takes on NVIDIA DGX Spark at fraction of the cost\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/19/axera-ax8860p-16-core-cortex-a55-soc-takes-on-nvidia-dgx-spark-at-fraction-of-the-cost/"
+    },
     {
       "title": "M5Stack PaperDIY Kits pair an ESP32-S3 MCU with a 4.7-inch e-Paper display",
       "source": "CNX Software",
@@ -2605,31 +2630,6 @@
       "hook": "Good IoT content starts with useful market context.",
       "post": "Ambarella and ZEDEDA bring cloud orchestration to edge AI silicon\n\nThis is a useful signal for IoT brands and product teams watching IoT Industry opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
       "url": "https://iottechnews.com/news/ambarella-zededa-cloud-orchestration-to-edge-ai-silicon/"
-    },
-    {
-      "title": "SES and Elveo Mobile deepen collaboration to advance direct-to-device services in Europe",
-      "source": "IoT Now",
-      "date": "2026-09-16",
-      "product": "BLE Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "The expanded collaboration covers European manufacturing of LEO direct-to-device satellites and a multi-orbit architecture spanning LEO, MEO and GEO. The post SES and Elveo Mobile deepen collaboration to advance direct-to-device services in Europe appeared...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "SES and Elveo Mobile deepen collaboration to advance direct-to-device services in Europe\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/09/16/158437-ses-elveo-mobile-direct-to-device-services-europe/"
     }
   ]
 }
