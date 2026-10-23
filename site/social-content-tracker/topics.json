@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T06:02:09.196Z",
+  "generatedAt": "2026-10-23T05:58:12.963Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,83 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "RoboParty RP1 (ROBOTO 01) – A full-stack open-source humanoid robot with up to 30 degrees of freedom",
+      "source": "CNX Software",
+      "date": "2026-10-23",
+      "product": "BLE Module",
+      "score": 98,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Shanghai-based RoboParty has introduced the RP1 (ROBOTO 01), an open-source humanoid robot designed for robotics research, embodied AI development, and motion-control experiments. The robot is available in two configurations: the standard RP1 with 24 active...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "RoboParty RP1 (ROBOTO 01) – A full-stack open-source humanoid robot with up to 30 degrees of freedom\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/23/roboparty-rp1-roboto-01-a-full-stack-open-source-humanoid-robot-with-up-to-30-degrees-of-freedom/"
+    },
+    {
+      "title": "The AI worm your security stack can’t see: Why cellular IoT is the blind spot",
+      "source": "IoT Now",
+      "date": "2026-10-22",
+      "product": "BLE Module",
+      "score": 92,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Anthropic just put a date on a threat most security teams have filed under \"someday.\" The question it leaves open is the one that matters for enterprises: who can actually see the devices it targets?, writes Matt Coleman, the chief revenue officer of...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "The AI worm your security stack can’t see: Why cellular IoT is the blind spot\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/10/22/158963-ai-worm-cellular-iot-security-blind-spot/"
+    },
+    {
+      "title": "GL.iNet Mango 2 mini travel router features AC1300 WiFi 5 and dual Gigabit Ethernet",
+      "source": "CNX Software",
+      "date": "2026-10-22",
+      "product": "WiFi Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "WiFi",
+        "Smart Home",
+        "Wireless Module"
+      ],
+      "value": "Useful for turning current industry news into content about smart home devices, gateways, control panels, and Wi-Fi connected IoT products.",
+      "summary": "GL.iNet Mango 2 (GL-MG1300) mini dual-band WiFi 5 travel router is built around the MediaTek MT7621A dual-core processor. It is designed to share hotel WiFi, wired Ethernet, or mobile internet connections with multiple devices. The router measures just 89 x...",
+      "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
+      "post": "GL.iNet Mango 2 mini travel router features AC1300 WiFi 5 and dual Gigabit Ethernet\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/22/gl-inet-mango-2-mini-travel-router-features-ac1300-wifi-5-and-dual-gigabit-ethernet/"
+    },
     {
       "title": "Rotary encoder with 1.8-inch touch display gets upgrade to ESP32-S31 SoC",
       "source": "CNX Software",
@@ -467,31 +544,6 @@
       "url": "https://www.cnx-software.com/2026/10/16/xerxes-pi-2026-and-xerxes-nano-carrier-boards-offer-nvme-poe-and-oculink-for-raspberry-pi-and-jetson-modules/"
     },
     {
-      "title": "HPMicro HPM5100 RISC-V MCU integrates four 16-bit ADCs, four op-amps for analog sensing and motor control",
-      "source": "CNX Software",
-      "date": "2026-10-15",
-      "product": "ESP32 Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "ESP32",
-        "Embedded Development",
-        "Smart Device"
-      ],
-      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
-      "summary": "HPMicro has introduced the HPM5100 series, a family of 32-bit RISC-V mixed-signal MCUs, starting with the HPM5151 parts. It features a 400 MHz RISC-V processor, 416 KB SRAM, 1 MB flash, four 16-bit ADCs, four operational amplifiers, and four analog...",
-      "hook": "A small module can shape the whole connected product experience.",
-      "post": "HPMicro HPM5100 RISC-V MCU integrates four 16-bit ADCs, four op-amps for analog sensing and motor control\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/10/15/hpmicro-hpm5100-risc-v-mcu-integrates-four-16-bit-adcs-four-op-amps-for-analog-sensing-and-motor-control/"
-    },
-    {
       "title": "Altair Semiconductor integrates Iridium NTN Direct into ALT1350 and ALT1550 cellular IoT chipsets",
       "source": "IoT Now",
       "date": "2026-10-15",
@@ -515,6 +567,31 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Altair Semiconductor integrates Iridium NTN Direct into ALT1350 and ALT1550 cellular IoT chipsets\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/10/15/158841-altair-semiconductor-iridium-ntn-direct-alt1350-alt1550-cellular-iot-chipsets/"
+    },
+    {
+      "title": "HPMicro HPM5100 RISC-V MCU integrates four 16-bit ADCs, four op-amps for analog sensing and motor control",
+      "source": "CNX Software",
+      "date": "2026-10-15",
+      "product": "ESP32 Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "HPMicro has introduced the HPM5100 series, a family of 32-bit RISC-V mixed-signal MCUs, starting with the HPM5151 parts. It features a 400 MHz RISC-V processor, 416 KB SRAM, 1 MB flash, four 16-bit ADCs, four operational amplifiers, and four analog...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "HPMicro HPM5100 RISC-V MCU integrates four 16-bit ADCs, four op-amps for analog sensing and motor control\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/15/hpmicro-hpm5100-risc-v-mcu-integrates-four-16-bit-adcs-four-op-amps-for-analog-sensing-and-motor-control/"
     },
     {
       "title": "W1700K SDR turns a Wi-Fi 7 router into a 320 MSps software-defined radio receiver",
@@ -2559,85 +2636,6 @@
       "hook": "Some IoT projects need years of battery life, not more bandwidth.",
       "post": "Review of Elecrow ThinkNode M9 QWERTY terminal with MeshCore firmware\n\nThis is a useful signal for IoT brands and product teams watching LoRa Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/09/18/elecrow-thinknode-m9-review-qwerty-terminal-meshcore-firmware/"
-    },
-    {
-      "title": "WLV-01 hackable DIY digital camera features Raspberry Pi 5, interchangeable sensors (Crowdfunding)",
-      "source": "CNX Software",
-      "date": "2026-09-18",
-      "product": "BLE Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Malcolm-Jamal Wilson has launched the WLV-01, a fully hackable DIY digital camera built around a Raspberry Pi 5. Designed for hardware tinkerers and photography enthusiasts, the camera features swappable full-spectrum color and true monochrome sensors ranging...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "WLV-01 hackable DIY digital camera features Raspberry Pi 5, interchangeable sensors (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/18/wlv-01-hackable-diy-digital-camera-features-raspberry-pi-5-interchangeable-sensors/"
-    },
-    {
-      "title": "QNX and Sift link industrial edge telemetry directly to SQL",
-      "source": "IoT Tech News",
-      "date": "2026-09-18",
-      "product": "ESP32 Module",
-      "score": 93,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "ESP32",
-        "Embedded Development",
-        "Smart Device"
-      ],
-      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
-      "summary": "QNX and Sift are bringing sub-second telemetry queries to industrial edge hardware, streaming live data from embedded factory machinery. The integration targets mission-focused machinery operating on factory floors, robotics cells, and medical environments....",
-      "hook": "A small module can shape the whole connected product experience.",
-      "post": "QNX and Sift link industrial edge telemetry directly to SQL\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
-      "url": "https://iottechnews.com/news/qnx-and-sift-link-industrial-edge-telemetry-to-sql/"
-    },
-    {
-      "title": "ASUS Ascent QN10 mini PC is powered by Qualcomm Snapdragon X2 Elite 18-core Armv9 processor",
-      "source": "CNX Software",
-      "date": "2026-09-18",
-      "product": "WiFi Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "WiFi",
-        "Smart Home",
-        "Wireless Module"
-      ],
-      "value": "Useful for turning current industry news into content about smart home devices, gateways, control panels, and Wi-Fi connected IoT products.",
-      "summary": "ASUS Ascent QN10 is the first mini PC powered by a Qualcomm Snapdragon X2 Elite 18-core Armv9 processor with 80 TOPS of AI performance for Windows Copilot+ PCs. The powerful Arm computer ships with up to 32GB LPDDR5 memory and a 512GB to 2TB NVMe SSD. It...",
-      "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
-      "post": "ASUS Ascent QN10 mini PC is powered by Qualcomm Snapdragon X2 Elite 18-core Armv9 processor\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/18/asus-ascent-qn10-mini-pc-is-powered-by-qualcomm-snapdragon-x2-elite-18-core-armv9-processor/"
     }
   ]
 }
