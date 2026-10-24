@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T05:58:12.963Z",
+  "generatedAt": "2026-10-24T05:42:41.596Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,35 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "ZOTAC ZBOX PRO CM5-PICO – A compact Raspberry Pi CM5-based fanless industrial mini PC",
+      "source": "CNX Software",
+      "date": "2026-10-24",
+      "product": "BLE Module",
+      "score": 93,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "ZOTAC ZBOX PRO CM5-PICO is a compact fanless industrial mini PC built around the Raspberry Pi Compute Module 5 (CM5) with up to 16 GB LPDDR4x memory, optional WiFi 5 and Bluetooth 5.0 wireless connectivity. The mini PC measures 114.8 x 76 x 31.3 mm and...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "ZOTAC ZBOX PRO CM5-PICO – A compact Raspberry Pi CM5-based fanless industrial mini PC\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/24/zotac-zbox-pro-cm5-pico-a-compact-raspberry-pi-cm5-based-fanless-industrial-mini-pc/"
+    },
     {
       "title": "RoboParty RP1 (ROBOTO 01) – A full-stack open-source humanoid robot with up to 30 degrees of freedom",
       "source": "CNX Software",
@@ -32,6 +61,31 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "RoboParty RP1 (ROBOTO 01) – A full-stack open-source humanoid robot with up to 30 degrees of freedom\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/10/23/roboparty-rp1-roboto-01-a-full-stack-open-source-humanoid-robot-with-up-to-30-degrees-of-freedom/"
+    },
+    {
+      "title": "LILYGO T-Halow P4 – An M.2 2280 board with ESP32-P4, WiFi HaLow, and ESP32-C6",
+      "source": "CNX Software",
+      "date": "2026-10-23",
+      "product": "BLE Module",
+      "score": 93,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "LILYGO T-Halow P4 is a compact M.2 development board that combines an ESP32-P4 MCU, an ESP32-C6 wireless co-processor, and a Taixin TX-AH WiFi HaLow module for long-range wireless connectivity. The board measures just 80 x 22mm (M.2 2280) and uses an M.2...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "LILYGO T-Halow P4 – An M.2 2280 board with ESP32-P4, WiFi HaLow, and ESP32-C6\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/23/lilygo-t-halow-p4-a-m-2-2280-board-with-esp32-p4-wifi-halow-and-esp32-c6/"
     },
     {
       "title": "The AI worm your security stack can’t see: Why cellular IoT is the blind spot",
@@ -2578,64 +2632,6 @@
       "hook": "A small module can shape the whole connected product experience.",
       "post": "High-end 8-channel oscilloscope features 12-core AMD EPYC CPU, 96GB RAM, 15.6-inch display, and more\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/09/20/high-end-8-channel-oscilloscope-features-12-core-amd-epyc-cpu-96gb-ram-15-6-inch-display/"
-    },
-    {
-      "title": "OpenMote – An ESP32-S3 programmable universal remote in a Wiimote shell (Crowdfunding)",
-      "source": "CNX Software",
-      "date": "2026-09-19",
-      "product": "BLE Module",
-      "score": 98,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Hat & Hammer has launched the OpenMote, an ESP32-S3-powered programmable universal remote that adopts the familiar, nostalgic form factor of a Nintendo Wiimote. It features WiFi, Bluetooth LE, an infrared (IR) transceiver, a 6-axis IMU, and Home Assistant...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "OpenMote – An ESP32-S3 programmable universal remote in a Wiimote shell (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/19/openmote-an-esp32-s3-programmable-universal-remote-in-a-wiimote-shell/"
-    },
-    {
-      "title": "Review of Elecrow ThinkNode M9 QWERTY terminal with MeshCore firmware",
-      "source": "CNX Software",
-      "date": "2026-09-18",
-      "product": "LoRa Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "LoRa",
-        "LPWAN",
-        "Smart City"
-      ],
-      "value": "Useful for turning current industry news into content about smart city, utility metering, asset tracking, and low-power wide-area IoT scenarios.",
-      "summary": "Last August, CNX Software covered the launch of the Elecrow ThinkNode M9, a standalone LoRa terminal running MeshCore firmware with a QWERTY keyboard, a color display, GPS, and a built-in 2,300mAh battery. Elecrow has now sent us two units (923 MHz version)...",
-      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
-      "post": "Review of Elecrow ThinkNode M9 QWERTY terminal with MeshCore firmware\n\nThis is a useful signal for IoT brands and product teams watching LoRa Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/18/elecrow-thinknode-m9-review-qwerty-terminal-meshcore-firmware/"
     }
   ]
 }
