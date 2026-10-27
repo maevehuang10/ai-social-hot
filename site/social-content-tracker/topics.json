@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T06:02:30.492Z",
+  "generatedAt": "2026-10-27T06:11:48.676Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,35 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "Rockchip RK3576-powered SMARC 2.2 system-on-module and development board target Edge AI applications",
+      "source": "CNX Software",
+      "date": "2026-10-27",
+      "product": "BLE Module",
+      "score": 98,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "MYIR MYC-JR3576 is a SMARC 2.2 system-on-module (SoM) powered by a Rockchip RK3576/RK3576J octa-core Cortex-A72/A53 SoC with a 6 TOPS NPU designed for Edge AI applications. It features up to 8GB LPDDR5, up to 64GB eMMC flash, an optional WiFI 6E and Bluetooth...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Rockchip RK3576-powered SMARC 2.2 system-on-module and development board target Edge AI applications\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/27/rockchip-rk3576-powered-smarc-2-2-system-on-module-and-development-board-target-edge-ai-applications/"
+    },
     {
       "title": "Renesas RX74M and RX74N – 600MHz industrial MCUs with RXv3e core, embedded MRAM, 22nm process",
       "source": "CNX Software",
@@ -31,6 +60,85 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Renesas RX74M and RX74N – 600MHz industrial MCUs with RXv3e core, embedded MRAM, 22nm process\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/10/26/renesas-rx74m-and-rx74n-600mhz-industrial-mcus-with-rxv3e-core-embedded-mram-22nm-process/"
+    },
+    {
+      "title": "Adafruit Metro ESP32-P4 Hydra – An Arduino UNO-shaped ESP32-P4 + ESP32-C6 board with WiFi 6, MIPI interfaces",
+      "source": "CNX Software",
+      "date": "2026-10-26",
+      "product": "BLE Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Adafruit has launched the Metro ESP32-P4 Hydra, an Arduino UNO-shaped development board with ESP32-P4, 16MB PSRAM, and 16MB NOR flash, and an ESP32-C6 for WiFi 6, Bluetooth 5.3 LE, Thread, and Zigbee connectivity. Other features include Raspberry...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Adafruit Metro ESP32-P4 Hydra – An Arduino UNO-shaped ESP32-P4 + ESP32-C6 board with WiFi 6, MIPI interfaces\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/26/adafruit-metro-esp32-p4-hydra-an-arduino-uno-shaped-esp32-p4-esp32-c6-board-with-wifi-6-mipi-interfaces/"
+    },
+    {
+      "title": "Your devices cross borders. Does your SIM?",
+      "source": "IoT Now",
+      "date": "2026-10-26",
+      "product": "BLE Module",
+      "score": 93,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "IOT CONNECTIVITY / ANALYST BRIEFING Global IoT connectivity shouldn’t be a logistics nightmare. When your devices are deployed across multiple countries, connectivity stops being a line item. It … Continued The post Your devices cross borders. Does your SIM?...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Your devices cross borders. Does your SIM?\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/10/26/158919-your-devices-cross-borders-does-your-sim/"
+    },
+    {
+      "title": "Semtech brings 5G network slicing, FIPS 140-3 to IACP 2026",
+      "source": "IoT Now",
+      "date": "2026-10-26",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Semtech is adding 5G network slicing support, FIPS 140-3 compliance via a software update and new fleet management tools to its AirLink routers for public safety fleets. The post Semtech brings 5G network slicing, FIPS 140-3 to IACP 2026 appeared first on IoT...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Semtech brings 5G network slicing, FIPS 140-3 to IACP 2026\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/10/26/159024-semtech-5g-network-slicing-fips-140-3-iacp-2026/"
     },
     {
       "title": "Deki Engine – ESP32 gets an open source Unity-style editor and C++ 2D game engine",
@@ -2526,115 +2634,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Nordic nRF54LC10A – A tiny Bluetooth LE and 802.15.4 SoC with sub-50 nA hibernation mode\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/09/22/nordic-nrf54lc10a-a-tiny-bluetooth-le-and-802-15-4-soc-with-sub-50-na-hibernation-mode/"
-    },
-    {
-      "title": "Semtech enables 50G optical transition for AI-driven 5G-Advanced",
-      "source": "IoT Now",
-      "date": "2026-09-22",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Semtech’s wireless transceiver portfolio is now in full production for 10 km, 15 km BiDi and WDM links, enabling 50G fronthaul for 5G-Advanced radio deployments. The post Semtech enables 50G optical transition for AI-driven 5G-Advanced appeared first on IoT...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Semtech enables 50G optical transition for AI-driven 5G-Advanced\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/09/22/158483-semtech-50g-optical-transition-ai-driven-5g-advanced/"
-    },
-    {
-      "title": "Tiny Scratch-Built Cyberdeck Is In Mint Condition",
-      "source": "Hackaday",
-      "date": "2026-09-22",
-      "product": "SBC",
-      "score": 78,
-      "formats": [
-        "LinkedIn Post",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "Embedded",
-        "Raspberry Pi",
-        "Custom PCB",
-        "QMK",
-        "Maker",
-        "SBC"
-      ],
-      "value": "Useful for turning current industry news into content about embedded design, custom PCB integration, and the maker/developer community.",
-      "summary": "Salim Benbouziyane's TN Deck fits a full cyberdeck inside an Altoids tin, built around the Raspberry Pi Compute Module Zero in its compact castellated PCB form factor. A custom PCB handles power, sound, and a QMK keyboard, with 3D-printed TPU-membrane keys and IR-laser-marked keycaps. It shows how castellation-based compute modules let makers pack display, input, audio, and battery into ultra-dense custom devices.",
-      "hook": "A working computer inside an Altoids tin: compute module, custom PCB, QMK keyboard, and speaker in one pocket build.",
-      "post": "Tiny Scratch-Built Cyberdeck Is In Mint Condition\n\nThis is a useful signal for IoT brands and product teams watching embedded design and the maker/developer community.\n\nFor overseas social content, the story can focus on how compact compute modules and custom PCBs enable ultra-dense device integration, a theme that resonates with Ai-Thinker's module and PCBA service audience.\n\nSource: Hackaday",
-      "url": "https://hackaday.com/2026/09/22/tiny-scratch-built-cyberdeck-is-in-mint-condition/"
-    },
-    {
-      "title": "Realtek RTL8773J – A Bluetooth 7-ready Cortex-M55/M33 microcontroller with HDT support",
-      "source": "CNX Software",
-      "date": "2026-09-21",
-      "product": "BLE Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Realtek RTL8773J Series is the first Bluetooth 7-ready microcontroller family we’ve seen so far. It features a dual-core design with a 200 MHz Cortex-M55 application core and a Cortex-M33 sensor and network core, along with DSPs for high-fidelity codec...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Realtek RTL8773J – A Bluetooth 7-ready Cortex-M55/M33 microcontroller with HDT support\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/21/realtek-rtl8773j-a-bluetooth-7-ready-cortex-m55-m33-microcontroller-with-hdt-support/"
-    },
-    {
-      "title": "Brainchip AKD1500 M.2 and PCIe Edge AI cards, BrainBoard 1500 SPI module now available for $99 and up",
-      "source": "CNX Software",
-      "date": "2026-09-21",
-      "product": "BLE Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Back in November 2025, we wrote about the Brainchip AKD1500 PCIe/SPI Edge AI co-processor designed for low-power systems and delivering up to 800 GOPS at just 300 mW. In recent months, the company has launched several hardware platforms based on the ADK1500....",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Brainchip AKD1500 M.2 and PCIe Edge AI cards, BrainBoard 1500 SPI module now available for $99 and up\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/21/brainchip-akd1500-m-2-and-pcie-edge-ai-cards-brainboard-1500-spi-module/"
     }
   ]
 }
