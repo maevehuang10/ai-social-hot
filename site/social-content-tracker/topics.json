@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T06:11:48.676Z",
+  "generatedAt": "2026-10-28T06:48:27.339Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,60 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "Picotronix modular oscilloscope and logic analyzer features two Raspberry Pi Pico 2 boards (Crowdfunding)",
+      "source": "CNX Software",
+      "date": "2026-10-28",
+      "product": "BLE Module",
+      "score": 93,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Picotronix is a modular oscilloscope, logic analyzer, and frequency meter from Sydney-based Thort Werx Pty Ltd, based on two Raspberry Pi Pico 2 units, more exactly a Pico 2 used as a signal processor and a Pico 2 W used to drive the display and for wireless...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Picotronix modular oscilloscope and logic analyzer features two Raspberry Pi Pico 2 boards (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/28/picotronix-modular-oscilloscope-and-logic-analyzer-features-two-raspberry-pi-pico-2-boards/"
+    },
+    {
+      "title": "Synergy Logic SLM-RP4 – A Raspberry Pi 4 PLC with modular industrial I/Os",
+      "source": "CNX Software",
+      "date": "2026-10-27",
+      "product": "BLE Module",
+      "score": 98,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Synergy Logic SLM-RP4 industrial PLC is built around a Raspberry Pi 4 SBC and designed for industrial automation, machine control, data acquisition, and Industrial IoT (IIoT) applications. The DIN-rail mountable controller supports 24V DC input and an...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Synergy Logic SLM-RP4 – A Raspberry Pi 4 PLC with modular industrial I/Os\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/27/synergy-logic-slm-rp4-a-raspberry-pi-4-plc-with-modular-industrial-i-o/"
+    },
     {
       "title": "Rockchip RK3576-powered SMARC 2.2 system-on-module and development board target Edge AI applications",
       "source": "CNX Software",
@@ -35,6 +89,81 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Rockchip RK3576-powered SMARC 2.2 system-on-module and development board target Edge AI applications\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/10/27/rockchip-rk3576-powered-smarc-2-2-system-on-module-and-development-board-target-edge-ai-applications/"
+    },
+    {
+      "title": "Keysight and KTL advance NR-NTN validation for satellite connectivity",
+      "source": "IoT Now",
+      "date": "2026-10-27",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Korea Testing Laboratory has selected Keysight NR-NTN RF and RRM test solutions to expand its acceptance testing for satellite-enabled devices and networks. The post Keysight and KTL advance NR-NTN validation for satellite connectivity appeared first on IoT...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Keysight and KTL advance NR-NTN validation for satellite connectivity\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/10/27/159032-keysight-ktl-nr-ntn-validation-satellite-connectivity/"
+    },
+    {
+      "title": "IoT deployment challenges white paper",
+      "source": "IoT Now",
+      "date": "2026-10-27",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "IoT deployment challenges white paper Why IoT projects stall and how to keep them on track Many IoT projects never make it beyond the pilot stage. Scaling complexity, fragmented suppliers, … Continued The post IoT deployment challenges white paper appeared...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "IoT deployment challenges white paper\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/10/27/158981-iot-deployment-challenges-white-paper/"
+    },
+    {
+      "title": "GSMA MWC27 Barcelona countdown begins, with new dedicated technology spaces for automotive, health and aviation",
+      "source": "IoT Now",
+      "date": "2026-10-27",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "GSMA MWC27 Barcelona returns to Fira Gran Via from 1 to 4 March 2027, adding three dedicated technology spaces for automotive, health and aviation alongside showcases on frontier AI, robotics and NTN satellite connectivity. The post GSMA MWC27 Barcelona...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "GSMA MWC27 Barcelona countdown begins, with new dedicated technology spaces for automotive, health and aviation\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/10/27/159036-gsma-mwc27-barcelona-countdown-automotive-health-aviation/"
     },
     {
       "title": "Renesas RX74M and RX74N – 600MHz industrial MCUs with RXv3e core, embedded MRAM, 22nm process",
@@ -2500,140 +2629,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "MediaTek Dimensity CX C10 Max octa-core Cortex-X925/X9/A720 SoC targets Googlebooks\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/09/23/mediatek-dimensity-cx-c10-max-octa-core-cortex-x925-x9-a720-soc-targets-googlebooks/"
-    },
-    {
-      "title": "Wireless Broadband Alliance and FIDO Alliance validate secure, zero-touch Wi-Fi onboarding for IoT and edge devices",
-      "source": "IoT Now",
-      "date": "2026-09-23",
-      "product": "BLE Module",
-      "score": 93,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Trial demonstrates factory-provisioned devices can connect automatically to OpenRoaming® and begin secure FIDO Device Onboard ownership transfer, cutting deployment costs. The post Wireless Broadband Alliance and FIDO Alliance validate secure, zero-touch...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Wireless Broadband Alliance and FIDO Alliance validate secure, zero-touch Wi-Fi onboarding for IoT and edge devices\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/09/23/158511-wba-fido-alliance-zero-touch-wifi-onboarding-iot-edge-devices/"
-    },
-    {
-      "title": "NVIDIA Isaac ROS 5.0 brings agentic workflows to physical AI",
-      "source": "IoT Tech News",
-      "date": "2026-09-23",
-      "product": "IoT Industry",
-      "score": 81,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "IoT",
-        "Industry Trend",
-        "Wireless Technology"
-      ],
-      "value": "Useful for turning current industry news into content about market education, B2B trend posts, sales context, and social content planning.",
-      "summary": "Teams running NVIDIA Isaac ROS 5.0 can deploy agentic robotics workflows to build physical AI systems across standard industrial platforms. Announced at the ROSCon gathering in Toronto, the open-source software collection connects autonomous AI agents...",
-      "hook": "Good IoT content starts with useful market context.",
-      "post": "NVIDIA Isaac ROS 5.0 brings agentic workflows to physical AI\n\nThis is a useful signal for IoT brands and product teams watching IoT Industry opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
-      "url": "https://iottechnews.com/news/nvidia-isaac-ros-5-0-agentic-workflows-to-physical-ai/"
-    },
-    {
-      "title": "IoT Now Magazine Q3 2026",
-      "source": "IoT Now",
-      "date": "2026-09-23",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Where your IoT data is processed shapes your latency, cost and compliance. Increasingly, it also decides whether physical AI works once it leaves the lab. The latest issue of IoT … Continued The post IoT Now Magazine Q3 2026 appeared first on IoT Now News -...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "IoT Now Magazine Q3 2026\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/09/23/158514-iot-now-magazine-q3-2026/"
-    },
-    {
-      "title": "Gearotons M17 – A low-cost NEMA-17 4-in-1 servomotor with driver, motion controller, and encoder",
-      "source": "CNX Software",
-      "date": "2026-09-22",
-      "product": "BLE Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Gearotons M17 open-source hardware servomotor integrates the four parts of a motion axis into one standard NEMA-17 body with no protrusions: the motor, the driver, the motion controller, and the encoder. This level of integration enables it to be low-cost...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Gearotons M17 – A low-cost NEMA-17 4-in-1 servomotor with driver, motion controller, and encoder\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/22/gearotons-m17-a-low-cost-nema-17-4-in-1-servomotor-with-driver-motion-controller-and-encoder/"
-    },
-    {
-      "title": "Nordic nRF54LC10A – A tiny Bluetooth LE and 802.15.4 SoC with sub-50 nA hibernation mode",
-      "source": "CNX Software",
-      "date": "2026-09-22",
-      "product": "BLE Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Nordic Semiconductor recently expanded its nRF54L Series with the nRF54LC10A, a new SoC with less memory and a smaller peripheral set compared to the higher-end nRF54L15, while supporting Bluetooth LE with Channel Sounding and IEEE 802.15.4 for Thread,...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Nordic nRF54LC10A – A tiny Bluetooth LE and 802.15.4 SoC with sub-50 nA hibernation mode\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/22/nordic-nrf54lc10a-a-tiny-bluetooth-le-and-802-15-4-soc-with-sub-50-na-hibernation-mode/"
     }
   ]
 }
