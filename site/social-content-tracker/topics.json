@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T06:48:27.339Z",
+  "generatedAt": "2026-10-29T06:58:00.415Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,31 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "BeagleConnect QuadESC 4-channel BLDC motor controller uses TI’s AM13E23019-based Torque module",
+      "source": "CNX Software",
+      "date": "2026-10-29",
+      "product": "ESP32 Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "BeagleBoard.org has introduced the BeagleConnect QuadESC, an open-source 4-channel BLDC motor controller/carrier board built around the BeagleConnect Torque SoM. The SoM features TI’s 200 MHz AM13E23019 Arm Cortex-M33 microcontroller with a trigonometric math...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "BeagleConnect QuadESC 4-channel BLDC motor controller uses TI’s AM13E23019-based Torque module\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/29/beagleconnect-quadesc-4-channel-bldc-motor-controller-ti-am13e23019-based-torque-module/"
+    },
     {
       "title": "Picotronix modular oscilloscope and logic analyzer features two Raspberry Pi Pico 2 boards (Crowdfunding)",
       "source": "CNX Software",
@@ -31,6 +56,84 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Picotronix modular oscilloscope and logic analyzer features two Raspberry Pi Pico 2 boards (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/10/28/picotronix-modular-oscilloscope-and-logic-analyzer-features-two-raspberry-pi-pico-2-boards/"
+    },
+    {
+      "title": "LILYGO T-Display K230 RISC-V AI dev kit features AMOLED, LoRa, and keyboard with optional LTE-M/NB-IoT cellular connectivity",
+      "source": "CNX Software",
+      "date": "2026-10-28",
+      "product": "LoRa Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "LoRa",
+        "LPWAN",
+        "Smart City"
+      ],
+      "value": "Useful for turning current industry news into content about smart city, utility metering, asset tracking, and low-power wide-area IoT scenarios.",
+      "summary": "LILYGO T-Display K230 is a handheld dev kit based on Canaan’s Kendryte K230 dual-core 64-bit RISC-V processor. The kit features a 4.1-inch AMOLED touchscreen and supports an optional detachable keyboard with battery and optional nRF9151 cellular and GNSS...",
+      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
+      "post": "LILYGO T-Display K230 RISC-V AI dev kit features AMOLED, LoRa, and keyboard with optional LTE-M/NB-IoT cellular connectivity\n\nThis is a useful signal for IoT brands and product teams watching LoRa Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/28/lilygo-t-display-k230-risc-v-ai-dev-kit-features-amoled-lora-and-an-optional-keyboard/"
+    },
+    {
+      "title": "Barcelona Cybersecurity Congress to address the impact of AI on cybersecurity",
+      "source": "IoT Now",
+      "date": "2026-10-28",
+      "product": "BLE Module",
+      "score": 84,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "The seventh Barcelona Cybersecurity Congress, from 3 to 5 November at Fira Gran Via, brings 150 international speakers and 111 exhibitors together to address how AI is reshaping cyber threats. The post Barcelona Cybersecurity Congress to address the impact of...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Barcelona Cybersecurity Congress to address the impact of AI on cybersecurity\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/10/28/159076-barcelona-cybersecurity-congress-2026-ai-impact-cybersecurity/"
+    },
+    {
+      "title": "Visibility, Security and Simple Localisation:Scaling IoT Across APAC",
+      "source": "IoT Now",
+      "date": "2026-10-28",
+      "product": "BLE Module",
+      "score": 84,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "How to build connected vehicle and physical AI deployments that are ready for the future Asia-Pacific offers huge growth opportunities, but every market is different. Each one has its own … Continued The post Visibility, Security and Simple...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Visibility, Security and Simple Localisation:Scaling IoT Across APAC\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/10/28/159061-visibility-security-and-simple-localisationscaling-iot-across-apac/"
     },
     {
       "title": "Synergy Logic SLM-RP4 – A Raspberry Pi 4 PLC with modular industrial I/Os",
@@ -2526,109 +2629,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Semtech and Palo Alto Networks secure industrial IoT with Zero Trust\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/09/24/158548-semtech-palo-alto-networks-secure-industrial-iot-zero-trust/"
-    },
-    {
-      "title": "Cognex to acquire RealSense for $500M in factory edge AI deal",
-      "source": "IoT Tech News",
-      "date": "2026-09-24",
-      "product": "IoT Industry",
-      "score": 75,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "IoT",
-        "Industry Trend",
-        "Wireless Technology"
-      ],
-      "value": "Useful for turning current industry news into content about market education, B2B trend posts, sales context, and social content planning.",
-      "summary": "Cognex has agreed to acquire RealSense for about $500 million in cash, adding 3D depth-sensing and robotic perception technology to its industrial machine-vision portfolio. The transaction is expected to close in the fourth quarter of 2026, subject to...",
-      "hook": "Good IoT content starts with useful market context.",
-      "post": "Cognex to acquire RealSense for $500M in factory edge AI deal\n\nThis is a useful signal for IoT brands and product teams watching IoT Industry opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
-      "url": "https://iottechnews.com/news/cognex-realsense-acquisition-factory-edge-ai/"
-    },
-    {
-      "title": "Soulart Station – A markerless full-body motion tracker for VR and VTubers (Crowdfunding)",
-      "source": "CNX Software",
-      "date": "2026-09-23",
-      "product": "Radar Sensor",
-      "score": 98,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "Radar",
-        "Presence Detection",
-        "Smart Sensing"
-      ],
-      "value": "Useful for turning current industry news into content about privacy-friendly sensing, elderly care, smart bathrooms, security, and presence detection.",
-      "summary": "South Korean startup Soulart has launched the Soulart Station, a markerless full-body motion tracker for VR, VTubing, and motion capture. The device uses a Time-of-Flight (ToF) sensor and an onboard Neural Processing Unit (NPU) to capture 3D point cloud data...",
-      "hook": "Not every sensing solution needs a camera.",
-      "post": "Soulart Station – A markerless full-body motion tracker for VR and VTubers (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching Radar Sensor opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/23/soulart-station-a-markerless-full-body-motion-tracker-for-vr-and-vtubers/"
-    },
-    {
-      "title": "MediaTek Dimensity CX C10 Max octa-core Cortex-X925/X4/A720 SoC targets Googlebooks",
-      "source": "CNX Software",
-      "date": "2026-09-23",
-      "product": "BLE Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "MediaTek Dimensity CX C10 Max is a 3nm “All Big Core” octa-core Armv9 CPU with an 11-core Immortalis-G925 MC11 GPU, and MediaTek’s 890 NPU delivering up to 55 TOPS for an “upcoming premium, ultra-portable Googlebook device” with all-day battery life....",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "MediaTek Dimensity CX C10 Max octa-core Cortex-X925/X4/A720 SoC targets Googlebooks\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/23/mediatek-dimensity-cx-c10-max-octa-core-cortex-x925-x9-a720-soc-targets-googlebooks/"
-    },
-    {
-      "title": "MediaTek Dimensity CX C10 Max octa-core Cortex-X925/X9/A720 SoC targets Googlebooks",
-      "source": "CNX Software",
-      "date": "2026-09-23",
-      "product": "BLE Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "MediaTek Dimensity CX C10 Max is a 3nm “All Big Core” octa-core Armv9 CPU with an 11-core Immortalis-G925 MC11 GPU, and MediaTek’s 890 NPU delivering up to 55 TOPS for an “upcoming premium, ultra-portable Googlebook device” with all-day battery life....",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "MediaTek Dimensity CX C10 Max octa-core Cortex-X925/X9/A720 SoC targets Googlebooks\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/23/mediatek-dimensity-cx-c10-max-octa-core-cortex-x925-x9-a720-soc-targets-googlebooks/"
     }
   ]
 }
