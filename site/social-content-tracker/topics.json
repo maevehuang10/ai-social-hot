@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T06:58:00.415Z",
+  "generatedAt": "2026-10-30T07:00:54.675Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,31 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "$26 Banana Pi BPI-RT2 WiFi 6 router board features Realtek RTL8198D dual-core MIPS SoC",
+      "source": "CNX Software",
+      "date": "2026-10-30",
+      "product": "WiFi Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "WiFi",
+        "Smart Home",
+        "Wireless Module"
+      ],
+      "value": "Useful for turning current industry news into content about smart home devices, gateways, control panels, and Wi-Fi connected IoT products.",
+      "summary": "Just last week we wrote about the GL.iNet Mango 2 (GL-MG1300), a low-cost mini travel router built around a MediaTek MT7621A dual-core MIPS SoC. Now, Banana Pi has introduced another MIPS router: the BPI-RT2 router board built around a Realtek RTL8198D...",
+      "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
+      "post": "$26 Banana Pi BPI-RT2 WiFi 6 router board features Realtek RTL8198D dual-core MIPS SoC\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/30/26-banana-pi-bpi-rt2-wifi-6-router-board-features-realtek-rtl8198d-dual-core-mips-soc/"
+    },
     {
       "title": "BeagleConnect QuadESC 4-channel BLDC motor controller uses TI’s AM13E23019-based Torque module",
       "source": "CNX Software",
@@ -31,6 +56,56 @@
       "hook": "A small module can shape the whole connected product experience.",
       "post": "BeagleConnect QuadESC 4-channel BLDC motor controller uses TI’s AM13E23019-based Torque module\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/10/29/beagleconnect-quadesc-4-channel-bldc-motor-controller-ti-am13e23019-based-torque-module/"
+    },
+    {
+      "title": "Renesas expands RL78 family with ultra-low-power 16-bit RL78/G21 MCU optimised for smart appliance system control",
+      "source": "IoT Now",
+      "date": "2026-10-29",
+      "product": "BLE Module",
+      "score": 86,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Renesas has launched the RL78/G21, an ultra-low-power 16-bit MCU for system control in smart appliances, and expanded its RL78/G23 lineup with additional capacitive-touch channels. The post Renesas expands RL78 family with ultra-low-power 16-bit RL78/G21 MCU...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Renesas expands RL78 family with ultra-low-power 16-bit RL78/G21 MCU optimised for smart appliance system control\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/10/29/159101-renesas-rl78-g21-ultra-low-power-16-bit-mcu-smart-appliances/"
+    },
+    {
+      "title": "$2600 LattePanda Sigma 2 single board server features 180 TOPS Intel Core Ultra X7 358H SoC for local AI applications",
+      "source": "CNX Software",
+      "date": "2026-10-29",
+      "product": "ESP32 Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "The LattePanda Sigma 2 is a compact single board server/computer powered by an Intel Core Ultra X7 358H Panther Lake-H processor with Intel Arc B390 graphics and a 50 TOPS NPU delivering up to 180 TOPS of combined performance for local AI workloads. The board...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "$2600 LattePanda Sigma 2 single board server features 180 TOPS Intel Core Ultra X7 358H SoC for local AI applications\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/29/2600-lattepanda-sigma-2-single-board-server-features-180-tops-intel-core-ultra-x7-358h-soc-for-local-ai-applications/"
     },
     {
       "title": "Picotronix modular oscilloscope and logic analyzer features two Raspberry Pi Pico 2 boards (Crowdfunding)",
@@ -2550,85 +2625,6 @@
       "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
       "post": "WBA and FIDO test zero-touch IoT Wi-Fi onboarding\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
       "url": "https://iottechnews.com/news/wba-fido-test-zero-touch-iot-wi-fi-onboarding/"
-    },
-    {
-      "title": "CyboPal ONE – An AI-powered, 6-DOF robotic terminal with 27-inch 4K display that adjusts to your posture (Crowdfunding)",
-      "source": "CNX Software",
-      "date": "2026-09-24",
-      "product": "ESP32 Module",
-      "score": 92,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "ESP32",
-        "Embedded Development",
-        "Smart Device"
-      ],
-      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
-      "summary": "CyboPal ONE is a 6-axis desktop robotic terminal designed to move a 27-inch 4K display using voice and gesture control, spatial sensing, and automatic display positioning based on the user’s position. It includes a camera, a binocular 3D sensor, and a motion...",
-      "hook": "A small module can shape the whole connected product experience.",
-      "post": "CyboPal ONE – An AI-powered, 6-DOF robotic terminal with 27-inch 4K display that adjusts to your posture (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/24/cybopal-one-an-ai-powered-6-dof-robotic-terminal-with-27-inch-4k-display-that-adjusts-to-your-posture/"
-    },
-    {
-      "title": "Who leads the satellite IoT race?",
-      "source": "IoT Now",
-      "date": "2026-09-24",
-      "product": "BLE Module",
-      "score": 86,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Counterpoint Research’s 2026 CORE rankings place Iridium and Skylo as satellite IoT pacesetters as the market shifts towards standards-based NTN. The post Who leads the satellite IoT race? appeared first on IoT Now News - How to run an IoT enabled business .",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Who leads the satellite IoT race?\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/09/24/158464-who-leads-the-satellite-iot-race-counterpoint-core-2026/"
-    },
-    {
-      "title": "Semtech and Palo Alto Networks secure industrial IoT with Zero Trust",
-      "source": "IoT Now",
-      "date": "2026-09-24",
-      "product": "BLE Module",
-      "score": 85,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Semtech AirLink networking solutions and Palo Alto Networks Next-Generation Firewalls deliver automated, edge-to-core protection for utilities and critical infrastructure operators. The post Semtech and Palo Alto Networks secure industrial IoT with Zero Trust...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Semtech and Palo Alto Networks secure industrial IoT with Zero Trust\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/09/24/158548-semtech-palo-alto-networks-secure-industrial-iot-zero-trust/"
     }
   ]
 }
