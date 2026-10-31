@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T07:00:54.675Z",
+  "generatedAt": "2026-10-31T06:54:55.222Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,60 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "Arduino UNO Q gets a 10.1-inch touch display with integrated speakers, audio jacks, camera connectors",
+      "source": "CNX Software",
+      "date": "2026-10-31",
+      "product": "ESP32 Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "Waveshare UNO-Q-DSI-TOUCH-10.1A is a 10.1-inch touchscreen display designed for the Arduino UNO Q single board computer. The Arduino UNO Q exposes its MIPI DSI interface through the 60-pin JMEDIA and JMISC headers, and for all practical purposes, you normally...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "Arduino UNO Q gets a 10.1-inch touch display with integrated speakers, audio jacks, camera connectors\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/31/arduino-uno-q-gets-a-10-1-inch-touch-display-with-integrated-speakers-audio-jacks-camera-connectors/"
+    },
+    {
+      "title": "Azume One – A 2.8mm sensor that turns any regular wristwatch into a health tracker (Crowdfunding)",
+      "source": "CNX Software",
+      "date": "2026-10-30",
+      "product": "BLE Module",
+      "score": 93,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Azume, a Munich-based startup, has designed the Azume One, a compact health tracker that attaches to the back of a regular wristwatch to track heart rate, sleep, stress, and daily activity without needing an additional smartwatch. The device measures 30mm in...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Azume One – A 2.8mm sensor that turns any regular wristwatch into a health tracker (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/30/azume-one-a-2-8mm-sensor-that-turns-any-regular-wristwatch-into-a-health-tracker/"
+    },
     {
       "title": "$26 Banana Pi BPI-RT2 WiFi 6 router board features Realtek RTL8198D dual-core MIPS SoC",
       "source": "CNX Software",
@@ -2572,59 +2626,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Quectel SE200ZC-AP smart module supports up to five cameras with Rockchip RV1126B/BJ SoC\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/09/24/quectel-se200zc-ap-smart-module-supports-up-to-five-cameras-with-rockchip-rv1126b-bj-soc/"
-    },
-    {
-      "title": "Qualcomm releases Linux developer preview for the Snapdragon X2 Series",
-      "source": "CNX Software",
-      "date": "2026-09-24",
-      "product": "BLE Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Qualcomm has released an “Early Developer Preview” of Linux for the Snapdragon X2 Armv9 family of laptop SoCs. This release is meant for distribution maintainers, toolchain developers, kernel contributors, and hardware enablement engineers. New Qualcomm...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Qualcomm releases Linux developer preview for the Snapdragon X2 Series\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/09/25/qualcomm-releases-linux-developer-preview-snapdragon-x2/"
-    },
-    {
-      "title": "WBA and FIDO test zero-touch IoT Wi-Fi onboarding",
-      "source": "IoT Tech News",
-      "date": "2026-09-24",
-      "product": "WiFi Module",
-      "score": 93,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "WiFi",
-        "Smart Home",
-        "Wireless Module"
-      ],
-      "value": "Useful for turning current industry news into content about smart home devices, gateways, control panels, and Wi-Fi connected IoT products.",
-      "summary": "Industrial operators can automate IoT onboarding across Wi-Fi networks through a joint specification from the Wireless Broadband Alliance (WBA) and FIDO Alliance. The framework pairs the WBA’s federated OpenRoaming architecture with FIDO Device Onboard...",
-      "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
-      "post": "WBA and FIDO test zero-touch IoT Wi-Fi onboarding\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Tech News",
-      "url": "https://iottechnews.com/news/wba-fido-test-zero-touch-iot-wi-fi-onboarding/"
     }
   ]
 }
