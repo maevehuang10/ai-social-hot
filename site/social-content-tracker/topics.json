@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T07:51:45.034Z",
+  "generatedAt": "2026-11-06T07:52:17.218Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,167 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "Olimex UEXT-CH390 SPI to Ethernet module targets Raspberry Pi and ESP32 MCU boards running ESPHome",
+      "source": "CNX Software",
+      "date": "2026-11-06",
+      "product": "BLE Module",
+      "score": 98,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Olimex UEXT-CH390 is a small open-source hardware module that adds 10/100 Mbps wired Ethernet connectivity to microcontroller boards through an SPI interface. It is designed for Raspberry Pi Pico and Pico 2 boards, as well as ESP32-S3, C3, C5, C6, and other...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Olimex UEXT-CH390 SPI to Ethernet module targets Raspberry Pi and ESP32 MCU boards running ESPHome\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/11/06/olimex-uext-ch390-spi-to-ethernet-module-targets-raspberry-pi-and-esp32-mcu-boards-running-esphome/"
+    },
+    {
+      "title": "AAEON PICO-PTH4 Pico-ITX board is powered by an Intel Panther Lake SoC up to the Core Ultra X7 358H",
+      "source": "CNX Software",
+      "date": "2026-11-06",
+      "product": "Cellular IoT Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "NB-IoT",
+        "Cat.1",
+        "Cellular IoT"
+      ],
+      "value": "Useful for turning current industry news into content about remote monitoring, logistics, global coverage, and wide-area connected devices.",
+      "summary": "AAEON claims the PICO-PTH4 is the world’s first 2.5-inch Pico-ITX board powered by an Intel Panther Lake processor, such as the Core Ultra 5 325, Core Ultra 7 355, and Core Ultra X7 358H, delivering up to 180 TOPS of AI performance in a 100mm x 72mm form...",
+      "hook": "Wide-area IoT starts with the right connectivity choice.",
+      "post": "AAEON PICO-PTH4 Pico-ITX board is powered by an Intel Panther Lake SoC up to the Core Ultra X7 358H\n\nThis is a useful signal for IoT brands and product teams watching Cellular IoT Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/11/06/aaeon-pico-pth4-pico-itx-board-is-powered-by-an-intel-panther-lake-soc-up-to-the-core-ultra-x7-358h/"
+    },
+    {
+      "title": "Acceleronix, IDEMIA Secure Transactions and Orange announce flexible, single-SKU manufacturing with quantum-safe IFPP",
+      "source": "IoT Now",
+      "date": "2026-11-05",
+      "product": "BLE Module",
+      "score": 98,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Orange joins Acceleronix and IDEMIA Secure Transactions' quantum-safe In-Factory Profile Provisioning programme, enabling single-SKU eSIM device manufacturing. The post Acceleronix, IDEMIA Secure Transactions and Orange announce flexible, single-SKU...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Acceleronix, IDEMIA Secure Transactions and Orange announce flexible, single-SKU manufacturing with quantum-safe IFPP\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/11/05/159230-acceleronix-idemia-orange-single-sku-quantum-safe-ifpp/"
+    },
+    {
+      "title": "NXP MCX W70 and KW43 wireless MCUs support Bluetooth Channel Sounding for IoT and automotive applications",
+      "source": "CNX Software",
+      "date": "2026-11-05",
+      "product": "BLE Module",
+      "score": 97,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "NXP MCX W70 and KW43 wireless MCU families support Bluetooth 6.x Channel Sounding for secure distance measurement in industrial IoT and automotive applications. The MCX W70 supports Bluetooth LE, Zigbee, Thread, and Matter for Smart Home and industrial...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "NXP MCX W70 and KW43 wireless MCUs support Bluetooth Channel Sounding for IoT and automotive applications\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/11/05/nxp-mcx-w70-and-kw43-wireless-mcus-support-bluetooth-channel-sounding-for-iot-and-automotive-applications/"
+    },
+    {
+      "title": "P4 Launcher offers a PC-like and retro gaming experience on ESP32-P4 boards",
+      "source": "CNX Software",
+      "date": "2026-11-05",
+      "product": "BLE Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Gil Tal has developed the P4 Launcher, an open-source application platform designed to bring a PC-like experience to ESP32-P4 boards with an attached touchscreen display. The launcher boots directly into its interface, while applications (.papp files) are...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "P4 Launcher offers a PC-like and retro gaming experience on ESP32-P4 boards\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/11/05/p4-launcher-offers-a-pc-like-and-retro-gaming-experience-on-esp32-p4-boards/"
+    },
+    {
+      "title": "ACEMAGIC Kron Mini K5 Review – Part 3: Ubuntu 26.04 on an entry-level Wildcat Lake mini PC",
+      "source": "CNX Software",
+      "date": "2026-11-05",
+      "product": "WiFi Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "WiFi",
+        "Smart Home",
+        "Wireless Module"
+      ],
+      "value": "Useful for turning current industry news into content about smart home devices, gateways, control panels, and Wi-Fi connected IoT products.",
+      "summary": "After checking out the ACEMAGIC Kron Mini K5’s hardware with an unboxing and a teardown in the first part of the review, we tested the entry-level Intel Core 3 304 mini PC on Windows 11, and we’ve now taken the time to test Linux on the low-cost mini PC with...",
+      "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
+      "post": "ACEMAGIC Kron Mini K5 Review – Part 3: Ubuntu 26.04 on an entry-level Wildcat Lake mini PC\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/11/05/acemagic-kron-mini-k5-review-part-3-ubuntu-26-04-on-an-entry-level-wildcat-lake-mini-pc/"
+    },
     {
       "title": "Altera Agilex 27 FPGA & SoC family features up to 17.6M logic elements, Cortex-A720/A-520 cores, 256 Gbps SerDes, PCIe 7.0",
       "source": "CNX Software",
@@ -2459,164 +2620,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "New intelligence powers government, scientific discovery and critical infrastructure at Ai Everything Abu Dhabi\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/10/05/158707-ai-everything-abu-dhabi-government-scientific-discovery-critical-infrastructure/"
-    },
-    {
-      "title": "Aeris extends IoT eSIM orchestration for the Physical AI era",
-      "source": "IoT Now",
-      "date": "2026-10-05",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "New SGP.32 orchestration, Single SKU eSIM and eIMaaS bring speed, simplicity and scale to global IoT deployments on the Aeris IoT Accelerator platform. The post Aeris extends IoT eSIM orchestration for the Physical AI era appeared first on IoT Now News - How...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Aeris extends IoT eSIM orchestration for the Physical AI era\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/10/05/158675-aeris-iot-esim-orchestration-sgp32-physical-ai/"
-    },
-    {
-      "title": "ESP-SDR firmware turns ESP32 into a 2.4/5 GHz Software-Defined Radio (SDR)",
-      "source": "CNX Software",
-      "date": "2026-10-04",
-      "product": "BLE Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "We have seen ESP32s used for everything from simple IoT devices to AI, audio, and vision projects. But while looking for a new project, I found out about ESP-SDR firmware, which turns the ESP32 into a native Software-Defined Radio (SDR) without additional...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "ESP-SDR firmware turns ESP32 into a 2.4/5 GHz Software-Defined Radio (SDR)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/10/04/esp-sdr-firmware-turns-esp32-into-a-2-4-5-ghz-software-defined-radio-sdr/"
-    },
-    {
-      "title": "UUNA TEK iAuto review – A professional handwriting and drawing machine",
-      "source": "CNX Software",
-      "date": "2026-10-03",
-      "product": "BLE Module",
-      "score": 85,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Hello, today I am going to review the UUNA TEK iAuto, an automatic handwriting machine designed to reproduce physical handwriting using a real pen on real paper. It also supports wireless connectivity, spreadsheet-based mail merge, custom fonts, and font...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "UUNA TEK iAuto review – A professional handwriting and drawing machine\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/10/03/uuna-tek-iauto-review-a-professional-handwriting-and-drawing-machine/"
-    },
-    {
-      "title": "Kigen Automotive eSIM first to achieve GSMA eSA certification",
-      "source": "IoT Now",
-      "date": "2026-10-02",
-      "product": "BLE Module",
-      "score": 90,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Kigen has achieved GSMA eUICC Security Assurance certification for its Automotive eSIMs, the first eSA-certified eSIM supporting SGP.32 v1.3, combining its eSIM OS with Infineon’s TEGRION SLI22 controller. The post Kigen Automotive eSIM first to achieve GSMA...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Kigen Automotive eSIM first to achieve GSMA eSA certification\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/10/02/158664-kigen-automotive-esim-gsma-esa-certification-sgp32-connected-vehicles/"
-    },
-    {
-      "title": "Avaota F2 – Allwinner V861 RISC-V SBC targets AI cameras with PTZ and audio support",
-      "source": "CNX Software",
-      "date": "2026-10-02",
-      "product": "WiFi Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "WiFi",
-        "Smart Home",
-        "Wireless Module"
-      ],
-      "value": "Useful for turning current industry news into content about smart home devices, gateways, control panels, and Wi-Fi connected IoT products.",
-      "summary": "Avaota F2 is the first SBC based on an Allwinner V861 dual-core 64-bit RISC-V SoC with 128MB on-chip DDR3 memory, support for 4K cameras, H.265 video codec, and a 1 TOPS AI accelerator. It’s an update to the earlier Avaota F1 camera board based on an...",
-      "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
-      "post": "Avaota F2 – Allwinner V861 RISC-V SBC targets AI cameras with PTZ and audio support\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/10/02/avaota-f2-allwinner-v861-risc-v-sbc-targets-ai-cameras-with-ptz-and-audio-support/"
-    },
-    {
-      "title": "ASRock Industrial NUC 300 series – Intel Core 3 304/Core 5 320 mini PCs and motherboards",
-      "source": "CNX Software",
-      "date": "2026-10-02",
-      "product": "BLE Module",
-      "score": 85,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "ASRock Industrial has introduced the NUC Core 300 BOX series of mini PCs and the NUC Core 300 motherboards built around Intel Core Series 3 Wildcat Lake-U processors. The lineup includes the NUC BOX-320, with the Intel Core 5 320 SoC, and the NUC BOX-304,...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "ASRock Industrial NUC 300 series – Intel Core 3 304/Core 5 320 mini PCs and motherboards\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/10/02/asrock-industrial-nuc-300-series-intel-core-3-304-core-5-320-mini-pcs-and-motherboards/"
     }
   ]
 }
