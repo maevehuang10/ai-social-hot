@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T07:52:17.218Z",
+  "generatedAt": "2026-11-07T07:01:27.713Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,35 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "Waveshare ESP32-S31-Zero – A tiny ESP32-S31 board with up to 32MB PSRAM, 32MB SPI flash",
+      "source": "CNX Software",
+      "date": "2026-11-07",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Waveshare ESP32-S31-Zero is a small ESP32-S31 development board that follows the form factor of the earlier Waveshare “Zero” boards, such as the ESP32-C6-Zero-B, RA4M1-Zero, and ESP32-S3-Zero, among others. The new tiny board still features a USB-C port for...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Waveshare ESP32-S31-Zero – A tiny ESP32-S31 board with up to 32MB PSRAM, 32MB SPI flash\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/11/07/waveshare-esp32-s31-zero-a-tiny-esp32-s31-board-with-up-to-32mb-psram-32mb-spi-flash/"
+    },
     {
       "title": "Olimex UEXT-CH390 SPI to Ethernet module targets Raspberry Pi and ESP32 MCU boards running ESPHome",
       "source": "CNX Software",
@@ -37,6 +66,88 @@
       "url": "https://www.cnx-software.com/2026/11/06/olimex-uext-ch390-spi-to-ethernet-module-targets-raspberry-pi-and-esp32-mcu-boards-running-esphome/"
     },
     {
+      "title": "520 MHz STM32H7P4/STM32H7P5 Arm Cortex-M7 MCUs feature Hardware Signal Processor (HSP), optional Neural-ART NPU",
+      "source": "CNX Software",
+      "date": "2026-11-06",
+      "product": "BLE Module",
+      "score": 93,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "STMicroelectronics has introduced the STM32H7P4 and STM32H7P5, two 520 MHz Arm Cortex-M7 MCUs part of STM32H7P family designed for digital power, motor control, industrial sensing, and edge AI applications. Both feature a Hardware Signal Processor (HSP) for...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "520 MHz STM32H7P4/STM32H7P5 Arm Cortex-M7 MCUs feature Hardware Signal Processor (HSP), optional Neural-ART NPU\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/11/06/520-mhz-stm32h7p4-stm32h7p5-arm-cortex-m7-mcus-feature-hardware-signal-processor-hsp-optional-neural-art-npu/"
+    },
+    {
+      "title": "GEEKOM A5 2027 Edition (AMD Ryzen 7 7730U) mini PC review – Part 1: Specifications, unboxing, teardown, and first boot",
+      "source": "CNX Software",
+      "date": "2026-11-06",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "We’ve been sent a GEEKOM A5 2027 Edition mini PC powered by an AMD Ryzen 7 7730U 8-core/16-thread CPU for review. The mini PC supports up to 64GB dual-channel DDR4 memory, can drive up to four independent displays via HDMI 2.0 and USB-C ports, includes three...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "GEEKOM A5 2027 Edition (AMD Ryzen 7 7730U) mini PC review – Part 1: Specifications, unboxing, teardown, and first boot\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/11/06/geekom-a5-2027-edition-amd-ryzen-7-7730u-mini-pc-review-part-1-specifications-unboxing-teardown-and-first-boot/"
+    },
+    {
+      "title": "eSIM Market Outlook & Opportunities in IoT: 2026",
+      "source": "IoT Now",
+      "date": "2026-11-06",
+      "product": "BLE Module",
+      "score": 85,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Explore the 2026 eSIM market outlook, including SGP.32 commercialisation, RSP-capable iSIM, in-factory profile provisioning and the opportunities shaping large-scale IoT deployments. OPEN PDF IN BROWSER The post eSIM Market Outlook & Opportunities in IoT:...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "eSIM Market Outlook & Opportunities in IoT: 2026\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/11/06/159256-esim-market-outlook-opportunities-in-iot-2026/"
+    },
+    {
       "title": "AAEON PICO-PTH4 Pico-ITX board is powered by an Intel Panther Lake SoC up to the Core Ultra X7 358H",
       "source": "CNX Software",
       "date": "2026-11-06",
@@ -60,6 +171,81 @@
       "hook": "Wide-area IoT starts with the right connectivity choice.",
       "post": "AAEON PICO-PTH4 Pico-ITX board is powered by an Intel Panther Lake SoC up to the Core Ultra X7 358H\n\nThis is a useful signal for IoT brands and product teams watching Cellular IoT Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/11/06/aaeon-pico-pth4-pico-itx-board-is-powered-by-an-intel-panther-lake-soc-up-to-the-core-ultra-x7-358h/"
+    },
+    {
+      "title": "MWC26 Doha exhibition showfloor sold out, as final registration call issued for MENA connectivity event",
+      "source": "IoT Now",
+      "date": "2026-11-06",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "MWC26 Doha returns to the DECC from 8th to 10th November with a sold-out exhibition floor, eight summits and final registration open for attendees. The post MWC26 Doha exhibition showfloor sold out, as final registration call issued for MENA connectivity...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "MWC26 Doha exhibition showfloor sold out, as final registration call issued for MENA connectivity event\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/11/06/159247-mwc26-doha-showfloor-sold-out-final-registration-call/"
+    },
+    {
+      "title": "The advent of 3GPP Non-Terrestrial Networks",
+      "source": "IoT Now",
+      "date": "2026-11-06",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Explore how 3GPP NTN brings satellite connectivity into the cellular ecosystem, enabling hybrid coverage for remote, mobile and geographically dispersed IoT deployments. OPEN PDF IN BROWSER The post The advent of 3GPP Non-Terrestrial Networks appeared first...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "The advent of 3GPP Non-Terrestrial Networks\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/11/06/159252-the-advent-of-3gpp-non-terrestrial-networks/"
+    },
+    {
+      "title": "Beyond static forecasts: Finding hidden IoT revenue opportunities",
+      "source": "IoT Now",
+      "date": "2026-11-06",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "A market forecast can show where IoT is growing. But how useful is it to a commercial team deciding which opportunities to pursue this quarter? In the first video of … Continued The post Beyond static forecasts: Finding hidden IoT revenue opportunities...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Beyond static forecasts: Finding hidden IoT revenue opportunities\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/11/06/159207-beyond-static-forecasts-finding-hidden-iot-revenue-opportunities/"
     },
     {
       "title": "Acceleronix, IDEMIA Secure Transactions and Orange announce flexible, single-SKU manufacturing with quantum-safe IFPP",
@@ -376,31 +562,6 @@
       "url": "https://www.cnx-software.com/2026/11/04/lattepanda-mu-ultra-review-an-intel-core-ultra-7-256v-ai-compute-module-tested-on-ubuntu-26-04/"
     },
     {
-      "title": "1.3 million Google-certified Android TV boxes found to have malware",
-      "source": "CNX Software",
-      "date": "2026-11-04",
-      "product": "BLE Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "You might assume that a Google-certified Android TV box will both work better and guarantee no malware. However, you’d be wrong, at least for the latter. Google has just published a new Threat Intelligence report entitled “Shutting the Door on the XCPE...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "1.3 million Google-certified Android TV boxes found to have malware\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/11/04/google-certified-android-tv-boxes-found-to-have-malware/"
-    },
-    {
       "title": "Nordic brings edge AI to battery-powered Wi-Fi devices",
       "source": "IoT Now",
       "date": "2026-11-04",
@@ -428,6 +589,31 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Nordic brings edge AI to battery-powered Wi-Fi devices\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/11/04/159196-nordic-nrf71-series-edge-ai-battery-powered-wifi/"
+    },
+    {
+      "title": "1.3 million Google-certified Android TV boxes found to have malware",
+      "source": "CNX Software",
+      "date": "2026-11-04",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "You might assume that a Google-certified Android TV box will both work better and guarantee no malware. However, you’d be wrong, at least for the latter. Google has just published a new Threat Intelligence report entitled “Shutting the Door on the XCPE...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "1.3 million Google-certified Android TV boxes found to have malware\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/11/04/google-certified-android-tv-boxes-found-to-have-malware/"
     },
     {
       "title": "ZOTAC ZBOX CI471 nano fanless mini PC features Intel Core 7 350, WiFi 7, and dual Thunderbolt 4",
@@ -2440,186 +2626,6 @@
       "hook": "A small module can shape the whole connected product experience.",
       "post": "DSPi firmware turns Raspberry Pi RP2040/RP2350 into a USB sound card with an onboard DSP engine\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/10/07/dspi-firmware-turns-raspberry-pi-rp2040-rp2350-into-a-usb-sound-card-with-an-onboard-dsp-engine/"
-    },
-    {
-      "title": "XIMEA MU003TG-SY-UC – A miniature, modular 0.3MP USB 3.0 ToF Sensor based on Sony IMX556",
-      "source": "CNX Software",
-      "date": "2026-10-06",
-      "product": "BLE Module",
-      "score": 93,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "The XIMEA MU003TG-SY-UC is a miniature industrial Time-of-Flight (ToF) camera with a 0.3MP Sony IMX556 CMOS sensor, global shutter, 640 × 480 resolution, and a 60 FPS frame rate. Its compact 26.4 × 26.4 × 28.67 mm enclosure and 31-gram weight make it suitable...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "XIMEA MU003TG-SY-UC – A miniature, modular 0.3MP USB 3.0 ToF Sensor based on Sony IMX556\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/10/06/ximea-mu003tg-sy-uc-a-miniature-modular-0-3mp-usb-3-0-tof-sensor-based-on-sony-imx556/"
-    },
-    {
-      "title": "SEALSQ’s sister company WISeSat.Space completes business combination with Columbus Acquisition Corporation",
-      "source": "IoT Now",
-      "date": "2026-10-06",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "WISeSat.Space ordinary shares have begun trading on Nasdaq under the ticker SAIQ, establishing a separately listed company focused on post-quantum-secure satellite IoT connectivity. The post SEALSQ’s sister company WISeSat.Space completes business combination...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "SEALSQ’s sister company WISeSat.Space completes business combination with Columbus Acquisition Corporation\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/10/06/158711-wisesat-space-columbus-acquisition-nasdaq-listing-satellite-iot/"
-    },
-    {
-      "title": "Can you see your whole IoT estate across the Asia Pacific region?",
-      "source": "IoT Now",
-      "date": "2026-10-06",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Kaleido Intelligence research finds 38% of CSPs operating across Asia Pacific can offer customers only partial visibility of their network – and shows what that costs enterprises. The post Can you see your whole IoT estate across the Asia Pacific region?...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Can you see your whole IoT estate across the Asia Pacific region?\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/10/06/158697-see-whole-iot-estate-asia-pacific-visibility-apac/"
-    },
-    {
-      "title": "Save $70 on GEEKOM A5 Pro 2026 Edition mini PC during Prime Day Sale (Sponsored)",
-      "source": "CNX Software",
-      "date": "2026-10-06",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "The GEEKOM A5 Pro 2026 Edition is a pocket-sized 0.47L mini PC available at a $70 discount for the company’s Prime Day Sale until October 7. Powered by the 6-core Ryzen 5 7530U (up to 4.5GHz), it handles browsing, documents, video calls, and AI-agent tasks...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Save $70 on GEEKOM A5 Pro 2026 Edition mini PC during Prime Day Sale (Sponsored)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/10/06/save-70-on-geekom-a5-pro-2026-edition-mini-pc-for-prime-day-sale/"
-    },
-    {
-      "title": "Geekworm UPS Scap 5V5A – A supercapacitor UPS HAT for Raspberry Pi 5",
-      "source": "CNX Software",
-      "date": "2026-10-05",
-      "product": "BLE Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Geekworm, in collaboration with Mcuzone, has launched the UPS Scap 5V5A, a new supercapacitor UPS HAT for the Raspberry Pi 5 designed to keep the Raspberry Pi running long enough (a few seconds to a few minutes) to save data and shut down safely, rather than...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Geekworm UPS Scap 5V5A – A supercapacitor UPS HAT for Raspberry Pi 5\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/10/05/geekworm-ups-scap-5v5a-a-supercapacitor-ups-hat-for-raspberry-pi-5/"
-    },
-    {
-      "title": "DEBIX M8391-01 industrial SBC features MediaTek Genio 720 SoC with 9 TOPS NPU, dual-display support",
-      "source": "CNX Software",
-      "date": "2026-10-05",
-      "product": "BLE Module",
-      "score": 85,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "The DEBIX M8391-01 is a compact industrial SBC built around the MediaTek MT8391 (Genio 720) processor, designed for edge AI, computer vision, robotics, and intelligent IoT applications. The SoC’s 9-TOPS NPU enables local AI inference without relying on cloud...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "DEBIX M8391-01 industrial SBC features MediaTek Genio 720 SoC with 9 TOPS NPU, dual-display support\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/10/05/debix-m8391-01-industrial-sbc-features-mediatek-genio-720-soc-with-9-tops-npu-dual-display-support/"
-    },
-    {
-      "title": "New intelligence powers government, scientific discovery and critical infrastructure at Ai Everything Abu Dhabi",
-      "source": "IoT Now",
-      "date": "2026-10-05",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Microsoft, VDURA and IFS bring practical applications to the AI-first Expo and Summit, as government and industry leaders examine how new intelligence accelerates industry transformation. The post New intelligence powers government, scientific discovery and...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "New intelligence powers government, scientific discovery and critical infrastructure at Ai Everything Abu Dhabi\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/10/05/158707-ai-everything-abu-dhabi-government-scientific-discovery-critical-infrastructure/"
     }
   ]
 }
