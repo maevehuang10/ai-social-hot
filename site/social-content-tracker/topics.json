@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T07:41:55.266Z",
+  "generatedAt": "2026-11-12T08:12:17.404Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,85 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "HIYD ultrathin health tracker attaches to the back of regular watches (Crowdfunding)",
+      "source": "CNX Software",
+      "date": "2026-11-12",
+      "product": "BLE Module",
+      "score": 93,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "HIYD is a compact and thin (2.7mm) health and fitness tracker that attaches to the back of a regular wristwatch and looks very similar to the Azume One, which we wrote about last month. Developed by San Jose-based HIYD, the device adds heart rate, sleep,...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "HIYD ultrathin health tracker attaches to the back of regular watches (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/11/12/hiyd-2-7mm-health-tracker-attaches-to-the-back-of-regular-watches/"
+    },
+    {
+      "title": "Lumissil IS31CS9202/IS32CS9202 Cortex-M0+ MCUs integrate serial video bus (SBV), LumiBus, and capacitive touch-key controller",
+      "source": "CNX Software",
+      "date": "2026-11-12",
+      "product": "ESP32 Module",
+      "score": 93,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "Lumissil Microsystems IS31CS9202 and IS32CS9202 are 50 MHz Cortex-M0+ microcontrollers for industrial, consumer, and automotive applications with a serial video bus (SVB), a LumiBus LED controller, and a capacitive touch-key controller. Both chips come with...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "Lumissil IS31CS9202/IS32CS9202 Cortex-M0+ MCUs integrate serial video bus (SBV), LumiBus, and capacitive touch-key controller\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/11/12/lumissil-is31cs9202-is32cs9202-cortex-m0-mcus-integrate-serial-video-bus-sbv-lumibus-and-capacitive-touch-key-controller/"
+    },
+    {
+      "title": "WeAct Logic Analyzer V2 – A $10 USB 3.0 logic analyzer board compatible with Sigrok/Pulseview (fork)",
+      "source": "CNX Software",
+      "date": "2026-11-12",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "WeAct Studio Logic Analyzer V2 is a low-cost, small WCH CH32H417 board designed to be used as a 16-channel USB 3.0 logic analyzer with up to 200 MHz bandwidth. The company says the board runs three different “apps”: logic analyzer, USB-serial + DAP, or custom...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "WeAct Logic Analyzer V2 – A $10 USB 3.0 logic analyzer board compatible with Sigrok/Pulseview (fork)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/11/12/weact-logic-analyzer-v2-a-10-usb-3-0-logic-analyzer-board-compatible-with-sigrok-pulseview/"
+    },
     {
       "title": "Arduino Nano XL board features Microchip PIC32CK Cortex-M33 MCU for industrial, home, and building automation",
       "source": "CNX Software",
@@ -31,6 +110,60 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Arduino Nano XL board features Microchip PIC32CK Cortex-M33 MCU for industrial, home, and building automation\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/11/11/arduino-nano-xl-board-features-microchip-pic32ck-cortex-m33-mcu-for-industrial-home-and-building-automation/"
+    },
+    {
+      "title": "Quectel launches EG216Q-GL and BG950Q-GL to give IoT device makers a more cost-efficient, lower-power upgrade path",
+      "source": "IoT Now",
+      "date": "2026-11-11",
+      "product": "BLE Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Quectel launches the EG216Q-GL Cat 1bis and BG950Q-GL Cat M1/NB2 modules, giving device makers a lower-cost, lower-power upgrade on existing footprints. The post Quectel launches EG216Q-GL and BG950Q-GL to give IoT device makers a more cost-efficient,...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Quectel launches EG216Q-GL and BG950Q-GL to give IoT device makers a more cost-efficient, lower-power upgrade path\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/11/11/159316-quectel-eg216q-gl-bg950q-gl-cost-efficient-lower-power-upgrade/"
+    },
+    {
+      "title": "Mikrotik KNOT Gateway HL9 – An outdoor Wi-Fi HaLow IoT gateway with GbE, WiFi 6, BLE 5.1, 4G LTE Cat 1 bis, and GNSS",
+      "source": "CNX Software",
+      "date": "2026-11-11",
+      "product": "BLE Module",
+      "score": 93,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "MikroTik KNOT Gateway HL9 is an IP66-rated outdoor IoT gateway that combines 915 MHz Wi-Fi HaLow (802.11ah), Bluetooth 5.1, Wi-Fi 6, LTE Cat 1 bis, Gigabit Ethernet, and GNSS. The gateway supports asset tracking, remote sensor monitoring, industrial IoT, and...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Mikrotik KNOT Gateway HL9 – An outdoor Wi-Fi HaLow IoT gateway with GbE, WiFi 6, BLE 5.1, 4G LTE Cat 1 bis, and GNSS\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/11/11/mikrotik-knot-gateway-hl9-an-outdoor-wi-fi-halow-iot-gateway-with-gbe-wifi-6-ble-5-1-4g-lte-cat-1-bis-and-gnss/"
     },
     {
       "title": "Renesas RZ/T2N Cortex-A55/R52 industrial MPU supports four-axis motor control, TSN Ethernet, EtherCAT…",
@@ -81,6 +214,31 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "LocalDot – Open-source PCB for 3rd-gen Amazon Echo Dot enables Home Assistant support (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/11/11/localdot-an-open-source-replacement-pcb-for-3rd-gen-echo-dot-with-home-assistant-support/"
+    },
+    {
+      "title": "GSMA MWC26 Doha welcomed over 10,000 attendees, as ITU co-location puts MENA at the centre of global connectivity policy and innovation",
+      "source": "IoT Now",
+      "date": "2026-11-11",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "MWC26 Doha welcomed over 10,000 attendees from 100 countries, as its co-location with ITU PP-26 brought policymakers and industry together in Qatar. The post GSMA MWC26 Doha welcomed over 10,000 attendees, as ITU co-location puts MENA at the centre of global...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "GSMA MWC26 Doha welcomed over 10,000 attendees, as ITU co-location puts MENA at the centre of global connectivity policy and innovation\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/11/11/159310-gsma-mwc26-doha-10000-attendees-itu-co-location/"
     },
     {
       "title": "Vodafone IoT and Skylo launch commercial satellite connectivity service",
@@ -316,6 +474,31 @@
       "url": "https://www.cnx-software.com/2026/11/09/seeed-studio-xiao-stm32c5-development-board-features-dual-can-fd-and-a-6-axis-imu-with-programmable-heating/"
     },
     {
+      "title": "Cavli Wireless to unveil P16QS LTE Cat 1bis module and Cortex AI coding assistant at electronica 2026",
+      "source": "IoT Now",
+      "date": "2026-11-09",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Cavli Wireless will unveil its P16QS LTE Cat 1bis module and Cortex AI firmware assistant at electronica 2026, alongside 5G RedCap and 5G NR modules. The post Cavli Wireless to unveil P16QS LTE Cat 1bis module and Cortex AI coding assistant at electronica...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Cavli Wireless to unveil P16QS LTE Cat 1bis module and Cortex AI coding assistant at electronica 2026\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/11/09/159270-cavli-wireless-p16qs-lte-cat-1bis-cortex-ai-electronica-2026/"
+    },
+    {
       "title": "M5Stack Core Matrix ESP32-C61 IoT controller features 16×16 LED matrix, WiFi 6, and 6-axis IMU",
       "source": "CNX Software",
       "date": "2026-11-09",
@@ -345,11 +528,11 @@
       "url": "https://www.cnx-software.com/2026/11/09/m5stack-core-matrix-esp32-c61-iot-controller-features-16x16-led-matrix-wifi-6-and-6-axis-imu/"
     },
     {
-      "title": "Cavli Wireless to unveil P16QS LTE Cat 1bis module and Cortex AI coding assistant at electronica 2026",
+      "title": "Globalstar announces winners of RM200M Satellite IoT Development Kit giveaway",
       "source": "IoT Now",
       "date": "2026-11-09",
       "product": "BLE Module",
-      "score": 88,
+      "score": 86,
       "formats": [
         "LinkedIn Post",
         "Sales Material"
@@ -364,10 +547,10 @@
         "Positioning"
       ],
       "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Cavli Wireless will unveil its P16QS LTE Cat 1bis module and Cortex AI firmware assistant at electronica 2026, alongside 5G RedCap and 5G NR modules. The post Cavli Wireless to unveil P16QS LTE Cat 1bis module and Cortex AI coding assistant at electronica...",
+      "summary": "Globalstar has announced the three winners of its RM200M Satellite IoT Development Kit giveaway: Hydro-Québec, Impact42 LLC and Connectivia Labs. Each winning organisation receives an RM200M development kit together with … Continued The post Globalstar...",
       "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Cavli Wireless to unveil P16QS LTE Cat 1bis module and Cortex AI coding assistant at electronica 2026\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/11/09/159270-cavli-wireless-p16qs-lte-cat-1bis-cortex-ai-electronica-2026/"
+      "post": "Globalstar announces winners of RM200M Satellite IoT Development Kit giveaway\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/11/09/159187-globalstar-announces-winners-of-rm200m-satellite-iot-development-kit-giveaway/"
     },
     {
       "title": "Black Friday Deal: Over $200 Off the VZMORE AX9 Max Mini PC! (Sponsored)",
@@ -397,31 +580,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Black Friday Deal: Over $200 Off the VZMORE AX9 Max Mini PC! (Sponsored)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/11/09/black-friday-deal-over-200-off-the-vzmore-ax9-max-mini-pc/"
-    },
-    {
-      "title": "Globalstar announces winners of RM200M Satellite IoT Development Kit giveaway",
-      "source": "IoT Now",
-      "date": "2026-11-09",
-      "product": "BLE Module",
-      "score": 86,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Globalstar has announced the three winners of its RM200M Satellite IoT Development Kit giveaway: Hydro-Québec, Impact42 LLC and Connectivia Labs. Each winning organisation receives an RM200M development kit together with … Continued The post Globalstar...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Globalstar announces winners of RM200M Satellite IoT Development Kit giveaway\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/11/09/159187-globalstar-announces-winners-of-rm200m-satellite-iot-development-kit-giveaway/"
     },
     {
       "title": "SparkFun IoT RedBoard ESP32-P4 – Arduino UNO-like ESP32-P4 v3.x development boards with WiFi 6 or PoE options",
@@ -2480,164 +2638,6 @@
       "hook": "A small module can shape the whole connected product experience.",
       "post": "HPMicro HPM5100 RISC-V MCU integrates four 16-bit ADCs, four op-amps for analog sensing and motor control\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/10/15/hpmicro-hpm5100-risc-v-mcu-integrates-four-16-bit-adcs-four-op-amps-for-analog-sensing-and-motor-control/"
-    },
-    {
-      "title": "W1700K SDR turns a Wi-Fi 7 router into a 320 MSps software-defined radio receiver",
-      "source": "CNX Software",
-      "date": "2026-10-15",
-      "product": "WiFi Module",
-      "score": 86,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "WiFi",
-        "Smart Home",
-        "Wireless Module"
-      ],
-      "value": "Useful for turning current industry news into content about smart home devices, gateways, control panels, and Wi-Fi connected IoT products.",
-      "summary": "Just a few days ago, we wrote about the ESP-SDR project, which turned an ESP32 into an SDR receiver (and now SDR transmitter), but the data was streamed over UART, which couldn’t keep up with the sample rate. Now, developer h0m3us3r has released w1700k-sdr,...",
-      "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
-      "post": "W1700K SDR turns a Wi-Fi 7 router into a 320 MSps software-defined radio receiver\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/10/16/w1700k-sdr-turns-a-wi-fi-7-router-into-a-320-msps-software-defined-radio-receiver/"
-    },
-    {
-      "title": "VIEWE launches 4.3-inch ESP32-S31 display development board",
-      "source": "CNX Software",
-      "date": "2026-10-14",
-      "product": "BLE Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "VIEWE has introduced the PLCM-UES31S043H800V480C-U, a 4.3-inch smart display module that appears to be the first third-party development board powered by the new ESP32-S31 MCU. The board includes a 4.3-inch display with 2.4 GHz Wi-Fi 6, Bluetooth 5.4 LE and...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "VIEWE launches 4.3-inch ESP32-S31 display development board\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/10/14/viewe-4-3-inch-esp32-s31-display-development-board/"
-    },
-    {
-      "title": "Romu – A Tiny Raspberry Pi RP2354A board for USB application development (Crowdfunding)",
-      "source": "CNX Software",
-      "date": "2026-10-14",
-      "product": "BLE Module",
-      "score": 92,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Bitmerse Romu is a tiny (15.5 x 12 mm), almost minimal Raspberry Pi RP2354A USB board with a USB 2.0 interface on one side of the PCB, and the dual Cortex-M33/RISC-V MCU on the other side, connected to a few debugging/programming pads, buttons, and an RGB...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Romu – A Tiny Raspberry Pi RP2354A board for USB application development (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/10/14/romu-tiny-raspberry-pi-rp2354a-usb-board/"
-    },
-    {
-      "title": "Orange Pi O1 SBC features 16 TOPS SOPHGO BM1688 AI SoC, supports 4G/5G cellular connectivity",
-      "source": "CNX Software",
-      "date": "2026-10-14",
-      "product": "BLE Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Orange Pi O1 is a new single board computer (SBC) based on the somewhat older SOPHGO BM1688 octa-core Cortex-A53 SoC with a built-in 16 TOPS AI accelerator/TPU, and support for decoding up to sixteen 1080p30 video streams, or encoding ten. The board comes...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Orange Pi O1 SBC features 16 TOPS SOPHGO BM1688 AI SoC, supports 4G/5G cellular connectivity\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/10/15/orange-pi-o1-sbc-features-16-tops-sophgo-bm1688-ai-soc-supports-4g-5g-cellular-connectivity/"
-    },
-    {
-      "title": "GSMA MWC26 Doha: New agenda-setting speaker and exhibitor line-up revealed",
-      "source": "IoT Now",
-      "date": "2026-10-14",
-      "product": "BLE Module",
-      "score": 86,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "The GSMA has announced the speaker and exhibitor line-up for MWC26 Doha, which returns to the Doha Exhibition and Convention Center on 8 to 10 November 2026, co-located with the ITU Plenipotentiary Conference. The post GSMA MWC26 Doha: New agenda-setting...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "GSMA MWC26 Doha: New agenda-setting speaker and exhibitor line-up revealed\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/10/14/158817-gsma-mwc26-doha-speaker-exhibitor-line-up-revealed/"
-    },
-    {
-      "title": "BroadForward delivers secure signalling for Terrestar’s satellite direct-to-mobile connectivity across Canada",
-      "source": "IoT Now",
-      "date": "2026-10-14",
-      "product": "BLE Module",
-      "score": 85,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "BroadForward’s 4G routing and Diameter Firewall are now live in Terrestar Solutions’ network, routing signalling between satellite and cellular domains to extend mobile and IoT coverage across remote Canada. The post BroadForward delivers secure signalling...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "BroadForward delivers secure signalling for Terrestar’s satellite direct-to-mobile connectivity across Canada\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/10/14/158814-broadforward-terrestar-satellite-direct-to-mobile-signalling-canada/"
     }
   ]
 }
