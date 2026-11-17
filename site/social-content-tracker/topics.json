@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T07:53:06.516Z",
+  "generatedAt": "2026-11-17T09:05:38.701Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,82 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "Rockchip RK3668 switches to Cortex-A725 and Cortex-A520 cores, engineering samples planned for Q1 2027",
+      "source": "CNX Software",
+      "date": "2026-11-17",
+      "product": "BLE Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "More details have surfaced about the Rockchip RK3668 processor. The biggest change is that the Armv9 SoC will feature eight cores (6x Cortex-A725 and 2x Cortex-A520), rather than ten cores in a 4x Cortex-A730 + 6x Cortex-A530 configuration announced at its...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Rockchip RK3668 switches to Cortex-A725 and Cortex-A520 cores, engineering samples planned for Q1 2027\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/11/17/rockchip-rk3668-switches-to-cortex-a725-and-cortex-a520-cores-engineering-samples-planned-for-q1-2027/"
+    },
+    {
+      "title": "750 MHz GigaDevice GD32H7 Cortex-M7 MCU family gets up to 9.5MB Flash, EtherCAT for industrial applications",
+      "source": "CNX Software",
+      "date": "2026-11-17",
+      "product": "ESP32 Module",
+      "score": 93,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "GigaDevice adds new industrial parts to the GD32H7 series of Cortex-M7 MCUs, running at up to 750 MHz. The new lineup includes the GD32H77R for robotic joint control, GD32H78D/77D for industrial HMI applications, GD32H78E/77E for real-time motion control, and...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "750 MHz GigaDevice GD32H7 Cortex-M7 MCU family gets up to 9.5MB Flash, EtherCAT for industrial applications\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/11/17/750-mhz-gigadevice-gd32h7-cortex-m7-mcu-family-gets-up-to-9-5mb-flash-ethercat-for-industrial-applications/"
+    },
+    {
+      "title": "Forlinx OK8275AA-C – A Qualcomm QCS8275 industrial SBC with 12GB LPDDR5, 256GB UFS storage",
+      "source": "CNX Software",
+      "date": "2026-11-17",
+      "product": "Cellular IoT Module",
+      "score": 93,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "NB-IoT",
+        "Cat.1",
+        "Cellular IoT"
+      ],
+      "value": "Useful for turning current industry news into content about remote monitoring, logistics, global coverage, and wide-area connected devices.",
+      "summary": "Forlinx OK8275AA-C is an industrial-grade single board computer (SBC) based on the company’s FET8275AA-C SoM, powered by a Qualcomm Dragonwing QCS8275 SoC, delivering up to 40 TOPS for Edge AI workloads, and paired with 12GB LPDDR5 memory and 256GB UFS 3.1...",
+      "hook": "Wide-area IoT starts with the right connectivity choice.",
+      "post": "Forlinx OK8275AA-C – A Qualcomm QCS8275 industrial SBC with 12GB LPDDR5, 256GB UFS storage\n\nThis is a useful signal for IoT brands and product teams watching Cellular IoT Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/11/17/forlinx-ok8275aa-c-a-qualcomm-qcs8275-industrial-sbc-with-12gb-lpddr5-256gb-ufs-storage/"
+    },
     {
       "title": "$69 Home Assistant Connect AUX-2 controller offers PoE, audio streaming, RS-232 control, Bluetooth proxy, and more",
       "source": "CNX Software",
@@ -64,6 +140,135 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "AAEON BOXER-8741AI industrial Edge AI box PC NVIDIA Jetson Thor T5000 with dual 10GbE and four 5GbE LAN\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/11/16/aaeon-boxer-8741ai-industrial-edge-ai-box-pc-nvidia-jetson-thor-t5000-with-dual-10gbe-and-four-5gbe-lan/"
+    },
+    {
+      "title": "GEEKOM A5 2027 Edition review – Part 2: A mid-range AMD Ryzen 7 7730U mini PC tested with Windows 11 Pro",
+      "source": "CNX Software",
+      "date": "2026-11-16",
+      "product": "ESP32 Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "We’ve checked out the GEEKOM A5 2027 Edition mini PC’s hardware with an unboxing and teardown in the first part of the review, and we’ve now had time to test the AMD Ryzen 7 7730U mini PC in detail with Windows 11 Pro. In this article, we will test features,...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "GEEKOM A5 2027 Edition review – Part 2: A mid-range AMD Ryzen 7 7730U mini PC tested with Windows 11 Pro\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/11/16/geekom-a5-2027-edition-review-part-2-a-mid-range-amd-ryzen-7-7730u-mini-pc-tested-with-windows-11-pro/"
+    },
+    {
+      "title": "Why cellular IoT and eSIM are ready to scale across North America",
+      "source": "IoT Now",
+      "date": "2026-11-16",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Your pilot worked. Now imagine rolling it out across multiple networks, with devices that could stay in the field for a decade. What happens when coverage or carrier agreements change? … Continued The post Why cellular IoT and eSIM are ready to scale across...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Why cellular IoT and eSIM are ready to scale across North America\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/11/16/159365-why-cellular-iot-and-esim-are-ready-to-scale-across-north-america/"
+    },
+    {
+      "title": "Analyst Report: Automotive OEMs need operational visibility to turn connected vehicle data into action",
+      "source": "IoT Now",
+      "date": "2026-11-16",
+      "product": "BLE Module",
+      "score": 84,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "The connected car market is transforming rapidly. The competitive value within it is moving quickly toward the insight, control and security that sits on top of connectivity. Ibraheem Kasujee, Senior … Continued The post Analyst Report: Automotive OEMs need...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Analyst Report: Automotive OEMs need operational visibility to turn connected vehicle data into action\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/11/16/159378-analyst-report-automotive-oems-need-operational-visibility-to-turn-connected-vehicle-data-into-action/"
+    },
+    {
+      "title": "Up to 35% discount on KAMRUI AMD Ryzen and Intel Core mini PCs (Sponsored)",
+      "source": "CNX Software",
+      "date": "2026-11-16",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "KAMRUI is offering up to a 35% discount on three of its AMD Ryzen 5/7 and Intel Core mini PCs. Let’s check all three. KAMRUI E3B mini PC – AMD Ryzen 5 PRO 7640HS, 24GB LPDDR5, 512 GB SSD This model features a 6-core/12-thread AMD Ryzen 5 PRO 7640HS Zen 4...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Up to 35% discount on KAMRUI AMD Ryzen and Intel Core mini PCs (Sponsored)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/11/16/up-to-35-discount-on-kamrui-amd-ryzen-and-intel-core-mini-pcs/"
+    },
+    {
+      "title": "Thales and BR Captura share a joint perspective on SGP.32 IoT connectivity",
+      "source": "IoT Now",
+      "date": "2026-11-16",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Thales and BR Captura explore how SGP.32 remote profile management and orchestration can reshape IoT connectivity across Brazil and Latin America. The post Thales and BR Captura share a joint perspective on SGP.32 IoT connectivity appeared first on IoT Now...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Thales and BR Captura share a joint perspective on SGP.32 IoT connectivity\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/11/16/159389-thales-br-captura-joint-perspective-sgp32-iot-connectivity/"
     },
     {
       "title": "ESP32 developer ecosystem angle",
@@ -2419,219 +2624,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Renesas RX74M and RX74N – 600MHz industrial MCUs with RXv3e core, embedded MRAM, 22nm process\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/10/26/renesas-rx74m-and-rx74n-600mhz-industrial-mcus-with-rxv3e-core-embedded-mram-22nm-process/"
-    },
-    {
-      "title": "Adafruit Metro ESP32-P4 Hydra – An Arduino UNO-shaped ESP32-P4 + ESP32-C6 board with WiFi 6, MIPI interfaces",
-      "source": "CNX Software",
-      "date": "2026-10-26",
-      "product": "BLE Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Adafruit has launched the Metro ESP32-P4 Hydra, an Arduino UNO-shaped development board with ESP32-P4, 16MB PSRAM, and 16MB NOR flash, and an ESP32-C6 for WiFi 6, Bluetooth 5.3 LE, Thread, and Zigbee connectivity. Other features include Raspberry...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Adafruit Metro ESP32-P4 Hydra – An Arduino UNO-shaped ESP32-P4 + ESP32-C6 board with WiFi 6, MIPI interfaces\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/10/26/adafruit-metro-esp32-p4-hydra-an-arduino-uno-shaped-esp32-p4-esp32-c6-board-with-wifi-6-mipi-interfaces/"
-    },
-    {
-      "title": "Your devices cross borders. Does your SIM?",
-      "source": "IoT Now",
-      "date": "2026-10-26",
-      "product": "BLE Module",
-      "score": 93,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "IOT CONNECTIVITY / ANALYST BRIEFING Global IoT connectivity shouldn’t be a logistics nightmare. When your devices are deployed across multiple countries, connectivity stops being a line item. It … Continued The post Your devices cross borders. Does your SIM?...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Your devices cross borders. Does your SIM?\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/10/26/158919-your-devices-cross-borders-does-your-sim/"
-    },
-    {
-      "title": "Semtech brings 5G network slicing, FIPS 140-3 to IACP 2026",
-      "source": "IoT Now",
-      "date": "2026-10-26",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Semtech is adding 5G network slicing support, FIPS 140-3 compliance via a software update and new fleet management tools to its AirLink routers for public safety fleets. The post Semtech brings 5G network slicing, FIPS 140-3 to IACP 2026 appeared first on IoT...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Semtech brings 5G network slicing, FIPS 140-3 to IACP 2026\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/10/26/159024-semtech-5g-network-slicing-fips-140-3-iacp-2026/"
-    },
-    {
-      "title": "Deki Engine – ESP32 gets an open source Unity-style editor and C++ 2D game engine",
-      "source": "CNX Software",
-      "date": "2026-10-25",
-      "product": "LoRa Module",
-      "score": 94,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "LoRa",
-        "LPWAN",
-        "Smart City"
-      ],
-      "value": "Useful for turning current industry news into content about smart city, utility metering, asset tracking, and low-power wide-area IoT scenarios.",
-      "summary": "Deki Engine is an open-source modular C++ engine with a Unity-style visual editor for embedded devices, currently optimized for ESP32 platforms such as LilyGO T-Deck Plus, T-Display S3 AMOLED, and soon Elecrow CrowPanel Advanced 7″ ESP32-P4. The editor is...",
-      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
-      "post": "Deki Engine – ESP32 gets an open source Unity-style editor and C++ 2D game engine\n\nThis is a useful signal for IoT brands and product teams watching LoRa Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/10/25/deki-engine-esp32-gets-an-open-source-unity-style-editor-and-c-2d-game-engine/"
-    },
-    {
-      "title": "ZOTAC ZBOX PRO CM5-PICO – A compact Raspberry Pi CM5-based fanless industrial mini PC",
-      "source": "CNX Software",
-      "date": "2026-10-24",
-      "product": "BLE Module",
-      "score": 93,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "ZOTAC ZBOX PRO CM5-PICO is a compact fanless industrial mini PC built around the Raspberry Pi Compute Module 5 (CM5) with up to 16 GB LPDDR4x memory, optional WiFi 5 and Bluetooth 5.0 wireless connectivity. The mini PC measures 114.8 x 76 x 31.3 mm and...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "ZOTAC ZBOX PRO CM5-PICO – A compact Raspberry Pi CM5-based fanless industrial mini PC\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/10/24/zotac-zbox-pro-cm5-pico-a-compact-raspberry-pi-cm5-based-fanless-industrial-mini-pc/"
-    },
-    {
-      "title": "RoboParty RP1 (ROBOTO 01) – A full-stack open-source humanoid robot with up to 30 degrees of freedom",
-      "source": "CNX Software",
-      "date": "2026-10-23",
-      "product": "BLE Module",
-      "score": 98,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Shanghai-based RoboParty has introduced the RP1 (ROBOTO 01), an open-source humanoid robot designed for robotics research, embodied AI development, and motion-control experiments. The robot is available in two configurations: the standard RP1 with 24 active...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "RoboParty RP1 (ROBOTO 01) – A full-stack open-source humanoid robot with up to 30 degrees of freedom\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/10/23/roboparty-rp1-roboto-01-a-full-stack-open-source-humanoid-robot-with-up-to-30-degrees-of-freedom/"
-    },
-    {
-      "title": "LILYGO T-Halow P4 – An M.2 2280 board with ESP32-P4, WiFi HaLow, and ESP32-C6",
-      "source": "CNX Software",
-      "date": "2026-10-23",
-      "product": "BLE Module",
-      "score": 93,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "LILYGO T-Halow P4 is a compact M.2 development board that combines an ESP32-P4 MCU, an ESP32-C6 wireless co-processor, and a Taixin TX-AH WiFi HaLow module for long-range wireless connectivity. The board measures just 80 x 22mm (M.2 2280) and uses an M.2...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "LILYGO T-Halow P4 – An M.2 2280 board with ESP32-P4, WiFi HaLow, and ESP32-C6\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/10/23/lilygo-t-halow-p4-a-m-2-2280-board-with-esp32-p4-wifi-halow-and-esp32-c6/"
-    },
-    {
-      "title": "The AI worm your security stack can’t see: Why cellular IoT is the blind spot",
-      "source": "IoT Now",
-      "date": "2026-10-22",
-      "product": "BLE Module",
-      "score": 92,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Anthropic just put a date on a threat most security teams have filed under \"someday.\" The question it leaves open is the one that matters for enterprises: who can actually see the devices it targets?, writes Matt Coleman, the chief revenue officer of...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "The AI worm your security stack can’t see: Why cellular IoT is the blind spot\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/10/22/158963-ai-worm-cellular-iot-security-blind-spot/"
     }
   ]
 }
