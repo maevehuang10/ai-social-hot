@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T08:12:36.607Z",
+  "generatedAt": "2026-11-22T07:56:40.665Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,34 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "4-in-1 Raspberry Pi HAT combines RTL-SDR, LoRa, GPS, and RTC",
+      "source": "CNX Software",
+      "date": "2026-11-22",
+      "product": "LoRa Module",
+      "score": 94,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "LoRa",
+        "LPWAN",
+        "Smart City"
+      ],
+      "value": "Useful for turning current industry news into content about smart city, utility metering, asset tracking, and low-power wide-area IoT scenarios.",
+      "summary": "Guangzhou-based HackerGadgets has launched a 4-in-1 Raspberry Pi HAT that offers RTL-SDR and LoRa connectivity, GPS and Beidou/GLONASS GNSS, and a PCF85063A real-time clock (RTC). The SDR part is implemented through an RTL2832U+R860 combo supporting 100 kHz...",
+      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
+      "post": "4-in-1 Raspberry Pi HAT combines RTL-SDR, LoRa, GPS, and RTC\n\nThis is a useful signal for IoT brands and product teams watching LoRa Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/11/22/4-in-1-raspberry-pi-hat-combines-rtl-sdr-lora-gps-and-rtc/"
+    },
     {
       "title": "ESP32 developer ecosystem angle",
       "source": "Espressif Systems",
@@ -32,6 +60,32 @@
       "hook": "A small module can shape the whole connected product experience.",
       "post": "ESP32 content works best when it connects the module to a real device workflow: connectivity, control, UI, sensing, and deployment.",
       "url": "https://www.linkedin.com/company/espressif-systems",
+      "date": "2026-11-21"
+    },
+    {
+      "title": "LoRaWAN solution content worth tracking",
+      "source": "RAKwireless",
+      "product": "LoRa Module",
+      "score": 95,
+      "formats": [
+        "LinkedIn Post",
+        "Carousel",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "LoRa",
+        "LoRaWAN",
+        "Gateway"
+      ],
+      "value": "Useful for explaining complete LoRaWAN solutions to B2B users, including modules, gateways, sensor nodes, and cloud workflows.",
+      "summary": "Track how LoRaWAN brands turn hardware into complete deployment stories.",
+      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
+      "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
+      "url": "https://www.linkedin.com/company/rakwireless/",
       "date": "2026-11-21"
     },
     {
@@ -89,32 +143,6 @@
       "date": "2026-11-21"
     },
     {
-      "title": "LoRaWAN solution content worth tracking",
-      "source": "RAKwireless",
-      "product": "LoRa Module",
-      "score": 95,
-      "formats": [
-        "LinkedIn Post",
-        "Carousel",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "LoRa",
-        "LoRaWAN",
-        "Gateway"
-      ],
-      "value": "Useful for explaining complete LoRaWAN solutions to B2B users, including modules, gateways, sensor nodes, and cloud workflows.",
-      "summary": "Track how LoRaWAN brands turn hardware into complete deployment stories.",
-      "hook": "Some IoT projects need years of battery life, not more bandwidth.",
-      "post": "A strong LoRaWAN post should not only mention module specs. It should show the full deployment chain: sensor node, gateway, cloud, and the business problem it solves.",
-      "url": "https://www.linkedin.com/company/rakwireless/",
-      "date": "2026-11-21"
-    },
-    {
       "title": "Black Friday and Cyber Monday 2026 international deals and coupons",
       "source": "CNX Software",
       "date": "2026-11-20",
@@ -141,6 +169,35 @@
       "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
       "post": "Black Friday and Cyber Monday 2026 international deals and coupons\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/11/20/black-friday-and-cyber-monday-2026-international-deals-and-coupons/"
+    },
+    {
+      "title": "Timekettle LiveTalk review – Open-ear earbuds with real-time AI translation of videos, phone calls, face-to-face conversations",
+      "source": "CNX Software",
+      "date": "2026-11-20",
+      "product": "BLE Module",
+      "score": 90,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "We’ve received a review sample for the Timekettle LiveTalk, a pair of open-ear earbuds that supports real-time AI translation and AI-powered conversation summaries. It supports 53 languages and 107 accents, including 25 language pairs available offline. I’ll...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Timekettle LiveTalk review – Open-ear earbuds with real-time AI translation of videos, phone calls, face-to-face conversations\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/11/20/timekettle-livetalk-review-open-ear-earbuds-with-real-time-ai-translation-of-videos-phone-calls-face-to-face-conversations/"
     },
     {
       "title": "GUITION ESP32-S31 development kit features 7-inch capacitive touch display, Ethernet port",
@@ -2584,60 +2641,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "AI-enabled RAN automation and optimisation a US$1.1 billion market, says SNS Telecom & IT\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/11/03/159153-ai-enabled-ran-automation-and-optimisation-a-us1-1-billion-market-says-sns-telecom-it/"
-    },
-    {
-      "title": "AT&T and Smart Meter expand connected healthcare reach with Global SIM Advanced",
-      "source": "IoT Now",
-      "date": "2026-11-02",
-      "product": "BLE Module",
-      "score": 93,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "AT&T and Smart Meter are expanding their collaboration, using AT&T Global SIM Advanced multi-profile eSIM to keep cellular remote patient monitoring devices connected in more locations across the US. The post AT&T and Smart Meter expand connected healthcare...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "AT&T and Smart Meter expand connected healthcare reach with Global SIM Advanced\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/11/02/159123-att-smart-meter-connected-healthcare-global-sim-advanced/"
-    },
-    {
-      "title": "Banana Pi BPI-M8 – An Allwinner A733 SBC inspired by the Raspberry Pi 5 with PCIe FFC connector, UFS module socket",
-      "source": "CNX Software",
-      "date": "2026-11-02",
-      "product": "BLE Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Banana Pi BPI-M8 is a credit card-sized SBC powered by an Allwinner A733 octa-core Cortex-A76/A55 SoC that aims to offer an alternative to the Raspberry Pi 5. The BPI-M8 comes with 4GB LPDDR5, HDMI and MIPI DSI display interfaces, two MIPI CSI camera...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Banana Pi BPI-M8 – An Allwinner A733 SBC inspired by the Raspberry Pi 5 with PCIe FFC connector, UFS module socket\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/11/02/banana-pi-bpi-m8-an-allwinner-a733-sbc-inspired-by-the-raspberry-pi-5-with-pcie-ffc-connector-ufs-module-socket/"
     }
   ]
 }
