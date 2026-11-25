@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T10:50:07.087Z",
+  "generatedAt": "2026-11-25T09:45:31.616Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,60 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "Compact Tendryl Edge AI camera packs Raspberry Pi CM5, Hailo-8 NPU, 12MP sensor, speaker and microphone",
+      "source": "CNX Software",
+      "date": "2026-11-25",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Hellbender Tendryl Camera is an edge AI camera that integrates a Raspberry Pi CM5 module, a Hailo-8 AI accelerator, and a 12MP Raspberry Pi Camera Module 3, as well as a speaker and microphone, into a compact fanless enclosure. The camera features a CM5...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Compact Tendryl Edge AI camera packs Raspberry Pi CM5, Hailo-8 NPU, 12MP sensor, speaker and microphone\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/11/25/compact-tendryl-edge-ai-camera-packs-raspberry-pi-cm5-hailo-8-npu-12mp-sensor-speaker-and-microphone/"
+    },
+    {
+      "title": "Vodafone activates resilient integrated terrestrial and satellite connectivity at new Earth-space station",
+      "source": "IoT Now",
+      "date": "2026-11-25",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Vodafone and AST SpaceMobile switch on an Earth-space station at the Málaga Satellite Centre for R&D into integrated terrestrial and LEO satellite services. The post Vodafone activates resilient integrated terrestrial and satellite connectivity at new...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Vodafone activates resilient integrated terrestrial and satellite connectivity at new Earth-space station\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/11/25/159514-vodafone-ast-spacemobile-earth-space-station-malaga/"
+    },
     {
       "title": "ST VL53LB is the smallest FlightSense ToF ranging sensor at just 4.0 × 1.8 × 1.0 mm",
       "source": "CNX Software",
@@ -83,6 +137,31 @@
       "url": "https://www.cnx-software.com/2026/11/24/tinywifidongle-arduino-library-turns-esp32-s3-and-raspberry-pi-pico-2-w-boards-into-usb-wifi-adapters/"
     },
     {
+      "title": "Beyond the Coverage Gap: Keeping Fleets Visible with Satellite IoT",
+      "source": "IoT Now",
+      "date": "2026-11-24",
+      "product": "BLE Module",
+      "score": 85,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "How Globalstar and Cooltrax are extending asset visibility beyond terrestrial networks What happens when a trailer, container or critical asset moves beyond reliable cellular coverage? For transport and logistics businesses, … Continued The post Beyond the...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Beyond the Coverage Gap: Keeping Fleets Visible with Satellite IoT\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/11/24/159490-beyond-the-coverage-gap-keeping-fleets-visible-with-satellite-iot/"
+    },
+    {
       "title": "Arrow Electronics and SECO expand collaboration to accelerate industrial edge AI adoption",
       "source": "IoT Now",
       "date": "2026-11-24",
@@ -135,6 +214,31 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "RetroLine pairs a rotary or touch-tone landline phone to your smartphone (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/11/24/retroline-pairs-a-rotary-or-touch-tone-landline-phone-to-your-smartphone/"
+    },
+    {
+      "title": "Cellusys, Comfone, Mobileum, Orange Wholesale, Syniverse and Telna ranked #1 Champion roaming vendors by Kaleido Intelligence",
+      "source": "IoT Now",
+      "date": "2026-11-24",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Kaleido Intelligence names Cellusys, Comfone, Mobileum, Orange Wholesale, Syniverse and Telna as #1 Champion roaming vendors in its 2026-2027 Vendor Hub. The post Cellusys, Comfone, Mobileum, Orange Wholesale, Syniverse and Telna ranked #1 Champion roaming...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Cellusys, Comfone, Mobileum, Orange Wholesale, Syniverse and Telna ranked #1 Champion roaming vendors by Kaleido Intelligence\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/11/24/159484-kaleido-intelligence-champion-roaming-vendors-2026-2027/"
     },
     {
       "title": "Piccola CNC – An open-source hardware desktop milling machine with PCB auto-leveling and integrated CAM (Crowdfunding)",
@@ -2537,106 +2641,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "P4 Launcher offers a PC-like and retro gaming experience on ESP32-P4 boards\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/11/05/p4-launcher-offers-a-pc-like-and-retro-gaming-experience-on-esp32-p4-boards/"
-    },
-    {
-      "title": "ACEMAGIC Kron Mini K5 Review – Part 3: Ubuntu 26.04 on an entry-level Wildcat Lake mini PC",
-      "source": "CNX Software",
-      "date": "2026-11-05",
-      "product": "WiFi Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "WiFi",
-        "Smart Home",
-        "Wireless Module"
-      ],
-      "value": "Useful for turning current industry news into content about smart home devices, gateways, control panels, and Wi-Fi connected IoT products.",
-      "summary": "After checking out the ACEMAGIC Kron Mini K5’s hardware with an unboxing and a teardown in the first part of the review, we tested the entry-level Intel Core 3 304 mini PC on Windows 11, and we’ve now taken the time to test Linux on the low-cost mini PC with...",
-      "hook": "Wi-Fi modules are still evolving for real IoT deployment needs.",
-      "post": "ACEMAGIC Kron Mini K5 Review – Part 3: Ubuntu 26.04 on an entry-level Wildcat Lake mini PC\n\nThis is a useful signal for IoT brands and product teams watching WiFi Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/11/05/acemagic-kron-mini-k5-review-part-3-ubuntu-26-04-on-an-entry-level-wildcat-lake-mini-pc/"
-    },
-    {
-      "title": "Altera Agilex 27 FPGA & SoC family features up to 17.6M logic elements, Cortex-A720/A-520 cores, 256 Gbps SerDes, PCIe 7.0",
-      "source": "CNX Software",
-      "date": "2026-11-05",
-      "product": "BLE Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Altera has introduced the Agilex 27 FPGA and SoC family designed for AI infrastructure, high-speed networking, 6G and satellite communications, and aerospace and defense applications. The family includes 14 device models, each available as either an FPGA-only...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Altera Agilex 27 FPGA & SoC family features up to 17.6M logic elements, Cortex-A720/A-520 cores, 256 Gbps SerDes, PCIe 7.0\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/11/05/altera-agilex-27-fpga-soc-family-features-up-to-17-6m-logic-elements-cortex-a720-a-520-cores-256-gbps-serdes-pcie-7-0/"
-    },
-    {
-      "title": "$21 ESP32-P4X and ESP32-C61 full-featured board offers Ethernet, WiFi 6, RS485 CAN Bus, MIPI CSI/DSI, and more",
-      "source": "CNX Software",
-      "date": "2026-11-04",
-      "product": "BLE Module",
-      "score": 93,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Wireless Tag WT99P461-S1 is an ESP32-P4X and ESP32-C61 board based on the same WT01P461-S1 module as found on the ESP32P4C61-TINY board introduced last June. The main differences are that the WT99P461-S1 is a full-featured development board, adding features...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "$21 ESP32-P4X and ESP32-C61 full-featured board offers Ethernet, WiFi 6, RS485 CAN Bus, MIPI CSI/DSI, and more\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/11/04/21-esp32-p4x-and-esp32-c61-full-featured-board-offers-ethernet-wifi-6-rs485-can-bus-mipi-csi-dsi-and-more/"
-    },
-    {
-      "title": "Is your IoT connectivity ready for critical operations?",
-      "source": "IoT Now",
-      "date": "2026-11-04",
-      "product": "BLE Module",
-      "score": 89,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "IoT connectivity is becoming business-critical. As connected deployments scale across payments, healthcare, utilities, security, industrial systems and public infrastructure, connectivity failure is no longer a minor disruption. It can affect … Continued The...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Is your IoT connectivity ready for critical operations?\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/11/04/157322-is-your-iot-connectivity-ready-for-critical-operations/"
     }
   ]
 }
