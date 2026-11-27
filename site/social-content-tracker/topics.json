@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T09:23:55.921Z",
+  "generatedAt": "2026-11-27T09:36:59.513Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,81 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "How to Close the Visibility and Security Gap in Physical AI",
+      "source": "IoT Now",
+      "date": "2026-11-27",
+      "product": "BLE Module",
+      "score": 89,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "When connected machines start making decisions, can you see what they’re doing and act when something goes wrong?From autonomous vehicles to connected equipment in aviation and logistics, physical AI puts … Continued The post How to Close the Visibility and...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "How to Close the Visibility and Security Gap in Physical AI\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/11/27/159542-how-to-close-the-visibility-and-security-gap-in-physical-ai/"
+    },
+    {
+      "title": "usb-rea generates a Linux driver for your Windows-only USB gadget",
+      "source": "CNX Software",
+      "date": "2026-11-27",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "usb-rea is an MIT-licensed tool for people who own a USB gadget that only ships with a Windows program. It captures packets while you use the Windows app and generates a pyusb driver for Linux. Many years ago, I had to reverse-engineer a USB video capture...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "usb-rea generates a Linux driver for your Windows-only USB gadget\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/11/27/usb-rea-generates-a-linux-driver-for-your-windows-only-usb-gadget/"
+    },
+    {
+      "title": "Waveshare ESP32-S3-Touch-LCD-3.49 gets open-source retro firmware with clock, internet radio, games…",
+      "source": "CNX Software",
+      "date": "2026-11-27",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Phosphor is an open-source firmware for the Waveshare ESP32-S3-Touch-LCD-3.49 wide display (640×172) devkit that turns it into a retro desk gadget. The firmware implements a clock with alarm, weather, internet radio, timers, touchable pixel scenes, three...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Waveshare ESP32-S3-Touch-LCD-3.49 gets open-source retro firmware with clock, internet radio, games…\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/11/27/waveshare-esp32-s3-touch-lcd-3-49-gets-open-source-retro-firmware-with-clock-internet-radio-games/"
+    },
     {
       "title": "CamThink NeoEyes NE301 & NE302 Edge AI cameras get Wi-Fi HaLow connectivity for indoor and outdoor deployments (Sponsored)",
       "source": "CNX Software",
@@ -35,6 +110,31 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "CamThink NeoEyes NE301 & NE302 Edge AI cameras get Wi-Fi HaLow connectivity for indoor and outdoor deployments (Sponsored)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/11/26/camthink-neoeyes-ne301-ne302-edge-ai-cameras-get-wi-fi-halow-connectivity-for-indoor-and-outdoor-deployments/"
+    },
+    {
+      "title": "VZMORE iX9 Max review – Part 2: An Intel Core Ultra 9 185H Windows 11 mini PC tested with different power modes",
+      "source": "CNX Software",
+      "date": "2026-11-26",
+      "product": "ESP32 Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "When we checked out the hardware of the VZMORE iX9 Max mini PC with an unboxing and a teardown in this first part of the review, we noted that the Intel Core Ultra 9 185H mini PC’s motherboard was identical to the one found in the GEEKOM IT13 Max. So in the...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "VZMORE iX9 Max review – Part 2: An Intel Core Ultra 9 185H Windows 11 mini PC tested with different power modes\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/11/26/vzmore-ix9-max-review-part-2-an-intel-core-ultra-9-185h-windows-11-mini-pc-tested-with-different-power-modes/"
     },
     {
       "title": "Banana Pi BPI-M2C SBC features UNISOC UIS7885 SoC with 5G cellular connectivity, 8 TOPS NPU",
@@ -432,31 +532,6 @@
       "url": "https://www.cnx-software.com/2026/11/23/piccola-cnc-open-source-desktop-milling-machine-with-pcb-auto-leveling-and-integrated-cam/"
     },
     {
-      "title": "Tessera open-source dashboard for Home Assistant runs on ESP32 touchscreen devkits",
-      "source": "CNX Software",
-      "date": "2026-11-23",
-      "product": "BLE Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "The open-source Tessera project enables neat dashboards for Home Assistant on affordable 2.8-inch to 10.1-inch ESP32 touchscreen (development) kits from CYD, Guition, and Waveshare. The Tessera firmware adds a layer to ESPHome firmware for display management,...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Tessera open-source dashboard for Home Assistant runs on ESP32 touchscreen devkits\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/11/23/tessera-open-source-dashboard-for-home-assistant-runs-on-esp32-touchscreen-devkits/"
-    },
-    {
       "title": "Ericsson and Altair Semiconductor complete first eRedCap connection to advance affordable, AI-focused 5G IoT devices",
       "source": "IoT Now",
       "date": "2026-11-23",
@@ -480,6 +555,31 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Ericsson and Altair Semiconductor complete first eRedCap connection to advance affordable, AI-focused 5G IoT devices\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/11/23/159465-ericsson-altair-first-eredcap-connection-5g-iot/"
+    },
+    {
+      "title": "Tessera open-source dashboard for Home Assistant runs on ESP32 touchscreen devkits",
+      "source": "CNX Software",
+      "date": "2026-11-23",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "The open-source Tessera project enables neat dashboards for Home Assistant on affordable 2.8-inch to 10.1-inch ESP32 touchscreen (development) kits from CYD, Guition, and Waveshare. The Tessera firmware adds a layer to ESPHome firmware for display management,...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Tessera open-source dashboard for Home Assistant runs on ESP32 touchscreen devkits\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/11/23/tessera-open-source-dashboard-for-home-assistant-runs-on-esp32-touchscreen-devkits/"
     },
     {
       "title": "AMD EPYC Embedded 9006 Series embedded processors offer up to 256 Zen 6c cores, PCIe Gen 6, and CXL 3.1",
@@ -2543,113 +2643,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "Olimex UEXT-CH390 SPI to Ethernet module targets Raspberry Pi and ESP32 MCU boards running ESPHome\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/11/06/olimex-uext-ch390-spi-to-ethernet-module-targets-raspberry-pi-and-esp32-mcu-boards-running-esphome/"
-    },
-    {
-      "title": "520 MHz STM32H7P4/STM32H7P5 Arm Cortex-M7 MCUs feature Hardware Signal Processor (HSP), optional Neural-ART NPU",
-      "source": "CNX Software",
-      "date": "2026-11-06",
-      "product": "BLE Module",
-      "score": 93,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "STMicroelectronics has introduced the STM32H7P4 and STM32H7P5, two 520 MHz Arm Cortex-M7 MCUs part of STM32H7P family designed for digital power, motor control, industrial sensing, and edge AI applications. Both feature a Hardware Signal Processor (HSP) for...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "520 MHz STM32H7P4/STM32H7P5 Arm Cortex-M7 MCUs feature Hardware Signal Processor (HSP), optional Neural-ART NPU\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/11/06/520-mhz-stm32h7p4-stm32h7p5-arm-cortex-m7-mcus-feature-hardware-signal-processor-hsp-optional-neural-art-npu/"
-    },
-    {
-      "title": "GEEKOM A5 2027 Edition (AMD Ryzen 7 7730U) mini PC review – Part 1: Specifications, unboxing, teardown, and first boot",
-      "source": "CNX Software",
-      "date": "2026-11-06",
-      "product": "BLE Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "We’ve been sent a GEEKOM A5 2027 Edition mini PC powered by an AMD Ryzen 7 7730U 8-core/16-thread CPU for review. The mini PC supports up to 64GB dual-channel DDR4 memory, can drive up to four independent displays via HDMI 2.0 and USB-C ports, includes three...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "GEEKOM A5 2027 Edition (AMD Ryzen 7 7730U) mini PC review – Part 1: Specifications, unboxing, teardown, and first boot\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/11/06/geekom-a5-2027-edition-amd-ryzen-7-7730u-mini-pc-review-part-1-specifications-unboxing-teardown-and-first-boot/"
-    },
-    {
-      "title": "eSIM Market Outlook & Opportunities in IoT: 2026",
-      "source": "IoT Now",
-      "date": "2026-11-06",
-      "product": "BLE Module",
-      "score": 85,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Explore the 2026 eSIM market outlook, including SGP.32 commercialisation, RSP-capable iSIM, in-factory profile provisioning and the opportunities shaping large-scale IoT deployments. OPEN PDF IN BROWSER The post eSIM Market Outlook & Opportunities in IoT:...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "eSIM Market Outlook & Opportunities in IoT: 2026\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/11/06/159256-esim-market-outlook-opportunities-in-iot-2026/"
-    },
-    {
-      "title": "MWC26 Doha exhibition showfloor sold out, as final registration call issued for MENA connectivity event",
-      "source": "IoT Now",
-      "date": "2026-11-06",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "MWC26 Doha returns to the DECC from 8th to 10th November with a sold-out exhibition floor, eight summits and final registration open for attendees. The post MWC26 Doha exhibition showfloor sold out, as final registration call issued for MENA connectivity...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "MWC26 Doha exhibition showfloor sold out, as final registration call issued for MENA connectivity event\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/11/06/159247-mwc26-doha-showfloor-sold-out-final-registration-call/"
     }
   ]
 }
