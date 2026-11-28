@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T09:36:59.513Z",
+  "generatedAt": "2026-11-28T08:51:21.949Z",
   "sourceMode": "rss",
   "sources": [
     "CNX Software",
@@ -7,6 +7,35 @@
     "IoT Tech News"
   ],
   "topics": [
+    {
+      "title": "VZMORE iX9 Max mini PC review – Part 3: Ubuntu 26.04 Linux",
+      "source": "CNX Software",
+      "date": "2026-11-28",
+      "product": "BLE Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material",
+        "Short Video",
+        "Carousel"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook",
+        "TikTok",
+        "YouTube"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "After checking out the hardware with an unboxing and a teardown of the VZMORE iX9 Max mini PC in the first part of the review, we tested the Intel Core Ultra 9 185H Meteor Lake mini PC on Windows 11 Pro using different “V-Boost Pro” power modes and compared...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "VZMORE iX9 Max mini PC review – Part 3: Ubuntu 26.04 Linux\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/11/28/vzmore-ix9-max-mini-pc-review-part-3-ubuntu-26-04-linux/"
+    },
     {
       "title": "How to Close the Visibility and Security Gap in Physical AI",
       "source": "IoT Now",
@@ -31,6 +60,31 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "How to Close the Visibility and Security Gap in Physical AI\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
       "url": "https://iot-now.com/2026/11/27/159542-how-to-close-the-visibility-and-security-gap-in-physical-ai/"
+    },
+    {
+      "title": "ShiMetaPi Pico-G1 – A compact AI Vision Linux SBC powered by GOKE GK7206 4K camera SoC",
+      "source": "CNX Software",
+      "date": "2026-11-27",
+      "product": "ESP32 Module",
+      "score": 88,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "ESP32",
+        "Embedded Development",
+        "Smart Device"
+      ],
+      "value": "Useful for turning current industry news into content about embedded control, smart devices, fast prototyping, and connected product development.",
+      "summary": "ShiMetaPi Pico-G1 is a compact development board with Ethernet and MIPI CSI connectors designed for AI Vision applications and powered by a GOKE GK7206 dual-core Cortex-A7 SoC with 128MB or 256MB on-chip DDR3L memory. The board also features a 16MB SPI flash...",
+      "hook": "A small module can shape the whole connected product experience.",
+      "post": "ShiMetaPi Pico-G1 – A compact AI Vision Linux SBC powered by GOKE GK7206 4K camera SoC\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
+      "url": "https://www.cnx-software.com/2026/11/27/shimetapi-pico-g1-a-compact-ai-vision-linux-sbc-powered-by-goke-gk7206-4k-camera-soc/"
     },
     {
       "title": "usb-rea generates a Linux driver for your Windows-only USB gadget",
@@ -453,6 +507,31 @@
       "url": "https://iot-now.com/2026/11/24/159479-arrow-electronics-seco-industrial-edge-ai-collaboration/"
     },
     {
+      "title": "Cellusys, Comfone, Mobileum, Orange Wholesale, Syniverse and Telna ranked #1 Champion roaming vendors by Kaleido Intelligence",
+      "source": "IoT Now",
+      "date": "2026-11-24",
+      "product": "BLE Module",
+      "score": 80,
+      "formats": [
+        "LinkedIn Post",
+        "Sales Material"
+      ],
+      "platforms": [
+        "LinkedIn",
+        "Facebook"
+      ],
+      "tags": [
+        "BLE",
+        "Bluetooth",
+        "Positioning"
+      ],
+      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
+      "summary": "Kaleido Intelligence names Cellusys, Comfone, Mobileum, Orange Wholesale, Syniverse and Telna as #1 Champion roaming vendors in its 2026-2027 Vendor Hub. The post Cellusys, Comfone, Mobileum, Orange Wholesale, Syniverse and Telna ranked #1 Champion roaming...",
+      "hook": "Bluetooth is moving beyond basic connectivity.",
+      "post": "Cellusys, Comfone, Mobileum, Orange Wholesale, Syniverse and Telna ranked #1 Champion roaming vendors by Kaleido Intelligence\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
+      "url": "https://iot-now.com/2026/11/24/159484-kaleido-intelligence-champion-roaming-vendors-2026-2027/"
+    },
+    {
       "title": "RetroLine pairs a rotary or touch-tone landline phone to your smartphone (Crowdfunding)",
       "source": "CNX Software",
       "date": "2026-11-24",
@@ -480,31 +559,6 @@
       "hook": "Bluetooth is moving beyond basic connectivity.",
       "post": "RetroLine pairs a rotary or touch-tone landline phone to your smartphone (Crowdfunding)\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/11/24/retroline-pairs-a-rotary-or-touch-tone-landline-phone-to-your-smartphone/"
-    },
-    {
-      "title": "Cellusys, Comfone, Mobileum, Orange Wholesale, Syniverse and Telna ranked #1 Champion roaming vendors by Kaleido Intelligence",
-      "source": "IoT Now",
-      "date": "2026-11-24",
-      "product": "BLE Module",
-      "score": 80,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Kaleido Intelligence names Cellusys, Comfone, Mobileum, Orange Wholesale, Syniverse and Telna as #1 Champion roaming vendors in its 2026-2027 Vendor Hub. The post Cellusys, Comfone, Mobileum, Orange Wholesale, Syniverse and Telna ranked #1 Champion roaming...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Cellusys, Comfone, Mobileum, Orange Wholesale, Syniverse and Telna ranked #1 Champion roaming vendors by Kaleido Intelligence\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: IoT Now",
-      "url": "https://iot-now.com/2026/11/24/159484-kaleido-intelligence-champion-roaming-vendors-2026-2027/"
     },
     {
       "title": "Piccola CNC – An open-source hardware desktop milling machine with PCB auto-leveling and integrated CAM (Crowdfunding)",
@@ -2585,64 +2639,6 @@
       "hook": "A small module can shape the whole connected product experience.",
       "post": "Procolored K13 Lite DTF printer review – Custom apparel printing with printer, curing oven, and heat press\n\nThis is a useful signal for IoT brands and product teams watching ESP32 Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
       "url": "https://www.cnx-software.com/2026/11/08/procolored-k13-lite-dtf-printer-review-custom-apparel-printing-with-printer-curing-oven-and-heat-press/"
-    },
-    {
-      "title": "Waveshare ESP32-S31-Zero – A tiny ESP32-S31 board with up to 32MB PSRAM, 32MB SPI flash",
-      "source": "CNX Software",
-      "date": "2026-11-07",
-      "product": "BLE Module",
-      "score": 88,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Waveshare ESP32-S31-Zero is a small ESP32-S31 development board that follows the form factor of the earlier Waveshare “Zero” boards, such as the ESP32-C6-Zero-B, RA4M1-Zero, and ESP32-S3-Zero, among others. The new tiny board still features a USB-C port for...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Waveshare ESP32-S31-Zero – A tiny ESP32-S31 board with up to 32MB PSRAM, 32MB SPI flash\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/11/07/waveshare-esp32-s31-zero-a-tiny-esp32-s31-board-with-up-to-32mb-psram-32mb-spi-flash/"
-    },
-    {
-      "title": "Olimex UEXT-CH390 SPI to Ethernet module targets Raspberry Pi and ESP32 MCU boards running ESPHome",
-      "source": "CNX Software",
-      "date": "2026-11-06",
-      "product": "BLE Module",
-      "score": 98,
-      "formats": [
-        "LinkedIn Post",
-        "Sales Material",
-        "Short Video",
-        "Carousel"
-      ],
-      "platforms": [
-        "LinkedIn",
-        "Facebook",
-        "TikTok",
-        "YouTube"
-      ],
-      "tags": [
-        "BLE",
-        "Bluetooth",
-        "Positioning"
-      ],
-      "value": "Useful for turning current industry news into content about proximity, access control, indoor positioning, beacons, and compact connected devices.",
-      "summary": "Olimex UEXT-CH390 is a small open-source hardware module that adds 10/100 Mbps wired Ethernet connectivity to microcontroller boards through an SPI interface. It is designed for Raspberry Pi Pico and Pico 2 boards, as well as ESP32-S3, C3, C5, C6, and other...",
-      "hook": "Bluetooth is moving beyond basic connectivity.",
-      "post": "Olimex UEXT-CH390 SPI to Ethernet module targets Raspberry Pi and ESP32 MCU boards running ESPHome\n\nThis is a useful signal for IoT brands and product teams watching BLE Module opportunities.\n\nFor overseas social content, the story can focus on customer use cases, deployment value, and how module selection affects real product development.\n\nSource: CNX Software",
-      "url": "https://www.cnx-software.com/2026/11/06/olimex-uext-ch390-spi-to-ethernet-module-targets-raspberry-pi-and-esp32-mcu-boards-running-esphome/"
     }
   ]
 }
